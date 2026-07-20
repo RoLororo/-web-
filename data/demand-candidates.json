@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-07-20T16:14:07.523Z",
+  "totalArticles": 140,
+  "themeCount": 11,
+  "candidateCount": 10,
+  "method": "rule-based keyword matching",
+  "candidates": [
+    {
+      "id": "infrastructure-outages",
+      "theme": "システム障害・可用性への関心",
+      "summary": "大規模障害の頻発を背景にした、可用性・監視・復旧設計への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "障害",
+        "復旧",
+        "影響",
+        "サービス",
+        "AWS",
+        "システム"
+      ],
+      "evidenceArticleIds": [
+        "8b168b65f86faf1b",
+        "dd64271ab03bf3a7",
+        "24fe6ef017365832",
+        "485d56fcf20b8a49",
+        "a235f8243e0c248d",
+        "a6deeefb72857e5e",
+        "c58ae6ceeab58497",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 9,
+      "confidence": 0.95,
+      "reason": "11 種類のキーワードが 9 件の記事でヒット（例：障害、復旧、影響）"
+    },
+    {
+      "id": "ai-business-automation",
+      "theme": "AI業務自動化",
+      "summary": "AIを使って業務や作業を自動化・効率化したい需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "活用",
+        "Claude",
+        "生成AI",
+        " AI",
+        "LLM",
+        "ChatGPT"
+      ],
+      "evidenceArticleIds": [
+        "ecb92cdc1d651134",
+        "fc2b057114879075",
+        "ebf16c0d6b88f915",
+        "4c7a70c2142235c3",
+        "8bf578f7eebdd318",
+        "5e4f185e204b1a85",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 7,
+      "confidence": 0.78,
+      "reason": "8 種類のキーワードが 7 件の記事でヒット（例：活用、Claude、生成AI）"
+    },
+    {
+      "id": "ai-coding",
+      "theme": "AI駆動のコード生成・開発支援",
+      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "Claude Code",
+        "コーディング",
+        "開発",
+        "エンジニア",
+        "codex",
+        "Copilot"
+      ],
+      "evidenceArticleIds": [
+        "31ff7dbbfb148c82",
+        "316bf21ba3ab3756",
+        "4c7a70c2142235c3",
+        "f36c4d351d6b99eb",
+        "359e412ed4404d49",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 6,
+      "confidence": 0.78,
+      "reason": "10 種類のキーワードが 6 件の記事でヒット（例：Claude Code、コーディング、開発）"
+    },
+    {
+      "id": "ai-hardware",
+      "theme": "AI向けハードウェア・計算基盤",
+      "summary": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "NVIDIA",
+        "フィジカルAI",
+        "Rubin",
+        "計算基盤",
+        "チップ"
+      ],
+      "evidenceArticleIds": [
+        "518c2849e102028b",
+        "80e3de34fa920b2b",
+        "706ce620672e77a7",
+        "5a133a290273e381"
+      ],
+      "evidenceArticleCount": 4,
+      "confidence": 0.56,
+      "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
+    },
+    {
+      "id": "security-breach",
+      "theme": "個人情報漏洩・セキュリティ対策",
+      "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "サイバー攻撃",
+        "情報",
+        "不正アクセス",
+        "個人情報",
+        "漏えい",
+        "被害"
+      ],
+      "evidenceArticleIds": [
+        "f28951ad7868357f",
+        "dd64271ab03bf3a7",
+        "b778b7551fcdb609",
+        "31931e12804789ed"
+      ],
+      "evidenceArticleCount": 4,
+      "confidence": 0.65,
+      "reason": "8 種類のキーワードが 4 件の記事でヒット（例：サイバー攻撃、情報、不正アクセス）"
+    },
+    {
+      "id": "payment-troubles",
+      "theme": "決済インフラ・キャッシュレス",
+      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "クレカ",
+        "決済",
+        "Visa",
+        "カード",
+        "PayPay",
+        "キャッシュレス"
+      ],
+      "evidenceArticleIds": [
+        "a6deeefb72857e5e",
+        "e360e5574473698e",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 4,
+      "confidence": 0.61,
+      "reason": "7 種類のキーワードが 4 件の記事でヒット（例：クレカ、決済、Visa）"
+    },
+    {
+      "id": "home-server-selfhost",
+      "theme": "自宅サーバー・セルフホスト",
+      "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "サーバ",
+        "自宅",
+        "サーバー",
+        "おうち",
+        "ラボ",
+        "構築"
+      ],
+      "evidenceArticleIds": [
+        "112c488162d42fb1",
+        "8ce1150d1c1be423"
+      ],
+      "evidenceArticleCount": 2,
+      "confidence": 0.48,
+      "reason": "6 種類のキーワードが 2 件の記事でヒット（例：サーバ、自宅、サーバー）"
+    },
+    {
+      "id": "senior-health",
+      "theme": "高齢者向け健康・認知症予防",
+      "summary": "認知症・健康寿命の関心が高い需要",
+      "category": "健康",
+      "relatedKeywords": [
+        "高齢者",
+        "ボケ",
+        "認知症",
+        "サウナ"
+      ],
+      "evidenceArticleIds": [
+        "9203b3becd8967c9",
+        "e2193fce8f746f0f"
+      ],
+      "evidenceArticleCount": 2,
+      "confidence": 0.47,
+      "reason": "4 種類のキーワードが 2 件の記事でヒット（例：高齢者、ボケ、認知症）"
+    },
+    {
+      "id": "remote-work",
+      "theme": "リモートワーク・ハイブリッド勤務",
+      "summary": "出社回帰の流れの中で、柔軟な働き方への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "在宅勤務",
+        "勤務",
+        "GMO",
+        "在宅"
+      ],
+      "evidenceArticleIds": [
+        "472460af87eb05ce"
+      ],
+      "evidenceArticleCount": 1,
+      "confidence": 0.37,
+      "reason": "4 種類のキーワードが 1 件の記事でヒット（例：在宅勤務、勤務、GMO）"
+    },
+    {
+      "id": "ai-regulation",
+      "theme": "AI規制・安全性・プライバシー",
+      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "安全性",
+        "プライバシー",
+        "AI",
+        "欧州委員会"
+      ],
+      "evidenceArticleIds": [
+        "1c3d73cfafe83c4f"
+      ],
+      "evidenceArticleCount": 1,
+      "confidence": 0.35,
+      "reason": "4 種類のキーワードが 1 件の記事でヒット（例：安全性、プライバシー、AI）"
+    }
+  ]
+}

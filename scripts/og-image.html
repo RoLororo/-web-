@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>OG Image Generator — Demand Atlas</title>
+  <style>
+    body {
+      margin: 0; padding: 24px 20px;
+      background: #1a1a1a;
+      color: #f5f5f5;
+      font-family: -apple-system, 'Segoe UI', 'Yu Gothic UI', 'Meiryo', sans-serif;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    canvas {
+      display: block;
+      max-width: 100%; height: auto;
+      border: 1px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+    .actions {
+      margin-top: 20px;
+      display: flex; gap: 12px; flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      padding: 12px 22px; font-size: 14px;
+      background: #4ade80; color: #0a0a0a;
+      border: none; border-radius: 999px;
+      cursor: pointer; font-weight: 600;
+      font-family: inherit;
+    }
+    button:hover { background: #22c55e; }
+    .note {
+      margin-top: 24px; padding: 16px;
+      background: #0f0f0f;
+      border: 1px solid #2b2b2b;
+      border-radius: 8px;
+      font-size: 13px; line-height: 1.7;
+      max-width: 640px;
+      color: #c2c2c2;
+    }
+    .note code {
+      background: #1f1f1f; padding: 2px 6px;
+      border-radius: 4px; font-size: 12px;
+      color: #4ade80;
+    }
+    h1 { font-size: 18px; margin: 0 0 16px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>OG Image Preview</h1>
+  <canvas id="c" width="1200" height="630"></canvas>
+  <div class="actions">
+    <button id="dl">og-image.png としてダウンロード</button>
+  </div>
+  <div class="note">
+    このページを開くと OG 画像が上にプレビュー表示されます。<br>
+    ボタンを押すと <code>og-image.png</code> がダウンロードされるので、
+    <code>demand-atlas/public/</code> フォルダにそのまま保存してください。<br>
+    デザインを変更したい場合はこの HTML の <code>&lt;script&gt;</code> 内を編集してください。
+  </div>
+
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const W = 1200, H = 630;
+
+    // ── Background ────────────────────────────────────────
+    ctx.fillStyle = '#0a0a0a';
+    ctx.fillRect(0, 0, W, H);
+
+    // Subtle dotted grid
+    ctx.fillStyle = 'rgba(255,255,255,0.045)';
+    for (let x = 0; x < W; x += 32) {
+      for (let y = 0; y < H; y += 32) {
+        ctx.beginPath();
+        ctx.arc(x, y, 1, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    // Green radial glow (top-left)
+    const glow = ctx.createRadialGradient(320, 200, 0, 320, 200, 620);
+    glow.addColorStop(0, 'rgba(74, 222, 128, 0.30)');
+    glow.addColorStop(1, 'rgba(74, 222, 128, 0)');
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, W, H);
+
+    // ── Fox mark ─────────────────────────────────────────
+    function drawFox(cx, cy, size) {
+      const s = size / 32;
+      ctx.save();
+      ctx.translate(cx - size / 2, cy - size / 2);
+      ctx.scale(s, s);
+
+      // Head
+      ctx.fillStyle = '#f5f5f5';
+      ctx.beginPath();
+      ctx.moveTo(4.5, 4.5);
+      ctx.lineTo(11.5, 9.5);
+      ctx.lineTo(20.5, 9.5);
+      ctx.lineTo(27.5, 4.5);
+      ctx.lineTo(27, 15);
+      ctx.lineTo(22.5, 22.5);
+      ctx.lineTo(16, 27.5);
+      ctx.lineTo(9.5, 22.5);
+      ctx.lineTo(5, 15);
+      ctx.closePath();
+      ctx.fill();
+
+      // Inner ears
+      ctx.fillStyle = 'rgba(10, 10, 10, 0.55)';
+      ctx.beginPath(); ctx.moveTo(7, 7);   ctx.lineTo(11, 10); ctx.lineTo(9, 12);  ctx.closePath(); ctx.fill();
+      ctx.beginPath(); ctx.moveTo(25, 7);  ctx.lineTo(21, 10); ctx.lineTo(23, 12); ctx.closePath(); ctx.fill();
+
+      // Eyes
+      ctx.strokeStyle = '#0a0a0a';
+      ctx.lineWidth = 1.6;
+      ctx.lineCap = 'round';
+      ctx.beginPath(); ctx.moveTo(9.4, 13);  ctx.lineTo(12.4, 15); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(22.6, 13); ctx.lineTo(19.6, 15); ctx.stroke();
+
+      // Muzzle
+      ctx.fillStyle = '#0a0a0a';
+      ctx.beginPath();
+      ctx.moveTo(13.5, 18); ctx.lineTo(16, 22.5); ctx.lineTo(18.5, 18);
+      ctx.closePath(); ctx.fill();
+
+      // Green nose
+      ctx.fillStyle = '#4ade80';
+      ctx.beginPath();
+      ctx.arc(16, 18.4, 1.05, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.restore();
+    }
+
+    drawFox(120, 105, 60);
+
+    // ── Brand text ───────────────────────────────────────
+    const jpFont = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Yu Gothic UI', 'Meiryo', 'Hiragino Sans', sans-serif";
+    const monoFont = "'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace";
+
+    ctx.fillStyle = '#f5f5f5';
+    ctx.textBaseline = 'middle';
+    ctx.font = '700 28px ' + jpFont;
+    ctx.fillText('Demand Atlas', 165, 105);
+
+    // LIVE badge
+    ctx.fillStyle = '#4ade80';
+    ctx.beginPath(); ctx.arc(90, 178, 5, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#c2c2c2';
+    ctx.font = '500 14px ' + monoFont;
+    ctx.textBaseline = 'middle';
+    ctx.fillText('LIVE — 世の中の兆候を追跡中', 105, 178);
+
+    // Main title lines
+    ctx.textBaseline = 'alphabetic';
+    ctx.font = '600 82px ' + jpFont;
+    ctx.fillStyle = '#f5f5f5';
+    ctx.fillText('今、世の中で', 80, 310);
+
+    // Gradient second line
+    const grad = ctx.createLinearGradient(80, 0, 1050, 0);
+    grad.addColorStop(0, '#4ade80');
+    grad.addColorStop(1, '#f5f5f5');
+    ctx.fillStyle = grad;
+    ctx.fillText('何が求められているのか。', 80, 410);
+
+    // Tagline
+    ctx.fillStyle = '#c2c2c2';
+    ctx.font = '400 26px ' + jpFont;
+    ctx.fillText('需要の変化から、次のビジネスチャンスを発見する。', 80, 475);
+
+    // ── Chart line accent ─────────────────────────────────
+    ctx.strokeStyle = '#4ade80';
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(80, 560);
+    ctx.bezierCurveTo(280, 555, 420, 530, 570, 505);
+    ctx.bezierCurveTo(720, 480, 870, 440, 1020, 395);
+    ctx.bezierCurveTo(1090, 380, 1130, 375, 1150, 370);
+    ctx.stroke();
+
+    // Endpoint dot
+    ctx.fillStyle = 'rgba(74, 222, 128, 0.25)';
+    ctx.beginPath(); ctx.arc(1150, 370, 12, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#4ade80';
+    ctx.beginPath(); ctx.arc(1150, 370, 5, 0, Math.PI * 2); ctx.fill();
+
+    // ── Download ──────────────────────────────────────────
+    document.getElementById('dl').onclick = () => {
+      const link = document.createElement('a');
+      link.download = 'og-image.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    };
+  </script>
+</body>
+</html>
