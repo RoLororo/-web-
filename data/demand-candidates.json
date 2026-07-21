@@ -1,10 +1,38 @@
 {
-  "generatedAt": "2026-07-20T16:14:07.523Z",
-  "totalArticles": 140,
+  "generatedAt": "2026-07-21T12:53:50.487Z",
+  "totalArticles": 202,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
   "candidates": [
+    {
+      "id": "ai-business-automation",
+      "theme": "AI業務自動化",
+      "summary": "AIを使って業務や作業を自動化・効率化したい需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "Claude",
+        "活用",
+        " AI",
+        "LLM",
+        "生成AI",
+        "自動化"
+      ],
+      "evidenceArticleIds": [
+        "b9518240141c2f25",
+        "ecb92cdc1d651134",
+        "fc2b057114879075",
+        "ebf16c0d6b88f915",
+        "8f21f44283dbbd68",
+        "4c7a70c2142235c3",
+        "8bf578f7eebdd318",
+        "5e4f185e204b1a85",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 9,
+      "confidence": 0.86,
+      "reason": "9 種類のキーワードが 9 件の記事でヒット（例：Claude、活用、 AI）"
+    },
     {
       "id": "infrastructure-outages",
       "theme": "システム障害・可用性への関心",
@@ -30,34 +58,8 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 9,
-      "confidence": 0.95,
+      "confidence": 0.94,
       "reason": "11 種類のキーワードが 9 件の記事でヒット（例：障害、復旧、影響）"
-    },
-    {
-      "id": "ai-business-automation",
-      "theme": "AI業務自動化",
-      "summary": "AIを使って業務や作業を自動化・効率化したい需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "活用",
-        "Claude",
-        "生成AI",
-        " AI",
-        "LLM",
-        "ChatGPT"
-      ],
-      "evidenceArticleIds": [
-        "ecb92cdc1d651134",
-        "fc2b057114879075",
-        "ebf16c0d6b88f915",
-        "4c7a70c2142235c3",
-        "8bf578f7eebdd318",
-        "5e4f185e204b1a85",
-        "37cf43d81fe7cb8c"
-      ],
-      "evidenceArticleCount": 7,
-      "confidence": 0.78,
-      "reason": "8 種類のキーワードが 7 件の記事でヒット（例：活用、Claude、生成AI）"
     },
     {
       "id": "ai-coding",
@@ -66,13 +68,15 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude Code",
-        "コーディング",
         "開発",
-        "エンジニア",
         "codex",
+        "エンジニア",
+        "コーディング",
         "Copilot"
       ],
       "evidenceArticleIds": [
+        "b9518240141c2f25",
+        "71fe0f416c0f5fbb",
         "31ff7dbbfb148c82",
         "316bf21ba3ab3756",
         "4c7a70c2142235c3",
@@ -80,9 +84,33 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 6,
-      "confidence": 0.78,
-      "reason": "10 種類のキーワードが 6 件の記事でヒット（例：Claude Code、コーディング、開発）"
+      "evidenceArticleCount": 8,
+      "confidence": 0.91,
+      "reason": "10 種類のキーワードが 8 件の記事でヒット（例：Claude Code、開発、codex）"
+    },
+    {
+      "id": "payment-troubles",
+      "theme": "決済インフラ・キャッシュレス",
+      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "決済",
+        "クレカ",
+        "PayPay",
+        "取引",
+        "Visa",
+        "カード"
+      ],
+      "evidenceArticleIds": [
+        "e905eff59636ae08",
+        "a6deeefb72857e5e",
+        "e360e5574473698e",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 5,
+      "confidence": 0.7,
+      "reason": "8 種類のキーワードが 5 件の記事でヒット（例：決済、クレカ、PayPay）"
     },
     {
       "id": "ai-hardware",
@@ -103,7 +131,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.56,
+      "confidence": 0.55,
       "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
@@ -126,31 +154,30 @@
         "31931e12804789ed"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.65,
+      "confidence": 0.64,
       "reason": "8 種類のキーワードが 4 件の記事でヒット（例：サイバー攻撃、情報、不正アクセス）"
     },
     {
-      "id": "payment-troubles",
-      "theme": "決済インフラ・キャッシュレス",
-      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
+      "id": "remote-work",
+      "theme": "リモートワーク・ハイブリッド勤務",
+      "summary": "出社回帰の流れの中で、柔軟な働き方への需要",
       "category": "ビジネス",
       "relatedKeywords": [
-        "クレカ",
-        "決済",
-        "Visa",
-        "カード",
-        "PayPay",
-        "キャッシュレス"
+        "在宅勤務",
+        "勤務",
+        "GMO",
+        "在宅",
+        "出社",
+        "働き方"
       ],
       "evidenceArticleIds": [
-        "a6deeefb72857e5e",
-        "e360e5574473698e",
-        "6d3295d8aef77bb3",
-        "f66e64028ec6546f"
+        "cfacabae3454f108",
+        "a0e18065c53c6793",
+        "472460af87eb05ce"
       ],
-      "evidenceArticleCount": 4,
-      "confidence": 0.61,
-      "reason": "7 種類のキーワードが 4 件の記事でヒット（例：クレカ、決済、Visa）"
+      "evidenceArticleCount": 3,
+      "confidence": 0.58,
+      "reason": "6 種類のキーワードが 3 件の記事でヒット（例：在宅勤務、勤務、GMO）"
     },
     {
       "id": "home-server-selfhost",
@@ -170,7 +197,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 2,
-      "confidence": 0.48,
+      "confidence": 0.47,
       "reason": "6 種類のキーワードが 2 件の記事でヒット（例：サーバ、自宅、サーバー）"
     },
     {
@@ -189,26 +216,8 @@
         "e2193fce8f746f0f"
       ],
       "evidenceArticleCount": 2,
-      "confidence": 0.47,
+      "confidence": 0.46,
       "reason": "4 種類のキーワードが 2 件の記事でヒット（例：高齢者、ボケ、認知症）"
-    },
-    {
-      "id": "remote-work",
-      "theme": "リモートワーク・ハイブリッド勤務",
-      "summary": "出社回帰の流れの中で、柔軟な働き方への需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "在宅勤務",
-        "勤務",
-        "GMO",
-        "在宅"
-      ],
-      "evidenceArticleIds": [
-        "472460af87eb05ce"
-      ],
-      "evidenceArticleCount": 1,
-      "confidence": 0.37,
-      "reason": "4 種類のキーワードが 1 件の記事でヒット（例：在宅勤務、勤務、GMO）"
     },
     {
       "id": "ai-regulation",
@@ -225,7 +234,7 @@
         "1c3d73cfafe83c4f"
       ],
       "evidenceArticleCount": 1,
-      "confidence": 0.35,
+      "confidence": 0.34,
       "reason": "4 種類のキーワードが 1 件の記事でヒット（例：安全性、プライバシー、AI）"
     }
   ]
