@@ -1,0 +1,96 @@
+# ============================================================================
+# Demand Atlas — 需要データの日次自動更新
+#
+#   概要
+#     毎日 JST 06:00 (UTC 21:00) に以下を実行し、変更があればコミット & push:
+#       npm run all  (news -> themes -> trends -> demands)
+#
+#     push が走ると Vercel の連携により本番サイトが自動再デプロイされる。
+#
+#   実行トリガー
+#     - schedule: 毎日 UTC 21:00 (= JST 翌 06:00)
+#     - workflow_dispatch: GitHub UI から手動実行可能
+#
+#   費用
+#     public repo につき Actions 使用時間は無制限。所要は 1-2 分/日。
+# ============================================================================
+
+name: Daily data update
+
+on:
+  schedule:
+    # UTC 21:00 = JST 06:00
+    - cron: '0 21 * * *'
+  workflow_dispatch: {}
+
+# schedule と手動実行が同時に走っても直列化する (race を防ぐ)
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+# ワークフロー内から `git push` するために書き込み権限が必要
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Fetch news, extract themes, build demands
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # rebase を行うため全履歴を取得
+          fetch-depth: 0
+          # デフォルト GITHUB_TOKEN を残して以降の git push を通す
+          persist-credentials: true
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run full data pipeline (news -> themes -> trends -> demands)
+        run: npm run all
+
+      - name: Detect data changes
+        id: diff
+        run: |
+          if git diff --quiet -- data public/data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes detected. Skipping commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Data changes detected:"
+            git diff --stat -- data public/data
+          fi
+
+      - name: Configure git identity
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Rebase on latest origin/main (avoid conflicts with manual pushes)
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          # ワークツリーの変更を一時退避してから rebase、その後戻す
+          git stash push --include-untracked -m "workflow-autostash" -- data public/data
+          git pull --rebase origin main
+          # stash が実際に作られた場合のみ pop (差分ゼロだと stash されないため)
+          if git stash list | grep -q "workflow-autostash"; then
+            git stash pop
+          fi
+
+      - name: Commit and push updated data
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git add data public/data
+          git commit -m "chore(data): daily auto-update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:main
