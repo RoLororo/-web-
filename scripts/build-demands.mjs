@@ -40,6 +40,17 @@ const REPO_ROOT   = resolve(__dirname, '..');
 const ARTICLES    = resolve(REPO_ROOT, 'data', 'articles.json');
 const CANDIDATES  = resolve(REPO_ROOT, 'data', 'demand-candidates.json');
 const TRENDS      = resolve(REPO_ROOT, 'data', 'keyword-trends.json');
+// 実験フェーズ (データ取得のみ)。存在すれば _wikipediaDetail として貼るだけで
+// score / breakdown / ランキングには影響を与えない。ファイルが無ければ黙って
+// スキップし、従来と完全に同一の出力になる。
+const WIKI_PV     = resolve(REPO_ROOT, 'data', 'wikipedia-pageviews.json');
+// 同じく実験フェーズ (Qiita)。存在すれば _qiitaDetail として貼るだけで
+// score / breakdown / ランキングには影響を与えない。
+const QIITA       = resolve(REPO_ROOT, 'data', 'qiita.json');
+// 同じく実験フェーズ (App Store JP)。存在すれば _appstoreDetail として貼るだけ。
+const APPSTORE    = resolve(REPO_ROOT, 'data', 'appstore.json');
+// 同じく実験フェーズ (arXiv)。存在すれば _arxivDetail として貼るだけ。
+const ARXIV       = resolve(REPO_ROOT, 'data', 'arxiv.json');
 
 // canonical: 履歴確認・比較用 (git 追跡)
 const OUTPUT         = resolve(REPO_ROOT, 'data', 'demands.json');
@@ -218,11 +229,15 @@ async function main() {
   console.log('🦊 Demand Atlas — 需要データ (demands.json) を統合生成');
   console.log('');
 
-  // 3 つの入力を読み込む
-  const [articlesRaw, candidatesRaw, trendsRaw] = await Promise.all([
+  // 3 つの入力を読み込む (Wikipedia PV / Qiita / App Store / arXiv は optional)
+  const [articlesRaw, candidatesRaw, trendsRaw, wikiRaw, qiitaRaw, appstoreRaw, arxivRaw] = await Promise.all([
     readFile(ARTICLES,   'utf8').catch(() => null),
     readFile(CANDIDATES, 'utf8').catch(() => null),
     readFile(TRENDS,     'utf8').catch(() => null),
+    readFile(WIKI_PV,    'utf8').catch(() => null),
+    readFile(QIITA,      'utf8').catch(() => null),
+    readFile(APPSTORE,   'utf8').catch(() => null),
+    readFile(ARXIV,      'utf8').catch(() => null),
   ]);
 
   if (!articlesRaw) {
@@ -244,6 +259,14 @@ async function main() {
   const candidates = JSON.parse(candidatesRaw).candidates || [];
   const trends     = trendsRaw ? JSON.parse(trendsRaw) : { keywords: {} };
   const trendsMap  = trends.keywords || {};
+  // Wikipedia PV (実験フェーズ、optional、無ければ空)
+  const wikiThemes = wikiRaw ? (JSON.parse(wikiRaw).themes || {}) : {};
+  // Qiita (実験フェーズ、optional、無ければ空)
+  const qiitaThemes = qiitaRaw ? (JSON.parse(qiitaRaw).themes || {}) : {};
+  // App Store (実験フェーズ、optional、無ければ空)
+  const appstoreThemes = appstoreRaw ? (JSON.parse(appstoreRaw).themes || {}) : {};
+  // arXiv (実験フェーズ、optional、無ければ空)
+  const arxivThemes = arxivRaw ? (JSON.parse(arxivRaw).themes || {}) : {};
 
   // 記事を id で lookup できるようにする
   const articleById = new Map(articles.map((a) => [a.id, a]));
@@ -251,6 +274,10 @@ async function main() {
   console.log(`   記事: ${articles.length} 件`);
   console.log(`   テーマ: ${candidates.length} 件`);
   console.log(`   トレンドキーワード: ${Object.keys(trendsMap).length} 件`);
+  console.log(`   Wikipedia PV: ${Object.keys(wikiThemes).length} テーマ (実験・スコアに影響なし)`);
+  console.log(`   Qiita:        ${Object.keys(qiitaThemes).length} テーマ (実験・スコアに影響なし)`);
+  console.log(`   App Store:    ${Object.keys(appstoreThemes).length} テーマ (実験・スコアに影響なし)`);
+  console.log(`   arXiv:        ${Object.keys(arxivThemes).length} テーマ (実験・スコアに影響なし)`);
   console.log('');
 
   const demands = [];
@@ -361,6 +388,45 @@ async function main() {
       _matchingArticleCount: evidenceArticles.length,
       _keywordTrendTotal:    keywordTrendTotal,
     });
+
+    // ── Wikipedia PV (実験フェーズ・データ観測のみ) ──
+    // fetch-wikipedia-pageviews.mjs が生成した情報を該当テーマに貼るだけで、
+    // 上流で計算済みの score / breakdown / status / 並び順には一切影響しない。
+    // 該当テーマに Wikipedia データが無ければ何もしない (=従来と完全同一の出力)。
+    const wikiDetail = wikiThemes[c.id];
+    if (wikiDetail) {
+      const last = demands[demands.length - 1];
+      last._wikipediaDetail = wikiDetail;
+    }
+
+    // ── Qiita (実験フェーズ・データ観測のみ) ──
+    // Wikipedia と完全に同型。fetch-qiita.mjs が生成した情報を該当テーマに
+    // 貼るだけで、score / breakdown / status / 順序には影響しない。
+    // マッピング空 (senior-health / ai-regulation) のテーマには貼らない。
+    const qiitaDetail = qiitaThemes[c.id];
+    if (qiitaDetail) {
+      const last = demands[demands.length - 1];
+      last._qiitaDetail = qiitaDetail;
+    }
+
+    // ── App Store JP (実験フェーズ・データ観測のみ) ──
+    // Qiita / Wikipedia と完全に同型。fetch-appstore.mjs が生成した情報を
+    // 該当テーマに貼るだけで、score / breakdown / status / 順序には影響しない。
+    // マッピング空テーマ (7 テーマ、skippedReasons 参照) には貼らない。
+    const appstoreDetail = appstoreThemes[c.id];
+    if (appstoreDetail) {
+      const last = demands[demands.length - 1];
+      last._appstoreDetail = appstoreDetail;
+    }
+
+    // ── arXiv (実験フェーズ・データ観測のみ) ──
+    // 同型パターン。fetch-arxiv.mjs が生成した論文投稿量情報を貼るだけ。
+    // 11 テーマすべてで検索式が定義されているため通常全テーマに付与される。
+    const arxivDetail = arxivThemes[c.id];
+    if (arxivDetail) {
+      const last = demands[demands.length - 1];
+      last._arxivDetail = arxivDetail;
+    }
   }
 
   // スコア降順

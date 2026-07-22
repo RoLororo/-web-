@@ -62,13 +62,13 @@ jobs:
       - name: Detect data changes
         id: diff
         run: |
-          if git diff --quiet -- data public/data; then
+          if git diff --quiet -- data public/data history public/history; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No data changes detected. Skipping commit."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Data changes detected:"
-            git diff --stat -- data public/data
+            git diff --stat -- data public/data history public/history
           fi
 
       - name: Configure git identity
@@ -81,7 +81,7 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         run: |
           # ワークツリーの変更を一時退避してから rebase、その後戻す
-          git stash push --include-untracked -m "workflow-autostash" -- data public/data
+          git stash push --include-untracked -m "workflow-autostash" -- data public/data history public/history
           git pull --rebase origin main
           # stash が実際に作られた場合のみ pop (差分ゼロだと stash されないため)
           if git stash list | grep -q "workflow-autostash"; then
@@ -91,6 +91,6 @@ jobs:
       - name: Commit and push updated data
         if: steps.diff.outputs.changed == 'true'
         run: |
-          git add data public/data
+          git add data public/data history public/history
           git commit -m "chore(data): daily auto-update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push origin HEAD:main

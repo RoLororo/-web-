@@ -11,8 +11,13 @@
     "themes": "node scripts/extract-demand-candidates.mjs",
     "themes:ai": "node scripts/analyze-themes.mjs",
     "trends": "node scripts/fetch-keyword-trends.mjs",
+    "wiki": "node scripts/fetch-wikipedia-pageviews.mjs",
+    "qiita": "node scripts/fetch-qiita.mjs",
+    "appstore": "node scripts/fetch-appstore.mjs",
+    "arxiv": "node scripts/fetch-arxiv.mjs",
     "demands": "node scripts/build-demands.mjs",
-    "all": "npm run news && npm run themes && npm run trends && npm run demands"
+    "history": "node scripts/append-history.mjs",
+    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run demands && npm run history"
   },
   "dependencies": {
     "react": "^18.3.1",
