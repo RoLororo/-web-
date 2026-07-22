@@ -1,0 +1,371 @@
+{
+  "generatedAt": "2026-07-22T21:48:59.173Z",
+  "source": "arxiv",
+  "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
+  "mappingVersion": 1,
+  "verifiedAt": "2026-07-22",
+  "windowDays": 30,
+  "windowStart": "202606220000",
+  "windowEnd": "202607220000",
+  "mappedThemeCount": 11,
+  "successCount": 11,
+  "skippedCount": 0,
+  "errorCount": 0,
+  "totalRequestCount": 11,
+  "themesSkipped": [],
+  "themes": {
+    "ai-business-automation": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 2085,
+        "engagement": null,
+        "contributors": 534,
+        "latestActivityAt": "2026-07-21T17:59:21Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 2085,
+        "uniqueAuthors": 534,
+        "avgAuthorsPerPaper": 5.4,
+        "primaryCategoryTop": "cs.AI",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-21T17:59:21Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "ai-coding": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 70,
+        "engagement": null,
+        "contributors": 384,
+        "latestActivityAt": "2026-07-21T13:46:52Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 70,
+        "uniqueAuthors": 384,
+        "avgAuthorsPerPaper": 5.6,
+        "primaryCategoryTop": "cs.SE",
+        "isAuthorsSampled": false,
+        "sampleSize": 70,
+        "latestPaperPublished": "2026-07-21T13:46:52Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "ai-content-generation": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 558,
+        "engagement": null,
+        "contributors": 627,
+        "latestActivityAt": "2026-07-21T17:59:12Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 558,
+        "uniqueAuthors": 627,
+        "avgAuthorsPerPaper": 6.5,
+        "primaryCategoryTop": "cs.CV",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-21T17:59:12Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\") AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "ai-hardware": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 344,
+        "engagement": null,
+        "contributors": 588,
+        "latestActivityAt": "2026-07-21T15:40:58Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 344,
+        "uniqueAuthors": 588,
+        "avgAuthorsPerPaper": 5.9,
+        "primaryCategoryTop": "cs.LG",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-21T15:40:58Z"
+      },
+      "meta": {
+        "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "infrastructure-outages": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 63,
+        "engagement": null,
+        "contributors": 297,
+        "latestActivityAt": "2026-07-20T08:48:33Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 63,
+        "uniqueAuthors": 297,
+        "avgAuthorsPerPaper": 4.7,
+        "primaryCategoryTop": "cs.DC",
+        "isAuthorsSampled": false,
+        "sampleSize": 63,
+        "latestPaperPublished": "2026-07-20T08:48:33Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "security-breach": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 25,
+        "engagement": null,
+        "contributors": 89,
+        "latestActivityAt": "2026-07-20T18:28:07Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 25,
+        "uniqueAuthors": 89,
+        "avgAuthorsPerPaper": 3.7,
+        "primaryCategoryTop": "cs.CR",
+        "isAuthorsSampled": false,
+        "sampleSize": 25,
+        "latestPaperPublished": "2026-07-20T18:28:07Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing) AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "payment-troubles": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 12,
+        "engagement": null,
+        "contributors": 42,
+        "latestActivityAt": "2026-07-20T08:33:31Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 12,
+        "uniqueAuthors": 42,
+        "avgAuthorsPerPaper": 3.5,
+        "primaryCategoryTop": "cs.CR",
+        "isAuthorsSampled": false,
+        "sampleSize": 12,
+        "latestPaperPublished": "2026-07-20T08:33:31Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "home-server-selfhost": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 4,
+        "engagement": null,
+        "contributors": 18,
+        "latestActivityAt": "2026-07-16T02:05:46Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 4,
+        "uniqueAuthors": 18,
+        "avgAuthorsPerPaper": 4.5,
+        "primaryCategoryTop": "cs.DC",
+        "isAuthorsSampled": false,
+        "sampleSize": 4,
+        "latestPaperPublished": "2026-07-16T02:05:46Z"
+      },
+      "meta": {
+        "searchQuery": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab) AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "remote-work": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 146,
+        "engagement": null,
+        "contributors": 375,
+        "latestActivityAt": "2026-07-04T05:49:23Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 146,
+        "uniqueAuthors": 375,
+        "avgAuthorsPerPaper": 4,
+        "primaryCategoryTop": "cs.HC",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-04T05:49:23Z"
+      },
+      "meta": {
+        "searchQuery": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\" AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "senior-health": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 2413,
+        "engagement": null,
+        "contributors": 392,
+        "latestActivityAt": "2026-07-21T13:07:28Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 2413,
+        "uniqueAuthors": 392,
+        "avgAuthorsPerPaper": 4.4,
+        "primaryCategoryTop": "cs.LG",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-21T13:07:28Z"
+      },
+      "meta": {
+        "searchQuery": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\" AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    },
+    "ai-regulation": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:48:59.173Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 1176,
+        "engagement": null,
+        "contributors": 486,
+        "latestActivityAt": "2026-07-21T17:02:37Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 1176,
+        "uniqueAuthors": 486,
+        "avgAuthorsPerPaper": 5.4,
+        "primaryCategoryTop": "cs.CY",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-21T17:02:37Z"
+      },
+      "meta": {
+        "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202606220000 TO 202607220000]",
+        "dateFilter": "202606220000 TO 202607220000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      }
+    }
+  },
+  "errors": []
+}

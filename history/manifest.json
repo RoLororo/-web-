@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "retentionDays": 90,
+  "archiveStrategy": "year",
+  "createdAt": "2026-07-22T11:30:13.416Z",
+  "lastRunAt": "2026-07-22T22:17:25.743Z",
+  "lastRotationAt": null
+}

@@ -1,0 +1,448 @@
+{
+  "generatedAt": "2026-07-22T21:50:41.011Z",
+  "source": "qiita",
+  "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
+  "windowDays": 30,
+  "cutoffDate": "2026-06-22",
+  "mappedThemeCount": 11,
+  "successCount": 9,
+  "skippedCount": 2,
+  "errorCount": 0,
+  "totalRequestCount": 46,
+  "rateRemainingAtEnd": 13,
+  "themesSkipped": [
+    "senior-health",
+    "ai-regulation"
+  ],
+  "themes": {
+    "ai-business-automation": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 28,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 2050,
+        "engagement": 4908,
+        "contributors": 728,
+        "latestActivityAt": "2026-07-23T06:22:11+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 2050,
+        "lgtmSum": 4908,
+        "uniqueAuthors": 728,
+        "latestPublishedAt": "2026-07-23T06:22:11+09:00"
+      },
+      "meta": {
+        "tags": [
+          "ChatGPT",
+          "Claude",
+          "LLM",
+          "生成AI"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "ChatGPT",
+            "totalCount": 271,
+            "fetched": 271,
+            "pages": 3,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "Claude",
+            "totalCount": 461,
+            "fetched": 461,
+            "pages": 5,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "LLM",
+            "totalCount": 910,
+            "fetched": 910,
+            "pages": 10,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "生成AI",
+            "totalCount": 919,
+            "fetched": 919,
+            "pages": 10,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "ai-coding": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 150,
+        "engagement": 282,
+        "contributors": 82,
+        "latestActivityAt": "2026-07-23T04:29:18+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 150,
+        "lgtmSum": 282,
+        "uniqueAuthors": 82,
+        "latestPublishedAt": "2026-07-23T04:29:18+09:00"
+      },
+      "meta": {
+        "tags": [
+          "GitHubCopilot",
+          "Cursor"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "GitHubCopilot",
+            "totalCount": 68,
+            "fetched": 68,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "Cursor",
+            "totalCount": 86,
+            "fetched": 86,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "ai-content-generation": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 31,
+        "engagement": 86,
+        "contributors": 22,
+        "latestActivityAt": "2026-07-21T14:30:49+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 31,
+        "lgtmSum": 86,
+        "uniqueAuthors": 22,
+        "latestPublishedAt": "2026-07-21T14:30:49+09:00"
+      },
+      "meta": {
+        "tags": [
+          "StableDiffusion",
+          "画像生成"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "StableDiffusion",
+            "totalCount": 10,
+            "fetched": 10,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "画像生成",
+            "totalCount": 21,
+            "fetched": 21,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "ai-hardware": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 3,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 68,
+        "engagement": 122,
+        "contributors": 45,
+        "latestActivityAt": "2026-07-22T09:04:27+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 68,
+        "lgtmSum": 122,
+        "uniqueAuthors": 45,
+        "latestPublishedAt": "2026-07-22T09:04:27+09:00"
+      },
+      "meta": {
+        "tags": [
+          "GPU",
+          "NVIDIA",
+          "CUDA"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "GPU",
+            "totalCount": 39,
+            "fetched": 39,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "NVIDIA",
+            "totalCount": 24,
+            "fetched": 24,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "CUDA",
+            "totalCount": 14,
+            "fetched": 14,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "infrastructure-outages": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 31,
+        "engagement": 53,
+        "contributors": 22,
+        "latestActivityAt": "2026-07-20T22:22:17+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 31,
+        "lgtmSum": 53,
+        "uniqueAuthors": 22,
+        "latestPublishedAt": "2026-07-20T22:22:17+09:00"
+      },
+      "meta": {
+        "tags": [
+          "CloudFront",
+          "障害対応"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "CloudFront",
+            "totalCount": 24,
+            "fetched": 24,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "障害対応",
+            "totalCount": 8,
+            "fetched": 8,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "security-breach": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 4,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 53,
+        "engagement": 382,
+        "contributors": 33,
+        "latestActivityAt": "2026-07-22T19:18:50+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 53,
+        "lgtmSum": 382,
+        "uniqueAuthors": 33,
+        "latestPublishedAt": "2026-07-22T19:18:50+09:00"
+      },
+      "meta": {
+        "tags": [
+          "情報セキュリティ",
+          "ランサムウェア",
+          "脆弱性",
+          "情報漏洩"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "情報セキュリティ",
+            "totalCount": 22,
+            "fetched": 22,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "ランサムウェア",
+            "totalCount": 8,
+            "fetched": 8,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "脆弱性",
+            "totalCount": 17,
+            "fetched": 17,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "情報漏洩",
+            "totalCount": 9,
+            "fetched": 9,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "payment-troubles": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 12,
+        "engagement": 0,
+        "contributors": 9,
+        "latestActivityAt": "2026-07-18T23:20:51+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 12,
+        "lgtmSum": 0,
+        "uniqueAuthors": 9,
+        "latestPublishedAt": "2026-07-18T23:20:51+09:00"
+      },
+      "meta": {
+        "tags": [
+          "Stripe",
+          "決済"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "Stripe",
+            "totalCount": 8,
+            "fetched": 8,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "決済",
+            "totalCount": 5,
+            "fetched": 5,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "home-server-selfhost": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 4,
+        "engagement": 3,
+        "contributors": 4,
+        "latestActivityAt": "2026-07-21T19:37:25+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 4,
+        "lgtmSum": 3,
+        "uniqueAuthors": 4,
+        "latestPublishedAt": "2026-07-21T19:37:25+09:00"
+      },
+      "meta": {
+        "tags": [
+          "homelab"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "homelab",
+            "totalCount": 4,
+            "fetched": 4,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    },
+    "remote-work": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-22T21:50:41.011Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 11,
+        "engagement": 14,
+        "contributors": 9,
+        "latestActivityAt": "2026-07-18T12:09:08+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 11,
+        "lgtmSum": 14,
+        "uniqueAuthors": 9,
+        "latestPublishedAt": "2026-07-18T12:09:08+09:00"
+      },
+      "meta": {
+        "tags": [
+          "リモートワーク",
+          "在宅勤務"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "リモートワーク",
+            "totalCount": 10,
+            "fetched": 10,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "在宅勤務",
+            "totalCount": 2,
+            "fetched": 2,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      }
+    }
+  },
+  "errors": []
+}

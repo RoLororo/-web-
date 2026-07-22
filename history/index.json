@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-07-22T22:17:25.743Z",
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "ai-business-automation",
+      "name": "AI業務自動化",
+      "category": "AI・テクノロジー",
+      "currentPath": "history/current/ai-business-automation.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "ai-coding",
+      "name": "AI駆動のコード生成・開発支援",
+      "category": "AI・テクノロジー",
+      "currentPath": "history/current/ai-coding.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "ai-content-generation",
+      "name": null,
+      "category": null,
+      "currentPath": "history/current/ai-content-generation.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "ai-hardware",
+      "name": "AI向けハードウェア・計算基盤",
+      "category": "AI・テクノロジー",
+      "currentPath": "history/current/ai-hardware.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "ai-regulation",
+      "name": "AI規制・安全性・プライバシー",
+      "category": "AI・テクノロジー",
+      "currentPath": "history/current/ai-regulation.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "home-server-selfhost",
+      "name": "自宅サーバー・セルフホスト",
+      "category": "AI・テクノロジー",
+      "currentPath": "history/current/home-server-selfhost.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "infrastructure-outages",
+      "name": "システム障害・可用性への関心",
+      "category": "ビジネス",
+      "currentPath": "history/current/infrastructure-outages.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "payment-troubles",
+      "name": "決済インフラ・キャッシュレス",
+      "category": "ビジネス",
+      "currentPath": "history/current/payment-troubles.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "remote-work",
+      "name": "リモートワーク・ハイブリッド勤務",
+      "category": "ビジネス",
+      "currentPath": "history/current/remote-work.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "security-breach",
+      "name": "個人情報漏洩・セキュリティ対策",
+      "category": "ビジネス",
+      "currentPath": "history/current/security-breach.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    },
+    {
+      "id": "senior-health",
+      "name": "高齢者向け健康・認知症予防",
+      "category": "健康",
+      "currentPath": "history/current/senior-health.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-07-22",
+      "lastDate": "2026-07-22"
+    }
+  ],
+  "sources": [
+    {
+      "id": "appstore",
+      "envelopeVersion": "1.0.0",
+      "metricsKeys": [
+        "volume",
+        "engagement",
+        "contributors",
+        "latestActivityAt"
+      ],
+      "nativeMetricsKeys": [
+        "matchedAppCount",
+        "uniquePublishers",
+        "topFreeMatchCount",
+        "topGrossingMatchCount",
+        "bestRank",
+        "averageRank",
+        "rankWeightedScore"
+      ],
+      "firstSeenDate": "2026-07-22"
+    },
+    {
+      "id": "arxiv",
+      "envelopeVersion": "1.0.0",
+      "metricsKeys": [
+        "volume",
+        "engagement",
+        "contributors",
+        "latestActivityAt"
+      ],
+      "nativeMetricsKeys": [
+        "paperCount",
+        "uniqueAuthors",
+        "avgAuthorsPerPaper",
+        "primaryCategoryTop",
+        "isAuthorsSampled",
+        "sampleSize",
+        "latestPaperPublished"
+      ],
+      "firstSeenDate": "2026-07-22"
+    },
+    {
+      "id": "qiita",
+      "envelopeVersion": "1.0.0",
+      "metricsKeys": [
+        "volume",
+        "engagement",
+        "contributors",
+        "latestActivityAt"
+      ],
+      "nativeMetricsKeys": [
+        "articleCount",
+        "lgtmSum",
+        "uniqueAuthors",
+        "latestPublishedAt"
+      ],
+      "firstSeenDate": "2026-07-22"
+    },
+    {
+      "id": "wikipedia",
+      "envelopeVersion": "legacy-wiki-0",
+      "metricsKeys": [
+        "volume",
+        "engagement",
+        "contributors",
+        "latestActivityAt"
+      ],
+      "nativeMetricsKeys": [
+        "totalPageviews30d",
+        "totalPageviews7d",
+        "totalPageviewsPrior7d",
+        "growthPercent"
+      ],
+      "firstSeenDate": "2026-07-22"
+    }
+  ]
+}
