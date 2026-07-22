@@ -30,6 +30,9 @@ let DEMANDS = MOCK_DEMANDS;
 /** データソースの識別。'real' / 'mock'。デバッグや将来の UI ヒント用。 */
 let SOURCE = 'mock';
 
+/** demands.json の generatedAt (ISO string) — UI の「最終更新」表示等に使う */
+let GENERATED_AT = null;
+
 async function loadRealDemands() {
   try {
     // BASE_URL は Vite の base (未指定なら '/') を反映するので subpath デプロイ対応
@@ -44,6 +47,7 @@ async function loadRealDemands() {
 
     DEMANDS = payload.demands;
     SOURCE  = 'real';
+    GENERATED_AT = payload.generatedAt || null;
     // 開発者向け通知 (本番の Console にも出るが実害なし)
     // eslint-disable-next-line no-console
     console.info(
@@ -68,6 +72,11 @@ await loadRealDemands();
 /** データソースを取得 ('real' / 'mock')。将来のデバッグ表示等で使う用。 */
 export function getDataSource() {
   return SOURCE;
+}
+
+/** demands.json の generatedAt (ISO string or null)。UI の最終更新表示等で使う。 */
+export function getGeneratedAt() {
+  return GENERATED_AT;
 }
 
 /** 全需要を取得（ランキング用に score 降順） */

@@ -8,6 +8,8 @@ import Explore from './pages/Explore.jsx';
 import Categories from './pages/Categories.jsx';
 import CategoryDetail from './pages/CategoryDetail.jsx';
 import Favorites from './pages/Favorites.jsx';
+import Timeline from './pages/Timeline.jsx';
+import Changes from './pages/Changes.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
@@ -26,6 +28,8 @@ export default function App() {
             <Route path="/categories/:name" element={<CategoryDetail />} />
             <Route path="/demand/:id" element={<DemandDetail />} />
             <Route path="/favorites" element={<Favorites />} />
+            <Route path="/timeline" element={<Timeline />} />
+            <Route path="/changes" element={<Changes />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

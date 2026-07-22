@@ -35,6 +35,8 @@ export default function Header() {
           <NavLink to="/" end onClick={() => setOpen(false)}>ホーム</NavLink>
           <NavLink to="/explore" onClick={() => setOpen(false)}>需要を探す</NavLink>
           <NavLink to="/categories" onClick={() => setOpen(false)}>分野</NavLink>
+          <NavLink to="/timeline" onClick={() => setOpen(false)}>履歴</NavLink>
+          <NavLink to="/changes" onClick={() => setOpen(false)}>変化</NavLink>
           <NavLink to="/favorites" onClick={() => setOpen(false)}>保存した需要</NavLink>
         </nav>
 

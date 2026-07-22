@@ -9,6 +9,7 @@ import StatusBadge from '../components/StatusBadge.jsx';
 import FavoriteButton from '../components/FavoriteButton.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import FoxMark from '../components/FoxMark.jsx';
+import SourceTrends from '../components/SourceTrends.jsx';
 import { getDemandById } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
@@ -166,6 +167,12 @@ export default function DemandDetail() {
                 </div>
                 <TrendChart key={range} data={demand.trendData[range]} color={chartColor} />
               </div>
+            </div>
+
+            {/* 情報源別の時系列 (history/current から動的読み込み) */}
+            <div className="block">
+              <div className="block-title">情報源別に見る積み上がり</div>
+              <SourceTrends themeId={demand.id} />
             </div>
 
             {/* 概要 */}
