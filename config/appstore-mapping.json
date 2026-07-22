@@ -1,0 +1,72 @@
+{
+  "$schema": "appstore-mapping/v1",
+  "mappingVersion": 1,
+  "verifiedAt": "2026-07-22",
+  "description": "App Store JP テーマ→アプリマッピング。top-free / top-grossing 各 100 件で実登場を確認したアプリのみ採用。空配列は skippedReasons を参照。v2 でカテゴリ別チャート追加時に apps-exist-but-not-charting のテーマを復活検討。",
+  "windowDays": 1,
+  "storefront": "jp",
+  "charts": ["topfreeapplications", "topgrossingapplications"],
+  "feedLimit": 100,
+  "mapping": {
+    "ai-business-automation": [
+      {"name": "ChatGPT",             "id": "6448311069"},
+      {"name": "Google Gemini",       "id": "6477489729"},
+      {"name": "Claude by Anthropic", "id": "6473753684"},
+      {"name": "Grok",                "id": "6670324846"}
+    ],
+    "ai-content-generation": [
+      {"name": "Canva",               "id": "897446215"}
+    ],
+    "payment-troubles": [
+      {"name": "PayPay",              "id": "1435783608"},
+      {"name": "楽天ペイ",             "id": "1139755229"},
+      {"name": "d払い",                "id": "1328132872"},
+      {"name": "Suica",               "id": "1156875272"},
+      {"name": "iAEON",               "id": "1565489157"},
+      {"name": "AEON Pay",            "id": "1100564842"},
+      {"name": "メルカリ",             "id": "667861049"}
+    ],
+    "remote-work": [
+      {"name": "Google Meet",         "id": "1096918571"},
+      {"name": "Microsoft Teams",     "id": "1113153706"},
+      {"name": "Zoom Workplace",      "id": "546505307"}
+    ],
+    "ai-coding":                [],
+    "ai-hardware":              [],
+    "infrastructure-outages":   [],
+    "security-breach":          [],
+    "home-server-selfhost":     [],
+    "senior-health":            [],
+    "ai-regulation":            []
+  },
+  "skippedReasons": {
+    "ai-coding": {
+      "reason": "apps-exist-but-not-charting",
+      "note": "GitHub / Termius 等の Developer Tools アプリは存在するが、総合 top 100 に到達せず。v2 で Developer Tools カテゴリチャート追加時に復活検討。"
+    },
+    "ai-hardware": {
+      "reason": "concept-not-app",
+      "note": "GPU / AIチップ等のハードウェア概念、消費者アプリ化不能。他ソース(Qiita, Wikipedia)に依存。"
+    },
+    "infrastructure-outages": {
+      "reason": "concept-not-app",
+      "note": "システム障害という概念、消費者アプリで直接観測不可。他ソース(News, Wikipedia)に依存。"
+    },
+    "security-breach": {
+      "reason": "apps-exist-but-not-charting",
+      "note": "NordVPN / 1Password / Malwarebytes / ノートン 360 等の Utilities アプリは存在するが、総合 top 100 に到達せず。v2 で Utilities カテゴリチャート追加時に復活検討。"
+    },
+    "home-server-selfhost": {
+      "reason": "concept-not-app",
+      "note": "自宅サーバ運用の概念、消費者アプリ化不能。技術者向けカテゴリ。他ソース(Qiita)に依存。"
+    },
+    "senior-health": {
+      "reason": "apps-exist-but-not-charting",
+      "note": "認知症予防アプリ / 脳トレ / 歩数計 / Sleep Meister 等は存在するが、総合 top 100 に到達せず。v2 で Health & Fitness カテゴリチャート追加時に復活検討。"
+    },
+    "ai-regulation": {
+      "reason": "concept-not-app",
+      "note": "AI 規制 / 政策の概念、アプリ化不能。他ソース(News, Wikipedia)に依存。"
+    }
+  }
+}

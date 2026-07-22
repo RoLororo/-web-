@@ -1,0 +1,67 @@
+{
+  "$schema": "arxiv-mapping/v1",
+  "mappingVersion": 1,
+  "verifiedAt": "2026-07-22",
+  "description": "arXiv 検索式マッピング。11 テーマ × 過去 30 日で実測 (verifiedAt 時点の件数を expectedMonthlyCount に記録)。改訂時は mappingVersion をインクリメント + verifiedAt を更新。abs: フィルタは緩めのため若干のノイズを含む可能性があるが、v1 はまずデータ蓄積優先。",
+  "windowDays": 30,
+  "maxResultsPerQuery": 100,
+  "requestIntervalMs": 3200,
+  "mapping": {
+    "ai-business-automation": {
+      "query": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\")",
+      "expectedMonthlyCount": 2077,
+      "note": "cs.AI カテゴリ内で LLM / エージェント関連"
+    },
+    "ai-coding": {
+      "query": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot)",
+      "expectedMonthlyCount": 73,
+      "note": "cs.SE カテゴリ、コード生成 / アシスタント関連"
+    },
+    "ai-content-generation": {
+      "query": "cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\")",
+      "expectedMonthlyCount": 557,
+      "note": "cs.CV カテゴリ、拡散モデル / 生成モデル"
+    },
+    "ai-hardware": {
+      "query": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100)",
+      "expectedMonthlyCount": 345,
+      "note": "カテゴリ横断、GPU + 訓練 / 推論 / アクセラレータ"
+    },
+    "infrastructure-outages": {
+      "query": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\")",
+      "expectedMonthlyCount": 64,
+      "note": "cs.DC カテゴリ、信頼性 / 可用性 / 耐障害性"
+    },
+    "security-breach": {
+      "query": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing)",
+      "expectedMonthlyCount": 25,
+      "note": "cs.CR カテゴリ、breach / ransomware / data leak / phishing"
+    },
+    "payment-troubles": {
+      "query": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\")",
+      "expectedMonthlyCount": 12,
+      "note": "cs.CR カテゴリ内で決済 / 取引関連 (件数少、要見直し候補)"
+    },
+    "home-server-selfhost": {
+      "query": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab)",
+      "expectedMonthlyCount": 4,
+      "note": "cs.DC カテゴリ、エッジ / セルフホスト (件数極少、要見直し候補)"
+    },
+    "remote-work": {
+      "query": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\"",
+      "expectedMonthlyCount": 146,
+      "note": "カテゴリ横断、リモートワーク関連"
+    },
+    "senior-health": {
+      "query": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\"",
+      "expectedMonthlyCount": 2413,
+      "note": "カテゴリ横断、認知症 / 介護 / 高齢化 (他ソース皆無を強力に補う)"
+    },
+    "ai-regulation": {
+      "query": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\"",
+      "expectedMonthlyCount": 1176,
+      "note": "カテゴリ横断、AI 政策 / 安全性 / ガバナンス / 倫理"
+    }
+  },
+  "skippedReasons": {}
+}

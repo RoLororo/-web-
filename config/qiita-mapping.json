@@ -1,0 +1,18 @@
+{
+  "$schema": "qiita-mapping/v1",
+  "description": "Qiita テーマ→タグマッピング。45候補タグを Qiita API で実測 (30日窓、2026-06-21〜2026-07-21) し、記事が存在するタグのみ採用。空配列は Qiita で意味あるデータが取れないテーマ (エンジニア向けプラットフォームで扱われない話題)。",
+  "windowDays": 30,
+  "mapping": {
+    "ai-business-automation": ["ChatGPT", "Claude", "LLM", "生成AI"],
+    "ai-coding":              ["GitHubCopilot", "Cursor"],
+    "ai-content-generation":  ["StableDiffusion", "画像生成"],
+    "ai-hardware":            ["GPU", "NVIDIA", "CUDA"],
+    "infrastructure-outages": ["CloudFront", "障害対応"],
+    "security-breach":        ["情報セキュリティ", "ランサムウェア", "脆弱性", "情報漏洩"],
+    "payment-troubles":       ["Stripe", "決済"],
+    "home-server-selfhost":   ["homelab"],
+    "remote-work":            ["リモートワーク", "在宅勤務"],
+    "senior-health":          [],
+    "ai-regulation":          []
+  }
+}
