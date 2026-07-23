@@ -209,3 +209,161 @@ export function diffRecords(current, previous) {
   }
   return out;
 }
+
+// ---------------------------------------------------------------------------
+// 横断ヘルパー: 全テーマ × 全 source × metric のランキング / 発見
+// ---------------------------------------------------------------------------
+
+/**
+ * 最新 record から N 日前 record を探す (records は date 昇順)。
+ * 見つからなければ最古の record を previous とする。
+ */
+function findPreviousRecord(records, daysBack) {
+  if (!records || records.length < 2) return null;
+  const latest = records[records.length - 1];
+  const latestMs = new Date(latest.date + 'T00:00:00Z').getTime();
+  const target   = latestMs - daysBack * 24 * 60 * 60 * 1000;
+  let best = null;
+  for (const rec of records) {
+    if (rec.date === latest.date) continue;
+    const ms = new Date(rec.date + 'T00:00:00Z').getTime();
+    if (ms <= target) {
+      if (!best || rec.date > best.date) best = rec;
+    }
+  }
+  // 履歴が短い場合は最古 (latest 以外で最も古い) を fallback
+  if (!best && records.length >= 2) best = records[0];
+  return best;
+}
+
+/**
+ * 全テーマの current jsonl を横断し、
+ * (theme × source × metric) 単位で「N 日前 → 最新」の差分を計算。
+ * ソート済み配列を返す (絶対 delta 降順 or pctChange 降順は caller が選ぶ)。
+ *
+ * 戻り値: Array<{ themeId, source, metric, previous, current, delta, pctChange, previousDate, currentDate }>
+ */
+export function computeAllDiffs(allSeries, daysBack, { onlyMetrics = true } = {}) {
+  const out = [];
+  for (const [themeId, records] of Object.entries(allSeries)) {
+    if (!records || records.length < 2) continue;
+    const current = records[records.length - 1];
+    const previous = findPreviousRecord(records, daysBack);
+    if (!previous || previous.date === current.date) continue;
+
+    const diff = diffRecords(current, previous);
+    for (const [key, v] of Object.entries(diff)) {
+      const parts = key.split('.');
+      // parts: [source, metric] or [source, 'native', name]
+      if (onlyMetrics && parts[1] === 'native') continue;
+      const source = parts[0];
+      const metric = parts[1] === 'native' ? parts.slice(2).join('.') : parts[1];
+      const isNative = parts[1] === 'native';
+      out.push({
+        themeId,
+        source,
+        metric,
+        isNative,
+        previous: v.previous,
+        current: v.current,
+        delta: v.delta,
+        pctChange: v.pctChange,
+        previousDate: previous.date,
+        currentDate: current.date,
+      });
+    }
+  }
+  return out;
+}
+
+/**
+ * 全テーマの current jsonl を横断し、
+ * (theme × source × metric) の最新値を取得。ソースネイティブスケール。
+ * volume-only 相当。ランキング表示用。
+ */
+export function computeCurrentValues(allSeries, metric = 'volume') {
+  const out = [];
+  for (const [themeId, records] of Object.entries(allSeries)) {
+    if (!records || records.length === 0) continue;
+    const latest = records[records.length - 1];
+    for (const [srcId, src] of Object.entries(latest.sources || {})) {
+      const v = src?.metrics?.[metric];
+      if (typeof v === 'number') {
+        out.push({ themeId, source: srcId, metric, value: v, date: latest.date });
+      }
+    }
+  }
+  return out;
+}
+
+/**
+ * index.json.sources[] から「firstSeenDate が新しい順」= 新登場ソース。
+ */
+export function newlyAppearedSources(indexData, daysWindow = 30) {
+  if (!indexData || !Array.isArray(indexData.sources)) return [];
+  const now = new Date();
+  const cutoffMs = now.getTime() - daysWindow * 24 * 60 * 60 * 1000;
+  return indexData.sources
+    .filter((s) => s.firstSeenDate && new Date(s.firstSeenDate + 'T00:00:00Z').getTime() >= cutoffMs)
+    .sort((a, b) => (a.firstSeenDate < b.firstSeenDate ? 1 : -1));
+}
+
+/**
+ * 全テーマ × 全 (source, metric) について、
+ * 「過去のいずれかの record では null/欠損だったが、最新 record では値がある」
+ * 組み合わせを検出。= 新しく取れるようになった metric = 新登場データ。
+ */
+export function newlyAppearedMetrics(allSeries) {
+  const out = [];
+  for (const [themeId, records] of Object.entries(allSeries)) {
+    if (!records || records.length < 2) continue;
+    const latest = records[records.length - 1];
+    const latestFlat = flattenMetrics(latest);
+    // 過去の全 record にあった keys を union
+    const historicalKeys = new Set();
+    for (let i = 0; i < records.length - 1; i++) {
+      for (const k of Object.keys(flattenMetrics(records[i]))) historicalKeys.add(k);
+    }
+    for (const key of Object.keys(latestFlat)) {
+      if (!historicalKeys.has(key)) {
+        const [source, ...rest] = key.split('.');
+        out.push({
+          themeId, source,
+          metric: rest.join('.'),
+          value: latestFlat[key],
+          firstDate: latest.date,
+        });
+      }
+    }
+  }
+  return out;
+}
+
+/**
+ * index.json の themes[] から日次更新件数を集計。
+ * = テーマ×日ごとにレコードが 1 個増えるので、日別の書き込み件数を返す。
+ * ただし直接には index からは取れない。allSeries から集計する。
+ * 戻り値: [{ date, recordCount, themeCount, sourceCount }]
+ */
+export function dailyActivity(allSeries) {
+  const byDate = new Map();
+  for (const [themeId, records] of Object.entries(allSeries)) {
+    for (const rec of records) {
+      if (!byDate.has(rec.date)) {
+        byDate.set(rec.date, { date: rec.date, records: 0, themes: new Set(), sources: new Set() });
+      }
+      const b = byDate.get(rec.date);
+      b.records++;
+      b.themes.add(themeId);
+      for (const src of Object.keys(rec.sources || {})) b.sources.add(src);
+    }
+  }
+  return [...byDate.values()]
+    .map((b) => ({
+      date: b.date,
+      recordCount: b.records,
+      themeCount: b.themes.size,
+      sourceCount: b.sources.size,
+    }))
+    .sort((a, b) => (a.date < b.date ? -1 : 1));
+}

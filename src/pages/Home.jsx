@@ -10,6 +10,7 @@ import Sparkline from '../components/Sparkline.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import AccumulationBanner from '../components/AccumulationBanner.jsx';
+import TodaysMovers from '../components/TodaysMovers.jsx';
 import { getDemands, getTrendingDemands } from '../services/demandService.js';
 import { changeClass, formatChange } from '../utils/format.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
@@ -71,6 +72,9 @@ export default function Home() {
 
       {/* 蓄積ダッシュボード (history/index.json ベースの毎日積み上がる系表示) */}
       <AccumulationBanner />
+
+      {/* 今日の伸び / 急上昇 (history 由来、毎日動く) */}
+      <TodaysMovers />
 
       {/* 急上昇 */}
       <section className="section container">

@@ -10,6 +10,8 @@ import CategoryDetail from './pages/CategoryDetail.jsx';
 import Favorites from './pages/Favorites.jsx';
 import Timeline from './pages/Timeline.jsx';
 import Changes from './pages/Changes.jsx';
+import Rankings from './pages/Rankings.jsx';
+import WhatsNew from './pages/WhatsNew.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
@@ -30,6 +32,8 @@ export default function App() {
             <Route path="/favorites" element={<Favorites />} />
             <Route path="/timeline" element={<Timeline />} />
             <Route path="/changes" element={<Changes />} />
+            <Route path="/rankings" element={<Rankings />} />
+            <Route path="/whats-new" element={<WhatsNew />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
