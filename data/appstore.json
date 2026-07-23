@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T00:24:22.726Z",
+  "generatedAt": "2026-07-23T12:55:27.314Z",
   "source": "appstore",
   "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
   "mappingVersion": 1,
@@ -58,7 +58,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-07-23T00:24:22.726Z",
+      "fetchedAt": "2026-07-23T12:55:27.314Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -67,16 +67,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-07-22T17:24:24-07:00"
+        "latestActivityAt": "2026-07-23T05:55:28-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 4,
         "uniquePublishers": 4,
         "topFreeMatchCount": 4,
         "topGrossingMatchCount": 3,
-        "bestRank": 2,
-        "averageRank": 19.4,
-        "rankWeightedScore": 571,
+        "bestRank": 1,
+        "averageRank": 23.1,
+        "rankWeightedScore": 545,
         "matchedApps": [
           {
             "appId": "6448311069",
@@ -93,7 +93,7 @@
             "publisher": "Google",
             "releaseDate": "2024-11-13T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 3,
+            "rank": 4,
             "chart": "topfreeapplications"
           },
           {
@@ -102,7 +102,7 @@
             "publisher": "Anthropic PBC",
             "releaseDate": "2024-05-01T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 14,
+            "rank": 17,
             "chart": "topfreeapplications"
           },
           {
@@ -111,7 +111,7 @@
             "publisher": "X Corp.",
             "releaseDate": "2025-01-18T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 15,
+            "rank": 38,
             "chart": "topfreeapplications"
           },
           {
@@ -120,16 +120,7 @@
             "publisher": "OpenAI OpCo, LLC",
             "releaseDate": "2023-05-25T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 2,
-            "chart": "topgrossingapplications"
-          },
-          {
-            "appId": "6670324846",
-            "name": "Grok 生成AI",
-            "publisher": "X Corp.",
-            "releaseDate": "2025-01-18T00:00:00-07:00",
-            "category": "仕事効率化",
-            "rank": 47,
+            "rank": 1,
             "chart": "topgrossingapplications"
           },
           {
@@ -138,7 +129,16 @@
             "publisher": "Anthropic PBC",
             "releaseDate": "2024-05-01T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 53,
+            "rank": 48,
+            "chart": "topgrossingapplications"
+          },
+          {
+            "appId": "6670324846",
+            "name": "Grok 生成AI",
+            "publisher": "X Corp.",
+            "releaseDate": "2025-01-18T00:00:00-07:00",
+            "category": "仕事効率化",
+            "rank": 52,
             "chart": "topgrossingapplications"
           }
         ]
@@ -167,26 +167,68 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-07-22T17:24:22-07:00",
+            "feedUpdated": "2026-07-23T05:55:27-07:00",
             "totalEntries": 100,
             "matchCount": 4,
             "bestRank": 2
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-07-22T17:24:24-07:00",
+            "feedUpdated": "2026-07-23T05:55:28-07:00",
             "totalEntries": 100,
             "matchCount": 3,
-            "bestRank": 2
+            "bestRank": 1
           }
         ]
-      }
+      },
+      "topItems": [
+        {
+          "name": "ChatGPT",
+          "publisher": "OpenAI OpCo, LLC",
+          "rank": 1,
+          "chart": "topgrossingapplications",
+          "appId": "6448311069",
+          "category": "仕事効率化"
+        },
+        {
+          "name": "ChatGPT",
+          "publisher": "OpenAI OpCo, LLC",
+          "rank": 2,
+          "chart": "topfreeapplications",
+          "appId": "6448311069",
+          "category": "仕事効率化"
+        },
+        {
+          "name": "Google Gemini",
+          "publisher": "Google",
+          "rank": 4,
+          "chart": "topfreeapplications",
+          "appId": "6477489729",
+          "category": "仕事効率化"
+        },
+        {
+          "name": "Claude by Anthropic",
+          "publisher": "Anthropic PBC",
+          "rank": 17,
+          "chart": "topfreeapplications",
+          "appId": "6473753684",
+          "category": "仕事効率化"
+        },
+        {
+          "name": "Grok 生成AI",
+          "publisher": "X Corp.",
+          "rank": 38,
+          "chart": "topfreeapplications",
+          "appId": "6670324846",
+          "category": "仕事効率化"
+        }
+      ]
     },
     "ai-content-generation": {
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-07-23T00:24:22.726Z",
+      "fetchedAt": "2026-07-23T12:55:27.314Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -195,16 +237,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-07-22T17:24:22-07:00"
+        "latestActivityAt": "2026-07-23T05:55:28-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 1,
         "uniquePublishers": 1,
         "topFreeMatchCount": 1,
-        "topGrossingMatchCount": 0,
-        "bestRank": 27,
-        "averageRank": 27,
-        "rankWeightedScore": 74,
+        "topGrossingMatchCount": 1,
+        "bestRank": 33,
+        "averageRank": 61.5,
+        "rankWeightedScore": 79,
         "matchedApps": [
           {
             "appId": "897446215",
@@ -212,8 +254,17 @@
             "publisher": "Canva",
             "releaseDate": "2014-10-15T03:23:37-07:00",
             "category": "写真／ビデオ",
-            "rank": 27,
+            "rank": 33,
             "chart": "topfreeapplications"
+          },
+          {
+            "appId": "897446215",
+            "name": "Canva（キャンバ） - 信じられないほど、素晴らしく",
+            "publisher": "Canva",
+            "releaseDate": "2014-10-15T03:23:37-07:00",
+            "category": "写真／ビデオ",
+            "rank": 90,
+            "chart": "topgrossingapplications"
           }
         ]
       },
@@ -229,26 +280,44 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-07-22T17:24:22-07:00",
+            "feedUpdated": "2026-07-23T05:55:27-07:00",
             "totalEntries": 100,
             "matchCount": 1,
-            "bestRank": 27
+            "bestRank": 33
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-07-22T17:24:24-07:00",
+            "feedUpdated": "2026-07-23T05:55:28-07:00",
             "totalEntries": 100,
-            "matchCount": 0,
-            "bestRank": null
+            "matchCount": 1,
+            "bestRank": 90
           }
         ]
-      }
+      },
+      "topItems": [
+        {
+          "name": "Canva（キャンバ） - 信じられないほど、素晴らしく",
+          "publisher": "Canva",
+          "rank": 33,
+          "chart": "topfreeapplications",
+          "appId": "897446215",
+          "category": "写真／ビデオ"
+        },
+        {
+          "name": "Canva（キャンバ） - 信じられないほど、素晴らしく",
+          "publisher": "Canva",
+          "rank": 90,
+          "chart": "topgrossingapplications",
+          "appId": "897446215",
+          "category": "写真／ビデオ"
+        }
+      ]
     },
     "payment-troubles": {
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-07-23T00:24:22.726Z",
+      "fetchedAt": "2026-07-23T12:55:27.314Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -257,16 +326,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-07-22T17:24:22-07:00"
+        "latestActivityAt": "2026-07-23T05:55:27-07:00"
       },
       "nativeMetrics": {
-        "matchedAppCount": 6,
-        "uniquePublishers": 6,
-        "topFreeMatchCount": 6,
+        "matchedAppCount": 7,
+        "uniquePublishers": 7,
+        "topFreeMatchCount": 7,
         "topGrossingMatchCount": 0,
-        "bestRank": 29,
-        "averageRank": 67.2,
-        "rankWeightedScore": 203,
+        "bestRank": 28,
+        "averageRank": 65.7,
+        "rankWeightedScore": 247,
         "matchedApps": [
           {
             "appId": "1435783608",
@@ -274,7 +343,7 @@
             "publisher": "PayPay Corporation",
             "releaseDate": "2018-10-05T12:26:21-07:00",
             "category": "ファイナンス",
-            "rank": 29,
+            "rank": 28,
             "chart": "topfreeapplications"
           },
           {
@@ -283,7 +352,7 @@
             "publisher": "Rakuten Group, Inc.",
             "releaseDate": "2016-10-26T19:15:11-07:00",
             "category": "ファイナンス",
-            "rank": 49,
+            "rank": 47,
             "chart": "topfreeapplications"
           },
           {
@@ -292,7 +361,7 @@
             "publisher": "株式会社NTTドコモ",
             "releaseDate": "2018-04-25T15:24:10-07:00",
             "category": "ファイナンス",
-            "rank": 71,
+            "rank": 57,
             "chart": "topfreeapplications"
           },
           {
@@ -301,16 +370,7 @@
             "publisher": "East Japan Railway Company",
             "releaseDate": "2016-10-23T23:47:42-07:00",
             "category": "ファイナンス",
-            "rank": 75,
-            "chart": "topfreeapplications"
-          },
-          {
-            "appId": "667861049",
-            "name": "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得",
-            "publisher": "Mercari, Inc.",
-            "releaseDate": "2013-07-21T22:11:05-07:00",
-            "category": "ショッピング",
-            "rank": 89,
+            "rank": 72,
             "chart": "topfreeapplications"
           },
           {
@@ -319,7 +379,25 @@
             "publisher": "イオンスマートテクノロジー株式会社",
             "releaseDate": "2021-08-31T00:00:00-07:00",
             "category": "ファイナンス",
-            "rank": 90,
+            "rank": 77,
+            "chart": "topfreeapplications"
+          },
+          {
+            "appId": "667861049",
+            "name": "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得",
+            "publisher": "Mercari, Inc.",
+            "releaseDate": "2013-07-21T22:11:05-07:00",
+            "category": "ショッピング",
+            "rank": 85,
+            "chart": "topfreeapplications"
+          },
+          {
+            "appId": "1100564842",
+            "name": "AEON Pay",
+            "publisher": "AEON Financial Service Co., Ltd.",
+            "releaseDate": "2016-09-27T08:23:50-07:00",
+            "category": "ファイナンス",
+            "rank": 94,
             "chart": "topfreeapplications"
           }
         ]
@@ -360,26 +438,68 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-07-22T17:24:22-07:00",
+            "feedUpdated": "2026-07-23T05:55:27-07:00",
             "totalEntries": 100,
-            "matchCount": 6,
-            "bestRank": 29
+            "matchCount": 7,
+            "bestRank": 28
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-07-22T17:24:24-07:00",
+            "feedUpdated": "2026-07-23T05:55:28-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           }
         ]
-      }
+      },
+      "topItems": [
+        {
+          "name": "PayPay",
+          "publisher": "PayPay Corporation",
+          "rank": 28,
+          "chart": "topfreeapplications",
+          "appId": "1435783608",
+          "category": "ファイナンス"
+        },
+        {
+          "name": "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ",
+          "publisher": "Rakuten Group, Inc.",
+          "rank": 47,
+          "chart": "topfreeapplications",
+          "appId": "1139755229",
+          "category": "ファイナンス"
+        },
+        {
+          "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+          "publisher": "株式会社NTTドコモ",
+          "rank": 57,
+          "chart": "topfreeapplications",
+          "appId": "1328132872",
+          "category": "ファイナンス"
+        },
+        {
+          "name": "Suica",
+          "publisher": "East Japan Railway Company",
+          "rank": 72,
+          "chart": "topfreeapplications",
+          "appId": "1156875272",
+          "category": "ファイナンス"
+        },
+        {
+          "name": "iAEON-イオンペイも使える！「アイイオン」",
+          "publisher": "イオンスマートテクノロジー株式会社",
+          "rank": 77,
+          "chart": "topfreeapplications",
+          "appId": "1565489157",
+          "category": "ファイナンス"
+        }
+      ]
     },
     "remote-work": {
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-07-23T00:24:22.726Z",
+      "fetchedAt": "2026-07-23T12:55:27.314Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -388,16 +508,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-07-22T17:24:22-07:00"
+        "latestActivityAt": "2026-07-23T05:55:27-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 3,
         "uniquePublishers": 3,
         "topFreeMatchCount": 3,
         "topGrossingMatchCount": 0,
-        "bestRank": 34,
-        "averageRank": 48,
-        "rankWeightedScore": 159,
+        "bestRank": 22,
+        "averageRank": 31.7,
+        "rankWeightedScore": 208,
         "matchedApps": [
           {
             "appId": "1096918571",
@@ -405,16 +525,7 @@
             "publisher": "Google",
             "releaseDate": "2016-09-01T17:51:01-07:00",
             "category": "ソーシャルネットワーキング",
-            "rank": 34,
-            "chart": "topfreeapplications"
-          },
-          {
-            "appId": "546505307",
-            "name": "Zoom Workplace",
-            "publisher": "Zoom Communications, Inc.",
-            "releaseDate": "2012-08-14T18:33:36-07:00",
-            "category": "ビジネス",
-            "rank": 50,
+            "rank": 22,
             "chart": "topfreeapplications"
           },
           {
@@ -423,7 +534,16 @@
             "publisher": "Microsoft Corporation",
             "releaseDate": "2016-11-02T14:19:53-07:00",
             "category": "ビジネス",
-            "rank": 60,
+            "rank": 30,
+            "chart": "topfreeapplications"
+          },
+          {
+            "appId": "546505307",
+            "name": "Zoom Workplace",
+            "publisher": "Zoom Communications, Inc.",
+            "releaseDate": "2012-08-14T18:33:36-07:00",
+            "category": "ビジネス",
+            "rank": 43,
             "chart": "topfreeapplications"
           }
         ]
@@ -448,20 +568,46 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-07-22T17:24:22-07:00",
+            "feedUpdated": "2026-07-23T05:55:27-07:00",
             "totalEntries": 100,
             "matchCount": 3,
-            "bestRank": 34
+            "bestRank": 22
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-07-22T17:24:24-07:00",
+            "feedUpdated": "2026-07-23T05:55:28-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           }
         ]
-      }
+      },
+      "topItems": [
+        {
+          "name": "Google Meet",
+          "publisher": "Google",
+          "rank": 22,
+          "chart": "topfreeapplications",
+          "appId": "1096918571",
+          "category": "ソーシャルネットワーキング"
+        },
+        {
+          "name": "Microsoft Teams",
+          "publisher": "Microsoft Corporation",
+          "rank": 30,
+          "chart": "topfreeapplications",
+          "appId": "1113153706",
+          "category": "ビジネス"
+        },
+        {
+          "name": "Zoom Workplace",
+          "publisher": "Zoom Communications, Inc.",
+          "rank": 43,
+          "chart": "topfreeapplications",
+          "appId": "546505307",
+          "category": "ビジネス"
+        }
+      ]
     }
   },
   "errors": [],

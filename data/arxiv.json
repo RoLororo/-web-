@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T00:24:25.281Z",
+  "generatedAt": "2026-07-23T12:55:30.263Z",
   "source": "arxiv",
   "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
   "mappingVersion": 1,
@@ -18,25 +18,25 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1983,
+        "volume": 2043,
         "engagement": null,
-        "contributors": 534,
-        "latestActivityAt": "2026-07-21T17:59:21Z"
+        "contributors": 597,
+        "latestActivityAt": "2026-07-22T15:31:28Z"
       },
       "nativeMetrics": {
-        "paperCount": 1983,
-        "uniqueAuthors": 534,
-        "avgAuthorsPerPaper": 5.4,
+        "paperCount": 2043,
+        "uniqueAuthors": 597,
+        "avgAuthorsPerPaper": 6.1,
         "primaryCategoryTop": "cs.AI",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-21T17:59:21Z"
+        "latestPaperPublished": "2026-07-22T15:31:28Z"
       },
       "meta": {
         "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202606230000 TO 202607230000]",
@@ -44,31 +44,73 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+          "url": "http://arxiv.org/abs/2607.20286v1",
+          "publishedAt": "2026-07-22T15:31:28Z",
+          "category": "cs.CL",
+          "authorCount": 4,
+          "firstAuthor": "Mahdi Nazeri"
+        },
+        {
+          "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+          "url": "http://arxiv.org/abs/2607.20268v1",
+          "publishedAt": "2026-07-22T15:20:53Z",
+          "category": "cs.AI",
+          "authorCount": 2,
+          "firstAuthor": "Anmol Kankariya"
+        },
+        {
+          "title": "The Ethics of Autonomous AI Agents for Offensive Security",
+          "url": "http://arxiv.org/abs/2607.20255v1",
+          "publishedAt": "2026-07-22T15:13:15Z",
+          "category": "cs.CR",
+          "authorCount": 3,
+          "firstAuthor": "Andreas Happe"
+        },
+        {
+          "title": "On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens",
+          "url": "http://arxiv.org/abs/2607.20241v1",
+          "publishedAt": "2026-07-22T15:01:10Z",
+          "category": "cs.CL",
+          "authorCount": 2,
+          "firstAuthor": "Yiming Wang"
+        },
+        {
+          "title": "Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis",
+          "url": "http://arxiv.org/abs/2607.20216v1",
+          "publishedAt": "2026-07-22T14:36:10Z",
+          "category": "cs.CR",
+          "authorCount": 3,
+          "firstAuthor": "Adel ElZemity"
+        }
+      ]
     },
     "ai-coding": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 70,
+        "volume": 71,
         "engagement": null,
-        "contributors": 384,
-        "latestActivityAt": "2026-07-21T13:46:52Z"
+        "contributors": 387,
+        "latestActivityAt": "2026-07-22T03:06:45Z"
       },
       "nativeMetrics": {
-        "paperCount": 70,
-        "uniqueAuthors": 384,
-        "avgAuthorsPerPaper": 5.6,
+        "paperCount": 71,
+        "uniqueAuthors": 387,
+        "avgAuthorsPerPaper": 5.5,
         "primaryCategoryTop": "cs.SE",
         "isAuthorsSampled": false,
-        "sampleSize": 70,
-        "latestPaperPublished": "2026-07-21T13:46:52Z"
+        "sampleSize": 71,
+        "latestPaperPublished": "2026-07-22T03:06:45Z"
       },
       "meta": {
         "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202606230000 TO 202607230000]",
@@ -76,31 +118,73 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Bridging Behavior and Implementation: Automated Java Glue Code Generation for Behavior-Driven Development",
+          "url": "http://arxiv.org/abs/2607.19703v1",
+          "publishedAt": "2026-07-22T03:06:45Z",
+          "category": "cs.SE",
+          "authorCount": 3,
+          "firstAuthor": "Xinyu Shi"
+        },
+        {
+          "title": "SciCodePile: A 128GB Corpus and Executable Benchmark for Challenging Scientific Code Generation",
+          "url": "http://arxiv.org/abs/2607.19104v1",
+          "publishedAt": "2026-07-21T13:46:52Z",
+          "category": "cs.SE",
+          "authorCount": 9,
+          "firstAuthor": "Weifeng Sun"
+        },
+        {
+          "title": "TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development",
+          "url": "http://arxiv.org/abs/2607.18886v1",
+          "publishedAt": "2026-07-21T09:14:59Z",
+          "category": "cs.SE",
+          "authorCount": 8,
+          "firstAuthor": "Mingyu Chen"
+        },
+        {
+          "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
+          "url": "http://arxiv.org/abs/2607.18161v1",
+          "publishedAt": "2026-07-20T17:06:19Z",
+          "category": "cs.SE",
+          "authorCount": 7,
+          "firstAuthor": "Alex Mathai"
+        },
+        {
+          "title": "Verify, Repair, Repeat, or Stop? Robust Stopping for Noisy Verify-Repair Loops in LLM Agents",
+          "url": "http://arxiv.org/abs/2607.17641v1",
+          "publishedAt": "2026-07-20T07:52:36Z",
+          "category": "cs.AI",
+          "authorCount": 5,
+          "firstAuthor": "Yitao Wu"
+        }
+      ]
     },
     "ai-content-generation": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 528,
+        "volume": 547,
         "engagement": null,
-        "contributors": 627,
-        "latestActivityAt": "2026-07-21T17:59:12Z"
+        "contributors": 622,
+        "latestActivityAt": "2026-07-22T16:59:23Z"
       },
       "nativeMetrics": {
-        "paperCount": 528,
-        "uniqueAuthors": 627,
+        "paperCount": 547,
+        "uniqueAuthors": 622,
         "avgAuthorsPerPaper": 6.5,
         "primaryCategoryTop": "cs.CV",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-21T17:59:12Z"
+        "latestPaperPublished": "2026-07-22T16:59:23Z"
       },
       "meta": {
         "searchQuery": "cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\") AND submittedDate:[202606230000 TO 202607230000]",
@@ -108,31 +192,73 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Self Gradient Forcing: Native Long Video Extrapolation",
+          "url": "http://arxiv.org/abs/2607.20368v1",
+          "publishedAt": "2026-07-22T16:59:23Z",
+          "category": "cs.CV",
+          "authorCount": 14,
+          "firstAuthor": "Junhao Zhuang"
+        },
+        {
+          "title": "Evolving Cache Schedules for Fast Diffusion Policy Inference",
+          "url": "http://arxiv.org/abs/2607.20293v1",
+          "publishedAt": "2026-07-22T15:40:11Z",
+          "category": "cs.CV",
+          "authorCount": 4,
+          "firstAuthor": "Siying Wang"
+        },
+        {
+          "title": "SHFormer: Dynamic Spectral Filtering Convolutional Neural Network and High-pass Kernel Generation Transformer for Adaptive MRI Reconstruction",
+          "url": "http://arxiv.org/abs/2607.20159v1",
+          "publishedAt": "2026-07-22T13:55:27Z",
+          "category": "cs.CV",
+          "authorCount": 6,
+          "firstAuthor": "Sriprabha Ramanarayanan"
+        },
+        {
+          "title": "HeadCast: Casting Attention Heads for Efficient Autoregressive Video Generation",
+          "url": "http://arxiv.org/abs/2607.20125v1",
+          "publishedAt": "2026-07-22T13:29:35Z",
+          "category": "cs.CV",
+          "authorCount": 7,
+          "firstAuthor": "Jinliang Shen"
+        },
+        {
+          "title": "Importance-Aware OBS Pruning for Diffusion Models",
+          "url": "http://arxiv.org/abs/2607.20048v1",
+          "publishedAt": "2026-07-22T11:42:42Z",
+          "category": "cs.CV",
+          "authorCount": 3,
+          "firstAuthor": "Ba-Thinh Lam"
+        }
+      ]
     },
     "ai-hardware": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 327,
+        "volume": 339,
         "engagement": null,
-        "contributors": 588,
-        "latestActivityAt": "2026-07-21T15:40:58Z"
+        "contributors": 656,
+        "latestActivityAt": "2026-07-22T16:30:51Z"
       },
       "nativeMetrics": {
-        "paperCount": 327,
-        "uniqueAuthors": 588,
-        "avgAuthorsPerPaper": 5.9,
+        "paperCount": 339,
+        "uniqueAuthors": 656,
+        "avgAuthorsPerPaper": 6.6,
         "primaryCategoryTop": "cs.LG",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-21T15:40:58Z"
+        "latestPaperPublished": "2026-07-22T16:30:51Z"
       },
       "meta": {
         "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202606230000 TO 202607230000]",
@@ -140,31 +266,73 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+          "url": "http://arxiv.org/abs/2607.20345v1",
+          "publishedAt": "2026-07-22T16:30:51Z",
+          "category": "cs.RO",
+          "authorCount": 4,
+          "firstAuthor": "Roger Sala Sisó"
+        },
+        {
+          "title": "DQAOA-GPT: AI-Accelerated Distributed Quantum Optimization for Combinatorial Problems",
+          "url": "http://arxiv.org/abs/2607.20225v1",
+          "publishedAt": "2026-07-22T14:46:33Z",
+          "category": "quant-ph",
+          "authorCount": 8,
+          "firstAuthor": "Seongmin Kim"
+        },
+        {
+          "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
+          "url": "http://arxiv.org/abs/2607.20145v1",
+          "publishedAt": "2026-07-22T13:49:17Z",
+          "category": "cs.CL",
+          "authorCount": 65,
+          "firstAuthor": "Dongfang Li"
+        },
+        {
+          "title": "DGNA: Dissecting GPU NUMA Architecture through Microbenchmarking and Data Analysis",
+          "url": "http://arxiv.org/abs/2607.19922v1",
+          "publishedAt": "2026-07-22T08:53:09Z",
+          "category": "cs.AR",
+          "authorCount": 3,
+          "firstAuthor": "Changxi Liu"
+        },
+        {
+          "title": "StrokeSeg2: Stroke Lesion Segmentation in Clinical Research Workflows",
+          "url": "http://arxiv.org/abs/2607.19901v1",
+          "publishedAt": "2026-07-22T08:35:19Z",
+          "category": "cs.CV",
+          "authorCount": 6,
+          "firstAuthor": "Youwan Mahé"
+        }
+      ]
     },
     "infrastructure-outages": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 59,
+        "volume": 61,
         "engagement": null,
-        "contributors": 267,
-        "latestActivityAt": "2026-07-20T08:48:33Z"
+        "contributors": 280,
+        "latestActivityAt": "2026-07-21T19:12:48Z"
       },
       "nativeMetrics": {
-        "paperCount": 59,
-        "uniqueAuthors": 267,
-        "avgAuthorsPerPaper": 4.5,
+        "paperCount": 61,
+        "uniqueAuthors": 280,
+        "avgAuthorsPerPaper": 4.6,
         "primaryCategoryTop": "cs.DC",
         "isAuthorsSampled": false,
-        "sampleSize": 59,
-        "latestPaperPublished": "2026-07-20T08:48:33Z"
+        "sampleSize": 61,
+        "latestPaperPublished": "2026-07-21T19:12:48Z"
       },
       "meta": {
         "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202606230000 TO 202607230000]",
@@ -172,13 +340,55 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework",
+          "url": "http://arxiv.org/abs/2607.19524v1",
+          "publishedAt": "2026-07-21T19:12:48Z",
+          "category": "cs.LG",
+          "authorCount": 11,
+          "firstAuthor": "Akarsh K Nair"
+        },
+        {
+          "title": "BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators",
+          "url": "http://arxiv.org/abs/2607.19438v1",
+          "publishedAt": "2026-07-21T06:42:18Z",
+          "category": "cs.AR",
+          "authorCount": 3,
+          "firstAuthor": "Fabian Waschkowski"
+        },
+        {
+          "title": "Byzantine Fault-Tolerant Post-Quantum Distributed Quorum Signatures",
+          "url": "http://arxiv.org/abs/2607.17700v1",
+          "publishedAt": "2026-07-20T08:48:33Z",
+          "category": "cs.DC",
+          "authorCount": 3,
+          "firstAuthor": "Quentin Kniep"
+        },
+        {
+          "title": "PRISM: Sensitivity-Aware PolynoMial PRuning for EffIcient Neural Network Encryption",
+          "url": "http://arxiv.org/abs/2607.18342v1",
+          "publishedAt": "2026-07-20T05:47:06Z",
+          "category": "cs.CR",
+          "authorCount": 2,
+          "firstAuthor": "Sahaj Majavdia"
+        },
+        {
+          "title": "Cold-Start Model Delivery in Kubernetes Inference Serving: An Empirical Study of OCI-Based Distribution and Its Integrity",
+          "url": "http://arxiv.org/abs/2607.16596v1",
+          "publishedAt": "2026-07-18T02:31:13Z",
+          "category": "cs.DC",
+          "authorCount": 1,
+          "firstAuthor": "Georgii Kliukovkin"
+        }
+      ]
     },
     "security-breach": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -204,31 +414,73 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Adversarial Robustness of Phishing Email Detection: A Comparative Study of TF-IDF + Logistic Regression and Fine-Tuned DistilBERT",
+          "url": "http://arxiv.org/abs/2607.18429v1",
+          "publishedAt": "2026-07-20T18:28:07Z",
+          "category": "cs.CR",
+          "authorCount": 2,
+          "firstAuthor": "Tanveer Ahmed"
+        },
+        {
+          "title": "Shared Vulnerabilities in Robustness-Optimized Defenses: One Breach Exposes the Family",
+          "url": "http://arxiv.org/abs/2607.18339v1",
+          "publishedAt": "2026-07-20T01:17:28Z",
+          "category": "cs.CR",
+          "authorCount": 6,
+          "firstAuthor": "Hanrui Wang"
+        },
+        {
+          "title": "Federated Learning and LLM-Driven Threat Intelligence for Zero Trust IoT Architecture",
+          "url": "http://arxiv.org/abs/2607.17035v1",
+          "publishedAt": "2026-07-19T02:35:24Z",
+          "category": "cs.CR",
+          "authorCount": 2,
+          "firstAuthor": "Amal Alshehri"
+        },
+        {
+          "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+          "url": "http://arxiv.org/abs/2607.11707v2",
+          "publishedAt": "2026-07-13T15:36:19Z",
+          "category": "cs.MA",
+          "authorCount": 3,
+          "firstAuthor": "Ahmed Omar Salim Adnan"
+        },
+        {
+          "title": "Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses",
+          "url": "http://arxiv.org/abs/2607.10392v2",
+          "publishedAt": "2026-07-11T16:44:33Z",
+          "category": "cs.AR",
+          "authorCount": 2,
+          "firstAuthor": "Aziz Alajmi"
+        }
+      ]
     },
     "payment-troubles": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 12,
+        "volume": 13,
         "engagement": null,
-        "contributors": 42,
-        "latestActivityAt": "2026-07-20T08:33:31Z"
+        "contributors": 47,
+        "latestActivityAt": "2026-07-21T19:45:13Z"
       },
       "nativeMetrics": {
-        "paperCount": 12,
-        "uniqueAuthors": 42,
-        "avgAuthorsPerPaper": 3.5,
+        "paperCount": 13,
+        "uniqueAuthors": 47,
+        "avgAuthorsPerPaper": 3.6,
         "primaryCategoryTop": "cs.CR",
         "isAuthorsSampled": false,
-        "sampleSize": 12,
-        "latestPaperPublished": "2026-07-20T08:33:31Z"
+        "sampleSize": 13,
+        "latestPaperPublished": "2026-07-21T19:45:13Z"
       },
       "meta": {
         "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202606230000 TO 202607230000]",
@@ -236,13 +488,55 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments",
+          "url": "http://arxiv.org/abs/2607.19545v1",
+          "publishedAt": "2026-07-21T19:45:13Z",
+          "category": "cs.CR",
+          "authorCount": 5,
+          "firstAuthor": "Qinying Wang"
+        },
+        {
+          "title": "A Decision-Centered Reference Architecture for Trustworthy Agentic Commerce",
+          "url": "http://arxiv.org/abs/2607.18347v1",
+          "publishedAt": "2026-07-20T08:33:31Z",
+          "category": "cs.SE",
+          "authorCount": 1,
+          "firstAuthor": "Dimitrios S. Sfiris"
+        },
+        {
+          "title": "SpexPay: A Privacy-Preserving Pay-As-You-Go System for Dynamic Spectrum Sharing",
+          "url": "http://arxiv.org/abs/2607.17218v1",
+          "publishedAt": "2026-07-19T12:20:51Z",
+          "category": "cs.CR",
+          "authorCount": 8,
+          "firstAuthor": "Mohaimin Al Barat"
+        },
+        {
+          "title": "How Agentic Is Agentic Commerce? A Population-Scale Measurement of x402 Adoption and Authenticity",
+          "url": "http://arxiv.org/abs/2607.12575v1",
+          "publishedAt": "2026-07-14T09:47:56Z",
+          "category": "cs.CR",
+          "authorCount": 4,
+          "firstAuthor": "Shengchen Ling"
+        },
+        {
+          "title": "TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems",
+          "url": "http://arxiv.org/abs/2607.09528v1",
+          "publishedAt": "2026-07-10T15:36:13Z",
+          "category": "cs.LG",
+          "authorCount": 3,
+          "firstAuthor": "Refat Ishrak Hemel"
+        }
+      ]
     },
     "home-server-selfhost": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -268,13 +562,47 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "EdgeFaaS: A Function-based Framework for Edge Computing",
+          "url": "http://arxiv.org/abs/2607.14489v1",
+          "publishedAt": "2026-07-16T02:05:46Z",
+          "category": "cs.DC",
+          "authorCount": 5,
+          "firstAuthor": "Neha Vadnere"
+        },
+        {
+          "title": "EcoKube: Simulating Carbon-Aware Scheduling Policies in Heterogeneous Edge-Cloud Environments",
+          "url": "http://arxiv.org/abs/2607.09318v1",
+          "publishedAt": "2026-07-10T11:57:42Z",
+          "category": "cs.DC",
+          "authorCount": 2,
+          "firstAuthor": "Gonçalo Ferreira"
+        },
+        {
+          "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
+          "url": "http://arxiv.org/abs/2607.01088v1",
+          "publishedAt": "2026-07-01T15:45:08Z",
+          "category": "cs.RO",
+          "authorCount": 8,
+          "firstAuthor": "Wenqi Jiang"
+        },
+        {
+          "title": "SubEdge: A Subscriber-Centric Edge Computing Subsystem in 6G Networks for AI",
+          "url": "http://arxiv.org/abs/2606.30554v1",
+          "publishedAt": "2026-06-29T16:49:58Z",
+          "category": "cs.NI",
+          "authorCount": 3,
+          "firstAuthor": "Abdirazak Ali Asir Rage"
+        }
+      ]
     },
     "remote-work": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -300,13 +628,55 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Remote Work: Driver or Deterrent of Digital Product Innovation",
+          "url": "http://arxiv.org/abs/2607.03718v1",
+          "publishedAt": "2026-07-04T05:49:23Z",
+          "category": "econ.EM",
+          "authorCount": 3,
+          "firstAuthor": "Fangchen Song"
+        },
+        {
+          "title": "Remote work expands pathways to upward career mobility",
+          "url": "http://arxiv.org/abs/2605.01268v1",
+          "publishedAt": "2026-05-02T05:58:15Z",
+          "category": "econ.GN",
+          "authorCount": 2,
+          "firstAuthor": "Yunhan Zheng"
+        },
+        {
+          "title": "Bootstrapping with AI/ML-generated labels",
+          "url": "http://arxiv.org/abs/2604.23770v1",
+          "publishedAt": "2026-04-26T15:48:03Z",
+          "category": "econ.EM",
+          "authorCount": 3,
+          "firstAuthor": "Timothy Christensen"
+        },
+        {
+          "title": "Can Humans Detect AI? Mining Textual Signals of AI-Assisted Writing Under Varying Scrutiny Conditions",
+          "url": "http://arxiv.org/abs/2604.23471v1",
+          "publishedAt": "2026-04-25T23:34:44Z",
+          "category": "cs.HC",
+          "authorCount": 1,
+          "firstAuthor": "Daniel Tabach"
+        },
+        {
+          "title": "From Core to Periphery? Assessing Remote Works Potential to Rebalance EU Regional Development",
+          "url": "http://arxiv.org/abs/2604.08252v1",
+          "publishedAt": "2026-04-09T13:42:21Z",
+          "category": "econ.GN",
+          "authorCount": 1,
+          "firstAuthor": "Sławomir Kuźmar"
+        }
+      ]
     },
     "senior-health": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -332,31 +702,73 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "From Operations to Elderly Care Outcomes: A Thematic Review of Industrial Engineering and Decision-Support Approaches",
+          "url": "http://arxiv.org/abs/2607.19075v1",
+          "publishedAt": "2026-07-21T13:07:28Z",
+          "category": "math.OC",
+          "authorCount": 2,
+          "firstAuthor": "Shayan Farhang Pazhooh"
+        },
+        {
+          "title": "Caring Over Computing: An Ethical and Sociotechnical Perspective on Generative AI for Social Connectedness in Dementia Care",
+          "url": "http://arxiv.org/abs/2607.19007v1",
+          "publishedAt": "2026-07-21T11:44:43Z",
+          "category": "cs.HC",
+          "authorCount": 4,
+          "firstAuthor": "Teis Arets"
+        },
+        {
+          "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+          "url": "http://arxiv.org/abs/2607.18149v1",
+          "publishedAt": "2026-07-20T16:49:30Z",
+          "category": "cs.LG",
+          "authorCount": 3,
+          "firstAuthor": "Shyamal Y. Dharia"
+        },
+        {
+          "title": "Ageing in which place? Spatial analytical framework for evaluating ageing-in-place practices",
+          "url": "http://arxiv.org/abs/2607.17649v1",
+          "publishedAt": "2026-07-20T08:03:22Z",
+          "category": "econ.GN",
+          "authorCount": 4,
+          "firstAuthor": "Yong Tu"
+        },
+        {
+          "title": "Calibrated Alzheimer's Conversion Risk in Mild Cognitive Impairment: Persistent Homology of Clinical Trajectories with Conformal Guarantees",
+          "url": "http://arxiv.org/abs/2607.17442v1",
+          "publishedAt": "2026-07-20T00:00:17Z",
+          "category": "cs.LG",
+          "authorCount": 1,
+          "firstAuthor": "Navin Bondade"
+        }
+      ]
     },
     "ai-regulation": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-23T00:24:25.281Z",
+      "fetchedAt": "2026-07-23T12:55:30.263Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1176,
+        "volume": 1178,
         "engagement": null,
         "contributors": 486,
-        "latestActivityAt": "2026-07-21T17:02:37Z"
+        "latestActivityAt": "2026-07-22T17:10:23Z"
       },
       "nativeMetrics": {
-        "paperCount": 1176,
+        "paperCount": 1178,
         "uniqueAuthors": 486,
         "avgAuthorsPerPaper": 5.4,
         "primaryCategoryTop": "cs.CY",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-21T17:02:37Z"
+        "latestPaperPublished": "2026-07-22T17:10:23Z"
       },
       "meta": {
         "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202606230000 TO 202607230000]",
@@ -364,7 +776,49 @@
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
-      }
+      },
+      "topItems": [
+        {
+          "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+          "url": "http://arxiv.org/abs/2607.20379v1",
+          "publishedAt": "2026-07-22T17:10:23Z",
+          "category": "cs.AI",
+          "authorCount": 1,
+          "firstAuthor": "Hiskias Dingeto"
+        },
+        {
+          "title": "The Ethics of Autonomous AI Agents for Offensive Security",
+          "url": "http://arxiv.org/abs/2607.20255v1",
+          "publishedAt": "2026-07-22T15:13:15Z",
+          "category": "cs.CR",
+          "authorCount": 3,
+          "firstAuthor": "Andreas Happe"
+        },
+        {
+          "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
+          "url": "http://arxiv.org/abs/2607.19292v1",
+          "publishedAt": "2026-07-21T17:02:37Z",
+          "category": "cs.CY",
+          "authorCount": 2,
+          "firstAuthor": "Gjergji Kasneci"
+        },
+        {
+          "title": "AI-Powered Browsers Are Broadly Accurate News Summarizers That Reduce Political Bias and Negative Affect",
+          "url": "http://arxiv.org/abs/2607.18931v1",
+          "publishedAt": "2026-07-21T10:12:38Z",
+          "category": "cs.CY",
+          "authorCount": 6,
+          "firstAuthor": "Yan Xia"
+        },
+        {
+          "title": "Intelligent Cause Prioritisation? An Analysis of AI Policy Priorities and Governance in Africa",
+          "url": "http://arxiv.org/abs/2607.18459v1",
+          "publishedAt": "2026-07-20T19:16:39Z",
+          "category": "cs.CY",
+          "authorCount": 2,
+          "firstAuthor": "Osaremen Iluobe"
+        }
+      ]
     }
   },
   "errors": []
