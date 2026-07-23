@@ -10,6 +10,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { loadAllTimeseries, computeAllDiffs } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
+import { sourceDisplay } from '../services/sourceCatalog.js';
 
 export default function TodaysMovers() {
   const [allSeries, setAllSeries] = useState(null);
@@ -68,7 +69,7 @@ export default function TodaysMovers() {
               <div className="mover-body">
                 <div className="mover-title">{themeMeta[m.themeId]?.title || m.themeId}</div>
                 <div className="mover-meta">
-                  <span className="mover-src">{m.source}</span>
+                  <span className="mover-src">{sourceDisplay(m.source)}</span>
                   <span className="mover-val">
                     {m.previous.toLocaleString()} → {m.current.toLocaleString()}
                   </span>
@@ -93,7 +94,7 @@ export default function TodaysMovers() {
               <div className="mover-body">
                 <div className="mover-title">{themeMeta[m.themeId]?.title || m.themeId}</div>
                 <div className="mover-meta">
-                  <span className="mover-src">{m.source}</span>
+                  <span className="mover-src">{sourceDisplay(m.source)}</span>
                   <span className="mover-val">
                     {m.previous.toLocaleString()} → {m.current.toLocaleString()}
                   </span>

@@ -340,6 +340,43 @@ export function newlyAppearedMetrics(allSeries) {
 }
 
 /**
+ * 履歴の「深さ」= current 内の distinct 日数 (最大値)。
+ * UI が「7 日/30 日セレクタを出すか」を判定するのに使う。
+ * 例: 履歴 2 日しかない場合、7 日セレクタは無意味なので隠す。
+ */
+export function historyDepthDays(allSeries) {
+  const dateSet = new Set();
+  for (const records of Object.values(allSeries || {})) {
+    for (const rec of records) if (rec && rec.date) dateSet.add(rec.date);
+  }
+  return dateSet.size;
+}
+
+/**
+ * 1 テーマの「最新 vs 1 日前 (or 直前 record)」で、最も動いた
+ * (source, metric) を 1 つだけ返す。DemandCard の badge 用。
+ * 戻り値: { source, metric, delta, pctChange, current, previous } or null
+ */
+export function biggestMoverOfTheme(records) {
+  if (!records || records.length < 2) return null;
+  const current = records[records.length - 1];
+  const previous = records[records.length - 2];
+  const diff = diffRecords(current, previous);
+  let best = null;
+  for (const [key, v] of Object.entries(diff)) {
+    // metrics/volume に絞る (共通スケール指標)
+    const [source, metric] = key.split('.');
+    if (metric !== 'volume') continue;
+    if (v.previous === 0) continue; // 0 除算避け
+    if (!isFinite(v.pctChange)) continue;
+    if (!best || Math.abs(v.pctChange) > Math.abs(best.pctChange)) {
+      best = { source, metric, ...v };
+    }
+  }
+  return best;
+}
+
+/**
  * index.json の themes[] から日次更新件数を集計。
  * = テーマ×日ごとにレコードが 1 個増えるので、日別の書き込み件数を返す。
  * ただし直接には index からは取れない。allSeries から集計する。

@@ -7,8 +7,14 @@ import Sparkline from './Sparkline.jsx';
 import StatusBadge from './StatusBadge.jsx';
 import AnimatedNumber from './AnimatedNumber.jsx';
 import { changeClass, formatChange, timeAgo } from '../utils/format.js';
+import { sourceDisplay } from '../services/sourceCatalog.js';
 
-export default function DemandCard({ demand, rank, index = 0 }) {
+/**
+ * historyMove (optional): { source, metric, pctChange, delta, current, previous }
+ *   親から渡す。history から算出した「このテーマで今日最も動いた metric」。
+ *   未指定なら何も表示しない (履歴なし・浅い履歴時のフォールバック)。
+ */
+export default function DemandCard({ demand, rank, index = 0, historyMove = null }) {
   const nav = useNavigate();
   const sparkColor =
     demand.change > 0 ? 'var(--green-bright)' :
@@ -33,6 +39,17 @@ export default function DemandCard({ demand, rank, index = 0 }) {
           <StatusBadge status={demand.status} />
           <span className="dot" />
           <span>{timeAgo(demand.updatedAt)}更新</span>
+          {historyMove && isFinite(historyMove.pctChange) && (
+            <>
+              <span className="dot" />
+              <span
+                className={`today-move ${historyMove.pctChange >= 0 ? 'up' : 'down'}`}
+                title={`${sourceDisplay(historyMove.source)} の ${historyMove.metric}: ${historyMove.previous.toLocaleString()} → ${historyMove.current.toLocaleString()}`}
+              >
+                今日 {historyMove.pctChange >= 0 ? '+' : ''}{historyMove.pctChange.toFixed(0)}% ({sourceDisplay(historyMove.source)})
+              </span>
+            </>
+          )}
         </div>
         <div className="demand-summary">{demand.summary}</div>
       </div>

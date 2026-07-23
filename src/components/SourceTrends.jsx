@@ -8,27 +8,8 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { loadTimeseries, flattenMetrics } from '../services/historyService.js';
+import { sourceDisplay, sourceColor, sourceUnit, sourceIsUnstable, metricLabel } from '../services/sourceCatalog.js';
 import Sparkline from './Sparkline.jsx';
-
-const METRIC_LABELS = {
-  volume:           '量 (volume)',
-  engagement:       '反応 (engagement)',
-  contributors:     '関与者 (contributors)',
-};
-
-const SOURCE_LABELS = {
-  qiita:     'Qiita 記事',
-  wikipedia: 'Wikipedia PV',
-  appstore:  'App Store ランク観測',
-  arxiv:     'arXiv 論文',
-};
-
-const SOURCE_COLOR = {
-  qiita:     'var(--green-bright)',
-  wikipedia: '#7c9bff',
-  appstore:  '#ff9c66',
-  arxiv:     '#c58aff',
-};
 
 export default function SourceTrends({ themeId }) {
   const [records, setRecords] = useState(null);
@@ -69,7 +50,7 @@ export default function SourceTrends({ themeId }) {
         if (values.length === 0) continue;
         seriesArr.push({
           metricKey: mk,
-          label: METRIC_LABELS[mk] || mk,
+          label: metricLabel(mk),
           values,
           last: values[values.length - 1],
         });
@@ -105,9 +86,15 @@ export default function SourceTrends({ themeId }) {
           <div className="source-trends-name">
             <span
               className="source-trends-dot"
-              style={{ background: SOURCE_COLOR[src] || 'var(--text-3)' }}
+              style={{ background: sourceColor(src) }}
             />
-            {SOURCE_LABELS[src] || src}
+            {sourceDisplay(src)}
+            <span className="source-trends-unit">({sourceUnit(src)})</span>
+            {sourceIsUnstable(src) && (
+              <span className="source-trends-warn" title="このソースの volume は日ごとに大きく変動する既知の性質があります (Wikipedia の PV 集計は記事欠損の影響を受けやすい)">
+                ⚠ 値変動大
+              </span>
+            )}
           </div>
           <div className="source-trends-grid">
             {seriesBySource[src]?.map((s) => (
@@ -118,7 +105,7 @@ export default function SourceTrends({ themeId }) {
                 </div>
                 <div className="source-trends-cell-spark">
                   {s.values.length >= 2 ? (
-                    <Sparkline data={s.values} color={SOURCE_COLOR[src]} />
+                    <Sparkline data={s.values} color={sourceColor(src)} />
                   ) : (
                     <div className="source-trends-single">1 日のみ (グラフ待ち)</div>
                   )}

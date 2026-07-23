@@ -2296,3 +2296,64 @@ select.select:focus {
 @media (max-width: 720px) {
   .movers-grid { grid-template-columns: 1fr; }
 }
+
+/* ==========================================================================
+   Phase 2c: today-move badge, chip-hint, source-trends-warn (追加スタイル)
+   ========================================================================== */
+
+/* --- DemandCard today-move badge --------------------------------------- */
+
+.today-move {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+  border: 1px solid transparent;
+  cursor: help;
+}
+.today-move.up   {
+  color: var(--green-bright);
+  background: rgba(80, 200, 120, 0.10);
+  border-color: rgba(80, 200, 120, 0.25);
+}
+.today-move.down {
+  color: var(--red);
+  background: rgba(255, 100, 100, 0.10);
+  border-color: rgba(255, 100, 100, 0.25);
+}
+
+/* --- Rankings / Changes: 履歴浅い時のヒント --------------------------- */
+
+.chip-hint {
+  font-size: 11px;
+  color: var(--text-3);
+  padding-left: 6px;
+  font-style: italic;
+}
+
+/* --- SourceTrends: legacy 不安定警告 ---------------------------------- */
+
+.source-trends-unit {
+  font-size: 11px;
+  color: var(--text-3);
+  margin-left: 4px;
+}
+.source-trends-warn {
+  font-size: 10px;
+  color: var(--text-2);
+  background: rgba(255, 200, 100, 0.14);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  cursor: help;
+  border: 1px solid rgba(255, 200, 100, 0.3);
+}
+
+/* --- WhatsNew: raw source id 表記 ------------------------------------- */
+
+.wn-source-id, .wn-catalog-raw {
+  font-size: 11px;
+  color: var(--text-3);
+  font-family: var(--font-mono, monospace);
+  font-weight: 400;
+}

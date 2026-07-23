@@ -13,8 +13,10 @@ import { Link } from 'react-router-dom';
 import {
   loadAllTimeseries,
   diffRecords,
+  historyDepthDays,
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
+import { sourceDisplay } from '../services/sourceCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 const WINDOWS = [
@@ -95,6 +97,14 @@ export default function Changes() {
   }, [allSeries, windowDays]);
 
   const noData = diffs && diffs.length === 0;
+  const depth  = useMemo(() => allSeries ? historyDepthDays(allSeries) : 0, [allSeries]);
+  const shallow = depth < 4;
+  const veryShallow = depth < 8;
+  const visibleWindows = WINDOWS.filter((w) => {
+    if (w.key === 30 && veryShallow) return false;
+    if (w.key === 7  && shallow)     return false;
+    return true;
+  });
 
   return (
     <div className="container changes-page">
@@ -108,7 +118,7 @@ export default function Changes() {
       </section>
 
       <div className="changes-toolbar">
-        {WINDOWS.map((w) => (
+        {visibleWindows.map((w) => (
           <button
             key={w.key}
             className={`chip-btn ${windowDays === w.key ? 'active' : ''}`}
@@ -117,6 +127,11 @@ export default function Changes() {
             {w.label}
           </button>
         ))}
+        {shallow && (
+          <span className="chip-hint">
+            履歴 {depth} 日のみ蓄積中 (長期比較は数日後に有効化)
+          </span>
+        )}
       </div>
 
       {!diffs && <div className="loading-hint">履歴を読み込み中…</div>}
@@ -151,7 +166,7 @@ export default function Changes() {
                       const [source, metric] = key.split('.');
                       return (
                         <tr key={key}>
-                          <td className="changes-src">{source}</td>
+                          <td className="changes-src">{sourceDisplay(source)}</td>
                           <td className="changes-metric">{metric}</td>
                           <td className="changes-prev">{val.previous.toLocaleString()}</td>
                           <td className="changes-arrow">→</td>

@@ -2,7 +2,7 @@
 // Home — ランキング + 急上昇 + 分野フィルタ
 // ============================================================================
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import DemandCard from '../components/DemandCard.jsx';
 import CategoryFilter from '../components/CategoryFilter.jsx';
@@ -12,6 +12,7 @@ import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import AccumulationBanner from '../components/AccumulationBanner.jsx';
 import TodaysMovers from '../components/TodaysMovers.jsx';
 import { getDemands, getTrendingDemands } from '../services/demandService.js';
+import { loadAllTimeseries, biggestMoverOfTheme } from '../services/historyService.js';
 import { changeClass, formatChange } from '../utils/format.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
@@ -22,6 +23,23 @@ export default function Home() {
 
   const allDemands = useMemo(() => getDemands(), []);
   const trending = useMemo(() => getTrendingDemands(4), []);
+
+  // history 由来: 各テーマの「今日最も動いた metric」を DemandCard に渡す
+  // 履歴 2 日未満なら empty オブジェクト、UI 側は null プロップとして無視される
+  const [historyMovers, setHistoryMovers] = useState({}); // { themeId: {source,metric,pctChange,...} }
+  useEffect(() => {
+    let cancelled = false;
+    loadAllTimeseries().then((all) => {
+      if (cancelled) return;
+      const out = {};
+      for (const [themeId, records] of Object.entries(all)) {
+        const mover = biggestMoverOfTheme(records);
+        if (mover) out[themeId] = mover;
+      }
+      setHistoryMovers(out);
+    });
+    return () => { cancelled = true; };
+  }, []);
 
   const filtered = category
     ? allDemands.filter((d) => d.category === category)
@@ -137,7 +155,7 @@ export default function Home() {
 
         <div className="card-list">
           {filtered.map((d, i) => (
-            <DemandCard key={d.id} demand={d} rank={i + 1} index={i} />
+            <DemandCard key={d.id} demand={d} rank={i + 1} index={i} historyMove={historyMovers[d.id] || null} />
           ))}
           {filtered.length === 0 && (
             <div className="empty">

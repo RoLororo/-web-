@@ -19,6 +19,7 @@ import {
   dailyActivity,
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
+import { sourceDisplay } from '../services/sourceCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 export default function WhatsNew() {
@@ -92,7 +93,7 @@ export default function WhatsNew() {
           <ul className="wn-source-list">
             {recentSources.map((s) => (
               <li key={s.id} className="wn-source-item">
-                <div className="wn-source-name">{s.id}</div>
+                <div className="wn-source-name">{sourceDisplay(s.id)} <span className="wn-source-id">({s.id})</span></div>
                 <div className="wn-source-date">初出: {s.firstSeenDate}</div>
                 <div className="wn-source-metrics">
                   metrics: {(s.metricsKeys || []).join(', ')}
@@ -125,7 +126,7 @@ export default function WhatsNew() {
                 <Link to={`/demand/${m.themeId}`} className="wn-metric-link">
                   {themeMeta[m.themeId]?.title || m.themeId}
                 </Link>
-                <span className="wn-metric-src">{m.source}</span>
+                <span className="wn-metric-src">{sourceDisplay(m.source)}</span>
                 <span className="wn-metric-name">{m.metric}</span>
                 <span className="wn-metric-val">
                   {typeof m.value === 'number' ? m.value.toLocaleString() : String(m.value)}
@@ -144,7 +145,7 @@ export default function WhatsNew() {
           <ul className="wn-catalog-list">
             {index.sources.map((s) => (
               <li key={s.id} className="wn-catalog-item">
-                <span className="wn-catalog-id">{s.id}</span>
+                <span className="wn-catalog-id">{sourceDisplay(s.id)} <span className="wn-catalog-raw">({s.id})</span></span>
                 <span className="wn-catalog-since">since {s.firstSeenDate}</span>
                 <span className="wn-catalog-envver"><code>{s.envelopeVersion || '—'}</code></span>
               </li>

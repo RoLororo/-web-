@@ -15,8 +15,10 @@ import {
   loadIndex,
   computeAllDiffs,
   computeCurrentValues,
+  historyDepthDays,
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
+import { sourceDisplay } from '../services/sourceCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 const TABS = [
@@ -59,6 +61,12 @@ export default function Rankings() {
     if (!index || !index.sources) return [];
     return index.sources.map((s) => s.id).sort();
   }, [index]);
+
+  const depth = useMemo(() => allSeries ? historyDepthDays(allSeries) : 0, [allSeries]);
+  // 履歴が 4 日未満なら 7 日/30 日の window は無意味 (全て同じ結果を返す)
+  const shallow = depth < 4;
+  // 履歴が 8 日未満なら 30 日 window は無意味
+  const veryShallow = depth < 8;
 
   const rows = useMemo(() => {
     if (!allSeries) return null;
@@ -118,7 +126,12 @@ export default function Rankings() {
         {tab !== 'volume' && (
           <div className="chip-row">
             <span className="chip-label">期間:</span>
-            {WINDOWS.map((w) => (
+            {WINDOWS.filter((w) => {
+              // 履歴が浅いときは意味のある選択肢だけ出す
+              if (w.key === 30 && veryShallow) return false;
+              if (w.key === 7  && shallow)     return false;
+              return true;
+            }).map((w) => (
               <button
                 key={w.key}
                 className={`chip-btn small ${windowDays === w.key ? 'active' : ''}`}
@@ -127,6 +140,11 @@ export default function Rankings() {
                 {w.label}
               </button>
             ))}
+            {shallow && (
+              <span className="chip-hint">
+                履歴 {depth} 日のみ蓄積中 (7 日 / 30 日は数日後に有効化)
+              </span>
+            )}
           </div>
         )}
         <div className="chip-row">
@@ -143,7 +161,7 @@ export default function Rankings() {
               className={`chip-btn small ${sourceFilter === s ? 'active' : ''}`}
               onClick={() => setSourceFilter(s)}
             >
-              {s}
+              {sourceDisplay(s)}
             </button>
           ))}
         </div>
@@ -166,7 +184,7 @@ export default function Rankings() {
                   <Link to={`/demand/${r.themeId}`} className="rank-title">
                     {themeMeta[r.themeId]?.title || r.themeId}
                   </Link>
-                  <span className="rank-source">{r.source}</span>
+                  <span className="rank-source">{sourceDisplay(r.source)}</span>
                   <span className="rank-metric">{r.metric}</span>
                 </div>
                 <div className="rank-line-2">
