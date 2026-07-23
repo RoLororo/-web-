@@ -1,10 +1,42 @@
 {
-  "generatedAt": "2026-07-22T00:11:19.792Z",
-  "totalArticles": 255,
+  "generatedAt": "2026-07-23T00:21:28.997Z",
+  "totalArticles": 330,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
   "candidates": [
+    {
+      "id": "ai-business-automation",
+      "theme": "AI業務自動化",
+      "summary": "AIを使って業務や作業を自動化・効率化したい需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "Claude",
+        "活用",
+        " AI",
+        "LLM",
+        "ChatGPT",
+        "生成AI"
+      ],
+      "evidenceArticleIds": [
+        "8d14857a40a4884e",
+        "b9518240141c2f25",
+        "3924def162eedd37",
+        "62362f8e0232e2b9",
+        "ef4c3e3584ef4256",
+        "ecb92cdc1d651134",
+        "fc2b057114879075",
+        "ebf16c0d6b88f915",
+        "8f21f44283dbbd68",
+        "4c7a70c2142235c3",
+        "8bf578f7eebdd318",
+        "5e4f185e204b1a85",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 13,
+      "confidence": 0.9,
+      "reason": "11 種類のキーワードが 13 件の記事でヒット（例：Claude、活用、 AI）"
+    },
     {
       "id": "infrastructure-outages",
       "theme": "システム障害・可用性への関心",
@@ -12,13 +44,14 @@
       "category": "ビジネス",
       "relatedKeywords": [
         "障害",
-        "影響",
         "復旧",
+        "影響",
         "システム",
         "サービス",
         "AWS"
       ],
       "evidenceArticleIds": [
+        "5364b956c670e858",
         "0bcf86b668654cd1",
         "f2543dd7d048e207",
         "f968a3171e579c47",
@@ -32,39 +65,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 12,
+      "evidenceArticleCount": 13,
       "confidence": 0.95,
-      "reason": "11 種類のキーワードが 12 件の記事でヒット（例：障害、影響、復旧）"
-    },
-    {
-      "id": "ai-business-automation",
-      "theme": "AI業務自動化",
-      "summary": "AIを使って業務や作業を自動化・効率化したい需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "Claude",
-        " AI",
-        "活用",
-        "LLM",
-        "生成AI",
-        "自動化"
-      ],
-      "evidenceArticleIds": [
-        "b9518240141c2f25",
-        "3924def162eedd37",
-        "ef4c3e3584ef4256",
-        "ecb92cdc1d651134",
-        "fc2b057114879075",
-        "ebf16c0d6b88f915",
-        "8f21f44283dbbd68",
-        "4c7a70c2142235c3",
-        "8bf578f7eebdd318",
-        "5e4f185e204b1a85",
-        "37cf43d81fe7cb8c"
-      ],
-      "evidenceArticleCount": 11,
-      "confidence": 0.88,
-      "reason": "10 種類のキーワードが 11 件の記事でヒット（例：Claude、 AI、活用）"
+      "reason": "11 種類のキーワードが 13 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "ai-coding",
@@ -77,9 +80,10 @@
         "codex",
         "エンジニア",
         "コーディング",
-        "レビュー"
+        "CI"
       ],
       "evidenceArticleIds": [
+        "7e9d11fc61986cb6",
         "b9518240141c2f25",
         "71fe0f416c0f5fbb",
         "3924def162eedd37",
@@ -90,9 +94,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 9,
-      "confidence": 0.91,
-      "reason": "10 種類のキーワードが 9 件の記事でヒット（例：Claude Code、開発、codex）"
+      "evidenceArticleCount": 10,
+      "confidence": 0.93,
+      "reason": "11 種類のキーワードが 10 件の記事でヒット（例：Claude Code、開発、codex）"
     },
     {
       "id": "security-breach",
@@ -102,12 +106,16 @@
       "relatedKeywords": [
         "サイバー攻撃",
         "ランサム",
+        "被害",
         "情報",
-        "セキュリティ",
-        "不正アクセス",
-        "個人情報"
+        "漏えい",
+        "セキュリティ"
       ],
       "evidenceArticleIds": [
+        "287c16c07dd20372",
+        "1d5b3a6d3eb3c092",
+        "5364b956c670e858",
+        "ccef449a4687fc7a",
         "0bcf86b668654cd1",
         "f968a3171e579c47",
         "f28951ad7868357f",
@@ -115,9 +123,9 @@
         "b778b7551fcdb609",
         "31931e12804789ed"
       ],
-      "evidenceArticleCount": 6,
-      "confidence": 0.8,
-      "reason": "9 種類のキーワードが 6 件の記事でヒット（例：サイバー攻撃、ランサム、情報）"
+      "evidenceArticleCount": 10,
+      "confidence": 0.96,
+      "reason": "10 種類のキーワードが 10 件の記事でヒット（例：サイバー攻撃、ランサム、被害）"
     },
     {
       "id": "payment-troubles",
@@ -140,7 +148,7 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.7,
+      "confidence": 0.69,
       "reason": "8 種類のキーワードが 5 件の記事でヒット（例：決済、クレカ、PayPay）"
     },
     {
@@ -162,7 +170,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.55,
+      "confidence": 0.54,
       "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
@@ -173,19 +181,41 @@
       "relatedKeywords": [
         "在宅勤務",
         "勤務",
-        "GMO",
         "在宅",
-        "出社",
-        "働き方"
+        "GMO",
+        "リモートワーク",
+        "出社"
       ],
       "evidenceArticleIds": [
+        "8158530a5b2fcdf5",
         "cfacabae3454f108",
         "a0e18065c53c6793",
         "472460af87eb05ce"
       ],
+      "evidenceArticleCount": 4,
+      "confidence": 0.67,
+      "reason": "7 種類のキーワードが 4 件の記事でヒット（例：在宅勤務、勤務、在宅）"
+    },
+    {
+      "id": "ai-regulation",
+      "theme": "AI規制・安全性・プライバシー",
+      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "AI",
+        "規制",
+        "安全性",
+        "プライバシー",
+        "欧州委員会"
+      ],
+      "evidenceArticleIds": [
+        "4bf8f55cb8457c0e",
+        "653519ff37ac720c",
+        "1c3d73cfafe83c4f"
+      ],
       "evidenceArticleCount": 3,
-      "confidence": 0.57,
-      "reason": "6 種類のキーワードが 3 件の記事でヒット（例：在宅勤務、勤務、GMO）"
+      "confidence": 0.51,
+      "reason": "5 種類のキーワードが 3 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "home-server-selfhost",
@@ -205,7 +235,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 2,
-      "confidence": 0.47,
+      "confidence": 0.46,
       "reason": "6 種類のキーワードが 2 件の記事でヒット（例：サーバ、自宅、サーバー）"
     },
     {
@@ -224,26 +254,8 @@
         "e2193fce8f746f0f"
       ],
       "evidenceArticleCount": 2,
-      "confidence": 0.46,
+      "confidence": 0.45,
       "reason": "4 種類のキーワードが 2 件の記事でヒット（例：高齢者、ボケ、認知症）"
-    },
-    {
-      "id": "ai-regulation",
-      "theme": "AI規制・安全性・プライバシー",
-      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "安全性",
-        "プライバシー",
-        "AI",
-        "欧州委員会"
-      ],
-      "evidenceArticleIds": [
-        "1c3d73cfafe83c4f"
-      ],
-      "evidenceArticleCount": 1,
-      "confidence": 0.34,
-      "reason": "4 種類のキーワードが 1 件の記事でヒット（例：安全性、プライバシー、AI）"
     }
   ]
 }
