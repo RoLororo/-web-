@@ -1183,6 +1183,422 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 /* --------------------------------------------------------------------------
+   FavoritesStrip — Home のお気に入りタイル群
+   -------------------------------------------------------------------------- */
+
+.fav-strip-empty {
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+.fav-strip-empty-body {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+}
+.fav-strip-empty-icon {
+  font-size: 24px;
+  color: var(--text-3);
+  line-height: 1;
+}
+.fav-strip-empty-head {
+  font-size: 13.5px;
+  color: var(--text-2);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.fav-strip-empty-desc {
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.fav-tile-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.fav-tile {
+  display: block;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s var(--ease), transform 0.15s var(--ease);
+}
+.fav-tile:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+.fav-tile-cat {
+  font-size: 10.5px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+.fav-tile-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.fav-tile-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+}
+.fav-tile-score {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  color: var(--text-3);
+}
+.fav-tile-score-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.fav-tile-score-val {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.fav-tile-move {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+.fav-tile-move.up   {
+  color: var(--green-bright);
+  background: color-mix(in oklab, var(--green-bright) 10%, transparent);
+  border-color: color-mix(in oklab, var(--green-bright) 25%, transparent);
+}
+.fav-tile-move.down {
+  color: var(--red);
+  background: color-mix(in oklab, var(--red) 10%, transparent);
+  border-color: color-mix(in oklab, var(--red) 25%, transparent);
+}
+.fav-tile-move.flat {
+  color: var(--text-3);
+  font-weight: 400;
+}
+.fav-tile-move-src {
+  color: var(--text-3);
+  font-weight: 400;
+  font-size: 10.5px;
+  margin-left: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   SinceLastVisit — Home 上部の「前回訪問から」リボン
+   -------------------------------------------------------------------------- */
+
+.since-last-visit {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 20px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  transition: border-color 0.2s var(--ease), background 0.2s var(--ease);
+}
+.since-last-visit.active {
+  border-color: color-mix(in oklab, var(--green-bright) 40%, var(--border));
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--green-bright) 6%, var(--card)) 0%,
+    var(--card) 60%
+  );
+}
+.since-last-visit.welcome {
+  border-color: color-mix(in oklab, var(--green-bright) 30%, var(--border));
+}
+.since-last-visit .slv-icon {
+  font-size: 22px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.since-last-visit .slv-body {
+  flex: 1;
+  min-width: 0;
+}
+.since-last-visit .slv-head {
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+.since-last-visit .slv-head b {
+  color: var(--green-bright);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.since-last-visit .slv-desc {
+  font-size: 12.5px;
+  color: var(--text-3);
+  line-height: 1.5;
+}
+.slv-top {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+.slv-top li { display: inline-flex; }
+.slv-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-2);
+  font-size: 12px;
+  text-decoration: none;
+  transition: border-color 0.15s var(--ease), color 0.15s var(--ease);
+}
+.slv-item:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+.slv-item-title { font-weight: 500; }
+.slv-item-move { font-variant-numeric: tabular-nums; font-weight: 600; }
+.slv-item-move.up   { color: var(--green-bright); }
+.slv-item-move.down { color: var(--red); }
+.slv-item-src { color: var(--text-3); font-size: 11px; }
+.slv-cta {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text-2);
+  font-size: 12px;
+  text-decoration: none;
+  transition: background 0.15s var(--ease), color 0.15s var(--ease);
+  white-space: nowrap;
+}
+.slv-cta:hover {
+  background: var(--surface-alt);
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .since-last-visit { flex-wrap: wrap; }
+  .slv-cta { width: 100%; text-align: center; }
+}
+
+/* --------------------------------------------------------------------------
+   SourceObservations — 情報源別の実際の観測
+   -------------------------------------------------------------------------- */
+
+.src-obs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.src-obs-block { /* container per source */ }
+.src-obs-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.src-obs-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+}
+.src-obs-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+.src-obs-count {
+  font-size: 11px;
+  color: var(--text-3);
+  margin-left: auto;
+}
+
+.src-obs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  overflow: hidden;
+}
+.src-obs-item {
+  padding: 10px 12px;
+  border-top: 1px solid var(--border);
+  transition: background 0.15s var(--ease);
+}
+.src-obs-item:first-child { border-top: none; }
+.src-obs-item:hover { background: var(--surface-alt); }
+
+.src-obs-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 11px;
+  margin-bottom: 4px;
+  color: var(--text-3);
+  flex-wrap: wrap;
+}
+.src-obs-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.src-obs-badge.rank {
+  color: var(--green-bright);
+  border-color: color-mix(in oklab, var(--green-bright) 30%, var(--border));
+}
+.src-obs-sub {
+  color: var(--text-2);
+}
+.src-obs-date {
+  font-variant-numeric: tabular-nums;
+  margin-left: auto;
+}
+.src-obs-title {
+  display: inline;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.45;
+}
+.src-obs-title:hover {
+  color: var(--green-bright);
+  text-decoration: underline;
+}
+.src-obs-title.no-link { color: var(--text-2); }
+.src-obs-ext {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 10.5px;
+  color: var(--text-3);
+}
+.src-obs-publisher {
+  margin-left: 6px;
+  font-weight: 400;
+  color: var(--text-3);
+  font-size: 12px;
+}
+
+/* --------------------------------------------------------------------------
+   News evidence list (実際のニュース記事)
+   -------------------------------------------------------------------------- */
+
+.block-title-count {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  color: var(--text-3);
+  font-weight: 400;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.news-evidence-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  overflow: hidden;
+}
+.news-evidence-item {
+  padding: 12px 14px;
+  border-top: 1px solid var(--border);
+  transition: background 0.15s var(--ease);
+}
+.news-evidence-item:first-child { border-top: none; }
+.news-evidence-item:hover { background: var(--surface-alt); }
+
+.news-evidence-head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 11px;
+  margin-bottom: 4px;
+  color: var(--text-3);
+}
+.news-evidence-source {
+  font-weight: 600;
+  color: var(--text-2);
+  padding: 1px 6px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--surface);
+}
+.news-evidence-date {
+  font-variant-numeric: tabular-nums;
+}
+
+.news-evidence-title {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.45;
+}
+.news-evidence-title:hover {
+  color: var(--green-bright);
+  text-decoration: underline;
+}
+.news-evidence-title.no-link {
+  color: var(--text-2);
+}
+.news-evidence-ext {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 11px;
+  color: var(--text-3);
+}
+
+/* --------------------------------------------------------------------------
    Quote-style problems + pills
    -------------------------------------------------------------------------- */
 

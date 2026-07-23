@@ -319,6 +319,7 @@ async function main() {
     const status  = deriveStatus(score, change, growth.hasEnoughData);
 
     // evidence 配列 (ニュースのみ、直近優先で上限)
+    // url/source を含めて UI から「実際のニュース記事」としてクリック可能に
     const evidence = evidenceArticles
       .slice()
       .sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0))
@@ -326,6 +327,9 @@ async function main() {
       .map((a) => ({
         type: 'ニュース',
         title: a.title,
+        url: a.url || null,
+        source: a.source || null,
+        publishedAt: a.publishedAt || null,
         confidence: 0.7,
         checkedAt: (a.publishedAt || '').slice(0, 10),
       }));

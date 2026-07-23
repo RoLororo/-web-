@@ -186,6 +186,22 @@ async function processTheme(themeId, cfg, windowStart, windowEnd, maxResults) {
 
   const isAuthorsSampled = totalResults > entries.length;
 
+  // topItems: 最新 5 論文。UI で「実際の論文」として表示する最小メタ。
+  // arXiv には engagement 指標が無いため published desc = 最新順で選ぶ。
+  // arxiv:id は https://arxiv.org/abs/… の URL 形式なのでそのまま使える。
+  const topItems = entries
+    .slice()
+    .sort((a, b) => (b.published || '').localeCompare(a.published || ''))
+    .slice(0, 5)
+    .map((e) => ({
+      title:       (e.title || '').replace(/\s+/g, ' ').trim(),
+      url:         e.id || null,
+      publishedAt: e.published || null,
+      category:    e.primaryCategory || null,
+      authorCount: e.authors.length,
+      firstAuthor: e.authors[0] || null,
+    }));
+
   return {
     themeId,
     query:                fullQuery,
@@ -197,6 +213,7 @@ async function processTheme(themeId, cfg, windowStart, windowEnd, maxResults) {
     latestPaperPublished,
     isAuthorsSampled,
     sampleSize:           entries.length,
+    topItems,
   };
 }
 
@@ -240,6 +257,8 @@ function toEnvelope(themeResult, fetchedAt, windowDays, dateFilterForMeta, maxRe
       sortBy:       'submittedDate',
       sortOrder:    'descending',
     },
+    // history から strip される (append-history が metrics/nativeMetrics のみ抽出)
+    topItems: themeResult.topItems || [],
   };
 }
 

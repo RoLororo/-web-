@@ -224,6 +224,22 @@ async function processTheme(themeId, tags, cutoff, rateGuard) {
     }
   }
 
+  // topItems: LGTM (エンゲージメント) 降順で top 5。
+  // UI で「この需要が観測された実際の記事」として表示するための最小メタ。
+  // append-history では envelope 直下の topItems は自動的にストリップされる
+  // (extractCommonEnvelopeSource が metrics/nativeMetrics のみ抽出するため)。
+  const topItems = items
+    .slice()
+    .sort((a, b) => (Number(b.likes_count) || 0) - (Number(a.likes_count) || 0))
+    .slice(0, 5)
+    .map((it) => ({
+      title:       it.title || '',
+      url:         it.url || null,
+      publishedAt: it.created_at || null,
+      likes:       Number(it.likes_count) || 0,
+      author:      (it.user && it.user.id) || null,
+    }));
+
   return {
     themeId,
     tags,
@@ -235,6 +251,7 @@ async function processTheme(themeId, tags, cutoff, rateGuard) {
     lgtmSum,
     uniqueAuthors,
     latestPublishedAt,
+    topItems,
   };
 }
 
@@ -333,6 +350,10 @@ function toEnvelope(themeResult, fetchedAt, windowDays) {
       tags:         themeResult.tags,
       tagBreakdown: themeResult.tagBreakdown,
     },
+    // topItems: history には保存されない (envelope 直下、非 metrics)。
+    // demands.json → _qiitaDetail.topItems として UI に届き、DemandDetail が
+    // 「実際の Qiita 記事」として一覧表示する。
+    topItems: themeResult.topItems || [],
   };
 }
 

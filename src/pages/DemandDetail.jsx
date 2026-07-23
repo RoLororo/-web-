@@ -10,6 +10,7 @@ import FavoriteButton from '../components/FavoriteButton.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import FoxMark from '../components/FoxMark.jsx';
 import SourceTrends from '../components/SourceTrends.jsx';
+import SourceObservations from '../components/SourceObservations.jsx';
 import { getDemandById } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
@@ -175,6 +176,12 @@ export default function DemandDetail() {
               <SourceTrends themeId={demand.id} />
             </div>
 
+            {/* 情報源別の実際の観測 (demand._{source}Detail.topItems 由来) */}
+            <div className="block">
+              <div className="block-title">情報源別に見る実際の観測</div>
+              <SourceObservations demand={demand} />
+            </div>
+
             {/* 概要 */}
             <div className="block">
               <div className="block-title">この需要について</div>
@@ -221,28 +228,45 @@ export default function DemandDetail() {
               </div>
             </div>
 
-            {/* 根拠 */}
+            {/* 実際の観測 (ニュース記事一覧) */}
             <div className="block">
-              <div className="block-title">需要の根拠</div>
-              <div className="evidence-list">
-                {demand.evidence.map((e, i) => (
-                  <div key={i} className="evidence-card">
-                    <div className="evidence-top">
-                      <span className="evidence-type">{e.type}</span>
-                      <span style={{ fontSize: 12, color: 'var(--text-3)' }}>{e.checkedAt}</span>
-                    </div>
-                    <div className="evidence-title">{e.title}</div>
-                    <div className="evidence-meta">
-                      <span>
-                        信頼度
-                        <span className="confidence-bar">
-                          <span style={{ width: `${e.confidence * 100}%` }} />
-                        </span>
-                        {Math.round(e.confidence * 100)}%
-                      </span>
-                    </div>
-                  </div>
-                ))}
+              <div className="block-title">
+                この需要が観測された実際のニュース
+                <span className="block-title-count">{demand.evidence.length}</span>
+              </div>
+              {demand.evidence.length === 0 && (
+                <div className="empty-hint">直近のニュース記事はまだ観測されていません。</div>
+              )}
+              <ul className="news-evidence-list">
+                {demand.evidence.map((e, i) => {
+                  const dateStr = e.checkedAt || (e.publishedAt || '').slice(0, 10);
+                  const src = e.source || e.type;
+                  return (
+                    <li key={i} className="news-evidence-item">
+                      <div className="news-evidence-head">
+                        <span className="news-evidence-source">{src}</span>
+                        {dateStr && <span className="news-evidence-date">{dateStr}</span>}
+                      </div>
+                      {e.url ? (
+                        <a
+                          className="news-evidence-title"
+                          href={e.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {e.title}
+                          <span className="news-evidence-ext" aria-hidden="true">↗</span>
+                        </a>
+                      ) : (
+                        <span className="news-evidence-title no-link">{e.title}</span>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className="disclaimer" style={{ marginTop: 12 }}>
+                リンク先は各媒体の公式ページです。Demand Atlas は情報源への参照のみを行い、
+                記事の内容には責任を負いません。
               </div>
             </div>
 

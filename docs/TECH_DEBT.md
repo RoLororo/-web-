@@ -104,6 +104,17 @@ Hero + AccumulationBanner + TodaysMovers + 急上昇 + Ranking + CategoryFilter
 - ✅ Wikipedia unstable 警告表示 (SourceTrends)
 - ✅ Timeline の重複 stat 削除
 
+## 参考: 「毎日訪れる価値」フェーズで対応済み
+
+- ✅ ニュース evidence に url/source 追加、DemandDetail で実記事を
+  クリック可能に (build-demands + DemandDetail)
+- ✅ Home に SinceLastVisit リボン (localStorage、前回訪問との差分)
+- ✅ Home に FavoritesStrip (お気に入り優先の Home セクション + 空状態誘導)
+- ✅ 3 fetcher (Qiita/arXiv/AppStore) が topItems を envelope 直下に保存
+  → demands.json に流れる + append-history で自動 strip (history 肥大しない)
+- ✅ DemandDetail に SourceObservations セクション (情報源別 top 5 の
+  実観測を title/url/rank 等で表示)
+
 ## 継続監視項目
 
 - history の深さが 7 日 / 30 日を超えた時点で Rankings/Changes の window

@@ -276,6 +276,22 @@ function toEnvelope(themeResult, fetchedAt, windowDays, storefront, feedRights, 
       copyright:     feedRights,
       chartBreakdown,
     },
+    // topItems: rank 昇順 (順位が良い方) で top 5 マッチアプリ。
+    // App Store は URL 直リンクしにくいため url は null、UI 側で iTunes 検索を
+    // avoid してテキスト表示のみ (Apple ToS 上、ストア誘導は控えめに)。
+    // history には保存されない (append-history が metrics/nativeMetrics のみ抽出)。
+    topItems: themeResult.matchedApps
+      .slice()
+      .sort((a, b) => a.rank - b.rank)
+      .slice(0, 5)
+      .map((m) => ({
+        name:      m.name,
+        publisher: m.publisher,
+        rank:      m.rank,
+        chart:     m.chart,
+        appId:     m.appId,
+        category:  m.category,
+      })),
   };
 }
 

@@ -11,6 +11,8 @@ import StatusBadge from '../components/StatusBadge.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import AccumulationBanner from '../components/AccumulationBanner.jsx';
 import TodaysMovers from '../components/TodaysMovers.jsx';
+import SinceLastVisit from '../components/SinceLastVisit.jsx';
+import FavoritesStrip from '../components/FavoritesStrip.jsx';
 import { getDemands, getTrendingDemands } from '../services/demandService.js';
 import { loadAllTimeseries, biggestMoverOfTheme } from '../services/historyService.js';
 import { changeClass, formatChange } from '../utils/format.js';
@@ -88,11 +90,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 前回訪問からの変化 (毎日開く理由を作る) */}
+      <SinceLastVisit
+        themeTitleMap={Object.fromEntries(allDemands.map((d) => [d.id, d.title]))}
+      />
+
       {/* 蓄積ダッシュボード (history/index.json ベースの毎日積み上がる系表示) */}
       <AccumulationBanner />
 
       {/* 今日の伸び / 急上昇 (history 由来、毎日動く) */}
       <TodaysMovers />
+
+      {/* お気に入り (personal) */}
+      <FavoritesStrip allDemands={allDemands} historyMovers={historyMovers} />
 
       {/* 急上昇 */}
       <section className="section container">
