@@ -1,5 +1,595 @@
 [
   {
+    "id": "b5a9a42516c37e55",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "6月の消費者物価 生鮮食品除く指数 前年比+1.6％",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184761000",
+    "publishedAt": "2026-07-23T23:42:56.000Z",
+    "summary": "家庭で消費するモノやサービスの値動きをみる先月・6月の消費者物価指数は、天候による変動が大きい生鮮食品を除いた指数が去年の同じ月より1.6％上昇しました。上昇率は前の月の1.4％から0.2ポイント拡大…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "e10c88d154b72cdf",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "AIエージェントのための検索",
+    "url": "https://speakerdeck.com/takatorisatoshi/aiezientonotamenojian-suo",
+    "publishedAt": "2026-07-23T23:05:46.000Z",
+    "summary": "Gemini Prompt Engineering: Practical Techniques for Tangible AI Outcomes",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "4d4fb846b5b8fcf3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「コミケで空調服はマジでやめた方が良い」という声に公式が反応…温度と湿度が高いと「冷却の効果」はほぼないが、水分をプラスすることで気化熱冷却効果は高まると説明",
+    "url": "https://togetter.com/li/2724074",
+    "publishedAt": "2026-07-23T23:03:14.000Z",
+    "summary": "株式会社空調服＿公式 @9229COOL こんにちは。 空調服®につきまして、冷却の有効範囲の目安をホームページに掲載しております。 オレンジや赤の環境では「冷却の効果」はほぼ無いとしております。しかし、インナーを濡らしたり、水冷式のアイテムなど、汗だけではない水分をプラスすることで、気化熱冷却効果は高まりま...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "ab51597997a02e16",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Google、アカウントログイン方法に「自撮り動画」を追加 ロックアウト時の復旧を容易に",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news056.html",
+    "publishedAt": "2026-07-23T22:31:00.000Z",
+    "summary": "Googleは、アカウントへのログイン方法に「自撮り動画」を追加すると発表した。スマホやPCのカメラで自分の顔を撮影し、本人確認に利用する。ディープフェイク対策として頭を動かすなどの生体検知を実施。スマートフォンを紛失したりロックアウトされてしまった際にもアクセスを復旧する新たな選択肢となる。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "48cfcf5e3eee842c",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "トランプ政権 新追加関税を発動へ 日本は既存税率あわせ12.5％",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184731000",
+    "publishedAt": "2026-07-23T22:11:26.000Z",
+    "summary": "アメリカのトランプ政権は、日本を含む主要な60の貿易相手の国や地域を対象に、日本時間の24日午後1時すぎ、新たな追加関税を発動します。日本からの輸入品には、既存の関税率とあわせて12.5％の関税を課す…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "c8c1a00df637ed7f",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "きょうも危険な暑さ予想 40度に迫るところも 厳重な警戒を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184721000",
+    "publishedAt": "2026-07-23T21:50:02.000Z",
+    "summary": "23日は、静岡県で41.1度を観測するなど、東海の各地で最高気温が40度以上の「酷暑日」となりました。24日は名古屋市や京都市などで40度に迫る危険な暑さが予想されていて、エアコンを使用しこまめに水分…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "b0b37699f69b4128",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「生成AIで仕事が楽に」のはずが……IT現場を蝕む“AI疲れ・AIうつ”の正体",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news017.html",
+    "publishedAt": "2026-07-23T21:30:00.000Z",
+    "summary": "耳にする機会が増えた「AI疲れ」「AI鬱（うつ）」。本稿では、“疲れの正体”を整理し、個人が何を考え、どう変わればよいのかという判断軸を整理します。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "51956a27045c3cef",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『ガンダム』新作アニメ、『機動戦士ガンダムRG XARX-ZERO（アレックスゼロ）』発表、2027年展開予定！ 監督・シリーズ構成を神山健治氏、SF設定監修として円城塔氏が参加",
+    "url": "https://news.denfaminicogamer.jp/news/260724b",
+    "publishedAt": "2026-07-23T21:10:00.000Z",
+    "summary": "以下、プレスリリースの全文を掲載しています 日本を含むグローバルのユーザーに向けて 新たなガンダムの世界をアニメ・ゲームなど複数の媒体で描くことに挑戦した新プロジェクト──RG プロジェクト、始動── 神山健治監督が描く新作ガンダム 『機動戦士ガンダム RG XARX-ZERO（アレックスゼロ）』２０２７年展開決定！本...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "fb27e2c91d6f87da",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ぜんぶキャリアダウンのせいだ。 - Everything you've ever Dreamed",
+    "url": "https://delete-all.hatenablog.com/entry/2026/07/24/050000",
+    "publishedAt": "2026-07-23T21:08:52.000Z",
+    "summary": "ここ数年、意識の高い人たちから一般層に波及して、「キャリアアップはいいよね」「良いキャリアを築かなきゃね」みたいな風潮だ。ネットはキャリアアップ、スタートアップという言葉が氾濫していて息苦しい。あっぷあっぷだ。キャリアアップとは技術・能力・専門性を高めて己の市場価値を高めること。そこから良い条件...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "b654df9ac8414557",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "「日本赤軍」 岡本公三容疑者死亡 空港乱射事件で国際手配",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184681000",
+    "publishedAt": "2026-07-23T20:54:23.000Z",
+    "summary": "1972年、イスラエルの空港で銃を乱射し、殺人などの疑いで国際手配されていた「日本赤軍」のメンバー岡本公三容疑者が、亡命先のレバノンで死亡したと過激派組織、PFLP＝パレスチナ解放人民戦線が発表しまし…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "fc7215c6ae801bb3",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "日中外相が接触 中国側の出方を慎重に見極めへ 日本政府",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184421000",
+    "publishedAt": "2026-07-23T20:52:44.000Z",
+    "summary": "茂木外務大臣は訪問先のフィリピンで日中関係が悪化して以降初めて王毅外相とことばを交わしました。日本政府内では関係改善のきっかけになるのではないかと期待する声がある一方、状況の打開は容易ではないという指…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "c084122634206391",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "国会 あす会期末 「副首都」法案の採決めぐりギリギリの調整",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184641000",
+    "publishedAt": "2026-07-23T20:33:45.000Z",
+    "summary": "25日の国会の会期末を前に、24日、与党側は残る「副首都」構想の関連法案を採決し、成立させたい考えです。これに対して野党側は、特別区の設置を問う住民投票と関係自治体の選挙が同じ期間に行えることは問題だ…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "34a307dc2ec192da",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "トランプ大統領 “フーシ派が再攻撃ならイラン含め攻撃”",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184491000",
+    "publishedAt": "2026-07-23T20:16:51.000Z",
+    "summary": "イラン情勢をめぐり、アメリカのトランプ大統領は、中東イエメンの反政府勢力フーシ派がさらなる攻撃を行えば、支援するイランも含めて攻撃する考えを示しました。こうした中、原油の供給に一段と悪影響が及ぶとの見…",
+    "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "f982d5eb0ae50cd8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "新作『機動戦士ガンダムRG アレックスゼロ』が発表。2027年に展開予定。監督・シリーズ構成は神谷健治。主人公のアズミ・レイ役は大塚剛央 | ゲーム・エンタメ最新情報のファミ通.com",
+    "url": "https://www.famitsu.com/article/202607/82300",
+    "publishedAt": "2026-07-23T18:53:11.000Z",
+    "summary": "ゲーム・エンタメ最新情報のファミ通.comニュースアニメ新作『機動戦士ガンダムRG アレックスゼロ』が発表。2027年に展開予定。監督・シリーズ構成は神谷健治。主人公のアズミ・レイ役は大塚剛央",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "80852d8ec7f10c43",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[11話]どろん - 東屋耕佑 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255348930599",
+    "publishedAt": "2026-07-23T17:47:32.000Z",
+    "summary": "どろん 東屋耕佑 かつて、人の心を読むことができる妖怪・覚がいた。時は流れ、覚と人間の血を引く杢は人の心が読めない代わりに“人ならざる者”の心を読むことができる。人智を超えた声に耳を傾け、その手を差し伸べるのは――。",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "eb87aec2f0c9fce7",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「お前だけ、幸せになりやがって」…同級生に吐き捨てられた大家・山本一郎が立ち尽くした夜｜楽待不動産投資新聞",
+    "url": "https://www.rakumachi.jp/news/column/401164",
+    "publishedAt": "2026-07-23T17:17:23.000Z",
+    "summary": "＜前回のあらすじ＞ 団塊ジュニア・就職氷河期世代の筆者と、小学生の時「同点5位」を分け合った同級生「ハカセ」、そしてその母親「こけし」。母親同士が水面下でマウントを取り合いながら成績を競っていたのが、中学受験時代だった。 20年後、ネットバブル期に華々しく頭角を現していたハカセは、新会社の立ち上げに際...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "0112f95865a3a9db",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "370兆円投資、民間促進「できない」44%　政府の目利きを疑問視 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOCD2211M0S6A720C2000000/",
+    "publishedAt": "2026-07-23T17:04:23.000Z",
+    "summary": "政府による370兆円超の官民投資計画は、「民」の投資を促進できるのか。日本経済新聞社と日本経済研究センターによる経済学者向け調査「エコノミクスパネル」で聞いたところ、「促進できない」との回答は44%と、「できる」（14%）を上回った。政府が成長分野を見極めることができるか、疑問視する回答が目立つ。Q. 政府...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "e8f1eed488c87488",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "熱中症のおばあさんに遭遇したので涼しい場所に運んで介抱… その後、救急隊員に引き継いだところで｢勝手に救急車を呼ぶな、私に恥をかかせた｣と当の本人から怒られたが、意識が鮮明でなにより",
+    "url": "https://togetter.com/li/2724006",
+    "publishedAt": "2026-07-23T16:09:14.000Z",
+    "summary": "ユッキー @bnkt_yukkie 今日は熱中症のおばあさんに遭遇して、涼しいところに運んで冷たい飲み物買ってきたり、保冷剤で太い血管を冷やしたりして介抱して、救急隊員さんに引き継いだところで｢勝手に救急車を呼ぶな、私に恥をかかせた｣と当の本人からバチ怒られました 色々言いたいことはあるけど、意識が鮮明でなにより...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "2e5dcece0577fc8e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "コンソールアーカイブス ザ・コンビニ 〜あの町を独占せよ〜 | コンソールアーカイブス | HAMSTER Corporation",
+    "url": "https://www.consolearchives.com/title/csa-0023/",
+    "publishedAt": "2026-07-23T15:53:14.000Z",
+    "summary": "めざせ! 街の一番店!! 「ザ・コンビニ ～あの町を独占せよ～」は、1997年にヒューマンから32ビットの家庭用ゲーム機向けに発売されました。 コンビニエンスストアのオーナーとして、ライバル店の動向、地域ニーズや商品ニーズを見極め、事業全体の経営から店頭販売などの営業活動を体験できるシミュレーションゲームです...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "0c6b129389dfde13",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "第4話 vs.偽物 / 魔王の娘は生き汚い - 箱根有 | サンデーうぇぶり",
+    "url": "https://www.sunday-webry.com/episode/12207421984005959616",
+    "publishedAt": "2026-07-23T15:33:04.000Z",
+    "summary": "魔王の娘は生き汚い 箱根有 魔王の娘・ベルフェゴルは、「ただダラダラ過ごしたい」ポンコツ魔族。不幸にも、魔王討伐に来た勇者に惨殺され…と思いきや、なぜか生き返り！？ 地獄！血！死！世界一怠惰な魔族の悲哀のデスロード開幕！！",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "a5c5053e7b2d54b9",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "るりま(Ruby リファレンスマニュアル)のソースを Markdown に移行しました - @znz blog",
+    "url": "https://blog.n-z.jp/blog/2026-07-23-rurema-to-markdown.html",
+    "publishedAt": "2026-07-23T15:09:40.000Z",
+    "summary": "2026年7月、るりま(Ruby の日本語リファレンスマニュアル)のドキュメントソースを、 長年使ってきた RD ベースの独自記法(RRD)から GitHub Flavored Markdown(GFM)ベースの記法に移行しました。 すでに本番切替も完了していて、いま docs.ruby-lang.org/ja/ で 見られるページは Markdown ソースからビルドされたもので...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "ef5a492e97c0abdd",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "猫になっても／ジャンプ＋漫画賞 2026年3-4月期 - 山根顕人 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255348930351",
+    "publishedAt": "2026-07-23T15:01:06.000Z",
+    "summary": "猫になっても／ジャンプ＋漫画賞 2026年3-4月期 山根顕人 とある老夫婦。ある日、おじいさんが起きると、おばあさんが猫になっていた。家事ができないおじいさんは、一人奮闘するが…？",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "674db1673373fb17",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[8話]世界を繋ぎ尽くすインターネット巫女 - コガッツオ/木野イチカ | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255348930569",
+    "publishedAt": "2026-07-23T15:00:46.000Z",
+    "summary": "世界を繋ぎ尽くすインターネット巫女 コガッツオ/木野イチカ 時は明治時代－1890年。好奇心旺盛のカナコは選ばれし巫女だけが操れる「万国巫女霊子網」、通称「インタァネット」に大熱狂。ある時は掲示板を嗜み、またある時は耽美な画像にのめり込むが…!? [JC1巻9/4発売予定]",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "40ffc932f3213e32",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining Classic Principles with AI-Driven Development",
+    "url": "https://speakerdeck.com/itohiro73/beyond-just-vibe-coding-combining-classic-principles-with-ai-driven-development",
+    "publishedAt": "2026-07-23T14:55:51.000Z",
+    "summary": "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining Classic Principles with AI-Driven Development",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "dd9f9429a64a267e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "いよぎんHDと愛媛銀行が経営統合へ　27年4月メド、船舶融資強化 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUB23BBN0T20C26A7000000/",
+    "publishedAt": "2026-07-23T14:51:47.000Z",
+    "summary": "愛媛県地盤で伊予銀行を傘下に置くいよぎんホールディングス（HD）と愛媛銀行が経営統合に向けて最終調整していることが23日、わかった。2027年4月にも統合し、持ち株会社に2行がぶら下がる形式を検討している。両行が注力する船舶融資などを強化する。24日にも発表する。26年3月末ベースの連結総資産を合わせると12兆円...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "57ba3a6a2d517bca",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "高市積極財政は日本発｢世界債務危機｣の導火線…歴史的な超円安の警鐘にも耳を貸さない日本政府",
+    "url": "https://toyokeizai.net/articles/-/952257?display=b",
+    "publishedAt": "2026-07-23T14:23:58.000Z",
+    "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "2d479cd44bea2c8f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "自衛隊と政治のあり方を考える―布施祐仁さんインタビュー　|　Dialogue for People（ダイアローグフォーピープル／D4P）",
+    "url": "https://d4p.world/36763/",
+    "publishedAt": "2026-07-23T14:01:40.000Z",
+    "summary": "イラクの武器市にて（佐藤慧撮影） 防衛大臣が海上幕僚長を「軍人」としてSNSに投稿し、自衛隊の階級呼称を旧日本軍式に戻す方針が決定するなど、自衛隊のこれまでのあり方を揺るがす動きが続いています。 武器輸出解禁に踏み切り、平和国家としての方針が大きく変えられる中で起こった、自衛官による中国大使館侵入や自...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "4f5ac516368358fd",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "闇のクマさん「訂正しても戻らない」誤情報信じ、政治家攻撃した過去…再生数8割減も謝罪",
+    "url": "https://www.sankei.com/article/20260723-J6M633UBHZGYDFSPNSYU7PJVCQ/",
+    "publishedAt": "2026-07-23T11:07:28.000Z",
+    "summary": "YouTuberの闇のクマさん＝7月22日午前、東京都千代田区（奥原慎平撮影）ネット上の政治系言説を巡っては、一部の著名な「インフルエンサー」が不確かな情報を基に特定の政治家を〝攻撃〟し、巨額の収益につながるケースがあるという。アライグマ（実際はレッサーパンダ）のCGで、政治系ニュースを語る「闇のクマさん」も...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "5004c5e8525d80e4",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "日本、約370兆円の賭け──「未来が最初にやってくる国」は再始動するか | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+    "url": "https://forbesjapan.com/articles/detail/101073",
+    "publishedAt": "2026-07-23T11:02:03.000Z",
+    "summary": "何十年もの間、日本は欧米の想像力の中で「未来が最初にやってくる国」として特別な地位を占めてきた。新幹線、ウォークマン、ロボット犬、アポロ計画以上の演算能力を備えた温水洗浄便座などがその例だ。ところが1990年代のどこかで、未来は中国・深センや米国パロアルトへと引っ越したかのように見え、日本は礼儀正し...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "7c4cf8b9ff18154c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "iPhoneの箱はなぜ無傷で届くのか､アップルが世界中に｢おとりの箱｣を送り続ける驚きの理由",
+    "url": "https://toyokeizai.net/articles/-/952119",
+    "publishedAt": "2026-07-23T10:43:10.000Z",
+    "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "ea387ebe9b2eef5d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【新作発表】『機動戦士ガンダムRG XARX-ZERO（アレックスゼロ）』",
+    "url": "https://www.youtube.com/watch?v=MmjWxuViry0",
+    "publishedAt": "2026-07-23T10:36:42.000Z",
+    "summary": "新作アニメーション『機動戦士ガンダムRG XARX-ZERO（アレックスゼロ）』2027年展開決定！ サンディエゴ・コミコンで解禁された本作の最新情報を特別番組でお届けします！ ナレーション：大塚剛央（アズミ・レイ役） ◆◇ｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ◆◇ 『機動戦士ガンダムRG XARX-ZERO（アレックスゼロ）』 ▼公式サイト htt...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "7cb3fc07c183ec75",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ソフトバンクの空飛ぶ基地局「HAPS」 8月に日本で飛行試験",
+    "url": "https://www.watch.impress.co.jp/docs/news/2127402.html",
+    "publishedAt": "2026-07-23T10:25:29.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "904957680a4e09ad",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "シャチの激しい体当たり、マンボウが粉々に「爆発」　捕食戦略か遊びか",
+    "url": "https://www.cnn.co.jp/fringe/35250913.html",
+    "publishedAt": "2026-07-23T10:03:37.000Z",
+    "summary": "シャチがホエールウォッチングの船のそばを泳ぐ様子＝2024年1月、カリフォルニア州ハンティントンビーチ沖/Mark Rightmire/MediaNews Group/Orange County Register/Getty Images （CNN） 大型の重い魚に猛スピードで体当たりし、その衝撃で一瞬にしてバラバラの肉片に粉砕する――。「キラーホエール」とも呼ばれるシャチ...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "5f1533efabb4b4cf",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "漫画『負けヒロインを勝たせたい！！』秋田書店で連載中止＆出版停止で謝罪　作者、編集者の対応に苦言！信頼関係の構築が困難",
+    "url": "https://www.oricon.co.jp/news/2469702/full/",
+    "publishedAt": "2026-07-23T09:45:50.000Z",
+    "summary": "チャンピオンクロスで連載していた作品で、作品公式Xでは「いつも応援してくださりありがとうございます。『負けヒロインを勝たせたい！！』は今回の更新をもちまして秋田書店での連載を中止する判断に至りました」と秋田書店での連載中止および出版停止となり「年末に出版契約が終了した後、2027年1月頃よりナンバーナ...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "fdff294010263e15",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "歌ったり楽器を演奏した経験はないけれど音楽をやりたい50代～70代の女性たちが結成したパンク・バンド　ついにデビュー曲を発表して話題に - amass",
+    "url": "https://amass.jp/190841/",
+    "publishedAt": "2026-07-23T09:28:07.000Z",
+    "summary": "歌ったり楽器を演奏した経験はないけれど音楽をやりたい50代～70代の女性たちが結成したパンク・バンド ついにデビュー曲を発表して話題に 歌ったり楽器を演奏した経験はない。でも音楽をやりたい。そんな願いを持つ50代～70代の女性たちがパンク・バンドを結成してから3年。ついにデビュー曲をリリースして話題に。こ...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "75f5c24b7ac2d25c",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news116.html",
+    "publishedAt": "2026-07-23T09:19:00.000Z",
+    "summary": "2025年の大阪・関西万博で紹介された最先端の製品や技術が、福祉分野で実用化され始めた。大阪ヘルスケアパビリオンで話題を呼んだ「ミライ人間洗濯機」を介護施設用に応用した入浴装置が、大阪市内の高齢者施設で導入されたほか、介護ロボットやAIによる見守りも注目される。介護の人手不足対策やヘルスケア産業の成長につながりそうだ。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "9fa1bf9f2adaaac0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "高市首相のSNSへの投稿 行政文書にあたらず 木原官房長官 | NHKニュース",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015184161000",
+    "publishedAt": "2026-07-23T09:07:27.000Z",
+    "summary": "高市総理大臣によるSNSへの投稿について、木原官房長官は個人のアカウントで行っているものだとして行政文書にあたらないという認識を示しました。 高市総理大臣は経済財政運営や外交といった政策の内容や政…",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "4ad850da2f735c61",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "アンソロピック「Claude Opus 5」明日にも発表か、GPT-5.6や中国AIに対抗 焦点は？",
+    "url": "https://www.sbbit.jp/article/cont1/186222",
+    "publishedAt": "2026-07-23T09:04:03.000Z",
+    "summary": "米アンソロピックが、次世代の最上位AIモデル「Claude Opus 5」を日本時間24日早朝にも発表するとの観測が強まっている。性能を高めながら安定性を高め、運用コストを抑えるモデルになるとの期待があり、OpenAIのGPT-5.6や低価格な中国勢との競争を左右しそうだ。 米アンソロピックが、次期最上位AIモデル「Claude Opus ...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "4b306740d2f23fa5",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「サナエトークン」巡る首相秘書陳述全文　「一度も説明受けず」",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news115.html",
+    "publishedAt": "2026-07-23T08:44:00.000Z",
+    "summary": "高市早苗首相（自民党総裁）の陣営による党総裁選などでの中傷動画作成疑惑や名前を冠した暗号資産「サナエトークン」を巡り、首相は7月22日、週刊誌などが関与を伝えていた秘書の陳述書を衆院予算委員会に提出した。秘書は、陳述書で関与を全否定した。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "cd392db4a02e7772",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "自民・麻生副総裁「ようやく成し遂げることができた。全ての関係者に敬意を表したい」　改正皇室典範の成立受けて | TBS NEWS DIG",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2821298",
+    "publishedAt": "2026-07-23T07:33:11.000Z",
+    "summary": "皇族数の確保に向けた改正皇室典範が成立したことを受けて、自民党の麻生副総裁は「本当にようやく成し遂げることができた。全ての関係者に敬意を表したい」と語りました。改正皇室典範は、今月17日に参議院本会議…",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "43d8500a9aaa6e85",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "自民 小林政調会長 高市首相に「寝てください」と伝える | NHKニュース",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015183781000",
+    "publishedAt": "2026-07-23T06:55:11.000Z",
+    "summary": "高市総理大臣がみずからの睡眠時間は0時間から3時間が常態化しているなどと投稿したことについて、自民党の小林政務調査会長は、仕事のやり方は人によって違ってしかるべきだと理解を示す一方、本人と面会した際に…",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "81d3915d8eef47cd",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "米政府、中国AI「Kimi K3」開発元を批判　Anthropic「Fable」を蒸留したとして",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news105.html",
+    "publishedAt": "2026-07-23T06:35:00.000Z",
+    "summary": "ホワイトハウス科学技術政策局のクラツィオス局長が、中国のMoonshot AIがAnthropicのAIモデル「Fable」を蒸留して自社モデル「Kimi K3」を開発したとする情報があると投稿した。米国の技術を狙った大規模で隠密な蒸留は容認できないと批判している。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "d93a9e05c67afeeb",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "猫が旅立った",
+    "url": "https://anond.hatelabo.jp/20260723151724",
+    "publishedAt": "2026-07-23T06:18:48.000Z",
+    "summary": "愛猫が旅立った 会社の近所のツツジの植え込みにいた子だった 雨に濡れた姿を見かねて、わざわざペット可の物件に引っ越してお迎えした にゃあにゃあとよく喋る子だった 前足がちょいちょいとよく出てくる子だった お刺身を取り合いしながら食べたこともあったっけ でもそれ以外の人間の食べ物には興味がない賢い子だっ...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "7d23fd4b8e588331",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "PayPayとセブン-イレブン、顧客ID統合か　1億超のID基盤誕生へ　複数報道",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news104.html",
+    "publishedAt": "2026-07-23T06:10:00.000Z",
+    "summary": "スマートフォン決済大手のPayPayとセブン＆アイ・ホールディングスが、顧客データを統合する方向で最終調整に入ったと、複数メディアが7月23日に報じた。実現すればID数1億超の国内最大級のポイント経済圏が生まれることになる。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "6a73295c31cf9c9c",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Go 1.27 から uuid 実装がサポートされる！ので個人的に気になった議論とその着地をまとめてみた",
+    "url": "https://zenn.dev/layerx/articles/f7124d4e761c1f",
+    "publishedAt": "2026-07-23T06:03:17.000Z",
+    "summary": "はじめに こんにちは、バクラク事業部アカウント基盤開発部IDチームの @convto です。各種利用サービスのIDに一貫性があり、 GitHub も X も大体 convto を確保できているのが密かな自慢です。やはりIDチーム所属なので、自分のIDにも一貫性が必要とされています。(諸説あり) さてIDチームに所属しているので当然 uuid のニュースには目を光らせているわけですが、 Go 1.27 からは標準ライブラリに uuid が追加される見込みですね！ドラフト版のリリースノートみて気になった人もいるのではないでしょうか！ https://go.d…",
+    "fetchedAt": "2026-07-24T00:13:54.178Z"
+  },
+  {
+    "id": "503ac7307c7964bb",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ニュースで見るカモの親子ってマジでめっっちゃかわいくない？？ 俺も見たいので生まれるまでを観察してみました！！ | オモコロ",
+    "url": "https://omocoro.jp/kiji/580351/2/",
+    "publishedAt": "2026-07-23T05:02:14.000Z",
+    "summary": "ニュースで見るカモの親子ってマジでめっっちゃかわいくない？？ 俺も見たいので生まれるまでを観察してみました！！ 6月26日（金） 卵がひとつ減りました。 理由は不明。割れた殻などもなく、見当もつきません。残念です。 残るふたつが無事に孵ってほしいと願う。 台風が来ている。いまも強い雨。 卵がひとつ減っても...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "4083ec10ce0d6dc6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "白黒のコマになぜ色が見えるのか 200年の謎をAIが解明 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+    "url": "https://forbesjapan.com/articles/detail/101363",
+    "publishedAt": "2026-07-23T04:09:28.000Z",
+    "summary": "上面に白と黒のパターンが描かれたコマを回転させると、そこにあるはずのない色が浮かんで見える「ベンハムのコマ」をご存知だろうか。この現象は1826年に発見され、1894年に発明家チャールズ・ベンハムがその原理を利用して開発し発売した玩具だ。発見当初は、網膜や視覚経路における時間応答の違いなどによる作用だと...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "9200b0c24ac70db4",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ニチレイ「今週中に全拠点が通常稼働」　サイバー攻撃から復旧へ",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news090.html",
+    "publishedAt": "2026-07-23T03:50:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "f161b66805c2c4c7",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "iOS 27、リース利用者の支払いが滞るとiPhoneの機能をリモートでロックするシステムを実装か【やじうまWatch】",
+    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2127174.html",
+    "publishedAt": "2026-07-23T03:31:37.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "9dd1f5eb779b98e9",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "洋服の青山、「空調ウェア」発売　ビジネスシーンで「きちんと感」を演出",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news088.html",
+    "publishedAt": "2026-07-23T03:17:00.000Z",
+    "summary": "青山商事は22日、ビジネスシーンでより「きちんと感」を演出できるデザインという「空調ウェア」を発売した。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "6b147fd44263a409",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ビックリマン風キャラを“自分の顔”からAI生成→Tシャツや缶バッジに　ロッテが新サービス公開へ",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news086.html",
+    "publishedAt": "2026-07-23T03:10:00.000Z",
+    "summary": "ロッテは26年7月22日、顔写真から生成AIでビックリマン風キャラクターを作り、名刺やTシャツなどのグッズにして注文できるサービス「ビックリマンAIグッズメーカー」を29日に始めると発表した。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "057cd96c1491ea9e",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Go の設計、どこまでやる？〜小さく作って、壊さず育てる〜",
+    "url": "https://zenn.dev/135yshr/books/go-service-design",
+    "publishedAt": "2026-07-23T03:08:48.000Z",
+    "summary": "「クリーンアーキテクチャというアーキテクチャはない」——大事なのは図の形を真似ることではなく、依存の向きを設計し、変更に強いサービスを育てることです。本書は、Go でサービスを設計・運用する中で得た判断基準を、原則の理解、層ごとの設計判断、ドメインの表現、CI での維持、そして読書ログサービスを題材にしたハンズオンまで一冊にまとめました。読み終えたとき、自分のサービスを設計して作りはじめられる状態になることがゴールです。",
+    "fetchedAt": "2026-07-24T00:13:54.178Z"
+  },
+  {
+    "id": "fad6cd527efa3c50",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「クレカが使えない！」　16日朝の大規模障害を引き起こした「Cybersource」とは何者か",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news053.html",
+    "publishedAt": "2026-07-23T03:00:00.000Z",
+    "summary": "7月16日朝、全国で「カードが使えない」が相次いだ大規模障害。原因はVisa傘下の決済基盤Cybersourceだったが、なぜVisa以外のブランドまで巻き込まれ、なぜ無傷の事業者もいたのか。カード決済の裏側にある「ゲートウェイ」の役割と、三井住友カードやStripeが取った\"迂回ルート\"の仕組みを解説する。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "e86c150771e69c2a",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "設計を、技術の話から始めない",
+    "url": "https://zenn.dev/team_lab/articles/31ec1e630ab28b",
+    "publishedAt": "2026-07-23T02:30:05.000Z",
+    "summary": "はじめに こんにちは、チームラボでエンジニアをしている茂木です。 普段は、システム全体の構造や責任の分け方、技術選定などを考える、アーキテクトに近い立場で開発に関わっています。 設計に関わる中で、採用する技術だけではなく、その前提となる業務や問題をどこまで理解できているかが、システムの構造を大きく左右すると感じるようになりました。 本稿では、問題への理解が十分に深まる前に技術や実装の検討が先行すると、設計やその後の開発にどのような影響が生じるのかを考えていきます。 設計を、技術の話から始めない 設計の場で、解くべき問題を整理する前に、技術の話から始めてし…",
+    "fetchedAt": "2026-07-24T00:13:54.178Z"
+  },
+  {
+    "id": "95345537b039a632",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "クラウドにOSSを「持っていかれる」問題：Elastic、Redis、HashiCorpから考えるAGPL - Convergence Lab.",
+    "url": "https://www.convergence-lab.com/blog/2026-07-23-open-core-agpl/",
+    "publishedAt": "2026-07-23T02:17:28.000Z",
+    "summary": "「ソースコードを公開すれば、利用者が増え、改善が返ってきて、みんなが得をする」 OSSにはそんな理想があります。しかし、実際にプロジェクトが成功すると、別の光景が現れることがあります。巨大クラウド事業者がOSSをマネージドサービスとして提供し、運用の手軽さと販売網を武器に大きな売上を得る。一方、最初にソ...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "9695ecd9c8c0214e",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "企業向けAIツールの成長率トップはAnthropic、アカウント数が最も多いのはMicrosoft 365　Okta調査",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news076.html",
+    "publishedAt": "2026-07-23T01:19:00.000Z",
+    "summary": "アイデンティティ管理サービスを提供する米Oktaは、同社のサービスを用いている2万社以上の匿名化されたアクセスデータに基づく、企業でのAIツール利用実態について調査結果を発表しました。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "3c9652f07e173702",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "開発しているだけで進捗が更新される。Linear × Claude Code × GitHubで作る開発フロー",
+    "url": "https://zenn.dev/explaza/articles/500ded8ea67252",
+    "publishedAt": "2026-07-23T00:54:00.000Z",
+    "summary": "Claude Codeを使うようになって、実装にかかる時間はかなり短くなりました。 ただ、開発が速くなっても、タスクを作る、着手状態にする、PRを紐付ける、レビュー中に変える、完了にする、といった管理作業は残ります。1回ごとの操作は小さくても、開発の途中で何度もLinearを開くのは地味に面倒です。更新を忘れると、ボードと実際の進捗もずれていきます。 現在はNotion、Claude Code、Linear、GitHubをつなぎ、仕様の整理から実装、レビュー、タスク完了までを次のように進めています。 Notionに仕様をまとめる ↓ Claudeと設計を…",
+    "fetchedAt": "2026-07-24T00:13:54.178Z"
+  },
+  {
+    "id": "0bd6795d0dd63dcf",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「POPOPO」サ終前にMac対応、未公開のWindows版技術はオープンソース化　「最後まで盛り上がっていこう！」",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news074.html",
+    "publishedAt": "2026-07-23T00:51:00.000Z",
+    "summary": "「もうせっかくなのでできることは何でもやるよｗ 最後まで盛り上がっていこう！」とMIRO氏。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "a4f9e13e1bdf1eeb",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Samsung、Gemini搭載の「Android XR」スマートグラス発表　カメラで視界を認識、最大9時間駆動",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/23/news070.html",
+    "publishedAt": "2026-07-23T00:31:00.000Z",
+    "summary": "Samsung Electronicsは、Googleと共同開発する「Android XR」ベースの新スマートグラスを発表した。アイウェアブランドのGentle MonsterおよびWarby Parkerと提携し、Geminiをネイティブに統合。まずはディスプレイ非搭載のオーディオグラスとして2026年秋に発売する。",
+    "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
     "id": "bf0be0d43e8365e1",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -48,6 +638,16 @@
     "publishedAt": "2026-07-22T22:00:00.000Z",
     "summary": "若者によるサイバー攻撃への関与が相次いで報じられている。よく聞く「腕があるならホワイトハッカーにすればいい」という論調は正しいのか。",
     "fetchedAt": "2026-07-23T00:16:34.141Z"
+  },
+  {
+    "id": "ca169e699c49b3bf",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「惜しいデザイン」 を生み出さないための AIレビューループ",
+    "url": "https://speakerdeck.com/0b1tk/xi-siidezain-wosheng-michu-sanaitameno-airebiyurupu",
+    "publishedAt": "2026-07-22T21:56:47.000Z",
+    "summary": "2026年7月22日 「AIで変わる設計と判断——デザイン × フロントエンド、複数社が語る失敗と工夫」 登壇資料",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
   },
   {
     "id": "8d14857a40a4884e",
@@ -298,6 +898,16 @@
     "publishedAt": "2026-07-22T11:09:27.000Z",
     "summary": "",
     "fetchedAt": "2026-07-23T00:16:34.638Z"
+  },
+  {
+    "id": "63383b4cbc2e91fe",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Palantir Foundryのオントロジーをミニマムに再現したOSSを実測検証した",
+    "url": "https://zenn.dev/mskbhd/articles/lab-198-gura105-operational-ontology-o",
+    "publishedAt": "2026-07-22T11:01:05.000Z",
+    "summary": "はじめに Palantir Foundry の「オントロジー（Ontology）」—— 物理データを意味のあるビジネスオブジェクトに抽象化し、Read/Write-back を統制するレイヤー。あの概念を ミニマム実装した OSS が公開されていたので、動かして検証した。 本家リポジトリ: gura105/operational-ontology (MIT, 22★) この記事では、実際に pnpm demo と pnpm test を実行し、さらに MCP 経由でアクションを呼び出した結果を報告する。 これの何がすごいのか Foundry のオントロジ…",
+    "fetchedAt": "2026-07-24T00:13:54.178Z"
   },
   {
     "id": "ab377d55cc4225b0",
@@ -3298,5 +3908,15 @@
     "publishedAt": "2025-09-23T10:59:22.000Z",
     "summary": "私は日本一時帰国中、特殊詐欺で270万円を失いました。 学生の頃からずっと夢だった世界一周のために、何年間も汗水垂らして働き生活費を節約して一生懸命貯めたお金。 アフリカを5ヶ月間も旅して何の被害にもあってなかったのに…。旅の疲れを癒すために帰ってきた日本で大金を騙し取られるなんて未だに信じられない。悪...",
     "fetchedAt": "2026-07-23T00:16:34.638Z"
+  },
+  {
+    "id": "60d2cdead0965d86",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "渋谷百景 -渋谷系とその周辺に関するデータベース-",
+    "url": "http://radiodaze.g2.xrea.com/KKKtop02.htm",
+    "publishedAt": "2019-11-23T08:00:17.000Z",
+    "summary": "[KKK] -渋谷百景- 渋谷で生まれた音楽。渋谷で呼吸し生育した音楽。渋谷で死んだ音楽。90年代初頭、渋谷をその象徴にし繁栄を手に入れた流行音楽。いわゆる渋谷系。それは限りなくファッションに近く、雰囲気と共に在るべきものだった。だからといってそれに聴くべきものがないわけではない。そこでこのコーナーでは、渋...",
+    "fetchedAt": "2026-07-24T00:13:54.565Z"
   }
 ]

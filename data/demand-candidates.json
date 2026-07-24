@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T00:21:28.997Z",
-  "totalArticles": 330,
+  "generatedAt": "2026-07-24T00:18:14.460Z",
+  "totalArticles": 392,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
@@ -14,11 +14,12 @@
         "Claude",
         "活用",
         " AI",
+        "生成AI",
         "LLM",
-        "ChatGPT",
-        "生成AI"
+        "仕事"
       ],
       "evidenceArticleIds": [
+        "b0b37699f69b4128",
         "8d14857a40a4884e",
         "b9518240141c2f25",
         "3924def162eedd37",
@@ -33,9 +34,9 @@
         "5e4f185e204b1a85",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 13,
-      "confidence": 0.9,
-      "reason": "11 種類のキーワードが 13 件の記事でヒット（例：Claude、活用、 AI）"
+      "evidenceArticleCount": 14,
+      "confidence": 0.89,
+      "reason": "11 種類のキーワードが 14 件の記事でヒット（例：Claude、活用、 AI）"
     },
     {
       "id": "infrastructure-outages",
@@ -51,6 +52,7 @@
         "AWS"
       ],
       "evidenceArticleIds": [
+        "ab51597997a02e16",
         "5364b956c670e858",
         "0bcf86b668654cd1",
         "f2543dd7d048e207",
@@ -65,9 +67,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 13,
-      "confidence": 0.95,
-      "reason": "11 種類のキーワードが 13 件の記事でヒット（例：障害、復旧、影響）"
+      "evidenceArticleCount": 14,
+      "confidence": 0.94,
+      "reason": "11 種類のキーワードが 14 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "ai-coding",
@@ -77,12 +79,13 @@
       "relatedKeywords": [
         "Claude Code",
         "開発",
+        "レビュー",
         "codex",
         "エンジニア",
-        "コーディング",
-        "CI"
+        "コーディング"
       ],
       "evidenceArticleIds": [
+        "3c9652f07e173702",
         "7e9d11fc61986cb6",
         "b9518240141c2f25",
         "71fe0f416c0f5fbb",
@@ -94,9 +97,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 10,
-      "confidence": 0.93,
-      "reason": "11 種類のキーワードが 10 件の記事でヒット（例：Claude Code、開発、codex）"
+      "evidenceArticleCount": 11,
+      "confidence": 0.92,
+      "reason": "11 種類のキーワードが 11 件の記事でヒット（例：Claude Code、開発、レビュー）"
     },
     {
       "id": "security-breach",
@@ -124,7 +127,7 @@
         "31931e12804789ed"
       ],
       "evidenceArticleCount": 10,
-      "confidence": 0.96,
+      "confidence": 0.95,
       "reason": "10 種類のキーワードが 10 件の記事でヒット（例：サイバー攻撃、ランサム、被害）"
     },
     {
@@ -136,20 +139,22 @@
         "決済",
         "クレカ",
         "PayPay",
-        "取引",
         "Visa",
-        "カード"
+        "カード",
+        "取引"
       ],
       "evidenceArticleIds": [
+        "7d23fd4b8e588331",
+        "fad6cd527efa3c50",
         "e905eff59636ae08",
         "a6deeefb72857e5e",
         "e360e5574473698e",
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 5,
-      "confidence": 0.69,
-      "reason": "8 種類のキーワードが 5 件の記事でヒット（例：決済、クレカ、PayPay）"
+      "evidenceArticleCount": 7,
+      "confidence": 0.82,
+      "reason": "8 種類のキーワードが 7 件の記事でヒット（例：決済、クレカ、PayPay）"
     },
     {
       "id": "ai-hardware",
@@ -170,7 +175,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.54,
+      "confidence": 0.53,
       "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
@@ -193,8 +198,29 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.67,
+      "confidence": 0.66,
       "reason": "7 種類のキーワードが 4 件の記事でヒット（例：在宅勤務、勤務、在宅）"
+    },
+    {
+      "id": "senior-health",
+      "theme": "高齢者向け健康・認知症予防",
+      "summary": "認知症・健康寿命の関心が高い需要",
+      "category": "健康",
+      "relatedKeywords": [
+        "高齢者",
+        "介護",
+        "ボケ",
+        "認知症",
+        "サウナ"
+      ],
+      "evidenceArticleIds": [
+        "75f5c24b7ac2d25c",
+        "9203b3becd8967c9",
+        "e2193fce8f746f0f"
+      ],
+      "evidenceArticleCount": 3,
+      "confidence": 0.56,
+      "reason": "5 種類のキーワードが 3 件の記事でヒット（例：高齢者、介護、ボケ）"
     },
     {
       "id": "ai-regulation",
@@ -214,7 +240,7 @@
         "1c3d73cfafe83c4f"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.51,
+      "confidence": 0.5,
       "reason": "5 種類のキーワードが 3 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
@@ -237,25 +263,6 @@
       "evidenceArticleCount": 2,
       "confidence": 0.46,
       "reason": "6 種類のキーワードが 2 件の記事でヒット（例：サーバ、自宅、サーバー）"
-    },
-    {
-      "id": "senior-health",
-      "theme": "高齢者向け健康・認知症予防",
-      "summary": "認知症・健康寿命の関心が高い需要",
-      "category": "健康",
-      "relatedKeywords": [
-        "高齢者",
-        "ボケ",
-        "認知症",
-        "サウナ"
-      ],
-      "evidenceArticleIds": [
-        "9203b3becd8967c9",
-        "e2193fce8f746f0f"
-      ],
-      "evidenceArticleCount": 2,
-      "confidence": 0.45,
-      "reason": "4 種類のキーワードが 2 件の記事でヒット（例：高齢者、ボケ、認知症）"
     }
   ]
 }
