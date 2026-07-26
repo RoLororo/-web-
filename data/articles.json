@@ -1,5 +1,695 @@
 [
   {
+    "id": "cf58f9e2bdcc6321",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "新潟や東北中心に大雨 関東も激しい雷雨に 西日本では39度超も",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186311000",
+    "publishedAt": "2026-07-26T06:46:01.000Z",
+    "summary": "前線の影響で、新潟県や東北を中心に大雨となっていて、土砂災害や低い土地の浸水などに厳重な警戒が必要です。一方、26日も西日本と東日本を中心に気温が上がり、各地で38度を超える危険な暑さとなっていて、引…",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "4f6302ea7d3c0cae",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "落雷で電柱から火花 東京 世田谷",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186551000",
+    "publishedAt": "2026-07-26T05:56:19.000Z",
+    "summary": "26日午後1時前に東京 世田谷区で撮影された映像です。マンションから住宅街を撮影した映像には、強い雨が降る中、突然、雷が落ちて大きな音とともに電柱から火花が飛び散る様子が収められています。撮影した50…",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "1ba95005489cb520",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "大相撲名古屋場所 三賞 安青錦が技能賞 熱海富士が敢闘賞",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186531000",
+    "publishedAt": "2026-07-26T05:40:18.000Z",
+    "summary": "大相撲名古屋場所の三賞選考委員会が開かれ、優勝争いの単独トップに立つ関脇 安青錦が技能賞を、星の差1つで追う関脇 熱海富士が敢闘賞を受賞しました。",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "2c01e603bee53556",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "ドジャース 山本由伸 日米通算100勝に到達",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186441000",
+    "publishedAt": "2026-07-26T05:28:17.000Z",
+    "summary": "大リーグ、ドジャースの山本由伸投手がメッツ戦に先発登板し、6回を1失点に抑えて、今シーズン11勝目をあげました。大リーグ通算30勝目で、プロ野球のオリックス時代にあげた70勝と合わせて日米通算100勝…",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "0462afe97f3f5471",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『みいちゃんと山田さん』のアニメ化がもたらす問題｜郡司 真子 Masako GUNJ I",
+    "url": "https://note.com/utss2020/n/n499023ec41fa",
+    "publishedAt": "2026-07-26T04:59:23.000Z",
+    "summary": "『みいちゃんと山田さん』のアニメ化（または大規模な映像化）がもたらす問題点を、論理的に整理します。 作品は2012年の歌舞伎町を舞台に、キャバクラで働く山田さんと、知的・発達特性が強く示唆される新人・みいちゃんの約1年間を描き、最終的にみいちゃんが殺害される過程を辿るものです。累計発行部数が200万部超の...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "6278fc9c7d5b4447",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "「飛鳥・藤原の宮都」世界文化遺産に登録決定 国内で27件に",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186101000",
+    "publishedAt": "2026-07-26T04:48:27.000Z",
+    "summary": "奈良県内の飛鳥時代の遺跡群、「飛鳥・藤原の宮都」が世界文化遺産として登録されることが、韓国で開かれたユネスコの世界遺産委員会で決まりました。今回の決定で、日本国内の世界遺産は文化遺産と自然遺産をあわせ…",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "bc9edcae201664cd",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Opus5が思考が浅いように感じる問題への対策",
+    "url": "https://zenn.dev/u1/articles/claude5-rules-collapse-and-fix",
+    "publishedAt": "2026-07-26T04:18:08.000Z",
+    "summary": "Claude Code を Opus 5 に切り替えた直後から、応答の散文傾向が急に強まり、思考が浅くなる (構造化して考えられない) 変化が出ました。長年育ててきた rules (CLAUDE.md や常時ロードの指示ファイル群) は何も変えていないのに、です。調べていくと、モデルが悪いのでも rules が壊れたのでもなく、Claude 5 世代で Op...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "4b918f80bfaa8aac",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "相模原 障害者施設殺傷事件から10年 多くの人が献花し追悼",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186241000",
+    "publishedAt": "2026-07-26T04:04:31.000Z",
+    "summary": "相模原市の知的障害者施設で19人が殺害された事件から、26日で10年です。現場に再建された施設には朝から多くの人が訪れ、花を手向けて犠牲になった人たちを追悼しています。",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "454927fadfd45543",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ニトリの似鳥昭雄会長が「子どもたちが喜ぶ」と直感した恐竜パーク、北海道にオープン…「毎年アップデートしていきたい」",
+    "url": "https://www.yomiuri.co.jp/economy/20260726-GYT1T00032/",
+    "publishedAt": "2026-07-26T03:51:55.000Z",
+    "summary": "【読売新聞】 実物大の動く恐竜ロボットなど約３０体が並ぶ「ニトリ余市恐竜パーク」が２５日、北海道余市町のニトリ観光果樹園にオープンした。 恐竜ロボットは中国製で、ウレタンで覆いコンピューターで制御する。全長１８メートルのブラキオサウ",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "94c5e87b311e248b",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "“米は迎撃ミサイル枯渇懸念しイラン攻撃強化を保留か”報道",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015186111000",
+    "publishedAt": "2026-07-26T03:23:59.000Z",
+    "summary": "アメリカとイランの間ではおよそ2週間にわたって攻撃の応酬が続きましたが、25日から26日朝にかけていずれも直接の攻撃は伝えられていません。アメリカのメディアは、トランプ大統領が中東に展開するアメリカ軍…",
+    "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "a1167d06d12dc2f0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "陸自部隊の情報収集　「愛国心や性的嗜好は記録する必要ない」「身分隠して収集なら違憲の疑い」　木村草太・東京都立大教授に聞く｜熊本日日新聞社",
+    "url": "https://kumanichi.com/articles/2017709",
+    "publishedAt": "2026-07-26T02:23:00.000Z",
+    "summary": "陸上自衛隊中央情報隊（東京・埼玉、朝霞駐屯地）の対外情報部門「現地情報隊」が、日本人の大学教授らを対象に思想信条などの個人情報を組織的に調査・収集しているとみられる問題が浮上している。「愛国心」や「性的嗜好［しこう］」などの情報収集は、プライバシー権を侵害していないのか。東京都立大の木村草太教授...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "c11db06718966c3b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "フジロックで「右も左も戦争は嫌いだ、いがみ合うより音楽で団結」と訴えたハイスタが叩かれる",
+    "url": "https://posfie.com/@Elif87995911/p/t6LAinM",
+    "publishedAt": "2026-07-26T02:13:18.000Z",
+    "summary": "シムソング @shimusongood アジカンってマジかっけえよ。反戦の歌を歌い、こんなデカデカと反戦を掲げ、ライブ中ずっと見える位置に「NO WAR」のオブジェが置かれててさ。こういうところがアジカンの好きなところだし、安心して推せるし聴ける。ほんとかっけーー！！！！！涙出る！！！！ #fujirock #アジカン pic.x.com...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "04545a3222c66a7e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「飛鳥・藤原の宮都」、世界文化遺産に登録決定　国内22件目 | 毎日新聞",
+    "url": "https://mainichi.jp/articles/20260723/k00/00m/040/256000c",
+    "publishedAt": "2026-07-26T02:03:12.000Z",
+    "summary": "「飛鳥・藤原の宮都」が世界文化遺産に正式登録されて喜ぶ人たち＝奈良県橿原市で2026年7月26日午前10時45分、久保玲撮影 韓国・釜山で開催中の国連教育科学文化機関（ユネスコ）の世界遺産委員会は26日、「飛鳥・藤原の宮都」（奈良県橿原（かしはら）市、桜井市、明日香村）を世界文化遺産に登録することを決めた。文...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "03deb9af33f3084c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『名探偵プリキュア！』大反響に声優驚き感謝　東山奈央＆長谷川育美（キュアアルカナ・シャドウ＆キュアエクレール）インタビュー",
+    "url": "https://www.oricon.co.jp/news/2469806/full/",
+    "publishedAt": "2026-07-26T01:23:25.000Z",
+    "summary": "アニメ『プリキュア』（ABCテレビ・テレビ朝日系 毎週日曜 前8：30）シリーズの最新作『名探偵プリキュア！』（たんプリ）第26話が26日に放送され、ついにくれあがキュアエクレールに変身した。このほどオリコンニュースでは、キュアアルカナ・シャドウ／森亜るるか役の東山奈央、キュアエクレール／帆羽くれあ役の長谷...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "c8fce60356e2b8b4",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『当クリニックはエアコンを廃止しました』",
+    "url": "https://ameblo.jp/kaneshiro-honest-clinic/entry-12973732266.html",
+    "publishedAt": "2026-07-26T01:20:45.000Z",
+    "summary": "人間は恒温動物なので冷やしても体温は下がりません。 汗をかき、汗が乾く時の気化熱で体温調整して37℃前後に保っています。 日本には四季があり、夏は暑く冬が寒いのは当然ですが、テレビでは気温に慣らすためにしきりにエアコンを使うように言いますが、気温に慣れるためにはエアコンを使わずに人間に備わった体温調整...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "34f606e1a50bb91f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "大富豪イーロン・マスク氏かたり「愛している」「５０万円を今送ってほしい」…熊本県上天草市の女性が７０万円を送金",
+    "url": "https://www.yomiuri.co.jp/national/20260725-GYT1T00409/",
+    "publishedAt": "2026-07-26T01:04:27.000Z",
+    "summary": "【読売新聞】 著名人の名前を持ちだし、ＳＮＳを通じて知り合った女性から現金をだまし取ったとして、熊本県警上天草署などは２４日、岡山県倉敷市、会社員の男（３１）を詐欺容疑で逮捕したと発表した。 同署によると、男は昨年９月１５日と同年１",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "e8c3c810f4e4b28e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "夏祭りなど地元の催し物に参加して挨拶する議員は当選しやすいが、参加しない人はどんなに学歴や経歴は良くても当選しないことが多い→親近感みたいなものは大事なのか？",
+    "url": "https://togetter.com/li/2724810",
+    "publishedAt": "2026-07-26T00:53:26.000Z",
+    "summary": "バンビーノ @Pantani1998win マンションの夏祭りに当選回数の7回の代議士が来て、特にひな壇で挨拶もせずにかき氷と山菜おこわ買ってぐるっと回って挨拶しまくって帰る一方で、落ちたり当選したりする都議が「政策研究」で来ないんだよな。そりゃあ差がつくよね。 2026-07-25 18:18:31 すてぃーぶ @SteveFixedIncom 町内...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "729c938ad388a494",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Meta、Facebookに無料の認証バッジ「Facebook Verified」　自撮り動画で登録、「Meta Verified」とは別",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/26/news015.html",
+    "publishedAt": "2026-07-26T00:42:00.000Z",
+    "summary": "Metaは、Facebookアカウントのユーザーが実在の人間であることを示す無料バッジ「Facebook Verified」を発表した。短い自撮り動画をプロフィール写真と照合する方式で、数分程度で登録できる。バッジはMarketplaceやグループ、プロフィールに表示される。有料サブスクリプション「Meta Verified」とは異なり、料金はかからない。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "340aceadc3c56d92",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "デスクに欲しい情報を集約　SwitchBot電子ペーパー端末の”そこにある”魅力【いつモノコト】",
+    "url": "https://www.watch.impress.co.jp/docs/series/itsmo/2127783.html",
+    "publishedAt": "2026-07-26T00:34:47.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "49c5d4ada01309b6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "経団連、時間外労働の上限規制「撤廃の意見もある」と高市首相に伝達へ…現行の上限はほぼ「過労死ライン」：東京新聞デジタル",
+    "url": "https://www.tokyo-np.co.jp/article/503486",
+    "publishedAt": "2026-07-26T00:03:34.000Z",
+    "summary": "総括は、政府の骨太方針を踏まえた税・財政・社会保障改革など多岐にわたる。このうち労働改革について「働き方改革の効果はあったが、（時間外労働の）上限規制の画一的適用は支障が強く、撤廃の意見もある」と明記。筒井義信会長はこれまで上限規制は堅持すべきだと表明してきたが、幹部から撤廃の意見が出たことを首...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "e12a4bc18bcdf576",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "やまゆり園事件10年：「彼は変わっていない」　知人が語る植松死刑囚の今　相模原殺傷 | 毎日新聞",
+    "url": "https://mainichi.jp/articles/20260725/k00/00m/040/036000c",
+    "publishedAt": "2026-07-25T23:42:03.000Z",
+    "summary": "相模原市の障害者施設「津久井やまゆり園」で入所者ら45人が殺傷された事件は、26日で発生から10年を迎える。 園の職員だった植松聖（さとし）死刑囚（36）は「重度障害者は不幸を作る」という考えのもとで凶行に及んだ。 職員時代を知る園関係者は、事件を防ぐ手立てはなかったのかと今も自問を続けている。一方、植松...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "8fc309dc7f8a47b0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "日本のほぼ全域で7月29日頃から「この時期としては10年に1度程度しか起きないような著しい高温」となる可能性が高まっている…気象庁が「高温に関する早期天候情報」発表 | TBS NEWS DIG",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2825211",
+    "publishedAt": "2026-07-25T23:40:09.000Z",
+    "summary": "気象庁は23日、沖縄地方を除く日本のほぼ全域に、「高温に関する早期天候情報」を発表しました。北海道・東北・関東甲信・北陸・東海・近畿・中国・四国・九州北部・九州南部・奄美地方では、7月29日頃から「この…",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "6669b1ccf9bc0136",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "腐女子の「因習村学級会」は、いわば自己逃避プログラムなんだと思う。今回の松木いっかさんの事件で「腐女子は悪くない！」って主張している人が、利害関係のない第三者から「その説が矛盾しているとする明確な証拠を突きつけられまくってバチボコ批判されている」のを見ると「男が悪いんだ！」「そうだそうだ！デマに釣られるアンフェガー」ってやるのは、みいちゃんなりに「辛い真実から目を背けてBLに没頭しよう！」という現実逃避で自らの意志と命を守ってるんだなと思った",
+    "url": "https://posfie.com/@wanwano190em/p/8YPFksp",
+    "publishedAt": "2026-07-25T23:23:30.000Z",
+    "summary": "바보@投稿が伸びて対応に時間を取られるため、一旦鍵にします。 @vefwmb 発端は一部の腐女子。 【前提】以前から腐女子のBLコメントを松木先生が訂正していた。 「キャラクターが別物にされていくようで苦痛」 「性的な創作を私に直接共有するのはやめてください」と投稿（BLの明言無し） ↓ 一部の腐女子が「BL嫌い」「...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "b4062a56bc723c83",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "天皇制廃止すればいいって言ってる人って廃止して本当に困らないと思ってる？",
+    "url": "https://anond.hatelabo.jp/20260726005358",
+    "publishedAt": "2026-07-25T22:17:55.000Z",
+    "summary": "天皇制そのものを廃止するべきっていろいろなブクマカが言ってるわけだけど、 皇族に人権持たせつつ天皇制自体を維持することできるしそうした議論をするべきだと俺は思うんだけど、それもダメってことでしょ？ なんか先のこと全く考えてない人にしか思えない。考えとかあるんですか？聞いてみたい。 制度面の話だと、 ...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "1c63ee2b12be6cf3",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "海外の新作バカゲー「電車アタック」にマンガ家が感心した理由　ブッ飛んだ内容と完成度の高さ、そして“日本”",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/26/news010.html",
+    "publishedAt": "2026-07-25T22:14:00.000Z",
+    "summary": "スペインのインディースタジオから発売された「電車アタック」。近未来の日本を舞台に、電車をドリフトさせたりジャンプさせたりのバカゲーですが、実は全体的にかなり完成度の高いゲームでした。しかも日本をよく研究していました。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "1d576f2eadfb41a6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "東京・大阪の都心タワマン最上階、所有者の5割が不在 住むよりも「投資」 ―マンション不都合な真実― - 日本経済新聞",
+    "url": "https://www.nikkei.com/telling/DGXZTS00021730W6A620C2000000/",
+    "publishedAt": "2026-07-25T21:53:47.000Z",
+    "summary": "日本経済新聞が東京と大阪の都心部に立地するタワーマンション約300棟の最上階の全住戸を調べたところ、約5割の所有者がタワマンの所在地に住所を移さず別の場所を登記していた。住まない所有者が増えれば管理や修繕などを巡り合意形成が難しくなる。価格高騰など住宅市場にも影響を及ぼす。都心タワマン 所有者は全国や...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "ba48e1dc3d5053d7",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "三大紛らわしい単語",
+    "url": "https://anond.hatelabo.jp/20260725230957",
+    "publishedAt": "2026-07-25T21:53:18.000Z",
+    "summary": "エレベーターとエスカレーター、マイノリティとマジョリティあと一つは？",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "e1e25c3e3465493b",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "MicrosoftやNVIDIAなど、AIのオープンウェイト規制に反対する書簡を公開――Anthropicは署名せず",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/26/news014.html",
+    "publishedAt": "2026-07-25T21:51:00.000Z",
+    "summary": "MicrosoftやNVIDIA、Metaなど30社以上の米国の企業や団体が、オープンウェイトAIモデルへの過度な規制回避を求める共同書簡を公開した。オープンモデルをAIエコシステムの基盤と位置付け、開発や評価におけるメリットとイノベーション促進を強調。中国企業の急速な台頭や技術流出を懸念する政権の規制動向に対し牽制を図る。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "f3ef2f2efc5162ea",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "来日外国人による殺人の起訴率は「33.1％」ではなく、「65.9%」だよ（2024年） - 電脳塵芥",
+    "url": "https://nou-yunyun.hatenablog.com/entry/2026/07/26/060000",
+    "publishedAt": "2026-07-25T21:18:38.000Z",
+    "summary": "https://x.com/sorapiyo1111111/status/2080527709953048859 「来日外国人被疑事件」の検察庁終局処理状況の表を示して「外国人」による殺人の起訴率は33.1％だという投稿が拡散していた。確かに表の名称や示された部分だけ見ると「殺人」の起訴率は33.1％となってはいる。ところでだが、この表は令和７年版 犯罪白書か...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "789d9b914dde1912",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【漫画】「ノーメイク？」と聞かれた人、「化粧に気づかれないならもうノーメイクでいいのでは」と試してみたところ、今度は「具合悪い？」と心配される→「オシャレはマイナスをゼロにするもの」「おばけから人間へみたいな」",
+    "url": "https://togetter.com/li/2724755",
+    "publishedAt": "2026-07-25T20:31:44.000Z",
+    "summary": "【漫画】「ノーメイク？」と聞かれた人、「化粧に気づかれないならもうノーメイクでいいのでは」と試してみたところ、今度は「具合悪い？」と心配される→「オシャレはマイナスをゼロにするもの」「おばけから人間へみたいな」",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "2f2b44055d7e0052",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "＜独自＞外国人の永住資格、税金納付意思なしや財産隠しで取り消し　ガイドライン案判明",
+    "url": "https://www.sankei.com/article/20260725-IJNJSWAKKFLTZK4NY4YYGZ2RUY/",
+    "publishedAt": "2026-07-25T20:21:09.000Z",
+    "summary": "外国人の永住資格を取り消す際の判断基準に関する政府のガイドライン案が25日、判明した。税金や社会保険料の不払いがある永住外国人に対し、自治体などが納付を求める催告や、財産の差し押さえなどの滞納処分を行ってもなお納付意思を示さない場合、取り消しを想定する具体例として明示した。脱税による有罪判決や、財...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "162ea213b90e2a61",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「ハーゲンダッツ券」をセブンで使ったら、店員が全然処理をわかっておらず「これ多分一個しか引き換えられないです」と適当なことを言い、さらに「マニュアルとかなくてぇ」とまた適当を…→店員側への同情が殺到する話だった",
+    "url": "https://togetter.com/li/2724764",
+    "publishedAt": "2026-07-25T18:58:24.000Z",
+    "summary": "「ハーゲンダッツ券」をセブンで使ったら、店員が全然処理をわかっておらず「これ多分一個しか引き換えられないです」と適当なことを言い、さらに「マニュアルとかなくてぇ」とまた適当を…→店員側への同情が殺到する話だった",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "ea1af5065b36eb42",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "#43 天幕のジャードゥーガル | Souffle（スーフル）",
+    "url": "https://souffle.life/manga/tenmaku-no-ja-dougal/tenmaku043-20260725/",
+    "publishedAt": "2026-07-25T17:27:31.000Z",
+    "summary": "後宮では、賢さこそが美しさ。13世紀、地上最強の大帝国「モンゴル帝国」の捕虜となり、後宮に仕えることになった女・ファーティマは、当時世界最高レベルの医療技術や科学知識を誇るイランの出身。その知識と知恵を持ち、自分の才能を発揮できる世界を求めていたファーティマは、現皇帝・オゴタイの第6夫人でモンゴル帝...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "f995df718b46be04",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "中国の大学日本分校のオープンキャンパスにガチで行った話 | 安田峰俊の\"どこにでもある中国\"",
+    "url": "https://ysd.theletter.jp/posts/8561ddbe-b5b8-4e99-9b7d-6340af8bfb20",
+    "publishedAt": "2026-07-25T16:00:38.000Z",
+    "summary": "「あの謝罪会見で左端にいた人じゃん…」“辺野古転覆事故”、反基地団体幹部に中国共産党系メディアとの不可解な接点「中国人女性記者3人を船に乗せていた」 | 文春オンライン",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "f31ba57fb2dbdddc",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "にせものターコイズ / にせものターコイズ - 内猫さかな | サンデーうぇぶり",
+    "url": "https://www.sunday-webry.com/episode/12207421983913735230",
+    "publishedAt": "2026-07-25T15:44:41.000Z",
+    "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標（登録番号 第6091713号）です。 詳しくは［ABJマーク］または［電子出版制作・流通協議会］で検索してください。",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "3d58c8e9ee6a34d9",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "亜月ねね「みいちゃんと山田さん」2027年アニメ化！2人の声が入ったスペシャルPV（動画あり / コメントあり） - コミックナタリー",
+    "url": "https://natalie.mu/comic/news/682459",
+    "publishedAt": "2026-07-25T15:37:56.000Z",
+    "summary": "亜月ねね「みいちゃんと山田さん」2027年アニメ化！2人の声が入ったスペシャルPV 2026年7月26日 0:00 214 14 コミックナタリー編集部",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "dc8dbed434006a0e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ドカ食いダイスキ！ もちづきさん・第23話 | ヤングアニマルWeb",
+    "url": "https://younganimal.com/episodes/d8821ce3057c2",
+    "publishedAt": "2026-07-25T15:16:17.000Z",
+    "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "873e62f312cfa639",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "議連発足と同時に現れた「日本トレーディングカード協会」とは何者か──組織構造と狙いを公開情報から読む｜メモ帳のnote",
+    "url": "https://note.com/tenmemo/n/ne03821b127aa",
+    "publishedAt": "2026-07-25T14:13:16.000Z",
+    "summary": "自民党トレカ議連の設立が報じられた2026年7月21日。その翌日、X上に「一般社団法人日本トレーディングカード協会(JTCA)」という団体の公式アカウントが登場し、初投稿を行いました。設立総会の前日というタイミングです。 「トレーディングカード文化を、次世代へ。」を掲げるこの団体は何者なのか。業界の声を代弁する...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "820627843011f0ae",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "やべー法案が次々通る… - 達而録",
+    "url": "https://chutetsu.hateblo.jp/entry/2026/07/25/223214",
+    "publishedAt": "2026-07-25T13:42:59.000Z",
+    "summary": "昨日、国民投票法の改正案、つまり「憲法改正の方法を緩くする法案」が通った。来春に憲法改正の発議をするという報道もある。毎日毎日、やばい法律が通りまくっていて、批判を書くのも間に合わない。 最低限、これぐらいはやっておくかということで、特に国家の権力やシステムを大きく左右する法案に対する、各政党の賛...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "cc46e3e083c01e27",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "90年代アニメの話題で私の目の前で殴り合いの喧嘩が起きたのだが",
+    "url": "https://anond.hatelabo.jp/20260725213432",
+    "publishedAt": "2026-07-25T12:49:03.000Z",
+    "summary": "以前、私が働いてるコンカフェで鰹節の話題で客にバチギレされて空手チョップされた話(本当は鉄槌打ちというらしいことを知った)を書いたんだけど、あるブコメが気になって暫くして記事を消したことがあった。 流石にコンカフェでバイトしてて、あんな珍事そう中々起きないだろうと思ってたんだけど、 今度は私と一緒に...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "d95ca7cebce53876",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "フィールズ賞新受賞者ツィマーマン、受賞会見で「転身」宣言：OpenAIに加わりAI安全性を研究へ — BigGo ファイナンス",
+    "url": "https://finance.biggo.jp/news/bca88ca4-8438-4d70-b512-75cda1dd3bd1",
+    "publishedAt": "2026-07-25T12:23:49.000Z",
+    "summary": "2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。ツィマーマンは、o-ミニマリティ理論を数論幾何学の基盤ツールへと再構築し、アンドレ・オールト予想など中核的難問を証明した功績で受賞したが、AI...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "8cc51099f7c5143c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "長嶋一茂「ドジャースまで分断してもらったらすごく困る」大谷翔平らホワイトハウス表敬訪問に私見「なんで行くのかな」…「モーニングショー」（スポーツ報知） - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/articles/6d13ac2191c90761b1ae3cafc3553f1f96c542cd",
+    "publishedAt": "2026-07-25T12:20:01.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "c5676295df9922a5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "職質された１６歳「闇バイトに応募、これから強盗に行く」…少年ら３人を強盗予備容疑で現行犯逮捕",
+    "url": "https://www.yomiuri.co.jp/national/20260725-GYT1T00213/",
+    "publishedAt": "2026-07-25T11:38:21.000Z",
+    "summary": "【読売新聞】 強盗目的で特殊警棒を所持するなどしたとして、警視庁は２４日、住所・職業不詳の少年（１６）と、男２人を強盗予備容疑で現行犯逮捕した。 発表によると、３人は２４日午後１～２時頃、金品を奪う目的で、東京都台東区の上野駅構内",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "966b2aba43663f3f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "山形中学1年生マット死事件　“元少年”は「損害賠償を払いたくない」　被告の“逃げ切り”が可能な制度の問題点　別の“元少年”の母親は「本人に任せている」 | デイリー新潮",
+    "url": "https://www.dailyshincho.jp/article/2026/07250501/",
+    "publishedAt": "2026-07-25T10:30:13.000Z",
+    "summary": "「週刊新潮」の発売前日に速報が届く！ メールマガジン登録 デイリー新潮とは？ 広告掲載について お問い合わせ 著作権・リンクについて ご購入について 免責事項 プライバシーポリシー データポリシー 運営：株式会社新潮社 Copyright © SHINCHOSHA All Rights Reserved. すべての画像・データについて無断転用・無断転...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "60a555cbabd18483",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "放置していた旧環境で見つけたReact2Shell攻撃の実態",
+    "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
+    "publishedAt": "2026-07-25T08:27:52.000Z",
+    "summary": "はじめに 本記事は以下のミラーです。 https://www.munenick.me/blog/react2shell-attack-in-abandoned-kubernetes/ 私は自宅でKubernetesクラスタやゲームサーバー、いくつかのWebアプリケーションを運営しています。普段使う機能は新しいシステムへ移していましたが、旧Kubernetes環境の一部は止めず、インターネットに公開したまま残していました。使わなくなるにつれて、依存パッケージの更新や監視もしなくなっていました。 旧環境には攻撃が繰り返し届き、気づかないうちにハニーポットのよ…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
+    "id": "3d3d907194c669a3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【速報】かゆみ止め薬「ムヒ」がギネス世界記録認定",
+    "url": "https://www.47news.jp/14682780.html",
+    "publishedAt": "2026-07-25T08:20:49.000Z",
+    "summary": "かゆみ止め薬「ムヒ」が発売から100年となり「最も長く市販されている虫さされかゆみ止めブランド」としてギネス世界記録に認定された。25日に富山市で開かれた式典で、公式認定員が宣言した。",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "106d0fb07458d102",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "外国人の永住許可要件厳格化へ　年収、日本人の平均以上　政府方針「年金30年水準」",
+    "url": "https://www.sankei.com/article/20260725-G6QXBOZ22NOMPCBZO32LGA7R7E/",
+    "publishedAt": "2026-07-25T08:19:42.000Z",
+    "summary": "政府が外国人の永住許可要件を厳格化し、新たに年収や年金の受給見込み額を追加する方針を固めたことが25日、関係者への取材で分かった。年収が日本人世帯の平均を上回ることや、年金の受給見込み額が厚生年金に30年加入していた水準に達していることを原則として求める。 10月1日付でガイドラインを改定し、来年4月の申...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "afbbfa76e009478c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "継ぎたくなかった愛媛の寺から世界へ…YouTube総再生1億回を叩き出した僧侶が選んだ\"意外なヒット商品\"",
+    "url": "https://president.jp/articles/-/116214",
+    "publishedAt": "2026-07-25T02:40:16.000Z",
+    "summary": "大ヒットは、どうすれば生み出せるのか。関連動画の世界累計再生数が1億回を超えた僧侶の薬師寺寛邦さんは「流行に寄せて作っても、聴く人には絶対に届かない。本当に必要なのは、作り手の純粋な好奇心だ」という――。 寺を継ぐことに反発を覚えていた 愛媛県今治市にある禅寺「海禅寺」で、住職の父の元、副住職を務める...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "61f40fb9910fefaf",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「時給を他県より１円でも高く」最低賃金めぐる競争は「もはやチキンレース」 　悲願の最下位脱出を果たした秋田県の「苦肉の策」とは | NEWSjp",
+    "url": "https://news.jp/i/1447771578712752190",
+    "publishedAt": "2026-07-25T02:14:23.000Z",
+    "summary": "「時給を他県より１円でも高く」最低賃金めぐる競争は「もはやチキンレース」 悲願の最下位脱出を果たした秋田県の「苦肉の策」とは 秋田市でスーパー５店舗を展開する「マルダイ」の寺田朋和社長は、人件費の高騰に頭を痛めていた。 ２０２４年度に最低賃金が全国最下位の時給９５１円だった秋田県は、昨年度に８０円...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "20f86ade776d067b",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "クオンツはテクニカル分析を寄与度分解の中で見ている",
+    "url": "https://zenn.dev/gamella/articles/7e1af53f19d94d",
+    "publishedAt": "2026-07-25T01:46:14.000Z",
+    "summary": "AlpacaTechの北山です。最近Noteもはじめました。 https://note.com/tomoya_kitayama ちょっとおもしろいネタがあったので、ブログにまとめようとおもいました。 2026年7月、テクニカル分析の有用性を巡る議論がXで再燃しました。今回の発端が生成AIによる分析というのが新しかったです。 起点は @syakkin3 さんの実験報告です。東証20年分のデータをAI（fable5とcodex）に与え、トークンを大量に消費しながら、窓埋めや三尊といった定番パターンに優位性があるかを総当たりで検証した、というものでした。 ht…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
+    "id": "6a1d63fa79f97400",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "仕事外のネット利用「平日4時間以上」で抑うつ傾向　富山大が調査",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news098.html",
+    "publishedAt": "2026-07-24T23:30:00.000Z",
+    "summary": "富山大学の研究グループは、地方公務員3403人を対象とした調査で、仕事外に平日4時間以上インターネットを利用する人は、2時間未満の人に比べて抑うつ症状を有する傾向が高いと発表した。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "5a8980fb2ed12d3b",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "“上下2階建てカメラ”の実力は？　「OsmoPocket 4P」は撮影の幅をぐっと広げたジンバルカメラだった",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/25/news015.html",
+    "publishedAt": "2026-07-24T23:29:00.000Z",
+    "summary": "ジンバルカメラは広角仕様なので望遠も使えたらいいのに……と思ってたら、ちゃんと開発されていたのだ。広角+中望遠のデュアルカメラ構成化である。ジンバルカメラの定番であるDJIの「Osmo Pocket 4P」を使ってみた。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "4fac2a81a434d3a1",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Anthropic、「Claude Opus 5」公開　Fable 5に迫る性能を半額で――サイバー安全策は緩和、拒否時は自動フォールバックも",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/25/news016.html",
+    "publishedAt": "2026-07-24T22:28:00.000Z",
+    "summary": "Anthropicは、最新LLM「Claude Opus 5」を公開した。上位モデル「Claude Fable 5」に迫る知能を半額の価格で提供する。プログラミングやナレッジワークにおいて高い評価を獲得し、推論の深さを調整するパラメータや安全性分類器に連動する自動フォールバック機能などを備える。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "2e453a08cfa89660",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "1945年3月になってまだ「四年目の神機」という大逆転呼号した政府の冊子は、めまいがするような神がかりの内容｜信州戦争資料センター(まだ施設は無い…)",
+    "url": "https://note.com/sensou188/n/ndcd9ad7e0e5a",
+    "publishedAt": "2026-07-24T19:53:17.000Z",
+    "summary": "1945年3月になってまだ「四年目の神機」という大逆転呼号した政府の冊子は、めまいがするような神がかりの内容 こちら、内閣情報局が1945（昭和20）年3月10日に発行した「週報号外 四年目の神機」です。B6判48ページの冊子でざら紙に墨一色、裁断も乱れていて閉じ金具もないのが、戦況を正直に伝えます。政策の内容を指...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "c44c304b78b696d1",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「LINE広告」の一部記録など約3年半分を誤って削除　LINEヤフー",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news096.html",
+    "publishedAt": "2026-07-24T11:11:00.000Z",
+    "summary": "LINEヤフーは7月24日、「LINE広告」など企業向けサービスに関連し、個人情報保護法が保存を義務付ける記録を誤って削除していたと発表した。データの漏えいや不正利用は確認していないという。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "8f448dbe2ce1e462",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "隠すか、見せるか　ビジネスマン向け“ファン付きウェア”、2つのアプローチ",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news095.html",
+    "publishedAt": "2026-07-24T10:40:00.000Z",
+    "summary": "外で活動する人達の間では、ファン付きウェアがもはや当たり前の存在になったが、まだ利用しにくいシーンが多いのも事実だ。ビジネスパーソン向けのファン付きウェアを開発する2社のアプローチを紹介。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "59544f4138ebcce0",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "スーパーに並んだ「ごちゃごちゃ生成AIポップ」が物議　“看板王”こと、きぬた歯科院長「これはアリ」",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news094.html",
+    "publishedAt": "2026-07-24T10:20:00.000Z",
+    "summary": "スーパーの青果売り場に並ぶ、生成AIで作ったとみられる派手な商品ポップがXで物議を醸している。吸血鬼や戦国武将を描いたデザインに「見づらい」との声が相次ぐ中、看板広告で知られるきぬた歯科のきぬた泰和院長は「これはアリ」と評価。その理由とは。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "bb82eaf3162fea25",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "ドメイン駆動設計から、ドメイン駆動開発プロセスの時代へ",
+    "url": "https://zenn.dev/manalink_dev/articles/domain-driven-development-process",
+    "publishedAt": "2026-07-24T09:45:31.000Z",
+    "summary": "はじめに 「ドメイン駆動設計から、ドメイン駆動開発プロセスの時代へ」という話をします。 AI駆動開発によって開発作業そのものの自動化がすごい進んで、ボトルネックはどこに移動してるんだ、という話はみんな気になってるところだと思います。もちろん、事業活動とか、そもそも売り上げが上がるのかどうかがボトルネックになるよねっていうのはそりゃそうなんだけど、それを言い始めるときりがありません。今回は開発プロセスの話をしたいと思ってます。ここでいう開発プロセスとは、誰が、いつ、何を決め、何に責任を持ち、いつ本番にリリースできるようになるのか、そしてリリースする順番をど…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
+    "id": "a67db51910d298ee",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "東京ポイント、PayPayポイント・WAON POINTに交換可能に　27日から",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news091.html",
+    "publishedAt": "2026-07-24T08:28:00.000Z",
+    "summary": "東京都は7月24日、都公式アプリ「東京アプリ」でためられる「東京ポイント」について、27日午前10時から「PayPayポイント」と「WAON POINT」への交換を始めると発表した。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "8cf2ef4e153b167b",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "総務省、Google・Xなど5社に勧告　誹謗中傷対策の報告義務を怠る　情プラ法違反で",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news086.html",
+    "publishedAt": "2026-07-24T06:50:00.000Z",
+    "summary": "総務省は7月24日、情報流通プラットフォーム対処法が定める公表義務に違反したとして、米GoogleやX、ドワンゴなど5事業者に勧告と報告徴収を実施したと発表した。8月31日までに修正した資料の再公表を求めている。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "fec42c256fea6ef5",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ChatGPTとClaude、そろって音声機能強化　Codexでエージェントに“声だけで指示”も可能に",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news078.html",
+    "publishedAt": "2026-07-24T04:59:00.000Z",
+    "summary": "米OpenAIと米Anthropicは7月23日（現地時間）、それぞれAIチャットの音声機能を強化したと発表した。ChatGPTは声だけでPC上のエージェントを操作できるようになり、Claudeは音声会話で上位モデルや外部ツール連携を使えるようになる。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "ab703b2028bfe418",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "性的表現に誤タップ誘導――ネットの“不快な広告”への苦情が1年で2倍に　件数も過去最多",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news076.html",
+    "publishedAt": "2026-07-24T04:43:00.000Z",
+    "summary": "日本広告審査機構（JARO）が2025年度の苦情受付状況を公表した。広告への苦情は過去最多の1万2589件。ネット上では性的表現や誤タップを誘う広告への苦情が増加した。ネット広告への苦情は全体の6割を占めた。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "a720b23a1d91221b",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "AI時代のエンジニアリングマネージャーのあり方｜外部品質編 〜品質の可視化を、現場と経営をつなぐ形にするまで〜",
+    "url": "https://zenn.dev/loglass/articles/ef099b123153cf",
+    "publishedAt": "2026-07-24T04:40:27.000Z",
+    "summary": "! この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の153週目の記事です！ 3年間連続達成まで残り7週となりました！ こんにちは、ログラスの飯田(@ysk_118)です。 ここ数年、AIによってコードを書く速度はずいぶん上がりました。一方で、「品質向上に対してどのようにアプローチしていくのか」という問いも、多くの現場で同時に立ち上がっているように思います。 AIによる開発現場の進化の渦中において、エンジニアリングマネージャーはどう変化すべきなのか？品質にとどまらずさまざまな観点でアップデートが求められていると…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
+    "id": "689612a1036666af",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「2日かかる攻撃が25分に」生成AIで“爆速化”するサイバー攻撃、パロアルトの識者が警鐘",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news070.html",
+    "publishedAt": "2026-07-24T03:28:00.000Z",
+    "summary": "パロアルトネットワークスの染谷征良氏（チーフサイバーセキュリティストラテジスト）は、生成AIの普及で変化するサイバー攻撃の動向と企業に求められるセキュリティ対策を、ソフトバンクの年次イベント「SoftBank World 2026」の講演で紹介した。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "6a9ceb918f0b44da",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Meta、AI楽観論のブランドキャンペーン開始──BGMはなぜかボウイの終末ソング",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news063.html",
+    "publishedAt": "2026-07-24T01:37:00.000Z",
+    "summary": "MetaがAIに対する楽観的なビジョンを打ち出すブランドキャンペーンを開始した。マーク・ザッカーバーグCEOは「未来は全員のものだ」と投稿し、45秒の動画広告は「AIが人々のつながりを弱めると言う人もいるが、まったく同意できない」と反論する。だが、BGMに採用されたのはデビッド・ボウイが世界の終末を歌った「Five Years」だった。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "ee8db45590077640",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "日本の生成AI利用まだ6割　仕事中心、7割超の米国は「友達」使い - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUA223GZ0S6A720C2000000/",
+    "publishedAt": "2026-07-24T01:26:08.000Z",
+    "summary": "総務省が24日公表した2026年の情報通信白書によると、生成AI（人工知能）を使ったことのある個人は25年度時点で58.8%だった。仕事や調べものでの利用が多い。7割超の米国とドイツでは相談相手としての活用が目立つ。日本と米国、ドイツ、中国の4カ国を比較した。日本の利用率は前回の24年度調査から倍増した。米国とドイ...",
+    "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "07d5906896dbdca1",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「人工甘味料」で脳の老化スピードが加速？　1.6年分の加齢差に相当　1万人超を調査、2025年に医学誌掲載",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news042.html",
+    "publishedAt": "2026-07-24T01:09:00.000Z",
+    "summary": "ブラジルのサンパウロ大学などに所属する研究者らが2025年に医学誌「Neurology」で公開した論文「Association Between Consumption of Low- and No-Calorie Artificial Sweeteners and Cognitive Decline」は、人工甘味料の摂取が記憶力や思考力にどのように影響するかを調査した研究報告だ。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "d002b772cbcb90d2",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Terraform / Kubernetes の構築で、初心者がよく指摘されるポイントのまとめ",
+    "url": "https://zenn.dev/scalar_sol_blog/articles/6fa517a84cb7ff",
+    "publishedAt": "2026-07-24T01:05:30.000Z",
+    "summary": "弊社では、AWS、Azure、GCP に対応した kubernetes ベースの Scalar製品を展開するインフラのテンプレートを開発しています。この開発をエンジニア歴の浅い二人にお願いしており、二人からあがってくるマージリクエスト（MR）のレビューを重ねると、指摘の多くは毎回異なる「新しい問題」ではなく、同じパターンの再発であることが分かってきます。 そこで、繰り返し指摘している事項をまとめました。 対象読者 Terraform / Kubernetes を使ったインフラ構築を始めたばかりのエンジニア IaC の MR がなかなかレビューを通らず、指…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
+    "id": "9c58a55de5097725",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Appleの「マップ」がFordの次世代EVに直接統合へ　新SDKで「CarPlay」なしでもナビが機能",
+    "url": "https://www.itmedia.co.jp/news/articles/2607/24/news057.html",
+    "publishedAt": "2026-07-23T23:54:00.000Z",
+    "summary": "AppleとFord Motorは、次世代EV基盤にAppleの「マップ」を直接組み込むと発表した。新提供のSDKを活用し、iPhoneを接続せずに車載機能としてナビゲーションを稼働させる。EV向け経路探索や充電向け温度調整にも対応するほか、Fordのハンズフリー走行機能「BlueCruise」の開発にも地図情報を活用する。",
+    "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
     "id": "b5a9a42516c37e55",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -88,6 +778,16 @@
     "publishedAt": "2026-07-23T21:08:52.000Z",
     "summary": "ここ数年、意識の高い人たちから一般層に波及して、「キャリアアップはいいよね」「良いキャリアを築かなきゃね」みたいな風潮だ。ネットはキャリアアップ、スタートアップという言葉が氾濫していて息苦しい。あっぷあっぷだ。キャリアアップとは技術・能力・専門性を高めて己の市場価値を高めること。そこから良い条件...",
     "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "dbf389e350da9f28",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "ターミナルを自作したら、1日のコミット数が500を超えて、生産性がバグった話",
+    "url": "https://zenn.dev/singularity/articles/diy-terminal-500-commits",
+    "publishedAt": "2026-07-23T20:55:48.000Z",
+    "summary": "僕は長いこと、ターミナルの中で暮らしています。エディタは emacs、VS Code や GUI 系のツールはどうにも手に馴染まない。Web 上の開発環境も、あの「ちょっとした不便」が積もって結局使わなくなる。要するに、ターミナルに慣れ親しみすぎて、GUI のボタンがどこにあるのか探せない人間です。 そんな僕が、勢いで自分専用のターミナルを作ったら、GitHub のコミットが毎日 500 を超えるようになりました。一度きりの当たり日ではなく、来る日も来る日も、です。生産性がバグりました。 毎日 500 コミット超え。草が真緑になった 先に言い訳をしておく…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
   },
   {
     "id": "b654df9ac8414557",
@@ -270,6 +970,16 @@
     "fetchedAt": "2026-07-24T00:13:54.565Z"
   },
   {
+    "id": "f70983960e236f43",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "2bitに量子化したKimi K2.7 CodeにMac Studio 1台で$69,875を稼いでもらった",
+    "url": "https://zenn.dev/hellohazime/articles/kimi_k27_code_swelancer_local",
+    "publishedAt": "2026-07-23T12:35:05.000Z",
+    "summary": "お疲れ様です波浪です。 Kimi K3も出てるので、出すタイミングを失ってしまったんですが、いまさらK2.7の話です。 これ以上伸ばしてK3のオープンウェイトでちゃったらまじで出すタイミング失うなと思って、恥を忍んで提出します。 遡ること先月の事、2026年6月17日から6月30日まで、Mac Studio(Apple M3 Ultra、512GB)1台で、Moonshot AI の Kimi K2.7 Code に SWE-Lancer の IC SWE(Diamond)198タスクを解かせました。 かかった時間は308時間34分、13日弱。93タスク…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
     "id": "4f5ac516368358fd",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -380,6 +1090,16 @@
     "fetchedAt": "2026-07-24T00:13:54.565Z"
   },
   {
+    "id": "7e9559ab1bcfc458",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "ソフトウェア設計は、「誰がどこまで考えるか」を決める仕事である - 変数名からDDD、DB設計、マイクロサービス、組織構造までを同じ枠組みで",
+    "url": "https://zenn.dev/kanaria007/articles/c392cbd1c1fc21",
+    "publishedAt": "2026-07-23T09:00:06.000Z",
+    "summary": "ソフトウェア開発には、多くの設計原則があります。 わかりやすい変数名を付ける 関数を小さくする 単一責任にする 凝集度を高くする 結合度を低くする 情報を隠蔽する DBを正規化する ドメインの言葉を使う Bounded Contextを分ける モノリスとマイクロサービスを使い分ける チームの責任範囲を明確にする それぞれに歴史があり、説明の仕方も違います。 しかし、実際に設計していると、こういう疑問が出てきます。 「関数は、どのくらいの大きさなら小さいのか」 「クラスは、何個の責務までなら持ってよいのか」 「テーブルは、どこまで分けるべきなのか」 「一つ…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
     "id": "4b306740d2f23fa5",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -388,6 +1108,16 @@
     "publishedAt": "2026-07-23T08:44:00.000Z",
     "summary": "高市早苗首相（自民党総裁）の陣営による党総裁選などでの中傷動画作成疑惑や名前を冠した暗号資産「サナエトークン」を巡り、首相は7月22日、週刊誌などが関与を伝えていた秘書の陳述書を衆院予算委員会に提出した。秘書は、陳述書で関与を全否定した。",
     "fetchedAt": "2026-07-24T00:13:54.079Z"
+  },
+  {
+    "id": "7eabd683482dd1d6",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "受託小規模向けの技術選定と考えたこと",
+    "url": "https://zenn.dev/fukke/articles/20260723_nextjs-structure",
+    "publishedAt": "2026-07-23T08:02:36.000Z",
+    "summary": "なぜ使い回せる技術構成が必要か 受託開発では、短い期間で成果を出しつつ品質の高いものを作ることが大切です。 そのためには、案件ごとに技術スタックの検討にかける時間をなるべく減らし、その分を要件定義や設計に充てられる状態が理想です。 品質の高いものを低コストで出せる技術構成には、それ自体に価値があります。 今回はそうした技術構成を考え、ある程度運用してきたので紹介します。 想定するチームと設計の軸 受託企業の小人数チーム（フロントエンド2名・バックエンド1名を想定）で最適化された設計です。 小規模から中規模のアプリケーション開発を対象に、次の4つを思想とし…",
+    "fetchedAt": "2026-07-26T07:13:52.661Z"
   },
   {
     "id": "cd392db4a02e7772",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T00:18:14.460Z",
-  "totalArticles": 392,
+  "generatedAt": "2026-07-26T07:18:44.915Z",
+  "totalArticles": 465,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
@@ -14,11 +14,14 @@
         "Claude",
         "活用",
         " AI",
-        "生成AI",
         "LLM",
-        "仕事"
+        "生成AI",
+        "ChatGPT"
       ],
       "evidenceArticleIds": [
+        "4fac2a81a434d3a1",
+        "fec42c256fea6ef5",
+        "ee8db45590077640",
         "b0b37699f69b4128",
         "8d14857a40a4884e",
         "b9518240141c2f25",
@@ -34,9 +37,9 @@
         "5e4f185e204b1a85",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 14,
-      "confidence": 0.89,
-      "reason": "11 種類のキーワードが 14 件の記事でヒット（例：Claude、活用、 AI）"
+      "evidenceArticleCount": 17,
+      "confidence": 0.9,
+      "reason": "12 種類のキーワードが 17 件の記事でヒット（例：Claude、活用、 AI）"
     },
     {
       "id": "infrastructure-outages",
@@ -68,8 +71,40 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 14,
-      "confidence": 0.94,
+      "confidence": 0.93,
       "reason": "11 種類のキーワードが 14 件の記事でヒット（例：障害、復旧、影響）"
+    },
+    {
+      "id": "security-breach",
+      "theme": "個人情報漏洩・セキュリティ対策",
+      "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "サイバー攻撃",
+        "情報",
+        "個人情報",
+        "ランサム",
+        "漏えい",
+        "セキュリティ"
+      ],
+      "evidenceArticleIds": [
+        "a1167d06d12dc2f0",
+        "c44c304b78b696d1",
+        "689612a1036666af",
+        "287c16c07dd20372",
+        "1d5b3a6d3eb3c092",
+        "5364b956c670e858",
+        "ccef449a4687fc7a",
+        "0bcf86b668654cd1",
+        "f968a3171e579c47",
+        "f28951ad7868357f",
+        "dd64271ab03bf3a7",
+        "b778b7551fcdb609",
+        "31931e12804789ed"
+      ],
+      "evidenceArticleCount": 13,
+      "confidence": 0.94,
+      "reason": "10 種類のキーワードが 13 件の記事でヒット（例：サイバー攻撃、情報、個人情報）"
     },
     {
       "id": "ai-coding",
@@ -98,37 +133,8 @@
         "37cf43d81fe7cb8c"
       ],
       "evidenceArticleCount": 11,
-      "confidence": 0.92,
+      "confidence": 0.91,
       "reason": "11 種類のキーワードが 11 件の記事でヒット（例：Claude Code、開発、レビュー）"
-    },
-    {
-      "id": "security-breach",
-      "theme": "個人情報漏洩・セキュリティ対策",
-      "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "サイバー攻撃",
-        "ランサム",
-        "被害",
-        "情報",
-        "漏えい",
-        "セキュリティ"
-      ],
-      "evidenceArticleIds": [
-        "287c16c07dd20372",
-        "1d5b3a6d3eb3c092",
-        "5364b956c670e858",
-        "ccef449a4687fc7a",
-        "0bcf86b668654cd1",
-        "f968a3171e579c47",
-        "f28951ad7868357f",
-        "dd64271ab03bf3a7",
-        "b778b7551fcdb609",
-        "31931e12804789ed"
-      ],
-      "evidenceArticleCount": 10,
-      "confidence": 0.95,
-      "reason": "10 種類のキーワードが 10 件の記事でヒット（例：サイバー攻撃、ランサム、被害）"
     },
     {
       "id": "payment-troubles",
@@ -153,8 +159,32 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 7,
-      "confidence": 0.82,
+      "confidence": 0.81,
       "reason": "8 種類のキーワードが 7 件の記事でヒット（例：決済、クレカ、PayPay）"
+    },
+    {
+      "id": "ai-regulation",
+      "theme": "AI規制・安全性・プライバシー",
+      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "AI",
+        "規制",
+        "安全性",
+        "Meta",
+        "プライバシー",
+        "欧州委員会"
+      ],
+      "evidenceArticleIds": [
+        "e1e25c3e3465493b",
+        "d95ca7cebce53876",
+        "4bf8f55cb8457c0e",
+        "653519ff37ac720c",
+        "1c3d73cfafe83c4f"
+      ],
+      "evidenceArticleCount": 5,
+      "confidence": 0.65,
+      "reason": "6 種類のキーワードが 5 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "ai-hardware",
@@ -175,7 +205,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.53,
+      "confidence": 0.52,
       "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
@@ -198,8 +228,30 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.66,
+      "confidence": 0.65,
       "reason": "7 種類のキーワードが 4 件の記事でヒット（例：在宅勤務、勤務、在宅）"
+    },
+    {
+      "id": "home-server-selfhost",
+      "theme": "自宅サーバー・セルフホスト",
+      "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "サーバ",
+        "自宅",
+        "サーバー",
+        "おうち",
+        "ラボ",
+        "構築"
+      ],
+      "evidenceArticleIds": [
+        "60a555cbabd18483",
+        "112c488162d42fb1",
+        "8ce1150d1c1be423"
+      ],
+      "evidenceArticleCount": 3,
+      "confidence": 0.52,
+      "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
     },
     {
       "id": "senior-health",
@@ -219,50 +271,8 @@
         "e2193fce8f746f0f"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.56,
+      "confidence": 0.54,
       "reason": "5 種類のキーワードが 3 件の記事でヒット（例：高齢者、介護、ボケ）"
-    },
-    {
-      "id": "ai-regulation",
-      "theme": "AI規制・安全性・プライバシー",
-      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "AI",
-        "規制",
-        "安全性",
-        "プライバシー",
-        "欧州委員会"
-      ],
-      "evidenceArticleIds": [
-        "4bf8f55cb8457c0e",
-        "653519ff37ac720c",
-        "1c3d73cfafe83c4f"
-      ],
-      "evidenceArticleCount": 3,
-      "confidence": 0.5,
-      "reason": "5 種類のキーワードが 3 件の記事でヒット（例：AI、規制、安全性）"
-    },
-    {
-      "id": "home-server-selfhost",
-      "theme": "自宅サーバー・セルフホスト",
-      "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "サーバ",
-        "自宅",
-        "サーバー",
-        "おうち",
-        "ラボ",
-        "構築"
-      ],
-      "evidenceArticleIds": [
-        "112c488162d42fb1",
-        "8ce1150d1c1be423"
-      ],
-      "evidenceArticleCount": 2,
-      "confidence": 0.46,
-      "reason": "6 種類のキーワードが 2 件の記事でヒット（例：サーバ、自宅、サーバー）"
     }
   ]
 }
