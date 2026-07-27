@@ -484,8 +484,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.169Z",
+        "generatedAt": "2026-07-27T13:58:09.041Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "拡大局面",
+          "rationale": "勢い 100/100 に加え、Wikipedia 閲覧が +75% で一般認知が広がっている。参入コストが上がる前の窓。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +75% (計 4,854 PV)。加えて Qiita に直近30日で 31 記事 (LGTM 合計 58)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 61 本の論文投稿 (主分野 cs.DC)。",
           "signals": [
@@ -1315,8 +1319,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.170Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "拡大局面",
+          "rationale": "勢い 100/100 に加え、ニュース報道 13 件 で一般認知が広がっている。参入コストが上がる前の窓。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -21% (計 3,254 PV)。加えて Qiita に直近30日で 1998 記事 (LGTM 合計 4745)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 2043 本の論文投稿 (主分野 cs.AI)。",
           "signals": [
@@ -1992,8 +2000,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.170Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "拡大局面",
+          "rationale": "勢い 100/100 に加え、Wikipedia 閲覧が +380% で一般認知が広がっている。参入コストが上がる前の窓。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +380% (計 3,088 PV)。加えて Qiita に直近30日で 54 記事 (LGTM 合計 390)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 25 本の論文投稿 (主分野 cs.CR)。",
           "signals": [
@@ -2633,8 +2645,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.170Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "拡大局面",
+          "rationale": "勢い 94/100 に加え、ニュース報道 10 件 で一般認知が広がっている。参入コストが上がる前の窓。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -40% (計 1,465 PV)。加えて Qiita に直近30日で 147 記事 (LGTM 合計 286)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 71 本の論文投稿 (主分野 cs.SE)。",
           "signals": [
@@ -3148,8 +3164,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.171Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "研究先行",
+          "rationale": "arXiv に 1178 本の論文投稿。研究は活発だが Qiita 実装事例が 0 件と少なく、産業応用はまだ手薄。"
+        },
         "whyTrending": {
           "headline": "主な観測: arXiv に直近30日で 1178 本の論文投稿 (主分野 cs.CY)。加えて 直近ニュースで頻出: 「Google」。",
           "signals": [
@@ -3926,8 +3946,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.171Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "様子見",
+          "rationale": "勢い 100/100、明確なトリガー signal は観測されていない。次の 1-2 週間の変化を待ってから判断。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -31% (計 12,261 PV)。加えて Qiita に直近30日で 10 記事 (LGTM 合計 0)、技術者コミュニティで実装ノウハウが活発に共有中、App Store JP に 7 本の関連アプリが登場 (最高 #28)。",
           "signals": [
@@ -4496,8 +4520,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.171Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "拡大局面",
+          "rationale": "勢い 90/100 に加え、Wikipedia 閲覧が +22% で一般認知が広がっている。参入コストが上がる前の窓。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +22% (計 190 PV)。",
           "signals": [
@@ -5186,8 +5214,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.171Z",
+        "generatedAt": "2026-07-27T13:58:09.042Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "様子見",
+          "rationale": "勢い 67/100、明確なトリガー signal は観測されていない。次の 1-2 週間の変化を待ってから判断。"
+        },
         "whyTrending": {
           "headline": "主な観測: Qiita に直近30日で 11 記事 (LGTM 合計 17)、技術者コミュニティで実装ノウハウが活発に共有中。加えて arXiv に直近30日で 146 本の論文投稿 (主分野 cs.HC)、App Store JP に 3 本の関連アプリが登場 (最高 #22)。",
           "signals": [
@@ -5680,8 +5712,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.171Z",
+        "generatedAt": "2026-07-27T13:58:09.043Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "研究先行",
+          "rationale": "arXiv に 2413 本の論文投稿。研究は活発だが Qiita 実装事例が 0 件と少なく、産業応用はまだ手薄。"
+        },
         "whyTrending": {
           "headline": "主な観測: arXiv に直近30日で 2413 本の論文投稿 (主分野 cs.LG)。",
           "signals": [
@@ -6238,8 +6274,12 @@
       },
       "_insights": {
         "version": 1,
-        "generatedAt": "2026-07-27T13:30:40.171Z",
+        "generatedAt": "2026-07-27T13:58:09.043Z",
         "method": "heuristic (rule-based, no LLM)",
+        "verdict": {
+          "label": "拡大局面",
+          "rationale": "勢い 85/100 に加え、Wikipedia 閲覧が +245% で一般認知が広がっている。参入コストが上がる前の窓。"
+        },
         "whyTrending": {
           "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +245% (計 32,531 PV)。加えて Qiita に直近30日で 67 記事 (LGTM 合計 126)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 339 本の論文投稿 (主分野 cs.LG)。",
           "signals": [
@@ -6391,6 +6431,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-27T13:30:40.171Z",
+  "insightsGeneratedAt": "2026-07-27T13:58:09.043Z",
   "insightsMethod": "heuristic-v1"
 }

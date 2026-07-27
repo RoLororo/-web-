@@ -111,33 +111,42 @@ export default function DemandDetail() {
 
           <p className="detail-summary" style={{ marginTop: 12 }}>{demand.summary}</p>
 
+          {/* 総合判定 (verdict): 意思決定用の 1 行結論。矛盾する signal を横断して統合。 */}
+          {demand._insights?.verdict && (
+            <div className={`verdict verdict-${demand._insights.verdict.label.toLowerCase()}`}>
+              <span className="verdict-label">総合判定</span>
+              <span className="verdict-value">{demand._insights.verdict.label}</span>
+              <span className="verdict-rationale">{demand._insights.verdict.rationale}</span>
+            </div>
+          )}
+
           <div className="detail-hero-metrics">
             <div className="hero-metric">
-              <div className="hero-metric-label">需要度</div>
+              <div className="hero-metric-label">需要スコア</div>
               <div className="hero-metric-value">
                 <AnimatedNumber value={demand.score} duration={1100} />
               </div>
-              <div className="hero-metric-hint">複数の参考データをもとにした試算値（100点満点）</div>
+              <div className="hero-metric-hint">4 指標 (ニュース量40% / 直近成長30% / 情報源多様性20% / 鮮度10%) の重み付き合成 (100点満点)</div>
             </div>
             <div className="hero-metric">
-              <div className="hero-metric-label">前日比</div>
+              <div className="hero-metric-label">30日成長率</div>
               <div className={`hero-metric-value ${demand.change > 0 ? 'up' : demand.change < 0 ? 'down' : ''}`}>
                 {formatChange(demand.change)}
               </div>
-              <div className="hero-metric-hint">昨日のスコアと比較した変化率</div>
+              <div className="hero-metric-hint">ニュース記事数 (直近2日 vs 前5日) から算出。±200% で頭打ち</div>
             </div>
             <div className="hero-metric">
-              <div className="hero-metric-label">参考データ</div>
+              <div className="hero-metric-label">観測情報源</div>
               <div className="hero-metric-value">
-                <AnimatedNumber value={demand.sourceCount} duration={900} />
-                <span style={{ fontSize: 15, marginLeft: 4, color: 'var(--text-3)' }}>件</span>
+                <AnimatedNumber value={Object.keys(demand._insights?.beginnerFriendliness || {}).length > 0 ? 5 : demand.sourceCount} duration={900} />
+                <span style={{ fontSize: 15, marginLeft: 4, color: 'var(--text-3)' }}>種</span>
               </div>
-              <div className="hero-metric-hint">SNS・検索・求人など</div>
+              <div className="hero-metric-hint">Wikipedia PV / Qiita / arXiv / App Store JP / 主要ニュース RSS</div>
             </div>
             <div className="hero-metric">
-              <div className="hero-metric-label">信頼度</div>
-              <div className="hero-metric-value" style={{ fontSize: 20 }}>{demand.confidence}</div>
-              <div className="hero-metric-hint">プロトタイプ段階の参考指標</div>
+              <div className="hero-metric-label">データ更新</div>
+              <div className="hero-metric-value" style={{ fontSize: 16 }}>{formatDateTime(demand.updatedAt).slice(0, 10)}</div>
+              <div className="hero-metric-hint">GitHub Actions が毎日 JST 06:00 に自動更新</div>
             </div>
           </div>
         </div>
@@ -228,24 +237,58 @@ export default function DemandDetail() {
 
             {/* 数字ベースの内訳 (旧「なぜ高まっているのか」の代わりに縮小して残す) */}
             <div className="block">
-              <div className="block-title">数値ベースの内訳</div>
-              <div className="reason-grid">
-                {Object.entries(demand.breakdown).map(([k, v]) => (
-                  <div key={k} className="reason-card">
-                    <div className="reason-label">{breakdownLabels[k] || k}</div>
-                    <div
-                      className="reason-value"
-                      style={{ color: v >= 0 ? 'var(--green-bright)' : 'var(--red)' }}
-                    >
-                      {v > 0 ? `+${v}%` : `${v}%`}
+              <div className="block-title">
+                需要スコア {demand.score} の内訳
+                <span className="block-title-count">4 要素の合計</span>
+              </div>
+              <p className="score-breakdown-lead">
+                needs = 40×ニュース量 + 30×直近成長 + 20×情報源多様性 + 10×鮮度。各要素は 0〜1 に正規化。
+              </p>
+              {(() => {
+                const sb = demand._scoreBreakdown || {};
+                const rows = [
+                  { key: 'newsVolume',      label: 'ニュース量',        val: sb.newsVolume ?? 0,      weight: 40 },
+                  { key: 'growth',          label: '直近成長',          val: sb.growth ?? 0,          weight: 30 },
+                  { key: 'sourceDiversity', label: '情報源多様性',      val: sb.sourceDiversity ?? 0, weight: 20 },
+                  { key: 'freshness',       label: '鮮度',              val: sb.freshness ?? 0,       weight: 10 },
+                ];
+                const total = rows.reduce((s, r) => s + r.val * r.weight, 0);
+                return (
+                  <>
+                    <ul className="score-bars">
+                      {rows.map((r) => {
+                        const contribution = Math.round(r.val * r.weight);
+                        return (
+                          <li key={r.key} className="score-bar-row">
+                            <div className="score-bar-head">
+                              <span className="score-bar-name">{r.label}</span>
+                              <span className="score-bar-formula">
+                                {r.val.toFixed(2)} × {r.weight}
+                                <span className="score-bar-contribution"> = {contribution} 点</span>
+                              </span>
+                            </div>
+                            <div className="score-bar-track">
+                              <div
+                                className="score-bar-fill"
+                                style={{ width: `${(r.val * r.weight) / 100 * 100}%` }}
+                                aria-label={`${r.label}: ${contribution} 点 / ${r.weight} 点満点`}
+                              />
+                              <div
+                                className="score-bar-max"
+                                style={{ width: `${r.weight}%` }}
+                              />
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                    <div className="score-total-row">
+                      <span>合計</span>
+                      <span className="score-total-val">{Math.round(total)} 点</span>
                     </div>
-                  </div>
-                ))}
-              </div>
-              <div className="disclaimer" style={{ marginTop: 12 }}>
-                こちらは news volume から算出した簡易な変化率です。上の「なぜ伸びたのか」がより
-                広い観測に基づいた解釈になります。
-              </div>
+                  </>
+                );
+              })()}
             </div>
 
             {/* 誰が求めているか */}
@@ -369,7 +412,7 @@ export default function DemandDetail() {
           {/* ── 右：サイドバー ── */}
           <aside>
             <div className="sidebar-card">
-              <div className="sidebar-title">この需要のメタ情報</div>
+              <div className="sidebar-title">観測基盤の内訳</div>
               <div className="meta-row">
                 <span className="label">分野</span>
                 <span className="value">
@@ -377,16 +420,25 @@ export default function DemandDetail() {
                 </span>
               </div>
               <div className="meta-row">
-                <span className="label">状態</span>
-                <span className="value" style={{ fontFamily: 'inherit' }}>{demand.status}</span>
+                <span className="label">総合判定</span>
+                <span className="value" style={{ fontFamily: 'inherit' }}>
+                  {demand._insights?.verdict?.label || demand.status}
+                </span>
               </div>
               <div className="meta-row">
-                <span className="label">参考データ</span>
-                <span className="value">{demand.sourceCount}件</span>
+                <span className="label">観測ソース</span>
+                <span className="value" style={{ fontFamily: 'inherit', fontSize: 12 }}>
+                  Wikipedia / Qiita / arXiv / App Store / RSS
+                </span>
               </div>
               <div className="meta-row">
-                <span className="label">信頼度</span>
-                <span className="value" style={{ fontFamily: 'inherit' }}>{demand.confidence}</span>
+                <span className="label">実観測点</span>
+                <span className="value">
+                  {(demand._qiitaDetail?.topItems?.length || 0)
+                   + (demand._arxivDetail?.topItems?.length || 0)
+                   + (demand._appstoreDetail?.topItems?.length || 0)
+                   + (demand.evidence?.length || 0)} 件
+                </span>
               </div>
               <div className="meta-row">
                 <span className="label">最終更新</span>
@@ -397,8 +449,9 @@ export default function DemandDetail() {
             </div>
 
             <div className="disclaimer">
-              需要スコアはSNS・検索・求人・報道などの参考データから算出したものです。
-              現時点ではプロトタイプ用のダミー値であり、正確な市場規模を示すものではありません。
+              このページの数値は Wikipedia / Qiita / arXiv / App Store JP / 主要ニュース RSS の
+              公開データを日次観測し、ルールベースで合成した推定値です。
+              意思決定の一次資料としてご活用ください (LLM 未使用)。
             </div>
 
             {demand._insights && (

@@ -446,6 +446,54 @@ function evaluateCompetition(demand) {
 // whyTrending の synthesis
 // ---------------------------------------------------------------------------
 
+/**
+ * 総合判定 (verdict) — 「結局このテーマは今どんな局面か」を 1 語 + 1 文で。
+ *
+ * 意思決定者は、矛盾する signal (Wikipedia -40% と Qiita +N% など) を
+ * 眺めても判断できない。ここで判定を 1 個に統合してから根拠 signals を並べる。
+ *
+ * 判定基準:
+ *   拡大局面   momentum >= 70 かつ (Wikipedia growth > +10% or newsN >= 8)
+ *              → 一般認知と勢いが揃っている。参入コストが上がる前の窓
+ *   実装フェーズ momentum >= 60 かつ Qiita 記事密度が高い (>= 50)
+ *              → 開発者コミュニティが実装ノウハウを共有中。技術参入好機
+ *   認知拡大中  Wikipedia growth > +25% で momentum < 60
+ *              → 一般関心先行、実装コミュニティはこれから
+ *   鎮静化中   momentum < 40 かつ Wikipedia growth < -20%
+ *              → ピーク後、関心が落ち着いた
+ *   様子見     上記いずれも該当しない
+ */
+function buildVerdict(demand) {
+  const m = classifyMomentum(demand);
+  const wGrowth = Number(demand._wikipediaDetail?.growthPercent) || 0;
+  const wPV = Number(demand._wikipediaDetail?.totalPageviews30d) || 0;
+  const qArt = Number(demand._qiitaDetail?.nativeMetrics?.articleCount) || 0;
+  const xVol = Number(demand._arxivDetail?.nativeMetrics?.paperCount) || 0;
+  const newsN = Number(demand._matchingArticleCount) || 0;
+
+  let label, rationale;
+  if (m.score >= 70 && (wGrowth >= 10 || newsN >= 8)) {
+    label = '拡大局面';
+    rationale = `勢い ${m.score}/100 に加え、${wGrowth >= 10 ? `Wikipedia 閲覧が +${wGrowth}%` : `ニュース報道 ${newsN} 件`} で一般認知が広がっている。参入コストが上がる前の窓。`;
+  } else if (m.score >= 60 && qArt >= 50) {
+    label = '実装フェーズ';
+    rationale = `勢い ${m.score}/100、Qiita に ${qArt} 記事 (直近30日) で開発者コミュニティが実装ノウハウを積極共有中。技術で参入する好機。`;
+  } else if (wGrowth >= 25 && m.score < 60) {
+    label = '認知拡大中';
+    rationale = `Wikipedia 閲覧が +${wGrowth}% (計 ${wPV.toLocaleString()} PV) で一般関心が先行。実装コミュニティはまだ形成中。`;
+  } else if (m.score < 40 && wGrowth <= -20) {
+    label = '鎮静化中';
+    rationale = `勢い ${m.score}/100、Wikipedia 閲覧も ${wGrowth}% と後退。ピーク通過の可能性、新規参入は慎重に。`;
+  } else if (xVol >= 500 && qArt < 20) {
+    label = '研究先行';
+    rationale = `arXiv に ${xVol} 本の論文投稿。研究は活発だが Qiita 実装事例が ${qArt} 件と少なく、産業応用はまだ手薄。`;
+  } else {
+    label = '様子見';
+    rationale = `勢い ${m.score}/100、明確なトリガー signal は観測されていない。次の 1-2 週間の変化を待ってから判断。`;
+  }
+  return { label, rationale };
+}
+
 function buildWhyTrending(demand) {
   const bullets = [];
 
@@ -693,6 +741,7 @@ async function main() {
   for (const d of demands) {
     const profile = THEME_PROFILES[d.id] || {};
 
+    const verdict     = buildVerdict(d);
     const whyTrending = buildWhyTrending(d);
     const momentum    = classifyMomentum(d);
     const beginner    = evaluateBeginnerFriendliness(d);
@@ -721,6 +770,7 @@ async function main() {
       version: 1,
       generatedAt: new Date().toISOString(),
       method: 'heuristic (rule-based, no LLM)',
+      verdict,
       whyTrending,
       momentum,
       beginnerFriendliness: beginner,

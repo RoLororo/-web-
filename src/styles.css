@@ -1412,6 +1412,164 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 /* --------------------------------------------------------------------------
+   Verdict — 総合判定 (DemandDetail 上部の 1 行結論)
+   -------------------------------------------------------------------------- */
+
+.verdict {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 16px 0 8px 0;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--card);
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+.verdict-label {
+  font-size: 10.5px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.verdict-value {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 2px 12px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  flex-shrink: 0;
+}
+.verdict-rationale {
+  color: var(--text-2);
+  flex: 1;
+  min-width: 240px;
+}
+
+/* verdict color coding (5 labels) */
+.verdict.verdict-拡大局面 {
+  border-color: color-mix(in oklab, var(--green-bright) 40%, var(--border));
+  background: color-mix(in oklab, var(--green-bright) 6%, var(--card));
+}
+.verdict.verdict-拡大局面 .verdict-value {
+  color: var(--green-bright);
+  border-color: color-mix(in oklab, var(--green-bright) 40%, transparent);
+  background: color-mix(in oklab, var(--green-bright) 12%, transparent);
+}
+.verdict.verdict-実装フェーズ {
+  border-color: color-mix(in oklab, #60a5fa 40%, var(--border));
+}
+.verdict.verdict-実装フェーズ .verdict-value {
+  color: #60a5fa;
+  border-color: color-mix(in oklab, #60a5fa 40%, transparent);
+  background: color-mix(in oklab, #60a5fa 12%, transparent);
+}
+.verdict.verdict-認知拡大中 .verdict-value {
+  color: #fbbf24;
+  border-color: color-mix(in oklab, #fbbf24 40%, transparent);
+  background: color-mix(in oklab, #fbbf24 12%, transparent);
+}
+.verdict.verdict-研究先行 .verdict-value {
+  color: #a78bfa;
+  border-color: color-mix(in oklab, #a78bfa 40%, transparent);
+  background: color-mix(in oklab, #a78bfa 12%, transparent);
+}
+.verdict.verdict-鎮静化中 .verdict-value {
+  color: var(--red);
+  border-color: color-mix(in oklab, var(--red) 40%, transparent);
+  background: color-mix(in oklab, var(--red) 12%, transparent);
+}
+.verdict.verdict-様子見 .verdict-value {
+  color: var(--text-2);
+  border-color: var(--border);
+  background: var(--surface-alt);
+}
+
+/* --------------------------------------------------------------------------
+   Score breakdown bars — 「なぜスコア86か」を可視化
+   -------------------------------------------------------------------------- */
+
+.score-breakdown-lead {
+  font-size: 12.5px;
+  color: var(--text-3);
+  margin: 0 0 12px 0;
+  line-height: 1.55;
+}
+.score-bars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.score-bar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.score-bar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 12.5px;
+}
+.score-bar-name {
+  color: var(--text);
+  font-weight: 600;
+}
+.score-bar-formula {
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.score-bar-contribution {
+  color: var(--text);
+  font-weight: 700;
+  margin-left: 4px;
+}
+.score-bar-track {
+  position: relative;
+  height: 12px;
+  background: var(--surface-alt);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.score-bar-fill {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  background: linear-gradient(90deg, var(--green), var(--green-bright));
+  border-radius: 6px 0 0 6px;
+  transition: width 0.6s var(--ease);
+}
+.score-bar-max {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  border-right: 1px dashed var(--border-strong);
+  pointer-events: none;
+}
+.score-total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text-2);
+}
+.score-total-val {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --------------------------------------------------------------------------
    DemandCard v2 — insights badges + primary day-over-day
    -------------------------------------------------------------------------- */
 
