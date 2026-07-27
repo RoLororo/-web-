@@ -446,6 +446,70 @@ function evaluateCompetition(demand) {
 // whyTrending の synthesis
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// _dataQuality — このテーマの観測基盤がどれだけ信頼に足るかの 0-100 スコア
+//
+//   3 signals:
+//     (a) ソース観測幅  実際に non-zero volume を持つソース数 / 4 (33 点満点)
+//     (b) 履歴の深さ    history は build-demands 側では持たないため、
+//                       ここでは demands 単体で判断できる代替として
+//                       「4 情報源すべてに meta/nativeMetrics が入っているか」
+//                       を 33 点で近似 (履歴深さは append-history 側で別途扱う)
+//     (c) 一致度        news growth と Wikipedia growth の符号一致 (33 点)
+//                       いずれかが 0 or null なら中立扱いで 17 点
+//
+//   総合 < 40 → verdict を「観測不足」に強制オーバーライド
+//   総合 40-70 → verdict は正常ロジック、UI で低品質フラグを可能に
+//   総合 >= 70 → 高信頼
+// ---------------------------------------------------------------------------
+
+function computeDataQuality(demand) {
+  const signals = [];
+
+  // (a) 実測 volume を持つソース数
+  const activeSourceCount = [
+    typeof demand._qiitaDetail?.metrics?.volume === 'number' && demand._qiitaDetail.metrics.volume > 0,
+    typeof demand._arxivDetail?.metrics?.volume === 'number' && demand._arxivDetail.metrics.volume > 0,
+    (demand._appstoreDetail?.nativeMetrics?.matchedAppCount || 0) > 0,
+    (demand._wikipediaDetail?.totalPageviews30d || 0) > 0,
+  ].filter(Boolean).length;
+  const scoreA = Math.round((activeSourceCount / 4) * 33);
+  signals.push(`アクティブソース ${activeSourceCount}/4`);
+
+  // (b) 観測点の実数 (news + qiita topItems + arxiv topItems + appstore topItems)
+  const observationPoints =
+    (demand.evidence?.length || 0)
+    + (demand._qiitaDetail?.topItems?.length || 0)
+    + (demand._arxivDetail?.topItems?.length || 0)
+    + (demand._appstoreDetail?.topItems?.length || 0);
+  const scoreB = Math.min(33, Math.round((observationPoints / 20) * 33));
+  signals.push(`実観測 ${observationPoints} 件`);
+
+  // (c) ソース間 signal 一致度
+  const newsGrowth = Number(demand.change) || 0;
+  const wikiGrowth = Number(demand._wikipediaDetail?.growthPercent) || 0;
+  let scoreC;
+  if (wikiGrowth === 0 || newsGrowth === 0) {
+    scoreC = 17;
+    signals.push('growth 片方 0');
+  } else if (Math.sign(newsGrowth) === Math.sign(wikiGrowth)) {
+    scoreC = 34;
+    signals.push('news×wiki 符号一致');
+  } else {
+    scoreC = 8;
+    signals.push('news×wiki 符号不一致');
+  }
+
+  const total = scoreA + scoreB + scoreC;
+  let label;
+  if (total >= 70)      label = '高';
+  else if (total >= 50) label = '中';
+  else if (total >= 30) label = '低';
+  else                  label = '観測不足';
+
+  return { score: total, label, signals };
+}
+
 /**
  * 総合判定 (verdict) — 「結局このテーマは今どんな局面か」を 1 語 + 1 文で。
  *
@@ -463,35 +527,76 @@ function evaluateCompetition(demand) {
  *              → ピーク後、関心が落ち着いた
  *   様子見     上記いずれも該当しない
  */
-function buildVerdict(demand) {
+function buildVerdict(demand, dataQuality) {
   const m = classifyMomentum(demand);
   const wGrowth = Number(demand._wikipediaDetail?.growthPercent) || 0;
   const wPV = Number(demand._wikipediaDetail?.totalPageviews30d) || 0;
   const qArt = Number(demand._qiitaDetail?.nativeMetrics?.articleCount) || 0;
   const xVol = Number(demand._arxivDetail?.nativeMetrics?.paperCount) || 0;
   const newsN = Number(demand._matchingArticleCount) || 0;
+  const score = Number(demand.score) || 0;
 
-  let label, rationale;
-  if (m.score >= 70 && (wGrowth >= 10 || newsN >= 8)) {
-    label = '拡大局面';
-    rationale = `勢い ${m.score}/100 に加え、${wGrowth >= 10 ? `Wikipedia 閲覧が +${wGrowth}%` : `ニュース報道 ${newsN} 件`} で一般認知が広がっている。参入コストが上がる前の窓。`;
-  } else if (m.score >= 60 && qArt >= 50) {
-    label = '実装フェーズ';
-    rationale = `勢い ${m.score}/100、Qiita に ${qArt} 記事 (直近30日) で開発者コミュニティが実装ノウハウを積極共有中。技術で参入する好機。`;
-  } else if (wGrowth >= 25 && m.score < 60) {
-    label = '認知拡大中';
-    rationale = `Wikipedia 閲覧が +${wGrowth}% (計 ${wPV.toLocaleString()} PV) で一般関心が先行。実装コミュニティはまだ形成中。`;
-  } else if (m.score < 40 && wGrowth <= -20) {
-    label = '鎮静化中';
-    rationale = `勢い ${m.score}/100、Wikipedia 閲覧も ${wGrowth}% と後退。ピーク通過の可能性、新規参入は慎重に。`;
-  } else if (xVol >= 500 && qArt < 20) {
-    label = '研究先行';
-    rationale = `arXiv に ${xVol} 本の論文投稿。研究は活発だが Qiita 実装事例が ${qArt} 件と少なく、産業応用はまだ手薄。`;
-  } else {
-    label = '様子見';
-    rationale = `勢い ${m.score}/100、明確なトリガー signal は観測されていない。次の 1-2 週間の変化を待ってから判断。`;
+  // (0) 観測不足オーバーライド — 意思決定を保留すべきテーマを明示
+  if (dataQuality && dataQuality.score < 40) {
+    return {
+      label: '観測不足',
+      rationale: `観測基盤スコア ${dataQuality.score}/100 と低く、判定に足るデータが集まっていない (${dataQuality.signals.join(' / ')})。1-2 週間の追加観測を待って再評価を推奨。`,
+    };
   }
-  return { label, rationale };
+
+  // (1) 拡大局面 — 高スコア × 高勢い × 一般認知拡大
+  if (score >= 70 && m.score >= 70 && (wGrowth >= 10 || newsN >= 8)) {
+    return {
+      label: '拡大局面',
+      rationale: `需要スコア ${score}/100 と勢い ${m.score}/100 が揃い、${wGrowth >= 10 ? `Wikipedia 閲覧が +${wGrowth}%` : `ニュース報道 ${newsN} 件`} で一般認知も拡大中。参入コストが上がる前の窓。`,
+    };
+  }
+
+  // (2) 実装フェーズ — Qiita 記事が多い = 開発者が動いている
+  if (m.score >= 60 && qArt >= 50) {
+    return {
+      label: '実装フェーズ',
+      rationale: `勢い ${m.score}/100、Qiita に ${qArt} 記事 (直近30日) で開発者コミュニティが実装ノウハウを積極共有中。技術で参入する好機。`,
+    };
+  }
+
+  // (3) 認知拡大中 — Wikipedia PV は伸びているが実装コミュニティが薄い
+  if (wGrowth >= 25 && m.score < 60 && qArt < 30) {
+    return {
+      label: '認知拡大中',
+      rationale: `Wikipedia 閲覧が +${wGrowth}% (計 ${wPV.toLocaleString()} PV) で一般関心が先行。実装コミュニティ (Qiita ${qArt} 件) はまだ形成中。`,
+    };
+  }
+
+  // (4) 研究先行 — arXiv が多いが Qiita 実装がついてこない
+  if (xVol >= 500 && qArt < 20) {
+    return {
+      label: '研究先行',
+      rationale: `arXiv に ${xVol} 本の論文投稿。研究は活発だが Qiita 実装事例が ${qArt} 件と少なく、産業応用はまだ手薄。`,
+    };
+  }
+
+  // (5) 鎮静化中 — 勢いも Wikipedia も後退
+  if (m.score < 40 && wGrowth <= -20) {
+    return {
+      label: '鎮静化中',
+      rationale: `勢い ${m.score}/100、Wikipedia 閲覧も ${wGrowth}% と後退。ピーク通過の可能性、新規参入は慎重に。`,
+    };
+  }
+
+  // (6) 定着 — 高スコアだが特筆すべき変化がない
+  if (score >= 70 && m.score >= 50) {
+    return {
+      label: '定着',
+      rationale: `需要スコア ${score}/100 と一定水準を保つが、明確な拡大 signal は現時点で観測されていない。既存プレイヤーとの差別化が鍵。`,
+    };
+  }
+
+  // (7) 様子見 — 上記いずれも該当しない
+  return {
+    label: '様子見',
+    rationale: `需要スコア ${score}/100、勢い ${m.score}/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。`,
+  };
 }
 
 function buildWhyTrending(demand) {
@@ -741,7 +846,8 @@ async function main() {
   for (const d of demands) {
     const profile = THEME_PROFILES[d.id] || {};
 
-    const verdict     = buildVerdict(d);
+    const dataQuality = computeDataQuality(d);
+    const verdict     = buildVerdict(d, dataQuality);
     const whyTrending = buildWhyTrending(d);
     const momentum    = classifyMomentum(d);
     const beginner    = evaluateBeginnerFriendliness(d);
@@ -767,9 +873,10 @@ async function main() {
     }
 
     d._insights = {
-      version: 1,
+      version: 2,
       generatedAt: new Date().toISOString(),
       method: 'heuristic (rule-based, no LLM)',
+      dataQuality,
       verdict,
       whyTrending,
       momentum,

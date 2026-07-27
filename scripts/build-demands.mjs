@@ -63,11 +63,30 @@ const OUTPUT_PUBLIC  = resolve(REPO_ROOT, 'public', 'data', 'demands.json');
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
-/** newsVolume の飽和点 (根拠記事 + キーワードトレンド件数の合計) */
-const VOLUME_SATURATION = 100;
+/**
+ * newsVolume の飽和点 (実測ニュース記事数のみ)
+ *
+ * 2026-08 リカリブレーション:
+ *   旧: nwsN + kwTrend を合算し 100 で飽和 → kwTrend が 400-600 の巨大値を
+ *       返すため全テーマが常時 1.0 に張り付き、newsVolume 40 点満点=固定 で
+ *       スコア差別化を殺していた。
+ *   新: kwTrend を除外し実測ニュース記事数のみ、飽和点 15 に。
+ *       実測 nwsN 2-13 が 0.13-0.87 のレンジに広がり、上位/下位で差が出る。
+ *   影響: kwTrend の情報が失われるが、実測ニュース + 3 情報源横断
+ *         (Wikipedia/Qiita/arXiv) で代替される。keyword-trends.json
+ *         パイプラインは残しても score には反映されないだけ (fetcher 削除
+ *         は別 issue)。
+ */
+const VOLUME_SATURATION = 15;
 
-/** sourceDiversity の飽和点 (ユニーク情報源数) */
-const SOURCE_SATURATION = 6;
+/**
+ * sourceDiversity の飽和点 (ユニーク情報源数)
+ *
+ * 2026-08 リカリブレーション: 実際に fetch-news.mjs が拾っているのは
+ * NHK / ITmedia / はてな / Zenn の 4 種のみ。旧 6 のままでは誰も満点に
+ * ならず sourceDiversity=20 点満点が原理的に取れない → 4 に修正。
+ */
+const SOURCE_SATURATION = 4;
 
 /** freshness を 0 にする最大日数 */
 const FRESHNESS_MAX_DAYS = 30;
@@ -106,12 +125,12 @@ function daysBack(n) {
 // ---------------------------------------------------------------------------
 
 /**
- * newsVolume: そのテーマにマッチする記事数 + キーワードトレンドの総件数。
- * VOLUME_SATURATION で頭打ち。
+ * newsVolume: そのテーマにマッチする実測ニュース記事数のみ。
+ * (旧仕様は kwTrend を合算していたが飽和固定を招くため除外)
+ * keywordTrendTotal はデバッグ表示用に残し、スコアには寄与しない。
  */
-function computeNewsVolume(matchingArticles, keywordTrendTotal) {
-  const total = matchingArticles + keywordTrendTotal;
-  return Math.min(1, total / VOLUME_SATURATION);
+function computeNewsVolume(matchingArticles /*, keywordTrendTotal (deprecated) */) {
+  return Math.min(1, matchingArticles / VOLUME_SATURATION);
 }
 
 /**
