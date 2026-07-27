@@ -16,8 +16,9 @@
     "appstore": "node scripts/fetch-appstore.mjs",
     "arxiv": "node scripts/fetch-arxiv.mjs",
     "demands": "node scripts/build-demands.mjs",
+    "insights": "node scripts/generate-insights.mjs",
     "history": "node scripts/append-history.mjs",
-    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run demands && npm run history"
+    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run demands && npm run insights && npm run history"
   },
   "dependencies": {
     "react": "^18.3.1",

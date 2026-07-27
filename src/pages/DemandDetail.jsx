@@ -11,6 +11,7 @@ import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import FoxMark from '../components/FoxMark.jsx';
 import SourceTrends from '../components/SourceTrends.jsx';
 import SourceObservations from '../components/SourceObservations.jsx';
+import InsightsPanel from '../components/InsightsPanel.jsx';
 import { getDemandById } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
@@ -182,15 +183,52 @@ export default function DemandDetail() {
               <SourceObservations demand={demand} />
             </div>
 
-            {/* 概要 */}
-            <div className="block">
-              <div className="block-title">この需要について</div>
-              <div className="block-body">{demand.description}</div>
-            </div>
+            {/* なぜ伸びたのか (合成) */}
+            {demand._insights?.whyTrending && (
+              <div className="block">
+                <div className="block-title">なぜ伸びたのか</div>
+                <InsightsPanel.WhyTrending data={demand._insights.whyTrending} />
+              </div>
+            )}
 
-            {/* なぜ高まっているか */}
+            {/* 3スコア評価: 勢い / 参入しやすさ / 競争 */}
+            {demand._insights && (
+              <div className="block">
+                <div className="block-title">このテーマの評価</div>
+                <div className="insight-assess-grid">
+                  <InsightsPanel.Assessment
+                    title="今の勢い"
+                    score={demand._insights.momentum?.score}
+                    label={demand._insights.momentum?.label}
+                    reason={demand._insights.momentum?.reason}
+                    hue={145}
+                    tone="momentum"
+                  />
+                  <InsightsPanel.Assessment
+                    title="初心者の参入しやすさ"
+                    score={demand._insights.beginnerFriendliness?.score}
+                    label={demand._insights.beginnerFriendliness?.label}
+                    reason={demand._insights.beginnerFriendliness?.reason}
+                    signals={demand._insights.beginnerFriendliness?.signals}
+                    hue={200}
+                    tone="beginner"
+                  />
+                  <InsightsPanel.Assessment
+                    title="競争の激しさ"
+                    score={demand._insights.competition?.score}
+                    label={demand._insights.competition?.label}
+                    reason={demand._insights.competition?.reason}
+                    signals={demand._insights.competition?.signals}
+                    hue={30}
+                    tone="competition"
+                  />
+                </div>
+              </div>
+            )}
+
+            {/* 数字ベースの内訳 (旧「なぜ高まっているのか」の代わりに縮小して残す) */}
             <div className="block">
-              <div className="block-title">なぜ需要が高まっているのか</div>
+              <div className="block-title">数値ベースの内訳</div>
               <div className="reason-grid">
                 {Object.entries(demand.breakdown).map(([k, v]) => (
                   <div key={k} className="reason-card">
@@ -205,8 +243,8 @@ export default function DemandDetail() {
                 ))}
               </div>
               <div className="disclaimer" style={{ marginTop: 12 }}>
-                これらの数値は複数の参考データから算出したプロトタイプ上の指標です。
-                <strong>実データによる検証は今後実施予定</strong>で、断定的な市場判断には使わないでください。
+                こちらは news volume から算出した簡易な変化率です。上の「なぜ伸びたのか」がより
+                広い観測に基づいた解釈になります。
               </div>
             </div>
 
@@ -270,23 +308,62 @@ export default function DemandDetail() {
               </div>
             </div>
 
-            {/* 機会 */}
-            <div className="block">
-              <div className="block-title">関連するビジネス機会</div>
-              <div className="opp-grid">
-                {demand.businessOpportunities.map((o, i) => (
-                  <div key={i} className="opp-card">
-                    <div className="opp-num">Idea {String(i + 1).padStart(2, '0')}</div>
-                    <div className="opp-title">{o.title}</div>
-                    <div className="opp-desc">{o.desc}</div>
-                  </div>
-                ))}
+            {/* 収益化アイデア (詳細版: barrier + revenue バッジ付き) */}
+            {demand._insights?.monetization && demand._insights.monetization.length > 0 && (
+              <div className="block">
+                <div className="block-title">
+                  収益化アイデア
+                  <span className="block-title-count">{demand._insights.monetization.length}</span>
+                </div>
+                <InsightsPanel.Ideas items={demand._insights.monetization} columns="monetization" />
               </div>
-              <div className="disclaimer" style={{ marginTop: 12 }}>
-                ここに挙げたビジネスは、この需要から<strong>考えられる機会の例</strong>です。
-                成功を保証するものではなく、着想のきっかけとしてご活用ください。
+            )}
+
+            {/* コンテンツ化アイデア */}
+            {demand._insights?.content && demand._insights.content.length > 0 && (
+              <div className="block">
+                <div className="block-title">
+                  コンテンツ化アイデア
+                  <span className="block-title-count">{demand._insights.content.length}</span>
+                </div>
+                <InsightsPanel.Ideas items={demand._insights.content} columns="content" />
               </div>
-            </div>
+            )}
+
+            {/* SaaS / アプリ化アイデア */}
+            {demand._insights?.saas && demand._insights.saas.length > 0 && (
+              <div className="block">
+                <div className="block-title">
+                  SaaS / アプリ化アイデア
+                  <span className="block-title-count">{demand._insights.saas.length}</span>
+                </div>
+                <InsightsPanel.Ideas items={demand._insights.saas} columns="saas" />
+              </div>
+            )}
+
+            {/* 似たテーマ */}
+            {demand._insights?.similarThemes && demand._insights.similarThemes.length > 0 && (
+              <div className="block">
+                <div className="block-title">似たテーマを比べる</div>
+                <InsightsPanel.Similar items={demand._insights.similarThemes} />
+                <div className="similar-cta-row">
+                  <Link to={`/compare?a=${demand.id}`} className="btn primary">
+                    このテーマを他と比較する →
+                  </Link>
+                </div>
+              </div>
+            )}
+
+            {/* 次の一歩 (行動チェックリスト) */}
+            {demand._insights?.nextActions && demand._insights.nextActions.length > 0 && (
+              <div className="block next-actions-block">
+                <div className="block-title">次の一歩</div>
+                <div className="next-actions-lead">
+                  観測を眺めるだけで終わらせないための、実行可能な 5 ステップ。
+                </div>
+                <InsightsPanel.Actions actions={demand._insights.nextActions} />
+              </div>
+            )}
           </div>
 
           {/* ── 右：サイドバー ── */}
@@ -324,9 +401,39 @@ export default function DemandDetail() {
               現時点ではプロトタイプ用のダミー値であり、正確な市場規模を示すものではありません。
             </div>
 
-            <button
+            {demand._insights && (
+              <div className="sidebar-assess-mini">
+                <div className="sidebar-mini-row">
+                  <span className="sidebar-mini-label">勢い</span>
+                  <span className="sidebar-mini-value momentum">
+                    {demand._insights.momentum?.label} ({demand._insights.momentum?.score})
+                  </span>
+                </div>
+                <div className="sidebar-mini-row">
+                  <span className="sidebar-mini-label">参入</span>
+                  <span className="sidebar-mini-value beginner">
+                    {demand._insights.beginnerFriendliness?.label} ({demand._insights.beginnerFriendliness?.score})
+                  </span>
+                </div>
+                <div className="sidebar-mini-row">
+                  <span className="sidebar-mini-label">競争</span>
+                  <span className="sidebar-mini-value competition">
+                    {demand._insights.competition?.label} ({demand._insights.competition?.score})
+                  </span>
+                </div>
+              </div>
+            )}
+
+            <Link
+              to={`/compare?a=${demand.id}`}
               className="btn primary"
-              style={{ width: '100%', justifyContent: 'center', marginTop: 12 }}
+              style={{ width: '100%', justifyContent: 'center', marginTop: 12, textDecoration: 'none' }}
+            >
+              他のテーマと比較する
+            </Link>
+            <button
+              className="btn"
+              style={{ width: '100%', justifyContent: 'center', marginTop: 8 }}
               onClick={() => nav('/explore')}
             >
               他の需要を探す
