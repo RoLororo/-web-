@@ -1,34 +1,34 @@
 // ============================================================================
-// Home — ランキング + 急上昇 + 分野フィルタ
+// Home — 「今朝のダイジェスト」→ お気に入り → ランキング (簡素化 v2)
+//
+//   ・Hero (統計 3 個 + タグライン)
+//   ・DailyBrief (今日のおすすめ 1 テーマ + 動いた 3 テーマ + 更新日時)
+//   ・FavoritesStrip (personal)
+//   ・ランキング (全テーマ、insights バッジ付きカード)
+//
+//   削除したもの: AccumulationBanner / TodaysMovers / SinceLastVisit /
+//                 急上昇 trending 4 カード / 冗長な hero 統計 1 個。
+//   統合先: DailyBrief が全ての情報を包含。
 // ============================================================================
 
 import { useEffect, useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import DemandCard from '../components/DemandCard.jsx';
 import CategoryFilter from '../components/CategoryFilter.jsx';
-import Sparkline from '../components/Sparkline.jsx';
-import StatusBadge from '../components/StatusBadge.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
-import AccumulationBanner from '../components/AccumulationBanner.jsx';
-import TodaysMovers from '../components/TodaysMovers.jsx';
-import SinceLastVisit from '../components/SinceLastVisit.jsx';
+import DailyBrief from '../components/DailyBrief.jsx';
 import FavoritesStrip from '../components/FavoritesStrip.jsx';
-import { getDemands, getTrendingDemands } from '../services/demandService.js';
+import { getDemands } from '../services/demandService.js';
 import { loadAllTimeseries, biggestMoverOfTheme } from '../services/historyService.js';
-import { changeClass, formatChange } from '../utils/format.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 export default function Home() {
   usePageTitle('Demand Atlas — 世の中の需要を可視化する');
-  const nav = useNavigate();
   const [category, setCategory] = useState('');
 
   const allDemands = useMemo(() => getDemands(), []);
-  const trending = useMemo(() => getTrendingDemands(4), []);
 
   // history 由来: 各テーマの「今日最も動いた metric」を DemandCard に渡す
-  // 履歴 2 日未満なら empty オブジェクト、UI 側は null プロップとして無視される
-  const [historyMovers, setHistoryMovers] = useState({}); // { themeId: {source,metric,pctChange,...} }
+  const [historyMovers, setHistoryMovers] = useState({});
   useEffect(() => {
     let cancelled = false;
     loadAllTimeseries().then((all) => {
@@ -83,80 +83,26 @@ export default function Home() {
               <AnimatedNumber value={hotCount} duration={900} />
             </div>
           </div>
-          <div className="hero-stat">
-            <div className="hero-stat-label">最終更新</div>
-            <div className="hero-stat-value" style={{ fontSize: 15, color: 'var(--text-2)' }}>本日</div>
-          </div>
         </div>
       </section>
 
-      {/* 前回訪問からの変化 (毎日開く理由を作る) */}
-      <SinceLastVisit
-        themeTitleMap={Object.fromEntries(allDemands.map((d) => [d.id, d.title]))}
-      />
-
-      {/* 蓄積ダッシュボード (history/index.json ベースの毎日積み上がる系表示) */}
-      <AccumulationBanner />
-
-      {/* 今日の伸び / 急上昇 (history 由来、毎日動く) */}
-      <TodaysMovers />
+      {/* 今朝のダイジェスト: おすすめ 1 + 動いた 3 + 更新日時 */}
+      <DailyBrief allDemands={allDemands} />
 
       {/* お気に入り (personal) */}
       <FavoritesStrip allDemands={allDemands} historyMovers={historyMovers} />
-
-      {/* 急上昇 */}
-      <section className="section container">
-        <div className="section-head">
-          <div>
-            <h2 className="section-title">急上昇している需要</h2>
-            <p className="section-sub">直近の変化率がとくに大きいテーマ</p>
-          </div>
-          <button className="section-link" onClick={() => nav('/explore?sort=change')}>
-            すべて見る →
-          </button>
-        </div>
-        <div className="trending">
-          {trending.map((d, i) => (
-            <button
-              key={d.id}
-              className="trending-card"
-              onClick={() => nav(`/demand/${d.id}`)}
-              aria-label={`${d.title} の詳細`}
-              style={{ '--i': i }}
-            >
-              <div className="trending-card-top">
-                <div>
-                  <div className="demand-title">{d.title}</div>
-                  <div className="demand-meta" style={{ marginBottom: 0 }}>
-                    <span>{d.category}</span>
-                  </div>
-                </div>
-                <div className={`change ${changeClass(d.change)}`}>{formatChange(d.change)}</div>
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <StatusBadge status={d.status} />
-                <div className="score" style={{ fontSize: 20 }}>
-                  <AnimatedNumber value={d.score} duration={700} />
-                </div>
-              </div>
-              <div className="demand-chart">
-                <Sparkline data={d.trendData['30d']} color="var(--green-bright)" />
-              </div>
-            </button>
-          ))}
-        </div>
-      </section>
 
       {/* ランキング */}
       <section className="section container">
         <div className="section-head">
           <div>
             <h2 className="section-title">
-              今日の需要ランキング
+              全テーマの需要ランキング
               <span className="count">{filtered.length}件</span>
             </h2>
             <p className="section-sub">
-              現在の需要度・話題性・成長性を参考にした総合スコア順。
+              各カードに「勢い / 参入 / 競争」の 3 スコアを表示。
+              今日の実測変化 (履歴 day-over-day) を主指標として並べています。
             </p>
           </div>
         </div>

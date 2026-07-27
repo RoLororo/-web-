@@ -18,6 +18,7 @@ import {
   historyDepthDays,
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
+import { themeTitle, themeCategory } from '../services/themeCatalog.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
@@ -51,11 +52,15 @@ export default function Rankings() {
   }, []);
 
   const demands = useMemo(() => getDemands(), []);
+  // demand が持つメタを優先、無ければ themeCatalog にフォールバック。
+  // (news マッチ 0 で demands.json から落ちるテーマがあっても raw id を出さない)
   const themeMeta = useMemo(() => {
     const m = {};
     for (const d of demands) m[d.id] = { title: d.title, category: d.category };
     return m;
   }, [demands]);
+  const resolveTitle    = (id) => themeMeta[id]?.title    || themeTitle(id);
+  const resolveCategory = (id) => themeMeta[id]?.category || themeCategory(id);
 
   const sourceOptions = useMemo(() => {
     if (!index || !index.sources) return [];
@@ -182,7 +187,7 @@ export default function Rankings() {
               <div className="rank-body">
                 <div className="rank-line-1">
                   <Link to={`/demand/${r.themeId}`} className="rank-title">
-                    {themeMeta[r.themeId]?.title || r.themeId}
+                    {resolveTitle(r.themeId)}
                   </Link>
                   <span className="rank-source">{sourceDisplay(r.source)}</span>
                   <span className="rank-metric">{r.metric}</span>

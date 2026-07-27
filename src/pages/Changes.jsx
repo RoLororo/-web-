@@ -17,6 +17,7 @@ import {
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
+import { themeTitle } from '../services/themeCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 const WINDOWS = [
@@ -153,7 +154,7 @@ export default function Changes() {
               <div key={themeId} className="changes-card">
                 <div className="changes-card-head">
                   <Link to={`/demand/${themeId}`} className="changes-card-title">
-                    {themeMeta[themeId]?.title || themeId}
+                    {themeMeta[themeId]?.title || themeTitle(themeId)}
                   </Link>
                   <div className="changes-card-dates">{prevDate} → {currentDate}</div>
                 </div>

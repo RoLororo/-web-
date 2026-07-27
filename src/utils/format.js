@@ -20,10 +20,12 @@ export function changeClass(change) {
   return 'flat';
 }
 
-/** 変化率の表示テキスト（符号付き） */
+/** 変化率の表示テキスト（符号付き、整数丸め）。null/NaN は '—' を返す。 */
 export function formatChange(change) {
-  if (change > 0) return `+${change}%`;
-  if (change < 0) return `${change}%`;
+  if (change === null || change === undefined || !isFinite(change)) return '—';
+  const n = Math.round(Number(change));
+  if (n > 0) return `+${n}%`;
+  if (n < 0) return `${n}%`;
   return '±0%';
 }
 

@@ -20,6 +20,7 @@ import {
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
+import { themeTitle } from '../services/themeCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 export default function WhatsNew() {
@@ -124,7 +125,7 @@ export default function WhatsNew() {
             {newMetrics.slice(0, 50).map((m, i) => (
               <li key={i} className="wn-metric-item">
                 <Link to={`/demand/${m.themeId}`} className="wn-metric-link">
-                  {themeMeta[m.themeId]?.title || m.themeId}
+                  {themeMeta[m.themeId]?.title || themeTitle(m.themeId)}
                 </Link>
                 <span className="wn-metric-src">{sourceDisplay(m.source)}</span>
                 <span className="wn-metric-name">{m.metric}</span>

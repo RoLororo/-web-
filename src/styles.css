@@ -1412,6 +1412,239 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 /* --------------------------------------------------------------------------
+   DemandCard v2 — insights badges + primary day-over-day
+   -------------------------------------------------------------------------- */
+
+.card-insight-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 6px 0 8px 0;
+}
+.card-insight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 10.5px;
+  color: var(--text-2);
+  cursor: help;
+  font-variant-numeric: tabular-nums;
+}
+.card-insight-badge .cib-lbl { color: var(--text-3); }
+.card-insight-badge .cib-dot {
+  display: inline-block;
+  width: 6px; height: 6px; border-radius: 50%;
+}
+.card-insight-badge .cib-val {
+  font-weight: 700;
+  color: var(--text);
+  min-width: 20px;
+  text-align: right;
+}
+
+.card-primary-change {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-variant-numeric: tabular-nums;
+  cursor: help;
+  margin-bottom: 6px;
+}
+.card-primary-change .cpc-lbl {
+  font-size: 10.5px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.card-primary-change .cpc-val {
+  font-size: 17px;
+  font-weight: 700;
+}
+.card-primary-change .cpc-src {
+  font-size: 10.5px;
+  color: var(--text-3);
+}
+.card-primary-change.up {
+  background: color-mix(in oklab, var(--green-bright) 10%, transparent);
+  border-color: color-mix(in oklab, var(--green-bright) 25%, transparent);
+}
+.card-primary-change.up .cpc-val   { color: var(--green-bright); }
+.card-primary-change.down {
+  background: color-mix(in oklab, var(--red) 10%, transparent);
+  border-color: color-mix(in oklab, var(--red) 25%, transparent);
+}
+.card-primary-change.down .cpc-val { color: var(--red); }
+.card-primary-change.flat {
+  background: var(--surface-alt);
+  border-color: var(--border);
+}
+.card-primary-change.flat .cpc-val { color: var(--text-3); }
+
+.score-lbl {
+  display: block;
+  font-size: 9.5px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: -4px;
+  text-align: right;
+}
+
+/* --------------------------------------------------------------------------
+   Daily Brief — Home 最上部の「今朝のダイジェスト」
+   -------------------------------------------------------------------------- */
+
+.daily-brief {
+  margin: 20px 0 12px 0;
+  padding: 18px 20px;
+  border: 1px solid color-mix(in oklab, var(--green-bright) 30%, var(--border));
+  border-radius: var(--radius);
+  background: linear-gradient(
+    120deg,
+    color-mix(in oklab, var(--green-bright) 7%, var(--card)) 0%,
+    var(--card) 60%
+  );
+}
+.daily-brief-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.daily-brief-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.daily-brief-updated {
+  font-size: 11.5px;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.daily-brief-updated .db-stale {
+  color: var(--red);
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.daily-brief-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 720px) {
+  .daily-brief-grid { grid-template-columns: 1fr; }
+}
+
+.db-pick {
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in oklab, var(--green-bright) 30%, var(--border));
+  background: var(--card);
+  text-decoration: none;
+  color: var(--text);
+  display: block;
+  transition: transform 0.15s var(--ease), border-color 0.15s var(--ease);
+}
+.db-pick:hover { transform: translateY(-1px); border-color: var(--green-bright); }
+.db-pick-eyebrow {
+  font-size: 10.5px;
+  color: var(--green-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.db-pick-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 6px;
+  color: var(--text);
+}
+.db-pick-why {
+  font-size: 12.5px;
+  color: var(--text-2);
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+.db-pick-scores {
+  display: flex;
+  gap: 12px;
+  font-size: 11.5px;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.db-pick-score {
+  display: inline-flex; align-items: baseline; gap: 4px;
+}
+.db-pick-score b {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.db-movers-title {
+  font-size: 11.5px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 6px 0;
+}
+.db-movers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.db-movers-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 12.5px;
+  transition: border-color 0.15s var(--ease);
+}
+.db-movers-list a:hover { border-color: var(--border-strong); }
+.db-mover-title { font-weight: 500; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.db-mover-move {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 12.5px;
+  flex-shrink: 0;
+}
+.db-mover-move.up   { color: var(--green-bright); }
+.db-mover-move.down { color: var(--red); }
+.db-mover-src { font-size: 10px; color: var(--text-3); flex-shrink: 0; margin-left: 4px; }
+
+.db-empty {
+  padding: 14px;
+  text-align: center;
+  color: var(--text-3);
+  font-size: 12.5px;
+  background: var(--surface-alt);
+  border-radius: 6px;
+}
+
+/* --------------------------------------------------------------------------
    Compare page — 2 テーマ横並び比較
    -------------------------------------------------------------------------- */
 

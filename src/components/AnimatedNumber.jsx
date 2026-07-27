@@ -24,21 +24,34 @@ export default function AnimatedNumber({
   format = (n) => n,
 }) {
   const reduced = prefersReducedMotion();
-  const [display, setDisplay] = useState(reduced ? value : 0);
+  // Start at the final value; the animation overwrites it downward-then-up
+  // if it actually fires. This guarantees that even when requestAnimationFrame
+  // never runs (backgrounded tab, throttled mobile, low-end device), the user
+  // still sees the correct number instead of a stuck 0.
+  const [display, setDisplay] = useState(() => Number(value) || 0);
   const [landed, setLanded] = useState(reduced);
   const rafRef = useRef(0);
   const landTimerRef = useRef(0);
+  const safetyRef = useRef(0);
 
   useEffect(() => {
+    const to = Number(value) || 0;
     if (reduced) {
-      setDisplay(value);
+      setDisplay(to);
+      setLanded(true);
+      return;
+    }
+    // If the tab is hidden at mount, RAF won't fire until it becomes visible;
+    // rather than showing a stuck initial value, jump straight to the target.
+    if (typeof document !== 'undefined' && document.hidden) {
+      setDisplay(to);
       setLanded(true);
       return;
     }
 
     setLanded(false);
+    setDisplay(0);
     const start = performance.now();
-    const to = Number(value) || 0;
 
     function tick(now) {
       const t = Math.min(1, (now - start) / duration);
@@ -47,15 +60,21 @@ export default function AnimatedNumber({
       if (t < 1) {
         rafRef.current = requestAnimationFrame(tick);
       } else {
-        // Trigger landing pulse; remove class after animation completes
         setLanded(true);
         landTimerRef.current = window.setTimeout(() => setLanded(false), 700);
       }
     }
     rafRef.current = requestAnimationFrame(tick);
+    // Safety: if RAF has been throttled to death (tab hidden mid-animation,
+    // battery saver), force the final value shortly after the deadline.
+    safetyRef.current = window.setTimeout(() => {
+      setDisplay(to);
+      setLanded(true);
+    }, duration + 250);
     return () => {
       cancelAnimationFrame(rafRef.current);
       clearTimeout(landTimerRef.current);
+      clearTimeout(safetyRef.current);
     };
   }, [value, duration, reduced]);
 

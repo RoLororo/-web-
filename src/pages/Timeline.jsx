@@ -14,6 +14,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { loadAllTimeseries, loadIndex, flattenMetrics } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
+import { themeTitle } from '../services/themeCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 export default function Timeline() {
@@ -69,7 +70,7 @@ export default function Timeline() {
         const source = key.split('.')[0];
         rows.push({
           themeId, source, volume: val,
-          title: themeMeta[themeId]?.title || themeId,
+          title: themeMeta[themeId]?.title || themeTitle(themeId),
         });
       }
     }
