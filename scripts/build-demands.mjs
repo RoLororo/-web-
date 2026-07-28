@@ -27,35 +27,26 @@
 //     - Node.js 18+ の標準機能のみ (追加パッケージなし)
 // ============================================================================
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+// パスとストレージ層は scripts/lib 経由に集約済み (2026-08 リファクタ)
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
-// パス
+// 入出力パス (PATHS 由来、env で上書き可能)
 // ---------------------------------------------------------------------------
 
-const __dirname   = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT   = resolve(__dirname, '..');
-const ARTICLES    = resolve(REPO_ROOT, 'data', 'articles.json');
-const CANDIDATES  = resolve(REPO_ROOT, 'data', 'demand-candidates.json');
-const TRENDS      = resolve(REPO_ROOT, 'data', 'keyword-trends.json');
-// 実験フェーズ (データ取得のみ)。存在すれば _wikipediaDetail として貼るだけで
-// score / breakdown / ランキングには影響を与えない。ファイルが無ければ黙って
-// スキップし、従来と完全に同一の出力になる。
-const WIKI_PV     = resolve(REPO_ROOT, 'data', 'wikipedia-pageviews.json');
-// 同じく実験フェーズ (Qiita)。存在すれば _qiitaDetail として貼るだけで
-// score / breakdown / ランキングには影響を与えない。
-const QIITA       = resolve(REPO_ROOT, 'data', 'qiita.json');
-// 同じく実験フェーズ (App Store JP)。存在すれば _appstoreDetail として貼るだけ。
-const APPSTORE    = resolve(REPO_ROOT, 'data', 'appstore.json');
-// 同じく実験フェーズ (arXiv)。存在すれば _arxivDetail として貼るだけ。
-const ARXIV       = resolve(REPO_ROOT, 'data', 'arxiv.json');
+const ARTICLES   = PATHS.source.articles;
+const CANDIDATES = PATHS.source.candidates;
+const TRENDS     = PATHS.source.trends;
+const WIKI_PV    = PATHS.source.wikipedia;
+const QIITA      = PATHS.source.qiita;
+const APPSTORE   = PATHS.source.appstore;
+const ARXIV      = PATHS.source.arxiv;
 
-// canonical: 履歴確認・比較用 (git 追跡)
-const OUTPUT         = resolve(REPO_ROOT, 'data', 'demands.json');
-// mirror: Vite が build 時に dist/ にコピーする (フロントエンド配信用)
-const OUTPUT_PUBLIC  = resolve(REPO_ROOT, 'public', 'data', 'demands.json');
+// canonical のみを書き出す。public/data/ ミラーは prebuild hook (scripts/
+// mirror-public.mjs) が生成する。canonical と mirror の二重 git 追跡を
+// 避けるため、public/data/ は .gitignore 対象。
+const OUTPUT = PATHS.output.demands;
 
 // ---------------------------------------------------------------------------
 // 定数
@@ -248,44 +239,38 @@ async function main() {
   console.log('🦊 Demand Atlas — 需要データ (demands.json) を統合生成');
   console.log('');
 
-  // 3 つの入力を読み込む (Wikipedia PV / Qiita / App Store / arXiv は optional)
-  const [articlesRaw, candidatesRaw, trendsRaw, wikiRaw, qiitaRaw, appstoreRaw, arxivRaw] = await Promise.all([
-    readFile(ARTICLES,   'utf8').catch(() => null),
-    readFile(CANDIDATES, 'utf8').catch(() => null),
-    readFile(TRENDS,     'utf8').catch(() => null),
-    readFile(WIKI_PV,    'utf8').catch(() => null),
-    readFile(QIITA,      'utf8').catch(() => null),
-    readFile(APPSTORE,   'utf8').catch(() => null),
-    readFile(ARXIV,      'utf8').catch(() => null),
+  // 全入力を storage 経由でロード (fs → 将来 turso/r2 に切替可能)
+  const [articles, candidatesPayload, trends, wikiPayload, qiitaPayload, appstorePayload, arxivPayload] = await Promise.all([
+    storage.readJson(ARTICLES),
+    storage.readJson(CANDIDATES),
+    storage.readJson(TRENDS),
+    storage.readJson(WIKI_PV),
+    storage.readJson(QIITA),
+    storage.readJson(APPSTORE),
+    storage.readJson(ARXIV),
   ]);
 
-  if (!articlesRaw) {
+  if (!articles) {
     console.error('✗ data/articles.json が見つかりません。`npm run news` を先に実行してください。');
     process.exit(1);
   }
-  if (!candidatesRaw) {
+  if (!candidatesPayload) {
     console.error('✗ data/demand-candidates.json が見つかりません。`npm run themes` を先に実行してください。');
     process.exit(1);
   }
-  if (!trendsRaw) {
+  if (!trends) {
     console.warn('⚠  data/keyword-trends.json が見つかりません。');
     console.warn('   キーワードトレンドが無い状態でスコアを計算します (news volume 過小、growth データ不足扱い)。');
     console.warn('   本来は先に `npm run trends` を実行することを推奨します。');
     console.warn('');
   }
 
-  const articles   = JSON.parse(articlesRaw);
-  const candidates = JSON.parse(candidatesRaw).candidates || [];
-  const trends     = trendsRaw ? JSON.parse(trendsRaw) : { keywords: {} };
-  const trendsMap  = trends.keywords || {};
-  // Wikipedia PV (実験フェーズ、optional、無ければ空)
-  const wikiThemes = wikiRaw ? (JSON.parse(wikiRaw).themes || {}) : {};
-  // Qiita (実験フェーズ、optional、無ければ空)
-  const qiitaThemes = qiitaRaw ? (JSON.parse(qiitaRaw).themes || {}) : {};
-  // App Store (実験フェーズ、optional、無ければ空)
-  const appstoreThemes = appstoreRaw ? (JSON.parse(appstoreRaw).themes || {}) : {};
-  // arXiv (実験フェーズ、optional、無ければ空)
-  const arxivThemes = arxivRaw ? (JSON.parse(arxivRaw).themes || {}) : {};
+  const candidates      = candidatesPayload.candidates || [];
+  const trendsMap       = (trends && trends.keywords) || {};
+  const wikiThemes      = (wikiPayload     && wikiPayload.themes)     || {};
+  const qiitaThemes     = (qiitaPayload    && qiitaPayload.themes)    || {};
+  const appstoreThemes  = (appstorePayload && appstorePayload.themes) || {};
+  const arxivThemes     = (arxivPayload    && arxivPayload.themes)    || {};
 
   // 記事を id で lookup できるようにする
   const articleById = new Map(articles.map((a) => [a.id, a]));
@@ -466,13 +451,8 @@ async function main() {
     demands,
   };
 
-  // canonical に書き出し
-  await mkdir(dirname(OUTPUT), { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
-
-  // mirror (public/data) にも同じ内容を書き出す — Vite build で dist/ に運ばれる
-  await mkdir(dirname(OUTPUT_PUBLIC), { recursive: true });
-  await writeFile(OUTPUT_PUBLIC, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  // canonical のみ書き出す (public/data ミラーは prebuild hook が生成)
+  await storage.writeJson(OUTPUT, output);
 
   // コンソール要約
   console.log('──────────────  需要スコア (score 降順)  ──────────────');
@@ -485,7 +465,7 @@ async function main() {
   }
   console.log('────────────────────────────────────────────────');
   console.log(`  canonical: ${OUTPUT}`);
-  console.log(`  mirror:    ${OUTPUT_PUBLIC}`);
+  console.log(`  (public/data ミラーは "npm run mirror" or prebuild hook で生成)`);
 }
 
 main().catch((err) => {

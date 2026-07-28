@@ -31,41 +31,37 @@
 //     - Node.js 18+ の標準機能のみ
 // ============================================================================
 
-import { mkdir, readFile, writeFile, rename, readdir, stat } from 'node:fs/promises';
-import { basename, dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
+import { basename } from 'node:path';
+import { PATHS, CONFIG } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
-// パス
+// パス (PATHS 経由、env で上書き可)
 // ---------------------------------------------------------------------------
 
-const DATA_QIITA     = resolve(REPO_ROOT, 'data', 'qiita.json');
-const DATA_APPSTORE  = resolve(REPO_ROOT, 'data', 'appstore.json');
-const DATA_WIKIPEDIA = resolve(REPO_ROOT, 'data', 'wikipedia-pageviews.json');
-const DATA_ARXIV     = resolve(REPO_ROOT, 'data', 'arxiv.json');
-const DATA_DEMANDS   = resolve(REPO_ROOT, 'data', 'demands.json');
+const DATA_QIITA     = PATHS.source.qiita;
+const DATA_APPSTORE  = PATHS.source.appstore;
+const DATA_WIKIPEDIA = PATHS.source.wikipedia;
+const DATA_ARXIV     = PATHS.source.arxiv;
+const DATA_DEMANDS   = PATHS.output.demands;
 
-const HISTORY_DIR   = resolve(REPO_ROOT, 'history');
-const CURRENT_DIR   = resolve(HISTORY_DIR, 'current');
-const ARCHIVE_DIR   = resolve(HISTORY_DIR, 'archive');
-const MANIFEST_PATH = resolve(HISTORY_DIR, 'manifest.json');
-const INDEX_PATH    = resolve(HISTORY_DIR, 'index.json');
+const HISTORY_DIR   = PATHS.history.root;
+const CURRENT_DIR   = PATHS.history.current;
+const ARCHIVE_DIR   = PATHS.history.archive;
+const MANIFEST_PATH = PATHS.history.manifest;
+const INDEX_PATH    = PATHS.history.index;
 
-// フロントエンド配信用ミラー先 (Vite が build 時に dist/ に運ぶ)。
-// history/ は git 追跡の canonical、public/history/ は配信用の二次コピー。
-// build-demands.mjs の data/demands.json → public/data/demands.json と同型パターン。
-const PUBLIC_HISTORY_DIR = resolve(REPO_ROOT, 'public', 'history');
+// public/history ミラーは prebuild hook (scripts/mirror-public.mjs) が生成。
+// このスクリプトからは書き込まない。二重 git 追跡を避けるため public/history/
+// は .gitignore 対象。
 
 // ---------------------------------------------------------------------------
-// 設定
+// 設定 (env で上書き可)
 // ---------------------------------------------------------------------------
 
-const RETENTION_DAYS   = 90;
+const RETENTION_DAYS   = CONFIG.retentionDays;
 const SCHEMA_VERSION   = 1;
-const ARCHIVE_STRATEGY = 'year';
+const ARCHIVE_STRATEGY = CONFIG.archiveStrategy;
 const DAY_MS           = 24 * 60 * 60 * 1000;
 
 // ---------------------------------------------------------------------------
@@ -80,81 +76,13 @@ function daysBefore(days, ref = new Date()) {
   return isoDayUTC(new Date(ref.getTime() - days * DAY_MS));
 }
 
-async function tryReadJson(path) {
-  try {
-    return JSON.parse(await readFile(path, 'utf8'));
-  } catch {
-    return null;
-  }
-}
-
-async function ensureDir(path) {
-  await mkdir(path, { recursive: true });
-}
-
-/**
- * JSONL を読み込み、整合性チェックしながらパースする。
- * 各行を JSON.parse し、date フィールドの有無を確認。
- * 壊れた行は console.warn して skip、他行はそのまま返す。
- * ファイルが存在しなければ空配列を返す。
- */
-async function readJsonlSafe(path) {
-  let raw;
-  try {
-    raw = await readFile(path, 'utf8');
-  } catch (err) {
-    if (err.code === 'ENOENT') return { records: [], skipped: 0, corruptLines: [] };
-    throw err;
-  }
-  const lines = raw.split('\n').filter((l) => l.trim().length > 0);
-  const records = [];
-  const corruptLines = [];
-  const name = basename(path);
-  for (let i = 0; i < lines.length; i++) {
-    try {
-      const parsed = JSON.parse(lines[i]);
-      if (!parsed || typeof parsed !== 'object' || typeof parsed.date !== 'string') {
-        console.warn(`  ! ${name}:L${i + 1} missing "date" field, skipping`);
-        corruptLines.push(i + 1);
-        continue;
-      }
-      records.push(parsed);
-    } catch {
-      console.warn(`  ! ${name}:L${i + 1} JSON parse error, skipping`);
-      corruptLines.push(i + 1);
-    }
-  }
-  return { records, skipped: corruptLines.length, corruptLines };
-}
-
-/**
- * Atomic write:
- *   1. .tmp に全行書き込み
- *   2. 再読み込みして行数と各行の JSON.parse を検証
- *   3. 成功時のみ本ファイルへ rename
- * クラッシュや部分書き込みに対する保険。
- */
-async function writeJsonlAtomic(path, records) {
-  const tmp = path + '.tmp';
-  await ensureDir(dirname(path));
-  const content = records.map((r) => JSON.stringify(r)).join('\n') + (records.length > 0 ? '\n' : '');
-  await writeFile(tmp, content, 'utf8');
-
-  // 検証: 行数一致 + 各行 parse 可能
-  const raw = await readFile(tmp, 'utf8');
-  const lines = raw.split('\n').filter((l) => l.trim().length > 0);
-  if (lines.length !== records.length) {
-    throw new Error(`${basename(path)}: 書き込み後の行数不一致 (${lines.length} vs ${records.length})`);
-  }
-  for (let i = 0; i < lines.length; i++) {
-    try {
-      JSON.parse(lines[i]);
-    } catch {
-      throw new Error(`${basename(path)}: 書き込み後 L${i + 1} が JSON として不正`);
-    }
-  }
-  await rename(tmp, path);
-}
+// tryReadJson / ensureDir / readJsonlSafe / writeJsonlAtomic は storage 経由に
+// 集約 (scripts/lib/storage.mjs)。 fs 実装は現行と bit-identical。将来 turso/r2
+// driver への切替時にここを触る必要はない。
+const tryReadJson    = (path)         => storage.readJson(path);
+const ensureDir      = (path)         => storage.ensureDir(path);
+const readJsonlSafe  = (path)         => storage.readJsonl(path);
+const writeJsonlAtomic = (path, recs) => storage.writeJsonl(path, recs);
 
 function sortByDate(records) {
   return records.slice().sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
@@ -234,64 +162,8 @@ function extractWikipedia(themeData) {
   };
 }
 
-// ---------------------------------------------------------------------------
-// public/history/ ミラー (フロント配信用)
-//
-// history/ (git canonical) を public/history/ にそのままコピーする。
-// Vite の build がこれを dist/ に運ぶことで、フロントは
-// /history/index.json や /history/current/{theme}.jsonl を fetch できる。
-//
-// 冗長性のトレードオフ: 2 箇所書くがサイズは小さい (数十 KB)、
-// 一貫性は毎回全ミラー再生成で担保 (差分同期を試みると壊れ方が複雑になる)。
-// ---------------------------------------------------------------------------
-
-async function mirrorHistoryToPublic() {
-  const { readdir, stat, rm, copyFile } = await import('node:fs/promises');
-
-  // 既存の public/history/ を丸ごと消して再生成 (冪等性・整合性最優先)
-  await rm(PUBLIC_HISTORY_DIR, { recursive: true, force: true });
-  await ensureDir(PUBLIC_HISTORY_DIR);
-
-  // ルートの manifest.json / index.json / README.md をコピー
-  const rootFiles = ['manifest.json', 'index.json', 'README.md'];
-  for (const name of rootFiles) {
-    const src = resolve(HISTORY_DIR, name);
-    try {
-      await stat(src);
-      await copyFile(src, resolve(PUBLIC_HISTORY_DIR, name));
-    } catch {
-      /* README.md や manifest.json が無い状態もあり得るので黙って skip */
-    }
-  }
-
-  // current/*.jsonl をコピー
-  const publicCurrent = resolve(PUBLIC_HISTORY_DIR, 'current');
-  await ensureDir(publicCurrent);
-  try {
-    const files = (await readdir(CURRENT_DIR)).filter((f) => f.endsWith('.jsonl'));
-    for (const f of files) {
-      await copyFile(resolve(CURRENT_DIR, f), resolve(publicCurrent, f));
-    }
-  } catch {
-    /* current/ が空 or 未生成の場合は skip */
-  }
-
-  // archive/{year}/*.jsonl をコピー
-  try {
-    const years = await readdir(ARCHIVE_DIR);
-    for (const y of years) {
-      const yearDir = resolve(ARCHIVE_DIR, y);
-      const publicYearDir = resolve(PUBLIC_HISTORY_DIR, 'archive', y);
-      await ensureDir(publicYearDir);
-      const files = (await readdir(yearDir)).filter((f) => f.endsWith('.jsonl'));
-      for (const f of files) {
-        await copyFile(resolve(yearDir, f), resolve(publicYearDir, f));
-      }
-    }
-  } catch {
-    /* archive/ が未生成の場合は skip */
-  }
-}
+// public/history/ ミラーは scripts/mirror-public.mjs が生成する。
+// このスクリプト (append-history.mjs) は canonical だけを扱う。
 
 // ---------------------------------------------------------------------------
 // メイン
@@ -381,7 +253,7 @@ async function main() {
     if (Object.keys(sources).length === 0) continue;
 
     const todayRecord = { date: today, generatedAt, sources };
-    const currentPath = resolve(CURRENT_DIR, `${themeId}.jsonl`);
+    const currentPath = PATHS.history.currentTheme(themeId);
     const { records, skipped } = await readJsonlSafe(currentPath);
     totalReadSkipped += skipped;
 
@@ -411,13 +283,11 @@ async function main() {
   let totalMoved          = 0;
   let totalArchiveWritten = 0;
 
-  let currentFiles = [];
-  try {
-    currentFiles = (await readdir(CURRENT_DIR)).filter((f) => f.endsWith('.jsonl'));
-  } catch {}
+  const currentFiles = await storage.listFiles(CURRENT_DIR, { ext: '.jsonl' });
 
   for (const filename of currentFiles) {
-    const currentPath = resolve(CURRENT_DIR, filename);
+    const themeIdForFile = filename.replace(/\.jsonl$/, '');
+    const currentPath = PATHS.history.currentTheme(themeIdForFile);
     const { records } = await readJsonlSafe(currentPath);
     if (records.length === 0) continue;
 
@@ -441,9 +311,7 @@ async function main() {
     }
 
     for (const [year, recs] of byYear) {
-      const archiveYearDir = resolve(ARCHIVE_DIR, year);
-      await ensureDir(archiveYearDir);
-      const archivePath = resolve(archiveYearDir, filename);
+      const archivePath = PATHS.history.archiveTheme(year, themeIdForFile);
       const { records: existingArchive } = await readJsonlSafe(archivePath);
       const existingDates = new Set(existingArchive.map((r) => r.date));
 
@@ -481,14 +349,11 @@ async function main() {
   const themes = [];
   const sourcesSeen = new Map();
 
-  let currentFiles2 = [];
-  try {
-    currentFiles2 = (await readdir(CURRENT_DIR)).filter((f) => f.endsWith('.jsonl'));
-  } catch {}
+  const currentFiles2 = await storage.listFiles(CURRENT_DIR, { ext: '.jsonl' });
 
   for (const filename of currentFiles2) {
     const themeId = filename.replace(/\.jsonl$/, '');
-    const currentPath = resolve(CURRENT_DIR, filename);
+    const currentPath = PATHS.history.currentTheme(themeId);
     const { records } = await readJsonlSafe(currentPath);
     if (records.length === 0) continue;
 
@@ -496,18 +361,14 @@ async function main() {
     const firstDate = dates[0];
     const lastDate  = dates[dates.length - 1];
 
-    // このテーマの archive パスを列挙
+    // このテーマの archive パスを列挙 (public URL パスは canonical のまま維持)
     const archivePaths = [];
-    try {
-      const years = (await readdir(ARCHIVE_DIR)).sort();
-      for (const y of years) {
-        const p = resolve(ARCHIVE_DIR, y, filename);
-        try {
-          await stat(p);
-          archivePaths.push(`history/archive/${y}/${filename}`);
-        } catch {}
+    const years = (await storage.listFiles(ARCHIVE_DIR)).sort();
+    for (const y of years) {
+      if (await storage.fileExists(PATHS.history.archiveTheme(y, themeId))) {
+        archivePaths.push(`history/archive/${y}/${filename}`);
       }
-    } catch {}
+    }
 
     themes.push({
       id:           themeId,
@@ -555,16 +416,16 @@ async function main() {
     themes,
     sources,
   };
-  await writeFile(INDEX_PATH, JSON.stringify(index, null, 2) + '\n', 'utf8');
+  await storage.writeJson(INDEX_PATH, index);
 
   // ─── Step 4: manifest.json 更新 ───
 
   manifest.lastRunAt = generatedAt;
   if (rotationOccurred) manifest.lastRotationAt = generatedAt;
-  await writeFile(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
+  await storage.writeJson(MANIFEST_PATH, manifest);
 
-  // ─── Step 5: public/history/ にミラー (フロント配信用) ───
-  await mirrorHistoryToPublic();
+  // public/history/ ミラーは "npm run mirror" (scripts/mirror-public.mjs) が
+  // 生成する。 append-history 自体は canonical だけを扱う。
 
   // ─── サマリー ───
 

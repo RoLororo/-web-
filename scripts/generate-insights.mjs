@@ -28,14 +28,11 @@
 //     - Node.js 18+ の標準機能のみ
 // ============================================================================
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const DEMANDS_PATH        = resolve(REPO_ROOT, 'data', 'demands.json');
-const DEMANDS_PATH_PUBLIC = resolve(REPO_ROOT, 'public', 'data', 'demands.json');
+const DEMANDS_PATH = PATHS.output.demands;
+// public/data ミラーは "npm run mirror" が生成する (二重書き解消済み)
 
 // ---------------------------------------------------------------------------
 // テーマプロファイル (11 テーマ分)
@@ -834,8 +831,11 @@ function buildNextActions(demand) {
 async function main() {
   console.log('🦊 Demand Atlas — Insights 生成');
 
-  const raw = await readFile(DEMANDS_PATH, 'utf8');
-  const payload = JSON.parse(raw);
+  const payload = await storage.readJson(DEMANDS_PATH);
+  if (!payload) {
+    console.error(`✗ ${DEMANDS_PATH} が見つかりません。先に "npm run demands" を実行してください。`);
+    process.exit(1);
+  }
   const demands = payload.demands || [];
 
   // similar 計算のためのインデックス
@@ -896,15 +896,11 @@ async function main() {
   payload.insightsGeneratedAt = new Date().toISOString();
   payload.insightsMethod = 'heuristic-v1';
 
-  const out = JSON.stringify(payload, null, 2) + '\n';
-  await mkdir(dirname(DEMANDS_PATH), { recursive: true });
-  await writeFile(DEMANDS_PATH, out, 'utf8');
-  await mkdir(dirname(DEMANDS_PATH_PUBLIC), { recursive: true });
-  await writeFile(DEMANDS_PATH_PUBLIC, out, 'utf8');
+  await storage.writeJson(DEMANDS_PATH, payload);
 
   console.log(`   ${filled} テーマに _insights を付与`);
   console.log(`   canonical: ${DEMANDS_PATH}`);
-  console.log(`   mirror:    ${DEMANDS_PATH_PUBLIC}`);
+  console.log(`   (public/data ミラーは "npm run mirror" で生成)`);
 }
 
 main().catch((err) => {

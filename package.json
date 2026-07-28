@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/mirror-public.mjs",
     "build": "vite build",
     "preview": "vite preview",
+    "mirror": "node scripts/mirror-public.mjs",
     "news": "node scripts/fetch-news.mjs",
     "themes": "node scripts/extract-demand-candidates.mjs",
     "themes:ai": "node scripts/analyze-themes.mjs",
@@ -18,7 +20,7 @@
     "demands": "node scripts/build-demands.mjs",
     "insights": "node scripts/generate-insights.mjs",
     "history": "node scripts/append-history.mjs",
-    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run demands && npm run insights && npm run history"
+    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run demands && npm run insights && npm run history && npm run mirror"
   },
   "dependencies": {
     "react": "^18.3.1",

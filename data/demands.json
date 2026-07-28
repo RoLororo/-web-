@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T00:21:44.278Z",
+  "generatedAt": "2026-07-28T10:50:23.066Z",
   "method": "news-only signals (Phase 4-a)",
   "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness",
   "disclaimer": "ニュース信号のみによる暫定スコア。SNS・検索指数・求人などの他データ源は未統合。",
@@ -122,7 +122,7 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.274Z",
+      "updatedAt": "2026-07-28T10:50:23.063Z",
       "trendData": {
         "7d": [
           1,
@@ -258,13 +258,13 @@
           0
         ]
       },
-      "_dataQuality": 0.88,
+      "_dataQuality": 0.87,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.93,
         "growth": 1,
         "sourceDiversity": 1,
-        "freshness": 0.7,
+        "freshness": 0.68,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -485,7 +485,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.447Z",
+        "generatedAt": "2026-07-28T10:50:25.487Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -773,7 +773,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.274Z",
+      "updatedAt": "2026-07-28T10:50:23.063Z",
       "trendData": {
         "7d": [
           1,
@@ -915,7 +915,7 @@
         "newsVolume": 1,
         "growth": 1,
         "sourceDiversity": 0.75,
-        "freshness": 0.84,
+        "freshness": 0.83,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -1315,7 +1315,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.447Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1619,7 +1619,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.275Z",
+      "updatedAt": "2026-07-28T10:50:23.064Z",
       "trendData": {
         "7d": [
           1,
@@ -1761,7 +1761,7 @@
         "newsVolume": 0.87,
         "growth": 1,
         "sourceDiversity": 0.75,
-        "freshness": 0.76,
+        "freshness": 0.74,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -1982,7 +1982,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.447Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2276,7 +2276,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.275Z",
+      "updatedAt": "2026-07-28T10:50:23.064Z",
       "trendData": {
         "7d": [
           4,
@@ -2418,7 +2418,7 @@
         "newsVolume": 0.87,
         "growth": 0.89,
         "sourceDiversity": 0.75,
-        "freshness": 0.78,
+        "freshness": 0.77,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -2655,7 +2655,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2834,7 +2834,7 @@
       "id": "payment-troubles",
       "title": "決済インフラ・キャッシュレス",
       "category": "ビジネス",
-      "score": 66,
+      "score": 65,
       "change": 200,
       "status": "急上昇",
       "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
@@ -2936,7 +2936,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.276Z",
+      "updatedAt": "2026-07-28T10:50:23.064Z",
       "trendData": {
         "7d": [
           0,
@@ -3078,7 +3078,7 @@
         "newsVolume": 0.47,
         "growth": 1,
         "sourceDiversity": 0.5,
-        "freshness": 0.7,
+        "freshness": 0.68,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -3481,7 +3481,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -3494,7 +3494,7 @@
         },
         "verdict": {
           "label": "様子見",
-          "rationale": "需要スコア 66/100、勢い 100/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
+          "rationale": "需要スコア 65/100、勢い 100/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
         },
         "whyTrending": {
           "headline": "主な観測: Qiita に直近30日で 13 記事 (LGTM 合計 1)、技術者コミュニティで実装ノウハウが活発に共有中。加えて App Store JP に 7 本の関連アプリが登場 (最高 #13)、ニュース記事 7 件が観測、報道による社会的関心の獲得段階。",
@@ -3755,7 +3755,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.276Z",
+      "updatedAt": "2026-07-28T10:50:23.065Z",
       "trendData": {
         "7d": [
           2,
@@ -3897,7 +3897,7 @@
         "newsVolume": 0.4,
         "growth": 0.95,
         "sourceDiversity": 0.5,
-        "freshness": 0.85,
+        "freshness": 0.84,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -4037,7 +4037,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 43,
@@ -4281,7 +4281,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.276Z",
+      "updatedAt": "2026-07-28T10:50:23.065Z",
       "trendData": {
         "7d": [
           0,
@@ -4423,7 +4423,7 @@
         "newsVolume": 0.27,
         "growth": 0.84,
         "sourceDiversity": 0.25,
-        "freshness": 0.61,
+        "freshness": 0.59,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -4651,7 +4651,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 56,
@@ -4882,7 +4882,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.278Z",
+      "updatedAt": "2026-07-28T10:50:23.066Z",
       "trendData": {
         "7d": [
           0,
@@ -5018,13 +5018,13 @@
           0
         ]
       },
-      "_dataQuality": 0.41,
+      "_dataQuality": 0.4,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.2,
         "growth": 0.71,
         "sourceDiversity": 0.25,
-        "freshness": 0.77,
+        "freshness": 0.75,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -5163,7 +5163,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.488Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 38,
@@ -5371,7 +5371,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.277Z",
+      "updatedAt": "2026-07-28T10:50:23.065Z",
       "trendData": {
         "7d": [
           1,
@@ -5507,13 +5507,13 @@
           0
         ]
       },
-      "_dataQuality": 0.51,
+      "_dataQuality": 0.5,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.27,
         "growth": 0.44,
         "sourceDiversity": 0.5,
-        "freshness": 0.75,
+        "freshness": 0.74,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -5831,7 +5831,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.489Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 67,
@@ -6077,7 +6077,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T00:21:44.277Z",
+      "updatedAt": "2026-07-28T10:50:23.066Z",
       "trendData": {
         "7d": [
           0,
@@ -6213,13 +6213,13 @@
           0
         ]
       },
-      "_dataQuality": 0.41,
+      "_dataQuality": 0.4,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.2,
         "growth": 0.6,
         "sourceDiversity": 0.25,
-        "freshness": 0.78,
+        "freshness": 0.76,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -6425,7 +6425,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T00:21:44.448Z",
+        "generatedAt": "2026-07-28T10:50:25.489Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 79,
@@ -6571,6 +6571,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-28T00:21:44.448Z",
+  "insightsGeneratedAt": "2026-07-28T10:50:25.489Z",
   "insightsMethod": "heuristic-v1"
 }

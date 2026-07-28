@@ -22,3 +22,8 @@ yarn-error.log*
 
 .vercel
 .claude/
+
+# public/ ミラーは build 時に scripts/mirror-public.mjs が生成する派生物。
+# canonical (data/, history/) だけを git 追跡する (二重管理解消)。
+public/data/
+public/history/
