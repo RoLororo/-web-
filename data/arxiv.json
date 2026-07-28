@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-26T07:21:55.345Z",
+  "generatedAt": "2026-07-28T00:21:07.355Z",
   "source": "arxiv",
   "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-22",
   "windowDays": 30,
-  "windowStart": "202606260000",
-  "windowEnd": "202607260000",
+  "windowStart": "202606280000",
+  "windowEnd": "202607280000",
   "mappedThemeCount": 11,
   "successCount": 11,
   "skippedCount": 0,
@@ -18,73 +18,73 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1877,
+        "volume": 1808,
         "engagement": null,
-        "contributors": 511,
-        "latestActivityAt": "2026-07-23T17:40:07Z"
+        "contributors": 477,
+        "latestActivityAt": "2026-07-24T17:56:38Z"
       },
       "nativeMetrics": {
-        "paperCount": 1877,
-        "uniqueAuthors": 511,
-        "avgAuthorsPerPaper": 5.3,
+        "paperCount": 1808,
+        "uniqueAuthors": 477,
+        "avgAuthorsPerPaper": 4.8,
         "primaryCategoryTop": "cs.AI",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-23T17:40:07Z"
+        "latestPaperPublished": "2026-07-24T17:56:38Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
         {
-          "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning",
-          "url": "http://arxiv.org/abs/2607.21558v1",
-          "publishedAt": "2026-07-23T17:40:07Z",
+          "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+          "url": "http://arxiv.org/abs/2607.22525v1",
+          "publishedAt": "2026-07-24T17:56:38Z",
+          "category": "cs.AI",
+          "authorCount": 3,
+          "firstAuthor": "Anduel Mehmeti"
+        },
+        {
+          "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+          "url": "http://arxiv.org/abs/2607.22520v1",
+          "publishedAt": "2026-07-24T17:50:03Z",
           "category": "cs.AI",
           "authorCount": 2,
-          "firstAuthor": "Baihui Wang"
+          "firstAuthor": "Darshan Tank"
         },
         {
-          "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-          "url": "http://arxiv.org/abs/2607.21557v1",
-          "publishedAt": "2026-07-23T17:38:30Z",
-          "category": "cs.AI",
-          "authorCount": 10,
-          "firstAuthor": "Xiao Yu"
+          "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+          "url": "http://arxiv.org/abs/2607.22513v1",
+          "publishedAt": "2026-07-24T17:32:43Z",
+          "category": "cs.CY",
+          "authorCount": 3,
+          "firstAuthor": "Davide Scarso"
         },
         {
-          "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
-          "url": "http://arxiv.org/abs/2607.21552v1",
-          "publishedAt": "2026-07-23T17:35:56Z",
-          "category": "cs.AI",
-          "authorCount": 4,
-          "firstAuthor": "Wen Ye"
+          "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+          "url": "http://arxiv.org/abs/2607.22511v1",
+          "publishedAt": "2026-07-24T17:32:35Z",
+          "category": "stat.ML",
+          "authorCount": 2,
+          "firstAuthor": "Jiyuan Tan"
         },
         {
-          "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
-          "url": "http://arxiv.org/abs/2607.21530v1",
-          "publishedAt": "2026-07-23T17:15:53Z",
+          "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+          "url": "http://arxiv.org/abs/2607.22471v1",
+          "publishedAt": "2026-07-24T16:39:06Z",
           "category": "cs.SE",
-          "authorCount": 2,
-          "firstAuthor": "Kaiwen Zhang"
-        },
-        {
-          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
-          "url": "http://arxiv.org/abs/2607.21522v1",
-          "publishedAt": "2026-07-23T17:04:36Z",
-          "category": "cs.RO",
-          "authorCount": 6,
-          "firstAuthor": "Hongxin Zhang"
+          "authorCount": 5,
+          "firstAuthor": "Zhen Zhao"
         }
       ]
     },
@@ -92,34 +92,58 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 68,
+        "volume": 70,
         "engagement": null,
-        "contributors": 353,
-        "latestActivityAt": "2026-07-23T09:10:10Z"
+        "contributors": 362,
+        "latestActivityAt": "2026-07-24T16:39:06Z"
       },
       "nativeMetrics": {
-        "paperCount": 68,
-        "uniqueAuthors": 353,
+        "paperCount": 70,
+        "uniqueAuthors": 362,
         "avgAuthorsPerPaper": 5.3,
         "primaryCategoryTop": "cs.SE",
         "isAuthorsSampled": false,
-        "sampleSize": 68,
-        "latestPaperPublished": "2026-07-23T09:10:10Z"
+        "sampleSize": 70,
+        "latestPaperPublished": "2026-07-24T16:39:06Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
+        {
+          "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+          "url": "http://arxiv.org/abs/2607.22471v1",
+          "publishedAt": "2026-07-24T16:39:06Z",
+          "category": "cs.SE",
+          "authorCount": 5,
+          "firstAuthor": "Zhen Zhao"
+        },
+        {
+          "title": "\"Go Home Copilot, You're Drunk\": Understanding Developer Responses to Agent-Generated Code Review Comments",
+          "url": "http://arxiv.org/abs/2607.21997v1",
+          "publishedAt": "2026-07-24T05:51:48Z",
+          "category": "cs.SE",
+          "authorCount": 5,
+          "firstAuthor": "Shamse Tasnim Cynthia"
+        },
+        {
+          "title": "Enhancing SLMs for Sustainable Code Optimization in Radio-Astronomy",
+          "url": "http://arxiv.org/abs/2607.21677v1",
+          "publishedAt": "2026-07-23T11:02:24Z",
+          "category": "cs.SE",
+          "authorCount": 4,
+          "firstAuthor": "Elisa Chiarotto"
+        },
         {
           "title": "Maintenance Signals in AI-Assisted GitHub Repositories: Evidence from GenAI Adopters",
           "url": "http://arxiv.org/abs/2607.21079v1",
@@ -135,30 +159,6 @@
           "category": "cs.CR",
           "authorCount": 2,
           "firstAuthor": "Shanna M. Kahn"
-        },
-        {
-          "title": "Bridging Behavior and Implementation: Automated Java Glue Code Generation for Behavior-Driven Development",
-          "url": "http://arxiv.org/abs/2607.19703v1",
-          "publishedAt": "2026-07-22T03:06:45Z",
-          "category": "cs.SE",
-          "authorCount": 3,
-          "firstAuthor": "Xinyu Shi"
-        },
-        {
-          "title": "SciCodePile: A 128GB Corpus and Executable Benchmark for Challenging Scientific Code Generation",
-          "url": "http://arxiv.org/abs/2607.19104v1",
-          "publishedAt": "2026-07-21T13:46:52Z",
-          "category": "cs.SE",
-          "authorCount": 9,
-          "firstAuthor": "Weifeng Sun"
-        },
-        {
-          "title": "TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development",
-          "url": "http://arxiv.org/abs/2607.18886v1",
-          "publishedAt": "2026-07-21T09:14:59Z",
-          "category": "cs.SE",
-          "authorCount": 8,
-          "firstAuthor": "Mingyu Chen"
         }
       ]
     },
@@ -166,73 +166,73 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 488,
+        "volume": 471,
         "engagement": null,
-        "contributors": 636,
-        "latestActivityAt": "2026-07-23T17:59:58Z"
+        "contributors": 648,
+        "latestActivityAt": "2026-07-24T17:59:39Z"
       },
       "nativeMetrics": {
-        "paperCount": 488,
-        "uniqueAuthors": 636,
+        "paperCount": 471,
+        "uniqueAuthors": 648,
         "avgAuthorsPerPaper": 6.6,
         "primaryCategoryTop": "cs.CV",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-23T17:59:58Z"
+        "latestPaperPublished": "2026-07-24T17:59:39Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\") AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\") AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
         {
-          "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
-          "url": "http://arxiv.org/abs/2607.21594v1",
-          "publishedAt": "2026-07-23T17:59:58Z",
+          "title": "Twins: Learn to Predict Unified Representations with Focal Loss",
+          "url": "http://arxiv.org/abs/2607.22531v1",
+          "publishedAt": "2026-07-24T17:59:39Z",
+          "category": "cs.CV",
+          "authorCount": 12,
+          "firstAuthor": "Kaixiong Gong"
+        },
+        {
+          "title": "Correlation-Aware and Gaussianity-Preserving Robust Latent Angular Watermarking for Diffusion Models",
+          "url": "http://arxiv.org/abs/2607.22386v1",
+          "publishedAt": "2026-07-24T15:10:44Z",
           "category": "cs.CV",
           "authorCount": 5,
-          "firstAuthor": "Sicheng Mo"
+          "firstAuthor": "Yebin Zheng"
         },
         {
-          "title": "Unified Video Dense Prediction from Disjoint Data",
-          "url": "http://arxiv.org/abs/2607.21592v1",
-          "publishedAt": "2026-07-23T17:59:50Z",
+          "title": "Time-Reversed Imaging: A Multimodal Benchmark and Framework for Reconstructing Past Human-Environment Interactions",
+          "url": "http://arxiv.org/abs/2607.22352v1",
+          "publishedAt": "2026-07-24T14:34:25Z",
           "category": "cs.CV",
-          "authorCount": 5,
-          "firstAuthor": "Yihong Sun"
+          "authorCount": 4,
+          "firstAuthor": "Jorge Bacca"
         },
         {
-          "title": "Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning",
-          "url": "http://arxiv.org/abs/2607.21591v1",
-          "publishedAt": "2026-07-23T17:59:46Z",
+          "title": "fMRI2Face: A Full-HD fMRI-Video Dataset and Geometry-Guided Neural Decoding Framework for Dynamic Human Face Reconstruction",
+          "url": "http://arxiv.org/abs/2607.22302v1",
+          "publishedAt": "2026-07-24T13:45:28Z",
           "category": "cs.CV",
-          "authorCount": 2,
-          "firstAuthor": "Rogerio Guimaraes"
+          "authorCount": 9,
+          "firstAuthor": "Jingyang Huo"
         },
         {
-          "title": "GraphVid: Interactive Graph-Controllable Video Generation",
-          "url": "http://arxiv.org/abs/2607.21580v1",
-          "publishedAt": "2026-07-23T17:56:30Z",
+          "title": "AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment",
+          "url": "http://arxiv.org/abs/2607.22241v1",
+          "publishedAt": "2026-07-24T12:17:57Z",
           "category": "cs.CV",
-          "authorCount": 8,
-          "firstAuthor": "Vedant Shah"
-        },
-        {
-          "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
-          "url": "http://arxiv.org/abs/2607.21553v1",
-          "publishedAt": "2026-07-23T17:36:05Z",
-          "category": "cs.CV",
-          "authorCount": 14,
-          "firstAuthor": "Junsong Chen"
+          "authorCount": 10,
+          "firstAuthor": "Ziyao Huang"
         }
       ]
     },
@@ -240,73 +240,73 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 309,
+        "volume": 302,
         "engagement": null,
-        "contributors": 649,
-        "latestActivityAt": "2026-07-23T17:36:05Z"
+        "contributors": 642,
+        "latestActivityAt": "2026-07-24T15:50:23Z"
       },
       "nativeMetrics": {
-        "paperCount": 309,
-        "uniqueAuthors": 649,
+        "paperCount": 302,
+        "uniqueAuthors": 642,
         "avgAuthorsPerPaper": 6.5,
         "primaryCategoryTop": "cs.LG",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-23T17:36:05Z"
+        "latestPaperPublished": "2026-07-24T15:50:23Z"
       },
       "meta": {
-        "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
         {
-          "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
-          "url": "http://arxiv.org/abs/2607.21553v1",
-          "publishedAt": "2026-07-23T17:36:05Z",
-          "category": "cs.CV",
-          "authorCount": 14,
-          "firstAuthor": "Junsong Chen"
+          "title": "TileSight: A First-Principles Tile-Centric Analytical GPU Performance Model from Cores to Clusters",
+          "url": "http://arxiv.org/abs/2607.22432v1",
+          "publishedAt": "2026-07-24T15:50:23Z",
+          "category": "cs.DC",
+          "authorCount": 15,
+          "firstAuthor": "Zhiwen Mo"
         },
         {
-          "title": "Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context",
-          "url": "http://arxiv.org/abs/2607.21535v1",
-          "publishedAt": "2026-07-23T17:21:44Z",
+          "title": "Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads",
+          "url": "http://arxiv.org/abs/2607.22242v1",
+          "publishedAt": "2026-07-24T12:18:36Z",
+          "category": "cs.DC",
+          "authorCount": 2,
+          "firstAuthor": "Tianxi Lu"
+        },
+        {
+          "title": "Unified Static-Dynamic Pruning for Efficient LLM Inference",
+          "url": "http://arxiv.org/abs/2607.21985v1",
+          "publishedAt": "2026-07-24T05:19:41Z",
+          "category": "cs.DC",
+          "authorCount": 3,
+          "firstAuthor": "Jinhyeok Kim"
+        },
+        {
+          "title": "RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention",
+          "url": "http://arxiv.org/abs/2607.21927v1",
+          "publishedAt": "2026-07-24T03:00:02Z",
           "category": "cs.LG",
           "authorCount": 1,
-          "firstAuthor": "Alagappan Valliappan"
+          "firstAuthor": "Anderson R. Santos"
         },
         {
-          "title": "KroQuant: Kronecker-Structured Block Transforms for Efficient Post-Training Quantization of Diffusion Transformers",
-          "url": "http://arxiv.org/abs/2607.21446v1",
-          "publishedAt": "2026-07-23T15:52:20Z",
-          "category": "cs.LG",
-          "authorCount": 4,
-          "firstAuthor": "Yann Bouquet"
-        },
-        {
-          "title": "SPORD: A Simulation-Propose-then-OR-Dispose Approach for Supply Chain Planning",
-          "url": "http://arxiv.org/abs/2607.21354v1",
-          "publishedAt": "2026-07-23T14:18:01Z",
-          "category": "cs.AI",
-          "authorCount": 8,
-          "firstAuthor": "Jiayin He"
-        },
-        {
-          "title": "Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Lidar",
-          "url": "http://arxiv.org/abs/2607.21309v1",
-          "publishedAt": "2026-07-23T13:31:54Z",
-          "category": "cs.RO",
-          "authorCount": 5,
-          "firstAuthor": "Simone Arreghini"
+          "title": "Fewer Paths, Better Performance: Understanding the ZCube Topology through Braess's Paradox",
+          "url": "http://arxiv.org/abs/2607.21893v1",
+          "publishedAt": "2026-07-24T01:46:44Z",
+          "category": "cs.NI",
+          "authorCount": 1,
+          "firstAuthor": "Li Chen"
         }
       ]
     },
@@ -314,34 +314,42 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 56,
+        "volume": 54,
         "engagement": null,
-        "contributors": 238,
-        "latestActivityAt": "2026-07-23T09:07:56Z"
+        "contributors": 231,
+        "latestActivityAt": "2026-07-24T11:25:59Z"
       },
       "nativeMetrics": {
-        "paperCount": 56,
-        "uniqueAuthors": 238,
+        "paperCount": 54,
+        "uniqueAuthors": 231,
         "avgAuthorsPerPaper": 4.3,
         "primaryCategoryTop": "cs.DC",
         "isAuthorsSampled": false,
-        "sampleSize": 56,
-        "latestPaperPublished": "2026-07-23T09:07:56Z"
+        "sampleSize": 54,
+        "latestPaperPublished": "2026-07-24T11:25:59Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
+        {
+          "title": "Duet: Co-Optimizing P2P Message Propagation and Rotating-Leader Consensus",
+          "url": "http://arxiv.org/abs/2607.22209v1",
+          "publishedAt": "2026-07-24T11:25:59Z",
+          "category": "cs.DC",
+          "authorCount": 7,
+          "firstAuthor": "Yifeng Ye"
+        },
         {
           "title": "Spectral Transformation for Layer-wise Global Rank Discovery in Federated LoRA for Vision Transformers",
           "url": "http://arxiv.org/abs/2607.21074v1",
@@ -373,14 +381,6 @@
           "category": "cs.AR",
           "authorCount": 3,
           "firstAuthor": "Fabian Waschkowski"
-        },
-        {
-          "title": "Byzantine Fault-Tolerant Post-Quantum Distributed Quorum Signatures",
-          "url": "http://arxiv.org/abs/2607.17700v1",
-          "publishedAt": "2026-07-20T08:48:33Z",
-          "category": "cs.DC",
-          "authorCount": 3,
-          "firstAuthor": "Quentin Kniep"
         }
       ]
     },
@@ -388,29 +388,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 22,
+        "volume": 21,
         "engagement": null,
-        "contributors": 76,
+        "contributors": 75,
         "latestActivityAt": "2026-07-20T18:28:07Z"
       },
       "nativeMetrics": {
-        "paperCount": 22,
-        "uniqueAuthors": 76,
-        "avgAuthorsPerPaper": 3.6,
+        "paperCount": 21,
+        "uniqueAuthors": 75,
+        "avgAuthorsPerPaper": 3.7,
         "primaryCategoryTop": "cs.CR",
         "isAuthorsSampled": false,
-        "sampleSize": 22,
+        "sampleSize": 21,
         "latestPaperPublished": "2026-07-20T18:28:07Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing) AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing) AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -450,7 +450,7 @@
         },
         {
           "title": "Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses",
-          "url": "http://arxiv.org/abs/2607.10392v2",
+          "url": "http://arxiv.org/abs/2607.10392v3",
           "publishedAt": "2026-07-11T16:44:33Z",
           "category": "cs.AR",
           "authorCount": 2,
@@ -462,34 +462,42 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 10,
+        "volume": 9,
         "engagement": null,
-        "contributors": 34,
-        "latestActivityAt": "2026-07-21T19:45:13Z"
+        "contributors": 30,
+        "latestActivityAt": "2026-07-23T21:21:01Z"
       },
       "nativeMetrics": {
-        "paperCount": 10,
-        "uniqueAuthors": 34,
-        "avgAuthorsPerPaper": 3.4,
+        "paperCount": 9,
+        "uniqueAuthors": 30,
+        "avgAuthorsPerPaper": 3.3,
         "primaryCategoryTop": "cs.CR",
         "isAuthorsSampled": false,
-        "sampleSize": 10,
-        "latestPaperPublished": "2026-07-21T19:45:13Z"
+        "sampleSize": 9,
+        "latestPaperPublished": "2026-07-23T21:21:01Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
+        {
+          "title": "Protocol-Level Attacks on Agentic Commerce Platforms: A Cross-Platform Taxonomy, AIP-Bench, and Unified Defense",
+          "url": "http://arxiv.org/abs/2607.21824v1",
+          "publishedAt": "2026-07-23T21:21:01Z",
+          "category": "cs.CR",
+          "authorCount": 1,
+          "firstAuthor": "Yedidel Louck"
+        },
         {
           "title": "When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments",
           "url": "http://arxiv.org/abs/2607.19545v1",
@@ -521,14 +529,6 @@
           "category": "cs.CR",
           "authorCount": 4,
           "firstAuthor": "Shengchen Ling"
-        },
-        {
-          "title": "TSAI-MetaFraud: A Benchmark Dataset for Financial Fraud Transaction and Behavioral Risk Detection in Metaverse Ecosystems",
-          "url": "http://arxiv.org/abs/2607.09528v1",
-          "publishedAt": "2026-07-10T15:36:13Z",
-          "category": "cs.LG",
-          "authorCount": 3,
-          "firstAuthor": "Refat Ishrak Hemel"
         }
       ]
     },
@@ -536,7 +536,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -557,8 +557,8 @@
         "latestPaperPublished": "2026-07-23T05:31:17Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab) AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab) AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -610,7 +610,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -631,8 +631,8 @@
         "latestPaperPublished": "2026-07-04T05:49:23Z"
       },
       "meta": {
-        "searchQuery": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\" AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\" AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -684,34 +684,42 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 2415,
+        "volume": 2416,
         "engagement": null,
-        "contributors": 381,
-        "latestActivityAt": "2026-07-23T10:37:28Z"
+        "contributors": 384,
+        "latestActivityAt": "2026-07-24T17:27:43Z"
       },
       "nativeMetrics": {
-        "paperCount": 2415,
-        "uniqueAuthors": 381,
-        "avgAuthorsPerPaper": 4.3,
+        "paperCount": 2416,
+        "uniqueAuthors": 384,
+        "avgAuthorsPerPaper": 4.4,
         "primaryCategoryTop": "cs.LG",
         "isAuthorsSampled": true,
         "sampleSize": 100,
-        "latestPaperPublished": "2026-07-23T10:37:28Z"
+        "latestPaperPublished": "2026-07-24T17:27:43Z"
       },
       "meta": {
-        "searchQuery": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\" AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\" AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
       },
       "topItems": [
+        {
+          "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
+          "url": "http://arxiv.org/abs/2607.22508v1",
+          "publishedAt": "2026-07-24T17:27:43Z",
+          "category": "cs.LG",
+          "authorCount": 7,
+          "firstAuthor": "Athanasios Papastathopoulos-Katsaros"
+        },
         {
           "title": "SafeStep: AI-powered Travel Assistance for Elderly People with Frailty or Dementia",
           "url": "http://arxiv.org/abs/2607.21156v1",
@@ -743,14 +751,6 @@
           "category": "cs.HC",
           "authorCount": 4,
           "firstAuthor": "Teis Arets"
-        },
-        {
-          "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
-          "url": "http://arxiv.org/abs/2607.18149v1",
-          "publishedAt": "2026-07-20T16:49:30Z",
-          "category": "cs.LG",
-          "authorCount": 3,
-          "firstAuthor": "Shyamal Y. Dharia"
         }
       ]
     },
@@ -758,19 +758,19 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:21:55.345Z",
+      "fetchedAt": "2026-07-28T00:21:07.355Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1182,
+        "volume": 1181,
         "engagement": null,
         "contributors": 485,
         "latestActivityAt": "2026-07-23T16:06:42Z"
       },
       "nativeMetrics": {
-        "paperCount": 1182,
+        "paperCount": 1181,
         "uniqueAuthors": 485,
         "avgAuthorsPerPaper": 5.3,
         "primaryCategoryTop": "cs.CY",
@@ -779,8 +779,8 @@
         "latestPaperPublished": "2026-07-23T16:06:42Z"
       },
       "meta": {
-        "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202606260000 TO 202607260000]",
-        "dateFilter": "202606260000 TO 202607260000",
+        "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202606280000 TO 202607280000]",
+        "dateFilter": "202606280000 TO 202607280000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"

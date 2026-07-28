@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-26T07:19:56.217Z",
+  "generatedAt": "2026-07-28T00:19:16.783Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
-  "cutoffDate": "2026-06-26",
+  "cutoffDate": "2026-06-28",
   "mappedThemeCount": 11,
   "successCount": 9,
   "skippedCount": 2,
@@ -19,22 +19,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 26,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1933,
-        "engagement": 3707,
-        "contributors": 704,
-        "latestActivityAt": "2026-07-26T16:06:07+09:00"
+        "volume": 1895,
+        "engagement": 3836,
+        "contributors": 708,
+        "latestActivityAt": "2026-07-28T09:15:05+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1933,
-        "lgtmSum": 3707,
-        "uniqueAuthors": 704,
-        "latestPublishedAt": "2026-07-26T16:06:07+09:00"
+        "articleCount": 1895,
+        "lgtmSum": 3836,
+        "uniqueAuthors": 708,
+        "latestPublishedAt": "2026-07-28T09:15:05+09:00"
       },
       "meta": {
         "tags": [
@@ -46,29 +46,29 @@
         "tagBreakdown": [
           {
             "tag": "ChatGPT",
-            "totalCount": 270,
-            "fetched": 270,
+            "totalCount": 268,
+            "fetched": 268,
             "pages": 3,
             "stoppedBy": "done"
           },
           {
             "tag": "Claude",
-            "totalCount": 464,
-            "fetched": 464,
+            "totalCount": 441,
+            "fetched": 441,
             "pages": 5,
             "stoppedBy": "done"
           },
           {
             "tag": "LLM",
-            "totalCount": 842,
-            "fetched": 842,
+            "totalCount": 816,
+            "fetched": 816,
             "pages": 9,
             "stoppedBy": "done"
           },
           {
             "tag": "生成AI",
-            "totalCount": 863,
-            "fetched": 863,
+            "totalCount": 861,
+            "fetched": 861,
             "pages": 9,
             "stoppedBy": "done"
           }
@@ -86,21 +86,21 @@
           "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
           "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
           "publishedAt": "2026-07-12T16:15:00+09:00",
-          "likes": 403,
+          "likes": 414,
           "author": "ZiYuCai1984"
         },
         {
           "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
           "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
           "publishedAt": "2026-07-11T19:39:54+09:00",
-          "likes": 245,
+          "likes": 252,
           "author": "fuyunoki"
         },
         {
           "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと",
           "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
           "publishedAt": "2026-07-17T07:54:35+09:00",
-          "likes": 139,
+          "likes": 143,
           "author": "Koukyosyumei"
         },
         {
@@ -116,22 +116,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 133,
-        "engagement": 291,
-        "contributors": 78,
-        "latestActivityAt": "2026-07-26T11:48:04+09:00"
+        "volume": 134,
+        "engagement": 295,
+        "contributors": 77,
+        "latestActivityAt": "2026-07-27T21:06:20+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 133,
-        "lgtmSum": 291,
-        "uniqueAuthors": 78,
-        "latestPublishedAt": "2026-07-26T11:48:04+09:00"
+        "articleCount": 134,
+        "lgtmSum": 295,
+        "uniqueAuthors": 77,
+        "latestPublishedAt": "2026-07-27T21:06:20+09:00"
       },
       "meta": {
         "tags": [
@@ -141,15 +141,15 @@
         "tagBreakdown": [
           {
             "tag": "GitHubCopilot",
-            "totalCount": 64,
-            "fetched": 64,
+            "totalCount": 63,
+            "fetched": 63,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "Cursor",
-            "totalCount": 72,
-            "fetched": 72,
+            "totalCount": 74,
+            "fetched": 74,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -181,7 +181,7 @@
           "title": "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方",
           "url": "https://qiita.com/aktsmm/items/7b92f95325893cb4e5a3",
           "publishedAt": "2026-07-10T04:39:22+09:00",
-          "likes": 22,
+          "likes": 23,
           "author": "aktsmm"
         },
         {
@@ -197,22 +197,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 29,
-        "engagement": 89,
+        "volume": 28,
+        "engagement": 88,
         "contributors": 21,
-        "latestActivityAt": "2026-07-25T17:41:48+09:00"
+        "latestActivityAt": "2026-07-27T22:50:51+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 29,
-        "lgtmSum": 89,
+        "articleCount": 28,
+        "lgtmSum": 88,
         "uniqueAuthors": 21,
-        "latestPublishedAt": "2026-07-25T17:41:48+09:00"
+        "latestPublishedAt": "2026-07-27T22:50:51+09:00"
       },
       "meta": {
         "tags": [
@@ -222,15 +222,15 @@
         "tagBreakdown": [
           {
             "tag": "StableDiffusion",
-            "totalCount": 6,
-            "fetched": 6,
+            "totalCount": 7,
+            "fetched": 7,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "画像生成",
-            "totalCount": 24,
-            "fetched": 24,
+            "totalCount": 22,
+            "fetched": 22,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -241,7 +241,7 @@
           "title": "ComfyUI × 動画生成AI × Codex で、ゲーム用スプライトアニメを量産するパイプラインを作った話",
           "url": "https://qiita.com/archeleeds/items/2efad73069b54288deb4",
           "publishedAt": "2026-07-14T23:48:59+09:00",
-          "likes": 84,
+          "likes": 85,
           "author": "archeleeds"
         },
         {
@@ -252,11 +252,11 @@
           "author": "lumichy"
         },
         {
-          "title": "【2026年最新】AIによる画像・動画生成ツール徹底比較｜Midjourney/DALL-E 3/Runway/Soraの料金・品質・使い分け",
-          "url": "https://qiita.com/devex12/items/a40194365507c651f2f4",
-          "publishedAt": "2026-06-27T20:44:18+09:00",
-          "likes": 2,
-          "author": "devex12"
+          "title": "AIGCのバーティカル領域への実装：生成AIが空間・建築デザインと出会うとき",
+          "url": "https://qiita.com/xiaoming2574/items/7f59ac83596e14b46392",
+          "publishedAt": "2026-07-27T22:50:51+09:00",
+          "likes": 0,
+          "author": "xiaoming2574"
         },
         {
           "title": "【実測】M1 MacのComfyUIで実写がボヤける原因は「KSampler一発出し」だった — RealVisXL 2パスHires+4x-UltraSharpに組み替えた全ノード構成",
@@ -278,22 +278,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 3,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 69,
-        "engagement": 74,
-        "contributors": 46,
-        "latestActivityAt": "2026-07-26T11:57:30+09:00"
+        "volume": 71,
+        "engagement": 85,
+        "contributors": 48,
+        "latestActivityAt": "2026-07-27T20:14:31+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 69,
-        "lgtmSum": 74,
-        "uniqueAuthors": 46,
-        "latestPublishedAt": "2026-07-26T11:57:30+09:00"
+        "articleCount": 71,
+        "lgtmSum": 85,
+        "uniqueAuthors": 48,
+        "latestPublishedAt": "2026-07-27T20:14:31+09:00"
       },
       "meta": {
         "tags": [
@@ -304,8 +304,8 @@
         "tagBreakdown": [
           {
             "tag": "GPU",
-            "totalCount": 38,
-            "fetched": 38,
+            "totalCount": 40,
+            "fetched": 40,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -337,8 +337,15 @@
           "title": "GPUだけでLLMを動かす必要はない",
           "url": "https://qiita.com/DanielOkada/items/8d25b244be168cbc0d6b",
           "publishedAt": "2026-07-10T22:19:15+09:00",
-          "likes": 13,
+          "likes": 14,
           "author": "DanielOkada"
+        },
+        {
+          "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録",
+          "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
+          "publishedAt": "2026-07-25T09:25:54+09:00",
+          "likes": 12,
+          "author": "nakatada-lab"
         },
         {
           "title": "コンシューマー機2台をRPCでつないで96GB相当のVRAMを作り、6つのオープンLLMを実測してみた",
@@ -353,13 +360,6 @@
           "publishedAt": "2026-07-22T00:56:13+09:00",
           "likes": 6,
           "author": "softbase"
-        },
-        {
-          "title": "Windows PCだけで自動運転AIチャレンジ2026環境を動かす手順（WSL2 + Docker + WSLg）",
-          "url": "https://qiita.com/kiwsdiv/items/3e2184568fd50be208cf",
-          "publishedAt": "2026-07-08T14:52:24+09:00",
-          "likes": 5,
-          "author": "kiwsdiv"
         }
       ]
     },
@@ -367,22 +367,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 29,
-        "engagement": 56,
-        "contributors": 21,
-        "latestActivityAt": "2026-07-24T22:56:19+09:00"
+        "volume": 31,
+        "engagement": 58,
+        "contributors": 23,
+        "latestActivityAt": "2026-07-28T08:49:34+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 29,
-        "lgtmSum": 56,
-        "uniqueAuthors": 21,
-        "latestPublishedAt": "2026-07-24T22:56:19+09:00"
+        "articleCount": 31,
+        "lgtmSum": 58,
+        "uniqueAuthors": 23,
+        "latestPublishedAt": "2026-07-28T08:49:34+09:00"
       },
       "meta": {
         "tags": [
@@ -392,15 +392,15 @@
         "tagBreakdown": [
           {
             "tag": "CloudFront",
-            "totalCount": 23,
-            "fetched": 23,
+            "totalCount": 24,
+            "fetched": 24,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "障害対応",
-            "totalCount": 7,
-            "fetched": 7,
+            "totalCount": 8,
+            "fetched": 8,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -425,7 +425,7 @@
           "title": "データのコピーは全部同じ？ ミラー、スナップショット、バックアップの役割をクリアにしたい",
           "url": "https://qiita.com/mo__mo/items/0ac1a48e166007cee947",
           "publishedAt": "2026-07-16T10:38:40+09:00",
-          "likes": 6,
+          "likes": 8,
           "author": "mo__mo"
         },
         {
@@ -448,22 +448,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 4,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 49,
-        "engagement": 403,
-        "contributors": 32,
-        "latestActivityAt": "2026-07-26T12:12:47+09:00"
+        "engagement": 408,
+        "contributors": 29,
+        "latestActivityAt": "2026-07-28T00:00:41+09:00"
       },
       "nativeMetrics": {
         "articleCount": 49,
-        "lgtmSum": 403,
-        "uniqueAuthors": 32,
-        "latestPublishedAt": "2026-07-26T12:12:47+09:00"
+        "lgtmSum": 408,
+        "uniqueAuthors": 29,
+        "latestPublishedAt": "2026-07-28T00:00:41+09:00"
       },
       "meta": {
         "tags": [
@@ -475,22 +475,22 @@
         "tagBreakdown": [
           {
             "tag": "情報セキュリティ",
-            "totalCount": 22,
-            "fetched": 22,
+            "totalCount": 23,
+            "fetched": 23,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "ランサムウェア",
-            "totalCount": 9,
-            "fetched": 9,
+            "totalCount": 11,
+            "fetched": 11,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "脆弱性",
-            "totalCount": 17,
-            "fetched": 17,
+            "totalCount": 15,
+            "fetched": 15,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -508,7 +508,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 328,
+          "likes": 335,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -533,11 +533,11 @@
           "author": "rana_kualu"
         },
         {
-          "title": "自衛隊「ウイルス入りUSB」問題から学ぶ、国のサイバーセキュリティ入門",
-          "url": "https://qiita.com/similarmetal/items/a9e6939ad781dd7e9a77",
-          "publishedAt": "2026-06-28T14:22:24+09:00",
-          "likes": 6,
-          "author": "similarmetal"
+          "title": "なぜニチレイは、たった10日で復旧できたのか",
+          "url": "https://qiita.com/harupython/items/3ca158f89a6e38d762aa",
+          "publishedAt": "2026-07-27T14:29:26+09:00",
+          "likes": 2,
+          "author": "harupython"
         }
       ]
     },
@@ -545,22 +545,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 12,
-        "engagement": 0,
-        "contributors": 9,
-        "latestActivityAt": "2026-07-26T10:45:59+09:00"
+        "volume": 13,
+        "engagement": 1,
+        "contributors": 10,
+        "latestActivityAt": "2026-07-26T16:34:31+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 12,
-        "lgtmSum": 0,
-        "uniqueAuthors": 9,
-        "latestPublishedAt": "2026-07-26T10:45:59+09:00"
+        "articleCount": 13,
+        "lgtmSum": 1,
+        "uniqueAuthors": 10,
+        "latestPublishedAt": "2026-07-26T16:34:31+09:00"
       },
       "meta": {
         "tags": [
@@ -570,8 +570,8 @@
         "tagBreakdown": [
           {
             "tag": "Stripe",
-            "totalCount": 7,
-            "fetched": 7,
+            "totalCount": 8,
+            "fetched": 8,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -589,8 +589,15 @@
           "title": "WordPressプラグインの有料版を、Stripeとライセンスキーで実装する。検証・キャッシュ・失効まで",
           "url": "https://qiita.com/Rapls/items/e552a87795f839561bf7",
           "publishedAt": "2026-07-26T10:45:59+09:00",
-          "likes": 0,
+          "likes": 1,
           "author": "Rapls"
+        },
+        {
+          "title": "laravel×stripe×ngrokでクレジットカード決済機能（買い切り）を搭載する",
+          "url": "https://qiita.com/Engineering-seiya/items/7d4d0b12636048585aef",
+          "publishedAt": "2026-07-26T16:34:31+09:00",
+          "likes": 0,
+          "author": "Engineering-seiya"
         },
         {
           "title": "決済と納品は成功したのに購入完了画面だけ失敗した話 ~Vite環境変数とruntime-config.jsonの不整合~",
@@ -612,13 +619,6 @@
           "publishedAt": "2026-07-06T16:27:59+09:00",
           "likes": 0,
           "author": "sorabcjanne1"
-        },
-        {
-          "title": "Stripe Webhook二重付与を封じる — 署名検証と冪等ログの単一入口",
-          "url": "https://qiita.com/shota_0x/items/1fabd3ed8f333f4cb282",
-          "publishedAt": "2026-07-04T13:54:36+09:00",
-          "likes": 0,
-          "author": "shota_0x"
         }
       ]
     },
@@ -626,7 +626,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -692,22 +692,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-26T07:19:56.217Z",
+      "fetchedAt": "2026-07-28T00:19:16.783Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 9,
+        "volume": 10,
         "engagement": 17,
-        "contributors": 9,
-        "latestActivityAt": "2026-07-18T12:09:08+09:00"
+        "contributors": 10,
+        "latestActivityAt": "2026-07-27T21:03:37+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 9,
+        "articleCount": 10,
         "lgtmSum": 17,
-        "uniqueAuthors": 9,
-        "latestPublishedAt": "2026-07-18T12:09:08+09:00"
+        "uniqueAuthors": 10,
+        "latestPublishedAt": "2026-07-27T21:03:37+09:00"
       },
       "meta": {
         "tags": [
@@ -717,8 +717,8 @@
         "tagBreakdown": [
           {
             "tag": "リモートワーク",
-            "totalCount": 8,
-            "fetched": 8,
+            "totalCount": 9,
+            "fetched": 9,
             "pages": 1,
             "stoppedBy": "done"
           },

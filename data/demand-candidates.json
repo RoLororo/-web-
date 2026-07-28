@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T07:18:44.915Z",
-  "totalArticles": 465,
+  "generatedAt": "2026-07-28T00:18:02.475Z",
+  "totalArticles": 537,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
@@ -14,11 +14,17 @@
         "Claude",
         "活用",
         " AI",
-        "LLM",
         "生成AI",
-        "ChatGPT"
+        "ChatGPT",
+        "仕事"
       ],
       "evidenceArticleIds": [
+        "75752a40a43aee02",
+        "c04b3e742dc7fd32",
+        "e41ef298f3cb7354",
+        "12104805f05ba26c",
+        "017f9e9b4df86db3",
+        "d3f4a5180eebed4d",
         "4fac2a81a434d3a1",
         "fec42c256fea6ef5",
         "ee8db45590077640",
@@ -32,14 +38,11 @@
         "fc2b057114879075",
         "ebf16c0d6b88f915",
         "8f21f44283dbbd68",
-        "4c7a70c2142235c3",
-        "8bf578f7eebdd318",
-        "5e4f185e204b1a85",
-        "37cf43d81fe7cb8c"
+        "4c7a70c2142235c3"
       ],
-      "evidenceArticleCount": 17,
-      "confidence": 0.9,
-      "reason": "12 種類のキーワードが 17 件の記事でヒット（例：Claude、活用、 AI）"
+      "evidenceArticleCount": 23,
+      "confidence": 0.92,
+      "reason": "13 種類のキーワードが 23 件の記事でヒット（例：Claude、活用、 AI）"
     },
     {
       "id": "infrastructure-outages",
@@ -71,8 +74,40 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 14,
-      "confidence": 0.93,
+      "confidence": 0.91,
       "reason": "11 種類のキーワードが 14 件の記事でヒット（例：障害、復旧、影響）"
+    },
+    {
+      "id": "ai-coding",
+      "theme": "AI駆動のコード生成・開発支援",
+      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "Claude Code",
+        "レビュー",
+        "開発",
+        "codex",
+        "CI",
+        "エンジニア"
+      ],
+      "evidenceArticleIds": [
+        "e41ef298f3cb7354",
+        "017f9e9b4df86db3",
+        "3c9652f07e173702",
+        "7e9d11fc61986cb6",
+        "b9518240141c2f25",
+        "71fe0f416c0f5fbb",
+        "3924def162eedd37",
+        "31ff7dbbfb148c82",
+        "316bf21ba3ab3756",
+        "4c7a70c2142235c3",
+        "f36c4d351d6b99eb",
+        "359e412ed4404d49",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 13,
+      "confidence": 0.91,
+      "reason": "11 種類のキーワードが 13 件の記事でヒット（例：Claude Code、レビュー、開発）"
     },
     {
       "id": "security-breach",
@@ -103,38 +138,8 @@
         "31931e12804789ed"
       ],
       "evidenceArticleCount": 13,
-      "confidence": 0.94,
+      "confidence": 0.93,
       "reason": "10 種類のキーワードが 13 件の記事でヒット（例：サイバー攻撃、情報、個人情報）"
-    },
-    {
-      "id": "ai-coding",
-      "theme": "AI駆動のコード生成・開発支援",
-      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "Claude Code",
-        "開発",
-        "レビュー",
-        "codex",
-        "エンジニア",
-        "コーディング"
-      ],
-      "evidenceArticleIds": [
-        "3c9652f07e173702",
-        "7e9d11fc61986cb6",
-        "b9518240141c2f25",
-        "71fe0f416c0f5fbb",
-        "3924def162eedd37",
-        "31ff7dbbfb148c82",
-        "316bf21ba3ab3756",
-        "4c7a70c2142235c3",
-        "f36c4d351d6b99eb",
-        "359e412ed4404d49",
-        "37cf43d81fe7cb8c"
-      ],
-      "evidenceArticleCount": 11,
-      "confidence": 0.91,
-      "reason": "11 種類のキーワードが 11 件の記事でヒット（例：Claude Code、開発、レビュー）"
     },
     {
       "id": "payment-troubles",
@@ -159,7 +164,7 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 7,
-      "confidence": 0.81,
+      "confidence": 0.8,
       "reason": "8 種類のキーワードが 7 件の記事でヒット（例：決済、クレカ、PayPay）"
     },
     {
@@ -176,15 +181,16 @@
         "欧州委員会"
       ],
       "evidenceArticleIds": [
+        "75752a40a43aee02",
         "e1e25c3e3465493b",
         "d95ca7cebce53876",
         "4bf8f55cb8457c0e",
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 5,
-      "confidence": 0.65,
-      "reason": "6 種類のキーワードが 5 件の記事でヒット（例：AI、規制、安全性）"
+      "evidenceArticleCount": 6,
+      "confidence": 0.71,
+      "reason": "6 種類のキーワードが 6 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "ai-hardware",
@@ -205,7 +211,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.52,
+      "confidence": 0.51,
       "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
@@ -228,7 +234,7 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.65,
+      "confidence": 0.63,
       "reason": "7 種類のキーワードが 4 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
@@ -250,7 +256,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.52,
+      "confidence": 0.51,
       "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
     },
     {
@@ -271,7 +277,7 @@
         "e2193fce8f746f0f"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.54,
+      "confidence": 0.53,
       "reason": "5 種類のキーワードが 3 件の記事でヒット（例：高齢者、介護、ボケ）"
     }
   ]
