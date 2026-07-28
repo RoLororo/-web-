@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:11:31.906Z",
+  "generatedAt": "2026-07-28T15:21:01.926Z",
   "method": "news-only signals (Phase 4-a)",
   "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness",
   "disclaimer": "ニュース信号のみによる暫定スコア。SNS・検索指数・求人などの他データ源は未統合。",
@@ -122,7 +122,7 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.904Z",
+      "updatedAt": "2026-07-28T15:21:01.924Z",
       "trendData": {
         "7d": [
           1,
@@ -485,7 +485,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.318Z",
+        "generatedAt": "2026-07-28T15:21:04.444Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -773,7 +773,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.904Z",
+      "updatedAt": "2026-07-28T15:21:01.923Z",
       "trendData": {
         "7d": [
           1,
@@ -1315,7 +1315,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.445Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1619,7 +1619,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.904Z",
+      "updatedAt": "2026-07-28T15:21:01.924Z",
       "trendData": {
         "7d": [
           1,
@@ -1755,7 +1755,7 @@
           0
         ]
       },
-      "_dataQuality": 0.79,
+      "_dataQuality": 0.78,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.87,
@@ -1982,7 +1982,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.445Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2276,7 +2276,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.905Z",
+      "updatedAt": "2026-07-28T15:21:01.925Z",
       "trendData": {
         "7d": [
           4,
@@ -2412,13 +2412,13 @@
           0
         ]
       },
-      "_dataQuality": 0.8,
+      "_dataQuality": 0.79,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.87,
         "growth": 0.89,
         "sourceDiversity": 0.75,
-        "freshness": 0.77,
+        "freshness": 0.76,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -2655,7 +2655,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.445Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2936,7 +2936,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.905Z",
+      "updatedAt": "2026-07-28T15:21:01.925Z",
       "trendData": {
         "7d": [
           0,
@@ -3481,7 +3481,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.445Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -3755,7 +3755,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.905Z",
+      "updatedAt": "2026-07-28T15:21:01.925Z",
       "trendData": {
         "7d": [
           2,
@@ -3897,7 +3897,7 @@
         "newsVolume": 0.4,
         "growth": 0.95,
         "sourceDiversity": 0.5,
-        "freshness": 0.84,
+        "freshness": 0.83,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -4037,7 +4037,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.445Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 43,
@@ -4281,7 +4281,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.905Z",
+      "updatedAt": "2026-07-28T15:21:01.925Z",
       "trendData": {
         "7d": [
           0,
@@ -4651,7 +4651,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.446Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 56,
@@ -4882,7 +4882,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.906Z",
+      "updatedAt": "2026-07-28T15:21:01.926Z",
       "trendData": {
         "7d": [
           0,
@@ -5163,7 +5163,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.319Z",
+        "generatedAt": "2026-07-28T15:21:04.446Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 38,
@@ -5371,7 +5371,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.906Z",
+      "updatedAt": "2026-07-28T15:21:01.926Z",
       "trendData": {
         "7d": [
           1,
@@ -5513,7 +5513,7 @@
         "newsVolume": 0.27,
         "growth": 0.44,
         "sourceDiversity": 0.5,
-        "freshness": 0.74,
+        "freshness": 0.73,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -5831,7 +5831,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.320Z",
+        "generatedAt": "2026-07-28T15:21:04.446Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 67,
@@ -6012,7 +6012,7 @@
       "id": "home-server-selfhost",
       "title": "自宅サーバー・セルフホスト",
       "category": "AI・テクノロジー",
-      "score": 39,
+      "score": 38,
       "change": 39,
       "status": "成長中",
       "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
@@ -6077,7 +6077,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T11:11:31.906Z",
+      "updatedAt": "2026-07-28T15:21:01.926Z",
       "trendData": {
         "7d": [
           0,
@@ -6425,7 +6425,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T11:11:34.320Z",
+        "generatedAt": "2026-07-28T15:21:04.446Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 79,
@@ -6438,7 +6438,7 @@
         },
         "verdict": {
           "label": "様子見",
-          "rationale": "需要スコア 39/100、勢い 55/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
+          "rationale": "需要スコア 38/100、勢い 55/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
         },
         "whyTrending": {
           "headline": "このテーマは観測範囲が薄く、明確な伸びの理由を特定できません。",
@@ -6571,6 +6571,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-28T11:11:34.320Z",
+  "insightsGeneratedAt": "2026-07-28T15:21:04.446Z",
   "insightsMethod": "heuristic-v1"
 }

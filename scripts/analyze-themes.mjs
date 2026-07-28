@@ -32,23 +32,21 @@
 //     - Node.js 18+ の標準機能のみ
 // ============================================================================
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
-
+import { resolve } from 'node:path';
+import { PATHS, DATA_ROOT } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 import { loadEnv } from './lib/env.mjs';
 await loadEnv(); // 先に .env を反映させてから SDK を読む
-
 import { createClient, getModel, reportError } from './lib/anthropic-client.mjs';
 
 // ---------------------------------------------------------------------------
-// パス設定
+// パス設定 (PATHS 経由、env で DATA_ROOT 上書き可)
+// demand-themes.ai.json は experimental 出力なので PATHS に登録せず
+// DATA_ROOT からローカル resolve する。
 // ---------------------------------------------------------------------------
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const INPUT     = resolve(REPO_ROOT, 'data', 'articles.json');
-const OUTPUT    = resolve(REPO_ROOT, 'data', 'demand-themes.ai.json');
+const INPUT  = PATHS.source.articles;
+const OUTPUT = resolve(DATA_ROOT, 'demand-themes.ai.json');
 
 // ---------------------------------------------------------------------------
 // 設定
@@ -151,13 +149,11 @@ async function main() {
   console.log(`   モデル: ${getModel()}`);
   console.log('');
 
-  // 記事読み込み
-  const raw = await readFile(INPUT, 'utf8').catch(() => null);
-  if (!raw) {
+  const articles = await storage.readJson(INPUT);
+  if (!articles) {
     console.error('✗ data/articles.json が見つかりません。先に `npm run news` を実行してください。');
     process.exit(1);
   }
-  const articles = JSON.parse(raw);
   console.log(`   全記事: ${articles.length} 件`);
 
   // 直近 MAX_ARTICLES 件に絞り、AI に渡す最小フィールドに整形
@@ -261,8 +257,7 @@ async function main() {
     themes:          enrichedThemes,
   };
 
-  await mkdir(dirname(OUTPUT), { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  await storage.writeJson(OUTPUT, output);
 
   // コンソール要約
   console.log('');

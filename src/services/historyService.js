@@ -20,6 +20,11 @@
 
 const HISTORY_BASE = `${import.meta.env.BASE_URL}history`;
 
+// build 時刻を version として付与。Vercel CDN + browser cache を build 毎に
+// 無効化 (vite.config で define、dev では空文字)。
+const BUILD_ID = typeof __BUILD_ID__ !== 'undefined' ? __BUILD_ID__ : '';
+const V = BUILD_ID ? `?v=${BUILD_ID}` : '';
+
 let _indexPromise = null;
 const _timeseriesCache = new Map();
 
@@ -56,7 +61,7 @@ function parseJsonl(text) {
  */
 export function loadIndex() {
   if (_indexPromise) return _indexPromise;
-  _indexPromise = fetch(`${HISTORY_BASE}/index.json`)
+  _indexPromise = fetch(`${HISTORY_BASE}/index.json${V}`)
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
@@ -73,7 +78,7 @@ export function loadIndex() {
  */
 export async function loadTimeseries(themeId) {
   if (_timeseriesCache.has(themeId)) return _timeseriesCache.get(themeId);
-  const promise = fetch(`${HISTORY_BASE}/current/${themeId}.jsonl`)
+  const promise = fetch(`${HISTORY_BASE}/current/${themeId}.jsonl${V}`)
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.text();

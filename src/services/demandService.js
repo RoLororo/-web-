@@ -3,40 +3,48 @@
 //
 // アプリのすべての「データ取得」はこのファイル経由で行う。
 //
-//   ■ Phase 5: 実データ接続
-//     モジュール読み込み時に /data/demands.json を fetch し、
-//     取得できた場合はそれを、失敗した場合は mockDemands.js を使う。
+//   ■ 実データ接続
+//     モジュール読み込み時に /data/demands.json を fetch。
+//     取得成功: DEMANDS = payload.demands。
+//     取得失敗: mockDemands.js を dynamic import して fallback。
 //
-//   ■ トップレベル await
-//     Vite が ESM ネイティブでサポート。ページ側の import が解決される前に
-//     データが確定するため、既存の同期 API (getDemands 等) をそのまま
-//     維持できる。ページやコンポーネントの変更は一切不要。
+//   ■ Dynamic import の理由 (2026-08 リファクタ)
+//     旧: static import → production bundle に MOCK_DEMANDS (25KB src / ~5KB
+//         gzip) が常時含まれる。real fetch が成功する本番では完全に dead
+//         weight。
+//     新: fallback 発火時のみ dynamic import。bundle 減量。
+//     カテゴリ定数は data/categories.js に分離 (常に必要な軽量部)。
 //
-//   ■ フォールバック
-//     - fetch 失敗、HTTP エラー、JSON 破損、demands 配列が空 → mockDemands
-//     - フォールバック時は console.warn で開発者に通知するのみ
-//     - UI には何も表示しない (デザイン変更をしない方針)
+//   ■ Cache-busting
+//     data/demands.json は Vercel CDN + browser cache で無限保持されるため
+//     ?v=<buildTime> を付けて更新を確実に反映する。__BUILD_ID__ は
+//     vite.config.js で define されている (現在時刻)。ローカル dev では
+//     undefined なので付与しない。
 // ============================================================================
 
-import { MOCK_DEMANDS, CATEGORIES, CATEGORY_DESCRIPTIONS } from '../data/mockDemands.js';
+import { CATEGORIES, CATEGORY_DESCRIPTIONS } from '../data/categories.js';
 
 // ---------------------------------------------------------------------------
 // 実データの読み込み (モジュール初期化時に 1 回だけ)
 // ---------------------------------------------------------------------------
 
-/** 実際に使う需要データ配列。fetch 成功で上書き、失敗時は MOCK_DEMANDS のまま。 */
-let DEMANDS = MOCK_DEMANDS;
+/** 実際に使う需要データ配列。fetch 成功で上書き、失敗時は mock を dynamic import。 */
+let DEMANDS = [];
 
-/** データソースの識別。'real' / 'mock'。デバッグや将来の UI ヒント用。 */
-let SOURCE = 'mock';
+/** データソースの識別。'real' / 'mock' / 'empty'。デバッグや将来の UI ヒント用。 */
+let SOURCE = 'empty';
 
 /** demands.json の generatedAt (ISO string) — UI の「最終更新」表示等に使う */
 let GENERATED_AT = null;
 
+/** build-time version (vite.config で define)。未設定なら空 (dev 環境)。 */
+const BUILD_ID = typeof __BUILD_ID__ !== 'undefined' ? __BUILD_ID__ : '';
+
 async function loadRealDemands() {
   try {
     // BASE_URL は Vite の base (未指定なら '/') を反映するので subpath デプロイ対応
-    const url = `${import.meta.env.BASE_URL}data/demands.json`;
+    // ?v= で CDN cache を build 毎に無効化 (dev では空文字なので効果なし)
+    const url = `${import.meta.env.BASE_URL}data/demands.json${BUILD_ID ? '?v=' + BUILD_ID : ''}`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
@@ -48,7 +56,6 @@ async function loadRealDemands() {
     DEMANDS = payload.demands;
     SOURCE  = 'real';
     GENERATED_AT = payload.generatedAt || null;
-    // 開発者向け通知 (本番の Console にも出るが実害なし)
     // eslint-disable-next-line no-console
     console.info(
       `[demandService] real data loaded (${DEMANDS.length} items, generatedAt=${payload.generatedAt || 'unknown'})`
@@ -56,9 +63,19 @@ async function loadRealDemands() {
   } catch (err) {
     // eslint-disable-next-line no-console
     console.warn(
-      `[demandService] real data unavailable, falling back to mockDemands: ${err && err.message ? err.message : err}`
+      `[demandService] real data unavailable, dynamic-importing mockDemands: ${err && err.message ? err.message : err}`
     );
-    // DEMANDS / SOURCE は初期値のまま (mock)
+    // dynamic import で mockDemands をこの時だけ読む (production bundle には含めない)
+    try {
+      const mod = await import('../data/mockDemands.js');
+      DEMANDS = mod.MOCK_DEMANDS;
+      SOURCE  = 'mock';
+    } catch (importErr) {
+      // eslint-disable-next-line no-console
+      console.error('[demandService] mock fallback also failed:', importErr);
+      DEMANDS = [];
+      SOURCE  = 'empty';
+    }
   }
 }
 
