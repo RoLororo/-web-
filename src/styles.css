@@ -1570,6 +1570,145 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 /* --------------------------------------------------------------------------
+   DemandCard v3 (compact) — 密度優先、意思決定素材を 1 行 badge に
+   -------------------------------------------------------------------------- */
+
+.demand-card.compact {
+  padding: 12px 18px;
+  gap: 16px;
+  grid-template-columns: 38px 1fr 140px 100px;
+}
+.demand-card.compact .demand-title {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.demand-card.compact .card-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.demand-cat-inline {
+  font-size: 10.5px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.demand-card.compact .demand-summary {
+  font-size: 12.5px;
+  -webkit-line-clamp: 1;
+  color: var(--text-3);
+  margin-top: 4px;
+}
+.demand-card.compact .demand-chart { height: 36px; }
+.demand-card.compact .rank { font-size: 17px; font-weight: 600; }
+
+/* subtle top-3 tiering */
+.demand-card.tier-top3 { border-color: color-mix(in oklab, var(--green-bright) 30%, var(--border)); }
+
+/* --- Badge row (verdict + triad) --- */
+.card-badge-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 10.5px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-2);
+  font-weight: 500;
+  cursor: help;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.card-badge.verdict-chip {
+  font-weight: 700;
+  padding: 2px 10px;
+}
+.card-badge.verdict-chip-拡大局面 {
+  color: var(--green-bright);
+  border-color: color-mix(in oklab, var(--green-bright) 40%, transparent);
+  background: color-mix(in oklab, var(--green-bright) 10%, transparent);
+}
+.card-badge.verdict-chip-実装フェーズ {
+  color: #60a5fa;
+  border-color: color-mix(in oklab, #60a5fa 40%, transparent);
+  background: color-mix(in oklab, #60a5fa 10%, transparent);
+}
+.card-badge.verdict-chip-認知拡大中 {
+  color: #fbbf24;
+  border-color: color-mix(in oklab, #fbbf24 40%, transparent);
+  background: color-mix(in oklab, #fbbf24 10%, transparent);
+}
+.card-badge.verdict-chip-研究先行 {
+  color: #a78bfa;
+  border-color: color-mix(in oklab, #a78bfa 40%, transparent);
+  background: color-mix(in oklab, #a78bfa 10%, transparent);
+}
+.card-badge.verdict-chip-鎮静化中 {
+  color: var(--red);
+  border-color: color-mix(in oklab, var(--red) 40%, transparent);
+  background: color-mix(in oklab, var(--red) 10%, transparent);
+}
+.card-badge.verdict-chip-定着,
+.card-badge.verdict-chip-様子見 {
+  color: var(--text-2);
+  border-color: var(--border-strong);
+}
+.card-badge.verdict-chip-観測不足 {
+  color: var(--text-3);
+  border-style: dashed;
+}
+.card-badge.triad-chip .tc-lbl { color: var(--text-3); }
+.card-badge.triad-chip .tc-dot {
+  display: inline-block;
+  width: 6px; height: 6px; border-radius: 50%;
+}
+.card-badge.triad-chip .tc-val {
+  color: var(--text);
+  font-weight: 700;
+  min-width: 18px;
+  text-align: right;
+}
+
+/* compact metrics footer */
+.demand-metrics.compact {
+  gap: 4px;
+}
+.demand-card.compact .card-primary-change {
+  padding: 3px 10px;
+  margin-bottom: 2px;
+}
+.demand-card.compact .card-primary-change .cpc-val { font-size: 15px; }
+.demand-card.compact .score { font-size: 22px; }
+.demand-card.compact .score-lbl { font-size: 9px; margin-top: -2px; }
+
+@media (max-width: 640px) {
+  .demand-card.compact { grid-template-columns: 32px 1fr; gap: 10px; padding: 12px 14px; }
+  .demand-card.compact .demand-chart { display: none; }
+  .demand-card.compact .demand-metrics.compact {
+    grid-column: 2 / 3;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 6px;
+  }
+}
+
+/* --------------------------------------------------------------------------
    DemandCard v2 — insights badges + primary day-over-day
    -------------------------------------------------------------------------- */
 
@@ -1660,8 +1799,10 @@ ul { margin: 0; padding: 0; list-style: none; }
    -------------------------------------------------------------------------- */
 
 .daily-brief {
-  margin: 20px 0 12px 0;
-  padding: 18px 20px;
+  /* margin auto restores horizontal centering when .container is combined
+     with this class (the class-specific margin was overriding container's) */
+  margin: 20px auto 12px auto;
+  padding: 18px 24px;
   border: 1px solid color-mix(in oklab, var(--green-bright) 30%, var(--border));
   border-radius: var(--radius);
   background: linear-gradient(
@@ -2913,6 +3054,26 @@ select.select:focus {
   margin-top: var(--s-7);
   background: var(--bg-2);
 }
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-nav a {
+  color: var(--text-3);
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.15s var(--ease);
+}
+.footer-nav a:hover { color: var(--text); }
+
 .footer-text {
   color: var(--text-3);
   font-size: 12px;

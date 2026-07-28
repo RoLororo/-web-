@@ -1,46 +1,58 @@
 // ============================================================================
-// DemandCard — 需要ランキングの行/カード
+// DemandCard v3 (compact) — 情報階層を絞り、密度を上げて scan しやすく
 //
-// 情報階層 (2026-07 リブランド後):
-//   ・PRIMARY  今日の実測変化 (historyMove.pctChange, 履歴から day-over-day)
-//   ・SECONDARY 総合スコア (0-100, 静的コンテキスト)
-//   ・BADGES   momentum / beginner / competition (insights から)
-//   ・META     カテゴリ / 更新日時 / news 30 日変化 (小さく)
+//   ・行1 タイトル + 順位
+//   ・行2 バッジ帯: verdict / 勢い / 参入 / 競争 (統一 chip row)
+//   ・行3 summary (1 行 truncate)
+//   ・右カラム 実測 day-over-day + score
 //
-// 「毎日開く動機」を作るため、飽和した +200% news change は主指標から降格し
-// (背景コンテキストにとどめ)、実測の day-over-day = 毎日変わる数値を主指標に。
+// 意思決定に不要な要素を削減:
+//   - StatusBadge (急上昇 etc) を verdict に統合
+//   - "N 分前更新" は verdict/score より優先度低 → 削除
+//   - meta の dot 区切りは 1 行 chip row に統合
 // ============================================================================
 
 import { useNavigate } from 'react-router-dom';
 import Sparkline from './Sparkline.jsx';
-import StatusBadge from './StatusBadge.jsx';
 import AnimatedNumber from './AnimatedNumber.jsx';
-import { changeClass, formatChange, timeAgo } from '../utils/format.js';
+import { changeClass, formatChange } from '../utils/format.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
 
-function InsightMiniBadges({ insights }) {
-  if (!insights) return null;
-  const items = [
-    { key: 'momentum',   short: '勢い', obj: insights.momentum,             color: 145 },
-    { key: 'beginner',   short: '参入', obj: insights.beginnerFriendliness, color: 200 },
-    { key: 'competition',short: '競争', obj: insights.competition,          color: 30 },
-  ].filter((x) => x.obj && typeof x.obj.score === 'number');
+function BadgeRow({ verdict, insights }) {
+  const items = [];
+  if (verdict?.label) {
+    items.push({
+      kind: 'verdict',
+      cls: `card-badge verdict-chip verdict-chip-${verdict.label}`,
+      text: verdict.label,
+      title: verdict.rationale || '',
+    });
+  }
+  if (insights) {
+    const triad = [
+      { k: 'momentum',    short: '勢い', obj: insights.momentum,             hue: 145 },
+      { k: 'beginner',    short: '参入', obj: insights.beginnerFriendliness, hue: 200 },
+      { k: 'competition', short: '競争', obj: insights.competition,          hue: 30 },
+    ];
+    for (const t of triad) {
+      if (!t.obj || typeof t.obj.score !== 'number') continue;
+      items.push({
+        kind: t.k,
+        cls: 'card-badge triad-chip',
+        text: <>
+          <span className="tc-lbl">{t.short}</span>
+          <span className="tc-dot" style={{ background: `hsl(${t.hue} 60% 50%)`, opacity: 0.4 + t.obj.score / 100 * 0.6 }} />
+          <span className="tc-val">{t.obj.score}</span>
+        </>,
+        title: `${t.short}: ${t.obj.label} (${t.obj.score}/100)`,
+      });
+    }
+  }
   if (items.length === 0) return null;
   return (
-    <div className="card-insight-badges" onClick={(e) => e.stopPropagation()}>
-      {items.map((it) => (
-        <span
-          key={it.key}
-          className="card-insight-badge"
-          title={`${it.short}: ${it.obj.label} (${it.obj.score}/100)`}
-        >
-          <span className="cib-lbl">{it.short}</span>
-          <span
-            className="cib-dot"
-            style={{ background: `hsl(${it.color} 60% 50%)`, opacity: 0.4 + (it.obj.score / 100) * 0.6 }}
-          />
-          <span className="cib-val">{it.obj.score}</span>
-        </span>
+    <div className="card-badge-row" onClick={(e) => e.stopPropagation()}>
+      {items.map((it, i) => (
+        <span key={i} className={it.cls} title={it.title}>{it.text}</span>
       ))}
     </div>
   );
@@ -48,21 +60,24 @@ function InsightMiniBadges({ insights }) {
 
 export default function DemandCard({ demand, rank, index = 0, historyMove = null }) {
   const nav = useNavigate();
+  const insights = demand._insights;
+  const verdict = insights?.verdict;
 
-  // Primary indicator: 実測 day-over-day (history-based). Fall back to
-  // saturated news `change` only when no history is available yet.
   const hasHistoryMove = historyMove && isFinite(historyMove.pctChange);
   const primaryPct = hasHistoryMove ? historyMove.pctChange : demand.change;
   const primaryLabel = hasHistoryMove ? '今日' : '30日';
-  const primarySource = hasHistoryMove ? `(${sourceDisplay(historyMove.source)})` : '(ニュース)';
+  const primarySrc = hasHistoryMove ? sourceDisplay(historyMove.source) : 'ニュース';
 
   const sparkColor =
     primaryPct > 0 ? 'var(--green-bright)' :
     primaryPct < 0 ? 'var(--red)' : 'var(--text-3)';
 
+  // Subtle tiering: top-3 get a slightly stronger border
+  const tier = rank <= 3 ? 'top3' : rank <= 6 ? 'mid' : 'rest';
+
   return (
     <button
-      className="demand-card"
+      className={`demand-card compact tier-${tier}`}
       onClick={() => nav(`/demand/${demand.id}`)}
       aria-label={`${demand.title} の詳細を見る`}
       style={{ '--i': index }}
@@ -72,15 +87,11 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
       </div>
 
       <div className="demand-info">
-        <div className="demand-title">{demand.title}</div>
-        <div className="demand-meta">
-          <span>{demand.category}</span>
-          <span className="dot" />
-          <StatusBadge status={demand.status} />
-          <span className="dot" />
-          <span>{timeAgo(demand.updatedAt)}更新</span>
+        <div className="card-title-row">
+          <div className="demand-title">{demand.title}</div>
+          <span className="demand-cat-inline">{demand.category}</span>
         </div>
-        <InsightMiniBadges insights={demand._insights} />
+        <BadgeRow verdict={verdict} insights={insights} />
         <div className="demand-summary">{demand.summary}</div>
       </div>
 
@@ -88,14 +99,14 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
         <Sparkline data={demand.trendData['7d']} color={sparkColor} />
       </div>
 
-      <div className="demand-metrics">
+      <div className="demand-metrics compact">
         <div className={`card-primary-change ${changeClass(primaryPct)}`}
              title={hasHistoryMove
                ? `${sourceDisplay(historyMove.source)} の ${historyMove.metric}: ${historyMove.previous.toLocaleString()} → ${historyMove.current.toLocaleString()}`
                : 'ニュース記事数 (直近2日 vs 前5日) の伸び率'}>
           <span className="cpc-lbl">{primaryLabel}</span>
           <span className="cpc-val">{formatChange(primaryPct)}</span>
-          <span className="cpc-src">{primarySource}</span>
+          <span className="cpc-src">{primarySrc}</span>
         </div>
         <div className="score">
           <AnimatedNumber value={demand.score} duration={900} />

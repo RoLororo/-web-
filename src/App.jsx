@@ -41,13 +41,20 @@ export default function App() {
         </div>
       </main>
       <footer className="footer">
-        <div className="container">
+        <div className="container footer-inner">
+          <nav className="footer-nav" aria-label="補助ナビゲーション">
+            <a href="/explore">需要を探す</a>
+            <a href="/categories">分野</a>
+            <a href="/changes">変化</a>
+            <a href="/timeline">履歴</a>
+            <a href="/whats-new">新規追加</a>
+          </nav>
           <p className="footer-text">
             <span className="brand-mini">
               <FoxMark size={16} />
               Demand Atlas
             </span>
-            プロトタイプ版。表示されている需要スコア・データはすべてサービス検証のためのモックデータです。
+            Wikipedia / Qiita / arXiv / App Store JP / 主要ニュース RSS の公開データを日次観測。
           </p>
         </div>
       </footer>

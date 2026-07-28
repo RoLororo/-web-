@@ -99,7 +99,8 @@ export default function DemandDetail() {
             <div>
               <div className="detail-cat">{demand.category}</div>
               <h1 className="detail-title">{demand.title}</h1>
-              <StatusBadge status={demand.status} />
+              {/* verdict がある場合は StatusBadge を隠す (verdict が上位互換の判定) */}
+              {!demand._insights?.verdict && <StatusBadge status={demand.status} />}
             </div>
             <div className="detail-actions">
               <FavoriteButton demandId={demand.id} />
@@ -154,45 +155,9 @@ export default function DemandDetail() {
         <div className="detail-body">
           {/* ── 左：本文 ── */}
           <div>
-            {/* 需要の変化 */}
-            <div className="block">
-              <div className="block-title">需要の変化</div>
-              <div className="chart-card">
-                <div className="chart-toolbar">
-                  <div className="range-tabs" role="tablist">
-                    {RANGES.map((r) => (
-                      <button
-                        key={r.key}
-                        className={`range-tab ${range === r.key ? 'active' : ''}`}
-                        onClick={() => setRange(r.key)}
-                        role="tab"
-                        aria-selected={range === r.key}
-                      >
-                        {r.label}
-                      </button>
-                    ))}
-                  </div>
-                  <div style={{ fontSize: 12, color: 'var(--text-3)' }}>
-                    最終更新：{formatDateTime(demand.updatedAt)}
-                  </div>
-                </div>
-                <TrendChart key={range} data={demand.trendData[range]} color={chartColor} />
-              </div>
-            </div>
+            {/* ▼ 意思決定ゾーン (Hero 直後、スクロール前に見せる) ▼ */}
 
-            {/* 情報源別の時系列 (history/current から動的読み込み) */}
-            <div className="block">
-              <div className="block-title">情報源別に見る積み上がり</div>
-              <SourceTrends themeId={demand.id} />
-            </div>
-
-            {/* 情報源別の実際の観測 (demand._{source}Detail.topItems 由来) */}
-            <div className="block">
-              <div className="block-title">情報源別に見る実際の観測</div>
-              <SourceObservations demand={demand} />
-            </div>
-
-            {/* なぜ伸びたのか (合成) */}
+            {/* なぜ伸びたのか (合成) — 最も重要な結論を最初に */}
             {demand._insights?.whyTrending && (
               <div className="block">
                 <div className="block-title">なぜ伸びたのか</div>
@@ -235,7 +200,7 @@ export default function DemandDetail() {
               </div>
             )}
 
-            {/* 数字ベースの内訳 (旧「なぜ高まっているのか」の代わりに縮小して残す) */}
+            {/* スコアの内訳 (説明性) */}
             <div className="block">
               <div className="block-title">
                 需要スコア {demand.score} の内訳
@@ -289,6 +254,46 @@ export default function DemandDetail() {
                   </>
                 );
               })()}
+            </div>
+
+            {/* ▲ 意思決定ゾーン ここまで ▲ */}
+
+            {/* 需要の変化 */}
+            <div className="block">
+              <div className="block-title">需要の変化</div>
+              <div className="chart-card">
+                <div className="chart-toolbar">
+                  <div className="range-tabs" role="tablist">
+                    {RANGES.map((r) => (
+                      <button
+                        key={r.key}
+                        className={`range-tab ${range === r.key ? 'active' : ''}`}
+                        onClick={() => setRange(r.key)}
+                        role="tab"
+                        aria-selected={range === r.key}
+                      >
+                        {r.label}
+                      </button>
+                    ))}
+                  </div>
+                  <div style={{ fontSize: 12, color: 'var(--text-3)' }}>
+                    最終更新：{formatDateTime(demand.updatedAt)}
+                  </div>
+                </div>
+                <TrendChart key={range} data={demand.trendData[range]} color={chartColor} />
+              </div>
+            </div>
+
+            {/* 情報源別の時系列 (history/current から動的読み込み) */}
+            <div className="block">
+              <div className="block-title">情報源別に見る積み上がり</div>
+              <SourceTrends themeId={demand.id} />
+            </div>
+
+            {/* 情報源別の実際の観測 (demand._{source}Detail.topItems 由来) */}
+            <div className="block">
+              <div className="block-title">情報源別に見る実際の観測</div>
+              <SourceObservations demand={demand} />
             </div>
 
             {/* 誰が求めているか */}

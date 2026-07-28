@@ -31,16 +31,15 @@ export default function Header() {
           <span className="brand-name-mono" aria-hidden="true">v0.1</span>
         </NavLink>
 
+        {/* 主要ナビ (意思決定パス): Home → Rankings → Compare → Favorites。
+            Explore / Categories / Timeline / Changes / WhatsNew は footer に
+            移し、主要ナビの認知負荷を減らす (ルートは全て残しているため既存
+            のリンクやブックマークは有効)。 */}
         <nav className={`nav ${open ? 'mobile-open' : ''}`} aria-label="サイトナビゲーション">
           <NavLink to="/" end onClick={() => setOpen(false)}>ホーム</NavLink>
-          <NavLink to="/explore" onClick={() => setOpen(false)}>需要を探す</NavLink>
-          <NavLink to="/categories" onClick={() => setOpen(false)}>分野</NavLink>
           <NavLink to="/rankings" onClick={() => setOpen(false)}>ランキング</NavLink>
-          <NavLink to="/changes" onClick={() => setOpen(false)}>変化</NavLink>
           <NavLink to="/compare" onClick={() => setOpen(false)}>比較</NavLink>
-          <NavLink to="/timeline" onClick={() => setOpen(false)}>履歴</NavLink>
-          <NavLink to="/whats-new" onClick={() => setOpen(false)}>新規追加</NavLink>
-          <NavLink to="/favorites" onClick={() => setOpen(false)}>保存した需要</NavLink>
+          <NavLink to="/favorites" onClick={() => setOpen(false)}>お気に入り</NavLink>
         </nav>
 
         <div className="header-actions">
