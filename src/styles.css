@@ -114,6 +114,13 @@
    -------------------------------------------------------------------------- */
 
 *, *::before, *::after { box-sizing: border-box; }
+html {
+  /* Reserve gutter for the vertical scrollbar even on short pages.
+     Without this, .container is centered in different available widths
+     depending on whether the page scrolls (measured: 5px shift between
+     scrolling and non-scrolling pages). */
+  scrollbar-gutter: stable;
+}
 html, body {
   margin: 0; padding: 0;
   /* Prevent any horizontal scroll caused by decorative overflow */

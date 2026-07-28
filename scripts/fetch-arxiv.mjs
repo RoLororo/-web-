@@ -30,10 +30,9 @@
 //     - Node.js 18+ の標準機能のみ
 // ============================================================================
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { sleep, classifyFetchError, fetchWithRetry } from './lib/fetch-common.mjs';
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
 // 設定 (arXiv 固有のみ。共通の USER_AGENT / タイムアウト / リトライ待機は
@@ -48,10 +47,8 @@ const ARXIV_API_BASE = 'https://export.arxiv.org/api/query';
 // パス
 // ---------------------------------------------------------------------------
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const MAPPING   = resolve(REPO_ROOT, 'config', 'arxiv-mapping.json');
-const OUTPUT    = resolve(REPO_ROOT, 'data',   'arxiv.json');
+const MAPPING = PATHS.config.arxivMapping;
+const OUTPUT  = PATHS.source.arxiv;
 
 // ---------------------------------------------------------------------------
 // ユーティリティ
@@ -271,8 +268,8 @@ async function main() {
   console.log(`   マッピング: ${MAPPING}`);
   console.log(`   出力:       ${OUTPUT}`);
 
-  const raw = await readFile(MAPPING, 'utf8');
-  const cfg = JSON.parse(raw);
+  const cfg = await storage.readJson(MAPPING);
+  if (!cfg) { console.error(`✗ mapping not found: ${MAPPING}`); process.exit(1); }
   const mapping         = cfg.mapping || {};
   const skippedReasons  = cfg.skippedReasons || {};
   const windowDays      = Number(cfg.windowDays) || 30;
@@ -351,8 +348,7 @@ async function main() {
     errors:             errorsAll,
   };
 
-  await mkdir(dirname(OUTPUT), { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  await storage.writeJson(OUTPUT, output);
 
   console.log('');
   console.log('──────────────  サマリー  ──────────────');

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:50:23.066Z",
+  "generatedAt": "2026-07-28T11:11:31.906Z",
   "method": "news-only signals (Phase 4-a)",
   "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness",
   "disclaimer": "ニュース信号のみによる暫定スコア。SNS・検索指数・求人などの他データ源は未統合。",
@@ -122,7 +122,7 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.063Z",
+      "updatedAt": "2026-07-28T11:11:31.904Z",
       "trendData": {
         "7d": [
           1,
@@ -485,7 +485,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.487Z",
+        "generatedAt": "2026-07-28T11:11:34.318Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -773,7 +773,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.063Z",
+      "updatedAt": "2026-07-28T11:11:31.904Z",
       "trendData": {
         "7d": [
           1,
@@ -915,7 +915,7 @@
         "newsVolume": 1,
         "growth": 1,
         "sourceDiversity": 0.75,
-        "freshness": 0.83,
+        "freshness": 0.82,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -1315,7 +1315,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1619,7 +1619,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.064Z",
+      "updatedAt": "2026-07-28T11:11:31.904Z",
       "trendData": {
         "7d": [
           1,
@@ -1982,7 +1982,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2276,7 +2276,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.064Z",
+      "updatedAt": "2026-07-28T11:11:31.905Z",
       "trendData": {
         "7d": [
           4,
@@ -2655,7 +2655,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2936,7 +2936,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.064Z",
+      "updatedAt": "2026-07-28T11:11:31.905Z",
       "trendData": {
         "7d": [
           0,
@@ -3481,7 +3481,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -3755,7 +3755,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.065Z",
+      "updatedAt": "2026-07-28T11:11:31.905Z",
       "trendData": {
         "7d": [
           2,
@@ -4037,7 +4037,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 43,
@@ -4281,7 +4281,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.065Z",
+      "updatedAt": "2026-07-28T11:11:31.905Z",
       "trendData": {
         "7d": [
           0,
@@ -4651,7 +4651,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 56,
@@ -4882,7 +4882,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.066Z",
+      "updatedAt": "2026-07-28T11:11:31.906Z",
       "trendData": {
         "7d": [
           0,
@@ -5163,7 +5163,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.488Z",
+        "generatedAt": "2026-07-28T11:11:34.319Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 38,
@@ -5371,7 +5371,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.065Z",
+      "updatedAt": "2026-07-28T11:11:31.906Z",
       "trendData": {
         "7d": [
           1,
@@ -5831,7 +5831,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.489Z",
+        "generatedAt": "2026-07-28T11:11:34.320Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 67,
@@ -6077,7 +6077,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T10:50:23.066Z",
+      "updatedAt": "2026-07-28T11:11:31.906Z",
       "trendData": {
         "7d": [
           0,
@@ -6425,7 +6425,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T10:50:25.489Z",
+        "generatedAt": "2026-07-28T11:11:34.320Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 79,
@@ -6571,6 +6571,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-28T10:50:25.489Z",
+  "insightsGeneratedAt": "2026-07-28T11:11:34.320Z",
   "insightsMethod": "heuristic-v1"
 }

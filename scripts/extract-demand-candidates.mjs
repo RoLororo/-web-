@@ -35,18 +35,15 @@
 //     - Node.js 18+ の標準機能のみ (npm パッケージ追加なし)
 // ============================================================================
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
 // パス
 // ---------------------------------------------------------------------------
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const INPUT     = resolve(REPO_ROOT, 'data', 'articles.json');
-const OUTPUT    = resolve(REPO_ROOT, 'data', 'demand-candidates.json');
+const INPUT  = PATHS.source.articles;
+const OUTPUT = PATHS.source.candidates;
 
 // ---------------------------------------------------------------------------
 // テーマ辞書 — 現時点は手動キュレーション
@@ -251,12 +248,11 @@ async function main() {
   console.log(`   入力: ${INPUT}`);
   console.log(`   出力: ${OUTPUT}`);
 
-  const raw = await readFile(INPUT, 'utf8').catch(() => null);
-  if (!raw) {
+  const articles = await storage.readJson(INPUT);
+  if (!articles) {
     console.error('✗ data/articles.json が見つかりません。先に `npm run news` を実行してください。');
     process.exit(1);
   }
-  const articles = JSON.parse(raw);
   console.log(`   対象記事: ${articles.length} 件`);
   console.log(`   定義テーマ: ${THEMES.length} 件\n`);
 
@@ -324,8 +320,7 @@ async function main() {
     candidates,
   };
 
-  await mkdir(dirname(OUTPUT), { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  await storage.writeJson(OUTPUT, output);
 
   // コンソール要約
   console.log('──────────────  抽出結果  ──────────────');

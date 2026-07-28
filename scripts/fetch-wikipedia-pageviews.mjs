@@ -29,9 +29,8 @@
 //     - Node.js 18+ の標準 fetch のみ (追加パッケージなし)
 // ============================================================================
 
-import { mkdir, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
 // 設定
@@ -80,9 +79,7 @@ const WIKI_MAPPING = {
 // パス
 // ---------------------------------------------------------------------------
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const OUTPUT    = resolve(REPO_ROOT, 'data', 'wikipedia-pageviews.json');
+const OUTPUT = PATHS.source.wikipedia;
 
 // ---------------------------------------------------------------------------
 // ユーティリティ
@@ -318,8 +315,7 @@ async function main() {
     errors:           errorsAll,
   };
 
-  await mkdir(dirname(OUTPUT), { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  await storage.writeJson(OUTPUT, output);
 
   console.log('');
   console.log('──────────────  サマリー  ──────────────');

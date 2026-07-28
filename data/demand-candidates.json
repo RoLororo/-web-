@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T00:18:02.475Z",
+  "generatedAt": "2026-07-28T11:11:29.484Z",
   "totalArticles": 537,
   "themeCount": 11,
   "candidateCount": 10,
@@ -106,7 +106,7 @@
         "37cf43d81fe7cb8c"
       ],
       "evidenceArticleCount": 13,
-      "confidence": 0.91,
+      "confidence": 0.9,
       "reason": "11 種類のキーワードが 13 件の記事でヒット（例：Claude Code、レビュー、開発）"
     },
     {
@@ -164,7 +164,7 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 7,
-      "confidence": 0.8,
+      "confidence": 0.79,
       "reason": "8 種類のキーワードが 7 件の記事でヒット（例：決済、クレカ、PayPay）"
     },
     {
@@ -211,7 +211,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.51,
+      "confidence": 0.5,
       "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
@@ -256,7 +256,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.51,
+      "confidence": 0.5,
       "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
     },
     {

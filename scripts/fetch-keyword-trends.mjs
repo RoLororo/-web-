@@ -31,9 +31,8 @@
 // ============================================================================
 
 import Parser from 'rss-parser';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
 // 設定
@@ -52,11 +51,8 @@ const NEWS_RSS_QS   = 'hl=ja&gl=JP&ceid=JP:ja';
 /** キーワード長の下限 (短すぎるとノイズが多い) */
 const MIN_KEYWORD_LEN = 2;
 
-// 出力先を絶対パスで解決
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const INPUT     = resolve(REPO_ROOT, 'data', 'demand-candidates.json');
-const OUTPUT    = resolve(REPO_ROOT, 'data', 'keyword-trends.json');
+const INPUT  = PATHS.source.candidates;
+const OUTPUT = PATHS.source.trends;
 
 // ---------------------------------------------------------------------------
 // ユーティリティ
@@ -134,14 +130,12 @@ async function main() {
   console.log(`   入力: ${INPUT}`);
   console.log(`   出力: ${OUTPUT}`);
 
-  // 入力読み込み
-  const raw = await readFile(INPUT, 'utf8').catch(() => null);
-  if (!raw) {
+  const parsed = await storage.readJson(INPUT);
+  if (!parsed) {
     console.error('✗ data/demand-candidates.json が見つかりません。');
     console.error('  先に `npm run themes` を実行してください。');
     process.exit(1);
   }
-  const parsed = JSON.parse(raw);
   const candidates = Array.isArray(parsed.candidates) ? parsed.candidates : [];
   if (candidates.length === 0) {
     console.error('✗ demand-candidates.json にテーマが 1 件もありません。');
@@ -194,8 +188,7 @@ async function main() {
     errors,
   };
 
-  await mkdir(dirname(OUTPUT), { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  await storage.writeJson(OUTPUT, output);
 
   // サマリー
   console.log('');

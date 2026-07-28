@@ -32,9 +32,8 @@
 
 import Parser from 'rss-parser';
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { PATHS } from './lib/paths.mjs';
+import { storage } from './lib/storage.mjs';
 
 // ---------------------------------------------------------------------------
 // 設定 — フィードや上限を変えたければここだけを触る
@@ -54,12 +53,8 @@ const MAX_ARTICLES = 1000;
 /** 1 フィードあたりの取得タイムアウト (ミリ秒) */
 const FEED_TIMEOUT_MS = 15000;
 
-// 出力先を「リポジトリ直下 / data / articles.json」の絶対パスで解決する。
-// スクリプトを別ディレクトリから呼んでも常に同じ場所に書き込めるようにする。
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '..');
-const DATA_DIR  = resolve(REPO_ROOT, 'data');
-const OUTPUT    = resolve(DATA_DIR, 'articles.json');
+// 出力先は PATHS 経由 (env で DATA_ROOT 上書き可)
+const OUTPUT = PATHS.source.articles;
 
 // ---------------------------------------------------------------------------
 // ユーティリティ
@@ -97,15 +92,9 @@ function cleanSummary(str, max = 280) {
  * 壊れていた場合は警告して空から始める (Phase 1 はシンプルさ優先)。
  */
 async function loadExisting() {
-  try {
-    const raw = await readFile(OUTPUT, 'utf8');
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (err) {
-    if (err && err.code === 'ENOENT') return [];
-    console.warn(`⚠  既存 ${OUTPUT} が読めませんでした。空から始めます: ${err.message}`);
-    return [];
-  }
+  const parsed = await storage.readJson(OUTPUT);
+  if (parsed === null) return [];
+  return Array.isArray(parsed) ? parsed : [];
 }
 
 // ---------------------------------------------------------------------------
@@ -189,8 +178,7 @@ async function main() {
     .slice(0, MAX_ARTICLES);
 
   // 書き込み (親ディレクトリが無ければ作る)
-  await mkdir(DATA_DIR, { recursive: true });
-  await writeFile(OUTPUT, JSON.stringify(merged, null, 2) + '\n', 'utf8');
+  await storage.writeJson(OUTPUT, merged);
 
   // サマリー表示
   console.log('\n──────────────  サマリー  ──────────────');
