@@ -185,14 +185,16 @@ async function processTheme(themeId, cfg, windowStart, windowEnd, maxResults) {
 
   // topItems: 最新 5 論文。UI で「実際の論文」として表示する最小メタ。
   // arXiv には engagement 指標が無いため published desc = 最新順で選ぶ。
-  // arxiv:id は https://arxiv.org/abs/… の URL 形式なのでそのまま使える。
+  // arxiv:id は URL 形式だが、API が返すのは http:// (2026-07-30 実測)。
+  // そのまま出すとクリックのたびに 301 → https の余分な往復が発生するため
+  // https に正規化する。
   const topItems = entries
     .slice()
     .sort((a, b) => (b.published || '').localeCompare(a.published || ''))
     .slice(0, 5)
     .map((e) => ({
       title:       (e.title || '').replace(/\s+/g, ' ').trim(),
-      url:         e.id || null,
+      url:         e.id ? e.id.replace(/^http:\/\//, 'https://') : null,
       publishedAt: e.published || null,
       category:    e.primaryCategory || null,
       authorCount: e.authors.length,

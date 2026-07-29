@@ -4065,3 +4065,11 @@ select.select:focus {
   color: var(--text-3);
   text-decoration: none;
 }
+
+/* --- Ideas: 続きを表示 ------------------------------------------------ */
+
+.ideas-more {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}

@@ -127,7 +127,7 @@ export default function DemandDetail() {
               <div className="hero-metric-value">
                 <AnimatedNumber value={demand.score} duration={1100} />
               </div>
-              <div className="hero-metric-hint">4 指標 (ニュース量40% / 直近成長30% / 情報源多様性20% / 鮮度10%) の重み付き合成 (100点満点)</div>
+              <div className="hero-metric-hint">4 指標 (ニュース量40% / 直近成長30% / ニュース媒体の多様性20% / 鮮度10%) の重み付き合成 (100点満点)</div>
             </div>
             <div className="hero-metric">
               <div className="hero-metric-label">相対的な勢い</div>
@@ -207,14 +207,17 @@ export default function DemandDetail() {
                 <span className="block-title-count">4 要素の合計</span>
               </div>
               <p className="score-breakdown-lead">
-                needs = 40×ニュース量 + 30×直近成長 + 20×情報源多様性 + 10×鮮度。各要素は 0〜1 に正規化。
+                needs = 40×ニュース量 + 30×直近成長 + 20×ニュース媒体の多様性 + 10×鮮度。各要素は 0〜1 に正規化。
+                <br />
+                「ニュース媒体の多様性」は観測している 4 媒体（NHK / ITmedia / はてな / Zenn）のうち
+                何媒体が報じたかを表します。ページ下部の情報源（Wikipedia・Qiita 等）とは別の指標です。
               </p>
               {(() => {
                 const sb = demand._scoreBreakdown || {};
                 const rows = [
                   { key: 'newsVolume',      label: 'ニュース量',        val: sb.newsVolume ?? 0,      weight: 40 },
                   { key: 'growth',          label: '直近成長',          val: sb.growth ?? 0,          weight: 30 },
-                  { key: 'sourceDiversity', label: '情報源多様性',      val: sb.sourceDiversity ?? 0, weight: 20 },
+                  { key: 'sourceDiversity', label: 'ニュース媒体の多様性', val: sb.sourceDiversity ?? 0, weight: 20 },
                   { key: 'freshness',       label: '鮮度',              val: sb.freshness ?? 0,       weight: 10 },
                 ];
                 const total = rows.reduce((s, r) => s + r.val * r.weight, 0);

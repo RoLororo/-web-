@@ -35,6 +35,10 @@ const KIND_LABEL = {
 
 const BARRIERS = ['低', '中', '高'];
 
+// 初期表示件数。実測 (2026-07-30, 375px): 80 件を一度に出すとページ高が
+// 13,308px = 16 画面分になり、モバイルでは終わりが見えない。24 件で 4 画面。
+const PAGE_SIZE = 24;
+
 /** demands.json の _insights から、テーマ情報を付けた 1 次元のアイデア配列を作る */
 function flattenIdeas(demands) {
   const out = [];
@@ -86,6 +90,13 @@ export default function Ideas() {
   const [kind, setKind] = useState('all');
   const [theme, setTheme] = useState('');
   const [barrier, setBarrier] = useState('');
+  const [limit, setLimit] = useState(PAGE_SIZE);
+
+  // 絞り込みを変えたら表示件数は初期値に戻す
+  const applyFilter = (setter) => (value) => { setter(value); setLimit(PAGE_SIZE); };
+  const selectKind = applyFilter(setKind);
+  const selectTheme = applyFilter(setTheme);
+  const selectBarrier = applyFilter(setBarrier);
 
   const demands = useMemo(() => getDemands(), []);
   const all = useMemo(() => flattenIdeas(demands), [demands]);
@@ -128,7 +139,7 @@ export default function Ideas() {
             <button
               key={k.key}
               className={`chip-btn ${kind === k.key ? 'active' : ''}`}
-              onClick={() => setKind(k.key)}
+              onClick={() => selectKind(k.key)}
             >
               {k.label} <span className="ideas-chip-count">{counts[k.key]}</span>
             </button>
@@ -139,7 +150,7 @@ export default function Ideas() {
           <span className="chip-label">テーマ:</span>
           <button
             className={`chip-btn small ${theme === '' ? 'active' : ''}`}
-            onClick={() => setTheme('')}
+            onClick={() => selectTheme('')}
           >
             全て
           </button>
@@ -147,7 +158,7 @@ export default function Ideas() {
             <button
               key={d.id}
               className={`chip-btn small ${theme === d.id ? 'active' : ''}`}
-              onClick={() => setTheme(d.id)}
+              onClick={() => selectTheme(d.id)}
             >
               {d.title}
             </button>
@@ -159,7 +170,7 @@ export default function Ideas() {
             <span className="chip-label">参入難度:</span>
             <button
               className={`chip-btn small ${barrier === '' ? 'active' : ''}`}
-              onClick={() => setBarrier('')}
+              onClick={() => selectBarrier('')}
             >
               指定なし
             </button>
@@ -167,7 +178,7 @@ export default function Ideas() {
               <button
                 key={b}
                 className={`chip-btn small ${barrier === b ? 'active' : ''}`}
-                onClick={() => setBarrier(b)}
+                onClick={() => selectBarrier(b)}
               >
                 {b}
               </button>
@@ -176,13 +187,15 @@ export default function Ideas() {
         )}
       </div>
 
-      <div className="ideas-count">{rows.length} 件を表示中</div>
+      <div className="ideas-count">
+        {rows.length} 件中 {Math.min(limit, rows.length)} 件を表示中
+      </div>
 
       {rows.length === 0 ? (
         <div className="empty-hint">条件に一致するアイデアがありません。</div>
       ) : (
         <div className="ideas-grid">
-          {rows.map((r, i) => (
+          {rows.slice(0, limit).map((r, i) => (
             <div key={`${r.themeId}-${r.kind}-${i}`} className="insight-idea-card idea-card-x">
               <div className="idea-card-head">
                 <span className={`idea-kind-badge kind-${r.kind}`}>{KIND_LABEL[r.kind]}</span>
@@ -193,6 +206,14 @@ export default function Ideas() {
               <IdeaBody kind={r.kind} item={r.item} />
             </div>
           ))}
+        </div>
+      )}
+
+      {rows.length > limit && (
+        <div className="ideas-more">
+          <button className="btn" onClick={() => setLimit((n) => n + PAGE_SIZE)}>
+            さらに {Math.min(PAGE_SIZE, rows.length - limit)} 件表示（残り {rows.length - limit} 件）
+          </button>
         </div>
       )}
 
