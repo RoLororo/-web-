@@ -37,6 +37,7 @@ export default function Header() {
             のリンクやブックマークは有効)。 */}
         <nav className={`nav ${open ? 'mobile-open' : ''}`} aria-label="サイトナビゲーション">
           <NavLink to="/" end onClick={() => setOpen(false)}>ホーム</NavLink>
+          <NavLink to="/ideas" onClick={() => setOpen(false)}>アイデア</NavLink>
           <NavLink to="/rankings" onClick={() => setOpen(false)}>ランキング</NavLink>
           <NavLink to="/compare" onClick={() => setOpen(false)}>比較</NavLink>
           <NavLink to="/favorites" onClick={() => setOpen(false)}>お気に入り</NavLink>

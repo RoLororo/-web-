@@ -13,6 +13,7 @@ import Changes from './pages/Changes.jsx';
 import Rankings from './pages/Rankings.jsx';
 import WhatsNew from './pages/WhatsNew.jsx';
 import Compare from './pages/Compare.jsx';
+import Ideas from './pages/Ideas.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/rankings" element={<Rankings />} />
             <Route path="/whats-new" element={<WhatsNew />} />
             <Route path="/compare" element={<Compare />} />
+            <Route path="/ideas" element={<Ideas />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
