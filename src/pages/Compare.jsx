@@ -78,6 +78,8 @@ function extractSourceVolumes(d) {
   if (typeof a === 'number') rows.push({ src: 'appstore', label: 'App Store', value: a, unit: 'app' });
   const gh = d._githubDetail?.metrics?.volume;
   if (typeof gh === 'number') rows.push({ src: 'github', label: 'GitHub', value: gh, unit: 'repo' });
+  const nd = d._ndlDetail?.metrics?.volume;
+  if (typeof nd === 'number') rows.push({ src: 'ndl', label: '国会図書館', value: nd, unit: '書誌' });
   const n = d._matchingArticleCount;
   if (typeof n === 'number') rows.push({ src: 'news', label: 'ニュース', value: n, unit: '記事' });
   return rows;

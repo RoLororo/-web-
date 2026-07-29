@@ -54,7 +54,7 @@ export default function App() {
               <FoxMark size={16} />
               Demand Atlas
             </span>
-            Wikipedia / Qiita / arXiv / App Store JP / GitHub / 主要ニュース RSS の公開データを日次観測。
+            Wikipedia / Qiita / arXiv / App Store JP / GitHub / 国立国会図書館 / 主要ニュース RSS の公開データを日次観測。
           </p>
         </div>
       </footer>

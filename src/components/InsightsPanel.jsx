@@ -67,7 +67,7 @@ function WhyTrending({ data }) {
         </ul>
       )}
       <div className="insight-note">
-        ※ 上記は Wikipedia / Qiita / arXiv / App Store JP / GitHub / 主要ニュース RSS の
+        ※ 上記は Wikipedia / Qiita / arXiv / App Store JP / GitHub / 国立国会図書館 / 主要ニュース RSS の
         観測データから機械的に生成したものです (LLM 未使用)。
       </div>
     </div>

@@ -18,11 +18,12 @@
     "appstore": "node scripts/fetch-appstore.mjs",
     "arxiv": "node scripts/fetch-arxiv.mjs",
     "github": "node scripts/fetch-github.mjs",
+    "ndl": "node scripts/fetch-ndl.mjs",
     "check": "node scripts/check-sources.mjs",
     "demands": "node scripts/build-demands.mjs",
     "insights": "node scripts/generate-insights.mjs",
     "history": "node scripts/append-history.mjs",
-    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run github && npm run check && npm run demands && npm run insights && npm run history && npm run mirror"
+    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run github && npm run ndl && npm run check && npm run demands && npm run insights && npm run history && npm run mirror"
   },
   "dependencies": {
     "react": "^18.3.1",

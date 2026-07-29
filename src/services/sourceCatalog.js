@@ -54,6 +54,13 @@ export const SOURCE_METADATA = {
     description: 'arXiv (プレプリント論文) の投稿数と著者数',
     stability:   'stable',
   },
+  ndl: {
+    displayName: '国立国会図書館',
+    color:       '#e5b567',
+    unit:        '書誌',
+    description: '書籍・雑誌記事の蓄積量。勢いではなく「定着度」を示す (stock 指標)',
+    stability:   'stable',
+  },
   github: {
     displayName: 'GitHub',
     color:       '#7ee787',

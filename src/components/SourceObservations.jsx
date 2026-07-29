@@ -118,14 +118,33 @@ function GithubBlock({ items }) {
   );
 }
 
+function NdlBlock({ items }) {
+  return (
+    <ul className="src-obs-list">
+      {items.map((it, i) => (
+        <ItemRow key={i}>
+          <div className="src-obs-meta">
+            {it.issued && <span className="src-obs-badge">{it.issued}</span>}
+            {it.author && <span className="src-obs-sub">{it.author}</span>}
+            {it.publisher && <span className="src-obs-date">{it.publisher}</span>}
+          </div>
+          {it.url ? <ExternalLink href={it.url}>{it.title}</ExternalLink>
+                  : <span className="src-obs-title no-link">{it.title}</span>}
+        </ItemRow>
+      ))}
+    </ul>
+  );
+}
+
 const SOURCE_RENDERERS = {
   qiita:    { Block: QiitaBlock,    getItems: (d) => d._qiitaDetail?.topItems || [] },
   arxiv:    { Block: ArxivBlock,    getItems: (d) => d._arxivDetail?.topItems || [] },
   appstore: { Block: AppstoreBlock, getItems: (d) => d._appstoreDetail?.topItems || [] },
   github:   { Block: GithubBlock,   getItems: (d) => d._githubDetail?.topItems || [] },
+  ndl:      { Block: NdlBlock,      getItems: (d) => d._ndlDetail?.topItems || [] },
 };
 
-const SOURCE_ORDER = ['qiita', 'github', 'arxiv', 'appstore'];
+const SOURCE_ORDER = ['qiita', 'github', 'arxiv', 'appstore', 'ndl'];
 
 export default function SourceObservations({ demand }) {
   if (!demand) return null;

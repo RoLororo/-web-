@@ -44,6 +44,7 @@ const DATA_APPSTORE  = PATHS.source.appstore;
 const DATA_WIKIPEDIA = PATHS.source.wikipedia;
 const DATA_ARXIV     = PATHS.source.arxiv;
 const DATA_GITHUB    = PATHS.source.github;
+const DATA_NDL       = PATHS.source.ndl;
 const DATA_DEMANDS   = PATHS.output.demands;
 
 const HISTORY_DIR   = PATHS.history.root;
@@ -196,12 +197,13 @@ async function main() {
   console.log(`   today (UTC): ${today}`);
 
   // ソースデータ読み込み
-  const [qiitaData, appstoreData, wikiData, arxivData, githubData, demandsData] = await Promise.all([
+  const [qiitaData, appstoreData, wikiData, arxivData, githubData, ndlData, demandsData] = await Promise.all([
     tryReadJson(DATA_QIITA),
     tryReadJson(DATA_APPSTORE),
     tryReadJson(DATA_WIKIPEDIA),
     tryReadJson(DATA_ARXIV),
     tryReadJson(DATA_GITHUB),
+    tryReadJson(DATA_NDL),
     tryReadJson(DATA_DEMANDS),
   ]);
 
@@ -210,6 +212,7 @@ async function main() {
   const wikiThemes     = (wikiData     && wikiData.themes)     || {};
   const arxivThemes    = (arxivData    && arxivData.themes)    || {};
   const githubThemes   = (githubData   && githubData.themes)   || {};
+  const ndlThemes      = (ndlData      && ndlData.themes)      || {};
 
   // テーマ表示名/カテゴリを demands.json から補完
   const themeMeta = {};
@@ -226,6 +229,7 @@ async function main() {
     ...Object.keys(wikiThemes),
     ...Object.keys(arxivThemes),
     ...Object.keys(githubThemes),
+    ...Object.keys(ndlThemes),
   ]);
 
   console.log(
@@ -233,7 +237,8 @@ async function main() {
     `appstore(${Object.keys(appstoreThemes).length}) ` +
     `wikipedia(${Object.keys(wikiThemes).length}) ` +
     `arxiv(${Object.keys(arxivThemes).length}) ` +
-    `github(${Object.keys(githubThemes).length})`
+    `github(${Object.keys(githubThemes).length}) ` +
+    `ndl(${Object.keys(ndlThemes).length})`
   );
   console.log(`   union テーマ数: ${allThemeIds.size}`);
   console.log('');
@@ -252,11 +257,13 @@ async function main() {
     const w = extractWikipedia(wikiThemes[themeId]);
     const x = extractCommonEnvelopeSource(arxivThemes[themeId]);
     const g = extractCommonEnvelopeSource(githubThemes[themeId]);
+    const n = extractCommonEnvelopeSource(ndlThemes[themeId]);
     if (q) sources.qiita     = q;
     if (a) sources.appstore  = a;
     if (w) sources.wikipedia = w;
     if (x) sources.arxiv     = x;
     if (g) sources.github    = g;
+    if (n) sources.ndl       = n;
     if (Object.keys(sources).length === 0) continue;
 
     const todayRecord = { date: today, generatedAt, sources };

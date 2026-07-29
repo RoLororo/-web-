@@ -43,6 +43,7 @@ const SOURCES = [
   { name: 'appstore',  path: PATHS.source.appstore },
   { name: 'arxiv',     path: PATHS.source.arxiv },
   { name: 'github',    path: PATHS.source.github },
+  { name: 'ndl',       path: PATHS.source.ndl },
 ];
 
 const inCI = Boolean(process.env.GITHUB_ACTIONS);

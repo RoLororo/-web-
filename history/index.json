@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T14:37:16.000Z",
+  "generatedAt": "2026-07-29T14:52:18.728Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -168,6 +168,20 @@
         "topStarSum",
         "topLanguage",
         "createdSince"
+      ],
+      "firstSeenDate": "2026-07-29"
+    },
+    {
+      "id": "ndl",
+      "envelopeVersion": "1.0.0",
+      "metricsKeys": [
+        "volume",
+        "engagement",
+        "contributors",
+        "latestActivityAt"
+      ],
+      "nativeMetricsKeys": [
+        "bibliographyCount"
       ],
       "firstSeenDate": "2026-07-29"
     },

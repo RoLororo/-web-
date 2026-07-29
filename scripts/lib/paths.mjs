@@ -74,6 +74,7 @@ export const PATHS = {
     appstore:   resolve(DATA_ROOT, 'appstore.json'),
     arxiv:      resolve(DATA_ROOT, 'arxiv.json'),
     github:     resolve(DATA_ROOT, 'github.json'),
+    ndl:        resolve(DATA_ROOT, 'ndl.json'),
   },
   // builder が書き込む合成データ (canonical)
   output: {
@@ -105,6 +106,7 @@ export const PATHS = {
     appstoreMapping: resolve(CONFIG_ROOT, 'appstore-mapping.json'),
     arxivMapping:    resolve(CONFIG_ROOT, 'arxiv-mapping.json'),
     githubMapping:   resolve(CONFIG_ROOT, 'github-mapping.json'),
+    ndlMapping:      resolve(CONFIG_ROOT, 'ndl-mapping.json'),
   },
 };
 

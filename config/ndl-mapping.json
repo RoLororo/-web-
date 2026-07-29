@@ -1,0 +1,67 @@
+{
+  "$schema": "ndl-mapping/v1",
+  "mappingVersion": 1,
+  "verifiedAt": "2026-07-29",
+  "description": "国立国会図書館サーチ (NDL Search) の検索語マッピング。書籍・雑誌記事の該当件数を「定着度 / 市場成熟度」の指標として観測する。他 6 情報源が持たない唯一の軸。expectedCount は verifiedAt 時点の実測値。改訂時は mappingVersion をインクリメントし verifiedAt を更新すること。",
+  "topItemsCount": 5,
+  "requestIntervalMs": 700,
+  "role": "stock",
+  "note": "これは勢い (momentum) ではなく定着度の指標である。累積の書誌件数なので日々ほとんど動かないのが正常。したがって静止率 (flat ratio) の計算対象から除外すること。用途は _insights の competition / beginnerFriendliness の裏付け。",
+  "mapping": {
+    "senior-health": {
+      "query": "認知症予防",
+      "expectedCount": 3488,
+      "note": "全テーマ中で最多。他ソースが最も弱いテーマをここで補う"
+    },
+    "ai-coding": {
+      "query": "AI プログラミング",
+      "expectedCount": 2793,
+      "note": "AI を活用したコーディング関連の書籍"
+    },
+    "remote-work": {
+      "query": "リモートワーク",
+      "expectedCount": 1696,
+      "note": "リモート / テレワーク関連"
+    },
+    "payment-troubles": {
+      "query": "キャッシュレス決済",
+      "expectedCount": 1119,
+      "note": "決済インフラ関連"
+    },
+    "infrastructure-outages": {
+      "query": "システム障害",
+      "expectedCount": 792,
+      "note": "障害 / 可用性 / BCP"
+    },
+    "security-breach": {
+      "query": "情報漏洩対策",
+      "expectedCount": 255,
+      "note": "セキュリティ / 漏洩対策"
+    },
+    "ai-hardware": {
+      "query": "GPU 機械学習",
+      "expectedCount": 233,
+      "note": "GPU / 計算基盤"
+    },
+    "ai-regulation": {
+      "query": "AI規制",
+      "expectedCount": 230,
+      "note": "AI 規制 / 倫理 / ガバナンス"
+    },
+    "ai-business-automation": {
+      "query": "業務自動化 AI",
+      "expectedCount": 79,
+      "note": "業務自動化"
+    },
+    "home-server-selfhost": {
+      "query": "自宅サーバー",
+      "expectedCount": 77,
+      "note": "セルフホスト / おうちラボ"
+    },
+    "ai-content-generation": {
+      "query": "画像生成AI",
+      "expectedCount": null,
+      "note": "verifiedAt 時点では未計測 (demands.json から drop されるテーマのため)"
+    }
+  }
+}

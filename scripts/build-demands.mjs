@@ -43,6 +43,7 @@ const QIITA      = PATHS.source.qiita;
 const APPSTORE   = PATHS.source.appstore;
 const ARXIV      = PATHS.source.arxiv;
 const GITHUB     = PATHS.source.github;
+const NDL        = PATHS.source.ndl;
 
 // canonical のみを書き出す。public/data/ ミラーは prebuild hook (scripts/
 // mirror-public.mjs) が生成する。canonical と mirror の二重 git 追跡を
@@ -276,7 +277,7 @@ async function main() {
   console.log('');
 
   // 全入力を storage 経由でロード (fs → 将来 turso/r2 に切替可能)
-  const [articles, candidatesPayload, trends, wikiPayload, qiitaPayload, appstorePayload, arxivPayload, githubPayload] = await Promise.all([
+  const [articles, candidatesPayload, trends, wikiPayload, qiitaPayload, appstorePayload, arxivPayload, githubPayload, ndlPayload] = await Promise.all([
     storage.readJson(ARTICLES),
     storage.readJson(CANDIDATES),
     storage.readJson(TRENDS),
@@ -285,6 +286,7 @@ async function main() {
     storage.readJson(APPSTORE),
     storage.readJson(ARXIV),
     storage.readJson(GITHUB),
+    storage.readJson(NDL),
   ]);
 
   if (!articles) {
@@ -309,6 +311,7 @@ async function main() {
   const appstoreThemes  = (appstorePayload && appstorePayload.themes) || {};
   const arxivThemes     = (arxivPayload    && arxivPayload.themes)    || {};
   const githubThemes    = (githubPayload   && githubPayload.themes)   || {};
+  const ndlThemes       = (ndlPayload      && ndlPayload.themes)      || {};
 
   // 記事を id で lookup できるようにする
   const articleById = new Map(articles.map((a) => [a.id, a]));
@@ -321,6 +324,7 @@ async function main() {
   console.log(`   App Store:    ${Object.keys(appstoreThemes).length} テーマ (実験・スコアに影響なし)`);
   console.log(`   arXiv:        ${Object.keys(arxivThemes).length} テーマ (実験・スコアに影響なし)`);
   console.log(`   GitHub:       ${Object.keys(githubThemes).length} テーマ (実験・スコアに影響なし)`);
+  console.log(`   NDL:          ${Object.keys(ndlThemes).length} テーマ (定着度・スコアに影響なし)`);
   console.log('');
 
   // ── Pass 1: 各テーマの raw growth ratio を集める (相対成長の基準となる) ──
@@ -488,6 +492,13 @@ async function main() {
     // ── arXiv (実験フェーズ・データ観測のみ) ──
     // 同型パターン。fetch-arxiv.mjs が生成した論文投稿量情報を貼るだけ。
     // 11 テーマすべてで検索式が定義されているため通常全テーマに付与される。
+    // ── NDL (定着度・市場成熟度。stock 指標なので勢い系には使わない) ──
+    const ndlDetail = ndlThemes[c.id];
+    if (ndlDetail) {
+      const last = demands[demands.length - 1];
+      last._ndlDetail = ndlDetail;
+    }
+
     // ── GitHub (実験フェーズ・データ観測のみ) ──
     // 他 4 ソースと同型。score / status / momentum には影響させない。
     const githubDetail = githubThemes[c.id];

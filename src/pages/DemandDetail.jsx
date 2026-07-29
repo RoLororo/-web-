@@ -139,10 +139,10 @@ export default function DemandDetail() {
             <div className="hero-metric">
               <div className="hero-metric-label">観測情報源</div>
               <div className="hero-metric-value">
-                <AnimatedNumber value={Object.keys(demand._insights?.beginnerFriendliness || {}).length > 0 ? 6 : demand.sourceCount} duration={900} />
+                <AnimatedNumber value={Object.keys(demand._insights?.beginnerFriendliness || {}).length > 0 ? 7 : demand.sourceCount} duration={900} />
                 <span style={{ fontSize: 15, marginLeft: 4, color: 'var(--text-3)' }}>種</span>
               </div>
-              <div className="hero-metric-hint">Wikipedia PV / Qiita / arXiv / App Store JP / GitHub / 主要ニュース RSS</div>
+              <div className="hero-metric-hint">Wikipedia PV / Qiita / arXiv / App Store JP / GitHub / 国立国会図書館 / 主要ニュース RSS</div>
             </div>
             <div className="hero-metric">
               <div className="hero-metric-label">データ更新</div>
