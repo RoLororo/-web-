@@ -1,0 +1,62 @@
+{
+  "$schema": "github-mapping/v1",
+  "mappingVersion": 1,
+  "verifiedAt": "2026-07-29",
+  "description": "GitHub Search API の検索式マッピング。既存 4 情報源が覆っていない「OSS 実装」カテゴリを観測する。windowDays 以内に作成されたリポジトリ数を volume とし、日次のフロー指標として扱う。expectedMonthlyCount は verifiedAt 時点の実測値。改訂時は mappingVersion をインクリメントし verifiedAt を更新すること。",
+  "windowDays": 30,
+  "topItemsCount": 5,
+  "requestIntervalMs": 2500,
+  "note": "GitHub Actions 上では GITHUB_TOKEN が自動注入されるため認証付き (5,000 req/h)。ローカルでは未認証 (10 req/min) となるため requestIntervalMs で間隔を空けている。senior-health は該当リポジトリがほぼ存在しない (実測 2 件) ため未マッピング。",
+  "mapping": {
+    "ai-business-automation": {
+      "query": "workflow automation AI",
+      "expectedMonthlyCount": 2371,
+      "note": "業務フロー自動化 + AI"
+    },
+    "ai-regulation": {
+      "query": "AI governance",
+      "expectedMonthlyCount": 1817,
+      "note": "AI ガバナンス / 規制対応ツール"
+    },
+    "payment-troubles": {
+      "query": "payment gateway",
+      "expectedMonthlyCount": 1063,
+      "note": "決済基盤 / ゲートウェイ実装"
+    },
+    "ai-coding": {
+      "query": "AI code generation",
+      "expectedMonthlyCount": 706,
+      "note": "コード生成 / コーディング支援"
+    },
+    "security-breach": {
+      "query": "ransomware",
+      "expectedMonthlyCount": 555,
+      "note": "ランサムウェア / 侵害対応"
+    },
+    "ai-hardware": {
+      "query": "GPU inference",
+      "expectedMonthlyCount": 439,
+      "note": "GPU 推論 / アクセラレータ"
+    },
+    "home-server-selfhost": {
+      "query": "selfhosted",
+      "expectedMonthlyCount": 266,
+      "note": "セルフホスト / おうちラボ"
+    },
+    "remote-work": {
+      "query": "remote work",
+      "expectedMonthlyCount": 263,
+      "note": "リモートワーク支援ツール"
+    },
+    "infrastructure-outages": {
+      "query": "incident response SRE",
+      "expectedMonthlyCount": 52,
+      "note": "インシデント対応 / SRE"
+    },
+    "ai-content-generation": {
+      "query": "text to image generation",
+      "expectedMonthlyCount": null,
+      "note": "画像生成 / コンテンツ生成。verifiedAt 時点では未計測 (demands.json から drop されるテーマのため)"
+    }
+  }
+}

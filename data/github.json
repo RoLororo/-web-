@@ -1,0 +1,649 @@
+{
+  "generatedAt": "2026-07-29T14:33:05.772Z",
+  "source": "github",
+  "method": "GitHub Search API (repositories created in window)",
+  "mappingVersion": 1,
+  "verifiedAt": "2026-07-29",
+  "windowDays": 30,
+  "createdSince": "2026-06-29",
+  "authenticated": false,
+  "mappedThemeCount": 10,
+  "successCount": 10,
+  "skippedCount": 0,
+  "errorCount": 0,
+  "totalRequestCount": 10,
+  "themesSkipped": [],
+  "errors": [],
+  "themes": {
+    "ai-business-automation": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 2374,
+        "engagement": 139,
+        "contributors": null,
+        "latestActivityAt": "2026-07-24T07:28:41Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 2374,
+        "topStarSum": 139,
+        "topLanguage": "JavaScript",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "Pinvou/pinvou-agent",
+          "url": "https://github.com/Pinvou/pinvou-agent",
+          "stars": 64,
+          "language": "JavaScript",
+          "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
+          "publishedAt": "2026-07-24T07:28:41Z"
+        },
+        {
+          "title": "V-Songbird/foreman",
+          "url": "https://github.com/V-Songbird/foreman",
+          "stars": 26,
+          "language": "JavaScript",
+          "description": "📋 Prompt-engineering and project-roadmap plugin that crafts professional xml prompts and picks, surveys, and tracks you",
+          "publishedAt": "2026-07-07T08:55:24Z"
+        },
+        {
+          "title": "byerlikaya/claude-starter-kit",
+          "url": "https://github.com/byerlikaya/claude-starter-kit",
+          "stars": 20,
+          "language": "Shell",
+          "description": "Enterprise engineering workflow for Claude Code — not just prompts. AI agents that plan, build, audit, and ship with sec",
+          "publishedAt": "2026-07-02T12:25:26Z"
+        },
+        {
+          "title": "larrymargerum01/AI-Saas-Platform",
+          "url": "https://github.com/larrymargerum01/AI-Saas-Platform",
+          "stars": 16,
+          "language": "TypeScript",
+          "description": "Built an AI SaaS Platform that enables users to access multiple AI-powered tools through a unified dashboard, including ",
+          "publishedAt": "2026-07-10T21:56:50Z"
+        },
+        {
+          "title": "dorakoo/doubao-studio",
+          "url": "https://github.com/dorakoo/doubao-studio",
+          "stars": 13,
+          "language": "TypeScript",
+          "description": "豆包工作室 - AI 内容创作者多账号自动化工作台 | Electron + React + TypeScript | 视频参数校验、可恢复调度、手动视频提取下载与额度预测",
+          "publishedAt": "2026-07-02T17:02:10Z"
+        }
+      ],
+      "errors": []
+    },
+    "ai-regulation": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1817,
+        "engagement": 786,
+        "contributors": null,
+        "latestActivityAt": "2026-07-17T00:34:07Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 1817,
+        "topStarSum": 786,
+        "topLanguage": "Python",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "zjp1997720/zhijian-skills",
+          "url": "https://github.com/zjp1997720/zhijian-skills",
+          "stars": 258,
+          "language": "Python",
+          "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
+          "publishedAt": "2026-07-17T00:34:07Z"
+        },
+        {
+          "title": "eli-labz/Cognitive-Core-Skills",
+          "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
+          "stars": 214,
+          "language": "Python",
+          "description": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verifi",
+          "publishedAt": "2026-07-05T21:25:55Z"
+        },
+        {
+          "title": "agutinbaigo28/financial-agent-api",
+          "url": "https://github.com/agutinbaigo28/financial-agent-api",
+          "stars": 127,
+          "language": "TypeScript",
+          "description": "financial agent api with multi-agent framework for scalable AI systems focusing on financial intelligence, RAG pipelines",
+          "publishedAt": "2026-07-14T07:15:38Z"
+        },
+        {
+          "title": "Nexis-AI/NexBench",
+          "url": "https://github.com/Nexis-AI/NexBench",
+          "stars": 123,
+          "language": "TypeScript",
+          "description": "NEXBENCH measures what an autonomous agent can actually do on-chain — execute transactions, route swaps, bridge funds, m",
+          "publishedAt": "2026-07-11T21:01:10Z"
+        },
+        {
+          "title": "ricmmartins/azure-sre-agent-skills",
+          "url": "https://github.com/ricmmartins/azure-sre-agent-skills",
+          "stars": 64,
+          "language": null,
+          "description": "Custom proactive skills for Azure SRE Agent — governance, cost intelligence, architecture quality, AI workload posture",
+          "publishedAt": "2026-07-22T14:36:11Z"
+        }
+      ],
+      "errors": []
+    },
+    "payment-troubles": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1065,
+        "engagement": 47,
+        "contributors": null,
+        "latestActivityAt": "2026-07-13T02:06:39Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 1065,
+        "topStarSum": 47,
+        "topLanguage": "TypeScript",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "rzkyyds/gobiz-payment-v2",
+          "url": "https://github.com/rzkyyds/gobiz-payment-v2",
+          "stars": 19,
+          "language": "TypeScript",
+          "description": "QRIS payment gateway on Cloudflare Workers (based on kavionn/gobiz-payment)",
+          "publishedAt": "2026-07-13T02:06:39Z"
+        },
+        {
+          "title": "sn0914r/payment-orchestration-engine",
+          "url": "https://github.com/sn0914r/payment-orchestration-engine",
+          "stars": 11,
+          "language": "TypeScript",
+          "description": "A payment orchestration engine that routes transactions across Razorpay and Cashfree, handles gateway failures with auto",
+          "publishedAt": "2026-07-02T17:34:58Z"
+        },
+        {
+          "title": "weizerouter/weizerouter",
+          "url": "https://github.com/weizerouter/weizerouter",
+          "stars": 7,
+          "language": null,
+          "description": "AI API Gateway, Web Platform, Telegram Bot Ordering, and Automated QRIS Payment System.",
+          "publishedAt": "2026-07-04T12:29:34Z"
+        },
+        {
+          "title": "nargestohidloo/responsive-payment-gateway",
+          "url": "https://github.com/nargestohidloo/responsive-payment-gateway",
+          "stars": 6,
+          "language": "CSS",
+          "description": null,
+          "publishedAt": "2026-07-05T21:05:15Z"
+        },
+        {
+          "title": "martian56/epoint-python",
+          "url": "https://github.com/martian56/epoint-python",
+          "stars": 4,
+          "language": "Python",
+          "description": "Python client for the epoint.az payment gateway. Sync and async, all 30 endpoints, fully typed.",
+          "publishedAt": "2026-07-20T16:37:11Z"
+        }
+      ],
+      "errors": []
+    },
+    "ai-coding": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 706,
+        "engagement": 78,
+        "contributors": null,
+        "latestActivityAt": "2026-07-03T06:42:03Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 706,
+        "topStarSum": 78,
+        "topLanguage": "Python",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "anliberant/obsidian-ai-setup",
+          "url": "https://github.com/anliberant/obsidian-ai-setup",
+          "stars": 22,
+          "language": null,
+          "description": "Bootstrap a fully personalized Obsidian vault with AI. Interactive onboarding, document ingestion, and automatic knowled",
+          "publishedAt": "2026-07-03T06:42:03Z"
+        },
+        {
+          "title": "chrisipanaque/qwen-lora-finetune",
+          "url": "https://github.com/chrisipanaque/qwen-lora-finetune",
+          "stars": 21,
+          "language": "Python",
+          "description": "Fine-tune Qwen2.5-Coder for code generation on your own dataset using QLoRA. Train on JSONL instruction-response pairs a",
+          "publishedAt": "2026-07-02T02:44:31Z"
+        },
+        {
+          "title": "darkneuralnetwork/DarkCode",
+          "url": "https://github.com/darkneuralnetwork/DarkCode",
+          "stars": 17,
+          "language": "Go",
+          "description": "Next-Generation AI agent platform for autonomous software engineering with intelligent orchestration, persistent memory,",
+          "publishedAt": "2026-07-12T11:48:27Z"
+        },
+        {
+          "title": "bytefer/geo-seo-codex",
+          "url": "https://github.com/bytefer/geo-seo-codex",
+          "stars": 11,
+          "language": "Python",
+          "description": "  GEO-first SEO toolkit for Codex. Audit websites for AI search visibility across ChatGPT, Perplexity, Gemini, Google AI",
+          "publishedAt": "2026-07-01T06:15:23Z"
+        },
+        {
+          "title": "nikandr-surkov/ai-saas-starter",
+          "url": "https://github.com/nikandr-surkov/ai-saas-starter",
+          "stars": 7,
+          "language": "TypeScript",
+          "description": "AI SaaS boilerplate for Next.js 16 — Better Auth, Stripe subscriptions, credits system, AI image generation. AI-native: ",
+          "publishedAt": "2026-07-18T06:34:02Z"
+        }
+      ],
+      "errors": []
+    },
+    "security-breach": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 556,
+        "engagement": 35,
+        "contributors": null,
+        "latestActivityAt": "2026-07-02T14:53:14Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 556,
+        "topStarSum": 35,
+        "topLanguage": "HTML",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "danieloz147/Browser-Based-Ransomware",
+          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
+          "stars": 13,
+          "language": "HTML",
+          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation r",
+          "publishedAt": "2026-07-02T14:53:14Z"
+        },
+        {
+          "title": "ATcharumathi/Early-Stage-Behavioral-Detection-Prevention-Of-Ransomware-Attacks-On-Devices",
+          "url": "https://github.com/ATcharumathi/Early-Stage-Behavioral-Detection-Prevention-Of-Ransomware-Attacks-On-Devices",
+          "stars": 9,
+          "language": "Python",
+          "description": null,
+          "publishedAt": "2026-07-10T12:57:40Z"
+        },
+        {
+          "title": "ransomwaredecryption/FakeCry",
+          "url": "https://github.com/ransomwaredecryption/FakeCry",
+          "stars": 6,
+          "language": null,
+          "description": "Ransomware",
+          "publishedAt": "2026-07-11T00:50:54Z"
+        },
+        {
+          "title": "evilstdio/ransomware",
+          "url": "https://github.com/evilstdio/ransomware",
+          "stars": 4,
+          "language": "Python",
+          "description": "Open Source Ransomware made in Python (no file encryption)",
+          "publishedAt": "2026-07-21T22:24:48Z"
+        },
+        {
+          "title": "ransomwaredecryption/ransomwaredecryption",
+          "url": "https://github.com/ransomwaredecryption/ransomwaredecryption",
+          "stars": 3,
+          "language": null,
+          "description": null,
+          "publishedAt": "2026-07-19T15:47:29Z"
+        }
+      ],
+      "errors": []
+    },
+    "ai-hardware": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 439,
+        "engagement": 1139,
+        "contributors": null,
+        "latestActivityAt": "2026-07-02T14:43:11Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 439,
+        "topStarSum": 1139,
+        "topLanguage": "Python",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "jmerelnyc/Talos",
+          "url": "https://github.com/jmerelnyc/Talos",
+          "stars": 890,
+          "language": "Python",
+          "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocke",
+          "publishedAt": "2026-07-02T14:43:11Z"
+        },
+        {
+          "title": "nopnoping/micro-vllm",
+          "url": "https://github.com/nopnoping/micro-vllm",
+          "stars": 104,
+          "language": "Python",
+          "description": "A small, educational vLLM implementation for exploring LLM inference, scheduling, KV-cache management, and GPU execution",
+          "publishedAt": "2026-07-26T11:08:51Z"
+        },
+        {
+          "title": "giannisanni/pulsar",
+          "url": "https://github.com/giannisanni/pulsar",
+          "stars": 68,
+          "language": "Rust",
+          "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
+          "publishedAt": "2026-07-13T04:08:14Z"
+        },
+        {
+          "title": "arizqi/cpubrrr",
+          "url": "https://github.com/arizqi/cpubrrr",
+          "stars": 50,
+          "language": "Rust",
+          "description": "Frontier-class LLM inference on a laptop CPU — gpt-oss:20b at ~110 tok/s on Apple M4 Max, 7.5x llama.cpp, no GPU. From-s",
+          "publishedAt": "2026-07-04T17:49:51Z"
+        },
+        {
+          "title": "tinyBigGAMES/Gemma4.pas",
+          "url": "https://github.com/tinyBigGAMES/Gemma4.pas",
+          "stars": 27,
+          "language": "Python",
+          "description": "Gemma4.pas is a high-performance AI inference engine developed entirely in Delphi to run Google’s Gemma 4 model natively",
+          "publishedAt": "2026-07-06T11:25:56Z"
+        }
+      ],
+      "errors": []
+    },
+    "home-server-selfhost": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 266,
+        "engagement": 203,
+        "contributors": null,
+        "latestActivityAt": "2026-06-30T19:55:53Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 266,
+        "topStarSum": 203,
+        "topLanguage": "Go",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "turhobr/selfhost.directory",
+          "url": "https://github.com/turhobr/selfhost.directory",
+          "stars": 118,
+          "language": null,
+          "description": "A searchable directory of 2,700+ self-hosted, open-source apps — with setup guides, alternatives & live version tracking",
+          "publishedAt": "2026-06-30T19:55:53Z"
+        },
+        {
+          "title": "MorganKryze/cairn",
+          "url": "https://github.com/MorganKryze/cairn",
+          "stars": 33,
+          "language": "Go",
+          "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
+          "publishedAt": "2026-07-23T10:41:55Z"
+        },
+        {
+          "title": "Nerdy-Technician/JellyGlance",
+          "url": "https://github.com/Nerdy-Technician/JellyGlance",
+          "stars": 19,
+          "language": "JavaScript",
+          "description": "A modern Jellyfin dashboard for live sessions, user stats, recently added media, libraries, downloads, calendars, webhoo",
+          "publishedAt": "2026-07-17T22:32:40Z"
+        },
+        {
+          "title": "Nonetss/playbook-runner",
+          "url": "https://github.com/Nonetss/playbook-runner",
+          "stars": 17,
+          "language": "TypeScript",
+          "description": "Self-hosted web UI to run Ansible playbooks against your inventory, without the complexity of AWX/Tower.",
+          "publishedAt": "2026-06-30T17:37:18Z"
+        },
+        {
+          "title": "deskhq/the-desk",
+          "url": "https://github.com/deskhq/the-desk",
+          "stars": 16,
+          "language": "PHP",
+          "description": "Calm, fast, self-hosted team chat you run yourself — channels, threads, reminders, scheduled messages. One Docker compos",
+          "publishedAt": "2026-07-08T00:14:05Z"
+        }
+      ],
+      "errors": []
+    },
+    "remote-work": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 263,
+        "engagement": 43,
+        "contributors": null,
+        "latestActivityAt": "2026-07-09T18:43:43Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 263,
+        "topStarSum": 43,
+        "topLanguage": "Lua",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "Arcshuanvil3/Windscribe-VPN-Secure-Tunnel-Browser-Pack",
+          "url": "https://github.com/Arcshuanvil3/Windscribe-VPN-Secure-Tunnel-Browser-Pack",
+          "stars": 21,
+          "language": null,
+          "description": "Windscribe VPN Secure Tunnel Browser Pack — VPN client, Windows edition with practical setup tips. Secure tunnel for bro",
+          "publishedAt": "2026-07-09T18:43:43Z"
+        },
+        {
+          "title": "GooseRooster/osc-colors.nvim",
+          "url": "https://github.com/GooseRooster/osc-colors.nvim",
+          "stars": 11,
+          "language": "Lua",
+          "description": "A custom fork of tinted-nvim designed to read a 16 color palette directly from terminal OSC without relying on tinty. De",
+          "publishedAt": "2026-07-24T15:16:20Z"
+        },
+        {
+          "title": "lucasrossrtkp9730/ammyy-admin-v2026-remote-desktop",
+          "url": "https://github.com/lucasrossrtkp9730/ammyy-admin-v2026-remote-desktop",
+          "stars": 6,
+          "language": "HTML",
+          "description": "Windows remote desktop and access utility for fast connections, file transfer, and unattended sessions, presented as Amm",
+          "publishedAt": "2026-07-18T07:47:22Z"
+        },
+        {
+          "title": "ryan-scheinberg/remote-workstreams",
+          "url": "https://github.com/ryan-scheinberg/remote-workstreams",
+          "stars": 3,
+          "language": "Python",
+          "description": "Voice driven secure workstream management for Claude Code and Codex",
+          "publishedAt": "2026-07-05T15:42:01Z"
+        },
+        {
+          "title": "ditwrd/herdr-remote-worktrunk",
+          "url": "https://github.com/ditwrd/herdr-remote-worktrunk",
+          "stars": 2,
+          "language": "Shell",
+          "description": "Herdr remote worktrunk workspace",
+          "publishedAt": "2026-07-10T09:21:38Z"
+        }
+      ],
+      "errors": []
+    },
+    "infrastructure-outages": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 52,
+        "engagement": 18,
+        "contributors": null,
+        "latestActivityAt": "2026-07-05T18:42:58Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 52,
+        "topStarSum": 18,
+        "topLanguage": "HCL",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "Jamonygr/sre-agent",
+          "url": "https://github.com/Jamonygr/sre-agent",
+          "stars": 13,
+          "language": "HCL",
+          "description": "Terraform Azure SRE lab for practicing cloud operations with Windows incident targets, AKS, App Service, Container Apps,",
+          "publishedAt": "2026-07-05T18:42:58Z"
+        },
+        {
+          "title": "SujalXplores/Agent-K",
+          "url": "https://github.com/SujalXplores/Agent-K",
+          "stars": 2,
+          "language": "Python",
+          "description": "Code-enforced incident-response agent that investigates SigNoz alerts, publishes evidence-backed root-cause claims, and ",
+          "publishedAt": "2026-07-20T03:30:02Z"
+        },
+        {
+          "title": "RizwanSid7/azure-sre-agent-app-incident-response-lab",
+          "url": "https://github.com/RizwanSid7/azure-sre-agent-app-incident-response-lab",
+          "stars": 1,
+          "language": "Bicep",
+          "description": null,
+          "publishedAt": "2026-07-21T15:54:34Z"
+        },
+        {
+          "title": "gpunnoli-2026/argus-aiops",
+          "url": "https://github.com/gpunnoli-2026/argus-aiops",
+          "stars": 1,
+          "language": "Python",
+          "description": "AIOps incident prediction & automated response platform",
+          "publishedAt": "2026-07-13T06:19:37Z"
+        },
+        {
+          "title": "schnmnty1/OpsAcademy",
+          "url": "https://github.com/schnmnty1/OpsAcademy",
+          "stars": 1,
+          "language": "TypeScript",
+          "description": "AI-Powered Major Incident Management Training Platform for IT Operations, SRE, and Incident Response Teams.",
+          "publishedAt": "2026-07-11T11:30:54Z"
+        }
+      ],
+      "errors": []
+    },
+    "ai-content-generation": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 180,
+        "engagement": 64,
+        "contributors": null,
+        "latestActivityAt": "2026-07-07T08:14:45Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 180,
+        "topStarSum": 64,
+        "topLanguage": "Python",
+        "createdSince": "2026-06-29"
+      },
+      "topItems": [
+        {
+          "title": "xmz111/ReChannel",
+          "url": "https://github.com/xmz111/ReChannel",
+          "stars": 35,
+          "language": "Python",
+          "description": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models (ReChannel)",
+          "publishedAt": "2026-07-07T08:14:45Z"
+        },
+        {
+          "title": "yanokusnir-ai/one-node-gemma-4",
+          "url": "https://github.com/yanokusnir-ai/one-node-gemma-4",
+          "stars": 19,
+          "language": "JavaScript",
+          "description": "ComfyUI custom node: Gemma 4 multimodal text generation (image/video/audio to text) in a single self-contained UI widget",
+          "publishedAt": "2026-07-19T16:32:18Z"
+        },
+        {
+          "title": "Anil-matcha/veo3.1-comfyui",
+          "url": "https://github.com/Anil-matcha/veo3.1-comfyui",
+          "stars": 4,
+          "language": "Python",
+          "description": "ComfyUI custom nodes for Veo 3.1 video generation — text-to-video, image-to-video, reference-to-video, extend, and 4K up",
+          "publishedAt": "2026-07-14T13:17:56Z"
+        },
+        {
+          "title": "RISys-Lab/LingT2I",
+          "url": "https://github.com/RISys-Lab/LingT2I",
+          "stars": 3,
+          "language": "Python",
+          "description": "[ACM MM 2026] On the Limitations of Cross-Lingual Consistency in Multilingual Text-to-Image Generation",
+          "publishedAt": "2026-07-11T06:16:20Z"
+        },
+        {
+          "title": "Agents365-ai/videogenCN",
+          "url": "https://github.com/Agents365-ai/videogenCN",
+          "stars": 3,
+          "language": "Python",
+          "description": "Claude Code skill: Chinese video model generation — Wan, PixVerse, Kling, Vidu, HappyHorse, Jimeng, MiniMax, Hunyuan. Te",
+          "publishedAt": "2026-07-05T12:56:10Z"
+        }
+      ],
+      "errors": []
+    }
+  }
+}

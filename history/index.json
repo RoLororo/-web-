@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T00:19:21.602Z",
+  "generatedAt": "2026-07-29T14:37:16.000Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -153,6 +153,23 @@
         "latestPaperPublished"
       ],
       "firstSeenDate": "2026-07-22"
+    },
+    {
+      "id": "github",
+      "envelopeVersion": "1.0.0",
+      "metricsKeys": [
+        "volume",
+        "engagement",
+        "contributors",
+        "latestActivityAt"
+      ],
+      "nativeMetricsKeys": [
+        "newRepoCount",
+        "topStarSum",
+        "topLanguage",
+        "createdSince"
+      ],
+      "firstSeenDate": "2026-07-29"
     },
     {
       "id": "qiita",

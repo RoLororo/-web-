@@ -57,6 +57,10 @@ jobs:
         run: npm ci
 
       - name: Run full data pipeline (news -> themes -> trends -> demands)
+        # GITHUB_TOKEN は Actions が自動発行する。fetch-github.mjs がこれを使い
+        # Search API を認証付き (5,000 req/h) で叩く。新しい secret は不要。
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run all
 
       - name: Detect data changes

@@ -54,6 +54,13 @@ export const SOURCE_METADATA = {
     description: 'arXiv (プレプリント論文) の投稿数と著者数',
     stability:   'stable',
   },
+  github: {
+    displayName: 'GitHub',
+    color:       '#7ee787',
+    unit:        'repo',
+    description: 'GitHub で直近 30 日に新規作成されたリポジトリ数',
+    stability:   'stable',
+  },
 };
 
 /** 未登録 source の共通フォールバック値 */

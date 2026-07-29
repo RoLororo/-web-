@@ -76,6 +76,8 @@ function extractSourceVolumes(d) {
   if (typeof x === 'number') rows.push({ src: 'arxiv', label: 'arXiv', value: x, unit: '論文' });
   const a = d._appstoreDetail?.nativeMetrics?.matchedAppCount;
   if (typeof a === 'number') rows.push({ src: 'appstore', label: 'App Store', value: a, unit: 'app' });
+  const gh = d._githubDetail?.metrics?.volume;
+  if (typeof gh === 'number') rows.push({ src: 'github', label: 'GitHub', value: gh, unit: 'repo' });
   const n = d._matchingArticleCount;
   if (typeof n === 'number') rows.push({ src: 'news', label: 'ニュース', value: n, unit: '記事' });
   return rows;

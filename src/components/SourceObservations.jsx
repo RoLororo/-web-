@@ -101,13 +101,31 @@ function AppstoreBlock({ items }) {
   );
 }
 
+function GithubBlock({ items }) {
+  return (
+    <ul className="src-obs-list">
+      {items.map((it, i) => (
+        <ItemRow key={i}>
+          <div className="src-obs-meta">
+            <span className="src-obs-badge">★ {it.stars}</span>
+            {it.language && <span className="src-obs-sub">{it.language}</span>}
+            <span className="src-obs-date">{fmtDate(it.publishedAt)}</span>
+          </div>
+          <ExternalLink href={it.url}>{it.title}</ExternalLink>
+        </ItemRow>
+      ))}
+    </ul>
+  );
+}
+
 const SOURCE_RENDERERS = {
   qiita:    { Block: QiitaBlock,    getItems: (d) => d._qiitaDetail?.topItems || [] },
   arxiv:    { Block: ArxivBlock,    getItems: (d) => d._arxivDetail?.topItems || [] },
   appstore: { Block: AppstoreBlock, getItems: (d) => d._appstoreDetail?.topItems || [] },
+  github:   { Block: GithubBlock,   getItems: (d) => d._githubDetail?.topItems || [] },
 };
 
-const SOURCE_ORDER = ['qiita', 'arxiv', 'appstore'];
+const SOURCE_ORDER = ['qiita', 'github', 'arxiv', 'appstore'];
 
 export default function SourceObservations({ demand }) {
   if (!demand) return null;

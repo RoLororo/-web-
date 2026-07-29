@@ -73,6 +73,7 @@ export const PATHS = {
     qiita:      resolve(DATA_ROOT, 'qiita.json'),
     appstore:   resolve(DATA_ROOT, 'appstore.json'),
     arxiv:      resolve(DATA_ROOT, 'arxiv.json'),
+    github:     resolve(DATA_ROOT, 'github.json'),
   },
   // builder が書き込む合成データ (canonical)
   output: {
@@ -103,6 +104,7 @@ export const PATHS = {
     qiitaMapping:    resolve(CONFIG_ROOT, 'qiita-mapping.json'),
     appstoreMapping: resolve(CONFIG_ROOT, 'appstore-mapping.json'),
     arxivMapping:    resolve(CONFIG_ROOT, 'arxiv-mapping.json'),
+    githubMapping:   resolve(CONFIG_ROOT, 'github-mapping.json'),
   },
 };
 

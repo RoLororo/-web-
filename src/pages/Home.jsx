@@ -49,9 +49,9 @@ export default function Home() {
 
   // Hero 統計: 「追跡中/上昇中/急上昇」は build-demands の score saturation で
   // 全テーマ同数 (10/10/10) になり判別力ゼロだったため、意味のある実測値に置換。
-  // 情報源 5 は Wikipedia/Qiita/arXiv/App Store JP/主要ニュース RSS。
+  // 情報源 6 は Wikipedia/Qiita/arXiv/App Store JP/GitHub/主要ニュース RSS。
   const totalArticles = getTotalArticles();
-  const SOURCE_COUNT = 5;
+  const SOURCE_COUNT = 6;
 
   return (
     <div>
