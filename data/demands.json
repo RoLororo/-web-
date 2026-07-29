@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-28T15:21:01.926Z",
+  "generatedAt": "2026-07-29T00:19:21.347Z",
   "method": "news-only signals (Phase 4-a)",
   "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness",
   "disclaimer": "ニュース信号のみによる暫定スコア。SNS・検索指数・求人などの他データ源は未統合。",
-  "totalArticles": 537,
+  "totalArticles": 615,
   "totalKeywordsQueried": 57,
   "demandCount": 10,
   "demands": [
@@ -11,7 +11,7 @@
       "id": "infrastructure-outages",
       "title": "システム障害・可用性への関心",
       "category": "ビジネス",
-      "score": 94,
+      "score": 97,
       "change": 200,
       "status": "急上昇",
       "summary": "大規模障害の頻発を背景にした、可用性・監視・復旧設計への需要",
@@ -23,13 +23,22 @@
         "中小事業者のシステム管理者"
       ],
       "problems": [
+        "携帯各社、熊本の一部で通信障害　震度7の地震で　他社回線につながる「JAPANローミング」開始【追記】",
         "Google、アカウントログイン方法に「自撮り動画」を追加 ロックアウト時の復旧を容易に",
         "【速報】ニチレイ障害、ハッカー集団が犯行声明",
         "AWSのBilling障害の対応への反省点",
-        "「止めないシステム」は、結局なにを守る設計なのか？",
-        "【AWS障害に学ぶ】CloudFront VPC Origins 障害 ―「よくある構成」への影響と、watch・備…"
+        "「止めないシステム」は、結局なにを守る設計なのか？"
       ],
       "evidence": [
+        {
+          "type": "ニュース",
+          "title": "携帯各社、熊本の一部で通信障害　震度7の地震で　他社回線につながる「JAPANローミング」開始【追記】",
+          "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000247/",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-28T14:37:45.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
         {
           "type": "ニュース",
           "title": "Google、アカウントログイン方法に「自撮り動画」を追加 ロックアウト時の復旧を容易に",
@@ -92,15 +101,6 @@
           "publishedAt": "2026-07-18T05:50:00.000Z",
           "confidence": 0.7,
           "checkedAt": "2026-07-18"
-        },
-        {
-          "type": "ニュース",
-          "title": "「1.5兆ドルの請求が来た」？　AWSでまたトラブル、誤ったコスト見積が表示される状態に",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/17/news112.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-17T10:29:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-17"
         }
       ],
       "businessOpportunities": [
@@ -122,19 +122,18 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.924Z",
+      "updatedAt": "2026-07-29T00:19:21.345Z",
       "trendData": {
         "7d": [
           1,
+          0,
+          0,
+          0,
+          0,
           1,
-          0,
-          0,
-          0,
-          0,
           0
         ],
         "30d": [
-          0,
           0,
           0,
           0,
@@ -163,6 +162,7 @@
           0,
           0,
           0,
+          1,
           0
         ],
         "90d": [
@@ -242,7 +242,6 @@
           0,
           0,
           0,
-          0,
           5,
           2,
           2,
@@ -255,34 +254,35 @@
           0,
           0,
           0,
+          1,
           0
         ]
       },
-      "_dataQuality": 0.87,
+      "_dataQuality": 0.9,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
-        "newsVolume": 0.93,
+        "newsVolume": 1,
         "growth": 1,
         "sourceDiversity": 1,
-        "freshness": 0.68,
+        "freshness": 0.69,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 334,
-        "prior5Days": 184,
+        "recent2Days": 386,
+        "prior5Days": 148,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=334件 / 前5日=184件"
+        "note": "直近2日=386件 / 前5日=148件"
       },
       "_relatedKeywords": [
         "障害",
-        "復旧",
         "影響",
+        "復旧",
         "システム",
         "サービス",
         "AWS"
       ],
-      "_matchingArticleCount": 14,
-      "_keywordTrendTotal": 604,
+      "_matchingArticleCount": 15,
+      "_keywordTrendTotal": 608,
       "_wikipediaDetail": {
         "articles": [
           "Amazon_Web_Services"
@@ -291,12 +291,11 @@
           "Amazon_Web_Services"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 4777,
-        "totalPageviews7d": 881,
-        "totalPageviewsPrior7d": 1766,
-        "growthPercent": -50,
+        "totalPageviews30d": 4882,
+        "totalPageviews7d": 909,
+        "totalPageviewsPrior7d": 1769,
+        "growthPercent": -49,
         "byDate": {
-          "2026-06-28": 88,
           "2026-06-29": 180,
           "2026-06-30": 154,
           "2026-07-01": 141,
@@ -324,28 +323,29 @@
           "2026-07-23": 149,
           "2026-07-24": 162,
           "2026-07-25": 89,
-          "2026-07-26": 111
+          "2026-07-26": 111,
+          "2026-07-27": 193
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
           "volume": 31,
-          "engagement": 58,
+          "engagement": 57,
           "contributors": 23,
           "latestActivityAt": "2026-07-28T08:49:34+09:00"
         },
         "nativeMetrics": {
           "articleCount": 31,
-          "lgtmSum": 58,
+          "lgtmSum": 57,
           "uniqueAuthors": 23,
           "latestPublishedAt": "2026-07-28T08:49:34+09:00"
         },
@@ -413,34 +413,58 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
-          "volume": 54,
+          "volume": 56,
           "engagement": null,
-          "contributors": 231,
-          "latestActivityAt": "2026-07-24T11:25:59Z"
+          "contributors": 238,
+          "latestActivityAt": "2026-07-25T09:32:55Z"
         },
         "nativeMetrics": {
-          "paperCount": 54,
-          "uniqueAuthors": 231,
+          "paperCount": 56,
+          "uniqueAuthors": 238,
           "avgAuthorsPerPaper": 4.3,
           "primaryCategoryTop": "cs.DC",
           "isAuthorsSampled": false,
-          "sampleSize": 54,
-          "latestPaperPublished": "2026-07-24T11:25:59Z"
+          "sampleSize": 56,
+          "latestPaperPublished": "2026-07-25T09:32:55Z"
         },
         "meta": {
-          "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
         },
         "topItems": [
+          {
+            "title": "A scalable online machine learning approach for Stock Recommendation",
+            "url": "http://arxiv.org/abs/2607.23120v1",
+            "publishedAt": "2026-07-25T09:32:55Z",
+            "category": "cs.CE",
+            "authorCount": 1,
+            "firstAuthor": "Harsh Nagarkar"
+          },
+          {
+            "title": "A Resource Estimation Model for the Hardware-Software Co-Design of Distributed Quantum Architectures",
+            "url": "http://arxiv.org/abs/2607.22998v1",
+            "publishedAt": "2026-07-25T02:26:41Z",
+            "category": "quant-ph",
+            "authorCount": 6,
+            "firstAuthor": "Raymond P. H. Wu"
+          },
+          {
+            "title": "Optimizing Transformer Neural Network for Real-Time Outlier Detection on FPGAs",
+            "url": "http://arxiv.org/abs/2607.22786v1",
+            "publishedAt": "2026-07-24T12:09:19Z",
+            "category": "cs.LG",
+            "authorCount": 2,
+            "firstAuthor": "Ilia Sobakinskikh"
+          },
           {
             "title": "Duet: Co-Optimizing P2P Message Propagation and Rotating-Leader Consensus",
             "url": "http://arxiv.org/abs/2607.22209v1",
@@ -456,36 +480,12 @@
             "category": "cs.LG",
             "authorCount": 2,
             "firstAuthor": "Hariharan Ramesh"
-          },
-          {
-            "title": "Multimmit: Extending Blocks for Faster Finality",
-            "url": "http://arxiv.org/abs/2607.21021v1",
-            "publishedAt": "2026-07-23T08:05:29Z",
-            "category": "cs.DC",
-            "authorCount": 2,
-            "firstAuthor": "Andrew Lewis-Pye"
-          },
-          {
-            "title": "SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework",
-            "url": "http://arxiv.org/abs/2607.19524v1",
-            "publishedAt": "2026-07-21T19:12:48Z",
-            "category": "cs.LG",
-            "authorCount": 11,
-            "firstAuthor": "Akarsh K Nair"
-          },
-          {
-            "title": "BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators",
-            "url": "http://arxiv.org/abs/2607.19438v1",
-            "publishedAt": "2026-07-21T06:42:18Z",
-            "category": "cs.AR",
-            "authorCount": 3,
-            "firstAuthor": "Fabian Waschkowski"
           }
         ]
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.444Z",
+        "generatedAt": "2026-07-29T00:19:21.480Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -498,30 +498,30 @@
         },
         "verdict": {
           "label": "拡大局面",
-          "rationale": "需要スコア 94/100 と勢い 100/100 が揃い、ニュース報道 14 件 で一般認知も拡大中。参入コストが上がる前の窓。"
+          "rationale": "需要スコア 97/100 と勢い 100/100 が揃い、ニュース報道 15 件 で一般認知も拡大中。参入コストが上がる前の窓。"
         },
         "whyTrending": {
-          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -50% (計 4,777 PV)。加えて Qiita に直近30日で 31 記事 (LGTM 合計 58)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 54 本の論文投稿 (主分野 cs.DC)。",
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -49% (計 4,882 PV)。加えて Qiita に直近30日で 31 記事 (LGTM 合計 57)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 56 本の論文投稿 (主分野 cs.DC)。",
           "signals": [
             {
               "icon": "📚",
               "type": "wikipedia",
-              "text": "Wikipedia の閲覧が直近 30 日で -50% (計 4,777 PV) — 一般的な関心が落ち着いている兆候"
+              "text": "Wikipedia の閲覧が直近 30 日で -49% (計 4,882 PV) — 一般的な関心が落ち着いている兆候"
             },
             {
               "icon": "💬",
               "type": "qiita",
-              "text": "Qiita に直近30日で 31 記事 (LGTM 合計 58)、技術者コミュニティで実装ノウハウが活発に共有中"
+              "text": "Qiita に直近30日で 31 記事 (LGTM 合計 57)、技術者コミュニティで実装ノウハウが活発に共有中"
             },
             {
               "icon": "🔬",
               "type": "arxiv",
-              "text": "arXiv に直近30日で 54 本の論文投稿 (主分野 cs.DC) — 研究者コミュニティが継続的に取り組み中"
+              "text": "arXiv に直近30日で 56 本の論文投稿 (主分野 cs.DC) — 研究者コミュニティが継続的に取り組み中"
             },
             {
               "icon": "📰",
               "type": "news",
-              "text": "ニュース記事 14 件が観測、報道による社会的関心の獲得段階"
+              "text": "ニュース記事 15 件が観測、報道による社会的関心の獲得段階"
             },
             {
               "icon": "🔑",
@@ -533,7 +533,7 @@
         "momentum": {
           "label": "加速",
           "score": 100,
-          "reason": "直近2日=334件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+          "reason": "直近2日=386件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
         },
         "beginnerFriendliness": {
           "score": 65,
@@ -541,7 +541,7 @@
           "signals": [
             "既製アプリがない → 空白市場",
             "Qiita に 31 記事、ノウハウ収集可",
-            "ニュース 14 件、一般認知あり"
+            "ニュース 15 件、一般認知あり"
           ]
         },
         "competition": {
@@ -556,11 +556,11 @@
           "中小事業者のシステム管理者"
         ],
         "problems": [
+          "携帯各社、熊本の一部で通信障害　震度7の地震で　他社回線につながる「JAPANローミング」開始【追記】",
           "Google、アカウントログイン方法に「自撮り動画」を追加 ロックアウト時の復旧を容易に",
           "【速報】ニチレイ障害、ハッカー集団が犯行声明",
           "AWSのBilling障害の対応への反省点",
-          "「止めないシステム」は、結局なにを守る設計なのか？",
-          "【AWS障害に学ぶ】CloudFront VPC Origins 障害 ―「よくある構成」への影響と、watch・備…"
+          "「止めないシステム」は、結局なにを守る設計なのか？"
         ],
         "monetization": [
           {
@@ -678,9 +678,28 @@
         "AIを自分の副業に組み込みたい個人"
       ],
       "problems": [
+        "AI新世紀：皆がコード書ける時代…プログラミング学ぶ意味は　開発者の見解 | 毎日新聞",
         "スマホでつくるセカンドブレイン（Android・Obsidian・Termux・Claude・ChatGPTによる知…"
       ],
       "evidence": [
+        {
+          "type": "ニュース",
+          "title": "AI新世紀：皆がコード書ける時代…プログラミング学ぶ意味は　開発者の見解 | 毎日新聞",
+          "url": "https://mainichi.jp/articles/20260728/k00/00m/040/190000c",
+          "source": "はてな",
+          "publishedAt": "2026-07-28T22:19:31.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
+        {
+          "type": "ニュース",
+          "title": "Sakana AI、「Fable 5」越えを達成した「Fugu-Ultra」v1.1を発表／「Claude Code」互換エンドポイントも実装",
+          "url": "https://forest.watch.impress.co.jp/docs/news/2128581.html",
+          "source": "はてな",
+          "publishedAt": "2026-07-28T09:16:14.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
         {
           "type": "ニュース",
           "title": "NVIDIAやMicrosoftなど30社超、オープンAIの防御ツール共同開発の「Open Secure AI Alliance」設立",
@@ -734,24 +753,6 @@
           "publishedAt": "2026-07-26T16:36:23.000Z",
           "confidence": 0.7,
           "checkedAt": "2026-07-26"
-        },
-        {
-          "type": "ニュース",
-          "title": "Anthropic、「Claude Opus 5」公開　Fable 5に迫る性能を半額で――サイバー安全策は緩和、拒否時は自動フォールバックも",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/25/news016.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-24T22:28:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-24"
-        },
-        {
-          "type": "ニュース",
-          "title": "ChatGPTとClaude、そろって音声機能強化　Codexでエージェントに“声だけで指示”も可能に",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/24/news078.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-24T04:59:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-24"
         }
       ],
       "businessOpportunities": [
@@ -773,15 +774,15 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.923Z",
+      "updatedAt": "2026-07-29T00:19:21.343Z",
       "trendData": {
         "7d": [
-          1,
           1,
           3,
           0,
           1,
           5,
+          2,
           0
         ],
         "30d": [
@@ -805,7 +806,6 @@
           0,
           0,
           2,
-          2,
           3,
           2,
           1,
@@ -814,6 +814,7 @@
           0,
           1,
           5,
+          2,
           0
         ],
         "90d": [
@@ -897,7 +898,6 @@
           0,
           0,
           2,
-          2,
           3,
           2,
           1,
@@ -906,6 +906,7 @@
           0,
           1,
           5,
+          2,
           0
         ]
       },
@@ -915,25 +916,25 @@
         "newsVolume": 1,
         "growth": 1,
         "sourceDiversity": 0.75,
-        "freshness": 0.82,
+        "freshness": 0.84,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 379,
-        "prior5Days": 161,
+        "recent2Days": 363,
+        "prior5Days": 182,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=379件 / 前5日=161件"
+        "note": "直近2日=363件 / 前5日=182件"
       },
       "_relatedKeywords": [
         "Claude",
         "活用",
         " AI",
+        "仕事",
         "生成AI",
-        "ChatGPT",
-        "仕事"
+        "ChatGPT"
       ],
       "_matchingArticleCount": 20,
-      "_keywordTrendTotal": 606,
+      "_keywordTrendTotal": 607,
       "_wikipediaDetail": {
         "articles": [
           "生成的人工知能",
@@ -944,12 +945,11 @@
           "ChatGPT"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 34345,
-        "totalPageviews7d": 7423,
-        "totalPageviewsPrior7d": 7843,
+        "totalPageviews30d": 34644,
+        "totalPageviews7d": 7332,
+        "totalPageviewsPrior7d": 7700,
         "growthPercent": -5,
         "byDate": {
-          "2026-06-28": 974,
           "2026-06-29": 1249,
           "2026-06-30": 1132,
           "2026-07-01": 1178,
@@ -977,30 +977,31 @@
           "2026-07-23": 1317,
           "2026-07-24": 1299,
           "2026-07-25": 894,
-          "2026-07-26": 1078
+          "2026-07-26": 1078,
+          "2026-07-27": 1273
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 26,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
-          "volume": 1895,
-          "engagement": 3836,
-          "contributors": 708,
-          "latestActivityAt": "2026-07-28T09:15:05+09:00"
+          "volume": 1857,
+          "engagement": 3182,
+          "contributors": 698,
+          "latestActivityAt": "2026-07-29T09:15:01+09:00"
         },
         "nativeMetrics": {
-          "articleCount": 1895,
-          "lgtmSum": 3836,
-          "uniqueAuthors": 708,
-          "latestPublishedAt": "2026-07-28T09:15:05+09:00"
+          "articleCount": 1857,
+          "lgtmSum": 3182,
+          "uniqueAuthors": 698,
+          "latestPublishedAt": "2026-07-29T09:15:01+09:00"
         },
         "meta": {
           "tags": [
@@ -1012,29 +1013,29 @@
           "tagBreakdown": [
             {
               "tag": "ChatGPT",
-              "totalCount": 268,
-              "fetched": 268,
+              "totalCount": 258,
+              "fetched": 258,
               "pages": 3,
               "stoppedBy": "done"
             },
             {
               "tag": "Claude",
-              "totalCount": 441,
-              "fetched": 441,
+              "totalCount": 428,
+              "fetched": 428,
               "pages": 5,
               "stoppedBy": "done"
             },
             {
               "tag": "LLM",
-              "totalCount": 816,
-              "fetched": 816,
+              "totalCount": 803,
+              "fetched": 803,
               "pages": 9,
               "stoppedBy": "done"
             },
             {
               "tag": "生成AI",
-              "totalCount": 861,
-              "fetched": 861,
+              "totalCount": 847,
+              "fetched": 847,
               "pages": 9,
               "stoppedBy": "done"
             }
@@ -1042,31 +1043,24 @@
         },
         "topItems": [
           {
-            "title": "【永久0円】人間LLMのすすめ",
-            "url": "https://qiita.com/Syuparn/items/0001f93221d4d7556271",
-            "publishedAt": "2026-06-29T18:53:19+09:00",
-            "likes": 583,
-            "author": "Syuparn"
-          },
-          {
             "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
             "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
             "publishedAt": "2026-07-12T16:15:00+09:00",
-            "likes": 414,
+            "likes": 419,
             "author": "ZiYuCai1984"
           },
           {
             "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
             "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
             "publishedAt": "2026-07-11T19:39:54+09:00",
-            "likes": 252,
+            "likes": 268,
             "author": "fuyunoki"
           },
           {
             "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと",
             "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
             "publishedAt": "2026-07-17T07:54:35+09:00",
-            "likes": 143,
+            "likes": 146,
             "author": "Koukyosyumei"
           },
           {
@@ -1075,6 +1069,13 @@
             "publishedAt": "2026-07-10T09:58:51+09:00",
             "likes": 86,
             "author": "tatsuya582"
+          },
+          {
+            "title": "ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～",
+            "url": "https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612",
+            "publishedAt": "2026-07-25T20:22:16+09:00",
+            "likes": 82,
+            "author": "WdknWdkn"
           }
         ]
       },
@@ -1082,7 +1083,7 @@
         "envelopeVersion": "1.0.0",
         "source": "appstore",
         "windowDays": 1,
-        "fetchedAt": "2026-07-28T00:21:04.859Z",
+        "fetchedAt": "2026-07-29T00:18:41.771Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
@@ -1091,7 +1092,7 @@
           "volume": null,
           "engagement": null,
           "contributors": null,
-          "latestActivityAt": "2026-07-27T17:21:06-07:00"
+          "latestActivityAt": "2026-07-28T17:18:43-07:00"
         },
         "nativeMetrics": {
           "matchedAppCount": 4,
@@ -1099,8 +1100,8 @@
           "topFreeMatchCount": 3,
           "topGrossingMatchCount": 3,
           "bestRank": 2,
-          "averageRank": 20,
-          "rankWeightedScore": 486,
+          "averageRank": 21.2,
+          "rankWeightedScore": 479,
           "matchedApps": [
             {
               "appId": "6448311069",
@@ -1108,7 +1109,7 @@
               "publisher": "OpenAI OpCo, LLC",
               "releaseDate": "2023-05-25T00:00:00-07:00",
               "category": "仕事効率化",
-              "rank": 2,
+              "rank": 3,
               "chart": "topfreeapplications"
             },
             {
@@ -1117,7 +1118,7 @@
               "publisher": "Google",
               "releaseDate": "2024-11-13T00:00:00-07:00",
               "category": "仕事効率化",
-              "rank": 4,
+              "rank": 6,
               "chart": "topfreeapplications"
             },
             {
@@ -1126,7 +1127,7 @@
               "publisher": "Anthropic PBC",
               "releaseDate": "2024-05-01T00:00:00-07:00",
               "category": "仕事効率化",
-              "rank": 14,
+              "rank": 16,
               "chart": "topfreeapplications"
             },
             {
@@ -1135,7 +1136,7 @@
               "publisher": "OpenAI OpCo, LLC",
               "releaseDate": "2023-05-25T00:00:00-07:00",
               "category": "仕事効率化",
-              "rank": 3,
+              "rank": 2,
               "chart": "topgrossingapplications"
             },
             {
@@ -1144,7 +1145,7 @@
               "publisher": "X Corp.",
               "releaseDate": "2025-01-18T00:00:00-07:00",
               "category": "仕事効率化",
-              "rank": 48,
+              "rank": 47,
               "chart": "topgrossingapplications"
             },
             {
@@ -1153,7 +1154,7 @@
               "publisher": "Anthropic PBC",
               "releaseDate": "2024-05-01T00:00:00-07:00",
               "category": "仕事効率化",
-              "rank": 49,
+              "rank": 53,
               "chart": "topgrossingapplications"
             }
           ]
@@ -1182,17 +1183,17 @@
           "chartBreakdown": [
             {
               "chart": "topfreeapplications",
-              "feedUpdated": "2026-07-27T17:21:04-07:00",
-              "totalEntries": 100,
-              "matchCount": 3,
-              "bestRank": 2
-            },
-            {
-              "chart": "topgrossingapplications",
-              "feedUpdated": "2026-07-27T17:21:06-07:00",
+              "feedUpdated": "2026-07-28T17:18:42-07:00",
               "totalEntries": 100,
               "matchCount": 3,
               "bestRank": 3
+            },
+            {
+              "chart": "topgrossingapplications",
+              "feedUpdated": "2026-07-28T17:18:43-07:00",
+              "totalEntries": 100,
+              "matchCount": 3,
+              "bestRank": 2
             }
           ]
         },
@@ -1201,7 +1202,7 @@
             "name": "ChatGPT",
             "publisher": "OpenAI OpCo, LLC",
             "rank": 2,
-            "chart": "topfreeapplications",
+            "chart": "topgrossingapplications",
             "appId": "6448311069",
             "category": "仕事効率化"
           },
@@ -1209,14 +1210,14 @@
             "name": "ChatGPT",
             "publisher": "OpenAI OpCo, LLC",
             "rank": 3,
-            "chart": "topgrossingapplications",
+            "chart": "topfreeapplications",
             "appId": "6448311069",
             "category": "仕事効率化"
           },
           {
             "name": "Google Gemini",
             "publisher": "Google",
-            "rank": 4,
+            "rank": 6,
             "chart": "topfreeapplications",
             "appId": "6477489729",
             "category": "仕事効率化"
@@ -1224,7 +1225,7 @@
           {
             "name": "Claude by Anthropic",
             "publisher": "Anthropic PBC",
-            "rank": 14,
+            "rank": 16,
             "chart": "topfreeapplications",
             "appId": "6473753684",
             "category": "仕事効率化"
@@ -1232,7 +1233,7 @@
           {
             "name": "Grok 生成AI",
             "publisher": "X Corp.",
-            "rank": 48,
+            "rank": 47,
             "chart": "topgrossingapplications",
             "appId": "6670324846",
             "category": "仕事効率化"
@@ -1243,79 +1244,79 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
-          "volume": 1808,
+          "volume": 1909,
           "engagement": null,
-          "contributors": 477,
-          "latestActivityAt": "2026-07-24T17:56:38Z"
+          "contributors": 507,
+          "latestActivityAt": "2026-07-27T17:59:49Z"
         },
         "nativeMetrics": {
-          "paperCount": 1808,
-          "uniqueAuthors": 477,
-          "avgAuthorsPerPaper": 4.8,
+          "paperCount": 1909,
+          "uniqueAuthors": 507,
+          "avgAuthorsPerPaper": 5.1,
           "primaryCategoryTop": "cs.AI",
           "isAuthorsSampled": true,
           "sampleSize": 100,
-          "latestPaperPublished": "2026-07-24T17:56:38Z"
+          "latestPaperPublished": "2026-07-27T17:59:49Z"
         },
         "meta": {
-          "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
         },
         "topItems": [
           {
-            "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-            "url": "http://arxiv.org/abs/2607.22525v1",
-            "publishedAt": "2026-07-24T17:56:38Z",
-            "category": "cs.AI",
-            "authorCount": 3,
-            "firstAuthor": "Anduel Mehmeti"
+            "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+            "url": "http://arxiv.org/abs/2607.24743v1",
+            "publishedAt": "2026-07-27T17:59:49Z",
+            "category": "cs.CV",
+            "authorCount": 24,
+            "firstAuthor": "Hangjie Yuan"
           },
           {
-            "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
-            "url": "http://arxiv.org/abs/2607.22520v1",
-            "publishedAt": "2026-07-24T17:50:03Z",
-            "category": "cs.AI",
-            "authorCount": 2,
-            "firstAuthor": "Darshan Tank"
+            "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+            "url": "http://arxiv.org/abs/2607.24720v1",
+            "publishedAt": "2026-07-27T17:55:03Z",
+            "category": "cs.CL",
+            "authorCount": 4,
+            "firstAuthor": "Tianyi Men"
           },
           {
-            "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
-            "url": "http://arxiv.org/abs/2607.22513v1",
-            "publishedAt": "2026-07-24T17:32:43Z",
-            "category": "cs.CY",
-            "authorCount": 3,
-            "firstAuthor": "Davide Scarso"
+            "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+            "url": "http://arxiv.org/abs/2607.24717v1",
+            "publishedAt": "2026-07-27T17:54:12Z",
+            "category": "cs.CL",
+            "authorCount": 4,
+            "firstAuthor": "Zhen Huang"
           },
           {
-            "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
-            "url": "http://arxiv.org/abs/2607.22511v1",
-            "publishedAt": "2026-07-24T17:32:35Z",
-            "category": "stat.ML",
-            "authorCount": 2,
-            "firstAuthor": "Jiyuan Tan"
+            "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+            "url": "http://arxiv.org/abs/2607.24714v1",
+            "publishedAt": "2026-07-27T17:51:18Z",
+            "category": "quant-ph",
+            "authorCount": 4,
+            "firstAuthor": "Fabian Kreppel"
           },
           {
-            "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
-            "url": "http://arxiv.org/abs/2607.22471v1",
-            "publishedAt": "2026-07-24T16:39:06Z",
-            "category": "cs.SE",
-            "authorCount": 5,
-            "firstAuthor": "Zhen Zhao"
+            "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
+            "url": "http://arxiv.org/abs/2607.24663v1",
+            "publishedAt": "2026-07-27T17:01:30Z",
+            "category": "physics.acc-ph",
+            "authorCount": 8,
+            "firstAuthor": "Rajat Sainju"
           }
         ]
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.445Z",
+        "generatedAt": "2026-07-29T00:19:21.481Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1331,17 +1332,17 @@
           "rationale": "需要スコア 93/100 と勢い 100/100 が揃い、ニュース報道 20 件 で一般認知も拡大中。参入コストが上がる前の窓。"
         },
         "whyTrending": {
-          "headline": "主な観測: Qiita に直近30日で 1895 記事 (LGTM 合計 3836)、技術者コミュニティで実装ノウハウが活発に共有中。加えて arXiv に直近30日で 1808 本の論文投稿 (主分野 cs.AI)、App Store JP に 4 本の関連アプリが登場 (最高 #2)。",
+          "headline": "主な観測: Qiita に直近30日で 1857 記事 (LGTM 合計 3182)、技術者コミュニティで実装ノウハウが活発に共有中。加えて arXiv に直近30日で 1909 本の論文投稿 (主分野 cs.AI)、App Store JP に 4 本の関連アプリが登場 (最高 #2)。",
           "signals": [
             {
               "icon": "💬",
               "type": "qiita",
-              "text": "Qiita に直近30日で 1895 記事 (LGTM 合計 3836)、技術者コミュニティで実装ノウハウが活発に共有中"
+              "text": "Qiita に直近30日で 1857 記事 (LGTM 合計 3182)、技術者コミュニティで実装ノウハウが活発に共有中"
             },
             {
               "icon": "🔬",
               "type": "arxiv",
-              "text": "arXiv に直近30日で 1808 本の論文投稿 (主分野 cs.AI) — 研究者コミュニティが継続的に取り組み中"
+              "text": "arXiv に直近30日で 1909 本の論文投稿 (主分野 cs.AI) — 研究者コミュニティが継続的に取り組み中"
             },
             {
               "icon": "📱",
@@ -1356,22 +1357,22 @@
             {
               "icon": "🔑",
               "type": "keywords",
-              "text": "直近ニュースで頻出: 「Claude」 / 「ChatGPT」"
+              "text": "直近ニュースで頻出: 「Claude」 / 「Code」 / 「ChatGPT」"
             }
           ]
         },
         "momentum": {
           "label": "加速",
           "score": 100,
-          "reason": "直近2日=379件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+          "reason": "直近2日=363件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
         },
         "beginnerFriendliness": {
           "score": 35,
           "label": "やや低い",
           "signals": [
             "既製アプリが多数 (4件) → 差別化難",
-            "Qiita に 1895 記事、学習素材豊富",
-            "arXiv 論文 1808 本、アカデミック障壁高",
+            "Qiita に 1857 記事、学習素材豊富",
+            "arXiv 論文 1909 本、アカデミック障壁高",
             "ニュース 20 件、一般認知あり"
           ]
         },
@@ -1380,9 +1381,9 @@
           "label": "激戦",
           "signals": [
             "App Store に 4 本 → 一定の競合",
-            "Qiita 執筆者 708 名 → 個人プレイヤー多数",
-            "arXiv 論文 1808 本 → 世界規模で研究が加熱",
-            "Wikipedia 月間 34,345 PV → 一般認知高、既存プレイヤー既に居る想定"
+            "Qiita 執筆者 698 名 → 個人プレイヤー多数",
+            "arXiv 論文 1909 本 → 世界規模で研究が加熱",
+            "Wikipedia 月間 34,644 PV → 一般認知高、既存プレイヤー既に居る想定"
           ]
         },
         "audience": [
@@ -1392,6 +1393,7 @@
           "AIを自分の副業に組み込みたい個人"
         ],
         "problems": [
+          "AI新世紀：皆がコード書ける時代…プログラミング学ぶ意味は　開発者の見解 | 毎日新聞",
           "スマホでつくるセカンドブレイン（Android・Obsidian・Termux・Claude・ChatGPTによる知…"
         ],
         "monetization": [
@@ -1479,7 +1481,7 @@
           },
           {
             "label": "既存アプリを 3 本触ってみる",
-            "desc": "App Store 上位: ChatGPT (#2) / ChatGPT (#3) / Google Gemini (#4)。何が既に解決されていて、何が残っているかを確認。",
+            "desc": "App Store 上位: ChatGPT (#2) / ChatGPT (#3) / Google Gemini (#6)。何が既に解決されていて、何が残っているかを確認。",
             "effort": "2 時間",
             "kind": "compete"
           },
@@ -1508,7 +1510,7 @@
       "id": "ai-coding",
       "title": "AI駆動のコード生成・開発支援",
       "category": "AI・テクノロジー",
-      "score": 87,
+      "score": 93,
       "change": 200,
       "status": "急上昇",
       "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
@@ -1520,13 +1522,29 @@
         "学生・若手開発者"
       ],
       "problems": [
-        "Claude CodeやCodexのサンドボックスを支えるbubblewrapを自作して理解する。その勢いでDock…",
         "トークンをケチるな、設計しろ：GitHub Copilotを賢く使うコンテキスト戦略",
         "プロンプトを頑張るな、リポジトリを育てろ：GitHub Copilotが迷わないコードベース設計",
-        "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方",
-        "JenkinsでGitHub Copilot CLIにPRを自動レビューさせる ― E2BIG・プロンプトインジェク…"
+        "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方"
       ],
       "evidence": [
+        {
+          "type": "ニュース",
+          "title": "【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)",
+          "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+          "source": "Zenn",
+          "publishedAt": "2026-07-28T04:40:29.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
+        {
+          "type": "ニュース",
+          "title": "Microsoft APM を試してみる　(npmと対比しながら）",
+          "url": "https://zenn.dev/xtm_blog/articles/f016695e2839ee",
+          "source": "Zenn",
+          "publishedAt": "2026-07-28T04:31:05.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
         {
           "type": "ニュース",
           "title": "Claude Code Actionで使うSkillを、リポジトリにコミットせずgh skill installで実行時に入れる - $shibayu36->blog;",
@@ -1542,6 +1560,15 @@
           "url": "https://zenn.dev/kimuchan/articles/bc8e98682f8594",
           "source": "Zenn",
           "publishedAt": "2026-07-27T00:31:05.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-27"
+        },
+        {
+          "type": "ニュース",
+          "title": "エンジニアの習熟度は、トークン消費量として露呈していく",
+          "url": "https://zenn.dev/kaji_kaji/articles/token-management-as-ai-proficiency",
+          "source": "Zenn",
+          "publishedAt": "2026-07-27T00:00:08.000Z",
           "confidence": 0.7,
           "checkedAt": "2026-07-27"
         },
@@ -1571,33 +1598,6 @@
           "publishedAt": "2026-07-21T08:10:33.000Z",
           "confidence": 0.7,
           "checkedAt": "2026-07-21"
-        },
-        {
-          "type": "ニュース",
-          "title": "Claude CodeやCodexのサンドボックスを支えるbubblewrapを自作して理解する。その勢いでDockerも理解する - エムスリーテックブログ",
-          "url": "https://www.m3tech.blog/entry/2026/07/21/100000",
-          "source": "はてな",
-          "publishedAt": "2026-07-21T06:54:22.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-21"
-        },
-        {
-          "type": "ニュース",
-          "title": "Claude Codeを2時間おきに回してVS Code拡張mdエディタを育てるLoop Engineering実践",
-          "url": "https://zenn.dev/green_tea/articles/e39e3726a449c9",
-          "source": "Zenn",
-          "publishedAt": "2026-07-21T02:50:05.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-21"
-        },
-        {
-          "type": "ニュース",
-          "title": "コーディングエージェントにオーケストレーションを任せる",
-          "url": "https://zenn.dev/himkt/articles/865063822ef701",
-          "source": "Zenn",
-          "publishedAt": "2026-07-19T14:19:34.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-19"
         }
       ],
       "businessOpportunities": [
@@ -1619,19 +1619,18 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.924Z",
+      "updatedAt": "2026-07-29T00:19:21.344Z",
       "trendData": {
         "7d": [
           1,
-          1,
           0,
           0,
           0,
+          3,
           2,
           0
         ],
         "30d": [
-          0,
           0,
           0,
           0,
@@ -1659,6 +1658,7 @@
           0,
           0,
           0,
+          3,
           2,
           0
         ],
@@ -1738,7 +1738,6 @@
           0,
           0,
           0,
-          0,
           2,
           0,
           1,
@@ -1751,35 +1750,36 @@
           0,
           0,
           0,
+          3,
           2,
           0
         ]
       },
-      "_dataQuality": 0.78,
+      "_dataQuality": 0.84,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
-        "newsVolume": 0.87,
+        "newsVolume": 1,
         "growth": 1,
         "sourceDiversity": 0.75,
-        "freshness": 0.74,
+        "freshness": 0.77,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 213,
-        "prior5Days": 123,
+        "recent2Days": 201,
+        "prior5Days": 134,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=213件 / 前5日=123件"
+        "note": "直近2日=201件 / 前5日=134件"
       },
       "_relatedKeywords": [
         "Claude Code",
+        "codex",
         "レビュー",
         "開発",
-        "codex",
-        "CI",
-        "エンジニア"
+        "エンジニア",
+        "CI"
       ],
-      "_matchingArticleCount": 13,
-      "_keywordTrendTotal": 602,
+      "_matchingArticleCount": 16,
+      "_keywordTrendTotal": 600,
       "_wikipediaDetail": {
         "articles": [
           "GitHub_Copilot"
@@ -1788,12 +1788,11 @@
           "GitHub_Copilot"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 1452,
-        "totalPageviews7d": 336,
-        "totalPageviewsPrior7d": 278,
-        "growthPercent": 21,
+        "totalPageviews30d": 1461,
+        "totalPageviews7d": 347,
+        "totalPageviewsPrior7d": 276,
+        "growthPercent": 26,
         "byDate": {
-          "2026-06-28": 47,
           "2026-06-29": 74,
           "2026-06-30": 59,
           "2026-07-01": 54,
@@ -1821,30 +1820,31 @@
           "2026-07-23": 71,
           "2026-07-24": 78,
           "2026-07-25": 40,
-          "2026-07-26": 25
+          "2026-07-26": 25,
+          "2026-07-27": 56
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
-          "volume": 134,
-          "engagement": 295,
-          "contributors": 77,
-          "latestActivityAt": "2026-07-27T21:06:20+09:00"
+          "volume": 129,
+          "engagement": 272,
+          "contributors": 74,
+          "latestActivityAt": "2026-07-28T22:12:42+09:00"
         },
         "nativeMetrics": {
-          "articleCount": 134,
-          "lgtmSum": 295,
-          "uniqueAuthors": 77,
-          "latestPublishedAt": "2026-07-27T21:06:20+09:00"
+          "articleCount": 129,
+          "lgtmSum": 272,
+          "uniqueAuthors": 74,
+          "latestPublishedAt": "2026-07-28T22:12:42+09:00"
         },
         "meta": {
           "tags": [
@@ -1854,15 +1854,15 @@
           "tagBreakdown": [
             {
               "tag": "GitHubCopilot",
-              "totalCount": 63,
-              "fetched": 63,
+              "totalCount": 59,
+              "fetched": 59,
               "pages": 1,
               "stoppedBy": "done"
             },
             {
               "tag": "Cursor",
-              "totalCount": 74,
-              "fetched": 74,
+              "totalCount": 73,
+              "fetched": 73,
               "pages": 1,
               "stoppedBy": "done"
             }
@@ -1898,11 +1898,11 @@
             "author": "aktsmm"
           },
           {
-            "title": "JenkinsでGitHub Copilot CLIにPRを自動レビューさせる ― E2BIG・プロンプトインジェクション・トークン地獄との戦い",
-            "url": "https://qiita.com/jqit-yukiono/items/21c54529410ba960c388",
-            "publishedAt": "2026-06-29T22:53:36+09:00",
-            "likes": 16,
-            "author": "jqit-yukiono"
+            "title": "5つのAIに「共通の記憶」を持たせてみた 〜Obsidianをみんなの“外部脳”にする〜",
+            "url": "https://qiita.com/meccha__eeyan/items/466f757f73516abb8ec3",
+            "publishedAt": "2026-07-02T00:30:41+09:00",
+            "likes": 14,
+            "author": "meccha__eeyan"
           }
         ]
       },
@@ -1910,7 +1910,7 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
@@ -1919,7 +1919,7 @@
           "volume": 70,
           "engagement": null,
           "contributors": 362,
-          "latestActivityAt": "2026-07-24T16:39:06Z"
+          "latestActivityAt": "2026-07-24T20:22:59Z"
         },
         "nativeMetrics": {
           "paperCount": 70,
@@ -1928,16 +1928,24 @@
           "primaryCategoryTop": "cs.SE",
           "isAuthorsSampled": false,
           "sampleSize": 70,
-          "latestPaperPublished": "2026-07-24T16:39:06Z"
+          "latestPaperPublished": "2026-07-24T20:22:59Z"
         },
         "meta": {
-          "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
         },
         "topItems": [
+          {
+            "title": "AssumptionMiner: Extracting, Tracing, and Revising Implicit Assumptions in LLM Code Generation",
+            "url": "http://arxiv.org/abs/2607.22898v1",
+            "publishedAt": "2026-07-24T20:22:59Z",
+            "category": "cs.SE",
+            "authorCount": 1,
+            "firstAuthor": "Jie \"JW\" Wu"
+          },
           {
             "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
             "url": "http://arxiv.org/abs/2607.22471v1",
@@ -1969,20 +1977,12 @@
             "category": "cs.SE",
             "authorCount": 6,
             "firstAuthor": "Rikuto Tsuchida"
-          },
-          {
-            "title": "Security Vulnerability Patterns in AI-Generated Code: A Cross-Model Comparative Study",
-            "url": "http://arxiv.org/abs/2607.20713v1",
-            "publishedAt": "2026-07-22T20:31:11Z",
-            "category": "cs.CR",
-            "authorCount": 2,
-            "firstAuthor": "Shanna M. Kahn"
           }
         ]
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.445Z",
+        "generatedAt": "2026-07-29T00:19:21.481Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -1995,20 +1995,20 @@
         },
         "verdict": {
           "label": "拡大局面",
-          "rationale": "需要スコア 87/100 と勢い 100/100 が揃い、Wikipedia 閲覧が +21% で一般認知も拡大中。参入コストが上がる前の窓。"
+          "rationale": "需要スコア 93/100 と勢い 100/100 が揃い、Wikipedia 閲覧が +26% で一般認知も拡大中。参入コストが上がる前の窓。"
         },
         "whyTrending": {
-          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +21% (計 1,452 PV)。加えて Qiita に直近30日で 134 記事 (LGTM 合計 295)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 70 本の論文投稿 (主分野 cs.SE)。",
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +26% (計 1,461 PV)。加えて Qiita に直近30日で 129 記事 (LGTM 合計 272)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 70 本の論文投稿 (主分野 cs.SE)。",
           "signals": [
             {
               "icon": "📚",
               "type": "wikipedia",
-              "text": "Wikipedia の閲覧が直近 30 日で +21% (計 1,452 PV) — 一般的な関心が高まっている兆候"
+              "text": "Wikipedia の閲覧が直近 30 日で +26% (計 1,461 PV) — 一般的な関心が高まっている兆候"
             },
             {
               "icon": "💬",
               "type": "qiita",
-              "text": "Qiita に直近30日で 134 記事 (LGTM 合計 295)、技術者コミュニティで実装ノウハウが活発に共有中"
+              "text": "Qiita に直近30日で 129 記事 (LGTM 合計 272)、技術者コミュニティで実装ノウハウが活発に共有中"
             },
             {
               "icon": "🔬",
@@ -2018,34 +2018,34 @@
             {
               "icon": "📰",
               "type": "news",
-              "text": "ニュース記事 13 件が観測、報道による社会的関心の獲得段階"
+              "text": "ニュース記事 16 件が観測、報道による社会的関心の獲得段階"
             },
             {
               "icon": "🔑",
               "type": "keywords",
-              "text": "直近ニュースで頻出: 「Code」 / 「Claude」 / 「開発」 / 「GitHub」 / 「理解」"
+              "text": "直近ニュースで頻出: 「Claude」 / 「Code」 / 「開発」 / 「GitHub」"
             }
           ]
         },
         "momentum": {
           "label": "加速",
           "score": 100,
-          "reason": "直近2日=213件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+          "reason": "直近2日=201件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
         },
         "beginnerFriendliness": {
           "score": 75,
           "label": "高い",
           "signals": [
             "既製アプリがない → 空白市場",
-            "Qiita に 134 記事、学習素材豊富",
-            "ニュース 13 件、一般認知あり"
+            "Qiita に 129 記事、学習素材豊富",
+            "ニュース 16 件、一般認知あり"
           ]
         },
         "competition": {
           "score": 35,
           "label": "やや競争",
           "signals": [
-            "Qiita 執筆者 77 名"
+            "Qiita 執筆者 74 名"
           ]
         },
         "audience": [
@@ -2055,11 +2055,9 @@
           "学生・若手開発者"
         ],
         "problems": [
-          "Claude CodeやCodexのサンドボックスを支えるbubblewrapを自作して理解する。その勢いでDock…",
           "トークンをケチるな、設計しろ：GitHub Copilotを賢く使うコンテキスト戦略",
           "プロンプトを頑張るな、リポジトリを育てろ：GitHub Copilotが迷わないコードベース設計",
-          "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方",
-          "JenkinsでGitHub Copilot CLIにPRを自動レビューさせる ― E2BIG・プロンプトインジェク…"
+          "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方"
         ],
         "monetization": [
           {
@@ -2167,8 +2165,8 @@
       "id": "security-breach",
       "title": "個人情報漏洩・セキュリティ対策",
       "category": "ビジネス",
-      "score": 84,
-      "change": 155,
+      "score": 87,
+      "change": 200,
       "status": "急上昇",
       "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
       "description": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
@@ -2272,18 +2270,18 @@
         }
       ],
       "breakdown": {
-        "ニュース": 155
+        "ニュース": 200
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.925Z",
+      "updatedAt": "2026-07-29T00:19:21.345Z",
       "trendData": {
         "7d": [
-          4,
           0,
           2,
           0,
           1,
+          0,
           0,
           0
         ],
@@ -2303,7 +2301,6 @@
           0,
           0,
           0,
-          0,
           1,
           0,
           1,
@@ -2316,6 +2313,7 @@
           2,
           0,
           1,
+          0,
           0,
           0
         ],
@@ -2395,7 +2393,6 @@
           0,
           0,
           0,
-          0,
           1,
           0,
           1,
@@ -2409,6 +2406,7 @@
           0,
           1,
           0,
+          0,
           0
         ]
       },
@@ -2416,16 +2414,16 @@
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.87,
-        "growth": 0.89,
+        "growth": 1,
         "sourceDiversity": 0.75,
-        "freshness": 0.76,
+        "freshness": 0.75,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 189,
-        "prior5Days": 185,
+        "recent2Days": 214,
+        "prior5Days": 144,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=189件 / 前5日=185件"
+        "note": "直近2日=214件 / 前5日=144件"
       },
       "_relatedKeywords": [
         "サイバー攻撃",
@@ -2436,7 +2434,7 @@
         "セキュリティ"
       ],
       "_matchingArticleCount": 13,
-      "_keywordTrendTotal": 602,
+      "_keywordTrendTotal": 603,
       "_wikipediaDetail": {
         "articles": [
           "ランサムウェア"
@@ -2445,12 +2443,11 @@
           "ランサムウェア"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 4156,
-        "totalPageviews7d": 2827,
-        "totalPageviewsPrior7d": 637,
-        "growthPercent": 344,
+        "totalPageviews30d": 4232,
+        "totalPageviews7d": 1494,
+        "totalPageviewsPrior7d": 2019,
+        "growthPercent": -26,
         "byDate": {
-          "2026-06-28": 31,
           "2026-06-29": 66,
           "2026-06-30": 60,
           "2026-07-01": 64,
@@ -2478,30 +2475,31 @@
           "2026-07-23": 137,
           "2026-07-24": 99,
           "2026-07-25": 48,
-          "2026-07-26": 66
+          "2026-07-26": 66,
+          "2026-07-27": 107
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 4,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
-          "volume": 49,
-          "engagement": 408,
+          "volume": 47,
+          "engagement": 435,
           "contributors": 29,
-          "latestActivityAt": "2026-07-28T00:00:41+09:00"
+          "latestActivityAt": "2026-07-29T00:12:09+09:00"
         },
         "nativeMetrics": {
-          "articleCount": 49,
-          "lgtmSum": 408,
+          "articleCount": 47,
+          "lgtmSum": 435,
           "uniqueAuthors": 29,
-          "latestPublishedAt": "2026-07-28T00:00:41+09:00"
+          "latestPublishedAt": "2026-07-29T00:12:09+09:00"
         },
         "meta": {
           "tags": [
@@ -2513,8 +2511,8 @@
           "tagBreakdown": [
             {
               "tag": "情報セキュリティ",
-              "totalCount": 23,
-              "fetched": 23,
+              "totalCount": 21,
+              "fetched": 21,
               "pages": 1,
               "stoppedBy": "done"
             },
@@ -2546,8 +2544,15 @@
             "title": "セキュリティの勉強になるサイト138選(2026年版)",
             "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
             "publishedAt": "2026-07-19T13:36:00+09:00",
-            "likes": 335,
+            "likes": 355,
             "author": "Nakanishi_RareTECH"
+          },
+          {
+            "title": "あと10日で攻撃コストが激変する。Kimi K3公開前にやるべきセキュリティ対策",
+            "url": "https://qiita.com/udowanllc/items/9a1c5da9a36b7f74691a",
+            "publishedAt": "2026-07-18T21:49:23+09:00",
+            "likes": 25,
+            "author": "udowanllc"
           },
           {
             "title": "curlが7月の脆弱性報告をまるごと停止、AIスロップが優秀になった逆説",
@@ -2555,13 +2560,6 @@
             "publishedAt": "2026-07-02T21:07:24+09:00",
             "likes": 24,
             "author": "okssusucha"
-          },
-          {
-            "title": "あと10日で攻撃コストが激変する。Kimi K3公開前にやるべきセキュリティ対策",
-            "url": "https://qiita.com/udowanllc/items/9a1c5da9a36b7f74691a",
-            "publishedAt": "2026-07-18T21:49:23+09:00",
-            "likes": 23,
-            "author": "udowanllc"
           },
           {
             "title": "【Curl】Curlは一か月の夏休みを満喫するよ",
@@ -2574,7 +2572,7 @@
             "title": "なぜニチレイは、たった10日で復旧できたのか",
             "url": "https://qiita.com/harupython/items/3ca158f89a6e38d762aa",
             "publishedAt": "2026-07-27T14:29:26+09:00",
-            "likes": 2,
+            "likes": 4,
             "author": "harupython"
           }
         ]
@@ -2583,7 +2581,7 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
@@ -2591,26 +2589,50 @@
         "metrics": {
           "volume": 21,
           "engagement": null,
-          "contributors": 75,
-          "latestActivityAt": "2026-07-20T18:28:07Z"
+          "contributors": 73,
+          "latestActivityAt": "2026-07-27T16:15:00Z"
         },
         "nativeMetrics": {
           "paperCount": 21,
-          "uniqueAuthors": 75,
-          "avgAuthorsPerPaper": 3.7,
+          "uniqueAuthors": 73,
+          "avgAuthorsPerPaper": 3.6,
           "primaryCategoryTop": "cs.CR",
           "isAuthorsSampled": false,
           "sampleSize": 21,
-          "latestPaperPublished": "2026-07-20T18:28:07Z"
+          "latestPaperPublished": "2026-07-27T16:15:00Z"
         },
         "meta": {
-          "searchQuery": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing) AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing) AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
         },
         "topItems": [
+          {
+            "title": "Modeling Local Exploit Hazard - A Bayesian Framework for Quantifying Exploit Risk and Operational Efficiency",
+            "url": "http://arxiv.org/abs/2607.24618v1",
+            "publishedAt": "2026-07-27T16:15:00Z",
+            "category": "cs.CR",
+            "authorCount": 2,
+            "firstAuthor": "Stephen Shaffer"
+          },
+          {
+            "title": "There Will Be Spam: Characterizing State-Invariant Transactions and Speculative MEV",
+            "url": "http://arxiv.org/abs/2607.24172v1",
+            "publishedAt": "2026-07-27T08:54:55Z",
+            "category": "cs.CR",
+            "authorCount": 3,
+            "firstAuthor": "Vabuk Pahari"
+          },
+          {
+            "title": "Early Detection of Hardware Trojans Using Neural Controlled Differential Equations and Analysis of Power Traces",
+            "url": "http://arxiv.org/abs/2607.23417v1",
+            "publishedAt": "2026-07-26T02:27:59Z",
+            "category": "cs.CR",
+            "authorCount": 3,
+            "firstAuthor": "Hasala Senevirathne"
+          },
           {
             "title": "Adversarial Robustness of Phishing Email Detection: A Comparative Study of TF-IDF + Logistic Regression and Fine-Tuned DistilBERT",
             "url": "http://arxiv.org/abs/2607.18429v1",
@@ -2626,62 +2648,38 @@
             "category": "cs.CR",
             "authorCount": 6,
             "firstAuthor": "Hanrui Wang"
-          },
-          {
-            "title": "Federated Learning and LLM-Driven Threat Intelligence for Zero Trust IoT Architecture",
-            "url": "http://arxiv.org/abs/2607.17035v1",
-            "publishedAt": "2026-07-19T02:35:24Z",
-            "category": "cs.CR",
-            "authorCount": 2,
-            "firstAuthor": "Amal Alshehri"
-          },
-          {
-            "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
-            "url": "http://arxiv.org/abs/2607.11707v2",
-            "publishedAt": "2026-07-13T15:36:19Z",
-            "category": "cs.MA",
-            "authorCount": 3,
-            "firstAuthor": "Ahmed Omar Salim Adnan"
-          },
-          {
-            "title": "Dynamic Rowhammer Threshold Management:Temperature-Aware Threshold Degradation for In-DRAM Defenses",
-            "url": "http://arxiv.org/abs/2607.10392v3",
-            "publishedAt": "2026-07-11T16:44:33Z",
-            "category": "cs.AR",
-            "authorCount": 2,
-            "firstAuthor": "Aziz Alajmi"
           }
         ]
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.445Z",
+        "generatedAt": "2026-07-29T00:19:21.481Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
-          "score": 89,
-          "label": "高",
+          "score": 63,
+          "label": "中",
           "signals": [
             "アクティブソース 3/4",
             "実観測 18 件",
-            "news×wiki 符号一致"
+            "news×wiki 符号不一致"
           ]
         },
         "verdict": {
           "label": "拡大局面",
-          "rationale": "需要スコア 84/100 と勢い 91/100 が揃い、Wikipedia 閲覧が +344% で一般認知も拡大中。参入コストが上がる前の窓。"
+          "rationale": "需要スコア 87/100 と勢い 100/100 が揃い、ニュース報道 13 件 で一般認知も拡大中。参入コストが上がる前の窓。"
         },
         "whyTrending": {
-          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +344% (計 4,156 PV)。加えて Qiita に直近30日で 49 記事 (LGTM 合計 408)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 21 本の論文投稿 (主分野 cs.CR)。",
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -26% (計 4,232 PV)。加えて Qiita に直近30日で 47 記事 (LGTM 合計 435)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 21 本の論文投稿 (主分野 cs.CR)。",
           "signals": [
             {
               "icon": "📚",
               "type": "wikipedia",
-              "text": "Wikipedia の閲覧が直近 30 日で +344% (計 4,156 PV) — 一般的な関心が高まっている兆候"
+              "text": "Wikipedia の閲覧が直近 30 日で -26% (計 4,232 PV) — 一般的な関心が落ち着いている兆候"
             },
             {
               "icon": "💬",
               "type": "qiita",
-              "text": "Qiita に直近30日で 49 記事 (LGTM 合計 408)、技術者コミュニティで実装ノウハウが活発に共有中"
+              "text": "Qiita に直近30日で 47 記事 (LGTM 合計 435)、技術者コミュニティで実装ノウハウが活発に共有中"
             },
             {
               "icon": "🔬",
@@ -2702,15 +2700,15 @@
         },
         "momentum": {
           "label": "加速",
-          "score": 91,
-          "reason": "直近2日=189件 / 前5日平均比 +155% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+          "score": 100,
+          "reason": "直近2日=214件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
         },
         "beginnerFriendliness": {
           "score": 65,
           "label": "やや高い",
           "signals": [
             "既製アプリがない → 空白市場",
-            "Qiita に 49 記事、ノウハウ収集可",
+            "Qiita に 47 記事、ノウハウ収集可",
             "ニュース 13 件、一般認知あり"
           ]
         },
@@ -2834,7 +2832,7 @@
       "id": "payment-troubles",
       "title": "決済インフラ・キャッシュレス",
       "category": "ビジネス",
-      "score": 65,
+      "score": 68,
       "change": 200,
       "status": "急上昇",
       "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
@@ -2846,13 +2844,22 @@
         "個人事業主 (キャッシュレス対応が急務)"
       ],
       "problems": [
+        "熊本地震の緊急支援募金、「Yahoo!ネット募金」が受付開始　PayPayやVポイント、クレカに対応",
         "「クレカが使えない！」　16日朝の大規模障害を引き起こした「Cybersource」とは何者か",
         "Amazon配送大手が運送2300社への委託費などの支払いをステーブルコインのJPYCで決済することを導入→「銀行の…",
         "PayPayで障害か　読み込めない状態に　公式サイトもダウン",
-        "朝の大規模クレカ障害、Visa傘下の決済基盤「CyberSource」で「タイムアウト発生」",
-        "朝のクレカ障害、復旧か　「国際ブランドネットワーク」でトラブル【更新】"
+        "朝の大規模クレカ障害、Visa傘下の決済基盤「CyberSource」で「タイムアウト発生」"
       ],
       "evidence": [
+        {
+          "type": "ニュース",
+          "title": "熊本地震の緊急支援募金、「Yahoo!ネット募金」が受付開始　PayPayやVポイント、クレカに対応",
+          "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000253/",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-28T15:05:42.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
         {
           "type": "ニュース",
           "title": "PayPayとセブン-イレブン、顧客ID統合か　1億超のID基盤誕生へ　複数報道",
@@ -2936,19 +2943,18 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.925Z",
+      "updatedAt": "2026-07-29T00:19:21.345Z",
       "trendData": {
         "7d": [
-          0,
           2,
           0,
           0,
           0,
           0,
+          1,
           0
         ],
         "30d": [
-          0,
           0,
           0,
           0,
@@ -2977,6 +2983,7 @@
           0,
           0,
           0,
+          1,
           0
         ],
         "90d": [
@@ -3056,7 +3063,6 @@
           0,
           0,
           0,
-          0,
           4,
           0,
           0,
@@ -3069,34 +3075,35 @@
           0,
           0,
           0,
+          1,
           0
         ]
       },
-      "_dataQuality": 0.55,
+      "_dataQuality": 0.58,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
-        "newsVolume": 0.47,
+        "newsVolume": 0.53,
         "growth": 1,
         "sourceDiversity": 0.5,
-        "freshness": 0.68,
+        "freshness": 0.7,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 229,
-        "prior5Days": 168,
+        "recent2Days": 259,
+        "prior5Days": 169,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=229件 / 前5日=168件"
+        "note": "直近2日=259件 / 前5日=169件"
       },
       "_relatedKeywords": [
-        "決済",
         "クレカ",
+        "決済",
         "PayPay",
-        "Visa",
         "カード",
+        "Visa",
         "取引"
       ],
-      "_matchingArticleCount": 7,
-      "_keywordTrendTotal": 604,
+      "_matchingArticleCount": 8,
+      "_keywordTrendTotal": 607,
       "_wikipediaDetail": {
         "articles": [
           "PayPay"
@@ -3105,12 +3112,11 @@
           "PayPay"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 11932,
-        "totalPageviews7d": 2651,
-        "totalPageviewsPrior7d": 2426,
-        "growthPercent": 9,
+        "totalPageviews30d": 11829,
+        "totalPageviews7d": 2708,
+        "totalPageviewsPrior7d": 2328,
+        "growthPercent": 16,
         "byDate": {
-          "2026-06-28": 407,
           "2026-06-29": 386,
           "2026-06-30": 480,
           "2026-07-01": 386,
@@ -3138,28 +3144,29 @@
           "2026-07-23": 914,
           "2026-07-24": 635,
           "2026-07-25": 289,
-          "2026-07-26": 258
+          "2026-07-26": 258,
+          "2026-07-27": 304
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
           "volume": 13,
-          "engagement": 1,
+          "engagement": 2,
           "contributors": 10,
           "latestActivityAt": "2026-07-26T16:34:31+09:00"
         },
         "nativeMetrics": {
           "articleCount": 13,
-          "lgtmSum": 1,
+          "lgtmSum": 2,
           "uniqueAuthors": 10,
           "latestPublishedAt": "2026-07-26T16:34:31+09:00"
         },
@@ -3194,6 +3201,13 @@
             "author": "Rapls"
           },
           {
+            "title": "潰れようがない商売に見えたのに、負債1259億で破綻した — 全東信がわからなくて、決済の仕組みを調べた",
+            "url": "https://qiita.com/bokuno_log/items/956a3dc62496308ee71d",
+            "publishedAt": "2026-07-08T18:18:04+09:00",
+            "likes": 1,
+            "author": "bokuno_log"
+          },
+          {
             "title": "laravel×stripe×ngrokでクレジットカード決済機能（買い切り）を搭載する",
             "url": "https://qiita.com/Engineering-seiya/items/7d4d0b12636048585aef",
             "publishedAt": "2026-07-26T16:34:31+09:00",
@@ -3213,13 +3227,6 @@
             "publishedAt": "2026-07-17T22:52:09+09:00",
             "likes": 0,
             "author": "shota_0x"
-          },
-          {
-            "title": "Claude Codeで美容院向け前金予約SaaSをゼロから作りきった全記録 — iOSアプリ×バックエンド×Stripe Connect×App Store提出まで",
-            "url": "https://qiita.com/sorabcjanne1/items/5ea48f30bcf08c2fc33f",
-            "publishedAt": "2026-07-06T16:27:59+09:00",
-            "likes": 0,
-            "author": "sorabcjanne1"
           }
         ]
       },
@@ -3227,7 +3234,7 @@
         "envelopeVersion": "1.0.0",
         "source": "appstore",
         "windowDays": 1,
-        "fetchedAt": "2026-07-28T00:21:04.859Z",
+        "fetchedAt": "2026-07-29T00:18:41.771Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
@@ -3236,16 +3243,16 @@
           "volume": null,
           "engagement": null,
           "contributors": null,
-          "latestActivityAt": "2026-07-27T17:21:04-07:00"
+          "latestActivityAt": "2026-07-28T17:18:42-07:00"
         },
         "nativeMetrics": {
-          "matchedAppCount": 7,
-          "uniquePublishers": 7,
-          "topFreeMatchCount": 7,
+          "matchedAppCount": 6,
+          "uniquePublishers": 6,
+          "topFreeMatchCount": 6,
           "topGrossingMatchCount": 0,
-          "bestRank": 13,
-          "averageRank": 59.4,
-          "rankWeightedScore": 291,
+          "bestRank": 20,
+          "averageRank": 62.7,
+          "rankWeightedScore": 230,
           "matchedApps": [
             {
               "appId": "1435783608",
@@ -3253,7 +3260,7 @@
               "publisher": "PayPay Corporation",
               "releaseDate": "2018-10-05T12:26:21-07:00",
               "category": "ファイナンス",
-              "rank": 13,
+              "rank": 20,
               "chart": "topfreeapplications"
             },
             {
@@ -3262,16 +3269,7 @@
               "publisher": "Rakuten Group, Inc.",
               "releaseDate": "2016-10-26T19:15:11-07:00",
               "category": "ファイナンス",
-              "rank": 41,
-              "chart": "topfreeapplications"
-            },
-            {
-              "appId": "1328132872",
-              "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
-              "publisher": "株式会社NTTドコモ",
-              "releaseDate": "2018-04-25T15:24:10-07:00",
-              "category": "ファイナンス",
-              "rank": 47,
+              "rank": 48,
               "chart": "topfreeapplications"
             },
             {
@@ -3284,12 +3282,12 @@
               "chart": "topfreeapplications"
             },
             {
-              "appId": "1565489157",
-              "name": "iAEON-イオンペイも使える！「アイイオン」",
-              "publisher": "イオンスマートテクノロジー株式会社",
-              "releaseDate": "2021-08-31T00:00:00-07:00",
+              "appId": "1328132872",
+              "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+              "publisher": "株式会社NTTドコモ",
+              "releaseDate": "2018-04-25T15:24:10-07:00",
               "category": "ファイナンス",
-              "rank": 76,
+              "rank": 63,
               "chart": "topfreeapplications"
             },
             {
@@ -3298,7 +3296,7 @@
               "publisher": "AEON Financial Service Co., Ltd.",
               "releaseDate": "2016-09-27T08:23:50-07:00",
               "category": "ファイナンス",
-              "rank": 82,
+              "rank": 89,
               "chart": "topfreeapplications"
             },
             {
@@ -3307,7 +3305,7 @@
               "publisher": "Mercari, Inc.",
               "releaseDate": "2013-07-21T22:11:05-07:00",
               "category": "ショッピング",
-              "rank": 98,
+              "rank": 97,
               "chart": "topfreeapplications"
             }
           ]
@@ -3348,14 +3346,14 @@
           "chartBreakdown": [
             {
               "chart": "topfreeapplications",
-              "feedUpdated": "2026-07-27T17:21:04-07:00",
+              "feedUpdated": "2026-07-28T17:18:42-07:00",
               "totalEntries": 100,
-              "matchCount": 7,
-              "bestRank": 13
+              "matchCount": 6,
+              "bestRank": 20
             },
             {
               "chart": "topgrossingapplications",
-              "feedUpdated": "2026-07-27T17:21:06-07:00",
+              "feedUpdated": "2026-07-28T17:18:43-07:00",
               "totalEntries": 100,
               "matchCount": 0,
               "bestRank": null
@@ -3366,7 +3364,7 @@
           {
             "name": "PayPay",
             "publisher": "PayPay Corporation",
-            "rank": 13,
+            "rank": 20,
             "chart": "topfreeapplications",
             "appId": "1435783608",
             "category": "ファイナンス"
@@ -3374,17 +3372,9 @@
           {
             "name": "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ",
             "publisher": "Rakuten Group, Inc.",
-            "rank": 41,
+            "rank": 48,
             "chart": "topfreeapplications",
             "appId": "1139755229",
-            "category": "ファイナンス"
-          },
-          {
-            "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
-            "publisher": "株式会社NTTドコモ",
-            "rank": 47,
-            "chart": "topfreeapplications",
-            "appId": "1328132872",
             "category": "ファイナンス"
           },
           {
@@ -3396,11 +3386,19 @@
             "category": "ファイナンス"
           },
           {
-            "name": "iAEON-イオンペイも使える！「アイイオン」",
-            "publisher": "イオンスマートテクノロジー株式会社",
-            "rank": 76,
+            "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+            "publisher": "株式会社NTTドコモ",
+            "rank": 63,
             "chart": "topfreeapplications",
-            "appId": "1565489157",
+            "appId": "1328132872",
+            "category": "ファイナンス"
+          },
+          {
+            "name": "AEON Pay",
+            "publisher": "AEON Financial Service Co., Ltd.",
+            "rank": 89,
+            "chart": "topfreeapplications",
+            "appId": "1100564842",
             "category": "ファイナンス"
           }
         ]
@@ -3409,7 +3407,7 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
@@ -3430,8 +3428,8 @@
           "latestPaperPublished": "2026-07-23T21:21:01Z"
         },
         "meta": {
-          "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
@@ -3481,56 +3479,61 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.445Z",
+        "generatedAt": "2026-07-29T00:19:21.481Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
           "label": "高",
           "signals": [
             "アクティブソース 4/4",
-            "実観測 22 件",
+            "実観測 23 件",
             "news×wiki 符号一致"
           ]
         },
         "verdict": {
           "label": "様子見",
-          "rationale": "需要スコア 65/100、勢い 100/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
+          "rationale": "需要スコア 68/100、勢い 100/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
         },
         "whyTrending": {
-          "headline": "主な観測: Qiita に直近30日で 13 記事 (LGTM 合計 1)、技術者コミュニティで実装ノウハウが活発に共有中。加えて App Store JP に 7 本の関連アプリが登場 (最高 #13)、ニュース記事 7 件が観測、報道による社会的関心の獲得段階。",
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +16% (計 11,829 PV)。加えて Qiita に直近30日で 13 記事 (LGTM 合計 2)、技術者コミュニティで実装ノウハウが活発に共有中、App Store JP に 6 本の関連アプリが登場 (最高 #20)。",
           "signals": [
+            {
+              "icon": "📚",
+              "type": "wikipedia",
+              "text": "Wikipedia の閲覧が直近 30 日で +16% (計 11,829 PV) — 一般的な関心が高まっている兆候"
+            },
             {
               "icon": "💬",
               "type": "qiita",
-              "text": "Qiita に直近30日で 13 記事 (LGTM 合計 1)、技術者コミュニティで実装ノウハウが活発に共有中"
+              "text": "Qiita に直近30日で 13 記事 (LGTM 合計 2)、技術者コミュニティで実装ノウハウが活発に共有中"
             },
             {
               "icon": "📱",
               "type": "appstore",
-              "text": "App Store JP に 7 本の関連アプリが登場 (最高 #13) — 消費者向け市場として既に立ち上がり中"
+              "text": "App Store JP に 6 本の関連アプリが登場 (最高 #20) — 消費者向け市場として既に立ち上がり中"
             },
             {
               "icon": "📰",
               "type": "news",
-              "text": "ニュース記事 7 件が観測、報道による社会的関心の獲得段階"
+              "text": "ニュース記事 8 件が観測、報道による社会的関心の獲得段階"
             },
             {
               "icon": "🔑",
               "type": "keywords",
-              "text": "直近ニュースで頻出: 「クレカ」 / 「障害」 / 「PayPay」 / 「発生」 / 「復旧」"
+              "text": "直近ニュースで頻出: 「クレカ」 / 「PayPay」 / 「障害」 / 「発生」 / 「復旧」"
             }
           ]
         },
         "momentum": {
           "label": "加速",
           "score": 100,
-          "reason": "直近2日=229件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+          "reason": "直近2日=259件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
         },
         "beginnerFriendliness": {
           "score": 25,
           "label": "やや低い",
           "signals": [
-            "既製アプリが多数 (7件) → 差別化難",
+            "既製アプリが多数 (6件) → 差別化難",
             "Qiita 記事が少なく (13)、独学は手探り"
           ]
         },
@@ -3538,9 +3541,9 @@
           "score": 50,
           "label": "やや競争",
           "signals": [
-            "App Store に 7 本 (best rank #13) → 激戦",
+            "App Store に 6 本 (best rank #20) → 激戦",
             "Qiita 執筆者 10 名、まだ少ない",
-            "Wikipedia 月間 11,932 PV → 一般認知高、既存プレイヤー既に居る想定"
+            "Wikipedia 月間 11,829 PV → 一般認知高、既存プレイヤー既に居る想定"
           ]
         },
         "audience": [
@@ -3550,11 +3553,11 @@
           "個人事業主 (キャッシュレス対応が急務)"
         ],
         "problems": [
+          "熊本地震の緊急支援募金、「Yahoo!ネット募金」が受付開始　PayPayやVポイント、クレカに対応",
           "「クレカが使えない！」　16日朝の大規模障害を引き起こした「Cybersource」とは何者か",
           "Amazon配送大手が運送2300社への委託費などの支払いをステーブルコインのJPYCで決済することを導入→「銀行の…",
           "PayPayで障害か　読み込めない状態に　公式サイトもダウン",
-          "朝の大規模クレカ障害、Visa傘下の決済基盤「CyberSource」で「タイムアウト発生」",
-          "朝のクレカ障害、復旧か　「国際ブランドネットワーク」でトラブル【更新】"
+          "朝の大規模クレカ障害、Visa傘下の決済基盤「CyberSource」で「タイムアウト発生」"
         ],
         "monetization": [
           {
@@ -3637,12 +3640,12 @@
           },
           {
             "label": "既存アプリを 3 本触ってみる",
-            "desc": "App Store 上位: PayPay (#13) / 楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ (#41) / d払い－スマホ決済アプリ、キャッシュレスでお支払い (#47)。何が既に解決されていて、何が残っているかを確認。",
+            "desc": "App Store 上位: PayPay (#20) / 楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ (#48) / Suica (#59)。何が既に解決されていて、何が残っているかを確認。",
             "effort": "2 時間",
             "kind": "compete"
           },
           {
-            "label": "7 件のニュースから 3 つの悩み仮説を書く",
+            "label": "8 件のニュースから 3 つの悩み仮説を書く",
             "desc": "本ページの「実際のニュース」を上から順に読み、共通する困りごとを 3 つに集約する。仮説メモを残せば来週の変化と照らせる。",
             "effort": "30 分",
             "kind": "analyze"
@@ -3666,8 +3669,8 @@
       "id": "ai-regulation",
       "title": "AI規制・安全性・プライバシー",
       "category": "AI・テクノロジー",
-      "score": 63,
-      "change": 180,
+      "score": 67,
+      "change": 200,
       "status": "急上昇",
       "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
       "description": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
@@ -3681,6 +3684,15 @@
         "欧州委員会、GoogleにAIアシスタントの相互運用と検索データ共有を命令──Googleは「安全性を損なう」と反発"
       ],
       "evidence": [
+        {
+          "type": "ニュース",
+          "title": "OpenAIやAnthropicなどの従業員、米政府に「AI開発のペース調整を」と提言",
+          "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000255/",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-28T23:26:08.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-28"
+        },
         {
           "type": "ニュース",
           "title": "NVIDIAやMicrosoftなど30社超、オープンAIの防御ツール共同開発の「Open Secure AI Alliance」設立",
@@ -3751,18 +3763,18 @@
         }
       ],
       "breakdown": {
-        "ニュース": 180
+        "ニュース": 200
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.925Z",
+      "updatedAt": "2026-07-29T00:19:21.346Z",
       "trendData": {
         "7d": [
-          2,
           0,
           0,
           2,
           0,
+          1,
           1,
           0
         ],
@@ -3783,7 +3795,6 @@
           0,
           0,
           0,
-          0,
           1,
           0,
           0,
@@ -3795,6 +3806,7 @@
           0,
           2,
           0,
+          1,
           1,
           0
         ],
@@ -3875,7 +3887,6 @@
           0,
           0,
           0,
-          0,
           1,
           0,
           0,
@@ -3887,24 +3898,25 @@
           0,
           2,
           0,
+          1,
           1,
           0
         ]
       },
-      "_dataQuality": 0.58,
+      "_dataQuality": 0.6,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
-        "newsVolume": 0.4,
-        "growth": 0.95,
+        "newsVolume": 0.47,
+        "growth": 1,
         "sourceDiversity": 0.5,
-        "freshness": 0.83,
+        "freshness": 0.84,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 222,
-        "prior5Days": 198,
+        "recent2Days": 233,
+        "prior5Days": 180,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=222件 / 前5日=198件"
+        "note": "直近2日=233件 / 前5日=180件"
       },
       "_relatedKeywords": [
         "AI",
@@ -3914,8 +3926,8 @@
         "プライバシー",
         "欧州委員会"
       ],
-      "_matchingArticleCount": 6,
-      "_keywordTrendTotal": 607,
+      "_matchingArticleCount": 7,
+      "_keywordTrendTotal": 604,
       "_wikipediaDetail": {
         "articles": [
           "人工知能"
@@ -3924,12 +3936,11 @@
           "人工知能"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 17671,
-        "totalPageviews7d": 4099,
-        "totalPageviewsPrior7d": 4635,
-        "growthPercent": -12,
+        "totalPageviews30d": 17768,
+        "totalPageviews7d": 3883,
+        "totalPageviewsPrior7d": 4687,
+        "growthPercent": -17,
         "byDate": {
-          "2026-06-28": 512,
           "2026-06-29": 561,
           "2026-06-30": 572,
           "2026-07-01": 704,
@@ -3957,125 +3968,131 @@
           "2026-07-23": 641,
           "2026-07-24": 657,
           "2026-07-25": 519,
-          "2026-07-26": 634
+          "2026-07-26": 634,
+          "2026-07-27": 609
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_arxivDetail": {
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
         "errors": [],
         "metrics": {
-          "volume": 1181,
+          "volume": 1188,
           "engagement": null,
-          "contributors": 485,
-          "latestActivityAt": "2026-07-23T16:06:42Z"
+          "contributors": 487,
+          "latestActivityAt": "2026-07-27T13:06:38Z"
         },
         "nativeMetrics": {
-          "paperCount": 1181,
-          "uniqueAuthors": 485,
-          "avgAuthorsPerPaper": 5.3,
+          "paperCount": 1188,
+          "uniqueAuthors": 487,
+          "avgAuthorsPerPaper": 5.4,
           "primaryCategoryTop": "cs.CY",
           "isAuthorsSampled": true,
           "sampleSize": 100,
-          "latestPaperPublished": "2026-07-23T16:06:42Z"
+          "latestPaperPublished": "2026-07-27T13:06:38Z"
         },
         "meta": {
-          "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
         },
         "topItems": [
           {
-            "title": "White Box Evidence Packages for Policy Audit Reports",
-            "url": "http://arxiv.org/abs/2607.21462v1",
-            "publishedAt": "2026-07-23T16:06:42Z",
+            "title": "Regulating for AI Legitimacy",
+            "url": "http://arxiv.org/abs/2607.24391v1",
+            "publishedAt": "2026-07-27T13:06:38Z",
             "category": "cs.CY",
             "authorCount": 1,
-            "firstAuthor": "Seunghyun Yoo"
+            "firstAuthor": "Gilad Abiri"
           },
           {
-            "title": "Open Veins of Algorithmic Auditing: Why AI Assessment Lags Behind Its Deployment in the Global South",
-            "url": "http://arxiv.org/abs/2607.21317v1",
-            "publishedAt": "2026-07-23T13:39:38Z",
-            "category": "cs.CY",
-            "authorCount": 2,
-            "firstAuthor": "Gemma Galdon Clavell"
-          },
-          {
-            "title": "Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning",
-            "url": "http://arxiv.org/abs/2607.21300v1",
-            "publishedAt": "2026-07-23T13:24:34Z",
-            "category": "cs.CV",
-            "authorCount": 5,
-            "firstAuthor": "Lorenzo Orsingher"
-          },
-          {
-            "title": "The Human-AI Substitution Principle: When will you be replaced by AI in your organization?",
-            "url": "http://arxiv.org/abs/2607.20781v1",
-            "publishedAt": "2026-07-22T23:04:26Z",
-            "category": "cs.AI",
-            "authorCount": 2,
-            "firstAuthor": "Bonny Banerjee"
-          },
-          {
-            "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
-            "url": "http://arxiv.org/abs/2607.20379v1",
-            "publishedAt": "2026-07-22T17:10:23Z",
+            "title": "Epistemic Norms for AI Safety and Alignment Research",
+            "url": "http://arxiv.org/abs/2607.24243v1",
+            "publishedAt": "2026-07-27T10:22:46Z",
             "category": "cs.AI",
             "authorCount": 1,
-            "firstAuthor": "Hiskias Dingeto"
+            "firstAuthor": "Keivan Navaie"
+          },
+          {
+            "title": "Visible to the Court: How AI Is (and Isn't) Litigated in U.S. Federal Court Opinions",
+            "url": "http://arxiv.org/abs/2607.23888v1",
+            "publishedAt": "2026-07-26T23:19:41Z",
+            "category": "cs.HC",
+            "authorCount": 4,
+            "firstAuthor": "Julie Yu"
+          },
+          {
+            "title": "On AI Safety and Security Technical Debt in Engineering AI-Enabled Systems",
+            "url": "http://arxiv.org/abs/2607.23365v1",
+            "publishedAt": "2026-07-25T21:15:41Z",
+            "category": "cs.SE",
+            "authorCount": 8,
+            "firstAuthor": "Muhammad Tukur"
+          },
+          {
+            "title": "Not All LLM Reasoning is Visible in the Chain-of-Thought",
+            "url": "http://arxiv.org/abs/2607.22925v1",
+            "publishedAt": "2026-07-24T21:32:48Z",
+            "category": "cs.CL",
+            "authorCount": 3,
+            "firstAuthor": "Vatsal Baherwani"
           }
         ]
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.445Z",
+        "generatedAt": "2026-07-29T00:19:21.481Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
-          "score": 43,
+          "score": 45,
           "label": "低",
           "signals": [
             "アクティブソース 2/4",
-            "実観測 11 件",
+            "実観測 12 件",
             "news×wiki 符号不一致"
           ]
         },
         "verdict": {
           "label": "研究先行",
-          "rationale": "arXiv に 1181 本の論文投稿。研究は活発だが Qiita 実装事例が 0 件と少なく、産業応用はまだ手薄。"
+          "rationale": "arXiv に 1188 本の論文投稿。研究は活発だが Qiita 実装事例が 0 件と少なく、産業応用はまだ手薄。"
         },
         "whyTrending": {
-          "headline": "主な観測: arXiv に直近30日で 1181 本の論文投稿 (主分野 cs.CY)。加えて ニュース記事 6 件が観測、報道による社会的関心の獲得段階、直近ニュースで頻出: 「Microsoft」 / 「NVIDIA」 / 「安全性」 / 「Google」。",
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -17% (計 17,768 PV)。加えて arXiv に直近30日で 1188 本の論文投稿 (主分野 cs.CY)、ニュース記事 7 件が観測、報道による社会的関心の獲得段階。",
           "signals": [
+            {
+              "icon": "📚",
+              "type": "wikipedia",
+              "text": "Wikipedia の閲覧が直近 30 日で -17% (計 17,768 PV) — 一般的な関心が落ち着いている兆候"
+            },
             {
               "icon": "🔬",
               "type": "arxiv",
-              "text": "arXiv に直近30日で 1181 本の論文投稿 (主分野 cs.CY) — 研究者コミュニティが継続的に取り組み中"
+              "text": "arXiv に直近30日で 1188 本の論文投稿 (主分野 cs.CY) — 研究者コミュニティが継続的に取り組み中"
             },
             {
               "icon": "📰",
               "type": "news",
-              "text": "ニュース記事 6 件が観測、報道による社会的関心の獲得段階"
+              "text": "ニュース記事 7 件が観測、報道による社会的関心の獲得段階"
             },
             {
               "icon": "🔑",
               "type": "keywords",
-              "text": "直近ニュースで頻出: 「Microsoft」 / 「NVIDIA」 / 「安全性」 / 「Google」"
+              "text": "直近ニュースで頻出: 「Microsoft」 / 「OpenAI」 / 「Anthropic」 / 「NVIDIA」 / 「安全性」"
             }
           ]
         },
         "momentum": {
           "label": "加速",
-          "score": 96,
-          "reason": "直近2日=222件 / 前5日平均比 +180% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+          "score": 100,
+          "reason": "直近2日=233件 / 前5日平均比 +200% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
         },
         "beginnerFriendliness": {
           "score": 35,
@@ -4083,7 +4100,7 @@
           "signals": [
             "既製アプリがない → 空白市場",
             "Qiita 記事が少なく (0)、独学は手探り",
-            "arXiv 論文 1181 本、アカデミック障壁高"
+            "arXiv 論文 1188 本、アカデミック障壁高"
           ]
         },
         "competition": {
@@ -4091,8 +4108,8 @@
           "label": "やや競争",
           "signals": [
             "Qiita 執筆者 0 名、まだ少ない",
-            "arXiv 論文 1181 本 → 世界規模で研究が加熱",
-            "Wikipedia 月間 17,671 PV → 一般認知高、既存プレイヤー既に居る想定"
+            "arXiv 論文 1188 本 → 世界規模で研究が加熱",
+            "Wikipedia 月間 17,768 PV → 一般認知高、既存プレイヤー既に居る想定"
           ]
         },
         "audience": [
@@ -4186,7 +4203,7 @@
             "kind": "observe"
           },
           {
-            "label": "6 件のニュースから 3 つの悩み仮説を書く",
+            "label": "7 件のニュースから 3 つの悩み仮説を書く",
             "desc": "本ページの「実際のニュース」を上から順に読み、共通する困りごとを 3 つに集約する。仮説メモを残せば来週の変化と照らせる。",
             "effort": "30 分",
             "kind": "analyze"
@@ -4207,1102 +4224,12 @@
       }
     },
     {
-      "id": "ai-hardware",
-      "title": "AI向けハードウェア・計算基盤",
-      "category": "AI・テクノロジー",
-      "score": 47,
-      "change": 136,
-      "status": "急上昇",
-      "summary": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
-      "description": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
-      "audience": [
-        "AI スタートアップの技術責任者",
-        "データセンター事業関係者",
-        "GPU / NPU リサーチャー",
-        "省エネ / グリーン IT 志向の投資家"
-      ],
-      "problems": [
-        "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)"
-      ],
-      "evidence": [
-        {
-          "type": "ニュース",
-          "title": "フアンCEO「ジャパンAI構築はマストだ」　経産省、国産フィジカルAIで新プロジェクト　赤沢大臣も“革ジャン”羽織る",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/16/news107.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-16T14:00:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-16"
-        },
-        {
-          "type": "ニュース",
-          "title": "大手共同出資の“国産AI開発企業”が本格始動　NVIDIAも協力、「Rubin」2万7500基搭載の計算基盤を構築へ",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/16/news101.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-16T10:07:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-16"
-        },
-        {
-          "type": "ニュース",
-          "title": "フアンCEO「次の産業革命はメイド・イン・ジャパン」　富士通など4社、NVIDIA技術でフィジカルAIの事業検討",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/16/news073.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-16T03:56:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-16"
-        },
-        {
-          "type": "ニュース",
-          "title": "セガのゲーム、NVIDIA「RTX Spark」で遊べるように　秋葉原で協業30周年を祝う",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/15/news131.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-15T14:50:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-15"
-        }
-      ],
-      "businessOpportunities": [
-        {
-          "title": "GPU クラウド最適化コンサル",
-          "desc": "既存の GPU 利用を効率化するアドバイザリー"
-        },
-        {
-          "title": "AI 推論エッジ導入支援",
-          "desc": "製造業などのエッジ AI 案件の PoC 代行"
-        },
-        {
-          "title": "AI ハードウェア動向レポート販売",
-          "desc": "国内外ベンダー動向の定期レポート"
-        }
-      ],
-      "breakdown": {
-        "ニュース": 136
-      },
-      "sourceCount": 1,
-      "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.925Z",
-      "trendData": {
-        "7d": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "30d": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          3,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "90d": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          3,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "_dataQuality": 0.37,
-      "_hasEnoughGrowthData": true,
-      "_scoreBreakdown": {
-        "newsVolume": 0.27,
-        "growth": 0.84,
-        "sourceDiversity": 0.25,
-        "freshness": 0.59,
-        "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
-      },
-      "_growthDetail": {
-        "recent2Days": 132,
-        "prior5Days": 140,
-        "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=132件 / 前5日=140件"
-      },
-      "_relatedKeywords": [
-        "NVIDIA",
-        "フィジカルAI",
-        "Rubin",
-        "計算基盤",
-        "チップ"
-      ],
-      "_matchingArticleCount": 4,
-      "_keywordTrendTotal": 499,
-      "_wikipediaDetail": {
-        "articles": [
-          "NVIDIA"
-        ],
-        "articlesFetched": [
-          "NVIDIA"
-        ],
-        "articlesFailed": [],
-        "totalPageviews30d": 32864,
-        "totalPageviews7d": 4733,
-        "totalPageviewsPrior7d": 21336,
-        "growthPercent": -78,
-        "byDate": {
-          "2026-06-28": 359,
-          "2026-06-29": 442,
-          "2026-06-30": 427,
-          "2026-07-01": 395,
-          "2026-07-02": 495,
-          "2026-07-03": 409,
-          "2026-07-04": 338,
-          "2026-07-05": 376,
-          "2026-07-06": 401,
-          "2026-07-07": 413,
-          "2026-07-08": 446,
-          "2026-07-09": 441,
-          "2026-07-10": 577,
-          "2026-07-11": 396,
-          "2026-07-12": 356,
-          "2026-07-13": 524,
-          "2026-07-14": 617,
-          "2026-07-15": 2715,
-          "2026-07-16": 7593,
-          "2026-07-17": 4289,
-          "2026-07-18": 2941,
-          "2026-07-19": 2059,
-          "2026-07-20": 1122,
-          "2026-07-21": 1431,
-          "2026-07-22": 850,
-          "2026-07-23": 812,
-          "2026-07-24": 572,
-          "2026-07-25": 550,
-          "2026-07-26": 518
-        },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
-      },
-      "_qiitaDetail": {
-        "envelopeVersion": "1.0.0",
-        "source": "qiita",
-        "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
-        "requestCount": 3,
-        "complete": true,
-        "coverage": 1,
-        "errors": [],
-        "metrics": {
-          "volume": 71,
-          "engagement": 85,
-          "contributors": 48,
-          "latestActivityAt": "2026-07-27T20:14:31+09:00"
-        },
-        "nativeMetrics": {
-          "articleCount": 71,
-          "lgtmSum": 85,
-          "uniqueAuthors": 48,
-          "latestPublishedAt": "2026-07-27T20:14:31+09:00"
-        },
-        "meta": {
-          "tags": [
-            "GPU",
-            "NVIDIA",
-            "CUDA"
-          ],
-          "tagBreakdown": [
-            {
-              "tag": "GPU",
-              "totalCount": 40,
-              "fetched": 40,
-              "pages": 1,
-              "stoppedBy": "done"
-            },
-            {
-              "tag": "NVIDIA",
-              "totalCount": 26,
-              "fetched": 26,
-              "pages": 1,
-              "stoppedBy": "done"
-            },
-            {
-              "tag": "CUDA",
-              "totalCount": 15,
-              "fetched": 15,
-              "pages": 1,
-              "stoppedBy": "done"
-            }
-          ]
-        },
-        "topItems": [
-          {
-            "title": "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)",
-            "url": "https://qiita.com/sukimaengineer/items/8ead6b3ae0789fa36add",
-            "publishedAt": "2026-07-17T14:52:31+09:00",
-            "likes": 16,
-            "author": "sukimaengineer"
-          },
-          {
-            "title": "GPUだけでLLMを動かす必要はない",
-            "url": "https://qiita.com/DanielOkada/items/8d25b244be168cbc0d6b",
-            "publishedAt": "2026-07-10T22:19:15+09:00",
-            "likes": 14,
-            "author": "DanielOkada"
-          },
-          {
-            "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録",
-            "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
-            "publishedAt": "2026-07-25T09:25:54+09:00",
-            "likes": 12,
-            "author": "nakatada-lab"
-          },
-          {
-            "title": "コンシューマー機2台をRPCでつないで96GB相当のVRAMを作り、6つのオープンLLMを実測してみた",
-            "url": "https://qiita.com/faliye/items/ab3b7fe1da80be1874e1",
-            "publishedAt": "2026-07-18T00:16:35+09:00",
-            "likes": 6,
-            "author": "faliye"
-          },
-          {
-            "title": "ローカルLLM向けハードウェアを「容量・帯域・MoE・TTFT」で選ぶ",
-            "url": "https://qiita.com/softbase/items/de82b236830298db334c",
-            "publishedAt": "2026-07-22T00:56:13+09:00",
-            "likes": 6,
-            "author": "softbase"
-          }
-        ]
-      },
-      "_arxivDetail": {
-        "envelopeVersion": "1.0.0",
-        "source": "arxiv",
-        "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
-        "requestCount": 1,
-        "complete": true,
-        "coverage": 1,
-        "errors": [],
-        "metrics": {
-          "volume": 302,
-          "engagement": null,
-          "contributors": 642,
-          "latestActivityAt": "2026-07-24T15:50:23Z"
-        },
-        "nativeMetrics": {
-          "paperCount": 302,
-          "uniqueAuthors": 642,
-          "avgAuthorsPerPaper": 6.5,
-          "primaryCategoryTop": "cs.LG",
-          "isAuthorsSampled": true,
-          "sampleSize": 100,
-          "latestPaperPublished": "2026-07-24T15:50:23Z"
-        },
-        "meta": {
-          "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
-          "maxResults": 100,
-          "sortBy": "submittedDate",
-          "sortOrder": "descending"
-        },
-        "topItems": [
-          {
-            "title": "TileSight: A First-Principles Tile-Centric Analytical GPU Performance Model from Cores to Clusters",
-            "url": "http://arxiv.org/abs/2607.22432v1",
-            "publishedAt": "2026-07-24T15:50:23Z",
-            "category": "cs.DC",
-            "authorCount": 15,
-            "firstAuthor": "Zhiwen Mo"
-          },
-          {
-            "title": "Agentic CPU-GPU Scheduling for Heterogeneous AI Workloads",
-            "url": "http://arxiv.org/abs/2607.22242v1",
-            "publishedAt": "2026-07-24T12:18:36Z",
-            "category": "cs.DC",
-            "authorCount": 2,
-            "firstAuthor": "Tianxi Lu"
-          },
-          {
-            "title": "Unified Static-Dynamic Pruning for Efficient LLM Inference",
-            "url": "http://arxiv.org/abs/2607.21985v1",
-            "publishedAt": "2026-07-24T05:19:41Z",
-            "category": "cs.DC",
-            "authorCount": 3,
-            "firstAuthor": "Jinhyeok Kim"
-          },
-          {
-            "title": "RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention",
-            "url": "http://arxiv.org/abs/2607.21927v1",
-            "publishedAt": "2026-07-24T03:00:02Z",
-            "category": "cs.LG",
-            "authorCount": 1,
-            "firstAuthor": "Anderson R. Santos"
-          },
-          {
-            "title": "Fewer Paths, Better Performance: Understanding the ZCube Topology through Braess's Paradox",
-            "url": "http://arxiv.org/abs/2607.21893v1",
-            "publishedAt": "2026-07-24T01:46:44Z",
-            "category": "cs.NI",
-            "authorCount": 1,
-            "firstAuthor": "Li Chen"
-          }
-        ]
-      },
-      "_insights": {
-        "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.446Z",
-        "method": "heuristic (rule-based, no LLM)",
-        "dataQuality": {
-          "score": 56,
-          "label": "中",
-          "signals": [
-            "アクティブソース 3/4",
-            "実観測 14 件",
-            "news×wiki 符号不一致"
-          ]
-        },
-        "verdict": {
-          "label": "実装フェーズ",
-          "rationale": "勢い 87/100、Qiita に 71 記事 (直近30日) で開発者コミュニティが実装ノウハウを積極共有中。技術で参入する好機。"
-        },
-        "whyTrending": {
-          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -78% (計 32,864 PV)。加えて Qiita に直近30日で 71 記事 (LGTM 合計 85)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 302 本の論文投稿 (主分野 cs.LG)。",
-          "signals": [
-            {
-              "icon": "📚",
-              "type": "wikipedia",
-              "text": "Wikipedia の閲覧が直近 30 日で -78% (計 32,864 PV) — 一般的な関心が落ち着いている兆候"
-            },
-            {
-              "icon": "💬",
-              "type": "qiita",
-              "text": "Qiita に直近30日で 71 記事 (LGTM 合計 85)、技術者コミュニティで実装ノウハウが活発に共有中"
-            },
-            {
-              "icon": "🔬",
-              "type": "arxiv",
-              "text": "arXiv に直近30日で 302 本の論文投稿 (主分野 cs.LG) — 研究者コミュニティが継続的に取り組み中"
-            },
-            {
-              "icon": "🔑",
-              "type": "keywords",
-              "text": "直近ニュースで頻出: 「NVIDIA」 / 「フアン」 / 「CEO」 / 「ジャパン」 / 「構築」"
-            }
-          ]
-        },
-        "momentum": {
-          "label": "加速",
-          "score": 87,
-          "reason": "直近2日=132件 / 前5日平均比 +136% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
-        },
-        "beginnerFriendliness": {
-          "score": 55,
-          "label": "やや高い",
-          "signals": [
-            "既製アプリがない → 空白市場",
-            "Qiita に 71 記事、ノウハウ収集可",
-            "arXiv 論文 302 本、ある程度の学術素養が必要"
-          ]
-        },
-        "competition": {
-          "score": 40,
-          "label": "やや競争",
-          "signals": [
-            "arXiv 論文 302 本 → 研究が進行中",
-            "Wikipedia 月間 32,864 PV → 一般認知高、既存プレイヤー既に居る想定"
-          ]
-        },
-        "audience": [
-          "AI スタートアップの技術責任者",
-          "データセンター事業関係者",
-          "GPU / NPU リサーチャー",
-          "省エネ / グリーン IT 志向の投資家"
-        ],
-        "problems": [
-          "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)"
-        ],
-        "monetization": [
-          {
-            "title": "GPU クラウド最適化コンサル",
-            "desc": "既存の GPU 利用を効率化するアドバイザリー",
-            "barrier": "中",
-            "revenue": "スポット 50-300万円"
-          },
-          {
-            "title": "AI 推論エッジ導入支援",
-            "desc": "製造業などのエッジ AI 案件の PoC 代行",
-            "barrier": "中",
-            "revenue": "PoC 100-500万円"
-          },
-          {
-            "title": "AI ハードウェア動向レポート販売",
-            "desc": "国内外ベンダー動向の定期レポート",
-            "barrier": "低",
-            "revenue": "月額 3-10万円 (法人向け)"
-          }
-        ],
-        "content": [
-          {
-            "format": "ブログ",
-            "title": "「今週の AI 推論ハードウェア価格ウォッチ」",
-            "angle": "数値中心の資産型コンテンツ"
-          },
-          {
-            "format": "YouTube",
-            "title": "「自作 AI ワークステーション ビルド log」",
-            "angle": "ビルド動画は再生時間長く広告収益と親和性◎"
-          },
-          {
-            "format": "Newsletter",
-            "title": "月次: 「主要 GPU クラウド価格ベンチ」",
-            "angle": "継続比較で法人購読を狙う"
-          }
-        ],
-        "saas": [
-          {
-            "title": "GPU クラスタ稼働率可視化 SaaS",
-            "target": "AI スタートアップ",
-            "hypothesis": "高額 GPU を借りているが稼働率把握が甘い"
-          },
-          {
-            "title": "AI 推論コスト予測ツール",
-            "target": "事業サイド",
-            "hypothesis": "推論コストの予測ができず本番展開の意思決定が遅れる"
-          }
-        ],
-        "similarThemes": [
-          {
-            "id": "ai-business-automation",
-            "title": "AI業務自動化",
-            "category": "AI・テクノロジー",
-            "similarity": 0,
-            "sharedKeywords": []
-          },
-          {
-            "id": "ai-coding",
-            "title": "AI駆動のコード生成・開発支援",
-            "category": "AI・テクノロジー",
-            "similarity": 0,
-            "sharedKeywords": []
-          },
-          {
-            "id": "ai-regulation",
-            "title": "AI規制・安全性・プライバシー",
-            "category": "AI・テクノロジー",
-            "similarity": 0,
-            "sharedKeywords": []
-          }
-        ],
-        "nextActions": [
-          {
-            "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
-            "effort": "15 分/日",
-            "kind": "observe"
-          },
-          {
-            "label": "今日のアイデアを 1 つ書き出す",
-            "desc": "下記の収益化 / コンテンツ / SaaS 候補から 1 つ選び、対象顧客と仮説を 3 行でメモ。書き溜めが後で効いてくる。",
-            "effort": "10 分",
-            "kind": "ideate"
-          },
-          {
-            "label": "同じ課題を持つ人に共有する",
-            "desc": "このページの URL を Slack/X/知人に共有し、反応を集める。共感が集まればテーマとして有望。",
-            "effort": "5 分",
-            "kind": "validate"
-          }
-        ]
-      }
-    },
-    {
-      "id": "senior-health",
-      "title": "高齢者向け健康・認知症予防",
-      "category": "健康",
-      "score": 42,
-      "change": 83,
-      "status": "急上昇",
-      "summary": "認知症・健康寿命の関心が高い需要",
-      "description": "認知症・健康寿命の関心が高い需要",
-      "audience": [
-        "介護家族 (親の健康を気にする 40-60代)",
-        "高齢者本人 (アクティブシニア層)",
-        "ケアマネ・介護事業者",
-        "製薬・ヘルスケア企業"
-      ],
-      "problems": [
-        "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待"
-      ],
-      "evidence": [
-        {
-          "type": "ニュース",
-          "title": "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/23/news116.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-23T09:19:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-23"
-        },
-        {
-          "type": "ニュース",
-          "title": "「仕事を辞めるとボケる」は本当なのか？　ベトナム高齢者2000人超を早大などが分析",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/17/news082.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-19T23:00:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-19"
-        },
-        {
-          "type": "ニュース",
-          "title": "サウナ週4回で認知症リスク66%減？　中年男性2000人以上を20年追跡したフィンランドの研究",
-          "url": "https://www.itmedia.co.jp/news/articles/2607/19/news004.html",
-          "source": "ITmedia",
-          "publishedAt": "2026-07-19T22:00:00.000Z",
-          "confidence": 0.7,
-          "checkedAt": "2026-07-19"
-        }
-      ],
-      "businessOpportunities": [
-        {
-          "title": "認知症予防プログラム講師",
-          "desc": "週次のオンライン運動 / 脳トレクラスを主催"
-        },
-        {
-          "title": "介護家族向けカウンセリング",
-          "desc": "孤立しがちな介護家族へのメンタルサポート"
-        },
-        {
-          "title": "シニア向け商品のキュレーション EC",
-          "desc": "転倒防止靴・見守りグッズ等の厳選 EC"
-        }
-      ],
-      "breakdown": {
-        "ニュース": 83
-      },
-      "sourceCount": 1,
-      "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.926Z",
-      "trendData": {
-        "7d": [
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "30d": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          2,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "90d": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          2,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "_dataQuality": 0.4,
-      "_hasEnoughGrowthData": true,
-      "_scoreBreakdown": {
-        "newsVolume": 0.2,
-        "growth": 0.71,
-        "sourceDiversity": 0.25,
-        "freshness": 0.75,
-        "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
-      },
-      "_growthDetail": {
-        "recent2Days": 133,
-        "prior5Days": 182,
-        "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=133件 / 前5日=182件"
-      },
-      "_relatedKeywords": [
-        "高齢者",
-        "介護",
-        "ボケ",
-        "認知症",
-        "サウナ"
-      ],
-      "_matchingArticleCount": 3,
-      "_keywordTrendTotal": 502,
-      "_wikipediaDetail": {
-        "articles": [
-          "認知症"
-        ],
-        "articlesFetched": [
-          "認知症"
-        ],
-        "articlesFailed": [],
-        "totalPageviews30d": 2666,
-        "totalPageviews7d": 544,
-        "totalPageviewsPrior7d": 671,
-        "growthPercent": -19,
-        "byDate": {
-          "2026-06-28": 95,
-          "2026-06-29": 77,
-          "2026-06-30": 85,
-          "2026-07-01": 90,
-          "2026-07-02": 94,
-          "2026-07-03": 96,
-          "2026-07-04": 82,
-          "2026-07-05": 97,
-          "2026-07-06": 93,
-          "2026-07-07": 86,
-          "2026-07-08": 91,
-          "2026-07-09": 109,
-          "2026-07-10": 103,
-          "2026-07-11": 79,
-          "2026-07-12": 85,
-          "2026-07-13": 89,
-          "2026-07-14": 78,
-          "2026-07-15": 111,
-          "2026-07-16": 100,
-          "2026-07-17": 127,
-          "2026-07-18": 88,
-          "2026-07-19": 88,
-          "2026-07-20": 79,
-          "2026-07-21": 84,
-          "2026-07-22": 108,
-          "2026-07-23": 78,
-          "2026-07-24": 74,
-          "2026-07-25": 96,
-          "2026-07-26": 104
-        },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
-      },
-      "_arxivDetail": {
-        "envelopeVersion": "1.0.0",
-        "source": "arxiv",
-        "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
-        "requestCount": 1,
-        "complete": true,
-        "coverage": 1,
-        "errors": [],
-        "metrics": {
-          "volume": 2416,
-          "engagement": null,
-          "contributors": 384,
-          "latestActivityAt": "2026-07-24T17:27:43Z"
-        },
-        "nativeMetrics": {
-          "paperCount": 2416,
-          "uniqueAuthors": 384,
-          "avgAuthorsPerPaper": 4.4,
-          "primaryCategoryTop": "cs.LG",
-          "isAuthorsSampled": true,
-          "sampleSize": 100,
-          "latestPaperPublished": "2026-07-24T17:27:43Z"
-        },
-        "meta": {
-          "searchQuery": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\" AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
-          "maxResults": 100,
-          "sortBy": "submittedDate",
-          "sortOrder": "descending"
-        },
-        "topItems": [
-          {
-            "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
-            "url": "http://arxiv.org/abs/2607.22508v1",
-            "publishedAt": "2026-07-24T17:27:43Z",
-            "category": "cs.LG",
-            "authorCount": 7,
-            "firstAuthor": "Athanasios Papastathopoulos-Katsaros"
-          },
-          {
-            "title": "SafeStep: AI-powered Travel Assistance for Elderly People with Frailty or Dementia",
-            "url": "http://arxiv.org/abs/2607.21156v1",
-            "publishedAt": "2026-07-23T10:37:28Z",
-            "category": "cs.AI",
-            "authorCount": 4,
-            "firstAuthor": "Elderly People with Frailty or Dementia Azul Debenedetti"
-          },
-          {
-            "title": "A stability-preserving polytopal discontinuous Galerkin method for the Fisher-Kolmogorov model with applications to neurodegenerative diseases",
-            "url": "http://arxiv.org/abs/2607.21108v1",
-            "publishedAt": "2026-07-23T09:36:34Z",
-            "category": "math.NA",
-            "authorCount": 6,
-            "firstAuthor": "Paola Francesca Antonietti"
-          },
-          {
-            "title": "From Operations to Elderly Care Outcomes: A Thematic Review of Industrial Engineering and Decision-Support Approaches",
-            "url": "http://arxiv.org/abs/2607.19075v1",
-            "publishedAt": "2026-07-21T13:07:28Z",
-            "category": "math.OC",
-            "authorCount": 2,
-            "firstAuthor": "Shayan Farhang Pazhooh"
-          },
-          {
-            "title": "Caring Over Computing: An Ethical and Sociotechnical Perspective on Generative AI for Social Connectedness in Dementia Care",
-            "url": "http://arxiv.org/abs/2607.19007v1",
-            "publishedAt": "2026-07-21T11:44:43Z",
-            "category": "cs.HC",
-            "authorCount": 4,
-            "firstAuthor": "Teis Arets"
-          }
-        ]
-      },
-      "_insights": {
-        "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.446Z",
-        "method": "heuristic (rule-based, no LLM)",
-        "dataQuality": {
-          "score": 38,
-          "label": "低",
-          "signals": [
-            "アクティブソース 2/4",
-            "実観測 8 件",
-            "news×wiki 符号不一致"
-          ]
-        },
-        "verdict": {
-          "label": "観測不足",
-          "rationale": "観測基盤スコア 38/100 と低く、判定に足るデータが集まっていない (アクティブソース 2/4 / 実観測 8 件 / news×wiki 符号不一致)。1-2 週間の追加観測を待って再評価を推奨。"
-        },
-        "whyTrending": {
-          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -19% (計 2,666 PV)。加えて arXiv に直近30日で 2416 本の論文投稿 (主分野 cs.LG)。",
-          "signals": [
-            {
-              "icon": "📚",
-              "type": "wikipedia",
-              "text": "Wikipedia の閲覧が直近 30 日で -19% (計 2,666 PV) — 一般的な関心が落ち着いている兆候"
-            },
-            {
-              "icon": "🔬",
-              "type": "arxiv",
-              "text": "arXiv に直近30日で 2416 本の論文投稿 (主分野 cs.LG) — 研究者コミュニティが継続的に取り組み中"
-            }
-          ]
-        },
-        "momentum": {
-          "label": "成長中",
-          "score": 66,
-          "reason": "直近2日=133件 / 前5日平均比 +83%"
-        },
-        "beginnerFriendliness": {
-          "score": 35,
-          "label": "やや低い",
-          "signals": [
-            "既製アプリがない → 空白市場",
-            "Qiita 記事が少なく (0)、独学は手探り",
-            "arXiv 論文 2416 本、アカデミック障壁高"
-          ]
-        },
-        "competition": {
-          "score": 35,
-          "label": "やや競争",
-          "signals": [
-            "Qiita 執筆者 0 名、まだ少ない",
-            "arXiv 論文 2416 本 → 世界規模で研究が加熱"
-          ]
-        },
-        "audience": [
-          "介護家族 (親の健康を気にする 40-60代)",
-          "高齢者本人 (アクティブシニア層)",
-          "ケアマネ・介護事業者",
-          "製薬・ヘルスケア企業"
-        ],
-        "problems": [
-          "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待"
-        ],
-        "monetization": [
-          {
-            "title": "認知症予防プログラム講師",
-            "desc": "週次のオンライン運動 / 脳トレクラスを主催",
-            "barrier": "低",
-            "revenue": "月額 3,000-10,000円/人"
-          },
-          {
-            "title": "介護家族向けカウンセリング",
-            "desc": "孤立しがちな介護家族へのメンタルサポート",
-            "barrier": "中",
-            "revenue": "1回 5,000-15,000円"
-          },
-          {
-            "title": "シニア向け商品のキュレーション EC",
-            "desc": "転倒防止靴・見守りグッズ等の厳選 EC",
-            "barrier": "中",
-            "revenue": "粗利ベース"
-          }
-        ],
-        "content": [
-          {
-            "format": "YouTube",
-            "title": "「親の認知症、介護1年目のリアル」",
-            "angle": "ドキュメンタリー型で共感を取る"
-          },
-          {
-            "format": "Newsletter",
-            "title": "週次: 「認知症予防エビデンス最新」",
-            "angle": "arXiv/PubMed 由来で医療従事者にも刺さる"
-          },
-          {
-            "format": "ブログ",
-            "title": "「地方在住の親を東京から見守る」",
-            "angle": "検索意図の明確な悩み系"
-          }
-        ],
-        "saas": [
-          {
-            "title": "見守りアプリの家族版統合ダッシュボード",
-            "target": "離れて暮らす家族",
-            "hypothesis": "複数の見守りツール (センサ/カメラ/アプリ) が分散して見づらい"
-          },
-          {
-            "title": "認知機能セルフチェック定期便",
-            "target": "アクティブシニア本人",
-            "hypothesis": "早期発見の需要 vs 病院に行きたくない心理のギャップ"
-          }
-        ],
-        "similarThemes": [],
-        "nextActions": [
-          {
-            "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
-            "effort": "15 分/日",
-            "kind": "observe"
-          },
-          {
-            "label": "今日のアイデアを 1 つ書き出す",
-            "desc": "下記の収益化 / コンテンツ / SaaS 候補から 1 つ選び、対象顧客と仮説を 3 行でメモ。書き溜めが後で効いてくる。",
-            "effort": "10 分",
-            "kind": "ideate"
-          },
-          {
-            "label": "同じ課題を持つ人に共有する",
-            "desc": "このページの URL を Slack/X/知人に共有し、反応を集める。共感が集まればテーマとして有望。",
-            "effort": "5 分",
-            "kind": "validate"
-          }
-        ]
-      }
-    },
-    {
       "id": "remote-work",
       "title": "リモートワーク・ハイブリッド勤務",
       "category": "ビジネス",
-      "score": 41,
-      "change": -23,
-      "status": "下降",
+      "score": 49,
+      "change": 88,
+      "status": "急上昇",
       "summary": "出社回帰の流れの中で、柔軟な働き方への需要",
       "description": "出社回帰の流れの中で、柔軟な働き方への需要",
       "audience": [
@@ -5367,14 +4294,14 @@
         }
       ],
       "breakdown": {
-        "ニュース": -23
+        "ニュース": 88
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.926Z",
+      "updatedAt": "2026-07-29T00:19:21.346Z",
       "trendData": {
         "7d": [
-          1,
+          0,
           0,
           0,
           0,
@@ -5400,13 +4327,13 @@
           0,
           0,
           0,
-          0,
           1,
           0,
           0,
           1,
           1,
           1,
+          0,
           0,
           0,
           0,
@@ -5492,13 +4419,13 @@
           0,
           0,
           0,
-          0,
           1,
           0,
           0,
           1,
           1,
           1,
+          0,
           0,
           0,
           0,
@@ -5511,16 +4438,16 @@
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.27,
-        "growth": 0.44,
+        "growth": 0.72,
         "sourceDiversity": 0.5,
-        "freshness": 0.73,
+        "freshness": 0.72,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 52,
-        "prior5Days": 169,
+        "recent2Days": 97,
+        "prior5Days": 129,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=52件 / 前5日=169件"
+        "note": "直近2日=97件 / 前5日=129件"
       },
       "_relatedKeywords": [
         "在宅勤務",
@@ -5531,7 +4458,7 @@
         "出社"
       ],
       "_matchingArticleCount": 4,
-      "_keywordTrendTotal": 600,
+      "_keywordTrendTotal": 599,
       "_wikipediaDetail": {
         "articles": [
           "テレワーク"
@@ -5540,12 +4467,11 @@
           "テレワーク"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 723,
-        "totalPageviews7d": 254,
-        "totalPageviewsPrior7d": 139,
-        "growthPercent": 83,
+        "totalPageviews30d": 718,
+        "totalPageviews7d": 240,
+        "totalPageviewsPrior7d": 154,
+        "growthPercent": 56,
         "byDate": {
-          "2026-06-28": 25,
           "2026-06-29": 20,
           "2026-06-30": 19,
           "2026-07-01": 22,
@@ -5573,15 +4499,16 @@
           "2026-07-23": 31,
           "2026-07-24": 29,
           "2026-07-25": 15,
-          "2026-07-26": 106
+          "2026-07-26": 106,
+          "2026-07-27": 20
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
@@ -5662,7 +4589,7 @@
         "envelopeVersion": "1.0.0",
         "source": "appstore",
         "windowDays": 1,
-        "fetchedAt": "2026-07-28T00:21:04.859Z",
+        "fetchedAt": "2026-07-29T00:18:41.771Z",
         "requestCount": 2,
         "complete": true,
         "coverage": 1,
@@ -5671,16 +4598,16 @@
           "volume": null,
           "engagement": null,
           "contributors": null,
-          "latestActivityAt": "2026-07-27T17:21:04-07:00"
+          "latestActivityAt": "2026-07-28T17:18:42-07:00"
         },
         "nativeMetrics": {
-          "matchedAppCount": 2,
-          "uniquePublishers": 2,
-          "topFreeMatchCount": 2,
+          "matchedAppCount": 3,
+          "uniquePublishers": 3,
+          "topFreeMatchCount": 3,
           "topGrossingMatchCount": 0,
-          "bestRank": 51,
-          "averageRank": 71,
-          "rankWeightedScore": 60,
+          "bestRank": 33,
+          "averageRank": 50.7,
+          "rankWeightedScore": 151,
           "matchedApps": [
             {
               "appId": "1096918571",
@@ -5688,7 +4615,7 @@
               "publisher": "Google",
               "releaseDate": "2016-09-01T17:51:01-07:00",
               "category": "ソーシャルネットワーキング",
-              "rank": 51,
+              "rank": 33,
               "chart": "topfreeapplications"
             },
             {
@@ -5697,7 +4624,16 @@
               "publisher": "Zoom Communications, Inc.",
               "releaseDate": "2012-08-14T18:33:36-07:00",
               "category": "ビジネス",
-              "rank": 91,
+              "rank": 57,
+              "chart": "topfreeapplications"
+            },
+            {
+              "appId": "1113153706",
+              "name": "Microsoft Teams",
+              "publisher": "Microsoft Corporation",
+              "releaseDate": "2016-11-02T14:19:53-07:00",
+              "category": "ビジネス",
+              "rank": 62,
               "chart": "topfreeapplications"
             }
           ]
@@ -5722,14 +4658,14 @@
           "chartBreakdown": [
             {
               "chart": "topfreeapplications",
-              "feedUpdated": "2026-07-27T17:21:04-07:00",
+              "feedUpdated": "2026-07-28T17:18:42-07:00",
               "totalEntries": 100,
-              "matchCount": 2,
-              "bestRank": 51
+              "matchCount": 3,
+              "bestRank": 33
             },
             {
               "chart": "topgrossingapplications",
-              "feedUpdated": "2026-07-27T17:21:06-07:00",
+              "feedUpdated": "2026-07-28T17:18:43-07:00",
               "totalEntries": 100,
               "matchCount": 0,
               "bestRank": null
@@ -5740,7 +4676,7 @@
           {
             "name": "Google Meet",
             "publisher": "Google",
-            "rank": 51,
+            "rank": 33,
             "chart": "topfreeapplications",
             "appId": "1096918571",
             "category": "ソーシャルネットワーキング"
@@ -5748,9 +4684,17 @@
           {
             "name": "Zoom Workplace",
             "publisher": "Zoom Communications, Inc.",
-            "rank": 91,
+            "rank": 57,
             "chart": "topfreeapplications",
             "appId": "546505307",
+            "category": "ビジネス"
+          },
+          {
+            "name": "Microsoft Teams",
+            "publisher": "Microsoft Corporation",
+            "rank": 62,
+            "chart": "topfreeapplications",
+            "appId": "1113153706",
             "category": "ビジネス"
           }
         ]
@@ -5759,7 +4703,7 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
@@ -5780,8 +4724,8 @@
           "latestPaperPublished": "2026-07-04T05:49:23Z"
         },
         "meta": {
-          "searchQuery": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\" AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\" AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
@@ -5831,28 +4775,28 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.446Z",
+        "generatedAt": "2026-07-29T00:19:21.481Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
-          "score": 67,
-          "label": "中",
+          "score": 95,
+          "label": "高",
           "signals": [
             "アクティブソース 4/4",
-            "実観測 16 件",
-            "news×wiki 符号不一致"
+            "実観測 17 件",
+            "news×wiki 符号一致"
           ]
         },
         "verdict": {
-          "label": "認知拡大中",
-          "rationale": "Wikipedia 閲覧が +83% (計 723 PV) で一般関心が先行。実装コミュニティ (Qiita 10 件) はまだ形成中。"
+          "label": "様子見",
+          "rationale": "需要スコア 49/100、勢い 67/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
         },
         "whyTrending": {
-          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +83% (計 723 PV)。加えて Qiita に直近30日で 10 記事 (LGTM 合計 17)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 146 本の論文投稿 (主分野 cs.HC)。",
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で +56% (計 718 PV)。加えて Qiita に直近30日で 10 記事 (LGTM 合計 17)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 146 本の論文投稿 (主分野 cs.HC)。",
           "signals": [
             {
               "icon": "📚",
               "type": "wikipedia",
-              "text": "Wikipedia の閲覧が直近 30 日で +83% (計 723 PV) — 一般的な関心が高まっている兆候"
+              "text": "Wikipedia の閲覧が直近 30 日で +56% (計 718 PV) — 一般的な関心が高まっている兆候"
             },
             {
               "icon": "💬",
@@ -5867,7 +4811,7 @@
             {
               "icon": "📱",
               "type": "appstore",
-              "text": "App Store JP に 2 本の関連アプリが登場 (最高 #51) — 消費者向け市場として既に立ち上がり中"
+              "text": "App Store JP に 3 本の関連アプリが登場 (最高 #33) — 消費者向け市場として既に立ち上がり中"
             },
             {
               "icon": "🔑",
@@ -5877,15 +4821,15 @@
           ]
         },
         "momentum": {
-          "label": "減速",
-          "score": 25,
-          "reason": "直近2日=52件、前5日平均比 -23%"
+          "label": "成長中",
+          "score": 67,
+          "reason": "直近2日=97件 / 前5日平均比 +88%"
         },
         "beginnerFriendliness": {
           "score": 35,
           "label": "やや低い",
           "signals": [
-            "既製アプリが少数 (2件) → 差別化余地あり",
+            "既製アプリが少数 (3件) → 差別化余地あり",
             "Qiita 記事が少なく (10)、独学は手探り",
             "arXiv 論文 146 本、ある程度の学術素養が必要"
           ]
@@ -5894,7 +4838,7 @@
           "score": 40,
           "label": "やや競争",
           "signals": [
-            "App Store に 2 本 → 一定の競合",
+            "App Store に 3 本 → 一定の競合",
             "Qiita 執筆者 10 名、まだ少ない",
             "arXiv 論文 146 本 → 研究が進行中"
           ]
@@ -5989,7 +4933,7 @@
           },
           {
             "label": "既存アプリを 3 本触ってみる",
-            "desc": "App Store 上位: Google Meet (#51) / Zoom Workplace (#91)。何が既に解決されていて、何が残っているかを確認。",
+            "desc": "App Store 上位: Google Meet (#33) / Zoom Workplace (#57) / Microsoft Teams (#62)。何が既に解決されていて、何が残っているかを確認。",
             "effort": "2 時間",
             "kind": "compete"
           },
@@ -6009,81 +4953,708 @@
       }
     },
     {
-      "id": "home-server-selfhost",
-      "title": "自宅サーバー・セルフホスト",
+      "id": "ai-hardware",
+      "title": "AI向けハードウェア・計算基盤",
       "category": "AI・テクノロジー",
-      "score": 38,
-      "change": 39,
-      "status": "成長中",
-      "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
-      "description": "個人がサーバーを自宅で構築する「おうちラボ」需要",
+      "score": 46,
+      "change": 76,
+      "status": "急上昇",
+      "summary": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
+      "description": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
       "audience": [
-        "技術好きの個人 (ホビー層)",
-        "プライバシー志向のパワーユーザー",
-        "小規模チームの内製派エンジニア",
-        "クラウドコスト削減を狙う個人事業主"
+        "AI スタートアップの技術責任者",
+        "データセンター事業関係者",
+        "GPU / NPU リサーチャー",
+        "省エネ / グリーン IT 志向の投資家"
       ],
       "problems": [
-        "趣味でサーバを触り始めた人のおうちラボ紹介 基本サービスや構築・管理方法について",
-        "速い！安い！うまい！　「１万円で４０ギガ」光ファイバーイーサネット導入編",
-        "Proxmox 2ノードクラスタのquorum問題を Oracle Cloud Always Free で月額0円で…",
-        "VMware Cloud Foundation 入門④：VCF 9 インストール用デポトークンの取得方法"
+        "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)"
       ],
       "evidence": [
         {
           "type": "ニュース",
-          "title": "放置していた旧環境で見つけたReact2Shell攻撃の実態",
-          "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
-          "source": "Zenn",
-          "publishedAt": "2026-07-25T08:27:52.000Z",
+          "title": "NVIDIA、サツケバー氏のSSIと長期提携　「Vera Rubin」提供と出資で計算資源を10倍に",
+          "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000233/",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-28T07:37:41.000Z",
           "confidence": 0.7,
-          "checkedAt": "2026-07-25"
+          "checkedAt": "2026-07-28"
         },
         {
           "type": "ニュース",
-          "title": "自宅でサーバーを建てたいエンジニアにおすすめの構成",
-          "url": "https://zenn.dev/joeee/articles/048addcc0c2ce6",
-          "source": "Zenn",
-          "publishedAt": "2026-07-19T11:27:11.000Z",
+          "title": "フアンCEO「ジャパンAI構築はマストだ」　経産省、国産フィジカルAIで新プロジェクト　赤沢大臣も“革ジャン”羽織る",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/16/news107.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-16T14:00:00.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-16"
+        },
+        {
+          "type": "ニュース",
+          "title": "大手共同出資の“国産AI開発企業”が本格始動　NVIDIAも協力、「Rubin」2万7500基搭載の計算基盤を構築へ",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/16/news101.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-16T10:07:00.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-16"
+        },
+        {
+          "type": "ニュース",
+          "title": "フアンCEO「次の産業革命はメイド・イン・ジャパン」　富士通など4社、NVIDIA技術でフィジカルAIの事業検討",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/16/news073.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-16T03:56:00.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-16"
+        },
+        {
+          "type": "ニュース",
+          "title": "セガのゲーム、NVIDIA「RTX Spark」で遊べるように　秋葉原で協業30周年を祝う",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/15/news131.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-15T14:50:00.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-15"
+        }
+      ],
+      "businessOpportunities": [
+        {
+          "title": "GPU クラウド最適化コンサル",
+          "desc": "既存の GPU 利用を効率化するアドバイザリー"
+        },
+        {
+          "title": "AI 推論エッジ導入支援",
+          "desc": "製造業などのエッジ AI 案件の PoC 代行"
+        },
+        {
+          "title": "AI ハードウェア動向レポート販売",
+          "desc": "国内外ベンダー動向の定期レポート"
+        }
+      ],
+      "breakdown": {
+        "ニュース": 76
+      },
+      "sourceCount": 1,
+      "confidence": "参考レベル",
+      "updatedAt": "2026-07-29T00:19:21.346Z",
+      "trendData": {
+        "7d": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "30d": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "90d": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "_dataQuality": 0.41,
+      "_hasEnoughGrowthData": true,
+      "_scoreBreakdown": {
+        "newsVolume": 0.33,
+        "growth": 0.69,
+        "sourceDiversity": 0.25,
+        "freshness": 0.65,
+        "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
+      },
+      "_growthDetail": {
+        "recent2Days": 112,
+        "prior5Days": 159,
+        "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
+        "note": "直近2日=112件 / 前5日=159件"
+      },
+      "_relatedKeywords": [
+        "NVIDIA",
+        "Rubin",
+        "フィジカルAI",
+        "計算基盤",
+        "チップ"
+      ],
+      "_matchingArticleCount": 5,
+      "_keywordTrendTotal": 508,
+      "_wikipediaDetail": {
+        "articles": [
+          "NVIDIA"
+        ],
+        "articlesFetched": [
+          "NVIDIA"
+        ],
+        "articlesFailed": [],
+        "totalPageviews30d": 33036,
+        "totalPageviews7d": 3833,
+        "totalPageviewsPrior7d": 22150,
+        "growthPercent": -83,
+        "byDate": {
+          "2026-06-29": 442,
+          "2026-06-30": 427,
+          "2026-07-01": 395,
+          "2026-07-02": 495,
+          "2026-07-03": 409,
+          "2026-07-04": 338,
+          "2026-07-05": 376,
+          "2026-07-06": 401,
+          "2026-07-07": 413,
+          "2026-07-08": 446,
+          "2026-07-09": 441,
+          "2026-07-10": 577,
+          "2026-07-11": 396,
+          "2026-07-12": 356,
+          "2026-07-13": 524,
+          "2026-07-14": 617,
+          "2026-07-15": 2715,
+          "2026-07-16": 7593,
+          "2026-07-17": 4289,
+          "2026-07-18": 2941,
+          "2026-07-19": 2059,
+          "2026-07-20": 1122,
+          "2026-07-21": 1431,
+          "2026-07-22": 850,
+          "2026-07-23": 812,
+          "2026-07-24": 572,
+          "2026-07-25": 550,
+          "2026-07-26": 518,
+          "2026-07-27": 531
+        },
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
+      },
+      "_qiitaDetail": {
+        "envelopeVersion": "1.0.0",
+        "source": "qiita",
+        "windowDays": 30,
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
+        "requestCount": 3,
+        "complete": true,
+        "coverage": 1,
+        "errors": [],
+        "metrics": {
+          "volume": 71,
+          "engagement": 91,
+          "contributors": 47,
+          "latestActivityAt": "2026-07-28T14:57:05+09:00"
+        },
+        "nativeMetrics": {
+          "articleCount": 71,
+          "lgtmSum": 91,
+          "uniqueAuthors": 47,
+          "latestPublishedAt": "2026-07-28T14:57:05+09:00"
+        },
+        "meta": {
+          "tags": [
+            "GPU",
+            "NVIDIA",
+            "CUDA"
+          ],
+          "tagBreakdown": [
+            {
+              "tag": "GPU",
+              "totalCount": 40,
+              "fetched": 40,
+              "pages": 1,
+              "stoppedBy": "done"
+            },
+            {
+              "tag": "NVIDIA",
+              "totalCount": 27,
+              "fetched": 27,
+              "pages": 1,
+              "stoppedBy": "done"
+            },
+            {
+              "tag": "CUDA",
+              "totalCount": 16,
+              "fetched": 16,
+              "pages": 1,
+              "stoppedBy": "done"
+            }
+          ]
+        },
+        "topItems": [
+          {
+            "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録",
+            "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
+            "publishedAt": "2026-07-25T09:25:54+09:00",
+            "likes": 19,
+            "author": "nakatada-lab"
+          },
+          {
+            "title": "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)",
+            "url": "https://qiita.com/sukimaengineer/items/8ead6b3ae0789fa36add",
+            "publishedAt": "2026-07-17T14:52:31+09:00",
+            "likes": 16,
+            "author": "sukimaengineer"
+          },
+          {
+            "title": "GPUだけでLLMを動かす必要はない",
+            "url": "https://qiita.com/DanielOkada/items/8d25b244be168cbc0d6b",
+            "publishedAt": "2026-07-10T22:19:15+09:00",
+            "likes": 14,
+            "author": "DanielOkada"
+          },
+          {
+            "title": "コンシューマー機2台をRPCでつないで96GB相当のVRAMを作り、6つのオープンLLMを実測してみた",
+            "url": "https://qiita.com/faliye/items/ab3b7fe1da80be1874e1",
+            "publishedAt": "2026-07-18T00:16:35+09:00",
+            "likes": 6,
+            "author": "faliye"
+          },
+          {
+            "title": "ローカルLLM向けハードウェアを「容量・帯域・MoE・TTFT」で選ぶ",
+            "url": "https://qiita.com/softbase/items/de82b236830298db334c",
+            "publishedAt": "2026-07-22T00:56:13+09:00",
+            "likes": 6,
+            "author": "softbase"
+          }
+        ]
+      },
+      "_arxivDetail": {
+        "envelopeVersion": "1.0.0",
+        "source": "arxiv",
+        "windowDays": 30,
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
+        "requestCount": 1,
+        "complete": true,
+        "coverage": 1,
+        "errors": [],
+        "metrics": {
+          "volume": 322,
+          "engagement": null,
+          "contributors": 626,
+          "latestActivityAt": "2026-07-27T17:14:48Z"
+        },
+        "nativeMetrics": {
+          "paperCount": 322,
+          "uniqueAuthors": 626,
+          "avgAuthorsPerPaper": 6.4,
+          "primaryCategoryTop": "cs.CV",
+          "isAuthorsSampled": true,
+          "sampleSize": 100,
+          "latestPaperPublished": "2026-07-27T17:14:48Z"
+        },
+        "meta": {
+          "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
+          "maxResults": 100,
+          "sortBy": "submittedDate",
+          "sortOrder": "descending"
+        },
+        "topItems": [
+          {
+            "title": "Causal-TS: A Python Library for Causal Discovery in High-Dimensional and Nonstationary Time Series",
+            "url": "http://arxiv.org/abs/2607.24673v1",
+            "publishedAt": "2026-07-27T17:14:48Z",
+            "category": "cs.LG",
+            "authorCount": 1,
+            "firstAuthor": "Mohammad Fesanghary"
+          },
+          {
+            "title": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+            "url": "http://arxiv.org/abs/2607.24665v1",
+            "publishedAt": "2026-07-27T17:05:04Z",
+            "category": "cs.CV",
+            "authorCount": 6,
+            "firstAuthor": "Yanhao Jia"
+          },
+          {
+            "title": "From Data to Device: ELMOD An Efficient German-First 2.7B Language Model for Mobile Inference",
+            "url": "http://arxiv.org/abs/2607.24585v1",
+            "publishedAt": "2026-07-27T15:51:41Z",
+            "category": "cs.CL",
+            "authorCount": 7,
+            "firstAuthor": "Darina Gold"
+          },
+          {
+            "title": "EgoPlay: Event-Triggered Video Editing for Egocentric Streams",
+            "url": "http://arxiv.org/abs/2607.24560v1",
+            "publishedAt": "2026-07-27T15:31:23Z",
+            "category": "cs.CV",
+            "authorCount": 11,
+            "firstAuthor": "Jinjie Mai"
+          },
+          {
+            "title": "From transcription to semantic corpus analysis: unsupervised learning of sentence representations for ancient languages",
+            "url": "http://arxiv.org/abs/2607.24542v1",
+            "publishedAt": "2026-07-27T15:20:13Z",
+            "category": "cs.CL",
+            "authorCount": 1,
+            "firstAuthor": "Th{é}otime de la Selle"
+          }
+        ]
+      },
+      "_insights": {
+        "version": 2,
+        "generatedAt": "2026-07-29T00:19:21.482Z",
+        "method": "heuristic (rule-based, no LLM)",
+        "dataQuality": {
+          "score": 58,
+          "label": "中",
+          "signals": [
+            "アクティブソース 3/4",
+            "実観測 15 件",
+            "news×wiki 符号不一致"
+          ]
+        },
+        "verdict": {
+          "label": "実装フェーズ",
+          "rationale": "勢い 64/100、Qiita に 71 記事 (直近30日) で開発者コミュニティが実装ノウハウを積極共有中。技術で参入する好機。"
+        },
+        "whyTrending": {
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -83% (計 33,036 PV)。加えて Qiita に直近30日で 71 記事 (LGTM 合計 91)、技術者コミュニティで実装ノウハウが活発に共有中、arXiv に直近30日で 322 本の論文投稿 (主分野 cs.CV)。",
+          "signals": [
+            {
+              "icon": "📚",
+              "type": "wikipedia",
+              "text": "Wikipedia の閲覧が直近 30 日で -83% (計 33,036 PV) — 一般的な関心が落ち着いている兆候"
+            },
+            {
+              "icon": "💬",
+              "type": "qiita",
+              "text": "Qiita に直近30日で 71 記事 (LGTM 合計 91)、技術者コミュニティで実装ノウハウが活発に共有中"
+            },
+            {
+              "icon": "🔬",
+              "type": "arxiv",
+              "text": "arXiv に直近30日で 322 本の論文投稿 (主分野 cs.CV) — 研究者コミュニティが継続的に取り組み中"
+            },
+            {
+              "icon": "📰",
+              "type": "news",
+              "text": "ニュース記事 5 件が観測、報道による社会的関心の獲得段階"
+            },
+            {
+              "icon": "🔑",
+              "type": "keywords",
+              "text": "直近ニュースで頻出: 「NVIDIA」 / 「Rubin」 / 「フアン」 / 「CEO」 / 「ジャパン」"
+            }
+          ]
+        },
+        "momentum": {
+          "label": "成長中",
+          "score": 64,
+          "reason": "直近2日=112件 / 前5日平均比 +76%"
+        },
+        "beginnerFriendliness": {
+          "score": 55,
+          "label": "やや高い",
+          "signals": [
+            "既製アプリがない → 空白市場",
+            "Qiita に 71 記事、ノウハウ収集可",
+            "arXiv 論文 322 本、ある程度の学術素養が必要"
+          ]
+        },
+        "competition": {
+          "score": 40,
+          "label": "やや競争",
+          "signals": [
+            "arXiv 論文 322 本 → 研究が進行中",
+            "Wikipedia 月間 33,036 PV → 一般認知高、既存プレイヤー既に居る想定"
+          ]
+        },
+        "audience": [
+          "AI スタートアップの技術責任者",
+          "データセンター事業関係者",
+          "GPU / NPU リサーチャー",
+          "省エネ / グリーン IT 志向の投資家"
+        ],
+        "problems": [
+          "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)"
+        ],
+        "monetization": [
+          {
+            "title": "GPU クラウド最適化コンサル",
+            "desc": "既存の GPU 利用を効率化するアドバイザリー",
+            "barrier": "中",
+            "revenue": "スポット 50-300万円"
+          },
+          {
+            "title": "AI 推論エッジ導入支援",
+            "desc": "製造業などのエッジ AI 案件の PoC 代行",
+            "barrier": "中",
+            "revenue": "PoC 100-500万円"
+          },
+          {
+            "title": "AI ハードウェア動向レポート販売",
+            "desc": "国内外ベンダー動向の定期レポート",
+            "barrier": "低",
+            "revenue": "月額 3-10万円 (法人向け)"
+          }
+        ],
+        "content": [
+          {
+            "format": "ブログ",
+            "title": "「今週の AI 推論ハードウェア価格ウォッチ」",
+            "angle": "数値中心の資産型コンテンツ"
+          },
+          {
+            "format": "YouTube",
+            "title": "「自作 AI ワークステーション ビルド log」",
+            "angle": "ビルド動画は再生時間長く広告収益と親和性◎"
+          },
+          {
+            "format": "Newsletter",
+            "title": "月次: 「主要 GPU クラウド価格ベンチ」",
+            "angle": "継続比較で法人購読を狙う"
+          }
+        ],
+        "saas": [
+          {
+            "title": "GPU クラスタ稼働率可視化 SaaS",
+            "target": "AI スタートアップ",
+            "hypothesis": "高額 GPU を借りているが稼働率把握が甘い"
+          },
+          {
+            "title": "AI 推論コスト予測ツール",
+            "target": "事業サイド",
+            "hypothesis": "推論コストの予測ができず本番展開の意思決定が遅れる"
+          }
+        ],
+        "similarThemes": [
+          {
+            "id": "ai-business-automation",
+            "title": "AI業務自動化",
+            "category": "AI・テクノロジー",
+            "similarity": 0,
+            "sharedKeywords": []
+          },
+          {
+            "id": "ai-coding",
+            "title": "AI駆動のコード生成・開発支援",
+            "category": "AI・テクノロジー",
+            "similarity": 0,
+            "sharedKeywords": []
+          },
+          {
+            "id": "ai-regulation",
+            "title": "AI規制・安全性・プライバシー",
+            "category": "AI・テクノロジー",
+            "similarity": 0,
+            "sharedKeywords": []
+          }
+        ],
+        "nextActions": [
+          {
+            "label": "観測を1週間ウォッチする",
+            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "effort": "15 分/日",
+            "kind": "observe"
+          },
+          {
+            "label": "5 件のニュースから 3 つの悩み仮説を書く",
+            "desc": "本ページの「実際のニュース」を上から順に読み、共通する困りごとを 3 つに集約する。仮説メモを残せば来週の変化と照らせる。",
+            "effort": "30 分",
+            "kind": "analyze"
+          },
+          {
+            "label": "今日のアイデアを 1 つ書き出す",
+            "desc": "下記の収益化 / コンテンツ / SaaS 候補から 1 つ選び、対象顧客と仮説を 3 行でメモ。書き溜めが後で効いてくる。",
+            "effort": "10 分",
+            "kind": "ideate"
+          },
+          {
+            "label": "同じ課題を持つ人に共有する",
+            "desc": "このページの URL を Slack/X/知人に共有し、反応を集める。共感が集まればテーマとして有望。",
+            "effort": "5 分",
+            "kind": "validate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "senior-health",
+      "title": "高齢者向け健康・認知症予防",
+      "category": "健康",
+      "score": 45,
+      "change": 132,
+      "status": "急上昇",
+      "summary": "認知症・健康寿命の関心が高い需要",
+      "description": "認知症・健康寿命の関心が高い需要",
+      "audience": [
+        "介護家族 (親の健康を気にする 40-60代)",
+        "高齢者本人 (アクティブシニア層)",
+        "ケアマネ・介護事業者",
+        "製薬・ヘルスケア企業"
+      ],
+      "problems": [
+        "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待"
+      ],
+      "evidence": [
+        {
+          "type": "ニュース",
+          "title": "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/23/news116.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-23T09:19:00.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-23"
+        },
+        {
+          "type": "ニュース",
+          "title": "「仕事を辞めるとボケる」は本当なのか？　ベトナム高齢者2000人超を早大などが分析",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/17/news082.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-19T23:00:00.000Z",
           "confidence": 0.7,
           "checkedAt": "2026-07-19"
         },
         {
           "type": "ニュース",
-          "title": "趣味でサーバを触り始めた人のおうちラボ紹介 基本サービスや構築・管理方法について",
-          "url": "https://zenn.dev/pkkudo/articles/homelab-overview-hlv5",
-          "source": "Zenn",
-          "publishedAt": "2026-07-19T01:21:57.000Z",
+          "title": "サウナ週4回で認知症リスク66%減？　中年男性2000人以上を20年追跡したフィンランドの研究",
+          "url": "https://www.itmedia.co.jp/news/articles/2607/19/news004.html",
+          "source": "ITmedia",
+          "publishedAt": "2026-07-19T22:00:00.000Z",
           "confidence": 0.7,
           "checkedAt": "2026-07-19"
         }
       ],
       "businessOpportunities": [
         {
-          "title": "セルフホスト構築支援",
-          "desc": "Nextcloud/Home Assistant/Immich 等の初期構築代行"
+          "title": "認知症予防プログラム講師",
+          "desc": "週次のオンライン運動 / 脳トレクラスを主催"
         },
         {
-          "title": "ホームラボ機材のキュレーション販売",
-          "desc": "アフィリエイト + セットアップ動画で収益化"
+          "title": "介護家族向けカウンセリング",
+          "desc": "孤立しがちな介護家族へのメンタルサポート"
         },
         {
-          "title": "セルフホスト月額メンテナンス",
-          "desc": "アップデート・バックアップ確認を代行"
+          "title": "シニア向け商品のキュレーション EC",
+          "desc": "転倒防止靴・見守りグッズ等の厳選 EC"
         }
       ],
       "breakdown": {
-        "ニュース": 39
+        "ニュース": 132
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-07-28T15:21:01.926Z",
+      "updatedAt": "2026-07-29T00:19:21.347Z",
       "trendData": {
         "7d": [
-          0,
-          0,
-          0,
           1,
+          0,
+          0,
+          0,
           0,
           0,
           0
@@ -6108,14 +5679,14 @@
           0,
           0,
           0,
-          0,
           2,
           0,
           0,
           0,
-          0,
-          0,
           1,
+          0,
+          0,
+          0,
           0,
           0,
           0
@@ -6200,6 +5771,396 @@
           0,
           0,
           0,
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "_dataQuality": 0.4,
+      "_hasEnoughGrowthData": true,
+      "_scoreBreakdown": {
+        "newsVolume": 0.2,
+        "growth": 0.83,
+        "sourceDiversity": 0.25,
+        "freshness": 0.74,
+        "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
+      },
+      "_growthDetail": {
+        "recent2Days": 164,
+        "prior5Days": 177,
+        "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
+        "note": "直近2日=164件 / 前5日=177件"
+      },
+      "_relatedKeywords": [
+        "高齢者",
+        "介護",
+        "ボケ",
+        "認知症",
+        "サウナ"
+      ],
+      "_matchingArticleCount": 3,
+      "_keywordTrendTotal": 502,
+      "_wikipediaDetail": {
+        "articles": [
+          "認知症"
+        ],
+        "articlesFetched": [
+          "認知症"
+        ],
+        "articlesFailed": [],
+        "totalPageviews30d": 2687,
+        "totalPageviews7d": 576,
+        "totalPageviewsPrior7d": 677,
+        "growthPercent": -15,
+        "byDate": {
+          "2026-06-29": 77,
+          "2026-06-30": 85,
+          "2026-07-01": 90,
+          "2026-07-02": 94,
+          "2026-07-03": 96,
+          "2026-07-04": 82,
+          "2026-07-05": 97,
+          "2026-07-06": 93,
+          "2026-07-07": 86,
+          "2026-07-08": 91,
+          "2026-07-09": 109,
+          "2026-07-10": 103,
+          "2026-07-11": 79,
+          "2026-07-12": 85,
+          "2026-07-13": 89,
+          "2026-07-14": 78,
+          "2026-07-15": 111,
+          "2026-07-16": 100,
+          "2026-07-17": 127,
+          "2026-07-18": 88,
+          "2026-07-19": 88,
+          "2026-07-20": 79,
+          "2026-07-21": 84,
+          "2026-07-22": 108,
+          "2026-07-23": 78,
+          "2026-07-24": 74,
+          "2026-07-25": 96,
+          "2026-07-26": 104,
+          "2026-07-27": 116
+        },
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
+      },
+      "_arxivDetail": {
+        "envelopeVersion": "1.0.0",
+        "source": "arxiv",
+        "windowDays": 30,
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
+        "requestCount": 1,
+        "complete": true,
+        "coverage": 1,
+        "errors": [],
+        "metrics": {
+          "volume": 2421,
+          "engagement": null,
+          "contributors": 398,
+          "latestActivityAt": "2026-07-27T15:14:50Z"
+        },
+        "nativeMetrics": {
+          "paperCount": 2421,
+          "uniqueAuthors": 398,
+          "avgAuthorsPerPaper": 4.6,
+          "primaryCategoryTop": "cs.LG",
+          "isAuthorsSampled": true,
+          "sampleSize": 100,
+          "latestPaperPublished": "2026-07-27T15:14:50Z"
+        },
+        "meta": {
+          "searchQuery": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\" AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
+          "maxResults": 100,
+          "sortBy": "submittedDate",
+          "sortOrder": "descending"
+        },
+        "topItems": [
+          {
+            "title": "RemiAssist: A Therapist-Supporting System for Photo-Based Reminiscence Therapy in Dementia Care",
+            "url": "http://arxiv.org/abs/2607.24536v1",
+            "publishedAt": "2026-07-27T15:14:50Z",
+            "category": "cs.HC",
+            "authorCount": 10,
+            "firstAuthor": "Shuchang Xu"
+          },
+          {
+            "title": "Stress-Testing EEG Foundation Models for Clinical Decoding: Dataset Identity and Targeted Negative Controls",
+            "url": "http://arxiv.org/abs/2607.24519v1",
+            "publishedAt": "2026-07-27T14:59:42Z",
+            "category": "cs.LG",
+            "authorCount": 1,
+            "firstAuthor": "Marzieh Zare"
+          },
+          {
+            "title": "From read-out geometry to in-silico stimulation: a distributed functional-connectivity signature of Alzheimer's disease",
+            "url": "http://arxiv.org/abs/2607.24356v1",
+            "publishedAt": "2026-07-27T12:32:54Z",
+            "category": "q-bio.NC",
+            "authorCount": 6,
+            "firstAuthor": "Cristiano Capone"
+          },
+          {
+            "title": "Disentangling Acoustic Cues in Alzheimer's Pathology and Perception: The Roles of Language and Gender",
+            "url": "http://arxiv.org/abs/2607.23977v1",
+            "publishedAt": "2026-07-27T04:02:57Z",
+            "category": "cs.SD",
+            "authorCount": 8,
+            "firstAuthor": "Liu He"
+          },
+          {
+            "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
+            "url": "http://arxiv.org/abs/2607.22508v1",
+            "publishedAt": "2026-07-24T17:27:43Z",
+            "category": "cs.LG",
+            "authorCount": 7,
+            "firstAuthor": "Athanasios Papastathopoulos-Katsaros"
+          }
+        ]
+      },
+      "_insights": {
+        "version": 2,
+        "generatedAt": "2026-07-29T00:19:21.482Z",
+        "method": "heuristic (rule-based, no LLM)",
+        "dataQuality": {
+          "score": 38,
+          "label": "低",
+          "signals": [
+            "アクティブソース 2/4",
+            "実観測 8 件",
+            "news×wiki 符号不一致"
+          ]
+        },
+        "verdict": {
+          "label": "観測不足",
+          "rationale": "観測基盤スコア 38/100 と低く、判定に足るデータが集まっていない (アクティブソース 2/4 / 実観測 8 件 / news×wiki 符号不一致)。1-2 週間の追加観測を待って再評価を推奨。"
+        },
+        "whyTrending": {
+          "headline": "主な観測: Wikipedia の閲覧が直近 30 日で -15% (計 2,687 PV)。加えて arXiv に直近30日で 2421 本の論文投稿 (主分野 cs.LG)。",
+          "signals": [
+            {
+              "icon": "📚",
+              "type": "wikipedia",
+              "text": "Wikipedia の閲覧が直近 30 日で -15% (計 2,687 PV) — 一般的な関心が落ち着いている兆候"
+            },
+            {
+              "icon": "🔬",
+              "type": "arxiv",
+              "text": "arXiv に直近30日で 2421 本の論文投稿 (主分野 cs.LG) — 研究者コミュニティが継続的に取り組み中"
+            }
+          ]
+        },
+        "momentum": {
+          "label": "加速",
+          "score": 86,
+          "reason": "直近2日=164件 / 前5日平均比 +132% (直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出))"
+        },
+        "beginnerFriendliness": {
+          "score": 35,
+          "label": "やや低い",
+          "signals": [
+            "既製アプリがない → 空白市場",
+            "Qiita 記事が少なく (0)、独学は手探り",
+            "arXiv 論文 2421 本、アカデミック障壁高"
+          ]
+        },
+        "competition": {
+          "score": 35,
+          "label": "やや競争",
+          "signals": [
+            "Qiita 執筆者 0 名、まだ少ない",
+            "arXiv 論文 2421 本 → 世界規模で研究が加熱"
+          ]
+        },
+        "audience": [
+          "介護家族 (親の健康を気にする 40-60代)",
+          "高齢者本人 (アクティブシニア層)",
+          "ケアマネ・介護事業者",
+          "製薬・ヘルスケア企業"
+        ],
+        "problems": [
+          "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待"
+        ],
+        "monetization": [
+          {
+            "title": "認知症予防プログラム講師",
+            "desc": "週次のオンライン運動 / 脳トレクラスを主催",
+            "barrier": "低",
+            "revenue": "月額 3,000-10,000円/人"
+          },
+          {
+            "title": "介護家族向けカウンセリング",
+            "desc": "孤立しがちな介護家族へのメンタルサポート",
+            "barrier": "中",
+            "revenue": "1回 5,000-15,000円"
+          },
+          {
+            "title": "シニア向け商品のキュレーション EC",
+            "desc": "転倒防止靴・見守りグッズ等の厳選 EC",
+            "barrier": "中",
+            "revenue": "粗利ベース"
+          }
+        ],
+        "content": [
+          {
+            "format": "YouTube",
+            "title": "「親の認知症、介護1年目のリアル」",
+            "angle": "ドキュメンタリー型で共感を取る"
+          },
+          {
+            "format": "Newsletter",
+            "title": "週次: 「認知症予防エビデンス最新」",
+            "angle": "arXiv/PubMed 由来で医療従事者にも刺さる"
+          },
+          {
+            "format": "ブログ",
+            "title": "「地方在住の親を東京から見守る」",
+            "angle": "検索意図の明確な悩み系"
+          }
+        ],
+        "saas": [
+          {
+            "title": "見守りアプリの家族版統合ダッシュボード",
+            "target": "離れて暮らす家族",
+            "hypothesis": "複数の見守りツール (センサ/カメラ/アプリ) が分散して見づらい"
+          },
+          {
+            "title": "認知機能セルフチェック定期便",
+            "target": "アクティブシニア本人",
+            "hypothesis": "早期発見の需要 vs 病院に行きたくない心理のギャップ"
+          }
+        ],
+        "similarThemes": [],
+        "nextActions": [
+          {
+            "label": "観測を1週間ウォッチする",
+            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "effort": "15 分/日",
+            "kind": "observe"
+          },
+          {
+            "label": "今日のアイデアを 1 つ書き出す",
+            "desc": "下記の収益化 / コンテンツ / SaaS 候補から 1 つ選び、対象顧客と仮説を 3 行でメモ。書き溜めが後で効いてくる。",
+            "effort": "10 分",
+            "kind": "ideate"
+          },
+          {
+            "label": "同じ課題を持つ人に共有する",
+            "desc": "このページの URL を Slack/X/知人に共有し、反応を集める。共感が集まればテーマとして有望。",
+            "effort": "5 分",
+            "kind": "validate"
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-server-selfhost",
+      "title": "自宅サーバー・セルフホスト",
+      "category": "AI・テクノロジー",
+      "score": 41,
+      "change": 72,
+      "status": "急上昇",
+      "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
+      "description": "個人がサーバーを自宅で構築する「おうちラボ」需要",
+      "audience": [
+        "技術好きの個人 (ホビー層)",
+        "プライバシー志向のパワーユーザー",
+        "小規模チームの内製派エンジニア",
+        "クラウドコスト削減を狙う個人事業主"
+      ],
+      "problems": [
+        "趣味でサーバを触り始めた人のおうちラボ紹介 基本サービスや構築・管理方法について",
+        "速い！安い！うまい！　「１万円で４０ギガ」光ファイバーイーサネット導入編",
+        "Proxmox 2ノードクラスタのquorum問題を Oracle Cloud Always Free で月額0円で…",
+        "VMware Cloud Foundation 入門④：VCF 9 インストール用デポトークンの取得方法"
+      ],
+      "evidence": [
+        {
+          "type": "ニュース",
+          "title": "放置していた旧環境で見つけたReact2Shell攻撃の実態",
+          "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
+          "source": "Zenn",
+          "publishedAt": "2026-07-25T08:27:52.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-25"
+        },
+        {
+          "type": "ニュース",
+          "title": "自宅でサーバーを建てたいエンジニアにおすすめの構成",
+          "url": "https://zenn.dev/joeee/articles/048addcc0c2ce6",
+          "source": "Zenn",
+          "publishedAt": "2026-07-19T11:27:11.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-19"
+        },
+        {
+          "type": "ニュース",
+          "title": "趣味でサーバを触り始めた人のおうちラボ紹介 基本サービスや構築・管理方法について",
+          "url": "https://zenn.dev/pkkudo/articles/homelab-overview-hlv5",
+          "source": "Zenn",
+          "publishedAt": "2026-07-19T01:21:57.000Z",
+          "confidence": 0.7,
+          "checkedAt": "2026-07-19"
+        }
+      ],
+      "businessOpportunities": [
+        {
+          "title": "セルフホスト構築支援",
+          "desc": "Nextcloud/Home Assistant/Immich 等の初期構築代行"
+        },
+        {
+          "title": "ホームラボ機材のキュレーション販売",
+          "desc": "アフィリエイト + セットアップ動画で収益化"
+        },
+        {
+          "title": "セルフホスト月額メンテナンス",
+          "desc": "アップデート・バックアップ確認を代行"
+        }
+      ],
+      "breakdown": {
+        "ニュース": 72
+      },
+      "sourceCount": 1,
+      "confidence": "参考レベル",
+      "updatedAt": "2026-07-29T00:19:21.346Z",
+      "trendData": {
+        "7d": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "30d": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           2,
           0,
@@ -6210,6 +6171,99 @@
           1,
           0,
           0,
+          0,
+          0
+        ],
+        "90d": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
           0
         ]
       },
@@ -6217,16 +6271,16 @@
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.2,
-        "growth": 0.6,
+        "growth": 0.68,
         "sourceDiversity": 0.25,
-        "freshness": 0.76,
+        "freshness": 0.74,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
-        "recent2Days": 154,
-        "prior5Days": 276,
+        "recent2Days": 171,
+        "prior5Days": 249,
         "window": "直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)",
-        "note": "直近2日=154件 / 前5日=276件"
+        "note": "直近2日=171件 / 前5日=249件"
       },
       "_relatedKeywords": [
         "サーバ",
@@ -6237,7 +6291,7 @@
         "構築"
       ],
       "_matchingArticleCount": 3,
-      "_keywordTrendTotal": 604,
+      "_keywordTrendTotal": 602,
       "_wikipediaDetail": {
         "articles": [
           "自宅サーバ"
@@ -6246,12 +6300,11 @@
           "自宅サーバ"
         ],
         "articlesFailed": [],
-        "totalPageviews30d": 187,
-        "totalPageviews7d": 40,
-        "totalPageviewsPrior7d": 38,
-        "growthPercent": 5,
+        "totalPageviews30d": 191,
+        "totalPageviews7d": 39,
+        "totalPageviewsPrior7d": 45,
+        "growthPercent": -13,
         "byDate": {
-          "2026-06-28": 5,
           "2026-06-29": 4,
           "2026-06-30": 12,
           "2026-07-01": 12,
@@ -6279,15 +6332,16 @@
           "2026-07-23": 4,
           "2026-07-24": 8,
           "2026-07-25": 3,
-          "2026-07-26": 8
+          "2026-07-26": 8,
+          "2026-07-27": 9
         },
-        "fetchedAt": "2026-07-28T00:19:13.782Z"
+        "fetchedAt": "2026-07-29T00:16:53.755Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
         "source": "qiita",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:19:16.783Z",
+        "fetchedAt": "2026-07-29T00:16:57.481Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
@@ -6353,7 +6407,7 @@
         "envelopeVersion": "1.0.0",
         "source": "arxiv",
         "windowDays": 30,
-        "fetchedAt": "2026-07-28T00:21:07.355Z",
+        "fetchedAt": "2026-07-29T00:18:44.410Z",
         "requestCount": 1,
         "complete": true,
         "coverage": 1,
@@ -6374,8 +6428,8 @@
           "latestPaperPublished": "2026-07-23T05:31:17Z"
         },
         "meta": {
-          "searchQuery": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab) AND submittedDate:[202606280000 TO 202607280000]",
-          "dateFilter": "202606280000 TO 202607280000",
+          "searchQuery": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab) AND submittedDate:[202606290000 TO 202607290000]",
+          "dateFilter": "202606290000 TO 202607290000",
           "maxResults": 100,
           "sortBy": "submittedDate",
           "sortOrder": "descending"
@@ -6425,20 +6479,20 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-28T15:21:04.446Z",
+        "generatedAt": "2026-07-29T00:19:21.482Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
-          "score": 79,
-          "label": "高",
+          "score": 53,
+          "label": "中",
           "signals": [
             "アクティブソース 3/4",
             "実観測 12 件",
-            "news×wiki 符号一致"
+            "news×wiki 符号不一致"
           ]
         },
         "verdict": {
           "label": "様子見",
-          "rationale": "需要スコア 38/100、勢い 55/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
+          "rationale": "需要スコア 41/100、勢い 63/100、明確な拡大 or 鎮静 signal は観測されていない。次の 1-2 週間の変化を待って再評価。"
         },
         "whyTrending": {
           "headline": "このテーマは観測範囲が薄く、明確な伸びの理由を特定できません。",
@@ -6446,8 +6500,8 @@
         },
         "momentum": {
           "label": "成長中",
-          "score": 55,
-          "reason": "直近2日=154件 / 前5日平均比 +39%"
+          "score": 63,
+          "reason": "直近2日=171件 / 前5日平均比 +72%"
         },
         "beginnerFriendliness": {
           "score": 50,
@@ -6571,6 +6625,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-28T15:21:04.446Z",
+  "insightsGeneratedAt": "2026-07-29T00:19:21.482Z",
   "insightsMethod": "heuristic-v1"
 }

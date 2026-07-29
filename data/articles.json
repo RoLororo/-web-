@@ -1,5 +1,695 @@
 [
   {
+    "id": "fc6783901d8b288d",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "【県まとめ】2人死亡 3人心肺停止 少なくとも9人安否不明",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015189221000",
+    "publishedAt": "2026-07-29T00:07:29.000Z",
+    "summary": "熊本県によりますと、29日午前7時現在で死者が2人、心肺停止の状態が3人、安否不明が少なくとも9人となっています。",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "22617d92a3eab281",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "東京 八丈町が避難指示 土砂災害警戒区域の住民が対象",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015189421000",
+    "publishedAt": "2026-07-28T23:54:44.000Z",
+    "summary": "東京 八丈町は、29日午前7時51分、「土砂災害警戒区域」の住民を対象に避難指示を出しました。多目的ホール「おじゃれ」に避難所を開設しています。",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "7acaec787295060d",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本で震度7 最新映像から分かること【災害担当デスクが解説】",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015189371000",
+    "publishedAt": "2026-07-28T23:49:08.000Z",
+    "summary": "今回の熊本地震について、社会部の藤島デスクの解説です。",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "3c055302b0d3a3ee",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "OpenAIやAnthropicなどの従業員、米政府に「AI開発のペース調整を」と提言",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000255/",
+    "publishedAt": "2026-07-28T23:26:08.000Z",
+    "summary": "OpenAIやGoogleなどの従業員1000人以上が、AI開発のペース調整に向けた国際的支援を米政府に求める公開書簡を発表した。AI自律化の急速な加速に伴う制御不能リスクを指摘し、開発速度の調整に必要なツール開発を訴える。企業主導のオープンモデル規制回避を求める動きとは対照的な提起となった。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "0409abeb4f57d039",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "熊本地震でTeslaのスーパーチャージャー無料開放　熊本、福岡など九州10カ所",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000257/",
+    "publishedAt": "2026-07-28T23:11:28.000Z",
+    "summary": "対象は、熊本、宮崎、大分、鹿児島の各1カ所と、福岡県（北九州、福岡、福岡?東、福岡?博多駅南、福岡?中洲川端、福岡?西）の6カ所で、計10カ所。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "8370ee767716fa39",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "広い範囲で厳しい暑さ 熊本など地震の被災地でも熱中症対策を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015189271000",
+    "publishedAt": "2026-07-28T23:07:38.000Z",
+    "summary": "29日も東北から九州・沖縄にかけての広い範囲で気温が上がり、28日に震度7の激しい揺れを観測した熊本県など地震の被災地でも猛暑日となるところがある見込みです。熱中症対策を徹底してください。一方、前線の…",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "8e6e3f8ec2017010",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Anthropicのミュトス、暗号アルゴリズムの新たな攻撃法を発見――耐量子署名「HAWK」の強度を半減",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000256/",
+    "publishedAt": "2026-07-28T22:50:56.000Z",
+    "summary": "Anthropicは、最上位モデル「Claude Mythos Preview」（ミュトス）を活用し、暗号アルゴリズム自体の数学的欠陥を発見したと発表した。耐量子計算機暗号の署名方式「HAWK」と「AES」の削減版に対し、従来の攻撃を上回る手法を提示した。実運用システムへの影響はないものの、AIによる暗号解読や構造解析の新たな可能性を示す成果となる。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "addaa731157a7e4e",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "イオンモール熊本で爆発 地震でガス漏れか 2人死亡1人心肺停止",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015188721000",
+    "publishedAt": "2026-07-28T22:25:34.000Z",
+    "summary": "震度7の揺れを観測した熊本県では、地震のあとの午後6時ごろ嘉島町のショッピングセンター「イオンモール熊本」で爆発が起きました。熊本県によりますと、29日午前4時までに建物から8人が救助されましたが、2…",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "54480ef975be5e0e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "AI新世紀：皆がコード書ける時代…プログラミング学ぶ意味は　開発者の見解 | 毎日新聞",
+    "url": "https://mainichi.jp/articles/20260728/k00/00m/040/190000c",
+    "publishedAt": "2026-07-28T22:19:31.000Z",
+    "summary": "多くの仕事が人工知能（AI）に置き換わる時代を迎えた。中でも強い影響を受けているのがIT業界で、海外では大規模な人員削減が進む。日本国内の学校では近年、プログラミング教育が導入されたばかりだが、AIがコードを書いてくれる時代に、細かな技術を学ぶ必要はあるのか。プログラミング言語「Ruby」（ルビー）の開発...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "63c7595b642b115f",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本 八代 日本製紙の工場 2人心肺停止 9人安否不明",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015188691000",
+    "publishedAt": "2026-07-28T22:18:31.000Z",
+    "summary": "総務省消防庁によりますと、震度6強の揺れを観測し、煙突が崩落するなどの被害が出た熊本県八代市の日本製紙の八代工場では、午後10時までに、地元の消防から「救助が必要な人が9人いる」という報告が寄せられた…",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "46657a9fd146f0ca",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "“脳のゴミ”は鼻から捨てられていた？　老化で詰まる排出路、薬を鼻から投与で改善　韓国主導チーム研究",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000226/",
+    "publishedAt": "2026-07-28T22:00:00.000Z",
+    "summary": "韓国の基礎科学研究院やKAISTなどに所属する研究者らがCellで発表した論文「CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics」は、脳の老廃物を運ぶ「脳脊髄液」が、嗅球（においを感じる領域）周辺のくも膜の穴から鼻へと抜けて排出される詳細な経路を解明した研究報告だ。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "9ca680ca95efb620",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "海外売上3倍超！　とあるラミネーターメーカーが挑んだ日米「商慣習の壁」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000225/",
+    "publishedAt": "2026-07-28T22:00:00.000Z",
+    "summary": "グローバルニッチは高い技術力を持つ一方で、知名度が実力に比べて劣り、ITを駆使して海外でのブランディングや販売に生かしていることも多い。この連載では、こうした企業のIT戦略をインタビューで深堀りする。印刷物をラミネートする機械を製造・販売するラミーコーポレーションを取り上げる。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "e3b82158fcc18f89",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "イオンモール熊本で爆発 2人死亡 1人心肺停止 熊本県 | NHKニュース",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015189291000",
+    "publishedAt": "2026-07-28T20:47:44.000Z",
+    "summary": "熊本県によりますと、地震のあと爆発があった嘉島町のショッピングセンター「イオンモール熊本」で、29日午前4時現在、8人が建物内から救助されました。 このうち20代の女性2人が死亡し、1人が心肺停止の…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "67c45557983a44b6",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本県内の各病院にけが人多数搬送 停電で機能停止の病院も",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015188851000",
+    "publishedAt": "2026-07-28T20:18:17.000Z",
+    "summary": "今回の地震で、熊本県内の各医療機関にはけがをした人が大勢搬送されるなどしていて、中には停電などの影響で病院としての機能が停止しているところもあります。",
+    "fetchedAt": "2026-07-29T00:11:10.368Z"
+  },
+  {
+    "id": "6d3384016f95b32f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "家に佐川急便サポートセンターを名乗る者から“荷物の事で話がある”と電話が→デタラメの名前を言ったらこうなった",
+    "url": "https://togetter.com/li/2725872",
+    "publishedAt": "2026-07-28T19:55:41.000Z",
+    "summary": "けい @gorotsuyoshin さっき、家の電話に、詐欺電話がかかってきた 『佐川急便サポートセンターです お荷物のお荷物の事でお話があります』と 近所に郵便局や、クロネコさんがあるで、佐川さんは使ってないんやけどな〜 電話に出たら、『愛媛県の松山空港にお荷物があります』ゆうの、私の名前も聞かずに ん？！思った...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "61b47e6af0d0a96a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「高速道路終わった」令和8年熊本地震の影響で破断した高速道路に嘆く人がいるが…実はこれによって倒壊していないのでむしろ勝利だという話",
+    "url": "https://togetter.com/li/2725861",
+    "publishedAt": "2026-07-28T16:50:29.000Z",
+    "summary": "【熊本で震度7】高速道路の一部に段差 専門家「非常に浅い地震…建物全般に大きな被害か」 今後に「有明海を震源とする地震も考えた方がいい」｜FNNプライムオンライン 熊本県で最大震度7の地震が発生した。気象庁によると、この地震は28日午後4時27分頃に発生した。震源は熊本県熊本地方で深さは約10キロ、地震の規模...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "ed47d53df6e27c6b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "施設で働いている友人曰く「絶対に訴えないのでこの子（利用者）を脱走させるか何かして始末してほしい」ということを言ってくる親が実際にいるらしい→障碍を持つ人の家族が抱えるシビアな本音にまつわる話",
+    "url": "https://togetter.com/li/2725820",
+    "publishedAt": "2026-07-28T16:34:21.000Z",
+    "summary": "あさの すたじおちきん @sugapiyo 津久井やまゆり園の事件、報道はあまりされないが保護者が「うちの子がしんでくれて良かった」と言ってるパターンもあるんだよね。 そこに至るまでについて考えてる人って福祉職の人でもどれだけいるんだろうとは思う。 2026-07-27 09:13:18 けいこ @keikoru 今日ちょうど施設で働いて...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "8fe23e046bb2255c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "道の駅で女性から「乗せてください」と言われて快諾したら、彼氏が登場→道中勝手に菓子を食うし、ずっと2人で喋ってるし、しまいに「貧乏旅行だから寄付ください」と言われたので最寄りの警察署に捨てたことがある",
+    "url": "https://togetter.com/li/2725817",
+    "publishedAt": "2026-07-28T16:34:08.000Z",
+    "summary": "フロクロ山 @sento_cub 京都居た時ヒッチハイカー乗せたことある。次の日休みで暇だったから最終目的地まで送ってあげるよって言ったら旅序盤だったらしくクルマを乗り継ぐのを楽しみたいので県境あたりで下ろしてくださいってタクシーみたいなこと言われたことはある( 'ω')… x.com/mokonumiyako/s… 2026-07-27 13:19:40...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "029c27ccc04e0562",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "熊本 八代 用水路の水 農業用ハウスより高く跳ね上がる | NHKニュース",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015189171000",
+    "publishedAt": "2026-07-28T16:08:48.000Z",
+    "summary": "28日の地震で震度6強の揺れを観測した熊本県八代市内で撮影された防犯カメラの映像です。 農業用ハウスと道路の間を流れる用水路の水が、地震の揺れで波打ってハウスよりも高く跳ね上がり、道路に一斉にあふれ…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "efa8f82e0a7656dc",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "熊本地震の緊急支援募金、「Yahoo!ネット募金」が受付開始　PayPayやVポイント、クレカに対応",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000253/",
+    "publishedAt": "2026-07-28T15:05:42.000Z",
+    "summary": "LINEヤフーは7月28日、同日発生した「令和8年熊本地震」の緊急支援募金の受け付けを「Yahoo!ネット募金」で始めた。ピースウィンズ・ジャパンなど7団体の募金プロジェクトを掲載し、PayPayやクレジットカード、Vポイントで寄付できる。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "399dca509ea87eb3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[10話]ヒトナー - 屋宜知宏 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255561725753",
+    "publishedAt": "2026-07-28T15:00:32.000Z",
+    "summary": "ヒトナー 屋宜知宏 ケモノが住む最果ての星に一人の地球人が訪れる。獣人たちは初めて目にする\"ヒト\"の姿に揺れ動く。異種族交流の中で変化するケモ社会・・・『アイアンナイト』、『レッドスプライト』の屋宜知宏が描くハートフル異種族観察物語!! [JC1巻9/4発売予定]",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "7b71848b614e2482",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "蚊ニキ - 望月ころも | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255561725673",
+    "publishedAt": "2026-07-28T15:00:29.000Z",
+    "summary": "蚊ニキ 望月ころも 私のお兄ちゃんは蚊。嫌いとかではないけど、まあまあ鬱陶しい。でもなんでだろう。いつものお兄ちゃんとのうざい日常を過ごしているだけなのに、何かを忘れているような気がする…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "a26b5b75f599542c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "従業員に誘導され避難、その後爆発　イオンモール熊本にいた人語る：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV7X3VP2V7XUTIL02SM.html",
+    "publishedAt": "2026-07-28T14:45:29.000Z",
+    "summary": "最大震度7を記録した「令和8年熊本地震」で、イオンモール熊本（熊本県嘉島町）の2階部分が崩落した。爆発が起きた可能性がある。当時、何が起きたのか。地震発生時、店内にいた人たちが体験を語った。 モール…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "31714153c1ef69ff",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "携帯各社、熊本の一部で通信障害　震度7の地震で　他社回線につながる「JAPANローミング」開始【追記】",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000247/",
+    "publishedAt": "2026-07-28T14:37:45.000Z",
+    "summary": "NTTドコモやKDDIなどの携帯各社は7月28日、熊本県で最大震度7を観測した地震の影響で、一部地域の携帯電話サービスが利用できない、または利用しづらい状況が発生していると発表した。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "ba6d8e508f231765",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "イオンモール熊本の爆発、ガス漏れか？　専門家が指摘する可能性：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV7X4434V7XUTFL027M.html",
+    "publishedAt": "2026-07-28T14:29:18.000Z",
+    "summary": "イオンモール熊本（熊本県嘉島町）で28日、地震後に起きた爆発の原因について、専門家は設備から漏れたガスによる可能性を指摘する。 東京理科大学の桑名一徳教授（火災科学）は一般論として、「地震によって損…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "b5e148433b5cc069",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Windows 11 でローカルアカウントを作成する方法【2026年7月時点】",
+    "url": "https://w1.zawa-lab.net/p/20260728_oobe_bypass/",
+    "publishedAt": "2026-07-28T13:55:41.000Z",
+    "summary": "この記事は Claude を用いて執筆しています。 ただし、実際の検証・判断は手元の Windows 環境で行った結果に基づいており、内容は実体験ベースで整理しています。 Windows 11 のセットアップで Microsoft アカウントを要求されて先に進めないとき、コマンド 1 行でローカルアカウントを作成する手順です。 まず手順だけ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "2f23c2890dd62ebc",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "NHKのネットサービスが受信契約なしで閲覧可能に　熊本地震受け緊急対応",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000250/",
+    "publishedAt": "2026-07-28T13:13:12.000Z",
+    "summary": "7月28日午後4時27分ごろに発生した「令和8年熊本地震」を受け、NHKのインターネットサービス「NHK ONE」が、誰でも閲覧できるようになっている。通常は受信契約者のみアクセス可能だが、緊急対応として防災情報などを公開している。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "bd0b2a63424cb2a6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "チームみらい「安野党首vs.高山幹事長」内ゲバが止まらない《“国論を二分する法案”を巡る議論で…》 | 週刊文春",
+    "url": "https://bunshun.jp/denshiban/articles/b14532",
+    "publishedAt": "2026-07-28T13:09:43.000Z",
+    "summary": "少数与党の参議院では2票差という僅差で可決され、成立した副首都法案。決定打となったのは、安野貴博党首（35）率いるチームみらい会派の「2票」だった 政治部記者の解説。 「みらいは、副首都法案にIT技術の活用、国会に対する報告規定を追記することを条件に野党会派の中で唯一賛成を表明した。しかし、いまどきIT技...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "4eae43455752354c",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "熊本で非常時Wi-Fi「00000JAPAN」発動中　KDDIが無料開放、他社ユーザーも利用可",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000246/",
+    "publishedAt": "2026-07-28T13:03:11.000Z",
+    "summary": "熊本県で7月28日午後4時27分ごろ、最大震度7の地震が発生した。KDDIと傘下のワイヤ・アンド・ワイヤレスは同日午後8時以降、災害用統一SSID「00000JAPAN」で公衆無線LANの無料開放を始めた。IDやパスワードは不要で利用できる。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "454e46ddb21cd5b7",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「Xが情報収集に役立たない……」熊本地震で不満の声続出　「Twitterを返して」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000249/",
+    "publishedAt": "2026-07-28T13:00:17.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "593b5ef94c5efc11",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "CAMPFIRE、令和8年熊本地震の義援金をクラウドファンディングで募集",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000248/",
+    "publishedAt": "2026-07-28T12:49:02.000Z",
+    "summary": "CAMPFIREは、7月28日に発生した令和8年熊本地震を受け、クラウドファンディングの仕組みを使って緊急災害支援金の募集を始めた。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "6ceb71268a4b5b65",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "チームみらいの2票が副首都法案成立の決定打「『IT技術の活用』さえ明記すれば賛成する便利な集団と映っている」「与党の“チームけらい”との声まで」 | 文春オンライン",
+    "url": "https://bunshun.jp/articles/-/90725",
+    "publishedAt": "2026-07-28T12:10:44.000Z",
+    "summary": "少数与党の参議院では2票差という僅差で可決され、成立した副首都法案。決定打となったのは、安野貴博党首（35）率いるチームみらい会派の「2票」だった。 国会審議で深刻な“内ゲバ”が 政治部記者の解説。 「みらいは、副首都法案にIT技術の活用、国会に対する報告規定を追記することを条件に野党会派の中で唯一賛成を表...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "a2caa90dd6e09876",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "CHARGESPOT、熊本県84カ所でバッテリー無料開放　震度7の地震受け　Ankerも支援表明",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000242/",
+    "publishedAt": "2026-07-28T12:06:14.000Z",
+    "summary": "7月28日に熊本県で最大震度7を観測する地震が発生したことを受け、モバイルバッテリーを手掛ける複数の企業が被災地への支援を表明している。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "25340197f9c5ece2",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "GMO、浅田真央さん旧ドメイン問題後に表記修正　優良中古ドメインは「AIが選定」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000230/",
+    "publishedAt": "2026-07-28T11:59:54.000Z",
+    "summary": "「SEO対策に最適」「アフィリエイトサイトに」「新規サービス・商品サイトに」としていたランキング項目はそれぞれ、「外部リンク数上位」「ドメインオーソリティ上位」「短い文字数」に変更した。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "6dab8b774947d42d",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "X Money、米国で提供開始　送金・預金がXアプリ内で　年最大6％の利回りやメタル製カードも",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000240/",
+    "publishedAt": "2026-07-28T11:57:45.000Z",
+    "summary": "米Xは7月27日（現地時間）、金融サービス「X Money」の提供を米国のX PremiumとPremium+の加入者向けに始めた。招待制のβ版を経た本格展開で、預金残高には最大で年6.00％の利息が付く。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "eeb81188108177ef",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "トヨタ、熊本県で発生した地震に伴う「通れた道マップ」を公開",
+    "url": "https://car.watch.impress.co.jp/docs/news/2128665.html",
+    "publishedAt": "2026-07-28T11:55:17.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "8768ac918988de16",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "コメ在庫増に農家悲鳴「備蓄米早期買い戻しを」　政府静観のワケは？：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV7X36BBV7XULFA029M.html",
+    "publishedAt": "2026-07-28T11:50:49.000Z",
+    "summary": "記録的なコメ在庫の積み上がりが報告された28日の農林水産省の有識者会議は、備蓄米の早期買い戻しを求める農家らの声でほぼ一色に染まった。だが、農水省は、買い戻しは今秋に収穫するコメの作柄を見極めてから…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "2449d8c98f249caa",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「子供の目に触れぬよう」……国民・玉木氏、エロ広告規制の意義強調も「表現の自由は党是」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000245/",
+    "publishedAt": "2026-07-28T11:44:59.000Z",
+    "summary": "国民民主党の玉木雄一郎代表は先の特別国会に提出した通称「エロ広告規制法案」について、党内で勉強会を開き、内容を見直す可能性に言及した。「同じ内容で再提出していいのかどうか。見直すところ、アップデートできるところはないのか。謙虚に真摯に議論を行いたい」と語った。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "69e0f635ed5fcc8c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「作ること」と「価値を生むこと」はなぜズレるのか：アウトプットと価値の断絶を乗り越える / Why \"Building\" and \"Delivering Value\" Diverge",
+    "url": "https://speakerdeck.com/aki_iinuma/why-building-and-delivering-value-diverge",
+    "publishedAt": "2026-07-28T11:44:15.000Z",
+    "summary": "CEDEC2026招待講演",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "497fc52dd1a6cdb9",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "はてな、11億円流出の調査報告書を公開　偽警察、口外禁止、残業・休出200時間超、孤立……ほころびが連鎖",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000238/",
+    "publishedAt": "2026-07-28T11:37:14.000Z",
+    "summary": "はてなは2026年7月24日、約11億円の資金流出事案に関する特別調査委員会の調査報告書を公開した。経理部長が警察関係者を名乗る詐欺グループの指示でリモート操作アプリを実行し、業務用PCを乗っ取られていたほか、社内体制の不備も明らかになった。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "be5115af4cbb1530",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "大型ショッピングモールが「LPガス災害バルク」を備えた理由 ニュースイッチ by 日刊工業新聞社",
+    "url": "https://newswitch.jp/p/31688",
+    "publishedAt": "2026-07-28T11:34:31.000Z",
+    "summary": "地震、大雪、台風、洪水など、近年の日本では激甚災害に見舞われることが多い。災害によって電気や都市ガスなどのインフラがストップすれば、我々の生活は大打撃を受ける。真夏や真冬であれば、暑さや寒さで体調を崩すこともあるだろうし、調理もできず、風呂に入ることもできない。インフラが復旧するまで不自由な生活...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "d93ecdcf6e758c0f",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "堀場製作所、熊本県西原村の工場「大きな人的、物的被害ない」　半導体製品でシェア首位",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000244/",
+    "publishedAt": "2026-07-28T11:32:48.000Z",
+    "summary": "堀場製作所は28日、震度6弱を観測した熊本県西原村にある半導体製造装置関連の機器を生産する阿蘇工場について、「大きな人的、物的被害は今のところない」と明らかにした。29日以降の操業は未定という。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "51f60e820f9064bc",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "データベース「PostgreSQL」がどのように実際には内部で動いているかがシムシティっぽい3Dでわかる「PGSimCity」",
+    "url": "https://gigazine.net/news/20260728-pgsimcity-postgresql/",
+    "publishedAt": "2026-07-28T11:29:10.000Z",
+    "summary": "PostgreSQLは世界中で広く使われているデータベース管理システムですが、SQLを実行したときに内部でどのプロセスが動き、データがどのようにメモリやディスクへ読み書きされるのかを直感的に把握するのは簡単ではありません。そんなPostgreSQLの内部構造を、シムシティのような3D都市として可視化してくれるウェブアプリ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "98bb0d6db0d98f4c",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "台湾半導体大手TSMC、熊本工場の状況確認中、従業員は屋外避難　所在エリアは震度5強",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000243/",
+    "publishedAt": "2026-07-28T11:29:00.000Z",
+    "summary": "半導体大手、台湾積体電路製造（TSMC）日本法人の担当者によると、熊本県で最大震度7を観測した地震を受け、同県内にあるTSMCの工場について状況を確認している。従業員も屋外に避難し、安全が確認されるまで待機しているという。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "710dc1cb78a35b13",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「３食フライドポテト」で中学生はなぜ死んだのか…司法解剖で見えてきた「500円生活」の過酷な現実 | 集英社オンライン",
+    "url": "https://shueisha.online/articles/-/258197",
+    "publishedAt": "2026-07-28T11:14:57.000Z",
+    "summary": "肛門の出口付近には相当に硬い便が大量にあり、それが排便を妨げていたのでしょう。死体検案書に記した死因は「便秘による宿便性腸閉塞」、つまり便が腸内に長期滞留したため、腸管が塞がって消化物やガスが腸を通過できない腸閉塞の一種です。 突然の愛娘の死を前に、ご両親が深い悲しみに暮れるのは当然です。死の直後...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "ed30812fba676618",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【速報】イオンモール熊本「多くの安否不明者がいるとみられる」熊本県の関係者 | TBS NEWS DIG",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2833377",
+    "publishedAt": "2026-07-28T10:55:55.000Z",
+    "summary": "熊本県の関係者への取材によりますと、少なくとも震度5弱以上を観測し、建物が崩壊している嘉島町のイオンモール熊本について「多くの死者がいると見られる。正確な死者数の確認には時間がかかりそうだ」というこ…",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "095ef4078eb9eed7",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "日本人スタッフ不在のチームが作った「日本らしさ」。「Forza Horizon 6」文化アドバイザーが語る2年半の実務［CEDEC 2026］",
+    "url": "https://www.4gamer.net/games/948/G094864/20260728040/",
+    "publishedAt": "2026-07-28T10:54:09.000Z",
+    "summary": "日本人スタッフ不在のチームが作った「日本らしさ」。「Forza Horizon 6」文化アドバイザーが語る2年半の実務［CEDEC 2026］ ライター：白夢 「Forza Horizon 6」が描く日本は，驚くほど現実の日本に近い。プレイヤーからは「若いころに夜中に車を走らせていたときの空気感を思い出した」「僕は東京には数回しか行ったこ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "8629de8ef740708f",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "通信各社の災害用伝言サービスやLINEの「安否確認」が稼働　熊本県で最大震度7の地震",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000239/",
+    "publishedAt": "2026-07-28T10:00:44.000Z",
+    "summary": "28日の午後4時27分ごろに熊本県熊本地方で発生した最大震度7の地震を受け、通信各社の災害用伝言サービスやLINEの「＃LINE安否確認」が稼働している。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "68eb4e9547676b97",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "40歳になってから気づいたけど、もしかして人生って「自宅」「自家用車」「愛する配偶者」「子供」を揃えるゲームなん？→肯定派否定派が入り乱れる",
+    "url": "https://togetter.com/li/2725703",
+    "publishedAt": "2026-07-28T09:36:02.000Z",
+    "summary": "40歳になってから気づいたけど、もしかして人生って「自宅」「自家用車」「愛する配偶者」「子供」を揃えるゲームなん？→肯定派否定派が入り乱れる",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "854c7f1e4c5d10c3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "中国の対沖縄工作の目的・意味・成果を考える①",
+    "url": "https://ysd.theletter.jp/posts/0a27f4b1-54ce-4cd8-b73f-ba00624dd8b8",
+    "publishedAt": "2026-07-28T09:34:47.000Z",
+    "summary": "前回記事で、中国の沖縄平和団体に対するいろんな動きを紹介しました。また、私は過去にも、東京の秋葉原にあった中国海外派出所と同系統の在沖縄華人団体（福建系）が、玉城デニー知事の腹心の県議に食い込んでいたとか、中国のいろんな部門が沖縄の学生を対象に無料中国ツアーを仕掛けまくっているとか、いろんなヤバ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "13a4c43d014449d9",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「高市早苗応援団」に政治資金規正法違反の疑い",
+    "url": "https://gendai.media/articles/-/169312",
+    "publishedAt": "2026-07-28T09:34:46.000Z",
+    "summary": "次々と浮上した疑惑に答えないまま、国会幕引きへ逃げ込みを図る高市総理。しかし、その足元で政権を揺るがしかねない火種が燻っている。 【前編を読む】高市総理秘書が自民党青年局LINEに投下した「石破ゴキブリ写真」の衝撃…事務所が火消しに走る理由 高市氏を総理に押し上げた「応援団」の正体高市事務所の木下剛志所...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "70afde5a9d01dee3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ヤモリの足裏を科学した米軍の装備、粘着剤なしで垂直壁を走る驚異の技術* | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+    "url": "https://forbesjapan.com/articles/detail/101739",
+    "publishedAt": "2026-07-28T09:34:23.000Z",
+    "summary": "米国防高等研究計画局（DARPA）は2014年、「Z-Man」と呼ばれるプログラムの成果を公開した。それは、体重90kg超のクライマーが約23kgの荷物を背負い、ロープもハーネスも吸盤も使わず、2つの接着パドルだけを使って、ガラスでできた高さ約7.6mの垂直壁を上るというデモンストレーションだった。 こんな離れ業が可能にな...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "b40c9644e6cb6c8c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Sakana AI、「Fable 5」越えを達成した「Fugu-Ultra」v1.1を発表／「Claude Code」互換エンドポイントも実装",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2128581.html",
+    "publishedAt": "2026-07-28T09:16:14.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "baf30ef46a70ba91",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Angine de Poitrine、フジロックの新たな伝説に──ドット柄の宇宙人、異次元マスロックで巻き起こした狂喜の宴 | Rolling Stone Japan(ローリングストーン ジャパン）",
+    "url": "https://rollingstonejapan.com/articles/detail/45117",
+    "publishedAt": "2026-07-28T08:24:56.000Z",
+    "summary": "HOME Angine de Poitrine、フジロックの新たな伝説に──ドット柄の宇宙人、異次元マスロックで巻き起こした狂喜の宴 7月26日（日）、フジロック3日目に出演したアンジーヌ・ド・ポワトリーヌ（Angine de Poitrine）。今回は彼らの国内盤レコード『Vol.1』『Vol.2』のライナーノーツを執筆し、さらにnoteでも彼らについて...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "ab08b070fd5bf310",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Anthropic「一律禁止は提唱していない」　オープンウェイト支持書簡への不参加を説明",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000231/",
+    "publishedAt": "2026-07-28T08:03:28.000Z",
+    "summary": "米Anthropicのダリオ・アモデイCEOが、オープンウェイトモデルを巡る同社の立場を公表した。「一律禁止は求めていない」と強調する一方、安全性向上や防御側の優位性には疑問を呈した。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "8b6cd9a2079b89d4",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「痺れるほどにミスを繰り返す」Gemini 3.6 Flashは変わった？　公開から1週間、当初のおバカ回答を今検証する",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000229/",
+    "publishedAt": "2026-07-28T07:56:51.000Z",
+    "summary": "「痺れるほどにミスを繰り返す」 Xで回答の精度について話題になったGoogleの「Gemini 3.6 Flash」の公開から約1週間経過した。当初報告された数値比較の誤答や架空の魚への回答を改めて検証した。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "f729decf48228653",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "新「マイナアプリ」8月25日提供開始　“端末ロック”必須に",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000228/",
+    "publishedAt": "2026-07-28T07:52:46.000Z",
+    "summary": "第三者による不正利用を防ぐため、スマートフォンにPINや顔認証、指紋認証などによるロックが必須で、未設定の場合は利用できない。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "d4cd3c6525c1c1a6",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Duolingo、マンガ・アニメ化へ編集者募集　年収最大2576万円、「ちいかわ」のような朝の番組枠目標",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000234/",
+    "publishedAt": "2026-07-28T07:51:42.000Z",
+    "summary": "想定される年間基本給は1717万8000円?2576万7100円。加えて株式報酬を支給する。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "b9edda138be633e5",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始　学習用にサービスやコード実行など可能に",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000235/",
+    "publishedAt": "2026-07-28T07:49:23.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "7fb18d14aca682c3",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "NVIDIA、サツケバー氏のSSIと長期提携　「Vera Rubin」提供と出資で計算資源を10倍に",
+    "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000233/",
+    "publishedAt": "2026-07-28T07:37:41.000Z",
+    "summary": "NVIDIAと、OpenAI共同創業者のイリヤ・サツケバー氏率いるSafe Superintelligence（SSI）が、長期的な戦略的提携を発表した。NVIDIAはSSIに出資し、次世代プラットフォーム「Vera Rubin」へのアクセスを提供する。これによりSSIは計算資源を1桁（約10倍）拡大できるという。NVIDIAは、厳重に秘匿されてきたSSIの研究内容への異例のアクセスを得た上で提携に踏み切ったとしている。",
+    "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "62586f7599cc28e8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "髙嶋政伸さんがエッセイ「インティマシーコーディネーター」を無料公開した理由　「おつむの良い子は長居しない」インタビュー｜好書好日",
+    "url": "https://book.asahi.com/article/16745100",
+    "publishedAt": "2026-07-28T07:02:35.000Z",
+    "summary": "髙嶋政伸さん＝松嶋愛撮影 表舞台を諦めた顔のしるし ほくろがあった頃、父・高島忠夫と一緒に＝本人提供 ――初のエッセイ集となりました。執筆のきっかけは？ 2017年に初めての子が生まれたとき、言葉がいっぱい頭に浮かんできてどうしようもなくなったんです。そうした言葉を繋げて短編小説や詩にしたのですが、それが...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "af06578e52c05b8c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "農水省、2025年放出の備蓄米を買い戻しへ　新米価格の大幅下落を抑制 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUB121HS0S6A710C2000000/",
+    "publishedAt": "2026-07-28T06:23:56.000Z",
+    "summary": "農林水産省が2025年に計59万トン放出した政府備蓄米について買い戻しを実施することが28日、わかった。実施時期や数量は26年産米の作柄などをみて8月下旬にも判断する。鈴木憲和農相は28日の閣議後記者会見で、「全国の作柄が8月末にはおおよそ分かってくるので、その状況を踏まえどの程度買い戻しするか判断したい」と...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "7129022a49cded1f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【分析】多数の共和党支持者含む米国民、資本主義への信頼失う　世論調査で浮き彫りに",
+    "url": "https://www.cnn.co.jp/usa/35251016.html",
+    "publishedAt": "2026-07-28T05:37:08.000Z",
+    "summary": "現在の米国政治におけるより大きな流れは、社会主義の台頭というよりも、資本主義や経済的公正さに対する信頼の低下かもしれない/Michael Nagle/Bloomberg/Getty Images （CNN） トランプ米大統領は、今年の中間選挙に向けた主な戦略はことあるごとに民主党を「社会主義者」、さらには「共産主義者」と呼ぶことだと示唆...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "a94d4472eb2ed2ef",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)",
+    "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+    "publishedAt": "2026-07-28T04:40:29.000Z",
+    "summary": "ごまんと触れられてきた話題であるのにも関わらず、細かい所に手の届くツールが無かったので作成しました。 有名どころから個人で制作されているツールまで、一通り使わせていただいたのですが実際に困った場面があり・・・ サマリ 課題 同じプロジェクトでCodexとClaude Codeの両方を使っているとき、AGENTS.mdやSKILLSなどの変更が片方にしか適用されない 同期ツールは出ているものの、自動コピーやSymlinkの作成に留まり、差分があることを想定していない 目指すこと 設定ファイル群の自動同期 同期項目の制御 差分がある場合のマージサポート やっ…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
+    "id": "897d5bcb7a25014c",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Microsoft APM を試してみる　(npmと対比しながら）",
+    "url": "https://zenn.dev/xtm_blog/articles/f016695e2839ee",
+    "publishedAt": "2026-07-28T04:31:05.000Z",
+    "summary": "Claude CodeやCodexの設定をチームで揃える「Microsoft APM」入門 ─ npmとの対比で理解する はじめに Claude CodeやCodexなどのAIエージェントを使い続けていると、instructions、skills、MCPなどの設定が少しずつ増えていきます。 自分だけで使ううちは、ローカルへファイルを置いたり、必要なものをコピーしたりするだけでも困りません。ただ、複数のAIエージェントをチームで使い始めると、次のようなズレが出てきます。 人によって入っているものが違う 更新しても他のメンバーに反映されない 新しく参加した人…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
+    "id": "3b0b8d380e37e6e9",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "料理コラムニスト・山本ゆり氏が、今までで最大のレシピ数を誇る「夏休みを乗り切るレシピ」集を紹介し、多数の反響… 「火を使わないご飯もの25選」や「レンジで作れる冷凍うどん23選」など",
+    "url": "https://togetter.com/li/2725599",
+    "publishedAt": "2026-07-28T03:35:35.000Z",
+    "summary": "山本ゆり（syunkon レンジは600W) @syunkon0507 お待たせしました… 夏休みを乗り切るレシピまとめました！ 今までで最大のレシピ数！アメブロは最近広告が入るんでnoteに書いてます。 忙しい方、疲れてる方に届きますように🙏 火を使わないご飯もの25選 note.com/syunkon0507/n/… フライパン1つでできるご飯20選 note.co...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "dc9e451bc1e85cf7",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ファーストペンギン・レクイエム - タダノなつ / 第2話 ドアの向こうは | くらげバンチ",
+    "url": "https://kuragebunch.com/episode/12207421983906416214",
+    "publishedAt": "2026-07-28T03:10:34.000Z",
+    "summary": "ファーストペンギン・レクイエム タダノなつ 人知れず深淵に潜む ［怪異］。それと対峙しなければならない者たちがいる。――その名は「リーダーズ（先導隊）」。人類守護を強制された憐れなファーストペンギンたちである。自身の出自さえ知らないリーダーズの少女、キノとアズは、いつか自由の身になることを夢見て今日も...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "2aad6cbc7040f9f3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "平沢進の特別仕様ギターが誕生、きっかけは「平沢と申します」と書かれたメール（コメントあり） - 音楽ナタリー",
+    "url": "https://natalie.mu/music/news/682692",
+    "publishedAt": "2026-07-28T03:08:40.000Z",
+    "summary": "平沢進の特別仕様ギターモデル「CK1_Mayan Quetzal（マヤン・ケツァル）」の受注販売が、国産エレキギターメーカーCaramel's Guitar Kitchen（CGK）のオフィシャルオンラインショップでスタートした。 平沢進とは？ 1954年生まれ、東京都出身のプロデューサー / マルチプレイヤー。1979年にP-MODELのメンバーとしてデビ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "278a6ffe478abd14",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "はい！美術タイトルです vol.9 ｜ フジテレビジュツのヒミツ - フジテレビ",
+    "url": "https://www.fujitv.co.jp/bijutsu/graphic/column/vol9.html",
+    "publishedAt": "2026-07-28T00:43:21.000Z",
+    "summary": "『3時のあなた』『TIME3』『美味しんぼ倶楽部』『ジョーダンじゃない！』など、主に情報番組の手書きテロップを担当していた加藤啓次さんは、開局当初から在籍したスタッフの一人です。 『新春スターかくし芸大会』『唄子・啓介のおもろい夫婦』『キンカン素人民謡名人戦』など、いくつもの番組でメインタイトルのデザイ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
     "id": "2b71a2eb741a75b8",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -18,6 +708,26 @@
     "publishedAt": "2026-07-27T23:29:00.000Z",
     "summary": "ロンドン発のテクノロジーブランド、Nothingから最新のワイヤレスイヤフォン「Ear (3a)」が登場しました。デザインと基本性能の高さに加え、今回の目玉といえるのが「オーディオスナップショット」という機能です。",
     "fetchedAt": "2026-07-28T00:13:21.209Z"
+  },
+  {
+    "id": "05ed0851c498d6b7",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "【速報】Kimi-K3 を Day0 デプロイ。2.8T モデルは NVIDIA B300 x8 の 1 ノードで動くのか",
+    "url": "https://zenn.dev/fixstars/articles/kimi-k3-benchmark",
+    "publishedAt": "2026-07-27T23:19:53.000Z",
+    "summary": "はじめに 2026年7月27日、Moonshot AI から Kimi-K3 のモデルウェイトが公開されました。7月16日のモデル発表時点から「オープンウェイトモデルとして史上最大」と大きな話題になっていたモデルです。 フィックスターズでは、ウェイト公開の当日に NVIDIA B300 x8 のシングルノード環境へデプロイし、推論性能のベンチマークを実施しました。本記事はその速報です。ダウンロード開始からベンチマーク完了まで、リリース当日のうちに一通り走り切ることができました。 Kimi-K3 とは Kimi-K3 は Moonshot AI が開発した…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
+    "id": "6e3bb415647a907d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「たぶん猫界の橋本環奈」と言われた元保護猫→納得の姿に「まぶしっ」「な、なんという美猫」「異論なし！」（1/3） | 猫 ねとらぼ",
+    "url": "https://nlab.itmedia.co.jp/cont/articles/3946909/",
+    "publishedAt": "2026-07-27T23:19:43.000Z",
+    "summary": "子猫時代から成長すると…… 画像を投稿したのは、Threadsユーザーの「kae」（@e.k.coco）さん。普段は日常の様子や愛猫たちの写真を投稿しています。 今回話題を呼んだのは、「うちの子、保護した猫で元野良猫なんだけど、猫界でもトップクラスの美猫に成長したと思うの。多分猫界の橋本環奈」というコメントとともに紹介...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
   },
   {
     "id": "1c472f5e5a604ed5",
@@ -88,6 +798,16 @@
     "publishedAt": "2026-07-27T22:10:41.000Z",
     "summary": "A post by Dario Amodei, Anthropic CEO Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. In respon…",
     "fetchedAt": "2026-07-28T00:13:21.484Z"
+  },
+  {
+    "id": "e455009f82a1ad1b",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Agentic RLではtool callを含むtrajectoryをどう学習するのか",
+    "url": "https://zenn.dev/takkuhiro/articles/agentic-rl-trajectory-mechanics",
+    "publishedAt": "2026-07-27T22:00:05.000Z",
+    "summary": "数学やコードの強化学習は、モデルに解答を出力させて、最後に正誤で点数をつけます。ではtool callを使うエージェントはどうでしょうか。エージェントは 思考 → tool call → 実行結果 → 思考 → tool call → … と何度も環境とやり取りし、その一連の流れ（trajectory）で1つのタスクを解きます。この流れ全体を、どうやって1つの学習信号に変換して重みを動かすのか。 tool useを持つエージェントを環境との相互作用の中でRLする領域は、Agentic RLと呼ばれます（まだ新しい用語であり指す範囲に揺れがあるため、この記…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
   },
   {
     "id": "d701ce9cb61c91fa",
@@ -370,6 +1090,16 @@
     "fetchedAt": "2026-07-28T00:13:21.484Z"
   },
   {
+    "id": "982e05523bd517f3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "注目集めた“AIキャラ生活観察ゲーム”開発元、「今も開発継続中」と生存報告。NPCたちの暮らしを眺め、“介入”もできるゲーム - AUTOMATON",
+    "url": "https://automaton-media.com/articles/newsjp/20260727-456882/",
+    "publishedAt": "2026-07-27T10:55:32.000Z",
+    "summary": "国内デベロッパーのEmemeは7月27日、AI-NPC行動観察バラエティゲーム『EmemeTown』について、体験や仕様を見直しながら、現在も開発を続けていると報告した。 本作は、旧称『Ememe』として2023年12月に発表され、PC（Steam/Epic Gamesストア）向けに、当初は2024年夏の早期アクセス配信が計画されていた。 NPCは、それぞ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
     "id": "48347d1a11b0f956",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -500,6 +1230,26 @@
     "fetchedAt": "2026-07-28T00:13:21.484Z"
   },
   {
+    "id": "dfeb120d99af5c11",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "コードレビューでの見落としをきっかけに『ITエンジニア1年目の教科書』を読んだ",
+    "url": "https://zenn.dev/flinters_blog/articles/eeb769c9331de1",
+    "publishedAt": "2026-07-27T06:46:05.000Z",
+    "summary": "はじめまして。株式会社FLINTERS BASEの河本です。 現在は、親会社であるFLINTERSに派遣され、データエンジニアとして働いています。 はじめに 業務でコードレビューを行った際、コードに含まれていたミスを見抜けなかったことがありました。 また、実装内容が正しいことを確認するためのエビデンスが不足していたにもかかわらず、その点を指摘できていませんでした。 コードレビューでは、コードを読むだけでなく、処理が要件を満たしているか、テストやエビデンスが十分かまで確認する必要があります。 今回の経験から、個々の技術を覚えるだけでなく、確認方法や仕事への…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
+    "id": "0cd54ca207d15a7c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【夏休みを乗り切る】レンジで作れるパスタ＆ワンパンパスタまとめ22選｜山本ゆり",
+    "url": "https://note.com/syunkon0507/n/nf362f3c066ba",
+    "publishedAt": "2026-07-27T06:33:20.000Z",
+    "summary": "◆トマトと大葉の冷たいスパゲティ この調味料の組み合わせが美味しい！ (レシピ⇒ブログ・Twitter・Instagram) 主な材料：トマト、大葉、パスタ、マヨネーズ、すりゴマ、オリーブ油、にんにく、だしの素◆究極に簡単なベーコンとキャベツのペペロンチーノ 食べる器に全部入れてチン！「世界一受けたい授業」で紹介したレシ...",
+    "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
     "id": "383ad6c6008e0f40",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -580,6 +1330,16 @@
     "fetchedAt": "2026-07-28T00:13:21.209Z"
   },
   {
+    "id": "d7d95210c88c8aad",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "非同期処理版mutex",
+    "url": "https://zenn.dev/mutex_inc/articles/async_serialization_20260721",
+    "publishedAt": "2026-07-27T02:50:05.000Z",
+    "summary": "mutex, Inc. でエンジニアをしている加藤です。業務では TypeScript・Dart を書くことが多いです。 はじめに 当社の名前でもある mutex をタイトルに掲げるのは少し気が引けるのですが、非同期関数の競合問題を、tony の知見を借りて mutex の考え方で解決できたので、このタイトルで記事にします。詳しい方には既知の話かもしれませんが、実務でこの構造に出会った一例の紹介です。 前提：この記事で扱う状況 きっかけは、Flutter アプリで record パッケージ（当時 ^6.2.0）を使った録音機能の開発でした。この記事ではこ…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
     "id": "19446b737f4541eb",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -608,6 +1368,16 @@
     "publishedAt": "2026-07-27T00:31:05.000Z",
     "summary": "はじめに ここ数ヶ月で働き方がかなり変わった。 リファインメントで grill して認識を合わせ、実装は Claude Code に書かせ、多層モデルのレビュー と 厚い CI を通し、babysit-pr で green になるまで面倒を見させる。この流れが回り始めてから、かなりの信頼度の change list が安定して生産できるようになった。 全体の流れ リファインメント（grill） → プランニング（順番とキャパシティを詰めるだけ） → 実装（Claude Code が書く） → 多層 AI レビュー（Copilot / Codex）+ 厚い…",
     "fetchedAt": "2026-07-28T00:13:21.284Z"
+  },
+  {
+    "id": "78c4bacdda3f3520",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "エンジニアの習熟度は、トークン消費量として露呈していく",
+    "url": "https://zenn.dev/kaji_kaji/articles/token-management-as-ai-proficiency",
+    "publishedAt": "2026-07-27T00:00:08.000Z",
+    "summary": "はじめに Claude Code や Codex を、月額の固定料金で使い倒している人はどれくらいいるでしょうか。自分もその一人です。毎日何時間もタスクを投げて、待って、レビューして、また投げて。この使い方が、いつまで今の値段のまま続くんだろうと、最近よく考えるようになりました。 きっかけは機会があって、Claudeのエンタープライズプランを使用した時でした。複数プランがあるのかは定かではないのですが、自分が使っていたものは、1ヶ月に使える金額の上限が決まっている形でした。いくらまで使える、というイメージですね。 そうなると、一回あたりのやり取りもいくら…",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
   },
   {
     "id": "bedb3b6c123ca1a1",
@@ -648,6 +1418,16 @@
     "publishedAt": "2026-07-26T16:36:23.000Z",
     "summary": "注意: 個人情報をクラウドに上げる際は十分に注意して下さい はじめに 下記の記事を読み、自分もAIとの対話履歴を資産として残したり、意思決定ログや複数の自プロジェクト管理を整理したいと思った今日このごろ。 自分はものぐさかつ、通勤時間などのスキマ時間でも使いたいのでAndroidのみで使える環境を構築。 ひとまず複数ある自プロジェクトの整理とAIとの対話履歴の保存先を作りました。 参考記事 https://zenn.dev/peishim/articles/a10faeabae7c09 https://note.com/yusuke77/n/n810ca…",
     "fetchedAt": "2026-07-28T00:13:21.284Z"
+  },
+  {
+    "id": "5323bc2577d2b92e",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Feature-Sliced Design 実践ガイド",
+    "url": "https://zenn.dev/norman6464/books/fsd-migration",
+    "publishedAt": "2026-07-26T11:34:50.000Z",
+    "summary": "フロントエンドのアーキテクチャ手法 Feature-Sliced Design (FSD) を体系的にまとめた本です。Layers・Slices・Segments の定義から、Public API、依存ルール、cross-import、層の判断基準、lint による強制、既存プロジェクトへの段階導入までを、公式仕様に沿って整理しました。",
+    "fetchedAt": "2026-07-29T00:11:11.638Z"
   },
   {
     "id": "227ea957c6361552",

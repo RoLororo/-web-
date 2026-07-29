@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T11:11:29.484Z",
-  "totalArticles": 537,
+  "generatedAt": "2026-07-29T00:15:42.821Z",
+  "totalArticles": 615,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
@@ -14,11 +14,13 @@
         "Claude",
         "活用",
         " AI",
+        "仕事",
         "生成AI",
-        "ChatGPT",
-        "仕事"
+        "ChatGPT"
       ],
       "evidenceArticleIds": [
+        "54480ef975be5e0e",
+        "b40c9644e6cb6c8c",
         "75752a40a43aee02",
         "c04b3e742dc7fd32",
         "e41ef298f3cb7354",
@@ -36,13 +38,46 @@
         "ef4c3e3584ef4256",
         "ecb92cdc1d651134",
         "fc2b057114879075",
-        "ebf16c0d6b88f915",
-        "8f21f44283dbbd68",
-        "4c7a70c2142235c3"
+        "ebf16c0d6b88f915"
       ],
-      "evidenceArticleCount": 23,
+      "evidenceArticleCount": 25,
       "confidence": 0.92,
-      "reason": "13 種類のキーワードが 23 件の記事でヒット（例：Claude、活用、 AI）"
+      "reason": "13 種類のキーワードが 25 件の記事でヒット（例：Claude、活用、 AI）"
+    },
+    {
+      "id": "ai-coding",
+      "theme": "AI駆動のコード生成・開発支援",
+      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "Claude Code",
+        "codex",
+        "レビュー",
+        "開発",
+        "エンジニア",
+        "CI"
+      ],
+      "evidenceArticleIds": [
+        "a94d4472eb2ed2ef",
+        "897d5bcb7a25014c",
+        "e41ef298f3cb7354",
+        "017f9e9b4df86db3",
+        "78c4bacdda3f3520",
+        "3c9652f07e173702",
+        "7e9d11fc61986cb6",
+        "b9518240141c2f25",
+        "71fe0f416c0f5fbb",
+        "3924def162eedd37",
+        "31ff7dbbfb148c82",
+        "316bf21ba3ab3756",
+        "4c7a70c2142235c3",
+        "f36c4d351d6b99eb",
+        "359e412ed4404d49",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 16,
+      "confidence": 0.91,
+      "reason": "11 種類のキーワードが 16 件の記事でヒット（例：Claude Code、codex、レビュー）"
     },
     {
       "id": "infrastructure-outages",
@@ -51,13 +86,14 @@
       "category": "ビジネス",
       "relatedKeywords": [
         "障害",
-        "復旧",
         "影響",
+        "復旧",
         "システム",
         "サービス",
         "AWS"
       ],
       "evidenceArticleIds": [
+        "31714153c1ef69ff",
         "ab51597997a02e16",
         "5364b956c670e858",
         "0bcf86b668654cd1",
@@ -73,41 +109,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 14,
+      "evidenceArticleCount": 15,
       "confidence": 0.91,
-      "reason": "11 種類のキーワードが 14 件の記事でヒット（例：障害、復旧、影響）"
-    },
-    {
-      "id": "ai-coding",
-      "theme": "AI駆動のコード生成・開発支援",
-      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "Claude Code",
-        "レビュー",
-        "開発",
-        "codex",
-        "CI",
-        "エンジニア"
-      ],
-      "evidenceArticleIds": [
-        "e41ef298f3cb7354",
-        "017f9e9b4df86db3",
-        "3c9652f07e173702",
-        "7e9d11fc61986cb6",
-        "b9518240141c2f25",
-        "71fe0f416c0f5fbb",
-        "3924def162eedd37",
-        "31ff7dbbfb148c82",
-        "316bf21ba3ab3756",
-        "4c7a70c2142235c3",
-        "f36c4d351d6b99eb",
-        "359e412ed4404d49",
-        "37cf43d81fe7cb8c"
-      ],
-      "evidenceArticleCount": 13,
-      "confidence": 0.9,
-      "reason": "11 種類のキーワードが 13 件の記事でヒット（例：Claude Code、レビュー、開発）"
+      "reason": "11 種類のキーワードが 15 件の記事でヒット（例：障害、影響、復旧）"
     },
     {
       "id": "security-breach",
@@ -138,7 +142,7 @@
         "31931e12804789ed"
       ],
       "evidenceArticleCount": 13,
-      "confidence": 0.93,
+      "confidence": 0.92,
       "reason": "10 種類のキーワードが 13 件の記事でヒット（例：サイバー攻撃、情報、個人情報）"
     },
     {
@@ -147,14 +151,15 @@
       "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
       "category": "ビジネス",
       "relatedKeywords": [
-        "決済",
         "クレカ",
+        "決済",
         "PayPay",
-        "Visa",
         "カード",
+        "Visa",
         "取引"
       ],
       "evidenceArticleIds": [
+        "efa8f82e0a7656dc",
         "7d23fd4b8e588331",
         "fad6cd527efa3c50",
         "e905eff59636ae08",
@@ -163,9 +168,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 7,
-      "confidence": 0.79,
-      "reason": "8 種類のキーワードが 7 件の記事でヒット（例：決済、クレカ、PayPay）"
+      "evidenceArticleCount": 8,
+      "confidence": 0.89,
+      "reason": "9 種類のキーワードが 8 件の記事でヒット（例：クレカ、決済、PayPay）"
     },
     {
       "id": "ai-regulation",
@@ -181,6 +186,7 @@
         "欧州委員会"
       ],
       "evidenceArticleIds": [
+        "3c055302b0d3a3ee",
         "75752a40a43aee02",
         "e1e25c3e3465493b",
         "d95ca7cebce53876",
@@ -188,9 +194,9 @@
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 6,
-      "confidence": 0.71,
-      "reason": "6 種類のキーワードが 6 件の記事でヒット（例：AI、規制、安全性）"
+      "evidenceArticleCount": 7,
+      "confidence": 0.77,
+      "reason": "6 種類のキーワードが 7 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "ai-hardware",
@@ -199,20 +205,21 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "NVIDIA",
-        "フィジカルAI",
         "Rubin",
+        "フィジカルAI",
         "計算基盤",
         "チップ"
       ],
       "evidenceArticleIds": [
+        "7fb18d14aca682c3",
         "518c2849e102028b",
         "80e3de34fa920b2b",
         "706ce620672e77a7",
         "5a133a290273e381"
       ],
-      "evidenceArticleCount": 4,
-      "confidence": 0.5,
-      "reason": "5 種類のキーワードが 4 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
+      "evidenceArticleCount": 5,
+      "confidence": 0.58,
+      "reason": "5 種類のキーワードが 5 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
     },
     {
       "id": "remote-work",
@@ -277,7 +284,7 @@
         "e2193fce8f746f0f"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.53,
+      "confidence": 0.52,
       "reason": "5 種類のキーワードが 3 件の記事でヒット（例：高齢者、介護、ボケ）"
     }
   ]
