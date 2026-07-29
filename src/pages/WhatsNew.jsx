@@ -11,6 +11,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeLink from '../components/ThemeLink.jsx';
 import {
   loadIndex,
   loadAllTimeseries,
@@ -124,9 +125,9 @@ export default function WhatsNew() {
           <ul className="wn-metric-list">
             {newMetrics.slice(0, 50).map((m, i) => (
               <li key={i} className="wn-metric-item">
-                <Link to={`/demand/${m.themeId}`} className="wn-metric-link">
+                <ThemeLink themeId={m.themeId} className="wn-metric-link">
                   {themeMeta[m.themeId]?.title || themeTitle(m.themeId)}
-                </Link>
+                </ThemeLink>
                 <span className="wn-metric-src">{sourceDisplay(m.source)}</span>
                 <span className="wn-metric-name">{m.metric}</span>
                 <span className="wn-metric-val">

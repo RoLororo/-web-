@@ -12,6 +12,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeLink from '../components/ThemeLink.jsx';
 import { loadAllTimeseries, loadIndex, flattenMetrics } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
 import { themeTitle } from '../services/themeCatalog.js';
@@ -118,9 +119,9 @@ export default function Timeline() {
                       <ul className="timeline-highlights-list">
                         {hi.map((h, i) => (
                           <li key={i}>
-                            <Link to={`/demand/${h.themeId}`} className="timeline-hi-link">
+                            <ThemeLink themeId={h.themeId} className="timeline-hi-link">
                               <b>{h.title}</b>
-                            </Link>
+                            </ThemeLink>
                             <span className="timeline-hi-badge">{h.source}</span>
                             <span className="timeline-hi-val">{h.volume.toLocaleString()}</span>
                           </li>

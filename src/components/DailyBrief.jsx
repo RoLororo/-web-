@@ -25,8 +25,10 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeLink from './ThemeLink.jsx';
 import { loadAllTimeseries, loadIndex, biggestMoverOfTheme } from '../services/historyService.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
+import { themeTitle } from '../services/themeCatalog.js';
 
 const STORAGE_KEY = 'demand-atlas:lastVisitAt';
 
@@ -148,13 +150,13 @@ export default function DailyBrief({ allDemands = [] }) {
             <ul className="db-movers-list">
               {movers.slice(0, 3).map((m, i) => (
                 <li key={i}>
-                  <Link to={`/demand/${m.themeId}`}>
-                    <span className="db-mover-title">{themeTitleMap[m.themeId] || m.themeId}</span>
+                  <ThemeLink themeId={m.themeId}>
+                    <span className="db-mover-title">{themeTitleMap[m.themeId] || themeTitle(m.themeId)}</span>
                     <span className={`db-mover-move ${m.pctChange >= 0 ? 'up' : 'down'}`}>
                       {m.pctChange >= 0 ? '↑' : '↓'} {Math.abs(Math.round(m.pctChange))}%
                     </span>
                     <span className="db-mover-src">{sourceDisplay(m.source)}</span>
-                  </Link>
+                  </ThemeLink>
                 </li>
               ))}
             </ul>

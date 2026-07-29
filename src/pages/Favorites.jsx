@@ -26,9 +26,11 @@ export default function Favorites() {
     <section className="section container">
       <div className="section-head">
         <div>
-          <h2 className="section-title">
+          {/* ページ唯一の見出しなので h1。.section-title のみで装飾しているため
+              見た目は h2 の時と同一 */}
+          <h1 className="section-title">
             保存した需要 <span className="count">{items.length}件</span>
-          </h2>
+          </h1>
           <p className="section-sub">気になる需要を後から追跡できます（このブラウザに保存されます）。</p>
         </div>
       </div>

@@ -10,6 +10,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeLink from '../components/ThemeLink.jsx';
 import {
   loadAllTimeseries,
   diffRecords,
@@ -153,9 +154,9 @@ export default function Changes() {
             return (
               <div key={themeId} className="changes-card">
                 <div className="changes-card-head">
-                  <Link to={`/demand/${themeId}`} className="changes-card-title">
+                  <ThemeLink themeId={themeId} className="changes-card-title">
                     {themeMeta[themeId]?.title || themeTitle(themeId)}
-                  </Link>
+                  </ThemeLink>
                   <div className="changes-card-dates">{prevDate} → {currentDate}</div>
                 </div>
                 {rowsToShow.length === 0 && (

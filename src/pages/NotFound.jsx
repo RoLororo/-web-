@@ -12,7 +12,8 @@ export default function NotFound() {
     <div className="container section">
       <div className="empty">
         <div className="empty-icon"><FoxMark size={36} /></div>
-        <h3>ページが見つかりません</h3>
+        {/* 404 でも見出しレベルは h1 から始める（CSS は .empty h1 で h3 と同一） */}
+        <h1>ページが見つかりません</h1>
         <p>URLをご確認いただくか、ホームから再度探索してみてください。</p>
         <Link to="/" className="btn primary">ホームへ戻る</Link>
       </div>

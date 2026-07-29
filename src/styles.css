@@ -1915,7 +1915,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   flex-direction: column;
   gap: 6px;
 }
-.db-movers-list a {
+.db-movers-list a,
+.db-movers-list .theme-link-plain {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2993,7 +2994,8 @@ select.select:focus {
   color: var(--text-2);
   margin-bottom: var(--s-4);
 }
-.empty h3 { color: var(--text); margin-bottom: var(--s-2); font-size: 17px; font-weight: 600; }
+.empty h3,
+.empty h1 { color: var(--text); margin-bottom: var(--s-2); font-size: 17px; font-weight: 600; }
 .empty p { color: var(--text-2); font-size: 14px; margin-bottom: var(--s-4); max-width: 420px; margin-left: auto; margin-right: auto; }
 
 /* --------------------------------------------------------------------------
@@ -4045,4 +4047,21 @@ select.select:focus {
   font-size: 11.5px;
   color: var(--text-3);
   line-height: 1.7;
+}
+
+/* --- Categories: 観測準備中の分野 (カードにしない) -------------------- */
+
+.cat-upcoming {
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.7;
+}
+
+/* --- 詳細ページが未生成のテーマ (履歴のみに存在) ---------------------- */
+
+.theme-link-plain {
+  cursor: default;
+  color: var(--text-3);
+  text-decoration: none;
 }

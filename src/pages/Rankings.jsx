@@ -10,6 +10,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeLink from '../components/ThemeLink.jsx';
 import {
   loadAllTimeseries,
   loadIndex,
@@ -186,9 +187,9 @@ export default function Rankings() {
               <div className="rank-num">#{i + 1}</div>
               <div className="rank-body">
                 <div className="rank-line-1">
-                  <Link to={`/demand/${r.themeId}`} className="rank-title">
+                  <ThemeLink themeId={r.themeId} className="rank-title">
                     {resolveTitle(r.themeId)}
-                  </Link>
+                  </ThemeLink>
                   <span className="rank-source">{sourceDisplay(r.source)}</span>
                   <span className="rank-metric">{r.metric}</span>
                 </div>

@@ -11,12 +11,18 @@ export default function Categories() {
   usePageTitle('分野から探す — Demand Atlas');
   const nav = useNavigate();
   const cats = useMemo(() => getCategorySummaries(), []);
+  // 観測テーマが 0 件の分野はカードにしない。
+  //   実測 (2026-07-30): 9 分野中 6 分野が 0 件で、いずれも「まだ需要が登録され
+  //   ていません」だけのページに着地する行き止まりだった。カードから外し、
+  //   準備中であることだけを 1 行で示す。
+  const active = useMemo(() => cats.filter((c) => c.count > 0), [cats]);
+  const upcoming = useMemo(() => cats.filter((c) => c.count === 0), [cats]);
 
   return (
     <section className="section container">
       <div className="section-head">
         <div>
-          <h2 className="section-title">分野から探す</h2>
+          <h1 className="section-title">分野から探す</h1>
           <p className="section-sub">
             各分野の需要動向を俯瞰し、興味のあるテーマを掘り下げてください。
           </p>
@@ -24,7 +30,7 @@ export default function Categories() {
       </div>
 
       <div className="cat-grid">
-        {cats.map((c, i) => (
+        {active.map((c, i) => (
           <button
             key={c.name}
             className="cat-card"
@@ -50,6 +56,12 @@ export default function Categories() {
           </button>
         ))}
       </div>
+
+      {upcoming.length > 0 && (
+        <p className="cat-upcoming">
+          観測準備中の分野：{upcoming.map((c) => c.name).join(' / ')}
+        </p>
+      )}
     </section>
   );
 }

@@ -46,7 +46,7 @@ export default function Explore() {
       <section className="section container">
         <div className="section-head">
           <div>
-            <h2 className="section-title">需要を探す</h2>
+            <h1 className="section-title">需要を探す</h1>
             <p className="section-sub">キーワード・分野・状態から需要テーマを探索できます。</p>
           </div>
         </div>
@@ -57,6 +57,7 @@ export default function Explore() {
           </svg>
           <input
             type="text"
+            aria-label="キーワードで需要を探す"
             placeholder="例：AI、副業、健康、教育…"
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
