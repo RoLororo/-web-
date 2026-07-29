@@ -328,17 +328,38 @@ function shortenAsProblem(title) {
 // momentum / beginner / competition のヒューリスティック
 // ---------------------------------------------------------------------------
 
+/**
+ * momentum の判定。
+ *
+ * ⚠ demand.change の意味 (2026-08 の数式変更で変わった)
+ *   旧: 「直近2日 vs 前5日平均」の絶対的な伸び率
+ *   新: 「全テーマの中央値と比べて何倍のペースか」の相対値
+ *       change = (relativeRatio - 1) × 100  なので change=68 は中央値の 1.68 倍。
+ *   Google ニュース RSS は直近日ほど件数が多いバイアスを全テーマ共通で持つため、
+ *   絶対値では横ばいのテーマまで +150% と表示されてしまう。中央値で正規化して
+ *   バイアスを打ち消している (build-demands.mjs の computeRelativeGrowth 参照)。
+ *
+ *   reason の文言はこの意味に合わせること。「前5日平均比」と書くと、
+ *   数値は正しくても説明が誤りになる。
+ */
 function classifyMomentum(demand) {
   const g = demand._growthDetail || {};
   const changePct = Number.isFinite(demand.change) ? demand.change : 0;
   const hasData = demand._hasEnoughGrowthData;
 
+  // 中央値の何倍か。_growthDetail に無ければ change から復元する。
+  const ratio = Number.isFinite(g.relativeRatio)
+    ? g.relativeRatio
+    : 1 + changePct / 100;
+  const times = `他テーマ中央値の ${ratio.toFixed(2)} 倍`;
+  const n = `直近2日=${g.recent2Days}件`;
+
   if (!hasData) return { label: '判定困難', score: 0, reason: '基準期間のニュース数が少なく、伸びの判定に必要なデータが不足しています。' };
-  if (changePct >= 100) return { label: '加速', score: Math.min(100, 60 + Math.round(changePct / 5)), reason: `直近2日=${g.recent2Days}件 / 前5日平均比 +${changePct}% (${g.window})` };
-  if (changePct >= 20)  return { label: '成長中', score: 45 + Math.round(changePct / 4), reason: `直近2日=${g.recent2Days}件 / 前5日平均比 +${changePct}%` };
-  if (changePct >= -5)  return { label: '定着', score: 40, reason: `直近2日=${g.recent2Days}件、前5日平均と同水準を維持` };
-  if (changePct >= -30) return { label: '減速', score: 25, reason: `直近2日=${g.recent2Days}件、前5日平均比 ${changePct}%` };
-  return { label: '沈静化', score: 10, reason: `直近2日=${g.recent2Days}件、大きく落ち込み` };
+  if (changePct >= 100) return { label: '加速',   score: Math.min(100, 60 + Math.round(changePct / 5)), reason: `${n} / ${times}のペースで、観測中のテーマの中で突出しています。` };
+  if (changePct >= 20)  return { label: '成長中', score: 45 + Math.round(changePct / 4),                 reason: `${n} / ${times}のペースで動いています。` };
+  if (changePct >= -5)  return { label: '定着',   score: 40,                                             reason: `${n}。他テーマとほぼ同じペースを維持しています。` };
+  if (changePct >= -30) return { label: '減速',   score: 25,                                             reason: `${n} / ${times}で、他テーマより鈍いペースです。` };
+  return { label: '沈静化', score: 10, reason: `${n} / ${times}で、観測中のテーマの中では低調です。` };
 }
 
 function evaluateBeginnerFriendliness(demand) {

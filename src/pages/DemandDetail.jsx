@@ -130,11 +130,11 @@ export default function DemandDetail() {
               <div className="hero-metric-hint">4 指標 (ニュース量40% / 直近成長30% / 情報源多様性20% / 鮮度10%) の重み付き合成 (100点満点)</div>
             </div>
             <div className="hero-metric">
-              <div className="hero-metric-label">30日成長率</div>
+              <div className="hero-metric-label">相対的な勢い</div>
               <div className={`hero-metric-value ${demand.change > 0 ? 'up' : demand.change < 0 ? 'down' : ''}`}>
                 {formatChange(demand.change)}
               </div>
-              <div className="hero-metric-hint">ニュース記事数 (直近2日 vs 前5日) から算出。±200% で頭打ち</div>
+              <div className="hero-metric-hint">他テーマの中央値と比べたニュース増加ペース。0% が中央値、+100% で 2 倍</div>
             </div>
             <div className="hero-metric">
               <div className="hero-metric-label">観測情報源</div>

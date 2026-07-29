@@ -103,7 +103,7 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
         <div className={`card-primary-change ${changeClass(primaryPct)}`}
              title={hasHistoryMove
                ? `${sourceDisplay(historyMove.source)} の ${historyMove.metric}: ${historyMove.previous.toLocaleString()} → ${historyMove.current.toLocaleString()}`
-               : 'ニュース記事数 (直近2日 vs 前5日) の伸び率'}>
+               : '他テーマの中央値と比べたニュース増加ペース'}>
           <span className="cpc-lbl">{primaryLabel}</span>
           <span className="cpc-val">{formatChange(primaryPct)}</span>
           <span className="cpc-src">{primarySrc}</span>

@@ -488,7 +488,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.569Z",
+        "generatedAt": "2026-07-29T14:02:23.784Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -536,7 +536,7 @@
         "momentum": {
           "label": "成長中",
           "score": 62,
-          "reason": "直近2日=10件 / 前5日平均比 +68%"
+          "reason": "直近2日=10件 / 他テーマ中央値の 1.68 倍のペースで動いています。"
         },
         "beginnerFriendliness": {
           "score": 65,
@@ -1321,7 +1321,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1369,7 +1369,7 @@
         "momentum": {
           "label": "成長中",
           "score": 57,
-          "reason": "直近2日=9件 / 前5日平均比 +48%"
+          "reason": "直近2日=9件 / 他テーマ中央値の 1.48 倍のペースで動いています。"
         },
         "beginnerFriendliness": {
           "score": 35,
@@ -2005,7 +2005,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2053,7 +2053,7 @@
         "momentum": {
           "label": "成長中",
           "score": 66,
-          "reason": "直近2日=7件 / 前5日平均比 +85%"
+          "reason": "直近2日=7件 / 他テーマ中央値の 1.85 倍のペースで動いています。"
         },
         "beginnerFriendliness": {
           "score": 65,
@@ -2661,7 +2661,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2709,7 +2709,7 @@
         "momentum": {
           "label": "定着",
           "score": 40,
-          "reason": "直近2日=4件、前5日平均と同水準を維持"
+          "reason": "直近2日=4件。他テーマとほぼ同じペースを維持しています。"
         },
         "beginnerFriendliness": {
           "score": 75,
@@ -3220,7 +3220,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 43,
@@ -3258,7 +3258,7 @@
         "momentum": {
           "label": "成長中",
           "score": 57,
-          "reason": "直近2日=7件 / 前5日平均比 +49%"
+          "reason": "直近2日=7件 / 他テーマ中央値の 1.49 倍のペースで動いています。"
         },
         "beginnerFriendliness": {
           "score": 35,
@@ -4043,7 +4043,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -4086,7 +4086,7 @@
         "momentum": {
           "label": "減速",
           "score": 25,
-          "reason": "直近2日=4件、前5日平均比 -9%"
+          "reason": "直近2日=4件 / 他テーマ中央値の 0.91 倍で、他テーマより鈍いペースです。"
         },
         "beginnerFriendliness": {
           "score": 25,
@@ -4762,7 +4762,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 67,
@@ -4810,7 +4810,7 @@
         "momentum": {
           "label": "沈静化",
           "score": 10,
-          "reason": "直近2日=0件、大きく落ち込み"
+          "reason": "直近2日=0件 / 他テーマ中央値の 0.00 倍で、観測中のテーマの中では低調です。"
         },
         "beginnerFriendliness": {
           "score": 35,
@@ -5387,7 +5387,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.570Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 82,
@@ -5430,7 +5430,7 @@
         "momentum": {
           "label": "沈静化",
           "score": 10,
-          "reason": "直近2日=2件、大きく落ち込み"
+          "reason": "直近2日=2件 / 他テーマ中央値の 0.69 倍で、観測中のテーマの中では低調です。"
         },
         "beginnerFriendliness": {
           "score": 55,
@@ -5972,7 +5972,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.571Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 53,
@@ -5994,7 +5994,7 @@
         "momentum": {
           "label": "沈静化",
           "score": 10,
-          "reason": "直近2日=3件、大きく落ち込み"
+          "reason": "直近2日=3件 / 他テーマ中央値の 0.63 倍で、観測中のテーマの中では低調です。"
         },
         "beginnerFriendliness": {
           "score": 50,
@@ -6467,7 +6467,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T05:43:54.571Z",
+        "generatedAt": "2026-07-29T14:02:23.785Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 64,
@@ -6500,7 +6500,7 @@
         "momentum": {
           "label": "沈静化",
           "score": 10,
-          "reason": "直近2日=2件、大きく落ち込み"
+          "reason": "直近2日=2件 / 他テーマ中央値の 0.57 倍で、観測中のテーマの中では低調です。"
         },
         "beginnerFriendliness": {
           "score": 35,
@@ -6601,6 +6601,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-29T05:43:54.571Z",
+  "insightsGeneratedAt": "2026-07-29T14:02:23.785Z",
   "insightsMethod": "heuristic-v1"
 }
