@@ -125,21 +125,36 @@ function computeNewsVolume(matchingArticles /*, keywordTrendTotal (deprecated) *
 }
 
 /**
- * growth: 直近2日の件数を「その前5日の平均」から予想した件数と比較する
- * "バースト検出"型の指標。
+ * growth: 2-pass 相対成長。
  *
- * ⚠ なぜ 7日 vs 7日 ではないか
- *   Google ニュース RSS は 1 クエリあたり直近 ~100 件しか返さないため、
- *   ほぼ全件が直近 7 日に集中し、"前7日" はほとんど空になる。
- *   そのまま比較すると +7000% 級の偽急上昇を大量生産してしまう。
- *   多日間の履歴を積む仕組み (Phase 6 以降の GitHub Actions 等) が
- *   整うまでは、単一スナップショット内で測れる「直近の集中度」を
- *   change として採用する。
+ *   ■ なぜ絶対成長ではなく相対成長か
+ *     Google ニュース RSS は 1 クエリあたり直近 ~100 件しか返さないため、
+ *     どのテーマも「直近日ほど件数が多い」バイアスを共通で受ける。
+ *     実測: 2026-07-27=1893 / 07-26=423 / 07-24=518 のように直近が
+ *     必ず膨らむ。この状態で「recent2 / expected2d」を絶対値として
+ *     解釈すると、横ばいのテーマですら +150% と表示されてしまう。
+ *
+ *   ■ 設計
+ *     PASS 1  各テーマの rawRatio = recent2 / (prior5 × 2/5) を集める
+ *     PASS 2  全テーマの rawRatio の中央値 medianRatio を計算する
+ *             (中央値は外れ値耐性が高い。RSS バイアスは全テーマ共通なので
+ *              medianRatio で除算すればバイアスがキャンセルされる)
+ *     PASS 3  各テーマの relativeRatio = rawRatio / medianRatio を求める
+ *             change = round((relativeRatio - 1) × 100)
+ *
+ *   ■ 100 倍規模での効果
+ *     テーマ数が増えるほど中央値の精度が上がり、noise が減る。
+ *     数式そのものはテーマ数に依存しないため 1000 テーマでもスケール可。
+ *
+ *   ■ 検出できるもの / できないもの
+ *     ○ 他テーマより明らかに伸びている 1 テーマ (medianRatio から外れる)
+ *     × 「市場全体が伸びている」時期 (全体が同時に伸びれば medianRatio も上がる)
  *
  *   将来 keyword-trends を日次で蓄積するようになれば、
- *   ここを本来の N日 vs 前N日 比較に差し戻す。
+ *   本来の N日 vs 前N日 比較 (絶対 growth) に差し戻す余地がある。
+ *   その場合も pre-pass + median 補正は保険として有効。
  */
-function computeGrowth(articlesByDate) {
+function computeRawGrowthRatio(articlesByDate) {
   const now = new Date();
   now.setUTCHours(0, 0, 0, 0);
 
@@ -156,22 +171,42 @@ function computeGrowth(articlesByDate) {
   }
 
   const hasEnoughData = prior5 >= GROWTH_MIN_PRIOR_SAMPLES;
+  const rawRatio = hasEnoughData ? recent2 / ((prior5 / 5) * 2) : null;
+  return { recent2, prior5, rawRatio, hasEnoughData };
+}
 
-  if (!hasEnoughData) {
-    // 基準期間が薄い → 変化率不明として neutral を返す (捏造しない)
-    return { value: 0.5, changePercent: 0, hasEnoughData: false, recent2, prior5 };
+/**
+ * PASS 3: raw ratio と全テーマの medianRatio から相対成長を求める。
+ * medianRatio が null (全テーマ観測不足) の時は中立扱い。
+ */
+function computeRelativeGrowth(raw, medianRatio) {
+  if (!raw.hasEnoughData || medianRatio == null || medianRatio === 0) {
+    return {
+      value: 0.5, changePercent: 0, hasEnoughData: false,
+      recent2: raw.recent2, prior5: raw.prior5,
+      rawRatio: raw.rawRatio, medianRatio, relativeRatio: null,
+    };
   }
-
-  // 基準の日次平均を 2 日分に伸ばした期待値
-  const expected2d = (prior5 / 5) * 2;
-  let changePercent = Math.round(((recent2 - expected2d) / expected2d) * 100);
-  // 上下限で頭打ち (RSS の 1 発取得で無理に大きい成長率を出さない)
+  const relativeRatio = raw.rawRatio / medianRatio;
+  let changePercent = Math.round((relativeRatio - 1) * 100);
   changePercent = Math.max(GROWTH_CHANGE_MIN, Math.min(GROWTH_CHANGE_MAX, changePercent));
-
-  // 0〜1 スコアへ写像: +100% → 0.75, +200% → 1.0, -80% → 0.3
+  // 0〜1 スコアへ写像: 中央値(=0%) → 0.5, +200% → 1.0, -80% → 0.3
   const growthScore = Math.max(0, Math.min(1, 0.5 + changePercent / 400));
+  return {
+    value: growthScore, changePercent, hasEnoughData: true,
+    recent2: raw.recent2, prior5: raw.prior5,
+    rawRatio: raw.rawRatio, medianRatio, relativeRatio,
+  };
+}
 
-  return { value: growthScore, changePercent, hasEnoughData: true, recent2, prior5 };
+/** 中央値 (奇数長は中央、偶数長は真ん中 2 値の平均)。空なら null。 */
+function median(nums) {
+  if (!nums || nums.length === 0) return null;
+  const sorted = [...nums].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid];
 }
 
 /** sourceDiversity: ユニーク情報源数を SOURCE_SATURATION で頭打ち */
@@ -284,15 +319,13 @@ async function main() {
   console.log(`   arXiv:        ${Object.keys(arxivThemes).length} テーマ (実験・スコアに影響なし)`);
   console.log('');
 
-  const demands = [];
-
-  for (const c of candidates) {
-    // 根拠記事を lookup
+  // ── Pass 1: 各テーマの raw growth ratio を集める (相対成長の基準となる) ──
+  // メモ化を兼ねて、次のループで使う中間値も一緒に保持する。
+  const themeContexts = candidates.map((c) => {
     const evidenceArticles = (c.evidenceArticleIds || [])
       .map((id) => articleById.get(id))
       .filter(Boolean);
 
-    // このテーマのキーワードトレンドを集約 (件数合計 / 日別カウント)
     let keywordTrendTotal = 0;
     const keywordTrendByDate = {};
     for (const kw of c.relatedKeywords || []) {
@@ -305,9 +338,27 @@ async function main() {
       }
     }
 
+    const rawGrowth = computeRawGrowthRatio(keywordTrendByDate);
+    return { c, evidenceArticles, keywordTrendTotal, keywordTrendByDate, rawGrowth };
+  });
+
+  // ── Pass 2: 全テーマの rawRatio から中央値を求める (RSS バイアス除去の基準) ──
+  const validRatios = themeContexts
+    .filter((x) => x.rawGrowth.hasEnoughData)
+    .map((x) => x.rawGrowth.rawRatio);
+  const medianRatio = median(validRatios);
+  console.log(`   growth 中央値 (rawRatio median): ${medianRatio == null ? 'N/A' : medianRatio.toFixed(3)} (有効テーマ ${validRatios.length}/${themeContexts.length})`);
+  console.log('');
+
+  const demands = [];
+
+  // ── Pass 3: 各テーマの demand を構築 ──
+  for (const ctx of themeContexts) {
+    const { c, evidenceArticles, keywordTrendTotal } = ctx;
+
     // スコア要素
     const newsVolume     = computeNewsVolume(evidenceArticles.length, keywordTrendTotal);
-    const growth         = computeGrowth(keywordTrendByDate);
+    const growth         = computeRelativeGrowth(ctx.rawGrowth, medianRatio);
     const diversity      = computeSourceDiversity(evidenceArticles);
     const freshness      = computeFreshness(evidenceArticles);
 
@@ -387,9 +438,12 @@ async function main() {
       _growthDetail: {
         recent2Days:  growth.recent2,
         prior5Days:   growth.prior5,
-        window:       '直近2日 vs その前5日 (RSS 一発取得の中でのバースト検出)',
+        rawRatio:     growth.rawRatio == null ? null : Math.round(growth.rawRatio * 100) / 100,
+        medianRatio:  growth.medianRatio == null ? null : Math.round(growth.medianRatio * 100) / 100,
+        relativeRatio: growth.relativeRatio == null ? null : Math.round(growth.relativeRatio * 100) / 100,
+        window:       '直近2日 vs その前5日 (RSS バイアス除去のため全テーマ中央値で正規化)',
         note: growth.hasEnoughData
-          ? `直近2日=${growth.recent2}件 / 前5日=${growth.prior5}件`
+          ? `直近2日=${growth.recent2}件 / 前5日=${growth.prior5}件 / 全テーマ中央値比 ${(growth.relativeRatio || 1).toFixed(2)}x`
           : `データ不足 (前5日=${growth.prior5}件 < 閾値${GROWTH_MIN_PRIOR_SAMPLES})`,
       },
       _relatedKeywords:      c.relatedKeywords || [],
