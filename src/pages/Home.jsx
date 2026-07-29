@@ -17,7 +17,7 @@ import CategoryFilter from '../components/CategoryFilter.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import DailyBrief from '../components/DailyBrief.jsx';
 import FavoritesStrip from '../components/FavoritesStrip.jsx';
-import { getDemands } from '../services/demandService.js';
+import { getDemands, getTotalArticles } from '../services/demandService.js';
 import { loadAllTimeseries, biggestMoverOfTheme } from '../services/historyService.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
@@ -47,8 +47,11 @@ export default function Home() {
     ? allDemands.filter((d) => d.category === category)
     : allDemands;
 
-  const risingCount = allDemands.filter((d) => d.change > 0).length;
-  const hotCount = allDemands.filter((d) => d.status === '急上昇').length;
+  // Hero 統計: 「追跡中/上昇中/急上昇」は build-demands の score saturation で
+  // 全テーマ同数 (10/10/10) になり判別力ゼロだったため、意味のある実測値に置換。
+  // 情報源 5 は Wikipedia/Qiita/arXiv/App Store JP/主要ニュース RSS。
+  const totalArticles = getTotalArticles();
+  const SOURCE_COUNT = 5;
 
   return (
     <div>
@@ -72,15 +75,15 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-label">上昇中</div>
-            <div className="hero-stat-value green">
-              <AnimatedNumber value={risingCount} duration={800} />
+            <div className="hero-stat-label">情報源</div>
+            <div className="hero-stat-value">
+              <AnimatedNumber value={SOURCE_COUNT} duration={800} />
             </div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-label">急上昇</div>
+            <div className="hero-stat-label">直近ニュース観測</div>
             <div className="hero-stat-value green">
-              <AnimatedNumber value={hotCount} duration={900} />
+              <AnimatedNumber value={totalArticles} duration={900} />
             </div>
           </div>
         </div>

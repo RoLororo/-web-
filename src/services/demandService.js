@@ -37,6 +37,9 @@ let SOURCE = 'empty';
 /** demands.json の generatedAt (ISO string) — UI の「最終更新」表示等に使う */
 let GENERATED_AT = null;
 
+/** payload.totalArticles — 直近 30 日で観測した実ニュース記事の総数 (Home Hero 統計用) */
+let TOTAL_ARTICLES = 0;
+
 /** build-time version (vite.config で define)。未設定なら空 (dev 環境)。 */
 const BUILD_ID = typeof __BUILD_ID__ !== 'undefined' ? __BUILD_ID__ : '';
 
@@ -56,6 +59,7 @@ async function loadRealDemands() {
     DEMANDS = payload.demands;
     SOURCE  = 'real';
     GENERATED_AT = payload.generatedAt || null;
+    TOTAL_ARTICLES = Number.isFinite(payload.totalArticles) ? payload.totalArticles : 0;
     // eslint-disable-next-line no-console
     console.info(
       `[demandService] real data loaded (${DEMANDS.length} items, generatedAt=${payload.generatedAt || 'unknown'})`
@@ -94,6 +98,11 @@ export function getDataSource() {
 /** demands.json の generatedAt (ISO string or null)。UI の最終更新表示等で使う。 */
 export function getGeneratedAt() {
   return GENERATED_AT;
+}
+
+/** 直近 30 日で観測した実ニュース記事の総数。Home Hero 統計で使う。 */
+export function getTotalArticles() {
+  return TOTAL_ARTICLES;
 }
 
 /** 全需要を取得（ランキング用に score 降順） */
