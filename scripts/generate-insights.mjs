@@ -799,7 +799,7 @@ function buildNextActions(demand) {
   // 1. 観測をウォッチ
   actions.push({
     label: '観測を1週間ウォッチする',
-    desc: `毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。`,
+    desc: `1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。`,
     effort: '15 分/日',
     kind: 'observe',
   });

@@ -56,7 +56,7 @@ export default function WhatsNew() {
         <div className="page-hero-eyebrow">WHAT&rsquo;S NEW</div>
         <h1>本日の新しい情報</h1>
         <p>
-          Demand Atlas は毎日 JST 06:00 に自動観測されます。
+          Demand Atlas は 1 日 1 回自動観測されます（配信時刻は日により前後します）。
           新しく登場した情報源、初めて取れた指標、日別の更新件数を一望します。
         </p>
       </section>

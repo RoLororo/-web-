@@ -16,8 +16,10 @@
 //     (Home 側で computed 済みの historyMovers を再利用)
 //
 //   ■ 更新日時
-//     history/index.json の最新日 (lastDate) を「YYYY-MM-DD 06:00 更新」
+//     history/index.json の最新日 (lastDate) を「YYYY-MM-DD 時点のデータ」
 //     で明示。2 日以上古ければ本日未更新の警告を出す。
+//     配信時刻は書かない: schedule は cron 21:00Z に対し実測 8/8 が遅延し
+//     (中央値 +3.3h / 最大 +12h)、時刻を約束すると必ず外れるため。
 //
 //   ■ localStorage
 //     lastVisitAt は SinceLastVisit と共有 (このコンポーネントが後継)。
@@ -62,7 +64,7 @@ function formatUpdatedLabel(lastDateStr) {
   const last = new Date(lastDateStr + 'T00:00:00Z');
   const ageDays = Math.floor((today - last) / (24 * 60 * 60 * 1000));
   const stale = ageDays >= 2;
-  return { text: `${lastDateStr} JST 06:00 更新`, stale, ageDays };
+  return { text: `${lastDateStr} 時点のデータ`, stale, ageDays };
 }
 
 export default function DailyBrief({ allDemands = [] }) {

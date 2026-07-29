@@ -147,7 +147,7 @@ export default function DemandDetail() {
             <div className="hero-metric">
               <div className="hero-metric-label">データ更新</div>
               <div className="hero-metric-value" style={{ fontSize: 16 }}>{formatDateTime(demand.updatedAt).slice(0, 10)}</div>
-              <div className="hero-metric-hint">GitHub Actions が毎日 JST 06:00 に自動更新</div>
+              <div className="hero-metric-hint">GitHub Actions が 1 日 1 回自動更新（配信時刻は日により前後します）</div>
             </div>
           </div>
         </div>

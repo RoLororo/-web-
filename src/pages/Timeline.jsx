@@ -85,7 +85,7 @@ export default function Timeline() {
         <div className="page-hero-eyebrow">HISTORY TIMELINE</div>
         <h1>日別に積み上がる観測データ</h1>
         <p>
-          毎日 JST 06:00 に自動観測される情報源のスナップショットを日付順に表示します。
+          1 日 1 回自動観測される情報源のスナップショットを日付順に表示します。
           各日にどのソースが何を観測したかを、上から新しい順で確認できます。
         </p>
       </section>

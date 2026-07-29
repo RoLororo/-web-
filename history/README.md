@@ -186,7 +186,8 @@ npm run history
 ### 自動実行
 
 `npm run all` の末尾で自動実行される。GitHub Actions の日次ワークフローで
-毎日 JST 06:00 に走り、`data public/data history` を commit する。
+1 日 1 回走り、`data public/data history` を commit する
+（cron は 21:00 UTC 指定だが、GitHub の schedule 遅延により実行は数時間ずれる）。
 
 ### 単独実行の前提
 

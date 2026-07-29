@@ -607,7 +607,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.958Z",
+        "generatedAt": "2026-07-29T15:53:28.274Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -759,7 +759,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -1560,7 +1560,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.959Z",
+        "generatedAt": "2026-07-29T15:53:28.274Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1719,7 +1719,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -2348,7 +2348,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.959Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -2502,7 +2502,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -3141,7 +3141,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.959Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -3291,7 +3291,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -4089,7 +4089,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.959Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -4244,7 +4244,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -4781,7 +4781,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.960Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 71,
@@ -4930,7 +4930,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -5629,7 +5629,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.960Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 69,
@@ -5781,7 +5781,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -6382,7 +6382,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.960Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 84,
@@ -6533,7 +6533,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -6964,7 +6964,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.960Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 64,
@@ -7078,7 +7078,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -7636,7 +7636,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-07-29T14:52:13.960Z",
+        "generatedAt": "2026-07-29T15:53:28.275Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 79,
@@ -7762,7 +7762,7 @@
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
-            "desc": "毎朝 JST 06:00 の更新で、Wikipedia / Qiita / arXiv / App Store の変化を追う。★お気に入り登録で Home に常時表示。",
+            "desc": "1 日 1 回の更新で、Wikipedia / Qiita / arXiv / App Store / GitHub / 国立国会図書館 の変化を追う。★お気に入り登録で Home に常時表示。",
             "effort": "15 分/日",
             "kind": "observe"
           },
@@ -7782,6 +7782,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-07-29T14:52:13.960Z",
+  "insightsGeneratedAt": "2026-07-29T15:53:28.275Z",
   "insightsMethod": "heuristic-v1"
 }
