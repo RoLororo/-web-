@@ -245,7 +245,7 @@ console.log('flat:',(flat/total*100).toFixed(0)+'% | cat:',JSON.stringify(cat));
 | 項目 | 値 |
 |---|---|
 | HEAD | `3052db6` |
-| uncommitted | 2（`REVIEW_ENGINE.md` / `REVIEW_STATE.md`。コミット要否は判断待ち。**push 漏れではない**） |
+| uncommitted | 0。`REVIEW_ENGINE.md` / `REVIEW_STATE.md` は **2026-07-30 に git 管理下へ入れた**（運用マニュアルであり、実装と同じコミットで整合を保つため） |
 | 直近 run | **07-30 success 633s（timeout 修正後の初回）** / 07-29 success 518s / 07-28 success 521s |
 | 既知の失敗 | 07-25 cancelled 618s / 07-27 cancelled 619s（**timeout 30min 修正前。該当扱いしない**） |
 | timeout 修正の効果 | **検証完了**。07-30 の run は **633s = 旧 timeout 10 分なら確実に cancelled** だった。3 日連続成功（07-28 / 29 / 30） |
