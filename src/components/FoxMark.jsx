@@ -6,9 +6,16 @@
 // くり抜き部分は背景色（--bg）を透過させて表現する。
 // ============================================================================
 
-export default function FoxMark({ size = 32, className = '', style, ariaLabel = 'Demand Atlas' }) {
+/**
+ * ブランドアイコン。呼び出し元には必ず「Demand Atlas」等のテキストが隣接するため
+ * 装飾として扱い、読み上げ対象から外す（aria-hidden）。
+ * 以前は aria-hidden と role="img" + aria-label が同居しており、
+ * label が読まれない死んだ属性になっていた（2026-07-30 実測）。
+ */
+export default function FoxMark({ size = 32, className = '', style }) {
   return (
     <svg
+      aria-hidden="true"
       width={size}
       height={size}
       viewBox="0 0 32 32"
@@ -16,8 +23,6 @@ export default function FoxMark({ size = 32, className = '', style, ariaLabel = 
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       style={style}
-      role="img"
-      aria-label={ariaLabel}
     >
       {/* Head silhouette — angular fox with pointed ears */}
       <path

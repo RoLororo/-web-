@@ -25,7 +25,7 @@ export default function Sparkline({ data = [], color = 'var(--green-bright)', fi
   const last = points[points.length - 1];
 
   return (
-    <svg viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="none" style={{ width: '100%', height: '100%', overflow: 'visible' }}>
+    <svg aria-hidden="true" viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="none" style={{ width: '100%', height: '100%', overflow: 'visible' }}>
       {fill && <path d={areaPath} fill={color} opacity="0.10" />}
       <path
         d={path}

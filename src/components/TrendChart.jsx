@@ -73,8 +73,16 @@ export default function TrendChart({ data = [], color, labels = null, unit = '' 
 
   return (
     <div className="chart-wrap">
+      {/* グラフは装飾ではなくデータなので隠さず、読み上げ用の要約を付ける
+          （2026-07-30: aria-hidden も label も無く、無名の図として読まれていた） */}
       <svg
         ref={svgRef}
+        role="img"
+        aria-label={
+          `折れ線グラフ。${labels ? `${labels[0]} から ${labels[labels.length - 1]} まで` : `${data.length} 点`}、` +
+          `最小 ${min.toLocaleString()}${unit}、最大 ${max.toLocaleString()}${unit}、` +
+          `最新 ${data[data.length - 1].toLocaleString()}${unit}。`
+        }
         viewBox={`0 0 ${w} ${h}`}
         className="chart-svg"
         onMouseMove={handleMove}
