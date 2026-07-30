@@ -21,8 +21,12 @@ export default function App() {
 
   return (
     <div className="app">
+      {/* キーボード利用者がナビ 5 項目を毎ページ通過せず本文へ飛べるようにする。
+          top の切り替えでは :focus が効かなかったため clip-path 方式にした
+          （2026-07-30 実測: ルールは適用されるのに computed top が変わらなかった） */}
+      <a href="#main" className="skip-link">本文へスキップ</a>
       <Header />
-      <main className="main">
+      <main className="main" id="main" tabIndex={-1}>
         {/* key forces a remount → page-fade animation replays on every navigation */}
         <div className="page-fade" key={location.pathname}>
           <Routes location={location}>

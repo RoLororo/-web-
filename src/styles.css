@@ -4214,3 +4214,34 @@ select.select:focus {
   }
   .hero-eyebrow { margin-bottom: var(--s-3); }
 }
+
+/* --- スキップリンク（キーボード利用者向け）-----------------------------
+   位置の切り替えではなく clip-path で隠す。フォーカス時に通常フローへ戻す。 */
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.skip-link:focus {
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  width: auto;
+  height: auto;
+  clip-path: none;
+  overflow: visible;
+  z-index: 200;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--green-bright);
+  background: var(--card);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.main:focus { outline: none; }
