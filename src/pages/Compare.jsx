@@ -19,11 +19,14 @@
 //     - insights のあるテーマ同士でも insights のないテーマ同士でも動く
 // ============================================================================
 
-import { useMemo, useState } from 'react';
+import { Fragment, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { getDemands, getDemandById } from '../services/demandService.js';
 import { sourceDisplay, sourceColor } from '../services/sourceCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
+
+// 選択前に見せる比較表の行見出し（下の cmp-grid と同じ順序）
+const SKELETON_ROWS = ['総合スコア', '前日比', 'ステータス', '総合判定', '観測の確かさ'];
 
 function ThemePicker({ label, value, onChange, exclude, demands }) {
   return (
@@ -247,11 +250,30 @@ export default function Compare() {
       </div>
 
       {(!demandA || !demandB) && (
-        <div className="cmp-guide">
-          {(!demandA && !demandB) && '上の 2 つのセレクタでテーマを選んでください。'}
-          {(demandA && !demandB) && `「${demandA.title}」ともう 1 テーマを選んでください。`}
-          {(!demandA && demandB) && `「${demandB.title}」ともう 1 テーマを選んでください。`}
-        </div>
+        <>
+          <div className="cmp-guide">
+            {(!demandA && !demandB) && '上の 2 つのセレクタでテーマを選んでください。'}
+            {(demandA && !demandB) && `「${demandA.title}」ともう 1 テーマを選んでください。`}
+            {(!demandA && demandB) && `「${demandB.title}」ともう 1 テーマを選んでください。`}
+          </div>
+
+          {/* 選ぶ前の fold は 800px のうち 350px が空白だった（2026-07-30 実測）。
+              選ぶと何が並ぶのかを、実際の比較表と同じ形の枠で見せる。 */}
+          <div className="cmp-grid cmp-skeleton" aria-hidden="true">
+            {SKELETON_ROWS.map((label) => (
+              <Fragment key={label}>
+                <div className="cmp-cell cmp-cell-ghost">
+                  <div className="cmp-cell-label">{label}</div>
+                  <div className="cmp-ghost-bar" />
+                </div>
+                <div className="cmp-cell cmp-cell-ghost right">
+                  <div className="cmp-cell-label">{label}</div>
+                  <div className="cmp-ghost-bar" />
+                </div>
+              </Fragment>
+            ))}
+          </div>
+        </>
       )}
 
       {demandA && demandB && (

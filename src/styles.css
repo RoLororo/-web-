@@ -4280,6 +4280,33 @@ select.select:focus {
 }
 .demand-evidence-sep { opacity: 0.5; }
 
+/* --- /compare: 選択前のプレビュー枠 ------------------------------------
+   選ぶ前の fold は 800px のうち 350px が空白だった（2026-07-30 実測）。
+   実際の比較表と同じ 2 列・同じ行見出しの枠を出して、何が並ぶかを見せる。 */
+
+.cmp-skeleton { margin-top: 12px; }
+.cmp-cell-ghost {
+  border-style: dashed;
+  background: var(--surface-alt);
+}
+.cmp-ghost-bar {
+  height: 20px;
+  margin-top: 4px;
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--text-3) 16%, transparent),
+    color-mix(in oklab, var(--text-3) 6%, transparent)
+  );
+}
+.cmp-cell-ghost.right .cmp-ghost-bar {
+  background: linear-gradient(
+    270deg,
+    color-mix(in oklab, var(--text-3) 16%, transparent),
+    color-mix(in oklab, var(--text-3) 6%, transparent)
+  );
+}
+
 /* --- Sparkline: 末端ドットを HTML で描く ------------------------------- */
 
 .spark-wrap {
