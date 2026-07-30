@@ -4183,6 +4183,30 @@ select.select:focus {
 }
 .demand-evidence-sep { opacity: 0.5; }
 
+/* --- 1 行の文字数（measure）を抑える -----------------------------------
+   全角換算の 1 行文字数 = 要素幅 ÷ font-size。実測（2026-07-30・1280px）で
+   98 / 92 / 87 / 81 文字の行があり、日本語で読みやすい上限（約 45 文字）を
+   大幅に超えて視線の折り返しが困難だった。max-width を持つ説明文は 0 件。
+   単位を em にしてあるので、font-size を変えても文字数の上限は保たれる。
+   枠と背景を持つ要素（.disclaimer / .cmp-empty-hint）は箱の寸法が変わるため
+   対象外。等幅の実測値行（.wn-source-metrics）も散文ではないので除く。   */
+
+.ideas-note,
+.wn-sub,
+.chart-note,
+.block-lead,
+.source-trends-sub,
+.insight-note,
+.verdict-rationale {
+  max-width: 46em;
+}
+/* 中央寄せの空状態は箱ごと絞る（枠だけ 1132px で中身が 1 行という間延び） */
+.empty-hint,
+.loading-hint {
+  max-width: 44em;
+  margin-inline: auto;
+}
+
 /* --- Changes: 狭い画面でテーブルを独立スクロールさせる ----------------- */
 
 .changes-table-scroll {
