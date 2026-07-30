@@ -17,7 +17,7 @@ import {
   historyDepthDays,
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
-import { sourceDisplay } from '../services/sourceCatalog.js';
+import { sourceDisplay, metricLabel } from '../services/sourceCatalog.js';
 import { themeTitle } from '../services/themeCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
@@ -162,6 +162,10 @@ export default function Changes() {
                 {rowsToShow.length === 0 && (
                   <div className="changes-empty">数値変化なし</div>
                 )}
+                {/* 375px ではテーブルが 380px になり、差分の数値が切れて読めなくなる
+                    （2026-07-30 実測: はみ出し要素 186 個・ページ側にスクロールも出ない）。
+                    テーブルだけを独立してスクロールさせる */}
+                <div className="changes-table-scroll">
                 <table className="changes-table">
                   <tbody>
                     {rowsToShow.map(([key, val]) => {
@@ -169,7 +173,7 @@ export default function Changes() {
                       return (
                         <tr key={key}>
                           <td className="changes-src">{sourceDisplay(source)}</td>
-                          <td className="changes-metric">{metric}</td>
+                          <td className="changes-metric">{metricLabel(metric)}</td>
                           <td className="changes-prev">{val.previous.toLocaleString()}</td>
                           <td className="changes-arrow">→</td>
                           <td className="changes-cur">{val.current.toLocaleString()}</td>
@@ -181,6 +185,7 @@ export default function Changes() {
                     })}
                   </tbody>
                 </table>
+                </div>
               </div>
             );
           })}

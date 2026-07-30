@@ -4179,3 +4179,13 @@ select.select:focus {
   font-variant-numeric: tabular-nums;
 }
 .demand-evidence-sep { opacity: 0.5; }
+
+/* --- Changes: 狭い画面でテーブルを独立スクロールさせる ----------------- */
+
+.changes-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.changes-table-scroll .changes-table {
+  min-width: 340px;
+}
