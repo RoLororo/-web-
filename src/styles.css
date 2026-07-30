@@ -21,6 +21,10 @@
   --border-strong: #3d3d3d;
 
   --text:          #f5f5f5;
+  /* --text-1 は 17 箇所から参照されていたのに未定義で、すべて継承値に落ちて
+     いた（`.rank-title` はランキングの見出しなのに --text-3 相当の #949494 で
+     描かれ、`.chip-btn:hover` は色が変わらなかった）。--text の別名にする。 */
+  --text-1:        var(--text);
   --text-2:        #c2c2c2;   /* boosted from a3a3a3 for readability */
   --text-3:        #949494;   /* boosted from 737373 for readability */
   --text-inv:      #0a0a0a;
@@ -508,6 +512,10 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin-top: 6px;
 }
 .section-link {
+  /* 以前は同じクラスが 2 箇所で定義され、pill（ここ）と緑の破線リンクが
+     混ざって padding が 6px / 1px の非対称になっていた。定義はここだけ。 */
+  display: inline-flex;
+  align-items: center;
   color: var(--text-2);
   font-size: 13px;
   padding: 6px 12px;
@@ -3934,15 +3942,6 @@ select.select:focus {
 /* --- TodaysMovers (Home widget) --------------------------------------- */
 
 .todays-movers { margin-top: 32px; }
-.section-link {
-  color: var(--green-bright);
-  text-decoration: none;
-  font-size: 13px;
-  border-bottom: 1px dashed rgba(80, 200, 120, 0.3);
-  padding-bottom: 1px;
-}
-.section-link:hover { opacity: 0.75; }
-
 .movers-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -4276,6 +4275,24 @@ select.select:focus {
   font-variant-numeric: tabular-nums;
 }
 .demand-evidence-sep { opacity: 0.5; }
+
+/* --- モバイルの操作要素の寸法 -------------------------------------------
+   実測（2026-07-30・375px）: `.btn` と `.icon-btn` は 36px あるのに、
+   チップ類は 26〜31px、`.back-link` は 21px しかなく、指で押す対象として
+   小さく詰まって見えていた。高さだけそろえる（色・形は変えない）。      */
+
+@media (max-width: 640px) {
+  .chip-btn,
+  .chip-btn.small,
+  .range-tab,
+  .section-link {
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .back-link { padding: 7px 0; }
+}
 
 /* --- ページ見出しの大きさをそろえる -------------------------------------
    実測（2026-07-30・1280px）: 一覧 6 ページの h1 は 34px なのに、
