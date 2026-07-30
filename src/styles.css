@@ -3493,7 +3493,9 @@ select.select:focus {
   height: 12px;
   border-radius: 50%;
   background: var(--green-bright);
-  box-shadow: 0 0 0 4px var(--bg-1);
+  /* 縦線から丸を切り離すためのリング。--bg-1 は未定義で box-shadow ごと
+     無効になっていた（2026-07-30 実測: computed box-shadow が none） */
+  box-shadow: 0 0 0 4px var(--bg);
 }
 .timeline-date {
   text-align: right;
