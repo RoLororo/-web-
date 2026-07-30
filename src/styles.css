@@ -1068,9 +1068,74 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--green-bright);
   box-shadow: 0 0 0 1px var(--green-line);
 }
+/* 目盛りは HTML 側に置く（SVG 内の文字は横方向だけ拡縮されて潰れる）。
+   --chart-h  実際の描画高さ。SVG の viewBox 高さ 260 とは別で、
+              縦位置は % で指定するため両者が違っても崩れない。
+   --chart-gutter  y 目盛りの左帯。SVG はこの右側だけを使う。 */
+.chart-wrap {
+  --chart-h: 260px;
+  --chart-gutter: 38px;
+}
+.chart-plot {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  height: var(--chart-h);
+}
+.chart-yaxis {
+  position: relative;
+  flex: 0 0 var(--chart-gutter);
+}
+.chart-ylabel {
+  position: absolute;
+  right: 8px;
+  transform: translateY(-50%);
+  font-size: 11px;
+  color: var(--text-2);
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.chart-xaxis {
+  position: relative;
+  height: 20px;
+  margin-top: 4px;
+}
+.chart-xlabel {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: var(--text-2);
+  font-family: var(--font-num);
+  white-space: nowrap;
+}
+/* 端のラベルは内側へ寄せて描画域から出さない
+   （中央寄せのままだと右端が 7px はみ出していた・2026-07-30 実測） */
+.chart-xlabel:first-child { transform: translateX(0); }
+.chart-xlabel:last-child  { transform: translateX(-100%); }
+
+/* 最新点・hover 点。SVG 内の円は横に潰れて楕円になるため HTML で描く */
+.chart-dot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 3;
+}
+.chart-dot-latest {
+  animation: chartDotPulse 2.4s ease-in-out infinite;
+}
+
 .chart-svg {
+  /* flex-basis は 0 にする。auto だと viewBox 由来の固有幅（高さ 220px なら
+     220 × 800/260 = 677px）が min-content として親グリッドを押し広げ、
+     375px でページ全体が横 677px に膨らんでいた（2026-07-30 実測）。 */
+  flex: 1 1 0;
+  min-width: 0;
   width: 100%;
-  height: 260px;
+  height: 100%;
   display: block;
   overflow: visible;
 }
@@ -1110,7 +1175,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 @media (max-width: 640px) {
-  .chart-svg { height: 220px; }
+  .chart-wrap { --chart-h: 220px; --chart-gutter: 32px; }
 }
 
 /* --------------------------------------------------------------------------
@@ -1163,7 +1228,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin-bottom: var(--s-2);
 }
 .evidence-type {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--green-bright);
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -1245,7 +1310,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   transform: translateY(-1px);
 }
 .fav-tile-cat {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1272,7 +1337,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--text-3);
 }
 .fav-tile-score-label {
-  font-size: 10px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -1309,7 +1374,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .fav-tile-move-src {
   color: var(--text-3);
   font-weight: 400;
-  font-size: 10.5px;
+  font-size: 11px;
   margin-left: 3px;
 }
 
@@ -1436,7 +1501,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   line-height: 1.55;
 }
 .verdict-label {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -1599,7 +1664,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin-bottom: 6px;
 }
 .demand-cat-inline {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1631,7 +1696,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   align-items: center;
   gap: 4px;
   padding: 2px 8px;
-  font-size: 10.5px;
+  font-size: 11px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface);
@@ -1702,7 +1767,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .demand-card.compact .card-primary-change .cpc-val { font-size: 15px; }
 .demand-card.compact .score { font-size: 22px; }
-.demand-card.compact .score-lbl { font-size: 9px; margin-top: -2px; }
+.demand-card.compact .score-lbl { font-size: 11px; margin-top: -2px; }
 
 @media (max-width: 640px) {
   .demand-card.compact { grid-template-columns: 32px 1fr; gap: 10px; padding: 12px 14px; }
@@ -1735,7 +1800,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface);
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-2);
   cursor: help;
   font-variant-numeric: tabular-nums;
@@ -1764,7 +1829,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin-bottom: 6px;
 }
 .card-primary-change .cpc-lbl {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -1774,7 +1839,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-weight: 700;
 }
 .card-primary-change .cpc-src {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
 }
 .card-primary-change.up {
@@ -1795,7 +1860,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .score-lbl {
   display: block;
-  font-size: 9.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1866,7 +1931,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .db-pick:hover { transform: translateY(-1px); border-color: var(--green-bright); }
 .db-pick-eyebrow {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--green-bright);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -1942,7 +2007,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .db-mover-move.up   { color: var(--green-bright); }
 .db-mover-move.down { color: var(--red); }
-.db-mover-src { font-size: 10px; color: var(--text-3); flex-shrink: 0; margin-left: 4px; }
+.db-mover-src { font-size: 11px; color: var(--text-3); flex-shrink: 0; margin-left: 4px; }
 
 .db-empty {
   padding: 14px;
@@ -2043,7 +2108,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .cmp-cell.right { text-align: right; }
 .cmp-cell-label {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2140,7 +2205,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   background: var(--card);
 }
 .cmp-triad-lbl {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2427,7 +2492,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   transform: translateY(-1px);
 }
 .insight-similar-cat {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2470,7 +2535,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .insight-idea-format {
   display: inline-block;
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--green-bright);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -2501,7 +2566,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   flex-wrap: wrap;
 }
 .insight-tag {
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-2);
   padding: 2px 8px;
   border-radius: 999px;
@@ -2704,7 +2769,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .src-obs-ext {
   display: inline-block;
   margin-left: 4px;
-  font-size: 10.5px;
+  font-size: 11px;
   color: var(--text-3);
 }
 .src-obs-publisher {
@@ -3442,7 +3507,7 @@ select.select:focus {
 .timeline-hi-link { color: var(--text-1); text-decoration: none; }
 .timeline-hi-link:hover { color: var(--green-bright); }
 .timeline-hi-badge {
-  font-size: 10px;
+  font-size: 11px;
   padding: 2px 6px;
   border-radius: 4px;
   background: rgba(80, 200, 120, 0.12);
@@ -3689,7 +3754,7 @@ select.select:focus {
 }
 .rank-title:hover { color: var(--green-bright); }
 .rank-source {
-  font-size: 10px;
+  font-size: 11px;
   padding: 2px 6px;
   border-radius: 4px;
   background: rgba(80, 200, 120, 0.12);
@@ -3805,7 +3870,7 @@ select.select:focus {
 .wn-metric-link { color: var(--text-1); text-decoration: none; font-weight: 500; }
 .wn-metric-link:hover { color: var(--green-bright); }
 .wn-metric-src {
-  font-size: 10px;
+  font-size: 11px;
   padding: 2px 6px;
   border-radius: 4px;
   background: rgba(80, 200, 120, 0.12);
@@ -3972,7 +4037,7 @@ select.select:focus {
   margin-left: 4px;
 }
 .source-trends-warn {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-2);
   background: rgba(255, 200, 100, 0.14);
   padding: 2px 6px;
@@ -4024,7 +4089,7 @@ select.select:focus {
   margin-bottom: 8px;
 }
 .idea-kind-badge {
-  font-size: 10.5px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.04em;
   padding: 2px 8px;
