@@ -4277,6 +4277,15 @@ select.select:focus {
 }
 .demand-evidence-sep { opacity: 0.5; }
 
+/* --- /whats-new: hero 直後の導線 --------------------------------------- */
+
+.wn-quick-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 var(--s-5);
+}
+
 /* --- 1 行の文字数（measure）を抑える -----------------------------------
    全角換算の 1 行文字数 = 要素幅 ÷ font-size。実測（2026-07-30・1280px）で
    98 / 92 / 87 / 81 文字の行があり、日本語で読みやすい上限（約 45 文字）を

@@ -61,6 +61,16 @@ export default function WhatsNew() {
         </p>
       </section>
 
+      {/* このページは観測の記録だけで、押せる要素が 1 つも無かった
+          （2026-07-30 実測: main 内のリンク・ボタン 0 個）。
+          記録を見た後に向かう先を hero の直後に置く。 */}
+      <nav className="wn-quick-nav" aria-label="観測結果の見どころ">
+        <Link className="section-link" to="/rankings">ランキングで比べる</Link>
+        <Link className="section-link" to="/changes">前日からの変化を見る</Link>
+        <Link className="section-link" to="/timeline">履歴をたどる</Link>
+        <Link className="section-link" to="/explore">需要を探す</Link>
+      </nav>
+
       {/* Section 1: 更新カレンダー (日別 activity) */}
       <section className="wn-block">
         <h2 className="wn-h2">📅 毎日の更新件数</h2>
