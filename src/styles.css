@@ -54,6 +54,10 @@
   --accent-stable: var(--text-3);
   --accent-down:   var(--red);
 
+  /* フォーカス表示。WCAG 1.4.11 は 3:1 を要求する。--green-tint（8〜12%）
+     では light で 1.05:1 しか出ないため、実線の緑 + 濃いリングにする。 */
+  --focus-ring: color-mix(in oklab, var(--green) 40%, transparent);
+
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.5);
   --shadow-md: 0 8px 30px rgba(0,0,0,0.45);
   --shadow-glow: 0 0 0 1px var(--green-line), 0 10px 40px var(--green-glow);
@@ -648,7 +652,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .demand-card:focus-visible {
   outline: none;
   border-color: var(--green);
-  box-shadow: 0 0 0 3px var(--green-tint);
+  box-shadow: 0 0 0 3px var(--focus-ring);
 }
 
 .rank {
@@ -3018,8 +3022,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   transition: all 0.2s var(--ease);
 }
 .search-bar:focus-within {
-  border-color: var(--green-line);
-  box-shadow: 0 0 0 3px var(--green-tint);
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--focus-ring);
 }
 .search-bar input {
   flex: 1;
@@ -3063,8 +3067,8 @@ select.select {
 select.select:hover { border-color: var(--border-strong); }
 select.select:focus {
   outline: none;
-  border-color: var(--green-line);
-  box-shadow: 0 0 0 3px var(--green-tint);
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--focus-ring);
 }
 .result-count {
   margin-left: auto;
@@ -4275,6 +4279,29 @@ select.select:focus {
   font-variant-numeric: tabular-nums;
 }
 .demand-evidence-sep { opacity: 0.5; }
+
+/* --- Sparkline: 末端ドットを HTML で描く ------------------------------- */
+
+.spark-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.spark-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.spark-dot {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
 
 /* --- モバイルの操作要素の寸法 -------------------------------------------
    実測（2026-07-30・375px）: `.btn` と `.icon-btn` は 36px あるのに、

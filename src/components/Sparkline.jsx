@@ -2,6 +2,12 @@
 // Sparkline
 // カード内の小さな折れ線グラフ。軸なし・ホバーなし。
 // 末端に小さな発光ドットを置いて「現在地」を示す。
+//
+// viewBox 100x32 を 140x36 などに伸ばして描くため、横方向だけ拡大される
+// （2026-07-30 実測: 1280px のカードで scaleX 1.40 / scaleY 1.13）。
+// 折れ線の形は歪んでも構わないが、線幅と丸は歪むと目に見えるので
+//   ・線幅は non-scaling-stroke で固定
+//   ・末端のドットは HTML で描く（SVG の circle は楕円になる）
 // ============================================================================
 
 export default function Sparkline({ data = [], color = 'var(--green-bright)', fill = true }) {
@@ -25,18 +31,29 @@ export default function Sparkline({ data = [], color = 'var(--green-bright)', fi
   const last = points[points.length - 1];
 
   return (
-    <svg aria-hidden="true" viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="none" style={{ width: '100%', height: '100%', overflow: 'visible' }}>
-      {fill && <path d={areaPath} fill={color} opacity="0.10" />}
-      <path
-        d={path}
-        fill="none"
-        stroke={color}
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+    <span className="spark-wrap">
+      <svg aria-hidden="true" viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="none" className="spark-svg">
+        {fill && <path d={areaPath} fill={color} opacity="0.10" />}
+        <path
+          d={path}
+          fill="none"
+          stroke={color}
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          vectorEffect="non-scaling-stroke"
+        />
+      </svg>
+      <span
+        className="spark-dot"
+        aria-hidden="true"
+        style={{
+          left: `${(last[0] / w) * 100}%`,
+          top: `${(last[1] / h) * 100}%`,
+          background: color,
+          boxShadow: `0 0 0 3px color-mix(in oklab, ${color} 22%, transparent)`,
+        }}
       />
-      <circle cx={last[0]} cy={last[1]} r="3" fill={color} opacity="0.25" />
-      <circle cx={last[0]} cy={last[1]} r="1.5" fill={color} />
-    </svg>
+    </span>
   );
 }
