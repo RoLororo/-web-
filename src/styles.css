@@ -58,6 +58,10 @@
      では light で 1.05:1 しか出ないため、実線の緑 + 濃いリングにする。 */
   --focus-ring: color-mix(in oklab, var(--green) 40%, transparent);
 
+  /* 入力欄の枠。カードの枠（--border）は意図的に淡いが、フォームは
+     「どこが操作対象か」を示す線なので 3:1 を満たす濃さを別に持つ。 */
+  --control-border: #666666;
+
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.5);
   --shadow-md: 0 8px 30px rgba(0,0,0,0.45);
   --shadow-glow: 0 0 0 1px var(--green-line), 0 10px 40px var(--green-glow);
@@ -108,6 +112,8 @@
   --green-tint:    rgba(22, 163, 74, 0.08);
   --green-glow:    rgba(22, 163, 74, 0.14);
   --green-line:    rgba(22, 163, 74, 0.30);
+
+  --control-border: #8a8a8a;
 
   --v-blue:        #1d4ed8;
   --v-amber:       #8a5406;
@@ -940,7 +946,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: 6px;
   padding: 8px 14px;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--control-border);
   border-radius: 999px;
   color: var(--text-2);
   font-size: 13px;
@@ -3016,7 +3022,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: var(--s-3);
   padding: 12px 18px;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--control-border);
   border-radius: 999px;
   margin-bottom: var(--s-4);
   transition: all 0.2s var(--ease);
@@ -3049,7 +3055,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .filter-group { display: flex; align-items: center; gap: var(--s-2); }
 .filter-group label { font-size: 12px; color: var(--text-3); }
 select.select {
-  border: 1px solid var(--border);
+  border: 1px solid var(--control-border);
   background: var(--surface);
   color: var(--text);
   padding: 8px 32px 8px 12px;
