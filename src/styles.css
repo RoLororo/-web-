@@ -4189,3 +4189,27 @@ select.select:focus {
 .changes-table-scroll .changes-table {
   min-width: 340px;
 }
+
+/* --- Hero: モバイルの fold を空けてコンテンツを見せる -------------------
+   実測（2026-07-30・375x812）: Hero が 473px = fold の 58% を占め、
+   最初に押せる要素が 619px（fold の 76%）にあり、初訪問で操作対象が
+   1 つも見えない状態だった。余白・見出し・本文・統計を段階的に詰める。
+   デザイン（色・構成・要素）は変えず、寸法だけを縮める。          */
+
+@media (max-width: 640px) {
+  .hero { padding: var(--s-5) 0 var(--s-4); }
+  .hero h1 {
+    font-size: clamp(25px, 7.2vw, 34px);
+    margin-bottom: var(--s-3);
+  }
+  .hero p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .hero-stats {
+    gap: var(--s-2) var(--s-4);
+    padding: var(--s-3);
+    margin-top: var(--s-4);
+  }
+  .hero-eyebrow { margin-bottom: var(--s-3); }
+}
