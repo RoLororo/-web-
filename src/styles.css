@@ -39,6 +39,11 @@
   --red-tint:      rgba(248, 113, 113, 0.10);
   --red-line:      rgba(248, 113, 113, 0.30);
 
+  /* 判定ラベルの色。light では白地でのコントラストを満たす濃さに差し替える */
+  --v-blue:        #60a5fa;
+  --v-amber:       #fbbf24;
+  --v-purple:      #a78bfa;
+
   /* Semantic accents (updates automatically per theme) */
   --accent-hot:    var(--green-bright);
   --accent-grow:   var(--green);
@@ -81,16 +86,24 @@
 
   --text:          #0a0a0a;
   --text-2:        #454545;
-  --text-3:        #767676;
+  /* #767676 は白地で 4.54:1 だが、この UI の補助テキストは #f7f7f4 や
+     #eeede8、緑ティントの上に載るため 3.8〜4.4:1 に落ちていた（実測 31 箇所） */
+  --text-3:        #666666;
   --text-inv:      #ffffff;
   --brand:         #0a0a0a;
 
   --green:         #15803d;
-  --green-bright:  #16a34a;
+  /* 白地で 11px の文字にも使うため、緑ティントの上でも 4.5:1 を満たす濃さに
+     する（#16a34a は白地 3.4:1 / ティント上 2.8:1、#15803d でも 4.3:1 で不足） */
+  --green-bright:  #146b33;
   --green-deep:    #14532d;
   --green-tint:    rgba(22, 163, 74, 0.08);
   --green-glow:    rgba(22, 163, 74, 0.14);
   --green-line:    rgba(22, 163, 74, 0.30);
+
+  --v-blue:        #1d4ed8;
+  --v-amber:       #8a5406;
+  --v-purple:      #6d28d9;
 
   --red:           #b91c1c;
   --red-tint:      rgba(185, 28, 28, 0.06);
@@ -1533,22 +1546,22 @@ ul { margin: 0; padding: 0; list-style: none; }
   background: color-mix(in oklab, var(--green-bright) 12%, transparent);
 }
 .verdict.verdict-実装フェーズ {
-  border-color: color-mix(in oklab, #60a5fa 40%, var(--border));
+  border-color: color-mix(in oklab, var(--v-blue) 40%, var(--border));
 }
 .verdict.verdict-実装フェーズ .verdict-value {
-  color: #60a5fa;
-  border-color: color-mix(in oklab, #60a5fa 40%, transparent);
-  background: color-mix(in oklab, #60a5fa 12%, transparent);
+  color: var(--v-blue);
+  border-color: color-mix(in oklab, var(--v-blue) 40%, transparent);
+  background: color-mix(in oklab, var(--v-blue) 12%, transparent);
 }
 .verdict.verdict-認知拡大中 .verdict-value {
-  color: #fbbf24;
-  border-color: color-mix(in oklab, #fbbf24 40%, transparent);
-  background: color-mix(in oklab, #fbbf24 12%, transparent);
+  color: var(--v-amber);
+  border-color: color-mix(in oklab, var(--v-amber) 40%, transparent);
+  background: color-mix(in oklab, var(--v-amber) 12%, transparent);
 }
 .verdict.verdict-研究先行 .verdict-value {
-  color: #a78bfa;
-  border-color: color-mix(in oklab, #a78bfa 40%, transparent);
-  background: color-mix(in oklab, #a78bfa 12%, transparent);
+  color: var(--v-purple);
+  border-color: color-mix(in oklab, var(--v-purple) 40%, transparent);
+  background: color-mix(in oklab, var(--v-purple) 12%, transparent);
 }
 .verdict.verdict-鎮静化中 .verdict-value {
   color: var(--red);
@@ -1717,19 +1730,19 @@ ul { margin: 0; padding: 0; list-style: none; }
   background: color-mix(in oklab, var(--green-bright) 10%, transparent);
 }
 .card-badge.verdict-chip-実装フェーズ {
-  color: #60a5fa;
-  border-color: color-mix(in oklab, #60a5fa 40%, transparent);
-  background: color-mix(in oklab, #60a5fa 10%, transparent);
+  color: var(--v-blue);
+  border-color: color-mix(in oklab, var(--v-blue) 40%, transparent);
+  background: color-mix(in oklab, var(--v-blue) 10%, transparent);
 }
 .card-badge.verdict-chip-認知拡大中 {
-  color: #fbbf24;
-  border-color: color-mix(in oklab, #fbbf24 40%, transparent);
-  background: color-mix(in oklab, #fbbf24 10%, transparent);
+  color: var(--v-amber);
+  border-color: color-mix(in oklab, var(--v-amber) 40%, transparent);
+  background: color-mix(in oklab, var(--v-amber) 10%, transparent);
 }
 .card-badge.verdict-chip-研究先行 {
-  color: #a78bfa;
-  border-color: color-mix(in oklab, #a78bfa 40%, transparent);
-  background: color-mix(in oklab, #a78bfa 10%, transparent);
+  color: var(--v-purple);
+  border-color: color-mix(in oklab, var(--v-purple) 40%, transparent);
+  background: color-mix(in oklab, var(--v-purple) 10%, transparent);
 }
 .card-badge.verdict-chip-鎮静化中 {
   color: var(--red);
@@ -1768,6 +1781,22 @@ ul { margin: 0; padding: 0; list-style: none; }
 .demand-card.compact .card-primary-change .cpc-val { font-size: 15px; }
 .demand-card.compact .score { font-size: 22px; }
 .demand-card.compact .score-lbl { font-size: 11px; margin-top: -2px; }
+
+/* 641〜820px: 汎用の 820px ルールは 3 列（36px 1fr auto）で、chart が
+   全幅を取るため metrics が次の行の 36px トラックへ落ち、ピルが画面外へ
+   はみ出していた（2026-07-30・768px 実測）。col 2 に明示配置する。 */
+@media (min-width: 641px) and (max-width: 820px) {
+  .demand-card.compact { grid-template-columns: 36px 1fr; }
+  .demand-card.compact .demand-chart { grid-column: 2 / -1; }
+  .demand-card.compact .demand-metrics.compact {
+    grid-column: 2 / -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 4px;
+  }
+}
 
 @media (max-width: 640px) {
   .demand-card.compact { grid-template-columns: 32px 1fr; gap: 10px; padding: 12px 14px; }
