@@ -111,6 +111,9 @@ export const PATHS = {
     ndlMapping:      resolve(CONFIG_ROOT, 'ndl-mapping.json'),
     themeRegistry:   resolve(CONFIG_ROOT, 'theme-registry.json'),
   },
+  /** テーマ辞書とテーマ別マップを持つスクリプト (存在確認のためテキストとして読む) */
+  themeDictionary:  resolve(REPO_ROOT, 'scripts', 'extract-demand-candidates.mjs'),
+  wikipediaFetcher: resolve(REPO_ROOT, 'scripts', 'fetch-wikipedia-pageviews.mjs'),
 };
 
 // ---------------------------------------------------------------------------

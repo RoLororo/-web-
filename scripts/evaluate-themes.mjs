@@ -41,9 +41,15 @@ import { storage } from './lib/storage.mjs';
 const MIN_SOURCES = 3;
 const MIN_NEWS = 5;
 const DEMOTION_CONSECUTIVE_DAYS = 3;
-/** 種出しで拾う語の最低出現数。1〜2 件は偶然の混入が多い */
+/** 種出しの既定値。registry.seedFilter で上書きできる */
 const SEED_MIN_OCCURRENCES = 5;
+const SEED_MIN_DISPERSION = 0.6;
 const SEED_TOP_N = 20;
+
+/** カテゴリマスタ（src/data/mockDemands.js と同じ 9 分野） */
+const ALL_CATEGORIES = [
+  'AI・テクノロジー', 'ビジネス', '起業', '副業', '教育', '生活', 'エンタメ', '健康', '美容',
+];
 
 const SOURCE_KEYS = [
   '_wikipediaDetail', '_qiitaDetail', '_arxivDetail',
@@ -118,14 +124,29 @@ function keywordVelocity(trends) {
 
 /**
  * 未紐付け記事から候補語の種を出す。
- * 既知の語（テーマの relatedKeywords / keyword-trends のキー）は重複として除く。
+ *
+ * 除外するもの（STEP 4 の重複除去）:
+ *   - 既存テーマの relatedKeywords / keyword-trends のキー
+ *   - registry.seedFilter.rejectedWords（過去に却下した語。散文ではなく設定に置く）
+ *
+ * 分散フィルタ: 分散 = 出現日数 / 出現件数。
+ *   実測（2026-07-30）で事件名は 0.1〜0.29、継続的な語は 1.0 に寄る。
+ *   単発の出来事をテーマ候補に混ぜないため、しきい値未満を落とす。
  */
-function seedKeywords(articles, candidates, trends) {
+function seedKeywords(articles, candidates, trends, filter) {
+  const minOcc = filter?.minOccurrences ?? SEED_MIN_OCCURRENCES;
+  const minDisp = filter?.minDispersion ?? SEED_MIN_DISPERSION;
+
   const known = new Set();
   for (const c of candidates?.candidates || []) {
     for (const k of c.relatedKeywords || []) known.add(k.trim());
   }
   for (const k of Object.keys(trends?.keywords || {})) known.add(k.trim());
+
+  const rejected = new Set();
+  for (const list of Object.values(filter?.rejectedWords || {})) {
+    for (const w of list) rejected.add(w.trim());
+  }
 
   const matched = new Set();
   for (const c of candidates?.candidates || []) {
@@ -134,19 +155,114 @@ function seedKeywords(articles, candidates, trends) {
 
   const unmatched = articles.filter((a) => !matched.has(a.id));
   const freq = new Map();
+  const days = new Map();
   for (const a of unmatched) {
+    const day = (a.publishedAt || '').slice(0, 10);
     // カタカナ語 / 英字語 / 漢字語 を素朴に切り出す（形態素解析は依存を増やすため使わない）
     const tokens = (a.title || '').match(/[ァ-ヶー]{3,}|[A-Za-z][A-Za-z0-9.+-]{2,}|[一-龥]{2,4}/g) || [];
-    for (const t of new Set(tokens)) freq.set(t, (freq.get(t) || 0) + 1);
+    for (const t of new Set(tokens)) {
+      freq.set(t, (freq.get(t) || 0) + 1);
+      if (!days.has(t)) days.set(t, new Set());
+      days.get(t).add(day);
+    }
   }
 
-  const seeds = [...freq.entries()]
-    .filter(([w, n]) => n >= SEED_MIN_OCCURRENCES && !known.has(w))
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, SEED_TOP_N)
-    .map(([word, articleCount]) => ({ word, articleCount }));
+  const scored = [...freq.entries()]
+    .filter(([w, n]) => n >= minOcc)
+    .map(([word, articleCount]) => {
+      const dayCount = days.get(word).size;
+      const dispersion = Number((dayCount / articleCount).toFixed(2));
+      return {
+        word,
+        articleCount,
+        dayCount,
+        dispersion,
+        // 優先度 = 件数 × 分散。件数だけだと事件が上位に来る（STEP 6 の再現性のため式で決める）
+        priority: Number((articleCount * dispersion).toFixed(1)),
+      };
+    });
 
-  return { unmatchedCount: unmatched.length, totalArticles: articles.length, knownCount: known.size, seeds };
+  const excludedKnown = scored.filter((s) => known.has(s.word)).length;
+  const excludedRejected = scored.filter((s) => !known.has(s.word) && rejected.has(s.word)).length;
+  const excludedSpike = scored.filter(
+    (s) => !known.has(s.word) && !rejected.has(s.word) && s.dispersion < minDisp,
+  );
+
+  const seeds = scored
+    .filter((s) => !known.has(s.word) && !rejected.has(s.word) && s.dispersion >= minDisp)
+    .sort((a, b) => b.priority - a.priority)
+    .slice(0, SEED_TOP_N);
+
+  return {
+    unmatchedCount: unmatched.length,
+    totalArticles: articles.length,
+    knownCount: known.size,
+    rejectedCount: rejected.size,
+    excludedKnown,
+    excludedRejected,
+    excludedSpike: excludedSpike.map((s) => `${s.word}(${s.dispersion})`),
+    minOcc,
+    minDisp,
+    seeds,
+  };
+}
+
+/**
+ * テーマがどの段階にいるかを「ファイルの実体」から判定する。
+ * レジストリの自己申告は信じない（食い違いを検出するのが目的）。
+ *
+ *   Phase A 済み = 情報源マッピングに載っている（取得はマッピングが駆動する）
+ *   Phase B 済み = キーワード辞書に載っている（公開は辞書が駆動する）
+ */
+async function detectPhases(themeIds) {
+  const mappingFiles = [
+    PATHS.config.qiitaMapping, PATHS.config.appstoreMapping, PATHS.config.arxivMapping,
+    PATHS.config.githubMapping, PATHS.config.ndlMapping,
+  ];
+  const inMapping = new Map(themeIds.map((id) => [id, 0]));
+  for (const p of mappingFiles) {
+    const j = await storage.readJson(p);
+    for (const id of Object.keys(j?.mapping || {})) {
+      if (inMapping.has(id)) inMapping.set(id, inMapping.get(id) + 1);
+    }
+  }
+
+  // キーワード辞書は .mjs 内のリテラル。テキストとして存在確認する
+  const dictText = (await storage.readText(PATHS.themeDictionary)) || '';
+  const wikiText = (await storage.readText(PATHS.wikipediaFetcher)) || '';
+
+  const out = {};
+  for (const id of themeIds) {
+    out[id] = {
+      mappingCount: inMapping.get(id) || 0,
+      inWikipedia: wikiText.includes(`'${id}'`),
+      inDictionary: dictText.includes(`id: '${id}'`),
+    };
+    out[id].phaseA = out[id].mappingCount > 0 || out[id].inWikipedia;
+    out[id].phaseB = out[id].inDictionary;
+  }
+  return out;
+}
+
+/** カテゴリと情報源の空白を数える（STEP 2 を毎回手計算しないため） */
+function coverageGaps(demands) {
+  const byCategory = {};
+  for (const d of demands) byCategory[d.category] = (byCategory[d.category] || 0) + 1;
+  const emptyCategories = ALL_CATEGORIES.filter((c) => !byCategory[c]);
+
+  const missingBySource = {};
+  for (const key of SOURCE_KEYS) {
+    const name = key.replace(/^_|Detail$/g, '');
+    missingBySource[name] = demands.filter((d) => !d[key]).map((d) => d.id);
+  }
+
+  const sourceCountDist = {};
+  for (const d of demands) {
+    const n = countSources(d);
+    sourceCountDist[n] = (sourceCountDist[n] || 0) + 1;
+  }
+
+  return { byCategory, emptyCategories, missingBySource, sourceCountDist };
 }
 
 /** 過去の評価ログから、基準未達が何日連続しているかを数える */
@@ -258,6 +374,42 @@ async function main() {
   }
   console.log('');
 
+  // ── 4.2 レジストリの status と実体の突き合わせ ──────────────
+  const phases = await detectPhases(registered);
+  const expected = (p) => (p.phaseB ? 'active/stalled' : p.phaseA ? 'observing' : 'candidate');
+  const drift = registered.filter((id) => {
+    const st = registry.themes[id].status;
+    const exp = expected(phases[id]);
+    if (exp === 'active/stalled') return !['active', 'stalled'].includes(st);
+    return st !== exp;
+  });
+  console.log('■ status とファイル実体の整合（自己申告を信じない）');
+  for (const id of registered) {
+    const p = phases[id];
+    console.log(`   ${id.padEnd(24)} status=${registry.themes[id].status.padEnd(10)}` +
+      ` mapping ${p.mappingCount}/5 ${p.inWikipedia ? '+wiki' : '     '} 辞書 ${p.inDictionary ? '有' : '無'}` +
+      `  → 実体は ${expected(p)}`);
+  }
+  console.log(drift.length ? `   ⚠ 食い違い ${drift.length} 件: ${drift.join(', ')}` : '   ✅ 食い違いなし');
+  console.log('');
+
+  // ── 4.5 候補（Phase A 前）────────────────────────────────
+  const candidateIds = registered.filter((id) => registry.themes[id].status === 'candidate');
+  console.log('■ 候補（マッピング未投入 = Phase A 前）');
+  if (candidateIds.length === 0) {
+    console.log('   なし');
+  } else {
+    for (const id of candidateIds) {
+      const t = registry.themes[id];
+      const ev = t.seedEvidence?.words || {};
+      const total = Object.values(ev).reduce((s2, v) => s2 + (v.articles || 0), 0);
+      console.log(`   ${id}（${t.proposedName || '-'} / ${t.proposedCategory || '-'}）`);
+      console.log(`     根拠: ${Object.entries(ev).map(([w, v]) => `${w} ${v.articles}件/分散${v.dispersion}`).join(' / ')} = 計 ${total} 件`);
+      if (t.blockedBy) console.log(`     未着手の理由: ${t.blockedBy}`);
+    }
+  }
+  console.log('');
+
   // ── 5. キーワードの velocity ───────────────────────────────
   const vel = keywordVelocity(trends);
   console.log('■ 既知キーワードの velocity（件/日・上位 10）');
@@ -267,20 +419,41 @@ async function main() {
   }
   console.log('');
 
-  // ── 6. 新しい需要候補の種（重複除去済み）──────────────────────
-  const seed = seedKeywords(articles, candidates, trends);
-  console.log('■ 未紐付け記事からの候補語（既知語を除去済み）');
-  console.log(`   未紐付け ${seed.unmatchedCount} / ${seed.totalArticles} 件・既知語 ${seed.knownCount} 語を除外`);
+  // ── 6. カテゴリと情報源の空白（STEP 2）──────────────────────
+  const gaps = coverageGaps(demands);
+  console.log('■ カテゴリの空白');
+  console.log(`   使用 ${Object.keys(gaps.byCategory).length} / ${ALL_CATEGORIES.length} 分野` +
+    `（${Object.entries(gaps.byCategory).map(([c, n]) => `${c} ${n}`).join(' / ')}）`);
+  console.log(`   空白: ${gaps.emptyCategories.join(' / ') || 'なし'}`);
+  console.log('');
+  console.log('■ 情報源の空白');
+  for (const [name, ids] of Object.entries(gaps.missingBySource)) {
+    console.log(`   ${name.padEnd(10)} 欠損 ${String(ids.length).padStart(2)} テーマ` +
+      (ids.length ? `  → ${ids.join(', ')}` : ''));
+  }
+  console.log(`   ソース数の分布: ${JSON.stringify(gaps.sourceCountDist)}（キー=ソース数 / 値=テーマ数）`);
+  console.log('');
+
+  // ── 7. 新しい需要候補の種（重複除去 + 分散フィルタ）────────────
+  const seed = seedKeywords(articles, candidates, trends, registry.seedFilter);
+  console.log('■ 未紐付け記事からの候補語');
+  console.log(`   未紐付け ${seed.unmatchedCount} / ${seed.totalArticles} 件`);
+  console.log(`   除外: 既知語 ${seed.excludedKnown} / 却下済み ${seed.excludedRejected}` +
+    ` / 単発の出来事 ${seed.excludedSpike.length}（分散 < ${seed.minDisp}）`);
+  if (seed.excludedSpike.length) {
+    console.log(`     単発と判定: ${seed.excludedSpike.join(' ')}`);
+  }
   if (seed.seeds.length === 0) {
-    console.log(`   ${SEED_MIN_OCCURRENCES} 件以上に出る新しい語はなし`);
+    console.log(`   → ${seed.minOcc} 件以上・分散 ${seed.minDisp} 以上の新しい語は **なし**`);
   } else {
-    console.log('   ' + seed.seeds.map((s) => `${s.word}(${s.articleCount})`).join(' '));
-    console.log('   ※ これは種であって候補ではない。事件名・固有名詞が混ざるため、');
-    console.log('     テーマ化の判断には velocity と特異度の確認が必要');
+    console.log('   優先度 = 出現件数 × 分散（高い順）:');
+    for (const s of seed.seeds) {
+      console.log(`     ${String(s.priority).padStart(5)}  ${s.word.padEnd(14)} ${s.articleCount} 件 / ${s.dayCount} 日 / 分散 ${s.dispersion}`);
+    }
   }
   console.log('');
 
-  // ── 7. 評価ログに追記（同日は上書き）──────────────────────────
+  // ── 8. 評価ログに追記（同日は上書き）──────────────────────────
   const record = {
     date: today,
     generatedAt: new Date().toISOString(),
@@ -289,7 +462,10 @@ async function main() {
     belowCriteria: below.length,
     active,
     observing,
+    candidates: candidateIds,
     seedTop: seed.seeds.slice(0, 10),
+    emptyCategories: gaps.emptyCategories,
+    sourceCountDist: gaps.sourceCountDist,
   };
   const nextLog = [...log.filter((r) => r.date !== today), record].sort((a, b) => a.date.localeCompare(b.date));
   await storage.writeJsonl(PATHS.evaluations, nextLog);

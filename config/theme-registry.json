@@ -3,10 +3,11 @@
   "description": "追跡テーマの状態レジストリ。テーマ定義そのものは各 mapping / 辞書が持つ。ここは『いま何が公開中で、何が停滞しているか』だけを持つ。",
   "note": "初期値は 2026-07-30 の実測から作成した。since は git の日次コミット 7 世代のうち最古（2026-07-22）で、それ以前は未計測。",
   "statusMeaning": {
-    "candidate": "キーワードだけ決めた段階。まだ観測していない",
-    "observing": "観測はしているが公開条件を満たしていない",
+    "candidate": "種出しで見つかった候補。まだマッピングに入れていない（Phase A 前）",
+    "observing": "情報源マッピングには入れたが、キーワード辞書に入れていないため非公開（Phase A 済・Phase B 前）",
     "active": "公開中",
-    "retired": "観測を終了した"
+    "retired": "観測を終了した",
+    "stalled": "マッピングもキーワード辞書も揃っているが、キーワードが記事にヒットせず公開されない"
   },
   "promotionCriteria": {
     "minSources": 3,
@@ -18,20 +19,169 @@
     "note": "1 日の値では日次の揺れで振動するため、連続日数で判定する"
   },
   "themes": {
-    "infrastructure-outages": { "status": "active", "since": "2026-07-22" },
-    "ai-business-automation": { "status": "active", "since": "2026-07-22" },
-    "ai-coding": { "status": "active", "since": "2026-07-22" },
-    "security-breach": { "status": "active", "since": "2026-07-22" },
-    "payment-troubles": { "status": "active", "since": "2026-07-22" },
-    "ai-regulation": { "status": "active", "since": "2026-07-22" },
-    "remote-work": { "status": "active", "since": "2026-07-22" },
-    "ai-hardware": { "status": "active", "since": "2026-07-22" },
-    "home-server-selfhost": { "status": "active", "since": "2026-07-22" },
-    "senior-health": { "status": "active", "since": "2026-07-22" },
+    "infrastructure-outages": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "ai-business-automation": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "ai-coding": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "security-breach": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "payment-troubles": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "ai-regulation": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "remote-work": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "ai-hardware": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "home-server-selfhost": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
+    "senior-health": {
+      "status": "active",
+      "since": "2026-07-22"
+    },
     "ai-content-generation": {
-      "status": "observing",
+      "status": "stalled",
       "since": "2026-07-22",
       "note": "hot 語（動画生成 / 画像生成 / 音声合成）が 691 記事中 0 件。代替語 生成AI は 16 件ヒットするが内容一致は 3 件程度で、corpus 自体に信号がない"
+    },
+    "entertainment-content": {
+      "status": "candidate",
+      "since": "2026-07-30",
+      "proposedName": "ゲーム・アニメなどエンタメ制作",
+      "proposedCategory": "エンタメ",
+      "seedEvidence": {
+        "measuredAt": "2026-07-30",
+        "words": {
+          "ゲーム": {
+            "articles": 11,
+            "days": 8,
+            "dispersion": 0.73
+          },
+          "アニメ": {
+            "articles": 9,
+            "days": 8,
+            "dispersion": 0.89
+          },
+          "音楽": {
+            "articles": 5,
+            "days": 5,
+            "dispersion": 1
+          },
+          "マンガ": {
+            "articles": 5,
+            "days": 5,
+            "dispersion": 1
+          }
+        },
+        "note": "未紐付け記事 607 件中の合計 30 件。空白カテゴリ『エンタメ』を埋める。分散はいずれも 0.73 以上で単発の出来事ではない"
+      },
+      "blockedBy": "Phase A 未実施。6 情報源のマッピング検索語を決め、0 件でないことを確認する必要がある"
     }
+  },
+  "seedFilter": {
+    "minOccurrences": 5,
+    "minDispersion": 0.6,
+    "note": "分散 = 出現日数 / 出現件数。実測（2026-07-30）で事件名は 0.1〜0.29（熊本 0.1 / 熊本地震 0.22 / イオンモール 0.22 / 地震 0.29）、継続的な語は 1.0 に寄る。0.6 未満は単発の出来事として除外する",
+    "rejectedWords": {
+      "固有名詞・事件名": [
+        "熊本",
+        "熊本県",
+        "熊本地震",
+        "地震",
+        "イオンモール",
+        "イラン",
+        "ウクライナ",
+        "中国",
+        "日本",
+        "高市首相",
+        "少年",
+        "ジャンプ",
+        "毎日新聞",
+        "NHK",
+        "Meta",
+        "iPhone",
+        "Visa",
+        "NVIDIA",
+        "Copilot",
+        "Claude"
+      ],
+      "汎用語（特異度なし）": [
+        "AI",
+        "情報",
+        "仕事",
+        "開発",
+        "サービス",
+        "活用",
+        "レビュー",
+        "可能性",
+        "最大",
+        "理由",
+        "問題",
+        "発表",
+        "公開",
+        "影響",
+        "ニュース",
+        "世界",
+        "女性",
+        "異例",
+        "批判",
+        "最新",
+        "対応",
+        "方法",
+        "時間",
+        "場所",
+        "理解"
+      ],
+      "既存テーマと分離できない": [
+        "生成",
+        "生成AI",
+        "アプリ",
+        "サイト",
+        "攻撃",
+        "法案",
+        "復旧",
+        "自宅",
+        "カード",
+        "計算基盤",
+        "プライバシー",
+        "サーバ",
+        "サーバー",
+        "リモートワーク",
+        "認知症",
+        "個人情報",
+        "セキュリティ",
+        "システム",
+        "高齢者",
+        "ランサム",
+        "出社",
+        "おうち",
+        "ラボ",
+        "構築",
+        "ボケ",
+        "フィジカルAI",
+        "PayPay"
+      ]
+    },
+    "rejectedNote": "却下語は毎回の実行で除外する。散文ではなくここに置くことで STEP 4（重複除去）が実際に機能する"
   }
 }
