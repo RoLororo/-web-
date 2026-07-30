@@ -39,12 +39,25 @@ import { storage } from './lib/storage.mjs';
 // 設定 — フィードや上限を変えたければここだけを触る
 // ---------------------------------------------------------------------------
 
-/** 収集対象の RSS フィード。増やすときは name と url を追加するだけ。 */
+/**
+ * 収集対象の RSS フィード。増やすときは name と url を追加するだけ。
+ * 重複は URL 基準で排除されるため、総合フィードとカテゴリ別フィードの併用は安全。
+ *
+ * ■ フィード採用の基準（2026-07-30 実測で確定）
+ *   採否は「テーマ紐付き率」= そのフィードの記事のうち需要テーマの根拠になった
+ *   割合で決める。実測値: ITmedia 24% / Zenn 24% / はてブ総合 5% / NHK 3%。
+ *
+ *   はてブのカテゴリ別（経済 / 暮らし / 学び）を 63 件追加して試したところ
+ *   **紐付き 0 件（0%）**で、候補語の上位が トランプ・ロシア・自分・現場 と
+ *   国際政治や汎用語に置き換わり発見の質が下がったため撤回した。
+ *   一般ニュースの分野別フィードには需要（作りたい / 買いたい / 困っている）が
+ *   現れない。**紐付き率 0% のフィードは採用しない。**
+ */
 const FEEDS = [
-  { name: 'NHK',     url: 'https://www.nhk.or.jp/rss/news/cat0.xml' },
-  { name: 'ITmedia', url: 'https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml' },
-  { name: 'Zenn',    url: 'https://zenn.dev/feed' },
-  { name: 'はてな',   url: 'https://b.hatena.ne.jp/hotentry.rss' },
+  { name: 'NHK',           url: 'https://www.nhk.or.jp/rss/news/cat0.xml' },
+  { name: 'ITmedia',       url: 'https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml' },
+  { name: 'Zenn',          url: 'https://zenn.dev/feed' },
+  { name: 'はてな',         url: 'https://b.hatena.ne.jp/hotentry.rss' },
 ];
 
 /** 保存する最大件数 (古いものから溢れる) */

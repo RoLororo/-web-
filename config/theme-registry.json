@@ -189,7 +189,65 @@
         "measured": "既存 10 テーマの比率は 0.00〜1.00 で、うち 6 テーマ（security-breach / payment-troubles / ai-regulation / ai-hardware / remote-work / senior-health）が 0.00。0.00 は失格条件にならない"
       }
     ],
-    "needsSignalNote": "需要性はニュース corpus からは測れない（代理指標 2 つを実測で否定）。Phase A で Qiita 記事数 + App Store アプリ数として測る"
+    "needsSignalNote": "需要性はニュース corpus からは測れない（代理指標 2 つを実測で否定）。Phase A で Qiita 記事数 + App Store アプリ数として測る",
+    "feedCriteria": {
+      "measuredAt": "2026-07-30",
+      "rule": "新規フィードは『テーマ紐付き率』で採否を決める。紐付き率 0% のフィードは採用しない",
+      "observedRates": {
+        "ITmedia": "24%",
+        "Zenn": "24%",
+        "はてブ総合": "5%",
+        "NHK": "3%"
+      },
+      "rejectedFeeds": [
+        {
+          "name": "はてブ 経済",
+          "url": "https://b.hatena.ne.jp/hotentry/economics.rss",
+          "measured": "21 件 / 紐付き 0 件（0%）。内容は国際政治・マクロ経済"
+        },
+        {
+          "name": "はてブ 暮らし",
+          "url": "https://b.hatena.ne.jp/hotentry/life.rss",
+          "measured": "18 件 / 紐付き 0 件（0%）。内容は事故・生活雑記"
+        },
+        {
+          "name": "はてブ 学び",
+          "url": "https://b.hatena.ne.jp/hotentry/knowledge.rss",
+          "measured": "24 件 / 紐付き 0 件（0%）。内容は言葉・社会論"
+        }
+      ],
+      "probedButNotTried": [
+        {
+          "name": "ITmedia AI+",
+          "items": 20
+        },
+        {
+          "name": "ITmedia ビジネス",
+          "items": 20
+        },
+        {
+          "name": "Qiita 人気",
+          "items": 30
+        },
+        {
+          "name": "GIGAZINE",
+          "items": 30
+        },
+        {
+          "name": "CodeZine",
+          "items": 20
+        },
+        {
+          "name": "窓の杜",
+          "items": 60
+        },
+        {
+          "name": "はてブ IT",
+          "items": 30
+        }
+      ],
+      "note": "probe では 10 本すべて生存。ただし紐付き率 24% の 2 本（ITmedia / Zenn）はいずれも技術・製品メディアであり、次に試すのは同系統（ITmedia AI+ / ビジネス / Qiita 人気 / CodeZine / 窓の杜）に絞る"
+    }
   },
   "rejectedCandidates": [
     {
