@@ -4162,3 +4162,20 @@ select.select:focus {
   font-family: var(--font-num, inherit);
   font-variant-numeric: tabular-nums;
 }
+
+/* --- DemandCard: 根拠の量 --------------------------------------------- */
+
+.demand-evidence {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: var(--text-3);
+  margin-top: 6px;
+}
+.demand-evidence b {
+  color: var(--text-2);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.demand-evidence-sep { opacity: 0.5; }

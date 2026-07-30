@@ -74,6 +74,8 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
     primaryPct < 0 ? 'var(--red)' : 'var(--text-3)';
 
   const cardSeries = sliceSeries(trendSeries(demand), 7)?.values || [];
+  const sourceTotal = ['_wikipediaDetail', '_qiitaDetail', '_arxivDetail',
+    '_appstoreDetail', '_githubDetail', '_ndlDetail'].filter((k) => demand[k]).length;
 
   // Subtle tiering: top-3 get a slightly stronger border
   const tier = rank <= 3 ? 'top3' : rank <= 6 ? 'mid' : 'rest';
@@ -102,6 +104,18 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
         {/* 詳細ページと同じ系列（Wikipedia 日次 PV）の末尾 7 点。
             旧実装は trendData['7d'] = ニュース件数で、2 テーマが全ゼロだった */}
         <Sparkline data={cardSeries} color={sparkColor} />
+      </div>
+
+      {/* 根拠の量。カードは意図的に簡素化してあるので、判断に効く 2 つだけ足す
+          （ニュース件数 = 根拠の数、情報源数 = 裏取りの広さ） */}
+      <div className="demand-evidence">
+        <span title="直近 30 日でこのテーマに紐付いたニュース記事">
+          ニュース <b>{demand._matchingArticleCount ?? 0}</b> 件
+        </span>
+        <span className="demand-evidence-sep">·</span>
+        <span title="実際に観測できた情報源の数（最大 6）">
+          <b>{sourceTotal}</b> 情報源
+        </span>
       </div>
 
       <div className="demand-metrics compact">
