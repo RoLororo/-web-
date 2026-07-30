@@ -35,8 +35,11 @@
 //     npm run themes:eval
 // ============================================================================
 
-import { PATHS } from './lib/paths.mjs';
+import { resolve } from 'node:path';
+import { PATHS, REPO_ROOT } from './lib/paths.mjs';
 import { storage } from './lib/storage.mjs';
+
+const resolveSrc = (...parts) => resolve(REPO_ROOT, ...parts);
 
 const MIN_SOURCES = 3;
 const MIN_NEWS = 5;
@@ -242,6 +245,52 @@ async function detectPhases(themeIds) {
     out[id].phaseB = out[id].inDictionary;
   }
   return out;
+}
+
+/**
+ * 情報量ベースライン。
+ * ENGINE 第 3.5 章の唯一の評価基準「ユーザーにとって価値のある情報量が増えたか」を
+ * 毎回同じ定義で測る。テーマ数だけ増えて他が増えていない変更を検出するのが目的。
+ */
+async function informationVolume(demands) {
+  // demands の全リーフを列挙し、src/ 全文に名前が出てくるかで「UI が参照している」を判定
+  const leaves = new Set();
+  const walk = (o) => {
+    if (Array.isArray(o)) { if (o.length) walk(o[0]); return; }
+    if (o && typeof o === 'object') { for (const [k, v] of Object.entries(o)) { leaves.add(k); walk(v); } return; }
+  };
+  if (demands[0]) walk(demands[0]);
+  const keys = [...leaves].filter((k) => !/^\d{4}-\d{2}-\d{2}$/.test(k));
+
+  let src = '';
+  for (const dir of ['src', 'src/components', 'src/pages', 'src/services', 'src/utils']) {
+    for (const name of await storage.listFiles(resolveSrc(dir))) {
+      if (!/\.(jsx|js)$/.test(name)) continue;
+      src += (await storage.readText(resolveSrc(dir, name))) || '';
+    }
+  }
+  const referenced = keys.filter((k) => src.includes(k)).length;
+
+  const ideas = demands.reduce((sum, d) => {
+    const i = d._insights || {};
+    return sum + (i.monetization?.length || 0) + (i.content?.length || 0) + (i.saas?.length || 0);
+  }, 0);
+  const withSeries = demands.filter(
+    (d) => Object.keys(d._wikipediaDetail?.byDate || {}).length >= 2,
+  ).length;
+  const avgSources = demands.length
+    ? Number((demands.reduce((s2, d) => s2 + countSources(d), 0) / demands.length).toFixed(1))
+    : 0;
+
+  return {
+    themes: demands.length,
+    categories: new Set(demands.map((d) => d.category)).size,
+    avgSources,
+    ideas,
+    withSeries,
+    fieldsReferenced: referenced,
+    fieldsTotal: keys.length,
+  };
 }
 
 /** カテゴリと情報源の空白を数える（STEP 2 を毎回手計算しないため） */
@@ -453,6 +502,15 @@ async function main() {
   }
   console.log('');
 
+  // ── 7.5 情報量ベースライン（唯一の評価基準）────────────────────
+  const vol = await informationVolume(demands);
+  console.log('■ 情報量ベースライン（テーマ数だけ増えた変更を検出するため）');
+  console.log(`   公開テーマ ${vol.themes} / 使用カテゴリ ${vol.categories}/9 / 平均ソース ${vol.avgSources}`);
+  console.log(`   アイデア ${vol.ideas} 件 / 日次系列を持つテーマ ${vol.withSeries}`);
+  console.log(`   UI が参照するフィールド ${vol.fieldsReferenced} / ${vol.fieldsTotal}`);
+  console.log('   ※ 前回値は REVIEW_STATE の「情報量ベースライン」と突き合わせる');
+  console.log('');
+
   // ── 8. 評価ログに追記（同日は上書き）──────────────────────────
   const record = {
     date: today,
@@ -463,6 +521,7 @@ async function main() {
     active,
     observing,
     candidates: candidateIds,
+    volume: vol,
     seedTop: seed.seeds.slice(0, 10),
     emptyCategories: gaps.emptyCategories,
     sourceCountDist: gaps.sourceCountDist,
