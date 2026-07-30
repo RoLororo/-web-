@@ -11,6 +11,7 @@ import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import FoxMark from '../components/FoxMark.jsx';
 import SourceTrends from '../components/SourceTrends.jsx';
 import SourceObservations from '../components/SourceObservations.jsx';
+import SourceMetrics from '../components/SourceMetrics.jsx';
 import InsightsPanel from '../components/InsightsPanel.jsx';
 import { getDemandById } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
@@ -317,6 +318,15 @@ export default function DemandDetail() {
                   <div className="chart-note">推移を描けるだけの観測データがまだありません。</div>
                 )}
               </div>
+            </div>
+
+            {/* 情報源ごとの実数 (demands.json に既に含まれる nativeMetrics) */}
+            <div className="block">
+              <div className="block-title">情報源ごとの実数</div>
+              <p className="block-lead">
+                各情報源が直近の観測窓で実際に返した数字です。判断の材料にならない内部計算値は出していません。
+              </p>
+              <SourceMetrics demand={demand} />
             </div>
 
             {/* 情報源別の時系列 (history/current から動的読み込み) */}
