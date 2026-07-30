@@ -52,6 +52,11 @@ export default function Home() {
   // 情報源 7 は Wikipedia/Qiita/arXiv/App Store JP/GitHub/国立国会図書館/主要ニュース RSS。
   const totalArticles = getTotalArticles();
   const SOURCE_COUNT = 7;
+  // /ideas に並ぶ事業アイデアの総数（収益化 + コンテンツ + SaaS）
+  const ideaCount = allDemands.reduce((sum, d) => {
+    const i = d._insights || {};
+    return sum + (i.monetization?.length || 0) + (i.content?.length || 0) + (i.saas?.length || 0);
+  }, 0);
 
   return (
     <div>
@@ -84,6 +89,13 @@ export default function Home() {
             <div className="hero-stat-label">直近ニュース観測</div>
             <div className="hero-stat-value green">
               <AnimatedNumber value={totalArticles} duration={900} />
+            </div>
+          </div>
+          {/* 事業アイデアの総数。/ideas に 80 件あるが Home からは件数すら見えなかった */}
+          <div className="hero-stat">
+            <div className="hero-stat-label">事業アイデア</div>
+            <div className="hero-stat-value">
+              <AnimatedNumber value={ideaCount} duration={1000} />
             </div>
           </div>
         </div>
