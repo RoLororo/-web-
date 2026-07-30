@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-29T14:33:05.772Z",
+  "generatedAt": "2026-07-30T00:23:00.960Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-06-29",
-  "authenticated": false,
+  "createdSince": "2026-06-30",
+  "authenticated": true,
   "mappedThemeCount": 10,
   "successCount": 10,
   "skippedCount": 0,
@@ -19,26 +19,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2374,
-        "engagement": 139,
+        "volume": 2319,
+        "engagement": 156,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2374,
-        "topStarSum": 139,
+        "newRepoCount": 2319,
+        "topStarSum": 156,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 64,
+          "stars": 81,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -82,26 +82,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1817,
-        "engagement": 786,
+        "volume": 1752,
+        "engagement": 792,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1817,
-        "topStarSum": 786,
+        "newRepoCount": 1752,
+        "topStarSum": 792,
         "topLanguage": "Python",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 258,
+          "stars": 262,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -133,7 +133,7 @@
         {
           "title": "ricmmartins/azure-sre-agent-skills",
           "url": "https://github.com/ricmmartins/azure-sre-agent-skills",
-          "stars": 64,
+          "stars": 66,
           "language": null,
           "description": "Custom proactive skills for Azure SRE Agent — governance, cost intelligence, architecture quality, AI workload posture",
           "publishedAt": "2026-07-22T14:36:11Z"
@@ -145,22 +145,30 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1065,
-        "engagement": 47,
+        "volume": 1055,
+        "engagement": 79,
         "contributors": null,
-        "latestActivityAt": "2026-07-13T02:06:39Z"
+        "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1065,
-        "topStarSum": 47,
+        "newRepoCount": 1055,
+        "topStarSum": 79,
         "topLanguage": "TypeScript",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
+        {
+          "title": "DigitalShieldOfficial/DigitalShieldPay",
+          "url": "https://github.com/DigitalShieldOfficial/DigitalShieldPay",
+          "stars": 36,
+          "language": null,
+          "description": "A blockchain payment gateway for USDT that monitors on-chain wallet addresses, detects incoming transactions in real tim",
+          "publishedAt": "2026-07-27T02:24:49Z"
+        },
         {
           "title": "rzkyyds/gobiz-payment-v2",
           "url": "https://github.com/rzkyyds/gobiz-payment-v2",
@@ -192,14 +200,6 @@
           "language": "CSS",
           "description": null,
           "publishedAt": "2026-07-05T21:05:15Z"
-        },
-        {
-          "title": "martian56/epoint-python",
-          "url": "https://github.com/martian56/epoint-python",
-          "stars": 4,
-          "language": "Python",
-          "description": "Python client for the epoint.az payment gateway. Sync and async, all 30 endpoints, fully typed.",
-          "publishedAt": "2026-07-20T16:37:11Z"
         }
       ],
       "errors": []
@@ -208,20 +208,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 706,
+        "volume": 686,
         "engagement": 78,
         "contributors": null,
         "latestActivityAt": "2026-07-03T06:42:03Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 706,
+        "newRepoCount": 686,
         "topStarSum": 78,
         "topLanguage": "Python",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
@@ -271,20 +271,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 556,
+        "volume": 547,
         "engagement": 35,
         "contributors": null,
         "latestActivityAt": "2026-07-02T14:53:14Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 556,
+        "newRepoCount": 547,
         "topStarSum": 35,
         "topLanguage": "HTML",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
@@ -334,20 +334,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 439,
-        "engagement": 1139,
+        "volume": 436,
+        "engagement": 1142,
         "contributors": null,
         "latestActivityAt": "2026-07-02T14:43:11Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 439,
-        "topStarSum": 1139,
+        "newRepoCount": 436,
+        "topStarSum": 1142,
         "topLanguage": "Python",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
@@ -361,7 +361,7 @@
         {
           "title": "nopnoping/micro-vllm",
           "url": "https://github.com/nopnoping/micro-vllm",
-          "stars": 104,
+          "stars": 105,
           "language": "Python",
           "description": "A small, educational vLLM implementation for exploring LLM inference, scheduling, KV-cache management, and GPU execution",
           "publishedAt": "2026-07-26T11:08:51Z"
@@ -377,7 +377,7 @@
         {
           "title": "arizqi/cpubrrr",
           "url": "https://github.com/arizqi/cpubrrr",
-          "stars": 50,
+          "stars": 52,
           "language": "Rust",
           "description": "Frontier-class LLM inference on a laptop CPU — gpt-oss:20b at ~110 tok/s on Apple M4 Max, 7.5x llama.cpp, no GPU. From-s",
           "publishedAt": "2026-07-04T17:49:51Z"
@@ -397,34 +397,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 266,
-        "engagement": 203,
+        "volume": 257,
+        "engagement": 95,
         "contributors": null,
-        "latestActivityAt": "2026-06-30T19:55:53Z"
+        "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 266,
-        "topStarSum": 203,
+        "newRepoCount": 257,
+        "topStarSum": 95,
         "topLanguage": "Go",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
-          "title": "turhobr/selfhost.directory",
-          "url": "https://github.com/turhobr/selfhost.directory",
-          "stars": 118,
-          "language": null,
-          "description": "A searchable directory of 2,700+ self-hosted, open-source apps — with setup guides, alternatives & live version tracking",
-          "publishedAt": "2026-06-30T19:55:53Z"
-        },
-        {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 33,
+          "stars": 34,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -432,26 +424,34 @@
         {
           "title": "Nerdy-Technician/JellyGlance",
           "url": "https://github.com/Nerdy-Technician/JellyGlance",
-          "stars": 19,
+          "stars": 20,
           "language": "JavaScript",
           "description": "A modern Jellyfin dashboard for live sessions, user stats, recently added media, libraries, downloads, calendars, webhoo",
           "publishedAt": "2026-07-17T22:32:40Z"
         },
         {
-          "title": "Nonetss/playbook-runner",
-          "url": "https://github.com/Nonetss/playbook-runner",
-          "stars": 17,
-          "language": "TypeScript",
-          "description": "Self-hosted web UI to run Ansible playbooks against your inventory, without the complexity of AWX/Tower.",
-          "publishedAt": "2026-06-30T17:37:18Z"
-        },
-        {
           "title": "deskhq/the-desk",
           "url": "https://github.com/deskhq/the-desk",
-          "stars": 16,
+          "stars": 17,
           "language": "PHP",
           "description": "Calm, fast, self-hosted team chat you run yourself — channels, threads, reminders, scheduled messages. One Docker compos",
           "publishedAt": "2026-07-08T00:14:05Z"
+        },
+        {
+          "title": "freedomappsprivacy/Freedom-apps-privacy",
+          "url": "https://github.com/freedomappsprivacy/Freedom-apps-privacy",
+          "stars": 13,
+          "language": null,
+          "description": "A massive, curated list of Free and Open Source Software (FOSS) and privacy-respecting alternatives to mainstream, track",
+          "publishedAt": "2026-07-06T14:53:20Z"
+        },
+        {
+          "title": "romainducrocq/wacc-selfhosted",
+          "url": "https://github.com/romainducrocq/wacc-selfhosted",
+          "stars": 11,
+          "language": "C",
+          "description": "Selfhosted implementation of \"Writing a C Compiler\"",
+          "publishedAt": "2026-07-05T18:40:04Z"
         }
       ],
       "errors": []
@@ -460,20 +460,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 263,
+        "volume": 260,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 263,
+        "newRepoCount": 260,
         "topStarSum": 43,
         "topLanguage": "Lua",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
@@ -523,20 +523,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 52,
+        "volume": 54,
         "engagement": 18,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 52,
+        "newRepoCount": 54,
         "topStarSum": 18,
         "topLanguage": "HCL",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {
@@ -586,20 +586,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T14:33:05.772Z",
+      "fetchedAt": "2026-07-30T00:23:00.960Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 180,
+        "volume": 179,
         "engagement": 64,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 180,
+        "newRepoCount": 179,
         "topStarSum": 64,
         "topLanguage": "Python",
-        "createdSince": "2026-06-29"
+        "createdSince": "2026-06-30"
       },
       "topItems": [
         {

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-29T00:16:57.481Z",
+  "generatedAt": "2026-07-30T00:20:37.742Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
-  "cutoffDate": "2026-06-29",
+  "cutoffDate": "2026-06-30",
   "mappedThemeCount": 11,
   "successCount": 9,
   "skippedCount": 2,
   "errorCount": 0,
-  "totalRequestCount": 44,
-  "rateRemainingAtEnd": 16,
+  "totalRequestCount": 43,
+  "rateRemainingAtEnd": 17,
   "themesSkipped": [
     "senior-health",
     "ai-regulation"
@@ -19,22 +19,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
-      "requestCount": 26,
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
+      "requestCount": 25,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1857,
-        "engagement": 3182,
-        "contributors": 698,
-        "latestActivityAt": "2026-07-29T09:15:01+09:00"
+        "volume": 1832,
+        "engagement": 3183,
+        "contributors": 685,
+        "latestActivityAt": "2026-07-30T08:07:59+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1857,
-        "lgtmSum": 3182,
-        "uniqueAuthors": 698,
-        "latestPublishedAt": "2026-07-29T09:15:01+09:00"
+        "articleCount": 1832,
+        "lgtmSum": 3183,
+        "uniqueAuthors": 685,
+        "latestPublishedAt": "2026-07-30T08:07:59+09:00"
       },
       "meta": {
         "tags": [
@@ -46,29 +46,29 @@
         "tagBreakdown": [
           {
             "tag": "ChatGPT",
-            "totalCount": 258,
-            "fetched": 258,
+            "totalCount": 257,
+            "fetched": 257,
             "pages": 3,
             "stoppedBy": "done"
           },
           {
             "tag": "Claude",
-            "totalCount": 428,
-            "fetched": 428,
+            "totalCount": 416,
+            "fetched": 416,
             "pages": 5,
             "stoppedBy": "done"
           },
           {
             "tag": "LLM",
-            "totalCount": 803,
-            "fetched": 803,
-            "pages": 9,
+            "totalCount": 792,
+            "fetched": 792,
+            "pages": 8,
             "stoppedBy": "done"
           },
           {
             "tag": "生成AI",
-            "totalCount": 847,
-            "fetched": 847,
+            "totalCount": 840,
+            "fetched": 840,
             "pages": 9,
             "stoppedBy": "done"
           }
@@ -79,35 +79,35 @@
           "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
           "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
           "publishedAt": "2026-07-12T16:15:00+09:00",
-          "likes": 419,
+          "likes": 432,
           "author": "ZiYuCai1984"
         },
         {
           "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
           "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
           "publishedAt": "2026-07-11T19:39:54+09:00",
-          "likes": 268,
+          "likes": 287,
           "author": "fuyunoki"
         },
         {
           "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと",
           "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
           "publishedAt": "2026-07-17T07:54:35+09:00",
-          "likes": 146,
+          "likes": 157,
           "author": "Koukyosyumei"
         },
         {
           "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった",
           "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
           "publishedAt": "2026-07-10T09:58:51+09:00",
-          "likes": 86,
+          "likes": 87,
           "author": "tatsuya582"
         },
         {
           "title": "ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～",
           "url": "https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612",
           "publishedAt": "2026-07-25T20:22:16+09:00",
-          "likes": 82,
+          "likes": 84,
           "author": "WdknWdkn"
         }
       ]
@@ -116,22 +116,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 129,
-        "engagement": 272,
-        "contributors": 74,
-        "latestActivityAt": "2026-07-28T22:12:42+09:00"
+        "volume": 124,
+        "engagement": 256,
+        "contributors": 73,
+        "latestActivityAt": "2026-07-29T22:33:27+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 129,
-        "lgtmSum": 272,
-        "uniqueAuthors": 74,
-        "latestPublishedAt": "2026-07-28T22:12:42+09:00"
+        "articleCount": 124,
+        "lgtmSum": 256,
+        "uniqueAuthors": 73,
+        "latestPublishedAt": "2026-07-29T22:33:27+09:00"
       },
       "meta": {
         "tags": [
@@ -141,15 +141,15 @@
         "tagBreakdown": [
           {
             "tag": "GitHubCopilot",
-            "totalCount": 59,
-            "fetched": 59,
+            "totalCount": 58,
+            "fetched": 58,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "Cursor",
-            "totalCount": 73,
-            "fetched": 73,
+            "totalCount": 69,
+            "fetched": 69,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -174,7 +174,7 @@
           "title": "ナレッジ83件を2時間で作った。でも腐るのは、もっと速かった",
           "url": "https://qiita.com/yamada-iknow/items/5e5ec4d5e96b12fbc75c",
           "publishedAt": "2026-07-10T07:00:29+09:00",
-          "likes": 27,
+          "likes": 28,
           "author": "yamada-iknow"
         },
         {
@@ -197,22 +197,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 29,
-        "engagement": 88,
+        "volume": 31,
+        "engagement": 89,
         "contributors": 21,
-        "latestActivityAt": "2026-07-28T19:09:56+09:00"
+        "latestActivityAt": "2026-07-29T16:06:46+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 29,
-        "lgtmSum": 88,
+        "articleCount": 31,
+        "lgtmSum": 89,
         "uniqueAuthors": 21,
-        "latestPublishedAt": "2026-07-28T19:09:56+09:00"
+        "latestPublishedAt": "2026-07-29T16:06:46+09:00"
       },
       "meta": {
         "tags": [
@@ -229,8 +229,8 @@
           },
           {
             "tag": "画像生成",
-            "totalCount": 24,
-            "fetched": 24,
+            "totalCount": 26,
+            "fetched": 26,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -255,7 +255,7 @@
           "title": "ComfyUI のカスタムノードを自作してワークフローを拡張する",
           "url": "https://qiita.com/olige/items/bfeea9050de33293b868",
           "publishedAt": "2026-07-28T19:09:56+09:00",
-          "likes": 0,
+          "likes": 1,
           "author": "olige"
         },
         {
@@ -278,22 +278,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 3,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 71,
-        "engagement": 91,
-        "contributors": 47,
-        "latestActivityAt": "2026-07-28T14:57:05+09:00"
+        "volume": 73,
+        "engagement": 93,
+        "contributors": 48,
+        "latestActivityAt": "2026-07-30T07:28:58+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 71,
-        "lgtmSum": 91,
-        "uniqueAuthors": 47,
-        "latestPublishedAt": "2026-07-28T14:57:05+09:00"
+        "articleCount": 73,
+        "lgtmSum": 93,
+        "uniqueAuthors": 48,
+        "latestPublishedAt": "2026-07-30T07:28:58+09:00"
       },
       "meta": {
         "tags": [
@@ -311,8 +311,8 @@
           },
           {
             "tag": "NVIDIA",
-            "totalCount": 27,
-            "fetched": 27,
+            "totalCount": 29,
+            "fetched": 29,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -330,7 +330,7 @@
           "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録",
           "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
           "publishedAt": "2026-07-25T09:25:54+09:00",
-          "likes": 19,
+          "likes": 20,
           "author": "nakatada-lab"
         },
         {
@@ -367,22 +367,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 31,
-        "engagement": 57,
-        "contributors": 23,
-        "latestActivityAt": "2026-07-28T08:49:34+09:00"
+        "volume": 32,
+        "engagement": 58,
+        "contributors": 24,
+        "latestActivityAt": "2026-07-29T23:52:47+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 31,
-        "lgtmSum": 57,
-        "uniqueAuthors": 23,
-        "latestPublishedAt": "2026-07-28T08:49:34+09:00"
+        "articleCount": 32,
+        "lgtmSum": 58,
+        "uniqueAuthors": 24,
+        "latestPublishedAt": "2026-07-29T23:52:47+09:00"
       },
       "meta": {
         "tags": [
@@ -392,15 +392,15 @@
         "tagBreakdown": [
           {
             "tag": "CloudFront",
-            "totalCount": 24,
-            "fetched": 24,
+            "totalCount": 23,
+            "fetched": 23,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "障害対応",
-            "totalCount": 8,
-            "fetched": 8,
+            "totalCount": 10,
+            "fetched": 10,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -448,22 +448,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 4,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 47,
-        "engagement": 435,
-        "contributors": 29,
-        "latestActivityAt": "2026-07-29T00:12:09+09:00"
+        "volume": 46,
+        "engagement": 500,
+        "contributors": 27,
+        "latestActivityAt": "2026-07-29T12:10:20+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 47,
-        "lgtmSum": 435,
-        "uniqueAuthors": 29,
-        "latestPublishedAt": "2026-07-29T00:12:09+09:00"
+        "articleCount": 46,
+        "lgtmSum": 500,
+        "uniqueAuthors": 27,
+        "latestPublishedAt": "2026-07-29T12:10:20+09:00"
       },
       "meta": {
         "tags": [
@@ -475,8 +475,8 @@
         "tagBreakdown": [
           {
             "tag": "情報セキュリティ",
-            "totalCount": 21,
-            "fetched": 21,
+            "totalCount": 19,
+            "fetched": 19,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -489,8 +489,8 @@
           },
           {
             "tag": "脆弱性",
-            "totalCount": 15,
-            "fetched": 15,
+            "totalCount": 16,
+            "fetched": 16,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -508,7 +508,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 355,
+          "likes": 416,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -536,7 +536,7 @@
           "title": "なぜニチレイは、たった10日で復旧できたのか",
           "url": "https://qiita.com/harupython/items/3ca158f89a6e38d762aa",
           "publishedAt": "2026-07-27T14:29:26+09:00",
-          "likes": 4,
+          "likes": 9,
           "author": "harupython"
         }
       ]
@@ -545,7 +545,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -626,7 +626,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -692,7 +692,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-07-29T00:16:57.481Z",
+      "fetchedAt": "2026-07-30T00:20:37.742Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,

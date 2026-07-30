@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T00:15:42.821Z",
-  "totalArticles": 615,
+  "generatedAt": "2026-07-30T00:19:23.315Z",
+  "totalArticles": 691,
   "themeCount": 11,
   "candidateCount": 10,
   "method": "rule-based keyword matching",
@@ -14,13 +14,15 @@
         "Claude",
         "活用",
         " AI",
+        "ChatGPT",
         "仕事",
-        "生成AI",
-        "ChatGPT"
+        "生成AI"
       ],
       "evidenceArticleIds": [
+        "4beeb768be9735e6",
         "54480ef975be5e0e",
         "b40c9644e6cb6c8c",
+        "fbcfedecb86926e7",
         "75752a40a43aee02",
         "c04b3e742dc7fd32",
         "e41ef298f3cb7354",
@@ -36,13 +38,11 @@
         "3924def162eedd37",
         "62362f8e0232e2b9",
         "ef4c3e3584ef4256",
-        "ecb92cdc1d651134",
-        "fc2b057114879075",
-        "ebf16c0d6b88f915"
+        "ecb92cdc1d651134"
       ],
-      "evidenceArticleCount": 25,
+      "evidenceArticleCount": 27,
       "confidence": 0.92,
-      "reason": "13 種類のキーワードが 25 件の記事でヒット（例：Claude、活用、 AI）"
+      "reason": "13 種類のキーワードが 27 件の記事でヒット（例：Claude、活用、 AI）"
     },
     {
       "id": "ai-coding",
@@ -51,13 +51,14 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude Code",
-        "codex",
         "レビュー",
+        "codex",
         "開発",
         "エンジニア",
-        "CI"
+        "Copilot"
       ],
       "evidenceArticleIds": [
+        "fbcfedecb86926e7",
         "a94d4472eb2ed2ef",
         "897d5bcb7a25014c",
         "e41ef298f3cb7354",
@@ -75,9 +76,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 16,
-      "confidence": 0.91,
-      "reason": "11 種類のキーワードが 16 件の記事でヒット（例：Claude Code、codex、レビュー）"
+      "evidenceArticleCount": 17,
+      "confidence": 0.9,
+      "reason": "11 種類のキーワードが 17 件の記事でヒット（例：Claude Code、レビュー、codex）"
     },
     {
       "id": "infrastructure-outages",
@@ -86,13 +87,14 @@
       "category": "ビジネス",
       "relatedKeywords": [
         "障害",
-        "影響",
         "復旧",
+        "影響",
         "システム",
         "サービス",
         "AWS"
       ],
       "evidenceArticleIds": [
+        "9683eb10a28f55f8",
         "31714153c1ef69ff",
         "ab51597997a02e16",
         "5364b956c670e858",
@@ -109,9 +111,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 15,
-      "confidence": 0.91,
-      "reason": "11 種類のキーワードが 15 件の記事でヒット（例：障害、影響、復旧）"
+      "evidenceArticleCount": 16,
+      "confidence": 0.93,
+      "reason": "12 種類のキーワードが 16 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "security-breach",
@@ -151,14 +153,15 @@
       "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
       "category": "ビジネス",
       "relatedKeywords": [
-        "クレカ",
         "決済",
         "PayPay",
+        "クレカ",
         "カード",
         "Visa",
         "取引"
       ],
       "evidenceArticleIds": [
+        "d525d678e213e33b",
         "efa8f82e0a7656dc",
         "7d23fd4b8e588331",
         "fad6cd527efa3c50",
@@ -168,9 +171,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 8,
+      "evidenceArticleCount": 9,
       "confidence": 0.89,
-      "reason": "9 種類のキーワードが 8 件の記事でヒット（例：クレカ、決済、PayPay）"
+      "reason": "9 種類のキーワードが 9 件の記事でヒット（例：決済、PayPay、クレカ）"
     },
     {
       "id": "ai-regulation",
@@ -195,7 +198,7 @@
         "1c3d73cfafe83c4f"
       ],
       "evidenceArticleCount": 7,
-      "confidence": 0.77,
+      "confidence": 0.76,
       "reason": "6 種類のキーワードが 7 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
@@ -218,7 +221,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.58,
+      "confidence": 0.57,
       "reason": "5 種類のキーワードが 5 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
     },
     {
@@ -241,7 +244,7 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.63,
+      "confidence": 0.62,
       "reason": "7 種類のキーワードが 4 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
@@ -263,7 +266,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.5,
+      "confidence": 0.49,
       "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
     },
     {
