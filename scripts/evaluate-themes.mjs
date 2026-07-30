@@ -182,6 +182,15 @@ function seedKeywords(articles, candidates, trends, filter) {
         dispersion,
         // 優先度 = 件数 × 分散。件数だけだと事件が上位に来る（STEP 6 の再現性のため式で決める）
         priority: Number((articleCount * dispersion).toFixed(1)),
+        // 実記事のタイトル。語だけではテーマになるか判断できないため必ず添える
+        // （これが無いと毎回 ad-hoc スクリプトで記事を引く手作業が発生する）
+        // 上位語は全件に近い数を出す。2 件では判断を誤る
+        // （2026-07-30 実測: 音楽・マンガは 2 件だけ見ると制作需要に見えるが、
+        //  全 6 件を読むと性加害報道・作品更新通知で需要信号ゼロだった）
+        examples: unmatched
+          .filter((a) => (a.title || '').includes(word))
+          .slice(0, 6)
+          .map((a) => `${a.source}: ${(a.title || '').slice(0, 50)}`),
       };
     });
 
@@ -461,9 +470,9 @@ async function main() {
 
   // ── 5. キーワードの velocity ───────────────────────────────
   const vel = keywordVelocity(trends);
-  console.log('■ 既知キーワードの velocity（件/日・上位 10）');
+  console.log('■ 既知キーワードの velocity（件/日・上位 5 / STEP 3「将来性」の軸）');
   console.log(`   totalItems が 100 件上限に飽和: ${vel.filter((v) => v.saturated).length} / ${vel.length} 語`);
-  for (const v of vel.slice(0, 10)) {
+  for (const v of vel.slice(0, 5)) {
     console.log(`   ${String(v.velocity).padStart(6)} 件/日  ${v.keyword}（${v.items} 件 / ${v.spanDays} 日）`);
   }
   console.log('');
@@ -498,6 +507,12 @@ async function main() {
     console.log('   優先度 = 出現件数 × 分散（高い順）:');
     for (const s of seed.seeds) {
       console.log(`     ${String(s.priority).padStart(5)}  ${s.word.padEnd(14)} ${s.articleCount} 件 / ${s.dayCount} 日 / 分散 ${s.dispersion}`);
+      // 上位 5 語は全例、それ以下は 2 例（出力が長くなりすぎないように）
+      const show = seed.seeds.indexOf(s) < 5 ? s.examples : s.examples.slice(0, 2);
+      for (const ex of show) console.log(`            ${ex}`);
+      if (show.length < s.articleCount) {
+        console.log(`            … 残り ${s.articleCount - show.length} 件は要確認`);
+      }
     }
   }
   console.log('');

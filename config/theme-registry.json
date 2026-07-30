@@ -63,39 +63,6 @@
       "status": "stalled",
       "since": "2026-07-22",
       "note": "hot 語（動画生成 / 画像生成 / 音声合成）が 691 記事中 0 件。代替語 生成AI は 16 件ヒットするが内容一致は 3 件程度で、corpus 自体に信号がない"
-    },
-    "entertainment-content": {
-      "status": "candidate",
-      "since": "2026-07-30",
-      "proposedName": "ゲーム・アニメなどエンタメ制作",
-      "proposedCategory": "エンタメ",
-      "seedEvidence": {
-        "measuredAt": "2026-07-30",
-        "words": {
-          "ゲーム": {
-            "articles": 11,
-            "days": 8,
-            "dispersion": 0.73
-          },
-          "アニメ": {
-            "articles": 9,
-            "days": 8,
-            "dispersion": 0.89
-          },
-          "音楽": {
-            "articles": 5,
-            "days": 5,
-            "dispersion": 1
-          },
-          "マンガ": {
-            "articles": 5,
-            "days": 5,
-            "dispersion": 1
-          }
-        },
-        "note": "未紐付け記事 607 件中の合計 30 件。空白カテゴリ『エンタメ』を埋める。分散はいずれも 0.73 以上で単発の出来事ではない"
-      },
-      "blockedBy": "Phase A 未実施。6 情報源のマッピング検索語を決め、0 件でないことを確認する必要がある"
     }
   },
   "seedFilter": {
@@ -180,8 +147,66 @@
         "ボケ",
         "フィジカルAI",
         "PayPay"
+      ],
+      "エンタメ（消費・ゴシップで需要ではない）": [
+        "ゲーム",
+        "アニメ",
+        "音楽",
+        "マンガ",
+        "動画",
+        "ジャンプ"
+      ],
+      "媒体名・汎用語（2026-07-30 追加）": [
+        "日本経済",
+        "新聞",
+        "東京",
+        "モデル",
+        "Yahoo",
+        "Apple",
+        "SNS",
+        "ツール",
+        "速報",
+        "公式",
+        "インタビュー",
+        "紹介",
+        "政府",
+        "話題",
+        "人気",
+        "チーム",
+        "デザイン"
       ]
     },
-    "rejectedNote": "却下語は毎回の実行で除外する。散文ではなくここに置くことで STEP 4（重複除去）が実際に機能する"
-  }
+    "rejectedNote": "却下語は毎回の実行で除外する。散文ではなくここに置くことで STEP 4（重複除去）が実際に機能する",
+    "rejectedMetrics": [
+      {
+        "metric": "需要性 = ニュース記事タイトルの意図語共起（したい / 方法 / 対策 / 比較 …）",
+        "rejectedAt": "2026-07-30",
+        "measured": "ゲーム 7% / アニメ 0% / 音楽 0% に対し、無関係な 新聞 16% / 日本経済 25% / SNS 29% が上位。判別しない"
+      },
+      {
+        "metric": "需要性 = 技術系ソース（Zenn + Qiita）比率",
+        "rejectedAt": "2026-07-30",
+        "measured": "既存 10 テーマの比率は 0.00〜1.00 で、うち 6 テーマ（security-breach / payment-troubles / ai-regulation / ai-hardware / remote-work / senior-health）が 0.00。0.00 は失格条件にならない"
+      }
+    ],
+    "needsSignalNote": "需要性はニュース corpus からは測れない（代理指標 2 つを実測で否定）。Phase A で Qiita 記事数 + App Store アプリ数として測る"
+  },
+  "rejectedCandidates": [
+    {
+      "id": "entertainment-content",
+      "proposedName": "ゲーム・アニメなどエンタメ制作",
+      "rejectedAt": "2026-07-30",
+      "measured": {
+        "articlesTotal": 36,
+        "productionIntent": "8〜9 件（25%）",
+        "byWord": {
+          "ゲーム": "14 件中 開発・移植は 4 件",
+          "アニメ": "10 件中 制作・IP 化は 4〜5 件",
+          "音楽": "6 件すべて需要信号なし（性加害報道 / ギター / フジロック / シニアバンド / 竹島 / 野球始球式）",
+          "マンガ": "6 件中 4 件が作品更新通知・推薦図書"
+        }
+      },
+      "reason": "制作・開発の需要は 36 件中 8〜9 件（25%）。音楽とマンガは需要信号 0 件でクラスタの根拠 30 件のうち 12 件が無価値だった。アニメ制作系は 4〜5 件で昇格基準（news 5 件）未達。ゲーム開発系 2 件は Zenn 由来で ai-coding と重複の可能性。前サイクルの『計 30 件』は語の出現件数を需要の強さと混同した過大評価"
+    }
+  ]
 }
