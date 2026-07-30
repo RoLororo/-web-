@@ -98,24 +98,27 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
         </div>
         <BadgeRow verdict={verdict} insights={insights} />
         <div className="demand-summary">{demand.summary}</div>
+
+        {/* 根拠の量。カードは意図的に簡素化してあるので、判断に効く 2 つだけ足す
+            （ニュース件数 = 根拠の数、情報源数 = 裏取りの広さ）。
+            グリッドは 4 列なので、独立した子ではなく info 列の中に置く
+            （2026-07-30 実測: 5 番目の子にすると metrics が 2 行目 38px 幅に
+            落ちて、ピルが x=-8 まで画面外へはみ出していた） */}
+        <div className="demand-evidence">
+          <span title="直近 30 日でこのテーマに紐付いたニュース記事">
+            ニュース <b>{demand._matchingArticleCount ?? 0}</b> 件
+          </span>
+          <span className="demand-evidence-sep">·</span>
+          <span title="実際に観測できた情報源の数（最大 6）">
+            <b>{sourceTotal}</b> 情報源
+          </span>
+        </div>
       </div>
 
       <div className="demand-chart">
         {/* 詳細ページと同じ系列（Wikipedia 日次 PV）の末尾 7 点。
             旧実装は trendData['7d'] = ニュース件数で、2 テーマが全ゼロだった */}
         <Sparkline data={cardSeries} color={sparkColor} />
-      </div>
-
-      {/* 根拠の量。カードは意図的に簡素化してあるので、判断に効く 2 つだけ足す
-          （ニュース件数 = 根拠の数、情報源数 = 裏取りの広さ） */}
-      <div className="demand-evidence">
-        <span title="直近 30 日でこのテーマに紐付いたニュース記事">
-          ニュース <b>{demand._matchingArticleCount ?? 0}</b> 件
-        </span>
-        <span className="demand-evidence-sep">·</span>
-        <span title="実際に観測できた情報源の数（最大 6）">
-          <b>{sourceTotal}</b> 情報源
-        </span>
       </div>
 
       <div className="demand-metrics compact">

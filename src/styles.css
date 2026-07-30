@@ -1583,7 +1583,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .demand-card.compact {
   padding: 12px 18px;
   gap: 16px;
-  grid-template-columns: 38px 1fr 140px 100px;
+  /* 4 列目は `.card-primary-change` のピル実測幅 110px を収める（100px だと
+     トラックから 10px はみ出してスパークラインへ寄っていた） */
+  grid-template-columns: 38px 1fr 140px 112px;
 }
 .demand-card.compact .demand-title {
   font-size: 15px;
