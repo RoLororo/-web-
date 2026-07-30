@@ -273,6 +273,32 @@ export default function Compare() {
 
             <ScoreCell label="ステータス" value={demandA.status} />
             <ScoreCell label="ステータス" value={demandB.status} className="right" />
+
+            {/* 総合判定と観測基盤スコア。詳細ページには出ていたが比較には無かった
+                （2026-07-30 実測: Compare は verdict と dataQuality を出していなかった） */}
+            <ScoreCell
+              label="総合判定"
+              value={demandA._insights?.verdict?.label || '—'}
+              hint={demandA._insights?.verdict?.rationale}
+            />
+            <ScoreCell
+              label="総合判定"
+              value={demandB._insights?.verdict?.label || '—'}
+              hint={demandB._insights?.verdict?.rationale}
+              className="right"
+            />
+
+            <ScoreCell
+              label="観測の確かさ"
+              value={demandA._insights?.dataQuality ? `${demandA._insights.dataQuality.score} / 100` : '—'}
+              hint={demandA._insights?.dataQuality?.signals?.join(' / ')}
+            />
+            <ScoreCell
+              label="観測の確かさ"
+              value={demandB._insights?.dataQuality ? `${demandB._insights.dataQuality.score} / 100` : '—'}
+              hint={demandB._insights?.dataQuality?.signals?.join(' / ')}
+              className="right"
+            />
           </div>
 
           {/* 情報源別 volume */}
