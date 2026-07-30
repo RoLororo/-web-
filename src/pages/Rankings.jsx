@@ -20,13 +20,25 @@ import {
 } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
 import { themeTitle, themeCategory } from '../services/themeCatalog.js';
-import { sourceDisplay } from '../services/sourceCatalog.js';
+import { sourceDisplay, metricLabel } from '../services/sourceCatalog.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 
 const TABS = [
   { key: 'growth',  label: '伸び率' },
   { key: 'delta',   label: '急上昇 (絶対増)' },
-  { key: 'volume',  label: '現在値 (volume)' },
+  { key: 'volume',  label: '現在値' },
+];
+
+/**
+ * ランキングの対象 metric。
+ * history には volume / engagement / contributors の 3 種が入っているが、
+ * 従来は volume に固定していた（2026-07-30 実測: 軸が 1/3 しか使われていない）。
+ * engagement = Qiita の LGTM・GitHub の star、contributors = 投稿者数・著者数。
+ */
+const METRICS = [
+  { key: 'volume',       label: '観測量' },
+  { key: 'engagement',   label: '反応（LGTM / star）' },
+  { key: 'contributors', label: '関与人数（投稿者 / 著者）' },
 ];
 
 const WINDOWS = [
@@ -42,6 +54,7 @@ export default function Rankings() {
   const [tab, setTab] = useState('growth');
   const [windowDays, setWindowDays] = useState(1);
   const [sourceFilter, setSourceFilter] = useState('');
+  const [metric, setMetric] = useState('volume');
   const [allSeries, setAllSeries] = useState(null);
   const [index, setIndex] = useState(null);
 
@@ -78,7 +91,7 @@ export default function Rankings() {
     if (!allSeries) return null;
 
     if (tab === 'volume') {
-      const raw = computeCurrentValues(allSeries, 'volume');
+      const raw = computeCurrentValues(allSeries, metric);
       const filtered = sourceFilter ? raw.filter((r) => r.source === sourceFilter) : raw;
       return filtered
         .filter((r) => r.value !== null && r.value !== undefined)
@@ -88,7 +101,7 @@ export default function Rankings() {
 
     const raw = computeAllDiffs(allSeries, windowDays);
     // volume metric に絞ることでスケール混在を最小化
-    const volOnly = raw.filter((r) => r.metric === 'volume');
+    const volOnly = raw.filter((r) => r.metric === metric);
     const filtered = sourceFilter ? volOnly.filter((r) => r.source === sourceFilter) : volOnly;
 
     if (tab === 'growth') {
@@ -104,7 +117,7 @@ export default function Rankings() {
         .slice(0, 40);
     }
     return [];
-  }, [allSeries, tab, windowDays, sourceFilter]);
+  }, [allSeries, tab, windowDays, sourceFilter, metric]);
 
   return (
     <div className="container rankings-page">
@@ -154,6 +167,18 @@ export default function Rankings() {
           </div>
         )}
         <div className="chip-row">
+          <span className="chip-label">指標:</span>
+          {METRICS.map((m) => (
+            <button
+              key={m.key}
+              className={`chip-btn small ${metric === m.key ? 'active' : ''}`}
+              onClick={() => setMetric(m.key)}
+            >
+              {m.label}
+            </button>
+          ))}
+        </div>
+        <div className="chip-row">
           <span className="chip-label">ソース:</span>
           <button
             className={`chip-btn small ${sourceFilter === '' ? 'active' : ''}`}
@@ -191,7 +216,7 @@ export default function Rankings() {
                     {resolveTitle(r.themeId)}
                   </ThemeLink>
                   <span className="rank-source">{sourceDisplay(r.source)}</span>
-                  <span className="rank-metric">{r.metric}</span>
+                  <span className="rank-metric">{metricLabel(r.metric)}</span>
                 </div>
                 <div className="rank-line-2">
                   {tab === 'volume' && (
