@@ -80,6 +80,8 @@ export const PATHS = {
   output: {
     demands: resolve(DATA_ROOT, 'demands.json'),
   },
+  /** テーマ評価の日次ログ (evaluate-themes.mjs が追記。連続日数の判定に使う) */
+  evaluations: resolve(DATA_ROOT, 'theme-evaluations.jsonl'),
   // history 層 (canonical)
   history: {
     root:     HISTORY_ROOT,
@@ -107,6 +109,7 @@ export const PATHS = {
     arxivMapping:    resolve(CONFIG_ROOT, 'arxiv-mapping.json'),
     githubMapping:   resolve(CONFIG_ROOT, 'github-mapping.json'),
     ndlMapping:      resolve(CONFIG_ROOT, 'ndl-mapping.json'),
+    themeRegistry:   resolve(CONFIG_ROOT, 'theme-registry.json'),
   },
 };
 

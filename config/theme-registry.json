@@ -1,0 +1,37 @@
+{
+  "$schema": "theme-registry/v1",
+  "description": "追跡テーマの状態レジストリ。テーマ定義そのものは各 mapping / 辞書が持つ。ここは『いま何が公開中で、何が停滞しているか』だけを持つ。",
+  "note": "初期値は 2026-07-30 の実測から作成した。since は git の日次コミット 7 世代のうち最古（2026-07-22）で、それ以前は未計測。",
+  "statusMeaning": {
+    "candidate": "キーワードだけ決めた段階。まだ観測していない",
+    "observing": "観測はしているが公開条件を満たしていない",
+    "active": "公開中",
+    "retired": "観測を終了した"
+  },
+  "promotionCriteria": {
+    "minSources": 3,
+    "minNewsArticles": 5,
+    "note": "実測（2026-07-29）: 2 ソース以下のテーマは停止率 60〜70%"
+  },
+  "demotionCriteria": {
+    "consecutiveDaysBelow": 3,
+    "note": "1 日の値では日次の揺れで振動するため、連続日数で判定する"
+  },
+  "themes": {
+    "infrastructure-outages": { "status": "active", "since": "2026-07-22" },
+    "ai-business-automation": { "status": "active", "since": "2026-07-22" },
+    "ai-coding": { "status": "active", "since": "2026-07-22" },
+    "security-breach": { "status": "active", "since": "2026-07-22" },
+    "payment-troubles": { "status": "active", "since": "2026-07-22" },
+    "ai-regulation": { "status": "active", "since": "2026-07-22" },
+    "remote-work": { "status": "active", "since": "2026-07-22" },
+    "ai-hardware": { "status": "active", "since": "2026-07-22" },
+    "home-server-selfhost": { "status": "active", "since": "2026-07-22" },
+    "senior-health": { "status": "active", "since": "2026-07-22" },
+    "ai-content-generation": {
+      "status": "observing",
+      "since": "2026-07-22",
+      "note": "hot 語（動画生成 / 画像生成 / 音声合成）が 691 記事中 0 件。代替語 生成AI は 16 件ヒットするが内容一致は 3 件程度で、corpus 自体に信号がない"
+    }
+  }
+}
