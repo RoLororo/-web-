@@ -16,6 +16,7 @@ import { useNavigate } from 'react-router-dom';
 import Sparkline from './Sparkline.jsx';
 import AnimatedNumber from './AnimatedNumber.jsx';
 import { changeClass, formatChange } from '../utils/format.js';
+import { trendSeries, sliceSeries } from '../utils/series.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
 
 function BadgeRow({ verdict, insights }) {
@@ -72,6 +73,8 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
     primaryPct > 0 ? 'var(--green-bright)' :
     primaryPct < 0 ? 'var(--red)' : 'var(--text-3)';
 
+  const cardSeries = sliceSeries(trendSeries(demand), 7)?.values || [];
+
   // Subtle tiering: top-3 get a slightly stronger border
   const tier = rank <= 3 ? 'top3' : rank <= 6 ? 'mid' : 'rest';
 
@@ -96,7 +99,9 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
       </div>
 
       <div className="demand-chart">
-        <Sparkline data={demand.trendData['7d']} color={sparkColor} />
+        {/* 詳細ページと同じ系列（Wikipedia 日次 PV）の末尾 7 点。
+            旧実装は trendData['7d'] = ニュース件数で、2 テーマが全ゼロだった */}
+        <Sparkline data={cardSeries} color={sparkColor} />
       </div>
 
       <div className="demand-metrics compact">

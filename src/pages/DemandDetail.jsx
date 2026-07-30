@@ -14,21 +14,26 @@ import SourceObservations from '../components/SourceObservations.jsx';
 import InsightsPanel from '../components/InsightsPanel.jsx';
 import { getDemandById } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
+import { trendSeries, sliceSeries, availableRanges, seriesPeriodLabel } from '../utils/series.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
 import { toast } from '../utils/toast.js';
-
-const RANGES = [
-  { key: '7d',  label: '7日間' },
-  { key: '30d', label: '30日間' },
-  { key: '90d', label: '90日間' },
-];
 
 export default function DemandDetail() {
   const { id } = useParams();
   const nav = useNavigate();
-  const [range, setRange] = useState('30d');
+  // レンジは固定値ではなく実データの長さから決める（下の availableRanges）。
+  // null = 「全期間」を意味し、系列が伸びれば自動で追従する。
+  const [rangeDays, setRangeDays] = useState(null);
 
   const demand = useMemo(() => getDemandById(id), [id]);
+
+  // 推移グラフの系列。Wikipedia 日次 PV が主、無ければニュース件数に退避する。
+  const fullSeries = useMemo(() => trendSeries(demand), [demand]);
+  const ranges = useMemo(() => availableRanges(fullSeries), [fullSeries]);
+  const shownSeries = useMemo(
+    () => sliceSeries(fullSeries, rangeDays ?? Infinity),
+    [fullSeries, rangeDays],
+  );
 
   usePageTitle(
     demand
@@ -267,23 +272,50 @@ export default function DemandDetail() {
               <div className="chart-card">
                 <div className="chart-toolbar">
                   <div className="range-tabs" role="tablist">
-                    {RANGES.map((r) => (
-                      <button
-                        key={r.key}
-                        className={`range-tab ${range === r.key ? 'active' : ''}`}
-                        onClick={() => setRange(r.key)}
-                        role="tab"
-                        aria-selected={range === r.key}
-                      >
-                        {r.label}
-                      </button>
-                    ))}
+                    {ranges.map((r) => {
+                      const active = (rangeDays ?? fullSeries?.values.length) === r.days;
+                      return (
+                        <button
+                          key={r.days}
+                          className={`range-tab ${active ? 'active' : ''}`}
+                          onClick={() => setRangeDays(r.days)}
+                          role="tab"
+                          aria-selected={active}
+                        >
+                          {r.label}
+                        </button>
+                      );
+                    })}
                   </div>
                   <div style={{ fontSize: 12, color: 'var(--text-3)' }}>
                     最終更新：{formatDateTime(demand.updatedAt)}
                   </div>
                 </div>
-                <TrendChart key={range} data={demand.trendData[range]} color={chartColor} />
+
+                {shownSeries ? (
+                  <>
+                    {/* 何の系列を描いているかを必ず明示する */}
+                    <div className="chart-legend">
+                      <span className="chart-legend-dot" style={{ background: chartColor }} />
+                      <span className="chart-legend-name">{shownSeries.label}</span>
+                      <span className="chart-legend-period">{seriesPeriodLabel(shownSeries)}</span>
+                    </div>
+                    <TrendChart
+                      key={`${shownSeries.id}-${shownSeries.values.length}`}
+                      data={shownSeries.values}
+                      labels={shownSeries.dates}
+                      unit={shownSeries.unit}
+                      color={chartColor}
+                    />
+                    <div className="chart-note">
+                      同じテーマで直近 30 日に観測したニュースは {demand._matchingArticleCount ?? 0} 件。
+                      日次のニュース件数は 1 日あたり 0〜数件で線にならないため、グラフには
+                      閲覧数を使っています。
+                    </div>
+                  </>
+                ) : (
+                  <div className="chart-note">推移を描けるだけの観測データがまだありません。</div>
+                )}
               </div>
             </div>
 

@@ -4073,3 +4073,36 @@ select.select:focus {
   display: flex;
   justify-content: center;
 }
+
+/* --- 推移グラフの凡例と注記 ------------------------------------------- */
+
+.chart-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 4px 8px;
+  flex-wrap: wrap;
+}
+.chart-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.chart-legend-name {
+  font-size: 12.5px;
+  color: var(--text);
+  font-weight: 500;
+}
+.chart-legend-period {
+  font-size: 11.5px;
+  color: var(--text-3);
+  font-family: var(--font-num, inherit);
+}
+.chart-note {
+  margin-top: 10px;
+  padding: 0 4px;
+  font-size: 11.5px;
+  color: var(--text-3);
+  line-height: 1.7;
+}

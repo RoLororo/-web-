@@ -6,7 +6,7 @@
 
 import { useMemo, useRef, useState } from 'react';
 
-export default function TrendChart({ data = [], color }) {
+export default function TrendChart({ data = [], color, labels = null, unit = '' }) {
   const [hoverIdx, setHoverIdx] = useState(null);
   const svgRef = useRef(null);
 
@@ -56,7 +56,11 @@ export default function TrendChart({ data = [], color }) {
     if (t) handleMove({ clientX: t.clientX });
   }
 
+  // labels（実日付）が渡された場合はそれを使う。
+  // 系列の最終点は必ずしも「今日」ではない（Wikipedia の集計は 1〜2 日遅れる）ため、
+  // 相対表記だけだと最大 2 日ずれた説明になる。
   function pointLabel(i) {
+    if (labels && labels[i]) return labels[i].slice(5).replace('-', '/');
     return `${data.length - i}日前`;
   }
 
@@ -173,7 +177,7 @@ export default function TrendChart({ data = [], color }) {
       {hoverIdx !== null && tooltipPos && (
         <div className="chart-tooltip" style={tooltipPos}>
           <span className="k">{pointLabel(hoverIdx)}</span>
-          <span className="v">{data[hoverIdx]}</span>
+          <span className="v">{data[hoverIdx].toLocaleString()}{unit}</span>
         </div>
       )}
     </div>
