@@ -3435,7 +3435,7 @@ select.select:focus {
 .page-hero h1 {
   font-size: clamp(24px, 4vw, 34px);
   margin: 0 0 12px;
-  color: var(--text-1);
+  color: var(--text);   /* --text-1 は未定義だった（継承で偶然効いていた） */
   line-height: 1.2;
 }
 .page-hero p {
@@ -4276,6 +4276,22 @@ select.select:focus {
   font-variant-numeric: tabular-nums;
 }
 .demand-evidence-sep { opacity: 0.5; }
+
+/* --- ページ見出しの大きさをそろえる -------------------------------------
+   実測（2026-07-30・1280px）: 一覧 6 ページの h1 は 34px なのに、
+   Explore / Categories / Favorites だけ `.section-title`（22px = セクション
+   見出しと同じ大きさ）で、同じ階層の見出しが 2 通りの重さで出ていた。
+   緑のバーというデザインは残したまま、寸法だけページ見出しに合わせる。 */
+
+h1.section-title {
+  font-size: clamp(24px, 4vw, 34px);
+  letter-spacing: -0.03em;
+  line-height: 1.2;   /* page-hero h1 と同じ。既定のままだと 41px 対 54px でずれる */
+}
+h1.section-title::before {
+  height: 24px;
+  width: 5px;
+}
 
 /* --- /whats-new: hero 直後の導線 --------------------------------------- */
 
