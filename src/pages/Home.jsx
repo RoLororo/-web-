@@ -130,7 +130,7 @@ export default function Home() {
           ))}
           {filtered.length === 0 && (
             <div className="empty">
-              <h3>この分野の需要はまだ登録されていません</h3>
+              <h2>この分野の需要はまだ登録されていません</h2>
               <p>別の分野を選ぶか、需要を探すページを試してみてください。</p>
             </div>
           )}

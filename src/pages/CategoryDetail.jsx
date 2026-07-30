@@ -80,7 +80,7 @@ export default function CategoryDetail() {
           ))}
           {all.length === 0 && (
             <div className="empty">
-              <h3>この分野にはまだ需要が登録されていません</h3>
+              <h2>この分野にはまだ需要が登録されていません</h2>
             </div>
           )}
         </div>

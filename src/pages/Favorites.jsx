@@ -38,7 +38,7 @@ export default function Favorites() {
       {items.length === 0 ? (
         <div className="empty">
           <div className="empty-icon"><FoxMark size={36} /></div>
-          <h3>まだ保存した需要はありません</h3>
+          <h2>まだ保存した需要はありません</h2>
           <p>
             気になる需要を保存すると、
             ここから変化を追跡できます。

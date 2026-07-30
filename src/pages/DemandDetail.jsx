@@ -48,7 +48,8 @@ export default function DemandDetail() {
         <Link to="/" className="back-link">← ホームに戻る</Link>
         <div className="empty">
           <div className="empty-icon"><FoxMark size={36} /></div>
-          <h3>この需要は見つかりませんでした</h3>
+          {/* このブランチはページ唯一の見出しなので h1（NotFound と同じ扱い） */}
+          <h1>この需要は見つかりませんでした</h1>
           <p>URLが正しいかご確認ください。</p>
           <Link to="/" className="btn primary">ランキングを見る</Link>
         </div>

@@ -93,7 +93,7 @@ export default function Explore() {
           {results.length === 0 && (
             <div className="empty">
               <div className="empty-icon"><FoxMark size={36} /></div>
-              <h3>条件に合う需要が見つかりませんでした</h3>
+              <h2>条件に合う需要が見つかりませんでした</h2>
               <p>キーワードや分野を変えて試してみてください。</p>
             </div>
           )}

@@ -2995,6 +2995,7 @@ select.select:focus {
   margin-bottom: var(--s-4);
 }
 .empty h3,
+.empty h2,
 .empty h1 { color: var(--text); margin-bottom: var(--s-2); font-size: 17px; font-weight: 600; }
 .empty p { color: var(--text-2); font-size: 14px; margin-bottom: var(--s-4); max-width: 420px; margin-left: auto; margin-right: auto; }
 
