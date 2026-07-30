@@ -323,11 +323,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .hero {
   position: relative;
-  padding: var(--s-8) 0 var(--s-6);
+  /* 左右は .container の余白を残す。短縮指定だと同一要素の .container の
+     padding-inline を打ち消し、375px で本文が x=0 に接していた（実測） */
+  padding-block: var(--s-8) var(--s-6);
   overflow: hidden;
 }
 @media (max-width: 640px) {
-  .hero { padding: var(--s-6) 0 var(--s-5); }
+  .hero { padding-block: var(--s-6) var(--s-5); }
 }
 /* Radial green glow that suggests "signal detected" */
 .hero::before {
@@ -477,7 +479,7 @@ ul { margin: 0; padding: 0; list-style: none; }
    Section
    -------------------------------------------------------------------------- */
 
-.section { padding: var(--s-7) 0; }
+.section { padding-block: var(--s-7); }
 .section-head {
   display: flex;
   align-items: flex-end;
@@ -4158,10 +4160,33 @@ select.select:focus {
 /* --- Categories: 観測準備中の分野 (カードにしない) -------------------- */
 
 .cat-upcoming {
-  margin-top: 16px;
+  margin: 28px 0 12px;
   font-size: 12px;
   color: var(--text-3);
   line-height: 1.7;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+/* 準備中の分野。押せないことを枠と彩度で示す（hover も出さない） */
+.cat-card-upcoming {
+  border-style: dashed;
+  background: var(--surface-alt);
+  cursor: default;
+  animation: none;
+}
+.cat-card-upcoming .cat-name { color: var(--text-2); }
+.cat-card-upcoming .cat-desc { color: var(--text-3); }
+.cat-card-upcoming:hover {
+  border-color: var(--border);
+  transform: none;
+  box-shadow: none;
+}
+.cat-upcoming-tag {
+  font-size: 11px;
+  color: var(--text-3);
+  border: 1px dashed var(--border-strong);
+  border-radius: 999px;
+  padding: 1px 8px;
 }
 
 /* --- 詳細ページが未生成のテーマ (履歴のみに存在) ---------------------- */
@@ -4420,7 +4445,7 @@ h1.section-title::before {
    デザイン（色・構成・要素）は変えず、寸法だけを縮める。          */
 
 @media (max-width: 640px) {
-  .hero { padding: var(--s-5) 0 var(--s-4); }
+  .hero { padding-block: var(--s-5) var(--s-4); }
   .hero h1 {
     font-size: clamp(25px, 7.2vw, 34px);
     margin-bottom: var(--s-3);

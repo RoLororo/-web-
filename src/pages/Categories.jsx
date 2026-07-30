@@ -57,10 +57,24 @@ export default function Categories() {
         ))}
       </div>
 
+      {/* 準備中の 6 分野は 1 行のテキストだけで、3 枚しかないグリッドの下に
+          ぶら下がって見えていた（2026-07-30 実測: 本文 1 行 20px）。
+          押せないことは保ったまま、同じグリッドに枠として並べる。 */}
       {upcoming.length > 0 && (
-        <p className="cat-upcoming">
-          観測準備中の分野：{upcoming.map((c) => c.name).join(' / ')}
-        </p>
+        <>
+          <p className="cat-upcoming">観測準備中の分野（{upcoming.length}）</p>
+          <div className="cat-grid cat-grid-upcoming">
+            {upcoming.map((c) => (
+              <div key={c.name} className="cat-card cat-card-upcoming" aria-disabled="true">
+                <div className="cat-name">{c.name}</div>
+                <div className="cat-desc">{c.description}</div>
+                <div className="cat-meta">
+                  <span className="cat-upcoming-tag">観測準備中</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
       )}
     </section>
   );
