@@ -4313,6 +4313,66 @@ select.select:focus {
 }
 .demand-evidence-sep { opacity: 0.5; }
 
+/* --- 今日訪れた人 -------------------------------------------------------
+   観測データ（hero-stats）とは性質が違うので、統計の並びには混ぜず
+   1 行の pill として置く。数えられていない時は DOM ごと出さない。 */
+
+.today-visitors {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: var(--s-4);
+  padding: 7px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 13px;
+  color: var(--text-2);
+}
+.today-visitors .tv-dot {
+  align-self: center;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green-bright);
+  box-shadow: 0 0 0 3px var(--green-tint);
+  animation: chartDotPulse 2.4s ease-in-out infinite;
+}
+.today-visitors .tv-label { color: var(--text-3); }
+.today-visitors .tv-value {
+  font-family: var(--font-num);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.today-visitors .tv-unit {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-2);
+  margin-left: 2px;
+}
+.today-visitors .tv-you {
+  font-size: 11px;
+  color: var(--text-3);
+  border-left: 1px solid var(--border);
+  padding-left: 10px;
+}
+
+/* モバイルでは fold の予算が厳しい。追加前 393px だった hero が 471px（fold の
+   58%）まで伸びたため、pill 自体を薄くし、hero 側の余白も同じぶん詰める
+   （2026-07-31 実測）。*/
+@media (max-width: 640px) {
+  .today-visitors {
+    font-size: 12px;
+    padding: 4px 11px;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .today-visitors .tv-value { font-size: 15px; }
+  .today-visitors .tv-you { display: none; }   /* 幅も高さも節約する */
+}
+
 /* --- /compare: 選択前のプレビュー枠 ------------------------------------
    選ぶ前の fold は 800px のうち 350px が空白だった（2026-07-30 実測）。
    実際の比較表と同じ 2 列・同じ行見出しの枠を出して、何が並ぶかを見せる。 */
@@ -4447,7 +4507,9 @@ h1.section-title::before {
    デザイン（色・構成・要素）は変えず、寸法だけを縮める。          */
 
 @media (max-width: 640px) {
-  .hero { padding-block: var(--s-5) var(--s-4); }
+  /* 「今日訪れた人」の pill が入って hero が 471px（fold の 58%）まで
+     伸びたため、下余白を 1 段詰める（2026-07-31 実測） */
+  .hero { padding-block: var(--s-5) var(--s-2); }
   .hero h1 {
     font-size: clamp(25px, 7.2vw, 34px);
     margin-bottom: var(--s-3);

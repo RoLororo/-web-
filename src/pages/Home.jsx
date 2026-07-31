@@ -17,6 +17,7 @@ import CategoryFilter from '../components/CategoryFilter.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import DailyBrief from '../components/DailyBrief.jsx';
 import FavoritesStrip from '../components/FavoritesStrip.jsx';
+import TodayVisitors from '../components/TodayVisitors.jsx';
 import { getDemands, getTotalArticles } from '../services/demandService.js';
 import { loadAllTimeseries, biggestMoverOfTheme } from '../services/historyService.js';
 import { usePageTitle } from '../utils/usePageTitle.js';
@@ -99,6 +100,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* 今日このサイトを開いた人数。観測データ（左の統計）とは性質が違うので
+            hero-stats の外に置き、区切って見せる。数えられていない時は
+            コンポーネント側で何も描画しない（0 人と嘘をつかない） */}
+        <TodayVisitors />
       </section>
 
       {/* 今朝のダイジェスト: おすすめ 1 + 動いた 3 + 更新日時 */}

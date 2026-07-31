@@ -62,7 +62,7 @@ npm run themes:eval  # 追跡テーマの昇格・降格判定と新しい需要
 
 | ルート | 内容 |
 | --- | --- |
-| `/` | ホーム。今朝のダイジェスト + 需要ランキング + 分野フィルタ |
+| `/` | ホーム。今日訪れた人 + 今朝のダイジェスト + 需要ランキング + 分野フィルタ |
 | `/demand/:id` | 需要の詳細。推移グラフ、スコア内訳、情報源別の実観測、判定、アイデア |
 | `/ideas` | 全テーマ横断のアイデア一覧（収益化 / コンテンツ / SaaS） |
 | `/rankings` | 全テーマ × 全情報源の横断ランキング |
@@ -75,6 +75,46 @@ npm run themes:eval  # 追跡テーマの昇格・降格判定と新しい需要
 | `/categories/:name` | 単一分野の掘り下げ |
 | `/favorites` | 保存した需要（localStorage） |
 | `*` | 404 |
+
+---
+
+## 「今日訪れた人」の数え方
+
+Home に出る「今日訪れた人 ○人」は **ページビューではなくユニーク訪問者数**です。
+
+| | |
+|---|---|
+| 数える単位 | ブラウザ単位。同じブラウザなら何回リロードしても、何ページ見ても、その日は 1 人 |
+| 日付の境界 | **JST（Asia/Tokyo）**。0 時をまたぐと翌日ぶんとして再び 1 人 |
+| 別ブラウザ / 別端末 | 別の人として数える（仕様） |
+| 保存するもの | `visits:day:YYYY-MM-DD` と `visits:total` の **整数だけ** |
+| 保存しないもの | **IP・User-Agent・Cookie・識別子などの個人を特定できる情報は一切保存しない** |
+
+同一人物の判定はブラウザの `localStorage`（`demand-atlas:visit-sent:YYYY-MM-DD`）で行い、
+サーバーは「1 増やして」という無記名の通知を受け取るだけ。誰が来たかはサーバーに残らない。
+
+```
+ブラウザ ──POST /api/visit（その日の初回だけ）──▶ Serverless Function ──INCR──▶ KV
+ブラウザ ──GET  /api/visit（2 回目以降）───────▶ Serverless Function ──MGET──▶ KV
+```
+
+- `api/visit.js` … エンドポイント。GET は今日 / 昨日 / 今週 / 今月 / 累計を返す
+- `api/_store.js` … 保存層。env が無ければ driver を作らない
+- `src/services/visitorService.js` … 1 日 1 回だけ送る判定と取得
+- `src/components/TodayVisitors.jsx` … 表示（数えられていない時は**何も描画しない**）
+
+### 有効化に必要な設定
+
+KV（Redis 互換）が未設定の間、API は `{ "available": false }` を返し、**Home には何も出ない**。
+0 人と表示すると実測していない主張になるため、あえて非表示にしている。
+
+1. Vercel のプロジェクト → Storage → Redis（Upstash・無料枠）を作成して Connect
+2. 環境変数 `KV_REST_API_URL` と `KV_REST_API_TOKEN` が入る（Upstash 側の
+   `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` でも動く）
+3. 再デプロイすると表示が始まる
+
+無料枠の消費は 1 訪問あたり INCR 2 回、閲覧側は **エッジで 60 秒キャッシュ**するため
+ページビューが増えても KV への読み取りは 1 分 1 回に収まる。
 
 ---
 
