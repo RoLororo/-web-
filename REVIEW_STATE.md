@@ -578,6 +578,20 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 | **UI が参照するフィールド** | **116 / 142** | **+23（93 → 116）** | `themes:eval` |
 | Home 総転送（cold） | 164 KB | +1 KB | ブラウザ実測 |
 
+**スクロール位置（2026-07-31 修正）**: 一覧を下まで見てからテーマを開くと、SPA が
+スクロール位置を保持するため **ページの途中（scrollY 1800・見出しが画面の 1628px 上）から
+始まっていた**。前進時のみ先頭へ戻し、戻る / 進むはブラウザの復元に任せる方式で修正。
+本番実測: ランキング 2200 → 詳細は scrollY 0・見出し 172px、戻ると 2200 に復元、375px でも同様。
+
+**「今日訪れた人」が本番で見えない理由（2026-07-31 実測）**: 実装は本番の JS に入っている
+（`today-visitors` / `今日訪れた人` / `/api/visit` の文字列を配信バンドルで確認）が、
+**KV 未接続のため API が `{"available":false,"reason":"store-not-configured"}` を返し、
+UI は何も描画しない**（0 人と嘘をつかないため）。**ローカルで本番ビルド + 本番と同じ
+handler + 実 HTTP + KV 互換モックを立てて end-to-end 検証済み**: 「今日訪れた人 1人
+あなたを含む」を描画、3 回リロードしても 1 人、保存を消す（別ブラウザ相当）と 2 人、
+`/rankings` を見るとページ別に 1 件加算され訪問者数は 2 のまま。
+→ 残るのは **Vercel Storage → Redis（無料枠）を Connect して再デプロイ**の 1 手順のみ。
+
 **本番検証（2026-07-31）**: `/api/visit` は GET / POST とも
 `{"available":false,"reason":"store-not-configured"}` を JSON で返す（rewrite 修正前は
 SPA の HTML を返していた）。SPA のルート（`/` `/rankings` `/demand/:id`）と
