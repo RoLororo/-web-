@@ -80,9 +80,29 @@ function redisRestDriver({ url, token }) {
  * env から driver を組み立てる。
  * Vercel KV / Upstash どちらの変数名でも動く（移行時に書き換え不要）。
  */
+export function resolveCredentials(env = process.env) {
+  // 1) よくある名前をそのまま探す
+  const pairs = [
+    ['KV_REST_API_URL', 'KV_REST_API_TOKEN'],
+    ['UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN'],
+  ];
+  for (const [u, t] of pairs) {
+    if (env[u] && env[t]) return { url: env[u], token: env[t], names: [u, t] };
+  }
+  // 2) Vercel の Marketplace 連携は接頭辞を自由に付けられる
+  //    （STORAGE_REST_API_URL のように任意の名前になる）。
+  //    末尾で機械的に見つけ、同じ接頭辞の TOKEN と組にする。
+  for (const key of Object.keys(env)) {
+    const m = key.match(/^(.*)_REST_API_URL$/);
+    if (!m || !env[key]) continue;
+    const tokenKey = `${m[1]}_REST_API_TOKEN`;
+    if (env[tokenKey]) return { url: env[key], token: env[tokenKey], names: [key, tokenKey] };
+  }
+  return null;
+}
+
 export function getStore(env = process.env) {
-  const url = env.KV_REST_API_URL || env.UPSTASH_REDIS_REST_URL;
-  const token = env.KV_REST_API_TOKEN || env.UPSTASH_REDIS_REST_TOKEN;
-  if (!url || !token) return null; // 未設定 = 機能を出さない
-  return redisRestDriver({ url, token });
+  const creds = resolveCredentials(env);
+  if (!creds) return null; // 未設定 = 機能を出さない
+  return redisRestDriver({ url: creds.url, token: creds.token });
 }

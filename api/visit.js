@@ -12,7 +12,7 @@
 // （数えられていない時に推定値を出さないため）。
 // ============================================================================
 
-import { getStore } from './_store.js';
+import { getStore, resolveCredentials } from './_store.js';
 import {
   SCHEMA_VERSION, METRICS, DIMENSIONS,
   dayMetricKey, totalMetricKey, dayDimensionKey, dimensionIndexKey,
@@ -174,7 +174,9 @@ async function handleGet(req, res, store) {
  */
 async function handleDiag(req, res, store) {
   const names = ['KV_REST_API_URL', 'KV_REST_API_TOKEN', 'UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN'];
-  const present = names.filter((n) => Boolean(process.env[n]));
+  const creds = resolveCredentials();
+  // 実際に使っている変数名（接頭辞が何であっても検出できる）
+  const present = [...new Set([...names.filter((n) => Boolean(process.env[n])), ...(creds?.names || [])])];
   let reachable = null;
   let error = null;
   if (store) {
@@ -191,7 +193,7 @@ async function handleDiag(req, res, store) {
     error,
     hint: store
       ? (reachable ? 'ok' : 'URL / TOKEN の組み合わせを確認してください')
-      : 'KV_REST_API_URL と KV_REST_API_TOKEN を設定して再デプロイしてください',
+      : '接頭辞は任意。<接頭辞>_REST_API_URL と <接頭辞>_REST_API_TOKEN があれば動きます。設定後に再デプロイしてください',
   });
 }
 
