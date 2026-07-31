@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
 import { fetchTodayVisitors } from './services/visitorService.js';
 import Header from './components/Header.jsx';
 import FoxMark from './components/FoxMark.jsx';
@@ -20,6 +20,21 @@ import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
   const location = useLocation();
+  const navigationType = useNavigationType();
+
+  // ページを移動したら先頭から見せる。
+  // SPA は遷移してもスクロール位置が残るため、一覧を下まで見てからテーマを開くと
+  // ページの途中から始まっていた（2026-07-31 実測: scrollY 1800 のまま、見出しが
+  // 画面の 1628px 上にある状態で開いていた）。
+  // 「戻る / 進む」(POP) はブラウザの位置復元に任せる。ハッシュ付きはその要素へ。
+  useEffect(() => {
+    if (navigationType === 'POP') return;
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) { target.scrollIntoView(); return; }
+    }
+    window.scrollTo(0, 0);
+  }, [location.pathname, location.hash, navigationType]);
 
   // 画面が変わるたびに 1 回だけ通知する。訪問そのものは 1 日 1 回、ページは
   // 「その日そのページを初めて見た時」だけ数える（判定は visitorService 側）。
