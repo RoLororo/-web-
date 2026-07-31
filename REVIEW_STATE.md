@@ -584,10 +584,15 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 始まっていた**。前進時のみ先頭へ戻し、戻る / 進むはブラウザの復元に任せる方式で修正。
 本番実測: ランキング 2200 → 詳細は scrollY 0・見出し 172px、戻ると 2200 に復元、375px でも同様。
 
-**アクセス分析の接続（2026-07-31）**: Vercel Marketplace の Upstash Redis を接頭辞 `KV` で
-Production / Preview に接続。**接頭辞は任意でよい実装に変更済み**（`<接頭辞>_REST_API_URL` と
-`<接頭辞>_REST_API_TOKEN` の組を形で検出する）。接続後の再デプロイは push で起こす。
-確認は `npm run visits:check` と `/api/visit?diag=1`（値は返さず、変数名と到達可否だけ）。
+**アクセス分析は稼働中（2026-07-31 本番実測）**: Upstash Redis を接頭辞 `KV` で接続し、
+`storeConfigured: true` / `storeReachable: true` を確認。本番の Home に
+**「今日訪れた人 1人 あなたを含む」**が描画され、`visits:check` は 訪問者 1 / 新規 1 /
+ページ `/`=1 を返した。同じブラウザで再訪しても 1 人のまま、保存を消す（別ブラウザ相当）と
+2 人に増えることを本番で確認。console error 0。
+**接頭辞は任意でよい実装**（`<接頭辞>_REST_API_URL` と `<接頭辞>_REST_API_TOKEN` の組を形で検出）。
+確認手段は `npm run visits:check` と `/api/visit?diag=1`（値は返さず、変数名と到達可否だけ）。
+GET はエッジで 60 秒キャッシュするため、表示値は最大 60 秒古いことがある（初回訪問者は
+POST の応答を見るので常に最新）。
 
 **「今日訪れた人」が本番で見えなかった理由（2026-07-31 実測）**: 実装は本番の JS に入っている
 （`today-visitors` / `今日訪れた人` / `/api/visit` の文字列を配信バンドルで確認）が、
