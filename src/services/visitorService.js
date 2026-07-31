@@ -1,54 +1,68 @@
 // ============================================================================
-// visitorService — 「今日訪れた人」
+// visitorService — アクセス分析のクライアント側
 //
 // 数え方:
 //   1. このブラウザが今日まだ通知していなければ POST /api/visit を 1 回だけ送る
 //   2. 送ったことを localStorage に記録する（キーは JST の日付）
-//   3. 以後は何回リロードしても、何ページ見ても、何時間後に開いても送らない
+//   3. 以後は何回リロードしても、何時間後に開いても訪問としては送らない
 //   4. 日付が変われば別のキーになるので、翌日また 1 人として数えられる
 //
-// サーバーは「1 増やして」という無記名の通知を受け取るだけで、**誰が来たかは
-// 保存も送信もしない**。同一人物の判定はこのブラウザの中で完結する。
-// つまり別ブラウザ・別端末は別の人として数えられる（仕様どおり）。
+// 送るもの（すべてこのブラウザの中で決まる無記名の値）:
+//   visit        … その日の初回訪問か
+//   visitorType  … 'new'（このブラウザで初めて来た）/ 'returning'
+//   page         … そのページをその日まだ見ていなければ 1 回だけ
+//   referrer     … 外部サイトから来た場合の **ホスト名だけ**
+//
+// **識別子は作らない・送らない。** サーバーが受け取るのは「訪問が 1 件あった」
+// 「このページが 1 件見られた」という無記名の事実だけ。同一人物の判定は
+// このブラウザの中で完結するので、別ブラウザ・別端末は別の人になる（仕様）。
 // ============================================================================
 
-const ENDPOINT = '/api/visit';
-const KEY_PREFIX = 'demand-atlas:visit-sent:';
+const ENDPOINT   = '/api/visit';
+const VISIT_KEY  = 'demand-atlas:visit-sent:';   // + YYYY-MM-DD
+const PAGES_KEY  = 'demand-atlas:pages-sent:';   // + YYYY-MM-DD → JSON 配列
+const KNOWN_KEY  = 'demand-atlas:known-visitor'; // 新規 / 再訪の判定だけに使う
 
 /** JST の今日（サーバーの日付境界と一致させる） */
 export function todayKeyJST(now = new Date()) {
   return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Asia/Tokyo',
-    year: 'numeric', month: '2-digit', day: '2-digit',
+    timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit',
   }).format(now);
 }
 
-function alreadySentToday(dayKey) {
-  try {
-    return localStorage.getItem(KEY_PREFIX + dayKey) === '1';
-  } catch {
-    return false; // localStorage が使えない環境では毎回送る（重複は許容）
-  }
-}
+const read  = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
+const write = (k, v) => { try { localStorage.setItem(k, v); } catch { /* noop */ } };
+const drop  = (k) => { try { localStorage.removeItem(k); } catch { /* noop */ } };
 
-function markSentToday(dayKey) {
+/** 古い日付のキーを掃除する（増え続けさせない） */
+function pruneOldKeys(dayKey) {
   try {
-    localStorage.setItem(KEY_PREFIX + dayKey, '1');
-    // 古い日付のキーを掃除する（増え続けさせない）
     for (let i = localStorage.length - 1; i >= 0; i--) {
       const k = localStorage.key(i);
-      if (k && k.startsWith(KEY_PREFIX) && k !== KEY_PREFIX + dayKey) localStorage.removeItem(k);
+      if (!k) continue;
+      if ((k.startsWith(VISIT_KEY) || k.startsWith(PAGES_KEY)) && !k.endsWith(dayKey)) drop(k);
     }
+  } catch { /* noop */ }
+}
+
+/** 外部サイトから来た場合だけホスト名を返す（サイト内の遷移は対象外） */
+function referrerHost() {
+  try {
+    if (typeof document === 'undefined' || !document.referrer) return null;
+    const host = new URL(document.referrer).hostname;
+    return host && host !== location.hostname ? host : null;
   } catch {
-    /* 保存できなくても表示は続ける */
+    return null;
   }
 }
 
-function clearSentToday(dayKey) {
+function pagesSentToday(dayKey) {
   try {
-    localStorage.removeItem(KEY_PREFIX + dayKey);
+    const raw = read(PAGES_KEY + dayKey);
+    const arr = raw ? JSON.parse(raw) : [];
+    return Array.isArray(arr) ? arr : [];
   } catch {
-    /* noop */
+    return [];
   }
 }
 
@@ -57,56 +71,83 @@ function clearSentToday(dayKey) {
 let inflight = null;
 
 /**
- * 今日の訪問者数を取得する。必要ならこのブラウザぶんを 1 回だけ通知する。
- * 返り値は常にこの形。数えられていない時は available: false で、
- * **推定値やゼロを「実測値」として返さない**。
+ * 訪問を通知し、集計を取得する。
+ * 返り値の metrics / breakdowns は将来の表示追加（新規・再訪・人気ページ・
+ * 流入元）用。数えられていない時は available:false で、**推定値を返さない**。
  */
 export function fetchTodayVisitors(opts = {}) {
   if (!inflight) {
-    inflight = requestTodayVisitors(opts).finally(() => { inflight = null; });
+    inflight = requestVisits(opts).finally(() => { inflight = null; });
   }
   return inflight;
 }
 
-async function requestTodayVisitors({ signal } = {}) {
+async function requestVisits({ path } = {}) {
   const dayKey = todayKeyJST();
-  const shouldSend = !alreadySentToday(dayKey);
+  const currentPath = path || (typeof location !== 'undefined' ? location.pathname : '/');
+
+  const firstVisitToday = read(VISIT_KEY + dayKey) !== '1';
+  const seenPages = pagesSentToday(dayKey);
+  const firstViewOfPage = !seenPages.includes(currentPath);
+  const shouldPost = firstVisitToday || firstViewOfPage;
+
   // **送る前に**記録する。応答を待ってから記録すると、その間に来た 2 回目の
   // 呼び出しも「まだ送っていない」と判断して二重に数えてしまう。
-  if (shouldSend) markSentToday(dayKey);
+  if (firstVisitToday) write(VISIT_KEY + dayKey, '1');
+  if (firstViewOfPage) write(PAGES_KEY + dayKey, JSON.stringify([...seenPages, currentPath]));
+
+  const payload = shouldPost ? {
+    visit: firstVisitToday,
+    visitorType: read(KNOWN_KEY) === '1' ? 'returning' : 'new',
+    page: firstViewOfPage ? currentPath : null,
+    referrer: firstVisitToday ? referrerHost() : null,
+  } : null;
 
   try {
     const res = await fetch(ENDPOINT, {
-      method: shouldSend ? 'POST' : 'GET',
-      signal,
-      keepalive: shouldSend,
-      headers: { Accept: 'application/json' },
+      method: shouldPost ? 'POST' : 'GET',
+      keepalive: shouldPost,
+      headers: shouldPost
+        ? { 'Content-Type': 'application/json', Accept: 'application/json' }
+        : { Accept: 'application/json' },
+      body: shouldPost ? JSON.stringify(payload) : undefined,
     });
+
     if (!res.ok) {
-      if (shouldSend) clearSentToday(dayKey); // 届かなかったので次回やり直す
+      rollback(dayKey, firstVisitToday, firstViewOfPage, seenPages);
       return { available: false, reason: `http-${res.status}` };
     }
 
     const data = await res.json();
     if (!data || data.available !== true) {
-      if (shouldSend) clearSentToday(dayKey);
+      rollback(dayKey, firstVisitToday, firstViewOfPage, seenPages);
       return { available: false, reason: data?.reason || 'unavailable' };
     }
 
+    if (firstVisitToday) { write(KNOWN_KEY, '1'); pruneOldKeys(dayKey); }
+
     return {
       available: true,
+      schema: data.schema || null,
+      date: data.date || dayKey,
       today: Number(data.today) || 0,
-      // 将来の表示追加（昨日 / 今週 / 今月 / 累計）はここを読むだけで足りる
       yesterday: Number(data.yesterday) || 0,
       thisWeek: Number(data.thisWeek) || 0,
       thisMonth: Number(data.thisMonth) || 0,
       total: Number(data.total) || 0,
-      date: data.date || dayKey,
-      countedThisVisit: shouldSend,
+      // 将来の表示追加はここを読むだけで足りる（新規 / 再訪 / ページ別 / 流入元別）
+      metrics: data.metrics || null,
+      breakdowns: data.breakdowns || null,
+      countedThisVisit: firstVisitToday,
     };
   } catch (err) {
-    if (shouldSend) clearSentToday(dayKey); // 送れていないので記録を戻す
-    if (err?.name === 'AbortError') return { available: false, reason: 'aborted' };
-    return { available: false, reason: 'network' };
+    rollback(dayKey, firstVisitToday, firstViewOfPage, seenPages);
+    return { available: false, reason: err?.name === 'AbortError' ? 'aborted' : 'network' };
   }
+}
+
+/** 送れていなければ記録を戻す（次回やり直せるように） */
+function rollback(dayKey, didVisit, didPage, previousPages) {
+  if (didVisit) drop(VISIT_KEY + dayKey);
+  if (didPage) write(PAGES_KEY + dayKey, JSON.stringify(previousPages));
 }

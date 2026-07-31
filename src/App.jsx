@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { fetchTodayVisitors } from './services/visitorService.js';
 import Header from './components/Header.jsx';
 import FoxMark from './components/FoxMark.jsx';
 import ToastHost from './components/ToastHost.jsx';
@@ -18,6 +20,13 @@ import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
   const location = useLocation();
+
+  // 画面が変わるたびに 1 回だけ通知する。訪問そのものは 1 日 1 回、ページは
+  // 「その日そのページを初めて見た時」だけ数える（判定は visitorService 側）。
+  // 失敗しても表示には影響しないので投げっぱなしにする。
+  useEffect(() => {
+    fetchTodayVisitors({ path: location.pathname });
+  }, [location.pathname]);
 
   return (
     <div className="app">

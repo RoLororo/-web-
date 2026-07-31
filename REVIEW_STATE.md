@@ -583,8 +583,11 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 SPA の HTML を返していた）。SPA のルート（`/` `/rankings` `/demand/:id`）と
 `/data/demands.json` は無傷、Home に pill は出ない、console error 0。
 
-**2026-07-31 追加**: 「今日訪れた人」（`/api/visit`）を実装。これは需要データではなく
-**利用状況の計測基盤**なので上の 11 指標には数えない。ただし長らく最大のボトルネックだった
+**2026-07-31 追加**: 「今日訪れた人」（`/api/visit`）を実装し、**アクセス分析基盤**として
+一般化した（`schema: visits/1.1`）。指標は `visits` / `new` / `returning`、次元は
+`page` / `referrer`。**指標や切り口の追加は `api/_schema.js` の表に 1 行足すだけ**で、
+エンドポイントも保存層も UI も書き換え不要（実測: 指標を 1 行足すと GET の応答に自動で出る）。
+これは需要データではなく**利用状況の計測基盤**なので上の 11 指標には数えない。ただし長らく最大のボトルネックだった
 「共有しても効果を観測する手段が無い」を解く最初の一手であり、**KV を接続した日から
 日次のユニーク訪問者数が測れるようになる**（未接続の間は API が `available:false` を返し
 Home には何も出ない）。
