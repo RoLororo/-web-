@@ -22,7 +22,10 @@ import {
 // 同一インスタンス内の簡易レート制限。メモリ上だけに置き、保存も送信もしない。
 const recentPosts = new Map();
 const POST_WINDOW_MS = 60 * 1000;
-const POST_MAX_PER_WINDOW = 20; // ページ別の通知があるので訪問 1 回で数リクエスト来る
+// 携帯回線や社内 NAT では多数の訪問者が同じ IP で来る。訪問 1 人あたり最大でも
+// 数リクエストなので、実利用を潰さない範囲で高めに取る（超過時は数えず、
+// クライアントが記録を戻して次の遷移で再挑戦する）。
+const POST_MAX_PER_WINDOW = 120;
 
 function rateLimited(fingerprint) {
   const now = Date.now();
@@ -179,9 +182,15 @@ async function handleDiag(req, res, store) {
   const present = [...new Set([...names.filter((n) => Boolean(process.env[n])), ...(creds?.names || [])])];
   let reachable = null;
   let error = null;
+  let todayKeyTtlDays = null;
   if (store) {
-    try { await store.readMany([totalMetricKey('visits')]); reachable = true; }
-    catch (e) { reachable = false; error = String(e.message || e).slice(0, 60); }
+    try {
+      await store.readMany([totalMetricKey('visits')]);
+      reachable = true;
+      // 日別キーに有効期限が張れているか（張れていないとキーが無限に増える）
+      const ttl = await store.ttl(dayMetricKey(todayKey(), 'visits'));
+      todayKeyTtlDays = ttl > 0 ? Math.round(ttl / 86400) : ttl; // -1 = 無期限 / -2 = 未作成
+    } catch (e) { reachable = false; error = String(e.message || e).slice(0, 60); }
   }
   res.setHeader('Cache-Control', 'no-store');
   return res.status(200).json({
@@ -190,6 +199,7 @@ async function handleDiag(req, res, store) {
     envMissing: names.filter((n) => !present.includes(n)),
     storeConfigured: Boolean(store),
     storeReachable: reachable,
+    todayKeyTtlDays,   // 400 前後なら正常 / -1 は無期限（異常）/ -2 は今日まだ訪問なし
     error,
     hint: store
       ? (reachable ? 'ok' : 'URL / TOKEN の組み合わせを確認してください')

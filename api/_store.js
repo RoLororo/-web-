@@ -68,6 +68,12 @@ function redisRestDriver({ url, token }) {
       await call(['SADD', indexKey, member]);
     },
 
+    /** キーの残り寿命（秒）。-1 = 無期限、-2 = キーが無い */
+    async ttl(key) {
+      const v = await call(['TTL', key]);
+      return Number(v);
+    },
+
     /** 次元値の一覧を読む（limit で読み過ぎを防ぐ） */
     async readIndex(indexKey, limit = 100) {
       const members = await call(['SMEMBERS', indexKey]);

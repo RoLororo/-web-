@@ -124,7 +124,14 @@ async function requestVisits({ path } = {}) {
       return { available: false, reason: data?.reason || 'unavailable' };
     }
 
-    if (firstVisitToday) { write(KNOWN_KEY, '1'); pruneOldKeys(dayKey); }
+    if (data.throttled) {
+      // サーバー側で弾かれた = 数えられていない。記録を戻して次の遷移で再挑戦する
+      // （戻さないと「送信済み」のまま残り、その人は二度と数えられない）
+      rollback(dayKey, firstVisitToday, firstViewOfPage, seenPages);
+    } else if (firstVisitToday) {
+      write(KNOWN_KEY, '1');
+      pruneOldKeys(dayKey);
+    }
 
     return {
       available: true,
@@ -135,10 +142,11 @@ async function requestVisits({ path } = {}) {
       thisWeek: Number(data.thisWeek) || 0,
       thisMonth: Number(data.thisMonth) || 0,
       total: Number(data.total) || 0,
+      throttled: Boolean(data.throttled),
       // 将来の表示追加はここを読むだけで足りる（新規 / 再訪 / ページ別 / 流入元別）
       metrics: data.metrics || null,
       breakdowns: data.breakdowns || null,
-      countedThisVisit: firstVisitToday,
+      countedThisVisit: firstVisitToday && !data.throttled,
     };
   } catch (err) {
     rollback(dayKey, firstVisitToday, firstViewOfPage, seenPages);
