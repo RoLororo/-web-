@@ -578,6 +578,11 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 | **UI が参照するフィールド** | **116 / 142** | **+23（93 → 116）** | `themes:eval` |
 | Home 総転送（cold） | 164 KB | +1 KB | ブラウザ実測 |
 
+**本番検証（2026-07-31）**: `/api/visit` は GET / POST とも
+`{"available":false,"reason":"store-not-configured"}` を JSON で返す（rewrite 修正前は
+SPA の HTML を返していた）。SPA のルート（`/` `/rankings` `/demand/:id`）と
+`/data/demands.json` は無傷、Home に pill は出ない、console error 0。
+
 **2026-07-31 追加**: 「今日訪れた人」（`/api/visit`）を実装。これは需要データではなく
 **利用状況の計測基盤**なので上の 11 指標には数えない。ただし長らく最大のボトルネックだった
 「共有しても効果を観測する手段が無い」を解く最初の一手であり、**KV を接続した日から
