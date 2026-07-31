@@ -35,6 +35,7 @@ npm run dev
 npm run all          # 取得 → 検査 → 合成 → 判定 → 履歴 → public ミラーまで一括
 npm run check        # 情報源の健全性だけ検査（読み取りのみ）
 npm run themes:eval  # 追跡テーマの昇格・降格判定と新しい需要候補の種出し（読み取り + 評価ログ追記）
+npm run visits:check # 「今日訪れた人」が本番で数えられているかを確認（読み取りのみ）
 ```
 
 個別の取得は `npm run news / wiki / qiita / appstore / arxiv / github / ndl`。

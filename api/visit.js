@@ -168,8 +168,39 @@ async function handleGet(req, res, store) {
   });
 }
 
+/**
+ * 接続診断。**値は絶対に返さない**（設定されている変数の「名前」と、実際に
+ * 読めたかどうかだけ）。設定したのに出ない時の原因切り分けに使う。
+ */
+async function handleDiag(req, res, store) {
+  const names = ['KV_REST_API_URL', 'KV_REST_API_TOKEN', 'UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN'];
+  const present = names.filter((n) => Boolean(process.env[n]));
+  let reachable = null;
+  let error = null;
+  if (store) {
+    try { await store.readMany([totalMetricKey('visits')]); reachable = true; }
+    catch (e) { reachable = false; error = String(e.message || e).slice(0, 60); }
+  }
+  res.setHeader('Cache-Control', 'no-store');
+  return res.status(200).json({
+    schema: SCHEMA_VERSION,
+    envPresent: present,          // 名前のみ。値は返さない
+    envMissing: names.filter((n) => !present.includes(n)),
+    storeConfigured: Boolean(store),
+    storeReachable: reachable,
+    error,
+    hint: store
+      ? (reachable ? 'ok' : 'URL / TOKEN の組み合わせを確認してください')
+      : 'KV_REST_API_URL と KV_REST_API_TOKEN を設定して再デプロイしてください',
+  });
+}
+
 export default async function handler(req, res) {
   const store = getStore();
+
+  // Vercel は req.query を用意するが、実行環境によっては url だけのこともある
+  const wantsDiag = req.query?.diag === '1' || /[?&]diag=1(&|$)/.test(req.url || '');
+  if (req.method === 'GET' && wantsDiag) return handleDiag(req, res, store);
 
   if (!store) {
     res.setHeader('Cache-Control', 'public, s-maxage=300');

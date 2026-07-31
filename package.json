@@ -24,7 +24,8 @@
     "insights": "node scripts/generate-insights.mjs",
     "history": "node scripts/append-history.mjs",
     "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run github && npm run ndl && npm run check && npm run demands && npm run insights && npm run history && npm run mirror",
-    "themes:eval": "node scripts/evaluate-themes.mjs"
+    "themes:eval": "node scripts/evaluate-themes.mjs",
+    "visits:check": "node scripts/check-visits.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
