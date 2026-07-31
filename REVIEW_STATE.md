@@ -584,7 +584,12 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 始まっていた**。前進時のみ先頭へ戻し、戻る / 進むはブラウザの復元に任せる方式で修正。
 本番実測: ランキング 2200 → 詳細は scrollY 0・見出し 172px、戻ると 2200 に復元、375px でも同様。
 
-**「今日訪れた人」が本番で見えない理由（2026-07-31 実測）**: 実装は本番の JS に入っている
+**アクセス分析の接続（2026-07-31）**: Vercel Marketplace の Upstash Redis を接頭辞 `KV` で
+Production / Preview に接続。**接頭辞は任意でよい実装に変更済み**（`<接頭辞>_REST_API_URL` と
+`<接頭辞>_REST_API_TOKEN` の組を形で検出する）。接続後の再デプロイは push で起こす。
+確認は `npm run visits:check` と `/api/visit?diag=1`（値は返さず、変数名と到達可否だけ）。
+
+**「今日訪れた人」が本番で見えなかった理由（2026-07-31 実測）**: 実装は本番の JS に入っている
 （`today-visitors` / `今日訪れた人` / `/api/visit` の文字列を配信バンドルで確認）が、
 **KV 未接続のため API が `{"available":false,"reason":"store-not-configured"}` を返し、
 UI は何も描画しない**（0 人と嘘をつかないため）。**ローカルで本番ビルド + 本番と同じ
