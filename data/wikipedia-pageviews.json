@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-30T00:20:34.440Z",
+  "generatedAt": "2026-07-31T08:16:16.901Z",
   "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
   "windowDays": 30,
-  "windowStart": "2026-06-30",
-  "windowEnd": "2026-07-29",
+  "windowStart": "2026-07-01",
+  "windowEnd": "2026-07-30",
   "mappedThemeCount": 11,
   "successCount": 11,
   "errorCount": 0,
@@ -18,12 +18,11 @@
         "ChatGPT"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 34437,
-      "totalPageviews7d": 6903,
-      "totalPageviewsPrior7d": 7631,
-      "growthPercent": -10,
+      "totalPageviews30d": 35390,
+      "totalPageviews7d": 7671,
+      "totalPageviewsPrior7d": 7678,
+      "growthPercent": 0,
       "byDate": {
-        "2026-06-30": 1132,
         "2026-07-01": 1178,
         "2026-07-02": 1178,
         "2026-07-03": 1172,
@@ -51,9 +50,11 @@
         "2026-07-25": 894,
         "2026-07-26": 1078,
         "2026-07-27": 1273,
-        "2026-07-28": 1042
+        "2026-07-28": 1042,
+        "2026-07-29": 980,
+        "2026-07-30": 1105
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "ai-coding": {
       "articles": [
@@ -63,12 +64,11 @@
         "GitHub_Copilot"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 1455,
-      "totalPageviews7d": 338,
-      "totalPageviewsPrior7d": 298,
-      "growthPercent": 13,
+      "totalPageviews30d": 1530,
+      "totalPageviews7d": 401,
+      "totalPageviewsPrior7d": 309,
+      "growthPercent": 30,
       "byDate": {
-        "2026-06-30": 59,
         "2026-07-01": 54,
         "2026-07-02": 50,
         "2026-07-03": 55,
@@ -96,9 +96,11 @@
         "2026-07-25": 40,
         "2026-07-26": 25,
         "2026-07-27": 56,
-        "2026-07-28": 68
+        "2026-07-28": 68,
+        "2026-07-29": 60,
+        "2026-07-30": 74
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "ai-content-generation": {
       "articles": [
@@ -108,12 +110,11 @@
         "Stable_Diffusion"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 3694,
-      "totalPageviews7d": 752,
-      "totalPageviewsPrior7d": 877,
-      "growthPercent": -14,
+      "totalPageviews30d": 3822,
+      "totalPageviews7d": 901,
+      "totalPageviewsPrior7d": 855,
+      "growthPercent": 5,
       "byDate": {
-        "2026-06-30": 120,
         "2026-07-01": 119,
         "2026-07-02": 184,
         "2026-07-03": 113,
@@ -141,9 +142,11 @@
         "2026-07-25": 171,
         "2026-07-26": 143,
         "2026-07-27": 156,
-        "2026-07-28": 85
+        "2026-07-28": 85,
+        "2026-07-29": 113,
+        "2026-07-30": 135
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "ai-hardware": {
       "articles": [
@@ -153,12 +156,11 @@
         "NVIDIA"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 33319,
-      "totalPageviews7d": 3708,
-      "totalPageviewsPrior7d": 20285,
-      "growthPercent": -82,
+      "totalPageviews30d": 34154,
+      "totalPageviews7d": 4158,
+      "totalPageviewsPrior7d": 13504,
+      "growthPercent": -69,
       "byDate": {
-        "2026-06-30": 427,
         "2026-07-01": 395,
         "2026-07-02": 495,
         "2026-07-03": 409,
@@ -186,9 +188,11 @@
         "2026-07-25": 550,
         "2026-07-26": 518,
         "2026-07-27": 531,
-        "2026-07-28": 725
+        "2026-07-28": 725,
+        "2026-07-29": 774,
+        "2026-07-30": 488
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "infrastructure-outages": {
       "articles": [
@@ -198,12 +202,11 @@
         "Amazon_Web_Services"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 4863,
-      "totalPageviews7d": 865,
-      "totalPageviewsPrior7d": 1812,
-      "growthPercent": -52,
+      "totalPageviews30d": 5014,
+      "totalPageviews7d": 1021,
+      "totalPageviewsPrior7d": 1135,
+      "growthPercent": -10,
       "byDate": {
-        "2026-06-30": 154,
         "2026-07-01": 141,
         "2026-07-02": 176,
         "2026-07-03": 141,
@@ -231,9 +234,11 @@
         "2026-07-25": 89,
         "2026-07-26": 111,
         "2026-07-27": 193,
-        "2026-07-28": 161
+        "2026-07-28": 161,
+        "2026-07-29": 143,
+        "2026-07-30": 162
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "security-breach": {
       "articles": [
@@ -243,12 +248,11 @@
         "ランサムウェア"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 4255,
-      "totalPageviews7d": 546,
+      "totalPageviews30d": 4309,
+      "totalPageviews7d": 523,
       "totalPageviewsPrior7d": 2918,
-      "growthPercent": -81,
+      "growthPercent": -82,
       "byDate": {
-        "2026-06-30": 60,
         "2026-07-01": 64,
         "2026-07-02": 46,
         "2026-07-03": 46,
@@ -276,9 +280,11 @@
         "2026-07-25": 48,
         "2026-07-26": 66,
         "2026-07-27": 107,
-        "2026-07-28": 89
+        "2026-07-28": 89,
+        "2026-07-29": 64,
+        "2026-07-30": 50
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "payment-troubles": {
       "articles": [
@@ -288,12 +294,11 @@
         "PayPay"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 11688,
-      "totalPageviews7d": 2645,
-      "totalPageviewsPrior7d": 2317,
-      "growthPercent": 14,
+      "totalPageviews30d": 11723,
+      "totalPageviews7d": 2246,
+      "totalPageviewsPrior7d": 2565,
+      "growthPercent": -12,
       "byDate": {
-        "2026-06-30": 480,
         "2026-07-01": 386,
         "2026-07-02": 466,
         "2026-07-03": 628,
@@ -321,9 +326,11 @@
         "2026-07-25": 289,
         "2026-07-26": 258,
         "2026-07-27": 304,
-        "2026-07-28": 245
+        "2026-07-28": 245,
+        "2026-07-29": 275,
+        "2026-07-30": 240
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "home-server-selfhost": {
       "articles": [
@@ -333,12 +340,11 @@
         "自宅サーバ"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 194,
-      "totalPageviews7d": 39,
-      "totalPageviewsPrior7d": 46,
-      "growthPercent": -15,
+      "totalPageviews30d": 197,
+      "totalPageviews7d": 50,
+      "totalPageviewsPrior7d": 45,
+      "growthPercent": 11,
       "byDate": {
-        "2026-06-30": 12,
         "2026-07-01": 12,
         "2026-07-02": 5,
         "2026-07-03": 3,
@@ -366,9 +372,11 @@
         "2026-07-25": 3,
         "2026-07-26": 8,
         "2026-07-27": 9,
-        "2026-07-28": 7
+        "2026-07-28": 7,
+        "2026-07-29": 8,
+        "2026-07-30": 7
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "remote-work": {
       "articles": [
@@ -378,12 +386,11 @@
         "テレワーク"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 722,
-      "totalPageviews7d": 225,
-      "totalPageviewsPrior7d": 164,
-      "growthPercent": 37,
+      "totalPageviews30d": 742,
+      "totalPageviews7d": 233,
+      "totalPageviewsPrior7d": 172,
+      "growthPercent": 35,
       "byDate": {
-        "2026-06-30": 19,
         "2026-07-01": 22,
         "2026-07-02": 25,
         "2026-07-03": 23,
@@ -411,9 +418,11 @@
         "2026-07-25": 15,
         "2026-07-26": 106,
         "2026-07-27": 20,
-        "2026-07-28": 24
+        "2026-07-28": 24,
+        "2026-07-29": 15,
+        "2026-07-30": 24
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "senior-health": {
       "articles": [
@@ -423,12 +432,11 @@
         "認知症"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 2713,
-      "totalPageviews7d": 571,
-      "totalPageviewsPrior7d": 674,
-      "growthPercent": -15,
+      "totalPageviews30d": 2801,
+      "totalPageviews7d": 666,
+      "totalPageviewsPrior7d": 652,
+      "growthPercent": 2,
       "byDate": {
-        "2026-06-30": 85,
         "2026-07-01": 90,
         "2026-07-02": 94,
         "2026-07-03": 96,
@@ -456,9 +464,11 @@
         "2026-07-25": 96,
         "2026-07-26": 104,
         "2026-07-27": 116,
-        "2026-07-28": 103
+        "2026-07-28": 103,
+        "2026-07-29": 89,
+        "2026-07-30": 84
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     },
     "ai-regulation": {
       "articles": [
@@ -468,12 +478,11 @@
         "人工知能"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 17664,
-      "totalPageviews7d": 3517,
-      "totalPageviewsPrior7d": 4732,
-      "growthPercent": -26,
+      "totalPageviews30d": 18051,
+      "totalPageviews7d": 3835,
+      "totalPageviewsPrior7d": 4745,
+      "growthPercent": -19,
       "byDate": {
-        "2026-06-30": 572,
         "2026-07-01": 704,
         "2026-07-02": 632,
         "2026-07-03": 532,
@@ -501,9 +510,11 @@
         "2026-07-25": 519,
         "2026-07-26": 634,
         "2026-07-27": 609,
-        "2026-07-28": 457
+        "2026-07-28": 457,
+        "2026-07-29": 410,
+        "2026-07-30": 549
       },
-      "fetchedAt": "2026-07-30T00:20:34.440Z"
+      "fetchedAt": "2026-07-31T08:16:16.901Z"
     }
   },
   "errors": []

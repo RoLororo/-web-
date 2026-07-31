@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-30T00:23:00.960Z",
+  "generatedAt": "2026-07-31T08:18:43.287Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-06-30",
+  "createdSince": "2026-07-01",
   "authenticated": true,
   "mappedThemeCount": 10,
   "successCount": 10,
@@ -19,26 +19,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2319,
-        "engagement": 156,
+        "volume": 2355,
+        "engagement": 203,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2319,
-        "topStarSum": 156,
+        "newRepoCount": 2355,
+        "topStarSum": 203,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 81,
+          "stars": 125,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -46,7 +46,7 @@
         {
           "title": "V-Songbird/foreman",
           "url": "https://github.com/V-Songbird/foreman",
-          "stars": 26,
+          "stars": 27,
           "language": "JavaScript",
           "description": "📋 Prompt-engineering and project-roadmap plugin that crafts professional xml prompts and picks, surveys, and tracks you",
           "publishedAt": "2026-07-07T08:55:24Z"
@@ -54,7 +54,7 @@
         {
           "title": "byerlikaya/claude-starter-kit",
           "url": "https://github.com/byerlikaya/claude-starter-kit",
-          "stars": 20,
+          "stars": 21,
           "language": "Shell",
           "description": "Enterprise engineering workflow for Claude Code — not just prompts. AI agents that plan, build, audit, and ship with sec",
           "publishedAt": "2026-07-02T12:25:26Z"
@@ -70,7 +70,7 @@
         {
           "title": "dorakoo/doubao-studio",
           "url": "https://github.com/dorakoo/doubao-studio",
-          "stars": 13,
+          "stars": 14,
           "language": "TypeScript",
           "description": "豆包工作室 - AI 内容创作者多账号自动化工作台 | Electron + React + TypeScript | 视频参数校验、可恢复调度、手动视频提取下载与额度预测",
           "publishedAt": "2026-07-02T17:02:10Z"
@@ -82,26 +82,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1752,
-        "engagement": 792,
+        "volume": 1781,
+        "engagement": 796,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1752,
-        "topStarSum": 792,
+        "newRepoCount": 1781,
+        "topStarSum": 796,
         "topLanguage": "Python",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 262,
+          "stars": 269,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -109,7 +109,7 @@
         {
           "title": "eli-labz/Cognitive-Core-Skills",
           "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
-          "stars": 214,
+          "stars": 212,
           "language": "Python",
           "description": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verifi",
           "publishedAt": "2026-07-05T21:25:55Z"
@@ -125,7 +125,7 @@
         {
           "title": "Nexis-AI/NexBench",
           "url": "https://github.com/Nexis-AI/NexBench",
-          "stars": 123,
+          "stars": 122,
           "language": "TypeScript",
           "description": "NEXBENCH measures what an autonomous agent can actually do on-chain — execute transactions, route swaps, bridge funds, m",
           "publishedAt": "2026-07-11T21:01:10Z"
@@ -145,34 +145,34 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1055,
-        "engagement": 79,
+        "volume": 1060,
+        "engagement": 120,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1055,
-        "topStarSum": 79,
-        "topLanguage": "TypeScript",
-        "createdSince": "2026-06-30"
+        "newRepoCount": 1060,
+        "topStarSum": 120,
+        "topLanguage": "Java",
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
-          "title": "DigitalShieldOfficial/DigitalShieldPay",
-          "url": "https://github.com/DigitalShieldOfficial/DigitalShieldPay",
-          "stars": 36,
-          "language": null,
+          "title": "DigitalShieldOfficial/Crypto-Payment-Gateway",
+          "url": "https://github.com/DigitalShieldOfficial/Crypto-Payment-Gateway",
+          "stars": 76,
+          "language": "Java",
           "description": "A blockchain payment gateway for USDT that monitors on-chain wallet addresses, detects incoming transactions in real tim",
           "publishedAt": "2026-07-27T02:24:49Z"
         },
         {
           "title": "rzkyyds/gobiz-payment-v2",
           "url": "https://github.com/rzkyyds/gobiz-payment-v2",
-          "stars": 19,
+          "stars": 20,
           "language": "TypeScript",
           "description": "QRIS payment gateway on Cloudflare Workers (based on kavionn/gobiz-payment)",
           "publishedAt": "2026-07-13T02:06:39Z"
@@ -208,20 +208,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 686,
-        "engagement": 78,
+        "volume": 694,
+        "engagement": 74,
         "contributors": null,
         "latestActivityAt": "2026-07-03T06:42:03Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 686,
-        "topStarSum": 78,
+        "newRepoCount": 694,
+        "topStarSum": 74,
         "topLanguage": "Python",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
@@ -249,20 +249,20 @@
           "publishedAt": "2026-07-12T11:48:27Z"
         },
         {
-          "title": "bytefer/geo-seo-codex",
-          "url": "https://github.com/bytefer/geo-seo-codex",
-          "stars": 11,
-          "language": "Python",
-          "description": "  GEO-first SEO toolkit for Codex. Audit websites for AI search visibility across ChatGPT, Perplexity, Gemini, Google AI",
-          "publishedAt": "2026-07-01T06:15:23Z"
-        },
-        {
           "title": "nikandr-surkov/ai-saas-starter",
           "url": "https://github.com/nikandr-surkov/ai-saas-starter",
           "stars": 7,
           "language": "TypeScript",
           "description": "AI SaaS boilerplate for Next.js 16 — Better Auth, Stripe subscriptions, credits system, AI image generation. AI-native: ",
           "publishedAt": "2026-07-18T06:34:02Z"
+        },
+        {
+          "title": "emrecanozturk/intentflow-ios",
+          "url": "https://github.com/emrecanozturk/intentflow-ios",
+          "stars": 7,
+          "language": "Swift",
+          "description": "Workflow-first, AI-ready iOS architecture with typed effects, manifests, SwiftUI/UIKit examples, and agent-safe code gen",
+          "publishedAt": "2026-07-06T14:25:56Z"
         }
       ],
       "errors": []
@@ -271,20 +271,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 547,
+        "volume": 488,
         "engagement": 35,
         "contributors": null,
         "latestActivityAt": "2026-07-02T14:53:14Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 547,
+        "newRepoCount": 488,
         "topStarSum": 35,
         "topLanguage": "HTML",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
@@ -334,26 +334,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 436,
-        "engagement": 1142,
+        "volume": 447,
+        "engagement": 1109,
         "contributors": null,
         "latestActivityAt": "2026-07-02T14:43:11Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 436,
-        "topStarSum": 1142,
+        "newRepoCount": 447,
+        "topStarSum": 1109,
         "topLanguage": "Python",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
           "title": "jmerelnyc/Talos",
           "url": "https://github.com/jmerelnyc/Talos",
-          "stars": 890,
+          "stars": 846,
           "language": "Python",
           "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocke",
           "publishedAt": "2026-07-02T14:43:11Z"
@@ -361,7 +361,7 @@
         {
           "title": "nopnoping/micro-vllm",
           "url": "https://github.com/nopnoping/micro-vllm",
-          "stars": 105,
+          "stars": 110,
           "language": "Python",
           "description": "A small, educational vLLM implementation for exploring LLM inference, scheduling, KV-cache management, and GPU execution",
           "publishedAt": "2026-07-26T11:08:51Z"
@@ -369,7 +369,7 @@
         {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 68,
+          "stars": 72,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -385,7 +385,7 @@
         {
           "title": "tinyBigGAMES/Gemma4.pas",
           "url": "https://github.com/tinyBigGAMES/Gemma4.pas",
-          "stars": 27,
+          "stars": 29,
           "language": "Python",
           "description": "Gemma4.pas is a high-performance AI inference engine developed entirely in Delphi to run Google’s Gemma 4 model natively",
           "publishedAt": "2026-07-06T11:25:56Z"
@@ -397,26 +397,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 257,
-        "engagement": 95,
+        "volume": 259,
+        "engagement": 101,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 257,
-        "topStarSum": 95,
+        "newRepoCount": 259,
+        "topStarSum": 101,
         "topLanguage": "Go",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 34,
+          "stars": 38,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -424,7 +424,7 @@
         {
           "title": "Nerdy-Technician/JellyGlance",
           "url": "https://github.com/Nerdy-Technician/JellyGlance",
-          "stars": 20,
+          "stars": 21,
           "language": "JavaScript",
           "description": "A modern Jellyfin dashboard for live sessions, user stats, recently added media, libraries, downloads, calendars, webhoo",
           "publishedAt": "2026-07-17T22:32:40Z"
@@ -432,7 +432,7 @@
         {
           "title": "deskhq/the-desk",
           "url": "https://github.com/deskhq/the-desk",
-          "stars": 17,
+          "stars": 18,
           "language": "PHP",
           "description": "Calm, fast, self-hosted team chat you run yourself — channels, threads, reminders, scheduled messages. One Docker compos",
           "publishedAt": "2026-07-08T00:14:05Z"
@@ -460,20 +460,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 260,
+        "volume": 256,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 260,
+        "newRepoCount": 256,
         "topStarSum": 43,
         "topLanguage": "Lua",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
@@ -523,20 +523,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 54,
+        "volume": 57,
         "engagement": 18,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 54,
+        "newRepoCount": 57,
         "topStarSum": 18,
         "topLanguage": "HCL",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
@@ -564,20 +564,20 @@
           "publishedAt": "2026-07-21T15:54:34Z"
         },
         {
-          "title": "gpunnoli-2026/argus-aiops",
-          "url": "https://github.com/gpunnoli-2026/argus-aiops",
-          "stars": 1,
-          "language": "Python",
-          "description": "AIOps incident prediction & automated response platform",
-          "publishedAt": "2026-07-13T06:19:37Z"
-        },
-        {
           "title": "schnmnty1/OpsAcademy",
           "url": "https://github.com/schnmnty1/OpsAcademy",
           "stars": 1,
           "language": "TypeScript",
           "description": "AI-Powered Major Incident Management Training Platform for IT Operations, SRE, and Incident Response Teams.",
           "publishedAt": "2026-07-11T11:30:54Z"
+        },
+        {
+          "title": "ArchanaChetan07/Multi-Agent-Incident-Response-System",
+          "url": "https://github.com/ArchanaChetan07/Multi-Agent-Incident-Response-System",
+          "stars": 1,
+          "language": "Python",
+          "description": "Multi-agent AIOps incident triage in Python: evidence-grounded root-cause analysis, hallucination guarding, cost-aware L",
+          "publishedAt": "2026-07-15T03:23:36Z"
         }
       ],
       "errors": []
@@ -586,20 +586,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-30T00:23:00.960Z",
+      "fetchedAt": "2026-07-31T08:18:43.287Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 179,
+        "volume": 181,
         "engagement": 64,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 179,
+        "newRepoCount": 181,
         "topStarSum": 64,
         "topLanguage": "Python",
-        "createdSince": "2026-06-30"
+        "createdSince": "2026-07-01"
       },
       "topItems": [
         {
@@ -635,8 +635,8 @@
           "publishedAt": "2026-07-11T06:16:20Z"
         },
         {
-          "title": "Agents365-ai/videogenCN",
-          "url": "https://github.com/Agents365-ai/videogenCN",
+          "title": "Agents365-ai/videogencn",
+          "url": "https://github.com/Agents365-ai/videogencn",
           "stars": 3,
           "language": "Python",
           "description": "Claude Code skill: Chinese video model generation — Wan, PixVerse, Kling, Vidu, HappyHorse, Jimeng, MiniMax, Hunyuan. Te",

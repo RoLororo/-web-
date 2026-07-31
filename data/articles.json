@@ -1,5 +1,715 @@
 [
   {
+    "id": "36efb37058afca06",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "【被害状況】熊本地震 関連調査中含め35人死亡 熊本県発表",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015191421000",
+    "publishedAt": "2026-07-31T08:08:13.000Z",
+    "summary": "熊本県は、今回の地震で県内では災害との関連を調査している1人を含めて35人が死亡し、9100人余りが避難していることなどを発表しました。",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "7444eea35cd92d3c",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "【地震速報】熊本 宇土で震度3（16:50）津波の心配なし",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015192201000",
+    "publishedAt": "2026-07-31T07:56:55.000Z",
+    "summary": "31日午後4時50分ごろ地震がありました。この地震による津波の心配はありません。震源地は熊本県熊本地方で震源の深さは10キロ、地震の規模を示すマグニチュードは3.7と推定されます。各市町村の震度は以下…",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "4271381447f98337",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "日銀 政策金利を1％程度に据え置き決定",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015191761000",
+    "publishedAt": "2026-07-31T07:50:36.000Z",
+    "summary": "日銀は、31日まで開いた金融政策決定会合で、今の政策を維持することを決めました。6月、利上げに踏み切ったばかりで、家計や企業への影響を見極める必要があると判断したとみられます。",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "632be1fc3b3a0431",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "株価 大きく値上がり AI・半導体関連の銘柄に買い注文",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015191661000",
+    "publishedAt": "2026-07-31T07:38:25.000Z",
+    "summary": "7月31日の東京株式市場、AI・半導体関連の銘柄を中心に買い注文が広がり、日経平均株価は2400円以上、値上がりしました。",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "279784ce4c0317bd",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Claudeも3組織に不正アクセス　実在システムを「演習の一部」と誤認　Anthropicが経緯を公表",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000334/",
+    "publishedAt": "2026-07-31T07:25:14.000Z",
+    "summary": "米Anthropicは7月30日（現地時間）、AIモデル「Claude」がサイバーセキュリティ評価の最中に3つの組織の本番システムへ不正アクセスしていたと発表した。隔離しているはずのテスト環境がインターネットにつながっており、Claudeは実在の企業を演習の標的と誤認したまま攻撃を進めていた。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "86b5b500f3b2228e",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "官房長官の元秘書官を訓告処分 不適切な出張報道 赤澤経産相",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015192141000",
+    "publishedAt": "2026-07-31T06:54:55.000Z",
+    "summary": "赤澤経済産業大臣は、公費を使って不適切な出張を繰り返していた疑いがあるなどと報じられた、経済産業省出身の、木原官房長官の元秘書官について31日付けで訓告の処分を行ったことを明らかにしました。",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "4df884cb755a2a96",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "タカラトミー、デュエマアプリで個人情報漏えいか　最大15万5000人分　氏名や住所など閲覧の恐れ",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000331/",
+    "publishedAt": "2026-07-31T06:45:27.000Z",
+    "summary": "タカラトミーは7月28日、スマートフォンアプリ「デュエル・マスターズ サポートアプリ」で最大約15万5000人分の個人情報を第三者が閲覧できる状態だったと発表した。原因はユーザー認証機能の脆弱性で、アプリの公開から11カ月余り続いていた。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "5ee0979c0e5f8fd6",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "UEFA “計画撤回されなければW杯参加せず” FIFAを非難",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015192111000",
+    "publishedAt": "2026-07-31T06:40:14.000Z",
+    "summary": "FIFA＝国際サッカー連盟が外部からの投資を募り商業活動と大会の運営事業を担う新たな子会社を設立する計画を発表したことについて、UEFA＝ヨーロッパサッカー連盟と加盟する55のサッカー協会は計画が撤回…",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "4697503774c8b643",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『超かぐや姫！』の彩葉は東大工学部のどこに進学した？ 独自に徹底検証！！ | UmeeT",
+    "url": "https://todai-umeet.com/article/72266/",
+    "publishedAt": "2026-07-31T06:39:32.000Z",
+    "summary": "(画像: ©コロリド・ツインエンジンパートナーズ) 皆さん、『超かぐや姫！』知っていますか？ 電柱から現れた少女「かぐや」を引き取った女子高校生「彩葉」が、インターネット上の仮想空間「ツクヨミ」でライバーとして活躍していくという、「令和版竹取物語」です！ 2026年1月にNetflixで配信された後劇場公開され、...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "3eee6fcf7bd6d509",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「ICチップなら安心」は本当か　地面師対策で問われる不動産取引の多重防御",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000330/",
+    "publishedAt": "2026-07-31T06:00:00.000Z",
+    "summary": "不動産の「ミステリー」を専門家がわかりやすく読み解き、AIをはじめITを活用した不動産の近未来を探る。バブル経済の崩壊後、低迷してきた日本の不動産価格が反転上昇し、内外からの投資が盛り上がる中、海外の先進事例なども交えて将来の不動産業界や価格をわかりやすく展望する。第4回は「地面師詐欺をITで防げるのか」を深堀りする。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "56de6ae8687146da",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "政府・日銀 市場介入実施と判明 約5円変動した昨夜の円高",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015191381000",
+    "publishedAt": "2026-07-31T05:58:53.000Z",
+    "summary": "外国為替市場では、30日夜、円を買う動きが急激に強まって、およそ5円、円高ドル安が進む場面があり、政府・日銀が市場介入に踏み切ったことが関係者への取材で明らかになりました。",
+    "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "736edad5c0232d04",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ランダムグッズに関する消費者意識調査2026最終報告 全55項目にわたる特設サイトを無償公開",
+    "url": "https://prtimes.jp/main/html/rd/p/000000011.000053969.html",
+    "publishedAt": "2026-07-31T05:42:22.000Z",
+    "summary": "ランダムグッズに関する消費者意識調査2026最終報告 全55項目にわたる特設サイトを無償公開総回答数35,866件・自由記述欄の総文字数約269万字の中から、消費者の生の声をピックアップ。企業ヒアリングの結果も 株式会社Hamaru Strategy（読み：ハマルストラテジー、代表取締役：清水和幸、本社：東京都台東区）は、2026...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "94a203ad01358df8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "“ランダム商法”メーカー側も8割が「嫌い」──調査で権利元など企業の“事情”も判明",
+    "url": "https://kai-you.net/article/96135",
+    "publishedAt": "2026-07-31T05:34:48.000Z",
+    "summary": "キャラクターグッズの企画などを手がけるHamaru Strategy（ハマルストラテジー）が、「ランダムグッズに関する消費者意識調査2026」の最終報告を公開した。 3月から4月にかけて実施していた調査には3万5866件の回答が寄せられ、自由記述欄の総文字数は約269万字に到達。 4月に発表された中間報告では、ランダムグッズに...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "ddc318464f7d1447",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "辺野古転覆事故、同志社国際高運営法人の「安全配慮義務違反」認定した調査報告書＜全文＞",
+    "url": "https://www.sankei.com/article/20260731-FCA35CZUCNCTDOYQURKLAM3CO4/",
+    "publishedAt": "2026-07-31T04:52:29.000Z",
+    "summary": "沖縄県名護市辺野古沖で船2隻が転覆し同志社国際高校（京都府）の武石知華さん（17）ら2人が死亡した事故をめぐり、31日、同校を運営する学校法人同志社に「安全配慮義務違反があった」と認定する特別調査委員会（第三者委員会）の調査報告書が公表された。 報告書は、学校法人同志社が外部専門家でつくる特別委に依頼し...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "512596a9d627eac2",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "スクエニ、ゲームの品質テストをGeminiで自動化　AIが画面を見ながらコントローラーを操作、検証作業を自走",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000322/",
+    "publishedAt": "2026-07-31T04:28:03.000Z",
+    "summary": "スクウェア・エニックスが、ゲームの品質を検証するQAテストの自動化に米GoogleのAI「Gemini」を活用している。同社の荒牧岳志氏（AI＆エンジン開発ディビジョン ジェネラル・マネージャー）が7月30日、「Google Cloud Next Tokyo '26」の基調講演で披露した。AIがゲーム画面を見て状況を把握し、コントローラーを自動で...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "b2d2c32e88657b31",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "アスクル、個人情報の漏えい懸念が約134万件に　新たに約60万件特定",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000327/",
+    "publishedAt": "2026-07-31T04:07:16.000Z",
+    "summary": "アスクルは7月30日、2025年10月に受けたランサムウェア攻撃に伴う障害について、外部への漏えいのおそれがある個人情報約60万件を追加で特定したと発表した。氏名、住所、電話番号、メールアドレスが含まれる。現時点で、外部への漏えいの事実や不正利用は確認していないという。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "614a4037d38eff2e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "特別調査委員会からの調査報告書の受領について - News｜学校法人同志社",
+    "url": "https://www.doshisha.ed.jp/information/index.php?c=topics_view&pk=1785463079",
+    "publishedAt": "2026-07-31T03:53:34.000Z",
+    "summary": "特別調査委員会からの調査報告書の受領について 2026年7月31日 学校法人同志社 学校法人同志社（以下「本法人」といいます。）の設置校である同志社国際高等学校の研修旅行において2026年3月16日に発生した事故（以下「本件事故」といいます。）により、尊い命が失われ、多くの方々が負傷されたことにつきまして、改めて...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "91a5ceafb50d2289",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ヤンマガ編集部員が選ぶ注目漫画！【出版社横断】",
+    "url": "https://www.youtube.com/watch?v=HM_a-a_31_U",
+    "publishedAt": "2026-07-31T03:30:33.000Z",
+    "summary": "ヤンマガ編集部42名に2026年にオススメしたい漫画を回答してもらいました！ そのリアルな結果を大公開――！！ あなたの“次くる漫画”も、ぜひコメント欄で教えてください👇 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ◆ヤンマガWebなら無料で漫画が読める！ https://yanmaga.jp/ ◆公式X ヤンマガ公式X：https://x.com/magazine_young ヤンマガWeb公...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "7c4e246f0b880c18",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "AIを活かしたいなら、人は切れない、かもしれない - Nothing ventured, nothing gained.",
+    "url": "https://takoratta.hatenablog.com/entry/ai-amplifier-radical-candor",
+    "publishedAt": "2026-07-31T03:22:55.000Z",
+    "summary": "昨日、Google Cloud Next Tokyoで話す機会があった。そこで触れた話と、セッションが終わったあとに聞かれて考え込んでしまったことを、忘れないうちに書いておく。 明らかな間違い 少し前まで、AIは堂々と嘘をついた。存在しないAPIを呼び出し、動かないコードを平然と出してきた。だからこそ、指摘は簡単だった。実行...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "d97ebe454b2b5409",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ネックスピーカーで家の音楽問題が解決",
+    "url": "https://dailyportalz.jp/koresugo/neck-speaker",
+    "publishedAt": "2026-07-31T03:21:27.000Z",
+    "summary": "ネックスピーカーは2台目ですが、以前使っていた別のメーカーのは肩が凝って耐えられずにメルカリで売りました。これは肩も凝らないし、音も満足です（ソニーの別モデルより音がいい）。ついでにメルカリで安く買えたのも満足です。 ヘッドホンをしていると家族に話しかけられても分からないのでネックスピーカーを使っ...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "974ea7c99afb0942",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「うさぎの島」でイノシシがウサギを捕食　背景に人によるエサやりも：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV7Y30PMV7YUTFL021M.html",
+    "publishedAt": "2026-07-31T03:14:36.000Z",
+    "summary": "「うさぎの島」として知られる広島県の大久野島で、野生のイノシシがウサギを捕まえて食べている――。福島大学などの研究チームがそんな現場を目撃し、論文として発表した（https://doi.org/10…",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "00adff2012a26bde",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[第1話] つづら先輩は元カノだから - すずの志侑 | となりのヤングジャンプ",
+    "url": "https://tonarinoyj.jp/episode/12207421983972478434",
+    "publishedAt": "2026-07-31T03:10:10.000Z",
+    "summary": "つづら先輩は元カノだから すずの志侑 元カノ×元カレの復縁！？ラブコメディ！ 完璧で平穏な生活を望む男子高校生・長内律（おさないりつ）。 そんな彼が通う高校には中学時代に付き合っていた\"元カノ\"の先輩・津々楽紗那（つづらさな）がおり―！？ 言動の読めない元カノに振り回される高校生活が幕を開ける…！ こんな...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "78dd0eb6df2f59eb",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "淫獄団地 最終話 / 搾精研究所(原作) 丈山雄為(漫画)",
+    "url": "https://manga.nicovideo.jp/watch/mg1119045",
+    "publishedAt": "2026-07-31T02:42:31.000Z",
+    "summary": "ニコニコ漫画の全サービスをご利用いただくには、niconicoアカウントが必要です。 アカウントを取得すると、よりマンガを楽しむことができます。 ・マンガにコメントを書き込むことができる ・全マンガ作品を視聴できる ・好きなマンガの更新通知を受け取れたり、どの話まで読んだか記録する便利機能が使用できる",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "8a869160983e79af",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ロシアの「.ru」ドメイン、日本からの利用が9月1日から実質困難に？ ユーザー混乱【やじうまWatch】",
+    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2129451.html",
+    "publishedAt": "2026-07-31T02:30:05.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "38fb9d6aa5f0fd76",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "女は金がかかる！みたいなやつ",
+    "url": "https://anond.hatelabo.jp/20260731110249",
+    "publishedAt": "2026-07-31T02:06:14.000Z",
+    "summary": "いや、確かにちゃんと女をやろうと思うと金はかかるのだけれども、7000円とか10000円とかのブラはやっぱり生活必需品ではなく ユニクロエアリズムだって贅沢品、出どころよくわからないスーパーのワゴンで売られてる3枚2980円のブラトップを愛用してますよって女も多いわけで 「下着にも化粧にも靴にもネイルにもお金か...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "0a71b8bd4c73584b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "米国務省が作成のアフリカ地図、6カ国の位置全部間違えた",
+    "url": "https://www.cnn.co.jp/usa/35251162.html",
+    "publishedAt": "2026-07-31T01:45:29.000Z",
+    "summary": "（CNN） 米国務省は30日、国際会議でこのほど使用したアフリカの地図について、記載された6カ国全ての位置が誤っていたと発表した。「残念なミス」だったと説明している。 問題の地図は、リオデジャネイロで開かれたエイズに関する国際会議で使用。アフリカのナイジェリア、モザンビーク、ウガンダ、コートジボワール、...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "41c119afead9c7fe",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "熊本地震の被害推定、衛星データ基に地図化　現地の航空写真400枚超も公開　国際航業",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000321/",
+    "publishedAt": "2026-07-31T01:36:11.000Z",
+    "summary": "",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "cbfb9ae73a72d3ca",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『みいちゃんと山田さん』とSNSフェミニズムは極めて近い主張をしているのになぜもめているのだろうかという疑問｜CDBと七紙草子",
+    "url": "https://note.com/774notes/n/n8622f31e006c",
+    "publishedAt": "2026-07-31T01:35:54.000Z",
+    "summary": "『みいちゃんと山田さん』のアニメ化反対署名をしている人たちを見た時、まず不思議に思ったのはタイトルのようなことでした。反対署名運動者の多くはSNSフェミニストのアカウントであったのですが、『みいちゃんと山田さん』はふだん彼女たちが主張しているようなことに極めて近いメッセージを打ち出した作品であると感...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "7526ae477807c8e1",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "アンソロピックAI「Claude」も暴走　試験中にサイバー攻撃3件 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOGN310KW0R30C26A7000000/",
+    "publishedAt": "2026-07-31T01:11:42.000Z",
+    "summary": "【シリコンバレー=山田遼太郎】米新興アンソロピックは30日、同社の人工知能（AI）「クロード」が本来隔離された環境での試験中にインターネットに接続し、システムにサイバー攻撃や不正アクセスをした事案が3件あったと明らかにした。米オープンAIでも類似の事態が起きており、AIの性能向上に制御が追いつかないリスク...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "b8afde28a549fcdb",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Thinking Machinesの共同創業者、また1人OpenAIに復帰へ",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000286/",
+    "publishedAt": "2026-07-31T01:10:50.000Z",
+    "summary": "Thinking Machines Labの共同創業者リリアン・ウェン氏が、健康上の理由で同社を離れると発表した。同社がオープンウェイトモデル「Inkling」を発表した直後の辞任となる。同氏は古巣のOpenAIに復帰し、AIの再帰的自己改善に関する研究チームを率いる見込み。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "1f3ba00830a00423",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "近所のサイゼリヤでおばあちゃん10人グループが騒がしくしており、「折り鶴、次はいつ集まる？」と聞こえて、本当にやりきれない気分になった→被災地に送るのか？が焦点に",
+    "url": "https://togetter.com/li/2726811",
+    "publishedAt": "2026-07-31T00:06:13.000Z",
+    "summary": "黒猫のアシ @kuronekono_ashi 近所のサイゼリヤで飯食ってたら、おばあちゃん10人グループがやってきた。 案の定ドリンクバーだけでワイワイガヤガヤめちゃめちゃうるさくて、聞きたくなくても会話が耳に入ってくるんだけど、話の内容が「折り鶴、次はいつ集まる？」らしく、本当にやりきれない気分で店を出た。 2026-07...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "337ce145edee95b4",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "講談社編集達がみいちゃんについて話してる動画エグかったよ 「人の不幸話..",
+    "url": "https://anond.hatelabo.jp/20260731083755",
+    "publishedAt": "2026-07-30T23:51:07.000Z",
+    "summary": "講談社編集達がみいちゃんについて話してる動画エグかったよ 「人の不幸話はめっちゃくちゃ楽しい」「誰かが可哀想な目に合うところを見たい」「みいちゃんが落ちていく様を見たい」「ポップに罪悪感なく人の不幸が読めちゃう」「この世界の底が見たいみいちゃんは底まで落ちていく才能がある」 https://youtu.be/HM_a-a...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "7416a31532c1e817",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ハマスの「完全な武装解除」で合意、イスラエル軍撤退へ トランプ氏発表",
+    "url": "https://www.afpbb.com/articles/-/3646398",
+    "publishedAt": "2026-07-30T23:43:05.000Z",
+    "summary": "米国のドナルド・トランプ大統領（2026年7月30日撮影）。(c)Brendan SMIALOWSKI / AFP 【7月31日 AFP】（更新）米国のドナルド・トランプ大統領は30日、イスラム組織ハマスの「完全な武装解除」で合意したと発表し、これがパレスチナ自治区ガザ地区における新たなパレスチナ政府に向けた重要な一歩だと称した。 トランプ...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "8090225af1e97770",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Amazon決算、AWS成長率36.7％で過去18四半期最速に　純利益はAnthropic投資益で大幅増",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000316/",
+    "publishedAt": "2026-07-30T23:34:56.000Z",
+    "summary": "Amazonの2026年4月?6月期決算は、売上高が前年同期比20％増の2006億600万ドル、純利益はAnthropic投資の評価益も寄与し約3.4倍の626億4700万ドルとなった。AWSの売上高は36.7％増と成長が加速。AI需要に応えるため、通期の設備投資予測を約2200億ドルへ上方修正した。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "8c139e4bf128a3fb",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "＜2026年熊本地震＞東京通信大の松尾特任教授「避難所からの避難を」　提言の理由は?｜熊本日日新聞社",
+    "url": "https://kumanichi.com/articles/2019845",
+    "publishedAt": "2026-07-30T22:47:40.000Z",
+    "summary": "猛暑の熊本を襲った最大震度7の地震。過酷な気候の中、厳しい避難生活が続けば、体調悪化や災害関連死の恐れが高まる。防災行動学が専門で、災害時の行動計画を事前に決める「タイムライン」の重要性を提唱する東京通信大の松尾一郎特任教授（70）は「災害関連死を防ぐには『避難所からの避難』を進めるべきだ」と訴える...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "319f2d9305f72947",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "脳は「真のマルチタスク」を実現するために再配線できるとの研究結果",
+    "url": "https://gigazine.net/news/20260731-brain-rewire-true-multitasking/",
+    "publishedAt": "2026-07-30T22:37:24.000Z",
+    "summary": "人間の脳は意識的な判断を必要とする2つの課題に同時並行で取り組む時、複数のタスクを同時処理する「マルチタスク」ではなく、タスク間を素早く切り替えて処理していると考えられてきました。アメリカ・ジョージタウン大学のマキシミリアン・リーゼンフーバー氏や、リーハイ大学のパトリック・コックス氏らの研究チーム...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "112c909b653b59a7",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Apple、16％増収で第3四半期として過去最高　クックCEO最後の決算「将来をかつてないほど楽観」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000315/",
+    "publishedAt": "2026-07-30T22:33:00.000Z",
+    "summary": "Appleの4?6月期決算は、売上高が前年同期比16％増の1094億1700万ドルで過去最高を記録した。iPhoneやMac、サービス部門が力強く牽引した一方、iPadは減収となった。ティム・クックCEOは今回が最後の決算会見となり、ジョン・ターナス次期CEOへの移行が順調に進んでいると語った。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "df66b5f1eefb74e4",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "入門機だけど「これがいい」　XREALの「xbx a01+」は62gしかない大画面だった",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000282/",
+    "publishedAt": "2026-07-30T22:31:00.000Z",
+    "summary": "XREALから登場した「xbx a01+」は、日常のさまざまなシーンで自分だけの大画面を得られるARグラス。実際に使い倒してみると、そこにはスペックからは分かりにくい使い勝手の良さがありました。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "953231685972ba9d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "かんぴょうって餅巾着と昆布巻きでしか食べないよね",
+    "url": "https://anond.hatelabo.jp/20260731042449",
+    "publishedAt": "2026-07-30T22:19:34.000Z",
+    "summary": "かんぴょうって餅巾着と昆布巻きでしか食べないよね",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "2e47c0186b78ba01",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "コードベースのナレッジ化なら、LLM Wikiで十分かもしれない - Qiita",
+    "url": "https://qiita.com/Syoitu/items/ff38655fed51a2920910",
+    "publishedAt": "2026-07-30T22:17:23.000Z",
+    "summary": "前書き コーディングエージェントに改修を依頼するたびに、「この修正はどこまで影響するんだろう」と、同じ調査を何度もやり直させた経験はないでしょうか 社内の仕様書や設計ドキュメントをベクトルDBに入れて、エージェントに検索させる構成を組んでいる方も多いと思います。 ドキュメントの中身自体は正しく引けるも...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "2259be7ec1c63f6a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "パレスチナ人一家の車に間違えて発砲したイスラエル警官、両親殺害に抗議した子どもに「黙れ」「お前らは犬だ」",
+    "url": "https://www.yomiuri.co.jp/world/20260730-GYT1T00326/",
+    "publishedAt": "2026-07-30T20:05:52.000Z",
+    "summary": "【読売新聞】 イスラエルが占領を進めるヨルダン川西岸で、イスラエル治安部隊がパレスチナ人の子供らを射殺する事件が相次いでいる。パレスチナ自治区ガザで戦闘が始まった２０２３年１０月以降、西岸各地で軍事作戦が激化したことが背景にあり、こ",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "f69bf8a64d88bb69",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "サッカーW杯を欧州がボイコットへ、アジアも反発　FIFA子会社案：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV7Z5RWGV7ZUTQP026M.html",
+    "publishedAt": "2026-07-30T18:55:39.000Z",
+    "summary": "国際サッカー連盟（FIFA）が打ち出した子会社設立計画の撤回を求め、欧州サッカー連盟（UEFA）は7月30日、加盟する全55協会がワールドカップ（W杯）などのFIFA主催大会をボイコットする方針を全…",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "5ed3a2216a75fd43",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【動画】辺野古転覆、武石知華さん遺族が事故当時の動画を公開　抗議船に乗る直前の知華さんの姿も",
+    "url": "https://www.sankei.com/article/20260730-HBVUB2ETEFKCDCQQYA7H2GA7SM/",
+    "publishedAt": "2026-07-30T16:40:11.000Z",
+    "summary": "辺野古転覆事故を巡り、遺族が公開した動画。事故当日とされる映像には、前方で抗議船の1隻が転覆する様子がおさめられていた（遺族提供） 沖縄県名護市辺野古沖で船2隻が転覆し同志社国際高校（京都府）2年の武石知華（ともか）さん（17）ら2人が死亡した事故を巡り、知華さんの両親が30日、東京・霞が関の司法記者クラ...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "2d15002b66a45426",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "熊本地震による通信障害、携帯4社全てで復旧",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000314/",
+    "publishedAt": "2026-07-30T15:45:27.000Z",
+    "summary": "NTTドコモ、KDDI、ソフトバンク、楽天モバイルの携帯4社は7月30日、令和8年熊本地震で熊本県内に出ていた通信障害が全て復旧したと発表した。ただし被災地では応急復旧が続き、通信速度が遅くなる場合があるとしている。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "4c3d8252d1cc073b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【速報】日米両政府が生鮮ジャガイモ解禁協議",
+    "url": "https://www.47news.jp/14711691.html",
+    "publishedAt": "2026-07-30T15:36:32.000Z",
+    "summary": "現在は病害虫侵入の懸念から輸入を禁止している米国産の生鮮ジャガイモを巡り、日米両政府が解禁に向けた協議を進めていることが30日、分かった。農林水産省は解禁可否の判断時期は未定としている。",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "dbe304a0b7c249d4",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『WindowsユーザーのためのWSLで始めるLinux環境構築術』を公開しました",
+    "url": "https://virtualtech.jp/2026-07-29/",
+    "publishedAt": "2026-07-30T15:36:27.000Z",
+    "summary": "技術メディア ThinkIT にて連載していた「Windowsユーザーのための WSL2で始める Linux環境構築術」の全29回に渡って執筆を担当いたしました。 執筆完了を記念し、構成・内容・文章をすべて見直し、最新の知見を踏まえて全面的にリライトした再構築版として公開しました。 連載で培われた知見をもとに、より体系的で実践...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "4df3b45b720b8a0a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【社説】一線越えた首相の消費減税表明　社会保障の安定損なう無責任：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV7Z30XJV7ZUSPT007M.html",
+    "publishedAt": "2026-07-30T13:24:31.000Z",
+    "summary": "高齢化がピークに近づく2040年を前に、社会保障の「お財布」に年間5兆円もの穴を開ける。そんな首相の決断だ。私たちは、日本社会のあり方を左右する重大な岐路に立っている。■本来の目的から逸脱 高市早苗…",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "26a933e90eb9b10e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "身のほどを弁えてしまったワイン飲みの良さと悪さ - シロクマの屑籠",
+    "url": "https://p-shirokuma.hatenadiary.com/entry/20260730/1785412800",
+    "publishedAt": "2026-07-30T12:31:42.000Z",
+    "summary": "私が「ワインをはじめて」十年以上の歳月が流れ、一応、ひととおりのことはわかるようになったと思う。自分の身の丈に合い、自分の嗅覚や味覚にもフィットし、家庭料理やテイクアウト料理に合わせてもうまく付き合ってくれるワインたちが、「私のワイン趣味」とか「私のワインの選び方」として浮かび上がってきた。それ...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "39c0b20077d6e0cc",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "防衛省の「クーラー300台」投稿動画でビックカメラのトラックが注目を集める　同社「販売用の在庫を迅速に提供」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000313/",
+    "publishedAt": "2026-07-30T12:22:44.000Z",
+    "summary": "7月28日に発生した「令和8年熊本地震」を受け、防衛省・自衛隊が被災地へ輸送したクーラー約300台を納入したのはビックカメラではないかと、投稿動画を通してXで話題になっている。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "15f694ccca3fd7d9",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "生成AIにおけるHTML/画像出力の必要性と改善案としてのRHW(reviewable-html-workbench)の紹介",
+    "url": "https://zenn.dev/u1/articles/rhw-reviewable-html-workbench",
+    "publishedAt": "2026-07-30T12:16:48.000Z",
+    "summary": "この記事はXの元記事をZenn向けに再掲載したものです。 要約 (TL;DR) モデルが 1 回に出す量は増え続けており、読む側の処理能力は変わりません。 この差をどこまで埋められるかで AI との協調の質が決まります。 認知負荷の研究を土台に、Claude Code 標準の Artifact tool がどこまで答えていて、どこが足りないかを整理し、その不足を埋めるRHW https://github.com/u-ichi/reviewable-html-workbench を紹介します。 はじめに Claude Code には Artifact to…",
+    "fetchedAt": "2026-07-31T08:10:21.571Z"
+  },
+  {
+    "id": "fa2e01bda64c00e0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "政治家の「答弁拒否」の言語学：　　　　　計量政治言語学のアプローチ｜下地理則（九州大学人文科学研究院 教授）",
+    "url": "https://note.com/lingfieldwork/n/n4f76fa8f52be",
+    "publishedAt": "2026-07-30T11:47:42.000Z",
+    "summary": "答弁拒否の言語学 「お答えを差し控えさせていただきます」。 国会中継を少しでも見たことがあれば、必ず聞いたことのある言い回しである。質問に答えない、と丁寧に宣言する定型句。あまりに聞き慣れて、国会とはそういう場所だと思っている人も多いだろう。 政治家は言葉が命だとよく言われる。演説で支持を集め、答弁...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "aaf0c3751dce3bae",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "松のや、批判受け「ママ応援企画」から「夏休み企画」へ変更「どなたでもご利用できます」（スポニチアネックス） - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/articles/a0a1f864dc44f7a8eaccde0db095e2972b574c5f",
+    "publishedAt": "2026-07-30T11:19:18.000Z",
+    "summary": "松屋フーズが展開するとんかつ専門店「松のや」の公式X（旧ツイッター）が30日に更新。「ママ応援企画」に批判が寄せられたことから「夏休み企画」に変更し、キャンペーンを実施すると告知した。 【写真あり】松のや、批判受け謝罪「『たしかにその通りだな』と感じました」 公式Xでは、29日に「ママ応援企画」と題した...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "2bde365f2a6e2342",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "検証：DAZN（ダゾーン）は何クリックで解約できるのか？",
+    "url": "https://gameboku.com/archives/26073016.html",
+    "publishedAt": "2026-07-30T11:12:32.000Z",
+    "summary": "少し前に、サッカー FIFAワールドカップ2026を観るためにDAZN（ダゾーン）を契約した。過去にも、野球目当てで契約したことが何回かある。 またいつかお世話になるとは思うが、とりあえずワールドカップは終わったので、いったん解約しておこう！ [1] アカウントメニューのボタンを押す。 [2] 「マイ アカウント」を押す...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "b329f93d7430daad",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "イオンモール熊本のドローン捜索、状況を現場キーマンに聞いた　撮影を阻んだのは……",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000312/",
+    "publishedAt": "2026-07-30T11:07:56.000Z",
+    "summary": "イオンモール熊本の内部映像を撮影した国産ドローン企業Liberaware。現場を統括したキーマンに捜索活動について聞いた。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "258589526874c77f",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "熊本地震でSNSにデマ拡散　偽の救助要請や募金詐欺、AIを信じ本物を誤判定も",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000311/",
+    "publishedAt": "2026-07-30T10:14:27.000Z",
+    "summary": "防災・危機管理サービスを手掛ける「スペクティ」は7月29日、熊本県で発生した地震に関し、SNSでデマや誤情報、偽の救助要請、募金詐欺を確認したと明らかにした。生成AIの回答を根拠に、本物の可能性が高い現場の映像を過去のものと決め付けて広める動きも目立ったという。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "f7c41c6456018c85",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「経営より人命」で空気一変 イオン会見が評価されたワケ カギはトップの「知識量」",
+    "url": "https://www.advertimes.com/20260730/article552369/",
+    "publishedAt": "2026-07-30T10:11:43.000Z",
+    "summary": "イオンは7月29日、最大震度7を観測した熊本地震後に「イオンモール熊本」（熊本県嘉島町）で発生した爆発事故について、熊本市内で記者会見を開いた。事故翌日、吉田昭夫社長が現地に入り、低姿勢で謝罪するとともに、確認できている事実と未確認事項を分けて説明した。厳しい質問にも落ち着いて答える姿は、SNSでも高く...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "e514c12830282a69",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「文スト」スマホゲーム、きょう告知→あす終了　突然のサ終にユーザー混乱　運営元の廃業で",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000310/",
+    "publishedAt": "2026-07-30T10:08:59.000Z",
+    "summary": "アンビションは7月30日、スマートフォン向けゲーム「文豪ストレイドッグス 迷ヰ犬怪奇譚」を7月31日で終了すると発表した。運営法人である同社の廃業に伴うもので、未使用の課金アイテムは払い戻さない。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "ae57c865ec71b9e3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【読切】セーラートップリフティング / セーラートップリフティング - 漫画：何某A | コミック アース・スター",
+    "url": "https://comic-earthstar.com/episode/12207421984022778645",
+    "publishedAt": "2026-07-30T09:42:30.000Z",
+    "summary": "セーラートップリフティング 漫画：何某A クラスのマドンナ・白石が、今日、眼鏡をかけてきた。普段とは違う姿に色めきだっているクラスメイトの男子たち。黒木は、赤松にそそのかされ、白石が眼鏡だったワケを推理するハメに…。",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "10525b44c199d865",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「AIと一緒に展開を考える」小説エディタ「RIKU」　はてなとKADOKAWAが共同開発",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000309/",
+    "publishedAt": "2026-07-30T09:28:13.000Z",
+    "summary": "KADOKAWAは7月30日、AIを活用した小説エディタ「RIKU」を発表した。はてなと共同開発したサービスで、同日からクローズドβテストの参加者も募っている。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "fd0a0b9ecc07b9b5",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "0.5くらいから始めるPersonal Knowledge Base 構築実践",
+    "url": "https://zenn.dev/mkj/articles/claudian-orchestra-build_20260720",
+    "publishedAt": "2026-07-30T08:00:05.000Z",
+    "summary": "こんにちは，松尾研究所の尾崎です．25卒でデータサイエンティストをやっています． このところ，ObsidianのVaultを人間とAIの共有メモリに据えたPersonal Knowledge Base（PKB＝個人の知識ベース）の話を書いてきました．Claudian Orchestraで実際に私が運用しているPKBを紹介しました． PKBを構築することで，スムーズなコンテキストスイッチや並行作業などがしやすくなり，極めることで大幅な業務効率化が可能になります． ただ実際問題PKBの構築自体が結構大変で，特に本質部分である自分が使っている各種ツールをPKB…",
+    "fetchedAt": "2026-07-31T08:10:21.571Z"
+  },
+  {
+    "id": "23f3f89075529952",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「楽天ドライブ」アプリから「データ漏洩」「ハッキングした」通知？　運営元「緊急調査中」「通知を開かないで」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000307/",
+    "publishedAt": "2026-07-30T07:26:43.000Z",
+    "summary": "通知には「支払いに失敗した」「アカウントをハッキングした」「金銭を支払え」といった内容が記載されているとし、「通知を開いたり、操作したりしないでください」と呼び掛けている。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "1fea74a85f3434c8",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "イオンモール熊本内部の撮影、国産ドローンが活躍　日本企業2社が自衛隊などと協力",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000303/",
+    "publishedAt": "2026-07-30T06:42:48.000Z",
+    "summary": "7月28日に発生した「令和8年熊本地震」に伴うイオンモール熊本での爆発事故を巡り、陸上自衛隊が救助活動の一環として実施した建物内部のドローン撮影で、国産ドローンが使われていることが分かった。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "ca3e92ee99cb5ea8",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "TSMC、熊本工場の製造装置「調整に時間」　建屋の安全は確認　第2工場は29日に工事再開",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000305/",
+    "publishedAt": "2026-07-30T06:23:59.000Z",
+    "summary": "台湾TSMCは7月29日、熊本県で最大震度7を観測した地震で操業を一時中断した子会社JASM（熊本県菊陽の公式Xアカウントで発表した。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "9cf38c5b62c3875e",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "“ダサい”不評の「ドコモの銀行」、従来のアプリアイコン選択可能に　「ご意見・ご要望も踏まえ」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000301/",
+    "publishedAt": "2026-07-30T05:44:35.000Z",
+    "summary": "新アイコン公開後、SNSで「ダサい」「使いたくない」「視認性が悪い」といった批判が噴出。「住信SBIネット銀行時代のアイコンを残してほしい」という声も相次いでいた。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "d5d5dc7769ca90d1",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ニューヨーク・タイムズの香港拠点が、東京ではなくソウルへ移転した「本当の理由」 | ハーバー・ビジネス・オンライン",
+    "url": "https://hbol.jp/pc/226189/",
+    "publishedAt": "2026-07-30T05:05:04.000Z",
+    "summary": "外国メディアが東アジアをカバーする東京支局を閉鎖し、中国の北京、上海やシンガポールなどへ移転し始めたのは今世紀に入った頃だっただろうか。東京支局のスタッフを減らす通信社もあった。日本外国特派員協会（FCCJ）の記者たちは、「毎週のように特派員仲間の送別会がある」と言っていた。 国際メディアが東京に見切...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "168f498143de0982",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ドコモ、ahamoを30→40GBに増量　8月1日から　料金据え置きの新キャンペーン",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000291/",
+    "publishedAt": "2026-07-30T03:20:28.000Z",
+    "summary": "NTTドコモは7月29日、料金プラン「ahamo」と「ドコモ mini」のデータ容量を増量する「データ増量おためしキャンペーン」を、8月1日から実施すると発表した。料金は据え置いたまま、月間利用可能データ量を増やす。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "e7646675aee08979",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "タムロン、ソニーからの買収提案認める　特別委員会を設置して検討",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000292/",
+    "publishedAt": "2026-07-30T02:49:41.000Z",
+    "summary": "タムロンは7月30日、ソニーから完全子会社化を目的とした法的拘束力のない提案を受領していると認めた。前日に一部メディアが買収提案を報じたことを受けたもので、東京証券取引所は同日、タムロン株の売買を一時停止した。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "785f6c363c0f6425",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "光学25倍ズームのソニー「RX10 V」はもう“レンズ一体型α”　1台で何でも撮れそうな万能感に浸れるぞ",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000290/",
+    "publishedAt": "2026-07-30T02:36:04.000Z",
+    "summary": "ソニーの「RX10 V」を使いって、これはもう“レンズ一体型α”だ、と思った。技術の進化と最新の画像処理エンジンを得て、24-600mm相当という超高倍率ズームレンズを持つ、その気になれば何でも撮れるカメラに進化した。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "95633f0708037753",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方",
+    "url": "https://zenn.dev/estie/articles/c5503dfe56f7a1",
+    "publishedAt": "2026-07-30T00:45:05.000Z",
+    "summary": "こんにちは、株式会社estie（エスティ） 取締役CTO の Nari（@tiwanari）です。 みなさんは、新しいプロダクトを世に出す前に、「抜け漏れ」がないか不安になった経験はないですか？ 先日、あるプロダクトのリリース前チェックで「個人情報がエラー監視ツールへ送られる実装になっている」と指摘されました。見つけたのは人間ではなく、リリース前チェックリストを読ませた AI のスキャンです。 よく考えるとケアしなければいけない当たり前なことでも、リリース前の慌ただしい時期にあらゆる観点を思い出すことはとても大変です。ゼロからプロダクトを開発してリリース…",
+    "fetchedAt": "2026-07-31T08:10:21.571Z"
+  },
+  {
+    "id": "f0054ee0455ffffd",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Microsoftは増収増益、AzureとAI需要が牽引　Copilot有料シート数は3000万超に",
+    "url": "https://www.itmedia.co.jp/news/article/2607/30/2000000285/",
+    "publishedAt": "2026-07-30T00:18:06.000Z",
+    "summary": "Microsoftの4?6月期決算は、売上高が前年同期比18％増の900億700万ドル、純利益が31％増の357億6600万ドル。Azure等のクラウド事業やAI領域が好調を維持し、通期売上高は3318億3900万ドルを記録。設備投資を拡大しAIインフラの強化を進めている。",
+    "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "cf3e2bce900ca43e",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "GitHub Actionsのコストが増えているなら、Namespaceを使えばいいじゃない",
+    "url": "https://zenn.dev/aircloset/articles/6b47018589df0f",
+    "publishedAt": "2026-07-29T23:52:26.000Z",
+    "summary": "! English Version is here みなさまこんにちは！エアークローゼットでCTOをしている辻です。 GitHub ActionsのランナーをGitHub hosted→Blacksmith→Namespaceと2回乗り換えました。結果を先に言うと: CIコストはGitHub hosted時代の約1/4 遅い処理（p90）でも37%短縮 CIが完了しない事故は32件→0件 移行作業は1行変えるだけ この記事はその実測記録です。乗り換え判断の材料になるよう、測り方も失敗談も込みで公開します。 AIで開発すると、CIは静かに膨らみ続ける まず…",
+    "fetchedAt": "2026-07-31T08:10:21.571Z"
+  },
+  {
     "id": "fc20a4e676219878",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -200,6 +910,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "2bb4457ee99f714b",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "MCPの大型アップデート（2026-07-28）で何が変わったか —— TypeScript SDK v2で試す",
+    "url": "https://zenn.dev/komlock_lab/articles/mcp-stateless-spec-2026",
+    "publishedAt": "2026-07-29T14:05:30.000Z",
+    "summary": "こんにちは！ブロックチェーン×AI Agentで自律経済圏を創るKomlock labでエンジニアをしている小原（@brto_0224）です。 https://x.com/claudedevs/status/2082164248697069935 MCPが2026年7月28日に大型アップデートされた、という話を見かけて調べてみました。公開された2026-07-28仕様はMCP発足以来もっとも大きな仕様変更で、通信の土台が作り直されたほか、認可の強化や複数機能の非推奨化まで含みます。この記事では公式ブログと仕様書の内容を整理しつつ、実際にTypeScrip…",
+    "fetchedAt": "2026-07-31T08:10:21.571Z"
+  },
+  {
     "id": "29ffc411ad00746e",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -318,6 +1038,16 @@
     "publishedAt": "2026-07-29T10:10:44.000Z",
     "summary": "60～70年代に育ったトヤマさんのような女性にとって、離婚は一般的なことではなかった/Yumi Asada/CNN （CNN） トヤマ・エイコさんは、夫と別れるまでに32年間待ち続けた。 結婚してからずっと、家事と子育てを一人で担い、経済的にも家族を支え続けた。トヤマさんの人づきあいから仕事上の夢まで、「すべてをコントロー...",
     "fetchedAt": "2026-07-30T00:14:26.642Z"
+  },
+  {
+    "id": "01ea089aa7fe2397",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "agent-browserはもう古い？ Web調査をコマンドに変えるOpenCLI",
+    "url": "https://zenn.dev/nasubikun/articles/opencli-web-research",
+    "publishedAt": "2026-07-29T09:40:25.000Z",
+    "summary": "こんにちは、jomatsuです。 最近、OpenCLIというOSSが注目を集めていますが、日本の技術コミュニティではそれほど話題になっていないと感じたため、記事にしてみました。OpenCLI単体に閉じた話ではなく、「AIによるブラウザ操作」が次の時代に進んでいるトレンドでもあると考えていますので、そこも含めて解説します。 AIエージェントが扱えるWebの範囲は、急速に広がっています。公開ページの検索や取得に加えて、ブラウザを操作するツールを使えば、ログイン後の画面やJavaScriptで描画される情報も調べられます。agent-browserは、その代表…",
+    "fetchedAt": "2026-07-31T08:10:21.571Z"
   },
   {
     "id": "6dc5857f32879482",
@@ -2840,6 +3570,16 @@
     "fetchedAt": "2026-07-26T07:13:52.587Z"
   },
   {
+    "id": "5a1088d12079fe55",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "私たちも昔「移民」だった　アニメ映画「ニホンジン」上映へ：朝日新聞GLOBE＋",
+    "url": "https://globe.asahi.com/article/16748905",
+    "publishedAt": "2026-07-24T05:23:48.000Z",
+    "summary": "およそ100年前にブラジルに渡った日系人家族の3世代にわたる物語を描いたアニメ映画が2026年8月7日、全国の映画館で公開される。タイトルは「ニホンジン」。移民をめぐる議論が先鋭化するなかで「移民として海外に渡ったニホンジンの歴史を知ってほしい」と日本に暮らす日系人や関係者が奔走し、公開にこぎ着けた。 物語...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
     "id": "fec42c256fea6ef5",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -2868,6 +3608,16 @@
     "publishedAt": "2026-07-24T04:40:27.000Z",
     "summary": "! この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の153週目の記事です！ 3年間連続達成まで残り7週となりました！ こんにちは、ログラスの飯田(@ysk_118)です。 ここ数年、AIによってコードを書く速度はずいぶん上がりました。一方で、「品質向上に対してどのようにアプローチしていくのか」という問いも、多くの現場で同時に立ち上がっているように思います。 AIによる開発現場の進化の渦中において、エンジニアリングマネージャーはどう変化すべきなのか？品質にとどまらずさまざまな観点でアップデートが求められていると…",
     "fetchedAt": "2026-07-26T07:13:52.661Z"
+  },
+  {
+    "id": "62d443c081a5d5d2",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "東京の竪穴住居、全部行く - 足跡を辿る",
+    "url": "https://tenyard.hatenadiary.jp/entry/2026/07/23/185342",
+    "publishedAt": "2026-07-24T03:33:55.000Z",
+    "summary": "ある日、竪穴住居の面白さに気づいた。 竪穴住居は、日本でもっとも多く復元されている遺跡だ。 なのに、「本当の姿」を誰も知らない。 このくぼみから建物の形を想像できるだろうか。（下野谷遺跡公園） それならば、復元された竪穴住居は、正解がないぶん自由に造られているんじゃないか。 そこで、東京にある竪穴住居...",
+    "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
     "id": "689612a1036666af",
