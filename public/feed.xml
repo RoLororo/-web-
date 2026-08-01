@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demand Atlas — 今日動いた需要</title>
+    <link>https://demand-atlas.vercel.app/</link>
+    <atom:link href="https://demand-atlas.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+    <description>7 つの公開データから毎日観測している需要テーマのうち、判定が変わったものとスコアが大きく動いたものをお知らせします。</description>
+    <language>ja</language>
+    <lastBuildDate>Sat, 01 Aug 2026 08:08:27 GMT</lastBuildDate>
+    <ttl>720</ttl>
+    <item>
+      <title>Demand Atlas の観測記録を公開しました（10 テーマ）</title>
+      <link>https://demand-atlas.vercel.app/</link>
+      <guid isPermaLink="false">start-2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 08:07:18 GMT</pubDate>
+      <description>10 件の需要テーマについて、7 つの公開データからの観測を毎日記録しています。以後、判定が変わったテーマとスコアが 3 以上動いたテーマをこのフィードでお知らせします。</description>
+    </item>
+  </channel>
+</rss>

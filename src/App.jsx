@@ -120,6 +120,8 @@ export default function App() {
             <Link to="/contact">お問い合わせ</Link>
             <Link to="/privacy">プライバシーポリシー</Link>
             <Link to="/terms">利用規約</Link>
+            {/* フィードは React のルートではないので <Link> にしない */}
+            <a href="/feed.xml">RSS</a>
           </nav>
           <p className="footer-text">
             <span className="brand-mini">

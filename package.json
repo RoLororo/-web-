@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/mirror-public.mjs && node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/mirror-public.mjs && node scripts/generate-feed.mjs && node scripts/generate-sitemap.mjs",
     "build": "vite build && node scripts/prerender.mjs",
     "prerender": "node scripts/prerender.mjs",
     "preview": "vite preview",
@@ -25,8 +25,9 @@
     "demands": "node scripts/build-demands.mjs",
     "insights": "node scripts/generate-insights.mjs",
     "sources:report": "node scripts/build-source-report.mjs",
+    "feed": "node scripts/generate-feed.mjs",
     "history": "node scripts/append-history.mjs",
-    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run github && npm run ndl && npm run check && npm run demands && npm run insights && npm run sources:report && npm run history && npm run mirror",
+    "all": "npm run news && npm run themes && npm run trends && npm run wiki && npm run qiita && npm run appstore && npm run arxiv && npm run github && npm run ndl && npm run check && npm run demands && npm run insights && npm run sources:report && npm run feed && npm run history && npm run mirror",
     "themes:eval": "node scripts/evaluate-themes.mjs",
     "visits:check": "node scripts/check-visits.mjs",
     "contact:read": "node scripts/read-contact.mjs"

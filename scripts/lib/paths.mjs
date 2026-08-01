@@ -81,6 +81,10 @@ export const PATHS = {
     demands: resolve(DATA_ROOT, 'demands.json'),
     // 情報源そのものの成績表（/sources が読む）。demands.json とは別に配信する
     sourceReport: resolve(DATA_ROOT, 'source-report.json'),
+    // RSS フィードの蓄積。history に score が入っていないため過去の日次スコアは
+    // 復元できず、フィード自身が日々ためていく必要がある
+    feedState: resolve(DATA_ROOT, 'feed-state.json'),
+    feedItems: resolve(DATA_ROOT, 'feed-items.jsonl'),
   },
   /** テーマ評価の日次ログ (evaluate-themes.mjs が追記。連続日数の判定に使う) */
   evaluations: resolve(DATA_ROOT, 'theme-evaluations.jsonl'),

@@ -5021,3 +5021,34 @@ h1.section-title::before {
 
 /* 表の中のリンクは行間が詰まっていて 23px（実測）。あと 1px 足りない */
 .prose-table a { padding-block: 3px; }
+
+/* --- 更新の受け取り口（Home） -------------------------------------------
+   2026-08-01 実測: 再訪率 15%、RSS・通知・購読すべて無し。
+   毎日更新されるサイトなのに「また来る理由」を渡せていなかった。      */
+
+.follow-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding: var(--s-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-2);
+}
+.follow-text { flex: 1 1 22em; min-width: 0; }
+.follow-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.follow-text p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--text-2);
+  max-width: 46em;
+}
+.follow-btn { flex: 0 0 auto; min-height: 44px; }

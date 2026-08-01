@@ -150,6 +150,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 更新の受け取り口。
+          2026-08-01 実測: 再訪率 15%。毎日 1 回データが更新されるのに、
+          それを知る手段が 1 つも無かった（RSS・通知・購読すべて無し）。
+          「また来る理由」が無いままだと、来た人は 1 回で終わる。 */}
+      <section className="container section">
+        <div className="follow-strip">
+          <div className="follow-text">
+            <div className="follow-title">動いたときだけ、お知らせします</div>
+            <p>
+              判定が変わったテーマと、需要スコアが 3 以上動いたテーマだけを配信します。
+              何も動かなかった日は何も出しません。登録は不要で、
+              お使いの RSS リーダーに追加するだけです。
+            </p>
+          </div>
+          <a
+            className="btn primary follow-btn"
+            href="/feed.xml"
+            aria-label="RSS フィードを開く"
+          >
+            RSS で受け取る
+          </a>
+        </div>
+      </section>
+
       {/* 初めて来た人が「この数字は何なのか」を確かめる入口。
           データを先に見せてから説明へ誘導する（説明を先に置くと、
           何のサイトか分からないまま読ませることになる）。 */}

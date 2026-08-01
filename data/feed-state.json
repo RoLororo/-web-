@@ -1,0 +1,47 @@
+{
+  "updatedAt": "2026-08-01T08:08:27.644Z",
+  "date": "2026-08-01",
+  "topId": "infrastructure-outages",
+  "themes": {
+    "infrastructure-outages": {
+      "score": 96,
+      "verdict": "拡大局面"
+    },
+    "ai-business-automation": {
+      "score": 85,
+      "verdict": "実装フェーズ"
+    },
+    "security-breach": {
+      "score": 78,
+      "verdict": "様子見"
+    },
+    "ai-coding": {
+      "score": 76,
+      "verdict": "様子見"
+    },
+    "payment-troubles": {
+      "score": 63,
+      "verdict": "様子見"
+    },
+    "ai-regulation": {
+      "score": 51,
+      "verdict": "研究先行"
+    },
+    "remote-work": {
+      "score": 40,
+      "verdict": "様子見"
+    },
+    "senior-health": {
+      "score": 35,
+      "verdict": "観測不足"
+    },
+    "ai-hardware": {
+      "score": 34,
+      "verdict": "鎮静化中"
+    },
+    "home-server-selfhost": {
+      "score": 32,
+      "verdict": "様子見"
+    }
+  }
+}
