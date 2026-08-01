@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:15:13.174Z",
+  "generatedAt": "2026-08-01T07:33:25.990Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,7 +10,7 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-07-31T08:16:16.901Z",
+      "generatedAt": "2026-08-01T00:22:06.373Z",
       "mappedThemeCount": 11,
       "successCount": 11,
       "skippedCount": 0,
@@ -31,7 +31,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 117733
+      "totalVolume": 114568
     },
     {
       "id": "qiita",
@@ -42,7 +42,7 @@
       "apiDocs": "https://qiita.com/api/v2/docs",
       "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
       "windowDays": 30,
-      "generatedAt": "2026-07-31T08:16:20.185Z",
+      "generatedAt": "2026-08-01T00:22:09.951Z",
       "mappedThemeCount": 11,
       "successCount": 9,
       "skippedCount": 2,
@@ -72,7 +72,7 @@
         }
       ],
       "errors": [],
-      "totalVolume": 2184
+      "totalVolume": 2123
     },
     {
       "id": "arxiv",
@@ -83,7 +83,7 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-07-31T08:18:07.332Z",
+      "generatedAt": "2026-08-01T00:23:47.567Z",
       "mappedThemeCount": 11,
       "successCount": 11,
       "skippedCount": 0,
@@ -104,7 +104,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 6777
+      "totalVolume": 6644
     },
     {
       "id": "appstore",
@@ -115,7 +115,7 @@
       "apiDocs": "https://rss.marketingtools.apple.com/",
       "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
       "windowDays": 1,
-      "generatedAt": "2026-07-31T08:18:05.120Z",
+      "generatedAt": "2026-08-01T00:23:44.880Z",
       "mappedThemeCount": 11,
       "successCount": 4,
       "skippedCount": 7,
@@ -176,7 +176,7 @@
       "apiDocs": "https://docs.github.com/rest/search",
       "method": "GitHub Search API (repositories created in window)",
       "windowDays": 30,
-      "generatedAt": "2026-07-31T08:18:43.287Z",
+      "generatedAt": "2026-08-01T00:24:26.316Z",
       "mappedThemeCount": 10,
       "successCount": 10,
       "skippedCount": 0,
@@ -196,7 +196,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 7578
+      "totalVolume": 7487
     },
     {
       "id": "ndl",
@@ -207,13 +207,19 @@
       "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
       "method": "NDL Search OpenSearch API (bibliography count)",
       "windowDays": null,
-      "generatedAt": "2026-07-31T08:19:08.698Z",
+      "generatedAt": "2026-08-01T00:24:52.283Z",
       "mappedThemeCount": 11,
-      "successCount": 5,
+      "successCount": 11,
       "skippedCount": 0,
-      "errorCount": 6,
+      "errorCount": 0,
       "requestCount": 11,
       "observedThemes": [
+        "senior-health",
+        "ai-coding",
+        "remote-work",
+        "payment-troubles",
+        "infrastructure-outages",
+        "security-breach",
         "ai-hardware",
         "ai-regulation",
         "ai-business-automation",
@@ -221,39 +227,8 @@
         "ai-content-generation"
       ],
       "skipped": [],
-      "errors": [
-        {
-          "theme": "senior-health",
-          "type": "timeout",
-          "retryable": true
-        },
-        {
-          "theme": "ai-coding",
-          "type": "timeout",
-          "retryable": true
-        },
-        {
-          "theme": "remote-work",
-          "type": "rate-limit-429",
-          "retryable": true
-        },
-        {
-          "theme": "payment-troubles",
-          "type": "timeout",
-          "retryable": true
-        },
-        {
-          "theme": "infrastructure-outages",
-          "type": "timeout",
-          "retryable": true
-        },
-        {
-          "theme": "security-breach",
-          "type": "timeout",
-          "retryable": true
-        }
-      ],
-      "totalVolume": 1022
+      "errors": [],
+      "totalVolume": 11169
     }
   ],
   "news": {
@@ -264,12 +239,12 @@
     "homepage": null,
     "apiDocs": null,
     "method": "RSS",
-    "articleCount": 766,
+    "articleCount": 822,
     "feeds": [
       "NHK",
-      "ITmedia",
       "はてな",
-      "Zenn"
+      "Zenn",
+      "ITmedia"
     ]
   }
 }
