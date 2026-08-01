@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "prebuild": "node scripts/mirror-public.mjs && node scripts/generate-sitemap.mjs",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender.mjs",
+    "prerender": "node scripts/prerender.mjs",
     "preview": "vite preview",
     "mirror": "node scripts/mirror-public.mjs",
     "sitemap": "node scripts/generate-sitemap.mjs",

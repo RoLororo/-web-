@@ -12,11 +12,25 @@
 // index.html にもともと書いてある静的タグは触らない（消してはいけない）。
 // ============================================================================
 
-import { useEffect } from 'react';
+import { createContext, useContext, useEffect } from 'react';
 import { SITE_URL, SITE_NAME } from '../config/site.js';
 
 const DEFAULT_TITLE = 'Demand Atlas — 世の中の需要を可視化する';
 const MANAGED = 'data-seo-managed'; // このフックが作った印。静的タグと区別する
+
+/**
+ * ビルド時のプリレンダ用の受け皿。
+ *
+ * meta タグを効果（useEffect）で書き換える方式は、ブラウザでは正しく動くが
+ * **サーバーでは効果が走らない**ので、生 HTML には何も入らない。
+ * 2026-08-01 実測: 37 URL すべてが同じ title / og:title を返していた。
+ * X・Slack・LINE などのカードは JavaScript を実行しないため、
+ * どのページを共有しても同じ見出しが出ていた。
+ *
+ * そこで、収集器が渡されている時（= プリレンダ中）だけ、
+ * レンダー中に値を渡す。ブラウザでは収集器が null なので従来どおり。
+ */
+export const SeoCollectorContext = createContext(null);
 
 /** name / property 属性の meta を、無ければ作って書き換える */
 function setMeta(attr, key, content) {
@@ -63,6 +77,17 @@ export function useSeo({ title, description, path, jsonLd, noindex = false } = {
   // jsonLd はオブジェクトリテラルで渡されることが多く、毎レンダー別参照になる。
   // 文字列化したものを依存配列に使い、中身が同じなら再実行しない。
   const jsonLdKey = jsonLd ? JSON.stringify(jsonLd) : '';
+
+  // プリレンダ中だけ、レンダー中に値を書き出す。
+  // サーバーでは 1 回しか描画されないので二重登録は起きない。
+  const collector = useContext(SeoCollectorContext);
+  if (collector) {
+    collector.title = title || DEFAULT_TITLE;
+    collector.description = description || '';
+    collector.canonical = noindex ? null : SITE_URL + (path || collector.currentPath || '/');
+    collector.noindex = noindex;
+    collector.jsonLd = jsonLdKey || null;
+  }
 
   useEffect(() => {
     const restore = [];

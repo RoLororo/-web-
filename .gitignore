@@ -31,3 +31,6 @@ public/history/
 # sitemap.xml は demands.json から prebuild で生成する派生物。
 # 手書きすると必ずテーマ増減とずれるので追跡しない (robots.txt は静的なので追跡する)。
 public/sitemap.xml
+
+# プリレンダ時の SSR 中間ビルド（実行後に消えるが念のため）
+.ssr-build/
