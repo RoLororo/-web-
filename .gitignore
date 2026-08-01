@@ -32,5 +32,9 @@ public/history/
 # 手書きすると必ずテーマ増減とずれるので追跡しない (robots.txt は静的なので追跡する)。
 public/sitemap.xml
 
+# feed.xml も prebuild で生成される派生物。
+# 蓄積の本体は data/feed-items.jsonl と data/feed-state.json（こちらは追跡する）。
+public/feed.xml
+
 # プリレンダ時の SSR 中間ビルド（実行後に消えるが念のため）
 .ssr-build/
