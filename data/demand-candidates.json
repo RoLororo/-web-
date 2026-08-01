@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T00:20:56.531Z",
-  "totalArticles": 822,
+  "generatedAt": "2026-08-01T15:13:31.001Z",
+  "totalArticles": 1096,
   "themeCount": 11,
-  "candidateCount": 10,
+  "candidateCount": 11,
   "method": "rule-based keyword matching",
   "candidates": [
     {
@@ -12,15 +12,32 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude",
-        "活用",
         " AI",
         "生成AI",
+        "活用",
         "ChatGPT",
-        "仕事"
+        "導入"
       ],
       "evidenceArticleIds": [
+        "c533b5efbfcc5e2b",
+        "122a77ca397bae34",
+        "45de4d6ad64fbf34",
+        "e74f272d586158b6",
+        "8aed98bea7f630a2",
+        "ebd80794ff221e4c",
         "7526ae477807c8e1",
+        "04826be388407d2a",
+        "b8472d473458d671",
+        "475af6ae350a2ce1",
+        "c77e6634439cf5a3",
+        "32b0b569de2bc0dd",
+        "978de76491ad3950",
+        "35acbf722b905c59",
         "15f694ccca3fd7d9",
+        "16eb23ae1d865f45",
+        "c93646e47a2b2e30",
+        "16b6bfc35852767b",
+        "46cebecbab83e4bc",
         "4beeb768be9735e6",
         "54480ef975be5e0e",
         "b40c9644e6cb6c8c",
@@ -36,13 +53,72 @@
         "ee8db45590077640",
         "b0b37699f69b4128",
         "8d14857a40a4884e",
+        "eacb2a407defd3aa",
         "b9518240141c2f25",
         "3924def162eedd37",
-        "62362f8e0232e2b9"
+        "62362f8e0232e2b9",
+        "ef4c3e3584ef4256",
+        "ea331e1a61b4d07c",
+        "ecb92cdc1d651134",
+        "fc2b057114879075",
+        "ebf16c0d6b88f915",
+        "8f21f44283dbbd68",
+        "4c7a70c2142235c3",
+        "8bf578f7eebdd318",
+        "5e4f185e204b1a85",
+        "37cf43d81fe7cb8c"
+      ],
+      "evidenceArticleCount": 48,
+      "confidence": 0.96,
+      "reason": "15 種類のキーワードが 48 件の記事でヒット（例：Claude、 AI、生成AI）"
+    },
+    {
+      "id": "ai-coding",
+      "theme": "AI駆動のコード生成・開発支援",
+      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "Claude Code",
+        "codex",
+        "開発",
+        "Copilot",
+        "レビュー",
+        "GitHub Copilot"
+      ],
+      "evidenceArticleIds": [
+        "8fd81291389d37ac",
+        "7a992fb5e8218120",
+        "b38dac98b7c4d442",
+        "5a6bbd8f7834fc3a",
+        "211d10a92b8dcb5d",
+        "866dae0e261d6373",
+        "85f7d10ba51c87d7",
+        "475af6ae350a2ce1",
+        "16b6bfc35852767b",
+        "10e1a6a76e08e3e0",
+        "fbcfedecb86926e7",
+        "a94d4472eb2ed2ef",
+        "897d5bcb7a25014c",
+        "e41ef298f3cb7354",
+        "017f9e9b4df86db3",
+        "78c4bacdda3f3520",
+        "3c9652f07e173702",
+        "eacb2a407defd3aa",
+        "7e9d11fc61986cb6",
+        "b9518240141c2f25",
+        "71fe0f416c0f5fbb",
+        "3924def162eedd37",
+        "ea331e1a61b4d07c",
+        "31ff7dbbfb148c82",
+        "316bf21ba3ab3756",
+        "4c7a70c2142235c3",
+        "f36c4d351d6b99eb",
+        "359e412ed4404d49",
+        "37cf43d81fe7cb8c"
       ],
       "evidenceArticleCount": 29,
       "confidence": 0.91,
-      "reason": "13 種類のキーワードが 29 件の記事でヒット（例：Claude、活用、 AI）"
+      "reason": "11 種類のキーワードが 29 件の記事でヒット（例：Claude Code、codex、開発）"
     },
     {
       "id": "infrastructure-outages",
@@ -60,6 +136,8 @@
       "evidenceArticleIds": [
         "0640da058bd7690c",
         "2d15002b66a45426",
+        "2487a3178d2fc6e6",
+        "728d5f741478a1c6",
         "9683eb10a28f55f8",
         "31714153c1ef69ff",
         "ab51597997a02e16",
@@ -77,45 +155,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 18,
+      "evidenceArticleCount": 20,
       "confidence": 0.93,
-      "reason": "12 種類のキーワードが 18 件の記事でヒット（例：障害、復旧、影響）"
-    },
-    {
-      "id": "ai-coding",
-      "theme": "AI駆動のコード生成・開発支援",
-      "summary": "エンジニアがAIをコーディングやレビューに活用する需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "Claude Code",
-        "レビュー",
-        "codex",
-        "開発",
-        "エンジニア",
-        "Copilot"
-      ],
-      "evidenceArticleIds": [
-        "fbcfedecb86926e7",
-        "a94d4472eb2ed2ef",
-        "897d5bcb7a25014c",
-        "e41ef298f3cb7354",
-        "017f9e9b4df86db3",
-        "78c4bacdda3f3520",
-        "3c9652f07e173702",
-        "7e9d11fc61986cb6",
-        "b9518240141c2f25",
-        "71fe0f416c0f5fbb",
-        "3924def162eedd37",
-        "31ff7dbbfb148c82",
-        "316bf21ba3ab3756",
-        "4c7a70c2142235c3",
-        "f36c4d351d6b99eb",
-        "359e412ed4404d49",
-        "37cf43d81fe7cb8c"
-      ],
-      "evidenceArticleCount": 17,
-      "confidence": 0.89,
-      "reason": "11 種類のキーワードが 17 件の記事でヒット（例：Claude Code、レビュー、codex）"
+      "reason": "12 種類のキーワードが 20 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "security-breach",
@@ -123,14 +165,15 @@
       "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
       "category": "ビジネス",
       "relatedKeywords": [
-        "サイバー攻撃",
         "情報",
+        "サイバー攻撃",
         "個人情報",
         "漏えい",
         "ランサム",
         "不正アクセス"
       ],
       "evidenceArticleIds": [
+        "f89102fcb3b7192a",
         "4df884cb755a2a96",
         "b2d2c32e88657b31",
         "7526ae477807c8e1",
@@ -148,9 +191,9 @@
         "b778b7551fcdb609",
         "31931e12804789ed"
       ],
-      "evidenceArticleCount": 16,
-      "confidence": 0.92,
-      "reason": "10 種類のキーワードが 16 件の記事でヒット（例：サイバー攻撃、情報、個人情報）"
+      "evidenceArticleCount": 17,
+      "confidence": 0.91,
+      "reason": "10 種類のキーワードが 17 件の記事でヒット（例：情報、サイバー攻撃、個人情報）"
     },
     {
       "id": "payment-troubles",
@@ -158,15 +201,20 @@
       "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
       "category": "ビジネス",
       "relatedKeywords": [
-        "PayPay",
         "決済",
+        "PayPay",
         "カード",
         "クレカ",
         "Visa",
-        "取引"
+        "キャッシュレス"
       ],
       "evidenceArticleIds": [
+        "863b692d8b992b95",
         "4de05a8ee9858ffa",
+        "f89102fcb3b7192a",
+        "72c89165ed6cc4fb",
+        "1497ad035faf58f4",
+        "af4fc0e547999438",
         "d525d678e213e33b",
         "efa8f82e0a7656dc",
         "7d23fd4b8e588331",
@@ -177,9 +225,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 10,
-      "confidence": 0.88,
-      "reason": "9 種類のキーワードが 10 件の記事でヒット（例：PayPay、決済、カード）"
+      "evidenceArticleCount": 15,
+      "confidence": 0.92,
+      "reason": "10 種類のキーワードが 15 件の記事でヒット（例：決済、PayPay、カード）"
     },
     {
       "id": "ai-regulation",
@@ -190,11 +238,13 @@
         "AI",
         "規制",
         "安全性",
-        "Meta",
-        "プライバシー",
-        "欧州委員会"
+        "欧州委員会",
+        "保護",
+        "Meta"
       ],
       "evidenceArticleIds": [
+        "45de4d6ad64fbf34",
+        "e14459d1d7527cc9",
         "3c055302b0d3a3ee",
         "75752a40a43aee02",
         "e1e25c3e3465493b",
@@ -203,9 +253,9 @@
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 7,
-      "confidence": 0.75,
-      "reason": "6 種類のキーワードが 7 件の記事でヒット（例：AI、規制、安全性）"
+      "evidenceArticleCount": 9,
+      "confidence": 0.85,
+      "reason": "7 種類のキーワードが 9 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "ai-hardware",
@@ -240,18 +290,19 @@
         "勤務",
         "在宅",
         "GMO",
-        "リモートワーク",
-        "出社"
+        "出社",
+        "働き方"
       ],
       "evidenceArticleIds": [
+        "c54c7afcda65f428",
         "8158530a5b2fcdf5",
         "cfacabae3454f108",
         "a0e18065c53c6793",
         "472460af87eb05ce"
       ],
-      "evidenceArticleCount": 4,
-      "confidence": 0.61,
-      "reason": "7 種類のキーワードが 4 件の記事でヒット（例：在宅勤務、勤務、在宅）"
+      "evidenceArticleCount": 5,
+      "confidence": 0.68,
+      "reason": "7 種類のキーワードが 5 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
       "id": "home-server-selfhost",
@@ -295,6 +346,25 @@
       "evidenceArticleCount": 3,
       "confidence": 0.5,
       "reason": "5 種類のキーワードが 3 件の記事でヒット（例：高齢者、介護、ボケ）"
+    },
+    {
+      "id": "ai-content-generation",
+      "theme": "生成AIによるコンテンツ制作",
+      "summary": "AIによる動画・画像・音声・3Dなどコンテンツ生成の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "画像生成",
+        "画像",
+        "動画生成",
+        "動画"
+      ],
+      "evidenceArticleIds": [
+        "30095b7179005226",
+        "c93646e47a2b2e30"
+      ],
+      "evidenceArticleCount": 2,
+      "confidence": 0.43,
+      "reason": "4 種類のキーワードが 2 件の記事でヒット（例：画像生成、画像、動画生成）"
     }
   ]
 }

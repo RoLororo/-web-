@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-01T00:24:26.316Z",
+  "generatedAt": "2026-08-01T15:17:02.154Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
   "createdSince": "2026-07-02",
-  "authenticated": true,
+  "authenticated": false,
   "mappedThemeCount": 10,
   "successCount": 10,
   "skippedCount": 0,
@@ -19,18 +19,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2324,
-        "engagement": 204,
+        "volume": 2375,
+        "engagement": 248,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2324,
-        "topStarSum": 204,
+        "newRepoCount": 2375,
+        "topStarSum": 248,
         "topLanguage": "JavaScript",
         "createdSince": "2026-07-02"
       },
@@ -38,10 +38,18 @@
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 141,
+          "stars": 158,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
+        },
+        {
+          "title": "caleb-rossvtf8117/arch-ai-tools-service-hub",
+          "url": "https://github.com/caleb-rossvtf8117/arch-ai-tools-service-hub",
+          "stars": 36,
+          "language": "HTML",
+          "description": "Arch AI Tools is a unified Node.js interface for AI services, data access, automation, and utility operations, with a na",
+          "publishedAt": "2026-08-01T02:21:12Z"
         },
         {
           "title": "V-Songbird/foreman",
@@ -66,14 +74,6 @@
           "language": "Python",
           "description": "Extensible local-first AI agent framework for automation, coding, tools, and multi-model workflows.",
           "publishedAt": "2026-07-22T11:53:04Z"
-        },
-        {
-          "title": "mr-sanjai-offl/google-forms-mcp",
-          "url": "https://github.com/mr-sanjai-offl/google-forms-mcp",
-          "stars": 9,
-          "language": "Python",
-          "description": "Production-grade MCP server for Google Forms, Google Drive & Google Sheets. Build, automate, and manage forms using AI-p",
-          "publishedAt": "2026-07-15T15:50:20Z"
         }
       ],
       "errors": []
@@ -82,18 +82,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1773,
-        "engagement": 802,
+        "volume": 1806,
+        "engagement": 811,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1773,
-        "topStarSum": 802,
+        "newRepoCount": 1806,
+        "topStarSum": 811,
         "topLanguage": "Python",
         "createdSince": "2026-07-02"
       },
@@ -101,7 +101,7 @@
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 274,
+          "stars": 282,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -131,12 +131,12 @@
           "publishedAt": "2026-07-11T21:01:10Z"
         },
         {
-          "title": "ricmmartins/azure-sre-agent-skills",
-          "url": "https://github.com/ricmmartins/azure-sre-agent-skills",
-          "stars": 66,
-          "language": null,
-          "description": "Custom proactive skills for Azure SRE Agent — governance, cost intelligence, architecture quality, AI workload posture",
-          "publishedAt": "2026-07-22T14:36:11Z"
+          "title": "wei63w/pm-manager",
+          "url": "https://github.com/wei63w/pm-manager",
+          "stars": 67,
+          "language": "Python",
+          "description": "Know what to fix next — local .pm governance skill pack for AI coding agents (Spec Kit–inspired).",
+          "publishedAt": "2026-07-21T09:20:39Z"
         }
       ],
       "errors": []
@@ -145,18 +145,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1046,
-        "engagement": 114,
+        "volume": 1064,
+        "engagement": 115,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1046,
-        "topStarSum": 114,
+        "newRepoCount": 1064,
+        "topStarSum": 115,
         "topLanguage": "Java",
         "createdSince": "2026-07-02"
       },
@@ -164,7 +164,7 @@
         {
           "title": "DigitalShieldOfficial/Crypto-Payment-Gateway",
           "url": "https://github.com/DigitalShieldOfficial/Crypto-Payment-Gateway",
-          "stars": 76,
+          "stars": 77,
           "language": "Java",
           "description": "A blockchain payment gateway for USDT that monitors on-chain wallet addresses, detects incoming transactions in real tim",
           "publishedAt": "2026-07-27T02:24:49Z"
@@ -208,17 +208,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 685,
+        "volume": 698,
         "engagement": 57,
         "contributors": null,
         "latestActivityAt": "2026-07-03T06:42:03Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 685,
+        "newRepoCount": 698,
         "topStarSum": 57,
         "topLanguage": "Go",
         "createdSince": "2026-07-02"
@@ -271,17 +271,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 480,
+        "volume": 490,
         "engagement": 27,
         "contributors": null,
         "latestActivityAt": "2026-07-10T12:57:40Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 480,
+        "newRepoCount": 490,
         "topStarSum": 27,
         "topLanguage": "Python",
         "createdSince": "2026-07-02"
@@ -334,18 +334,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 432,
-        "engagement": 309,
+        "volume": 441,
+        "engagement": 312,
         "contributors": null,
         "latestActivityAt": "2026-07-26T11:08:51Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 432,
-        "topStarSum": 309,
+        "newRepoCount": 441,
+        "topStarSum": 312,
         "topLanguage": "Python",
         "createdSince": "2026-07-02"
       },
@@ -361,7 +361,7 @@
         {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 72,
+          "stars": 73,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -377,7 +377,7 @@
         {
           "title": "Jinlong-cs/pi.cpp",
           "url": "https://github.com/Jinlong-cs/pi.cpp",
-          "stars": 45,
+          "stars": 47,
           "language": "Python",
           "description": "TensorRT-first robot foundation model inference for edge GPUs",
           "publishedAt": "2026-07-23T07:02:15Z"
@@ -397,18 +397,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 258,
-        "engagement": 107,
+        "volume": 267,
+        "engagement": 108,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 258,
-        "topStarSum": 107,
+        "newRepoCount": 267,
+        "topStarSum": 108,
         "topLanguage": "Go",
         "createdSince": "2026-07-02"
       },
@@ -432,7 +432,7 @@
         {
           "title": "deskhq/the-desk",
           "url": "https://github.com/deskhq/the-desk",
-          "stars": 18,
+          "stars": 19,
           "language": "PHP",
           "description": "Calm, fast, self-hosted team chat you run yourself — channels, threads, reminders, scheduled messages. One Docker compos",
           "publishedAt": "2026-07-08T00:14:05Z"
@@ -460,17 +460,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 255,
+        "volume": 260,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 255,
+        "newRepoCount": 260,
         "topStarSum": 43,
         "topLanguage": "Lua",
         "createdSince": "2026-07-02"
@@ -523,17 +523,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 55,
+        "volume": 56,
         "engagement": 18,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 55,
+        "newRepoCount": 56,
         "topStarSum": 18,
         "topLanguage": "HCL",
         "createdSince": "2026-07-02"
@@ -586,7 +586,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:24:26.316Z",
+      "fetchedAt": "2026-08-01T15:17:02.154Z",
       "complete": true,
       "coverage": 1,
       "metrics": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T07:33:25.990Z",
+  "generatedAt": "2026-08-01T15:21:57.629Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,11 +10,11 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T00:22:06.373Z",
+      "generatedAt": "2026-08-01T15:14:55.269Z",
       "mappedThemeCount": 11,
-      "successCount": 11,
+      "successCount": 9,
       "skippedCount": 0,
-      "errorCount": 0,
+      "errorCount": 2,
       "requestCount": null,
       "observedThemes": [
         "ai-business-automation",
@@ -30,8 +30,19 @@
         "ai-regulation"
       ],
       "skipped": [],
-      "errors": [],
-      "totalVolume": 114568
+      "errors": [
+        {
+          "theme": "ai-hardware",
+          "type": "unknown",
+          "retryable": false
+        },
+        {
+          "theme": "home-server-selfhost",
+          "type": "unknown",
+          "retryable": false
+        }
+      ],
+      "totalVolume": 82949
     },
     {
       "id": "qiita",
@@ -42,7 +53,7 @@
       "apiDocs": "https://qiita.com/api/v2/docs",
       "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T00:22:09.951Z",
+      "generatedAt": "2026-08-01T15:15:03.464Z",
       "mappedThemeCount": 11,
       "successCount": 9,
       "skippedCount": 2,
@@ -72,7 +83,7 @@
         }
       ],
       "errors": [],
-      "totalVolume": 2123
+      "totalVolume": 2171
     },
     {
       "id": "arxiv",
@@ -83,7 +94,7 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T00:23:47.567Z",
+      "generatedAt": "2026-08-01T15:16:20.417Z",
       "mappedThemeCount": 11,
       "successCount": 11,
       "skippedCount": 0,
@@ -115,7 +126,7 @@
       "apiDocs": "https://rss.marketingtools.apple.com/",
       "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
       "windowDays": 1,
-      "generatedAt": "2026-08-01T00:23:44.880Z",
+      "generatedAt": "2026-08-01T15:16:16.138Z",
       "mappedThemeCount": 11,
       "successCount": 4,
       "skippedCount": 7,
@@ -176,7 +187,7 @@
       "apiDocs": "https://docs.github.com/rest/search",
       "method": "GitHub Search API (repositories created in window)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T00:24:26.316Z",
+      "generatedAt": "2026-08-01T15:17:02.154Z",
       "mappedThemeCount": 10,
       "successCount": 10,
       "skippedCount": 0,
@@ -196,7 +207,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 7487
+      "totalVolume": 7636
     },
     {
       "id": "ndl",
@@ -207,7 +218,7 @@
       "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
       "method": "NDL Search OpenSearch API (bibliography count)",
       "windowDays": null,
-      "generatedAt": "2026-08-01T00:24:52.283Z",
+      "generatedAt": "2026-08-01T15:17:30.380Z",
       "mappedThemeCount": 11,
       "successCount": 11,
       "skippedCount": 0,
@@ -239,12 +250,21 @@
     "homepage": null,
     "apiDocs": null,
     "method": "RSS",
-    "articleCount": 822,
+    "articleCount": 1096,
     "feeds": [
+      "GIGAZINE",
       "NHK",
       "はてな",
+      "はてなIT",
+      "Impress Watch",
+      "ITmedia Mobile",
+      "CodeZine",
+      "Qiita",
       "Zenn",
-      "ITmedia"
+      "ITmedia",
+      "窓の杜",
+      "ITmedia AI+",
+      "Publickey"
     ]
   }
 }

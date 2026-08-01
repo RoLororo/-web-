@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T00:24:52.283Z",
+  "generatedAt": "2026-08-01T15:17:30.380Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
@@ -18,7 +18,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -74,7 +74,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -130,7 +130,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -186,7 +186,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -242,7 +242,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -298,7 +298,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -354,7 +354,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -410,7 +410,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -466,7 +466,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -522,7 +522,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -578,7 +578,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "fetchedAt": "2026-08-01T15:17:30.380Z",
       "complete": true,
       "coverage": 1,
       "metrics": {

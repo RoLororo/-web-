@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T00:22:09.951Z",
+  "generatedAt": "2026-08-01T15:15:03.464Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
@@ -19,22 +19,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 25,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1799,
-        "engagement": 3172,
-        "contributors": 671,
-        "latestActivityAt": "2026-08-01T09:12:29+09:00"
+        "volume": 1836,
+        "engagement": 3220,
+        "contributors": 683,
+        "latestActivityAt": "2026-08-01T22:50:37+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1799,
-        "lgtmSum": 3172,
-        "uniqueAuthors": 671,
-        "latestPublishedAt": "2026-08-01T09:12:29+09:00"
+        "articleCount": 1836,
+        "lgtmSum": 3220,
+        "uniqueAuthors": 683,
+        "latestPublishedAt": "2026-08-01T22:50:37+09:00"
       },
       "meta": {
         "tags": [
@@ -46,29 +46,29 @@
         "tagBreakdown": [
           {
             "tag": "ChatGPT",
-            "totalCount": 251,
-            "fetched": 251,
+            "totalCount": 257,
+            "fetched": 257,
             "pages": 3,
             "stoppedBy": "done"
           },
           {
             "tag": "Claude",
-            "totalCount": 405,
-            "fetched": 405,
+            "totalCount": 415,
+            "fetched": 415,
             "pages": 5,
             "stoppedBy": "done"
           },
           {
             "tag": "LLM",
-            "totalCount": 776,
-            "fetched": 776,
+            "totalCount": 789,
+            "fetched": 789,
             "pages": 8,
             "stoppedBy": "done"
           },
           {
             "tag": "生成AI",
-            "totalCount": 813,
-            "fetched": 813,
+            "totalCount": 829,
+            "fetched": 829,
             "pages": 9,
             "stoppedBy": "done"
           }
@@ -79,14 +79,14 @@
           "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
           "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
           "publishedAt": "2026-07-12T16:15:00+09:00",
-          "likes": 438,
+          "likes": 440,
           "author": "ZiYuCai1984"
         },
         {
           "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
           "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
           "publishedAt": "2026-07-11T19:39:54+09:00",
-          "likes": 295,
+          "likes": 296,
           "author": "fuyunoki"
         },
         {
@@ -116,22 +116,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 114,
-        "engagement": 171,
-        "contributors": 70,
-        "latestActivityAt": "2026-07-31T13:12:58+09:00"
+        "volume": 118,
+        "engagement": 172,
+        "contributors": 74,
+        "latestActivityAt": "2026-08-01T22:12:37+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 114,
-        "lgtmSum": 171,
-        "uniqueAuthors": 70,
-        "latestPublishedAt": "2026-07-31T13:12:58+09:00"
+        "articleCount": 118,
+        "lgtmSum": 172,
+        "uniqueAuthors": 74,
+        "latestPublishedAt": "2026-08-01T22:12:37+09:00"
       },
       "meta": {
         "tags": [
@@ -141,15 +141,15 @@
         "tagBreakdown": [
           {
             "tag": "GitHubCopilot",
-            "totalCount": 50,
-            "fetched": 50,
+            "totalCount": 53,
+            "fetched": 53,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "Cursor",
-            "totalCount": 68,
-            "fetched": 68,
+            "totalCount": 69,
+            "fetched": 69,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -197,22 +197,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 31,
-        "engagement": 90,
-        "contributors": 21,
-        "latestActivityAt": "2026-07-30T11:03:39+09:00"
+        "volume": 33,
+        "engagement": 91,
+        "contributors": 22,
+        "latestActivityAt": "2026-08-01T13:27:35+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 31,
-        "lgtmSum": 90,
-        "uniqueAuthors": 21,
-        "latestPublishedAt": "2026-07-30T11:03:39+09:00"
+        "articleCount": 33,
+        "lgtmSum": 91,
+        "uniqueAuthors": 22,
+        "latestPublishedAt": "2026-08-01T13:27:35+09:00"
       },
       "meta": {
         "tags": [
@@ -222,15 +222,15 @@
         "tagBreakdown": [
           {
             "tag": "StableDiffusion",
-            "totalCount": 8,
-            "fetched": 8,
+            "totalCount": 10,
+            "fetched": 10,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "画像生成",
-            "totalCount": 26,
-            "fetched": 26,
+            "totalCount": 28,
+            "fetched": 28,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -259,18 +259,18 @@
           "author": "olige"
         },
         {
-          "title": "AI画像生成ツールを自作して分かった、プロンプト設計の本質",
-          "url": "https://qiita.com/olige/items/e5f8290513546886ba1e",
-          "publishedAt": "2026-07-30T11:03:39+09:00",
-          "likes": 0,
-          "author": "olige"
+          "title": "SDXLを768pxで回していませんか — 「MPSの上限」だと思っていた数字は自分で書いたものだった",
+          "url": "https://qiita.com/claute_colo/items/353e941666b3cc499ee1",
+          "publishedAt": "2026-07-25T08:52:54+09:00",
+          "likes": 1,
+          "author": "claute_colo"
         },
         {
-          "title": "AIGCのバーティカル領域への実装：生成AIが空間・建築デザインと出会うとき",
-          "url": "https://qiita.com/xiaoming2574/items/7f59ac83596e14b46392",
-          "publishedAt": "2026-07-27T22:50:51+09:00",
+          "title": "ローカル画像生成で「Corporate Memphis」を本物っぽく出す — Qwen-Imageのプロンプト/ネガティブ/img2img実装知見",
+          "url": "https://qiita.com/amanity-haray/items/06d3392294972de9862f",
+          "publishedAt": "2026-08-01T13:27:35+09:00",
           "likes": 0,
-          "author": "xiaoming2574"
+          "author": "amanity-haray"
         }
       ]
     },
@@ -278,22 +278,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 3,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 73,
+        "volume": 75,
         "engagement": 95,
         "contributors": 50,
-        "latestActivityAt": "2026-07-31T11:26:43+09:00"
+        "latestActivityAt": "2026-08-01T20:44:54+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 73,
+        "articleCount": 75,
         "lgtmSum": 95,
         "uniqueAuthors": 50,
-        "latestPublishedAt": "2026-07-31T11:26:43+09:00"
+        "latestPublishedAt": "2026-08-01T20:44:54+09:00"
       },
       "meta": {
         "tags": [
@@ -304,8 +304,8 @@
         "tagBreakdown": [
           {
             "tag": "GPU",
-            "totalCount": 41,
-            "fetched": 41,
+            "totalCount": 43,
+            "fetched": 43,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -367,20 +367,20 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 35,
-        "engagement": 51,
+        "engagement": 52,
         "contributors": 28,
         "latestActivityAt": "2026-07-31T19:27:39+09:00"
       },
       "nativeMetrics": {
         "articleCount": 35,
-        "lgtmSum": 51,
+        "lgtmSum": 52,
         "uniqueAuthors": 28,
         "latestPublishedAt": "2026-07-31T19:27:39+09:00"
       },
@@ -448,22 +448,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 4,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 44,
-        "engagement": 511,
-        "contributors": 27,
-        "latestActivityAt": "2026-08-01T04:01:52+09:00"
+        "volume": 47,
+        "engagement": 517,
+        "contributors": 28,
+        "latestActivityAt": "2026-08-01T19:52:36+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 44,
-        "lgtmSum": 511,
-        "uniqueAuthors": 27,
-        "latestPublishedAt": "2026-08-01T04:01:52+09:00"
+        "articleCount": 47,
+        "lgtmSum": 517,
+        "uniqueAuthors": 28,
+        "latestPublishedAt": "2026-08-01T19:52:36+09:00"
       },
       "meta": {
         "tags": [
@@ -475,22 +475,22 @@
         "tagBreakdown": [
           {
             "tag": "情報セキュリティ",
-            "totalCount": 18,
-            "fetched": 18,
+            "totalCount": 19,
+            "fetched": 19,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "ランサムウェア",
-            "totalCount": 11,
-            "fetched": 11,
+            "totalCount": 12,
+            "fetched": 12,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "脆弱性",
-            "totalCount": 17,
-            "fetched": 17,
+            "totalCount": 18,
+            "fetched": 18,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -508,7 +508,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 445,
+          "likes": 450,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -522,7 +522,7 @@
           "title": "なぜニチレイは、たった10日で復旧できたのか",
           "url": "https://qiita.com/harupython/items/3ca158f89a6e38d762aa",
           "publishedAt": "2026-07-27T14:29:26+09:00",
-          "likes": 15,
+          "likes": 16,
           "author": "harupython"
         },
         {
@@ -545,7 +545,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -626,7 +626,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -692,7 +692,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T00:22:09.951Z",
+      "fetchedAt": "2026-08-01T15:15:03.464Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,

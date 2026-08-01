@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:36:46.262Z",
+  "generatedAt": "2026-08-01T15:21:58.154Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "id": "ai-content-generation",
-      "name": null,
-      "category": null,
+      "name": "生成AIによるコンテンツ制作",
+      "category": "AI・テクノロジー",
       "currentPath": "history/current/ai-content-generation.jsonl",
       "archivePaths": [],
       "recordCount": 9,
