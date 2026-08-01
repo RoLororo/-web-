@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:21:58.154Z",
+  "generatedAt": "2026-08-01T16:08:38.419Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -50,6 +50,16 @@
       "archivePaths": [],
       "recordCount": 9,
       "firstDate": "2026-07-22",
+      "lastDate": "2026-08-01"
+    },
+    {
+      "id": "exam-admission",
+      "name": "受験・進学",
+      "category": "教育",
+      "currentPath": "history/current/exam-admission.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-08-01",
       "lastDate": "2026-08-01"
     },
     {
@@ -110,6 +120,16 @@
       "archivePaths": [],
       "recordCount": 9,
       "firstDate": "2026-07-22",
+      "lastDate": "2026-08-01"
+    },
+    {
+      "id": "study-methods",
+      "name": "学習法・勉強効率",
+      "category": "教育",
+      "currentPath": "history/current/study-methods.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-08-01",
       "lastDate": "2026-08-01"
     }
   ],

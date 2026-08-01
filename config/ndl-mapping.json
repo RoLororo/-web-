@@ -62,6 +62,16 @@
       "query": "画像生成AI",
       "expectedCount": null,
       "note": "verifiedAt 時点では未計測 (demands.json から drop されるテーマのため)"
+    },
+    "study-methods": {
+      "query": "勉強法",
+      "expectedCount": null,
+      "note": "2026-08-02 追加時点では未計測"
+    },
+    "exam-admission": {
+      "query": "大学受験",
+      "expectedCount": null,
+      "note": "2026-08-02 追加時点では未計測"
     }
   }
 }

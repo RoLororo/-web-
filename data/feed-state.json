@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-01T15:22:33.927Z",
+  "updatedAt": "2026-08-01T16:11:41.642Z",
   "date": "2026-08-02",
   "topId": "ai-business-automation",
   "themes": {
     "ai-business-automation": {
-      "score": 86,
+      "score": 85,
       "verdict": "定着"
     },
     "ai-coding": {
-      "score": 80,
+      "score": 81,
       "verdict": "様子見"
     },
     "infrastructure-outages": {
@@ -23,12 +23,20 @@
       "score": 53,
       "verdict": "様子見"
     },
+    "exam-admission": {
+      "score": 49,
+      "verdict": "様子見"
+    },
     "ai-regulation": {
       "score": 45,
       "verdict": "研究先行"
     },
-    "ai-content-generation": {
+    "study-methods": {
       "score": 43,
+      "verdict": "研究先行"
+    },
+    "ai-content-generation": {
+      "score": 42,
       "verdict": "様子見"
     },
     "remote-work": {
@@ -36,16 +44,16 @@
       "verdict": "様子見"
     },
     "senior-health": {
-      "score": 28,
-      "verdict": "研究先行"
+      "score": 27,
+      "verdict": "観測不足"
     },
     "home-server-selfhost": {
       "score": 25,
-      "verdict": "様子見"
+      "verdict": "観測不足"
     },
     "ai-hardware": {
       "score": 24,
-      "verdict": "様子見"
+      "verdict": "鎮静化中"
     }
   }
 }

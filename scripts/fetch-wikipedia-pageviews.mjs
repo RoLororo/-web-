@@ -73,6 +73,8 @@ const WIKI_MAPPING = {
   'remote-work':            ['テレワーク'],
   'senior-health':          ['認知症'],
   'ai-regulation':          ['人工知能'],
+  'study-methods':          ['学習'],
+  'exam-admission':         ['大学入学共通テスト'],
 };
 
 // ---------------------------------------------------------------------------

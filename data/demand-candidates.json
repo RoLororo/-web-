@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T15:13:31.001Z",
-  "totalArticles": 1096,
-  "themeCount": 11,
-  "candidateCount": 11,
+  "generatedAt": "2026-08-01T16:07:49.708Z",
+  "totalArticles": 1225,
+  "themeCount": 13,
+  "candidateCount": 13,
   "method": "rule-based keyword matching",
   "candidates": [
     {
@@ -12,8 +12,8 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude",
-        " AI",
         "生成AI",
+        " AI",
         "活用",
         "ChatGPT",
         "導入"
@@ -28,8 +28,11 @@
         "7526ae477807c8e1",
         "04826be388407d2a",
         "b8472d473458d671",
+        "5dfceba2a1535739",
+        "eb7746fbfd2f7e56",
         "475af6ae350a2ce1",
         "c77e6634439cf5a3",
+        "b05f8b56cc222cae",
         "32b0b569de2bc0dd",
         "978de76491ad3950",
         "35acbf722b905c59",
@@ -38,6 +41,7 @@
         "c93646e47a2b2e30",
         "16b6bfc35852767b",
         "46cebecbab83e4bc",
+        "f02b3e27834f7012",
         "4beeb768be9735e6",
         "54480ef975be5e0e",
         "b40c9644e6cb6c8c",
@@ -68,9 +72,9 @@
         "5e4f185e204b1a85",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 48,
+      "evidenceArticleCount": 52,
       "confidence": 0.96,
-      "reason": "15 種類のキーワードが 48 件の記事でヒット（例：Claude、 AI、生成AI）"
+      "reason": "15 種類のキーワードが 52 件の記事でヒット（例：Claude、生成AI、 AI）"
     },
     {
       "id": "ai-coding",
@@ -94,7 +98,9 @@
         "866dae0e261d6373",
         "85f7d10ba51c87d7",
         "475af6ae350a2ce1",
+        "b05f8b56cc222cae",
         "16b6bfc35852767b",
+        "f02b3e27834f7012",
         "10e1a6a76e08e3e0",
         "fbcfedecb86926e7",
         "a94d4472eb2ed2ef",
@@ -116,9 +122,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 29,
+      "evidenceArticleCount": 31,
       "confidence": 0.91,
-      "reason": "11 種類のキーワードが 29 件の記事でヒット（例：Claude Code、codex、開発）"
+      "reason": "11 種類のキーワードが 31 件の記事でヒット（例：Claude Code、codex、開発）"
     },
     {
       "id": "infrastructure-outages",
@@ -228,6 +234,64 @@
       "evidenceArticleCount": 15,
       "confidence": 0.92,
       "reason": "10 種類のキーワードが 15 件の記事でヒット（例：決済、PayPay、カード）"
+    },
+    {
+      "id": "study-methods",
+      "theme": "学習法・勉強効率",
+      "summary": "限られた時間で学び直し・スキル習得を進めたい需要",
+      "category": "教育",
+      "relatedKeywords": [
+        "脳",
+        "脳科学",
+        "実践",
+        "ストレス",
+        "テクニック",
+        "集中力"
+      ],
+      "evidenceArticleIds": [
+        "22f8fdbfc0f664b2",
+        "4efb928f7267fdd5",
+        "522e3f74fd674eab",
+        "957b183e67869333",
+        "5b3b4267895e2523",
+        "4ff6cfa5411f1123",
+        "bcbe08a7928238ca",
+        "d5536b0c11fa2634",
+        "72ee29e6de7fefcc",
+        "ce6f93b52fab24e7"
+      ],
+      "evidenceArticleCount": 10,
+      "confidence": 0.85,
+      "reason": "16 種類のキーワードが 10 件の記事でヒット（例：脳、脳科学、実践）"
+    },
+    {
+      "id": "exam-admission",
+      "theme": "受験・進学",
+      "summary": "志望校選び・入試対策など、進学に向けた情報の需要",
+      "category": "教育",
+      "relatedKeywords": [
+        "中学",
+        "中学受験",
+        "大学受験",
+        "大学",
+        "塾",
+        "高校受験"
+      ],
+      "evidenceArticleIds": [
+        "0360df11a29ec06f",
+        "277211531a9be9e0",
+        "8bd00aa1d3e5d77b",
+        "920b619cf2063513",
+        "5c0ddd12dd61e3d5",
+        "9408d723bbe6fd35",
+        "512f0d14b614238e",
+        "5a9e597f9245f5b8",
+        "eb87aec2f0c9fce7",
+        "99551e9597e11c59"
+      ],
+      "evidenceArticleCount": 10,
+      "confidence": 0.79,
+      "reason": "13 種類のキーワードが 10 件の記事でヒット（例：中学、中学受験、大学受験）"
     },
     {
       "id": "ai-regulation",

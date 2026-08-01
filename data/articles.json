@@ -1,5 +1,45 @@
 [
   {
+    "id": "e999655afbf3540b",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "バレーボール国際大会 日本男子は準決勝で米に敗れ3位決定戦へ",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193891000",
+    "publishedAt": "2026-08-01T15:21:04.000Z",
+    "summary": "バレーボールの国際大会「ネーションズリーグ」は男子の準決勝が中国で行われ、日本はアメリカにフルセットの末に敗れて3位決定戦にまわりました。",
+    "fetchedAt": "2026-08-01T15:53:34.358Z"
+  },
+  {
+    "id": "9baaf680f24c377d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[第四十三話]モノクロのふたり - 松本陽介 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255561726229",
+    "publishedAt": "2026-08-01T15:13:18.000Z",
+    "summary": "モノクロのふたり 松本陽介 優秀なサラリーマンとして日々働く男・不動花壱。彼は優れた絵の才能がありながら、生活のためにその夢を諦めていた。しかしある日、先輩の若葉紗織に漫画のアシスタントを依頼されたことをきっかけに、彼は再び筆を執る...！『その淑女は偶像となる』の松本陽介が贈る、異色の...",
+    "fetchedAt": "2026-08-01T15:53:34.679Z"
+  },
+  {
+    "id": "8da466507a7fd1f1",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[第16話]無敵のスバル - 成田成哲 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255561726213",
+    "publishedAt": "2026-08-01T15:09:40.000Z",
+    "summary": "無敵のスバル 成田成哲 拳と蹴りで決着をつける実践格闘空手——フルコンタクト。高校１年生の神薙昴は初めてフルコンの大会に出場。彼を待ち受けるは強者のみ。だがこの時、昴の力量はまだ誰も知らなかった… [JC1巻発売中]",
+    "fetchedAt": "2026-08-01T15:53:34.679Z"
+  },
+  {
+    "id": "eafa30bf3a38d8ac",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "【プロ野球結果】ソフトバンクが快勝 阪神3連勝 セ単独首位に",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193841000",
+    "publishedAt": "2026-08-01T15:05:50.000Z",
+    "summary": "プロ野球は6試合が行われました。パ・リーグ首位のソフトバンクが後半戦最初の試合で投打がかみあって快勝です。セ・リーグでは阪神が3連勝で単独首位に立ちました。",
+    "fetchedAt": "2026-08-01T16:02:20.291Z"
+  },
+  {
     "id": "2908ab1fe102c954",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -18,6 +58,16 @@
     "publishedAt": "2026-08-01T13:25:45.000Z",
     "summary": "1日午後9時47分ごろ熊本県で震度5弱の揺れを観測する地震がありました。この地震による津波の心配はありません。",
     "fetchedAt": "2026-08-01T15:00:17.388Z"
+  },
+  {
+    "id": "678bae38e6bdf128",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "山崎実業の薬味ホルダーは、デッドスペースを生かしながら「もったいない」をゼロにする",
+    "url": "https://www.lifehacker.jp/article/2606-lht-yamajitsu-tube-holder/",
+    "publishedAt": "2026-08-01T13:15:00.000Z",
+    "summary": "100円ショップで買った薬味チューブのホルダー、不安定な使い心地で満足度が低めでした。そこで導入してみた山崎実業の「薬味チューブホルダー 3個組」。シンプルな見た目ながら薬味をデッドスペースに収納できて、しかも最後まできっちりと絞れるギミックつき！実際に使い始めて実感している使い心地をご紹介します。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "e7f6de582e0d097e",
@@ -70,6 +120,16 @@
     "fetchedAt": "2026-08-01T15:00:17.388Z"
   },
   {
+    "id": "463437e33eda4d28",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "【毎日書評】その不安は、ただの主観。思考のブレーキを外す「視点の切り替え」",
+    "url": "https://www.lifehacker.jp/article/2608-book_to_read_weekend_164/",
+    "publishedAt": "2026-08-01T12:30:00.000Z",
+    "summary": "【毎日書評】『あなたはあなたが使っている言葉でできている』（ゲイリー・ジョン・ビショップ 著、高崎拓哉 訳、ディスカヴァー携書）より、その不安は、ただの主観。思考のブレーキを外す「視点の切り替え」について解説します。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "6251910e9bf182f6",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -78,6 +138,26 @@
     "publishedAt": "2026-08-01T12:25:27.000Z",
     "summary": "Scrum Fest Osaka 2026 https://confengine.com/conferences/scrum-fest-osaka-2026/proposal/50431",
     "fetchedAt": "2026-08-01T15:00:18.714Z"
+  },
+  {
+    "id": "3871641d6ca9b21c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "イオンモール熊本の施工業者が「中国企業」と一部で流布してるけど、施工業者は竹中工務店だよ - 電脳塵芥",
+    "url": "https://nou-yunyun.hatenablog.com/entry/2026/08/01/210000",
+    "publishedAt": "2026-08-01T12:05:15.000Z",
+    "summary": "tiktokにおいてイオンモール熊本の施工業者が「中国企業」だという動画がやや拡散していた。 https://www.tiktok.com/@harutoren_26/video/7667884071715998998 動画はその「中国企業」がどこであるかも言わない、このタイトルのみで済んでしまうような中身のなさなのだが、この動画がXなどにも流れて一部で拡散している...",
+    "fetchedAt": "2026-08-01T16:02:20.657Z"
+  },
+  {
+    "id": "995d9b6f02b3b9b1",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "「待つ時間」すらつまみになる。リビングで完成する自分だけのヴィンテージ",
+    "url": "https://www.lifehacker.jp/article/2608-machi-ya-visibleagingbarrel-lh-editorialreview/",
+    "publishedAt": "2026-08-01T12:00:00.000Z",
+    "summary": "「もし自分の手でお酒を熟成させたら？」そんな好奇心を叶えるOAKHAUSの透明熟成樽。熟成の経過を目で鑑賞しながら、自分好みの極上の一杯を育てられます。ウイスキー好き必見のホームバー体験をご紹介！",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "d571158e8911bc0d",
@@ -98,6 +178,16 @@
     "publishedAt": "2026-08-01T11:45:13.000Z",
     "summary": "総集編の配信停止及び新作をお待たせして本当にごめんなさい。 今回の件で不安にさせている読者さんへなにかお返しできたらいいな、と色々と考えた結果、今、執筆中の完全新作「いぬかみっ！」を無料で公開可能なところまで公開することにしました。 下記で8月1日18時よりお読みいただけます。連載形式でゆっくりやって...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "9b6c374bfa5c8f7a",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "ジム通いの限界から生まれた油圧筋トレギア。最大200kgの無段階・全方位負荷調整が自宅でできる",
+    "url": "https://www.lifehacker.jp/article/2608-costorypo-coreforceone-start-1984560311/",
+    "publishedAt": "2026-08-01T11:45:00.000Z",
+    "summary": "ジムに通わなくても、自宅で上半身を鍛えられる油圧式トレーニングギア「コアフォースワン」。胸・腕・背中・肩・腹を1台でカバーし、ダイヤル操作で最大200kg相当まで無段階に負荷を調整できます。密閉油圧で音や振動は控えめ、使わないときは折りたたんで収納可能。固定軌道とエルゴグリップがフォームを支え、無理なく続けられます。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "f518d4a46c9bae0f",
@@ -130,6 +220,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "73b47caa2ef10583",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "指サイズなのに168m先まで届く。この小さなライト、散歩にも山道にも頼もしい",
+    "url": "https://www.lifehacker.jp/article/machi-ya-s31-review-959972/",
+    "publishedAt": "2026-08-01T11:00:00.000Z",
+    "summary": "「S31」は約9.8cm・約58gの小型LEDライトです。付属の14500充電池に加え市販の単三アルカリ乾電池やニッケル水素電池にも対応するデュアル電源設計。メーカー公称値で最大1400ルーメン・最大168mの照射距離・最大230時間の点灯に対応します。明るさはMOONからHIGHまでの4段階。IP66の防塵防水と1.5m落下に対応し誤点灯を抑えたテールスイッチとマグネットも搭載しています。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "30095b7179005226",
     "source": "Impress Watch",
     "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
@@ -148,6 +248,16 @@
     "publishedAt": "2026-08-01T10:39:26.000Z",
     "summary": "Blaugust2026(Day1) どうも、ねじまきです。 2026年のブローガスト、本日よりスタート。 「8月にブログを毎日書く」という世界的なオンラインイベント。 詳細はこちらより。 www.nejimakiblog.com 去年のBlaugustの思い出と言えば・・・ そう、去年は言いだしっぺにもかかわらず、 仕事付き合いの飲み会に誘われ、 一日...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "211a30441ccaa37c",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "夏の買い出しの強い味方。ロゴスの定番保冷剤が19%オフでお買い得",
+    "url": "https://www.lifehacker.jp/article/amazon-timesale-2026-0801-2/",
+    "publishedAt": "2026-08-01T10:30:00.000Z",
+    "summary": "暑い日の買い物では、帰宅までに冷凍食品が溶けてしまわないか気になりますよね。 ロゴス（LOGOS）の「倍速凍結・氷点下パック Mサイズ」は、そんな不安に備える保冷剤。Amazonでは現在19％オフです。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "ceaf575e3bbfc159",
@@ -180,6 +290,26 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "3ddb80a5ca37220d",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "それ、『会話泥棒』かも。コミュニケーションが得意でも陥る \"好感度を削る話し方\"",
+    "url": "https://studyhacker.net/conversation-stealer-check",
+    "publishedAt": "2026-08-01T10:00:00.000Z",
+    "summary": "会話のあと、「今日はよく話せた」という手応えがあったのに、相手の反応はどこかそっけない。そんな経験はありませんか。原因は、こちらが気づかないうちに相手の話を自分の話にすり替えてしまう「会話泥棒」にあるかもしれません。 厄介なのは、コミュニケーションが得意と自認している人ほど陥りやすいかもしれないという点です。沈黙を埋めたい、相手に共感を示したい。そんなサービス精神が、皮肉にも会話泥棒を引き起こす引き金になっています。 あなたのまわりにも、思い当たる人がいるかもしれません。その正体を、まずは具体的な会話例から見ていきましょう。 コミュニケーションが得意な人…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "fdb1c1404aa73a4f",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "左右分割キーボード「Keychron Orca echo」白か黒、あなたはどっちを選ぶ？ 【15％オフ8月3日まで】",
+    "url": "https://www.lifehacker.jp/article/2608-gizmodo-orca-echo-15off-2-mkl/",
+    "publishedAt": "2026-08-01T10:00:00.000Z",
+    "summary": "「Orca echo」のカラーバリエーションを提示し、どれを買おうか迷っているような文章で読者に「どちらの方が良いか」を聞き、「自分ならどちらを買うか」を想像させる記事。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "094444ad864c9d37",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -208,6 +338,16 @@
     "publishedAt": "2026-08-01T09:20:05.000Z",
     "summary": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］ 編集部：haruka 中国のゲームメーカーJoystickは，サクセスが2006年に発売したニンテンドーDS用ソフト「メタルサーガ 〜鋼の季節〜」のリマスター版（PC / PS5 / PS4 / Nintendo Switch 2）を発表し，20...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "84d304ecdec82cce",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "速報【高校野球2026夏】49校の組合せ決定…第6日 横浜-沖縄尚学",
+    "url": "https://resemom.jp/article/2026/08/01/87027.html",
+    "publishedAt": "2026-08-01T09:07:55.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "0e29dba79d63c49e",
@@ -248,6 +388,16 @@
     "publishedAt": "2026-08-01T09:00:00.000Z",
     "summary": "BenQの「​ScreenBar」シリーズはスクリーンの閲覧に最適な照明を目指して開発されたモニターライトで、モニターに取り付けることで省スペース＆モニターに照明の映り込み減少＆デスクの広い範囲を照らすことができます。そんなシリーズの基本モデルである「ScreenBarモニターライト」をBenQから提供してもらったので、実際にデスクで使用してみました。 続きを読む...",
     "fetchedAt": "2026-08-01T15:00:18.682Z"
+  },
+  {
+    "id": "22f8fdbfc0f664b2",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "思考のクセを逆手にとって「ムダ遣い」を手放す。松竹梅の“梅”を選ぶ「決断ルール」を試したら…",
+    "url": "https://www.lifehacker.jp/article/2608-brain-science-shopping-rules/",
+    "publishedAt": "2026-08-01T09:00:00.000Z",
+    "summary": "物価高で迷いが増えるなか、つい「真ん中の価格」を選んでしまうのは脳のバイアスが原因かもしれません。本記事では、脳科学や行動経済学の知見をヒントに、我慢に頼らず「買い物ルール」や「ご褒美の形」を仕組み化して、ムダ遣いを無理なく防ぐ実践テクニックを紹介します。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "efde507ed9a83d7d",
@@ -300,6 +450,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "4efb928f7267fdd5",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "「未来の自分からエネルギーを奪っている」。ドゥームスクローリングをやめる4つの方法",
+    "url": "https://www.lifehacker.jp/article/2607what-is-doomscrolling-and-how-to-stop-doing-it/",
+    "publishedAt": "2026-08-01T07:00:00.000Z",
+    "summary": "不快で鬱々としたニュースやSNSの投稿を、嫌な気分になるとわかっていながらダラダラと追い続けてしまう「ドゥームスクロール」。スマホに意識を奪われ、気力や集中力を擦り減らさないための具体策と、前向きな習慣へシフトする6つのアプローチを紹介します。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "3855994acd6424eb",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -350,6 +510,16 @@
     "fetchedAt": "2026-08-01T15:00:18.190Z"
   },
   {
+    "id": "2444a22bf9441ad1",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "旅行の帰りにおみやげを諦めない。容量広がるサムソナイトが今なら15%オフです",
+    "url": "https://www.lifehacker.jp/article/amazon-timesale-2026-0801-1/",
+    "publishedAt": "2026-08-01T06:00:00.000Z",
+    "summary": "旅先でお土産買いすぎてキャリーケースが閉まらないってこと、けっこうありますよね……。 容量を広げられるエキスパンタブル機能を備えたSamsonite（サムソナイト）「ヴォラント スピナー75 エキスパンダブル」が、Amazonで15%オフです。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "9a94f4ea5b8e4dfb",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -360,6 +530,26 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "e17094fbe74ed98c",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【速報】高校サッカー男子インターハイ、静岡学園が初優勝…近大附属との接戦制す",
+    "url": "https://resemom.jp/article/2026/08/01/87026.html",
+    "publishedAt": "2026-08-01T05:38:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
+    "id": "2e445884abd7ff91",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【2028年施行】金融所得の社会保険料算定がいよいよ現実へ。影響を徹底解説 - たぱぞうの米国株投資",
+    "url": "https://www.americakabu.com/entry/%E9%87%91%E8%9E%8D%E6%89%80%E5%BE%97%E3%81%AE%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%99%BA%E6%96%99%E7%AE%97%E5%AE%9A",
+    "publishedAt": "2026-08-01T05:27:16.000Z",
+    "summary": "個人の金融所得が社会保険料の算定に反映される新制度 金融所得課税が強化されつつありますが、先だって社会保険料の算定基準も変わる、ということで話が進んでいますね。日本はこれから、少子化に伴う国民負担率の上昇という困難な道に直面します。増税と社保負担増の両輪です。 これまでは氷河期世代が団塊世代の老後...",
+    "fetchedAt": "2026-08-01T15:53:34.679Z"
+  },
+  {
     "id": "2c03a41acf32534e",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -368,6 +558,16 @@
     "publishedAt": "2026-08-01T05:00:00.000Z",
     "summary": "最高気温40度を超える日が続くと、熱中症を予防するためにも外出時には水分やハンディファンの携帯が欠かせません。サンワサプライが直営するオンラインショップのサンワダイレクトが、半固体電池内蔵のハンディファン「400-TOY049」を2026年5月19日に発売しました。サンワサプライからGIGAZINE夏のプレゼント企画に1台を提供してもらったので、実際に使ってその性能を確かめてみました。 続きを読む...",
     "fetchedAt": "2026-08-01T15:00:18.682Z"
+  },
+  {
+    "id": "5db04eda1ee5756d",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "エアコンが届かない「家の中の温室」対策。水と電源で自分の周りだけ涼しくする方法",
+    "url": "https://www.lifehacker.jp/article/machi-ya-diamondicefog-review-962088/",
+    "publishedAt": "2026-08-01T05:00:00.000Z",
+    "summary": "エアコンだけに頼らない夏の暑さ対策として卓上冷風扇「Diamond-ice fog」を実際に試しました。ペルチェ冷却とナノミストと送風の3つを組み合わせ水と電源だけで自分のいる一角に涼感を届けます。氷や保冷剤は不要で4000mAhバッテリーにより最大12時間のコードレス運転が可能です。約50dBの静音設計でデスクやキッチンや寝室でも使いやすく残量が見える200mlタンクを搭載しています。猛暑と節電の両立を考える方におすすめの一台です。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "26855eedd207cacf",
@@ -418,6 +618,16 @@
     "publishedAt": "2026-08-01T04:44:33.000Z",
     "summary": "アメリカの首都ワシントンにあるリンカーン記念堂のリフレクティング・プール（反射池）が、改修完了後間もなく、青い塗装がはがれているのが確認された問題で、米検察当局は7月31日、反射池を損壊した罪に問われた元オリンピック選手に対する起訴を取り下げた。検察は裁判所に提出した文書で、反射池の損傷は「請負業者...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "3118c707a2e0fb06",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "Neatframe、文科省「N-E.X.T.ハイスクール構想」を支援　説明ウェビナー4日開催",
+    "url": "https://ict-enews.net/2026/08/01neatframe/",
+    "publishedAt": "2026-08-01T04:41:14.000Z",
+    "summary": "Neatframe（Neat）は7月31日、近畿日本ツーリストと共同で、高校教育改革（N-E.X.T.ハイスクール構想）の計画作りの課題解決の支援を行うと発表し、遠隔インフラ構築と […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
   },
   {
     "id": "b01efb3a06f2ede6",
@@ -510,6 +720,26 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "437607d141a4c3ec",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "《避難所の厳しい現実》“進次郎クーラー”300台搬入も「電源がなく機材は置かれたまま」の現場、トイレは「プールの水を汲んで流す。ドボンと落ちそう」…震災経験は生かされているのか【熊本地震】",
+    "url": "https://www.news-postseven.com/archives/20260801_2124334.html",
+    "publishedAt": "2026-08-01T03:04:22.000Z",
+    "summary": "《避難所の厳しい現実》“進次郎クーラー”300台搬入も「電源がなく機材は置かれたまま」の現場、トイレは「プールの水を汲んで流す。ドボンと落ちそう」…震災経験は生かされているのか【熊本地震】 7月28日に震度7の揺れが熊本を襲ってから数日。余震が収まらないなか、一部の住民たちは今も学校の体育館や防災センターで...",
+    "fetchedAt": "2026-08-01T15:53:34.679Z"
+  },
+  {
+    "id": "d4e2ec6d741e0af9",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "朝日新聞社、「バーチャル高校野球」で組み合わせ抽選会と全48試合の無料ライブ配信実施",
+    "url": "https://ict-enews.net/2026/08/01asahi-4/",
+    "publishedAt": "2026-08-01T03:03:20.000Z",
+    "summary": "朝日新聞社と朝日放送テレビ、LINEヤフーは共同で、LINEヤフーが運営するスポーツ総合サイト「スポーツナビ」内で展開する「バーチャル高校野球」で、第108回全国高校野球選手権大会 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
     "id": "b38dac98b7c4d442",
     "source": "CodeZine",
     "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
@@ -530,6 +760,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "4f84248c2b111a71",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "ChatGPTにはまだまだできることがある！読書メモを脳に定着させるもっとも効率的な方法",
+    "url": "https://www.lifehacker.jp/article/2607-chatgpt-self-help-workbook-from-book-notes-voz/",
+    "publishedAt": "2026-08-01T03:00:00.000Z",
+    "summary": "ChatGPTの真価は、単に質問に答えるだけではありません。与えられた情報をもとに、新しいものを創造する能力にあります。この能力を活かせば、本の読書メモを、あなたの目標や課題に寄り添った「パーソナライズされたワークブック」へと生まれ変わらせることができるのです。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "cd999dcdab2762ed",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -548,6 +788,16 @@
     "publishedAt": "2026-08-01T02:43:07.000Z",
     "summary": "それは戦後のサラリーマン社会が生んだものであり、たしかに一時は流行した。「帰省ブーム」が起こったとも言えるのだ。 しかし、ブームは一時は盛り上がるものの、少し時間が経てば廃すたれていく。廃れていくと、なぜそんなことをしなければならないのかが分からなくなってしまう。 どうして帰省はブームになったのだ...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "0e089b9f8553ce73",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "電池切れには備えたい。でも重くてかさばるのはイヤだから、厚さ5.5mmのモバイルバッテリーを試した",
+    "url": "https://www.lifehacker.jp/article/machi-ya-slimplatebank-review-965649/",
+    "publishedAt": "2026-08-01T02:30:00.000Z",
+    "summary": "容量5,000mAhなのに厚さ5.5mm、重さ98g。「SLIM PLATE BANK」は、要注目の半個体薄型モバイルバッテリーです。最大15WのMagSafeワイヤレス充電と最大20WのUSB-C充電に対応。多重保護システムを搭載し、発火リスクの低減が期待される半固体リチウムイオン電池なので、安心感が違います。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "3242e93afd128d8a",
@@ -578,6 +828,16 @@
     "publishedAt": "2026-08-01T01:35:46.000Z",
     "summary": "自分は趣味で様々な CLI を OSS として公開しています (aqua, pinact, tfcmt, ghalint, ghir, etc)。 昨今では AI がこれらを扱うことも増えてきていますが、それなりに知られた OSS でないかぎり AI はその OSS に関する質問に答えたりトラブルシューティングしたりするための知識を持ち合わせていません。 そのため Coding Agent は Web Fetch したりしますが、闇雲に Web Fetch するのは効率がよくありませんし、 Web Fetch だとコンテンツが要約されてしまうという問題も…",
     "fetchedAt": "2026-08-01T15:00:17.584Z"
+  },
+  {
+    "id": "82d5e0eb3f51f1fc",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "通知に追われる手首に休息を。唯一無二の木目が美しい天然木の腕時計",
+    "url": "https://www.lifehacker.jp/article/2608-costorypo-woodsound-review1-1313697992/",
+    "publishedAt": "2026-08-01T01:30:00.000Z",
+    "summary": "「モスコヴィアン」はwoodsoundが手がけた重さ38gの木製腕時計です。ムーブメントには日本のMIYOTA製「2035 Standard」を採用。ウォールナットとパープルハートとサンダルウッドの3種類から選べます。1本ごとに異なる木目が手元に温もりを添えます。麻素材のクッションを備えた木製ケース入りでギフトにもぴったりです。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "3eda6b432c09f3b7",
@@ -640,6 +900,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "bf7e255c804f8093",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "針がないのに、時間が読める。数字の球が目盛りを渡る自動巻き腕時計「TIMEORB」を試してみた",
+    "url": "https://www.lifehacker.jp/article/machi-ya-timeorb-review2-955395/",
+    "publishedAt": "2026-08-01T01:00:00.000Z",
+    "summary": "針がありません。数字の描かれた球体が目盛りの上を渡っていく自動巻き腕時計「TIMEORB」。ワンダリングアワーという、17世紀生まれの時間の読み方を腕に乗せてみました。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "22d0f9fbe589cdde",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -700,6 +970,16 @@
     "fetchedAt": "2026-08-01T15:00:18.190Z"
   },
   {
+    "id": "34ce146a4ec63679",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "スマホのブラウザ、直接開くのをやめたら「33%の時短」になった",
+    "url": "https://www.lifehacker.jp/article/2607-i-dont-open-my-phones-browser-anymore-thanks-to-shortcut-trick-iqj/",
+    "publishedAt": "2026-08-01T00:00:00.000Z",
+    "summary": "25年以上テックジャーナリズムの最前線に身を置き、XDAやPocketnowといった伝説的メディアの立ち上げにも関わってきた私が、最近「スマホのブラウザ」を直接開くのをやめました。といっても、ネットサーフィンをやめたわけではありません。実は、CNBCやThe Verge、Redditといった「いつもの5サイト」にアクセスする際、もっと効率的な方法に切り替えたのです。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "3d9558386c2cf34e",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -718,6 +998,16 @@
     "publishedAt": "2026-07-31T23:30:00.000Z",
     "summary": "Natureは、スマートリモコン「Nature Remo」において、エアコン付属のリモコンで操作した内容が、Nature Homeアプリに反映される新機能の提供を開始した。",
     "fetchedAt": "2026-08-01T15:00:18.618Z"
+  },
+  {
+    "id": "750459247d8ae111",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "布製なら、だいたいショルダーバッグ化。金属リング「Snatch」がおもしろい",
+    "url": "https://www.lifehacker.jp/article/2607gizmodo_convert_into_a_shoulder_bag_with_metal-rings_snatch-c20-lgq/",
+    "publishedAt": "2026-07-31T23:30:00.000Z",
+    "summary": "「Snatch（スナッチ）」はあらゆる布バッグを“斜めがけ化”できるアイデア商品です。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "dd8c7b3e12ca0893",
@@ -740,6 +1030,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "daf0d2c83fecfc0e",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "サンコーの新作マグネットケーブルは全盛り。奪うのは「絡まりストレス」だけ",
+    "url": "https://www.lifehacker.jp/article/amazon-thanko-pdchargemagnetcable-2608/",
+    "publishedAt": "2026-07-31T23:00:00.000Z",
+    "summary": "USBケーブルはある程度の長さがなければ不便だと理解しつつも、使用・持ち運び・保管の際に絡まるとイライラしませんか？ それを吹っ飛ばすのが、6月22日に発売したTHANKO（サンコー）の「PD対応見える充電マグネットケーブル」です。 こちら、求めるメリットを全盛りした“最先端Type-Cケーブル”なんです。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "9c20dcc34466032f",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -758,6 +1058,16 @@
     "publishedAt": "2026-07-31T22:09:38.000Z",
     "summary": "先月28日、最大震度7の揺れを観測した熊本県ではその後も地震活動が続いていて、気象庁は1週間ほどは最大震度7程度の地震に注意するよう呼びかけています。熊本県では来週にかけて危険な暑さが予想されていて、…",
     "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "b59efd591a989cc1",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "スマホに疲れているのではない。「アテンション」に疲れている。逃げられない注目との付き合い方『アテンション・デトックス』とは",
+    "url": "https://studyhacker.net/attention-detox",
+    "publishedAt": "2026-07-31T22:00:00.000Z",
+    "summary": "SNSを開いて、通知に反応して、返信を返して、流行を追いかけて。楽しいはずなのに、アプリを閉じたあと、どっと疲れている。そんな感覚に、心当たりはありませんか。 その疲れの原因は、スマホでも、情報量そのものでもなく、「アテンション（注目）」かもしれません。 この記事では、若者調査から見えてきた「アテンション疲れ」の正体と、なぜそれが解決できないのか、そしてどう付き合えばいいのかを、順に見ていきます。 その疲れの正体は「アテンション」 その疲れを、なかったことにはできない それでも浴び続ければ、疲れる この休み方に、名前がつき始めた よくある質問（FAQ） …",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "d681278610425a5e",
@@ -940,6 +1250,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "f7be448584fb7aae",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "ICT教育ニュースの新広告サービス バナー広告・記事広告をクリック数で課金",
+    "url": "https://ict-enews.net/2026/08/icten-ad/",
+    "publishedAt": "2026-07-31T15:00:45.000Z",
+    "summary": "ICT教育ニュースの新しいアフィリエイト広告メニュー バナー広告・記事広告をクリック数で課金 リーズナブルで納得の新サービス ＊テスト運用中です。内容変更の可能性があります。 《T […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
     "id": "fb98773ef9f4e7f1",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1020,6 +1340,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "289fc692e8687b9a",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "ミニ財布の「小銭出しにくい・カード入らない」を、新『ウサゼニーレ』が解決してくれた",
+    "url": "https://www.lifehacker.jp/article/2607-amazon-dod-usazeniere2/",
+    "publishedAt": "2026-07-31T13:45:00.000Z",
+    "summary": "キャッシュレス全盛といえど、まだまだ意外と使う機会のある「現金」。お財布を小さくして身軽にしたいけれど、使い勝手は大切にしたい。そんな人にお勧めしたいのが、アウトドアブランド・DOD（ディーオーディー）の「ウサゼニーレ2」です。小さい財布で感じる“ここが気になるんだよな〜”を解消してくれたアイテムですよ！",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
     "id": "9fc32bf7e7ff7fef",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1058,6 +1388,16 @@
     "publishedAt": "2026-07-31T13:22:17.000Z",
     "summary": "セブン＆アイ・ホールディングスとセブン-イレブン・ジャパンは7月31日、ソフトバンク、PayPay、LINEヤフー、三井住友カードとの戦略的パートナーシップを発表した。セブン＆アイの共通会員ID「7iD」を「PayPay ID」に統合する。また、ソフトバンクや三井住友カードなどと資本業務提携も結び、各社から1000億円ずつ、総額3000億円の出資を受ける。",
     "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "51dbcc962a4d32b1",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "蚊取り線香をポキッと折って持ち歩く。少しだけ使いたいから選んだ「蚊やりモバイルホルダー」",
+    "url": "https://www.lifehacker.jp/article/2607-lht-logos-mobile-mosquito-holder/",
+    "publishedAt": "2026-07-31T13:15:00.000Z",
+    "summary": "LOGOSの「蚊やりモバイルホルダー」は、蚊取り線香を折って携帯できるアイテム。庭掃除、散歩、アウトドアなど屋外で大活躍します。使ってみた感想をお届けします。",
+    "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
     "id": "ec139c10b818edf3",
@@ -1230,6 +1570,16 @@
     "fetchedAt": "2026-08-01T00:13:56.549Z"
   },
   {
+    "id": "327f793e2068c9e8",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校生が志願したい大学・関東甲信越…2位は東洋大、1位は？",
+    "url": "https://resemom.jp/article/2026/07/31/87025.html",
+    "publishedAt": "2026-07-31T10:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "9de8bc426150bc43",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1270,6 +1620,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "9233e13670dd9415",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】 小学生6万票のTOP10…何冊読んだ？",
+    "url": "https://resemom.jp/article/2026/07/31/87024.html",
+    "publishedAt": "2026-07-31T10:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "b0d2f6c7c0ecd28d",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -1280,6 +1640,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "522e3f74fd674eab",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「絶対ムリ」は成功体験の不足だった。自己効力感に注目した『8分割ノート術』をやってみた",
+    "url": "https://studyhacker.net/impossible-mindset",
+    "publishedAt": "2026-07-31T10:01:00.000Z",
+    "summary": "「いまさら資格の勉強を始めても、どうせ続かない」 「あの分野は自分には難しすぎる。絶対にムリ」 そんなふうに、挑戦する前から答えを出してしまっていませんか？ 30代、40代と経験を重ねるほど、私たちは「自分にできること」と「できないこと」の線引きに自信をもつようになります。 でもじつは、「絶対ムリ」という判断の多くは、能力そのものではなく、過去の経験や取り組み方のクセから生まれています。だとすれば、その線引きは一度疑ってみる価値がありそうです。 この記事では、挑戦へのハードルが高く感じられる仕組みを探りながら、「ムリ」を「できるかも」に変える実践法をご説…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "8c969fe29288757e",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -1288,6 +1658,16 @@
     "publishedAt": "2026-07-31T10:00:00.000Z",
     "summary": "HashiCorp共同創業者でターミナルエミュレーター「Ghostty」の開発者でもあるミッチェル・ハシモト氏が、新会社「Superlogical」の設立を発表しました。Superlogicalは、複数のターミナルでの作業を長期間維持・共有できる新しいターミナルマルチプレクサーの開発から事業を開始し、将来的には人間やAIエージェントが行うさまざまなソフトウェア作業を統合する基盤の構築を目指します。 続きを読む...",
     "fetchedAt": "2026-08-01T15:00:18.682Z"
+  },
+  {
+    "id": "daf054e296d46edf",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「通知音にビクッとする」は要注意。過緊張のサインと、神経をゆるめる3つのアクション",
+    "url": "https://studyhacker.net/overtension-care-tips",
+    "publishedAt": "2026-07-31T10:00:00.000Z",
+    "summary": "十分な睡眠をとったはずなのに、朝から頭がぼんやりする。 特別なことは何もしていないのに、なぜか体がずっしりと重い。 そんな感覚が続いているなら、それは単なる疲れではないかもしれません。 こうした「なんとなく休めていない」状態の裏には、「過緊張」と呼ばれる自律神経の乱れが潜んでいることがあります。交感神経が過剰に優位になり続け、心身が「戦闘モード」から抜け出せなくなった状態です。*1 自覚しにくいのですが、放置すると仕事のパフォーマンスにもじわじわ影響してきます。 ただ、過緊張はちょっとした習慣でゆるめていけます。今日から試せる方法を見ていきましょう。 も…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "780395c6f24c8a21",
@@ -1368,6 +1748,16 @@
     "publishedAt": "2026-07-31T09:34:00.000Z",
     "summary": "世界中で利用される人気ディスクベンチマークツール「CrystalDiskMark」などを開発するhiyohiyo（宮崎典行）氏は7月29日、CrystalMark株式会社を立ち上げたことを発表した。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "ba098594fec88f05",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "30歳希望年収、男性987万・女性853万…28卒旧帝早慶",
+    "url": "https://resemom.jp/article/2026/07/31/87023.html",
+    "publishedAt": "2026-07-31T09:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "45e9cec89cb53049",
@@ -1510,6 +1900,16 @@
     "fetchedAt": "2026-08-01T00:13:56.549Z"
   },
   {
+    "id": "403d8109a4c4cbaf",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "東京都、公立中卒業者の進学率98.45％…速報値を公表",
+    "url": "https://resemom.jp/article/2026/07/31/87022.html",
+    "publishedAt": "2026-07-31T08:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "469775661f9203b9",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -1580,6 +1980,16 @@
     "fetchedAt": "2026-07-31T08:10:20.681Z"
   },
   {
+    "id": "c0044c84006dc1d5",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "星野学園の文化祭「星華祭」9/12-13…小中高合同",
+    "url": "https://resemom.jp/article/2026/07/31/87021.html",
+    "publishedAt": "2026-07-31T07:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "632be1fc3b3a0431",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -1648,6 +2058,16 @@
     "publishedAt": "2026-07-31T07:23:14.000Z",
     "summary": "会員データは「誰に、何を、いつ届けるか」を決めるために使う 日本の大型商業施設では、アプリ会員証、ポイントカード、キャッシュレス決済、館内イベント予約などを通じて、来館と購買の履歴が日々蓄積されている。たとえば、首都圏に複数店舗を展開する架空の商業施設「さくらアーバンモー...",
     "fetchedAt": "2026-08-01T15:00:17.953Z"
+  },
+  {
+    "id": "bfd5f4e7acd82c7c",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "小田急、小学3-6年対象「親子鉄道ゼミ」乗務員など体験",
+    "url": "https://resemom.jp/article/2026/07/31/87020.html",
+    "publishedAt": "2026-07-31T07:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "f2b7ec533bda890c",
@@ -1730,6 +2150,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "2a22895c0caff979",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校サッカー男子インターハイ、決勝カード決定…静岡学園と近大附属が初Vへ",
+    "url": "https://resemom.jp/article/2026/07/31/87019.html",
+    "publishedAt": "2026-07-31T06:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "5ee0979c0e5f8fd6",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -1788,6 +2218,16 @@
     "publishedAt": "2026-07-31T06:16:08.000Z",
     "summary": "AIエージェントで粗い初期実装をまず落とし、人間が観測・分解・修正していく開発手法「メテオフォール開発」の考え方と実践をまとめた本。依頼設計・レビュー・タスク分解・ジュニア参加・品質ゲート・ケーススタディ・テンプレートまでを扱う。",
     "fetchedAt": "2026-08-01T00:13:56.683Z"
+  },
+  {
+    "id": "200578a3c6ba4b4d",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "お盆の帰省費用、平均2.4万円…移動6時間以上では6.6万円に",
+    "url": "https://resemom.jp/article/2026/07/31/87018.html",
+    "publishedAt": "2026-07-31T06:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "5942eb1d1b27b747",
@@ -1910,6 +2350,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "8e562da3dfbb50bf",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】すぐ行けるイベント情報おまとめ便＜8/2-8開催＞",
+    "url": "https://resemom.jp/article/2026/07/31/87017.html",
+    "publishedAt": "2026-07-31T05:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "5cbef5778cf2499c",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -1948,6 +2398,16 @@
     "publishedAt": "2026-07-31T04:47:10.000Z",
     "summary": "君は人間 田山巽 「将来の夢はロボットになることです」 クラスの発表会でそう言い放った津村。 ロボット研究者を目指す優等生・村上は、その日を境に津村につきまとわれるようになる。 クラスでも浮いた存在の津村に嫌気が差していた村上だったが──。 少年時代の痛みとまなざしを鮮烈に描く読切作品。",
     "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "d4b61626f130a3e9",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "Google、アプリ向け年齢確認APIを年内に世界展開…未成年者保護を強化",
+    "url": "https://resemom.jp/article/2026/07/31/87016.html",
+    "publishedAt": "2026-07-31T04:45:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "2da806ffb3671623",
@@ -1998,6 +2458,16 @@
     "publishedAt": "2026-07-31T04:16:22.000Z",
     "summary": "近年、SNSやテレビの討論では、相手の矛盾を突き、鋭い一言で黙らせる場面が「議論に勝った瞬間」として注目されがちです。 しかし「相手を言い負かすこと（論破）」と「実りある議論をすること（対話）」は、同じではありません。 相手の本当の主張を理解しないまま批判しても、新しい知識や考え方が得られるわけではな...",
     "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "2dd8462c8b620883",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "「なりたい職業」公務員、中学生の人気が急落…高校生1位は男女とも同じ",
+    "url": "https://resemom.jp/article/2026/07/31/87015.html",
+    "publishedAt": "2026-07-31T04:15:12.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "c169f434b419d938",
@@ -2070,6 +2540,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "7fbb9c3352bb7e4e",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校サッカー男子インターハイ、静岡学園が決勝進出…残る1枠は午後決定",
+    "url": "https://resemom.jp/article/2026/07/31/87014.html",
+    "publishedAt": "2026-07-31T03:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "3783d1e81694aedb",
     "source": "CodeZine",
     "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
@@ -2138,6 +2618,16 @@
     "publishedAt": "2026-07-31T03:21:27.000Z",
     "summary": "ネックスピーカーは2台目ですが、以前使っていた別のメーカーのは肩が凝って耐えられずにメルカリで売りました。これは肩も凝らないし、音も満足です（ソニーの別モデルより音がいい）。ついでにメルカリで安く買えたのも満足です。 ヘッドホンをしていると家族に話しかけられても分からないのでネックスピーカーを使っ...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "0360df11a29ec06f",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験】志望理由書の8つの点検項目…河合塾が公開",
+    "url": "https://resemom.jp/article/2026/07/31/87013.html",
+    "publishedAt": "2026-07-31T03:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "974ea7c99afb0942",
@@ -2240,6 +2730,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "d7b02d8f0a6c216b",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "浜学園とKBCが連携、子供の非認知能力の育成へ…新校開校",
+    "url": "https://resemom.jp/article/2026/07/31/87012.html",
+    "publishedAt": "2026-07-31T02:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "4414f2a1fdeac3a7",
     "source": "ITmedia Mobile",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
@@ -2308,6 +2808,16 @@
     "publishedAt": "2026-07-31T02:16:53.000Z",
     "summary": "Thinking Machines Labは、オープンウェイトのAIモデル「Inkling-Small」の正式版を公開した。従来モデルの4分の1のサイズながら、データの改良や強化学習によりコード生成などのベンチマークで従来版を上回る性能を実現。動作に必要なGPUメモリも大幅に削減されており、Hugging Face等で入手できる。",
     "fetchedAt": "2026-08-01T15:00:17.737Z"
+  },
+  {
+    "id": "75f4d8a284c1ed7f",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】杏林大、公開講演会「昆虫が教えてくれる」",
+    "url": "https://resemom.jp/article/2026/07/31/87011.html",
+    "publishedAt": "2026-07-31T02:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "38fb9d6aa5f0fd76",
@@ -2380,6 +2890,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "6dff9b02c9e94bc5",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "文化講座「恐竜の進化とくらしを探ろう」9/12参加者募集…埼玉県立久喜図書館",
+    "url": "https://resemom.jp/article/2026/07/31/87010.html",
+    "publishedAt": "2026-07-31T01:45:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "25074da48c05048e",
     "source": "Impress Watch",
     "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
@@ -2448,6 +2968,16 @@
     "publishedAt": "2026-07-31T01:16:49.000Z",
     "summary": "Amazon.co.jpでは現在、「暮らし応援サマーSale」を開催しています。レジャー用品、家電ほか多数の商品がお買い得価格で販売されています。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "1b157f741d17ebc3",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "関西学院・初の全学校説明会…教育現場から語られた「一貫教育の魅力とこれから」",
+    "url": "https://resemom.jp/article/2026/07/31/87009.html",
+    "publishedAt": "2026-07-31T01:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "ebd80794ff221e4c",
@@ -2550,6 +3080,16 @@
     "fetchedAt": "2026-08-01T15:00:17.953Z"
   },
   {
+    "id": "d7b2da852e7eff36",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "熊本大、オープンキャンパスを全日程中止…熊本地震受け安全確保を優先",
+    "url": "https://resemom.jp/article/2026/07/31/87008.html",
+    "publishedAt": "2026-07-31T00:45:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "27a077fac2432977",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -2578,6 +3118,16 @@
     "publishedAt": "2026-07-31T00:30:00.000Z",
     "summary": "あるAIモデルが、自己評価のテストでズルをするために自らゼロデイを使ってRCE（リモートコード実行）を達成した。Revanite創業者でFINOS Technical Oversight Committeeメンバーを務めるEddie Knight氏は、この事例を導入に、攻撃の高速化を示す統計と、スプレッドシート運用のまま取り残されたGRC（ガバナンス・リスク・コンプライアンス）の現状を突きつけた。機械の速度に追いつくセキュリティを実現するため、GemaraやOSCALといった機械可読な仕様でGRCを技術と統合する提言を紹介する。",
     "fetchedAt": "2026-08-01T15:00:18.190Z"
+  },
+  {
+    "id": "6083a991770cbeba",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "総合診療医の第一人者・生坂政臣氏が登壇…医学部受験イベント「医師を目指す君たちへ」東京9/13",
+    "url": "https://resemom.jp/article/2026/07/31/87007.html",
+    "publishedAt": "2026-07-31T00:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "005fdaeb26e6c9ab",
@@ -2650,6 +3200,76 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "5dfceba2a1535739",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "Polimill、自治体向け生成AI「QommonsAI」の活用研修を北海道むかわ町で実施",
+    "url": "https://ict-enews.net/2026/07/31polimill-3/",
+    "publishedAt": "2026-07-30T23:45:21.000Z",
+    "summary": "Polimillは、北海道むかわ町の職員を対象に、自治体向け生成AI「QommonsAI（コモンズAI）」の活用研修（初級編）を7月23日に実施した。 同研修は、本庁と総合支所をオ […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "609c6abe70c57f92",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "自己破産で子どもの進学を不安視した親は54.0%、実際に受験先を変更したのは21.0% =cielo azul 調べ=",
+    "url": "https://ict-enews.net/2026/07/31cieloazul/",
+    "publishedAt": "2026-07-30T23:44:53.000Z",
+    "summary": "債務整理に関する情報整理サービスを提供するcielo azulが運営する『債務整理相談ナビ』は30日、自己破産の経験者100人を対象に「自己破産が子どもに与える影響」に関する調査を […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "d2de34bebff7f698",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "青山学院大学、青山キャンパスに「統計データサイエンス学環」2027年4月開設予定",
+    "url": "https://ict-enews.net/2026/07/31aoyama/",
+    "publishedAt": "2026-07-30T23:44:33.000Z",
+    "summary": "青山学院大学は29日、青山キャンパスに新設する「統計データサイエンス学環」について、文部科学省への設置届出が受理されたことを受け、2027年4月の開設に向けて準備を進めていると発表 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "e23ee2705e67f704",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "追手門学院、「AI時代、“通信”がボトルネックになる!?　社会を支える光ファイバ研究の最前線」掲載",
+    "url": "https://ict-enews.net/2026/07/31otemon-3/",
+    "publishedAt": "2026-07-30T23:44:14.000Z",
+    "summary": "追手門学院は29日、運営する追手門学院大学の特設サイト「OTEMON VIEW」に「AI時代、“通信”がボトルネックになる!? 社会を支える光ファイバ研究の最前線」と題した記事を掲 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "dfe588de58adc385",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "SAK University、学校体験イベント「Discovery Days」申込者2000名突破",
+    "url": "https://ict-enews.net/2026/07/31sie-2/",
+    "publishedAt": "2026-07-30T23:43:55.000Z",
+    "summary": "エスアイイーは29日、英国国立エセックス大学公認の国際教育提携校 SAK University 東京イノベーションキャンパス（SAK University）が、募集開始から約10カ […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "a10e6ec4670377a0",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "PHONE APPLI、山口県立萩商工で「情報モラル社会におけるSNSと生成AIの付き合い方」開催",
+    "url": "https://ict-enews.net/2026/07/31phoneappli/",
+    "publishedAt": "2026-07-30T23:43:41.000Z",
+    "summary": "PHONE APPLI30日は、山口県立萩商工高等学校（山口県萩市）の全学年の生徒を対象に、情報モラル講座「情報モラル社会におけるSNSと生成AIの付き合い方」を7月14日に開催し […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "a9e5630840d2f90d",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "デジタルポケット、放課後等デイサービス向けデジタル創作教材「ビスケットチャレンジ」提供開始",
+    "url": "https://ict-enews.net/2026/07/31viscuit/",
+    "publishedAt": "2026-07-30T23:43:22.000Z",
+    "summary": "絵だけでプログラミングできるビジュアルプログラミング⾔語「ビスケット」を開発するデジタルポケットは30日、放課後等デイサービス向けのデジタル創作教材「ビスケットチャレンジ」の提供を […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
     "id": "54250126e37ccfa3",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -2660,6 +3280,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "0c16f09b93d64e85",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "マイクロファン、教育用マイコン基板「TRYGEAR」用ホルダーを発売",
+    "url": "https://ict-enews.net/2026/07/31peoplemedia/",
+    "publishedAt": "2026-07-30T23:43:09.000Z",
+    "summary": "ピープルメディア マイクロファン事業部は30日、教育用マイコン基板「TRYGEAR（トライギア）」シリーズのホルダーとして、「TRYGEARホルダー RCSERVO」の販売を開始し […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
     "id": "7416a31532c1e817",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -2668,6 +3298,96 @@
     "publishedAt": "2026-07-30T23:43:05.000Z",
     "summary": "米国のドナルド・トランプ大統領（2026年7月30日撮影）。(c)Brendan SMIALOWSKI / AFP 【7月31日 AFP】（更新）米国のドナルド・トランプ大統領は30日、イスラム組織ハマスの「完全な武装解除」で合意したと発表し、これがパレスチナ自治区ガザ地区における新たなパレスチナ政府に向けた重要な一歩だと称した。 トランプ...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "b8fffe8c1276be66",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "秀和システム新社、『おうちでカンタン！おもしろ実験ブック 天気の科学』8月12日刊行",
+    "url": "https://ict-enews.net/2026/07/31shuwasystem/",
+    "publishedAt": "2026-07-30T23:42:52.000Z",
+    "summary": "秀和システム新社は、新刊『おうちでカンタン！おもしろ実験ブック 天気の科学』を8月12日発刊する。 本書は、天気にまつわる実験を通じて「試す・考える・理解する」の3ステップで科学を […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "eb7746fbfd2f7e56",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "アイード、生成AIを活用した英語授業の実践を共有・議論する「英語授業ラボ」8月22日開催",
+    "url": "https://ict-enews.net/2026/07/31aied/",
+    "publishedAt": "2026-07-30T23:42:29.000Z",
+    "summary": "英語教育分野でテクノロジーを活用したソリューションを展開するアイードは、長崎県立長崎北高等学校の上村洸貴教諭とともに、生成AIを活用した英語授業の実践を共有・議論するオンラインイベ […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "fdb539f455275d60",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "エデュテクノロジー、「生徒の成長を後押しする『探究学習と評価のリアル』」8月開催",
+    "url": "https://ict-enews.net/2026/07/31edutechnology/",
+    "publishedAt": "2026-07-30T23:42:12.000Z",
+    "summary": "エデュテクノロジーは、夏休み特別無料ウェビナー「生徒の成長を後押しする『探究学習と評価のリアル』～生徒と先生の意識の変化～」を8月12日に開催する。 同イベントでは、三重県立昴学園 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "4f5ed538b88524de",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "マインドシェア、第6回学生プレゼン大会 全国15都道府県・25校が出場決定",
+    "url": "https://ict-enews.net/2026/07/31mindshare/",
+    "publishedAt": "2026-07-30T23:41:52.000Z",
+    "summary": "マインドシェアは、第6回学生プレゼン大会を8月3日～6日に開催する。 同社では、「教育機関の取り組みに対する認知・理解の促進」と「知見の深化」を目的に、「教育情報共有会」を開催して […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "1eeb67a302af6fd4",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "Neatframe、「N-E.X.T.ハイスクール構想」計画具体化へのアプローチ 8月4日開催",
+    "url": "https://ict-enews.net/2026/07/31neat-japan/",
+    "publishedAt": "2026-07-30T23:41:30.000Z",
+    "summary": "Neatframe（Neat）は、近畿日本ツーリストと共同で、高校教育改革（N-E.X.T.ハイスクール構想）の計画作りの課題解決の支援を行うと発表し、遠隔インフラ構築と、カリキュ […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "4db49fdb238b2bf9",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "TAC、「受験倍率低下?!今がねらい目の公務員」8月7日オンラインで無料配信",
+    "url": "https://ict-enews.net/2026/07/31tac-4/",
+    "publishedAt": "2026-07-30T23:41:09.000Z",
+    "summary": "資格取得に向けた教育サービスを展開しているTACは29日、公務員試験を検討している人や進路に悩む人に向けて、無料オンラインイベント「受験倍率低下?!今がねらい目の公務員」を8月7日 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "e1282c7484054560",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "Jackery、夏休みに親子で楽しく学べる脱出ゲーム型防災イベント8月22日開催",
+    "url": "https://ict-enews.net/2026/07/31jackery/",
+    "publishedAt": "2026-07-30T23:40:52.000Z",
+    "summary": "ポータブル電源・ソーラーパネルの世界的リーディングカンパニーJackery（ジャクリ）の日本法人であるJackery Japanは、親子で楽しみながら災害時の行動や電気の大切さを学 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "6eb45b9badd67097",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "日本英語コーチング協会、「JELCAシンポジウム2026―国際外交とコミュニケーション力（仮）」8月開催",
+    "url": "https://ict-enews.net/2026/07/31jelca/",
+    "publishedAt": "2026-07-30T23:40:17.000Z",
+    "summary": "日本英語コーチング協会（JELCA）は、「JELCAシンポジウム2026」を8月26日に開催する。 英語教育事業者を中心に、協会加盟を問わず多くの企業・団体が出席した昨年に続き、6 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
+  },
+  {
+    "id": "277211531a9be9e0",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "Stardy、「令和8年熊本地震」を受け「徹底基礎講座【数学】」「徹底基礎講座【中学数学】」から1講座を無償提供",
+    "url": "https://ict-enews.net/2026/07/31stardy/",
+    "publishedAt": "2026-07-30T23:39:55.000Z",
+    "summary": "Stardyが運営するオンライン予備校「河野塾」は30日、「令和8年熊本地震」を受け、熊本県に住む人を対象に、学習機会の確保を目的とした支援を実施すると発表した。 本支援では、徹底 […]",
+    "fetchedAt": "2026-08-01T15:53:36.343Z"
   },
   {
     "id": "8090225af1e97770",
@@ -2830,6 +3550,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "b05f8b56cc222cae",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「ターミナル」はもう要らない。ダウンロードして選ぶだけのCodex初期設定——Codex超入門 vol.2",
+    "url": "https://studyhacker.net/toshimitsu-miyachi-interview202",
+    "publishedAt": "2026-07-30T22:01:00.000Z",
+    "summary": "前回の記事では、株式会社AI Orchestra代表取締役の宮地俊充さん（みやっち🧑‍💻）に、ChatGPTの延長線上で\"仕事を任せられる\"AIエージェント「Codex」の可能性を伺いました。 今回のテーマは初期設定です。前回のClaude Code編では、「ターミナル」という黒い画面との格闘から始まり、約30分のセットアップを乗り越える必要がありました。この記事の初期設定も、身構えて読み始める方がいるかもしれません。 しかし宮地さんは、開口一番こう言います。 「安心してください。Codexは、デスクトップアプリをダウンロードして、いくつか設定を選ぶ…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "32b0b569de2bc0dd",
     "source": "ITmedia AI+",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
@@ -2858,6 +3588,16 @@
     "publishedAt": "2026-07-30T22:00:00.000Z",
     "summary": "「ChatGPT」との会話履歴をPCへ簡単に保存できるとして、ある方法が注目を集めている。一方で、利用規約や情報管理の面で注意すべき点もある。",
     "fetchedAt": "2026-08-01T15:00:17.737Z"
+  },
+  {
+    "id": "957b183e67869333",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「よし勉強するぞ」をやめてみた。頑張らないから続く、学びの日常化テクニック",
+    "url": "https://studyhacker.net/study-habit-tips",
+    "publishedAt": "2026-07-30T22:00:00.000Z",
+    "summary": "「勉強しなきゃ」と思いながら、気づけば一日が終わっている。資格取得もリスキリングも、何度か手をつけては続かなかった。心当たりがあるかもしれません。 こんなとき、「意志が弱い」と自分を責めたり、「仕事が忙しい」とコントロールできないことに悩んだりしても、なかなか前へは進めません。じつは続かない理由のひとつは、勉強を \"特別なこと\" として扱いすぎていることに隠れています。 そこで本稿では、勉強を生活から切り離さず、\"日常に溶け込ませる\" という発想をご提案します。気合いに頼らず、学びを自然と続けるためのヒントです。 勉強が続かない人ほど、勉強を \"特別扱い…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "1dfb814a15831312",
@@ -3110,6 +3850,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "8bd00aa1d3e5d77b",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "Gakken「5秒でわかるニュースの言葉図鑑」中学受験の時事問題にも",
+    "url": "https://resemom.jp/article/2026/07/30/87006.html",
+    "publishedAt": "2026-07-30T10:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "2f01e9f897357766",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -3150,6 +3900,16 @@
     "fetchedAt": "2026-08-01T15:00:18.618Z"
   },
   {
+    "id": "ff8f990e561a25a6",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】親子工場見学「歯のひみつ科学ラボ」8/21…ホワイトエッセンス",
+    "url": "https://resemom.jp/article/2026/07/30/87005.html",
+    "publishedAt": "2026-07-30T10:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "258589526874c77f",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -3178,6 +3938,36 @@
     "publishedAt": "2026-07-30T10:08:59.000Z",
     "summary": "アンビションは7月30日、スマートフォン向けゲーム「文豪ストレイドッグス 迷ヰ犬怪奇譚」を7月31日で終了すると発表した。運営法人である同社の廃業に伴うもので、未使用の課金アイテムは払い戻さない。",
     "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "dba67eb8397d7170",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "ビジネスパーソンから学生まで。自主勉強・読書に使えるノートの書き方3選",
+    "url": "https://studyhacker.net/notebook-how-to-write2",
+    "publishedAt": "2026-07-30T10:01:00.000Z",
+    "summary": "「ノートの書き方」は、資格試験の勉強に励むビジネスパーソンや、専門の勉強に取り組む大学生など、学習に取り組んでいるすべての人にとって切実な課題でしょう。 一生懸命ノートをまとめたのに、大事なポイントがなかなか身につかない。 復習しようとノートを開いたら、何が記入してあるのか自分でもわからなかった。 ……という経験は、あなたにもきっとあるはず。 メモの仕方・ノートの書き方ひとつで、勉強効率の良し悪しは大きく左右されます。 学習効果の高いノートを書くには、どんな工夫をすればいいのでしょうか？ ノートの書き方の基本的なコツに加え、有識者が実践している効果的なお…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "c3b1a0fe94e3f675",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「中世の知恵」は答えを知っていた——スマホで作業が中断される症状への2つの対処法",
+    "url": "https://studyhacker.net/wisdom_of_middle_age",
+    "publishedAt": "2026-07-30T10:00:00.000Z",
+    "summary": "カフェの片隅、あるいはオフィスのデスク。片付けなければいけない仕事があるのに、ふとスマホに手が伸びる。「ちょっとだけ」のつもりが、気づけば30分もスクロールしていた……誰もがそんな経験を持つのが現代です。 こういうことを繰り返しているうちに、サボっているわけではないのだけど、心のどこか、芯の部分がじわじわとすり減っていくような、名状しがたいスカスカな感じを覚えませんか。『ロード・オブ・ザ・リング』のビルボが感じた「引き伸ばされた感じ」のような……。 これは怠惰なんでしょうか。燃え尽き症候群なんでしょうか。それとも単なるスマホ依存なのか。この問いへのヒント…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "e4e64a16a2679e8e",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】環境省、観察シートで天の川チェック「夏の星空観察」",
+    "url": "https://resemom.jp/article/2026/07/30/87004.html",
+    "publishedAt": "2026-07-30T09:45:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "ae57c865ec71b9e3",
@@ -3220,6 +4010,16 @@
     "fetchedAt": "2026-08-01T15:00:18.190Z"
   },
   {
+    "id": "920b619cf2063513",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【高校受験2027】山梨県公立高、長期欠席者のための「特別選抜」リーフレットなど公開",
+    "url": "https://resemom.jp/article/2026/07/30/87003.html",
+    "publishedAt": "2026-07-30T09:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "8bfcae12885f6ed9",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -3238,6 +4038,16 @@
     "publishedAt": "2026-07-30T09:07:58.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "b0e7186236243cb1",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】福島県、学生が製作した軽量飛行機を展示…コックピット搭乗体験も",
+    "url": "https://resemom.jp/article/2026/07/30/87002.html",
+    "publishedAt": "2026-07-30T09:00:04.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "3c0f208660d20a62",
@@ -3260,6 +4070,16 @@
     "fetchedAt": "2026-08-01T15:00:17.953Z"
   },
   {
+    "id": "5c0ddd12dd61e3d5",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【中学受験2027】群馬県立中央中等教育、Web出願登録11/16より",
+    "url": "https://resemom.jp/article/2026/07/30/87001.html",
+    "publishedAt": "2026-07-30T08:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "2ca2c9f8f38f6efd",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -3278,6 +4098,16 @@
     "publishedAt": "2026-07-30T08:24:31.000Z",
     "summary": "はじめに 本連載では、拙著『独学で鍛える数理思考』『⁠独学で鍛える数理思考2』（⁠技術評論社）を題材に、高校数学と最先端AIのつながりを見てきました。第1回では、2冊12章の全体像を1枚の対応表として示しました。第2回では①ベクトルによる類似度計算、②行列による大規模データ処理、③微分による学習・最適化、④確率...",
     "fetchedAt": "2026-08-01T15:00:18.714Z"
+  },
+  {
+    "id": "97999fc3dccb33f7",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【高校野球2026夏】radikoで全試合無料・完全中継…新企画も",
+    "url": "https://resemom.jp/article/2026/07/30/87000.html",
+    "publishedAt": "2026-07-30T08:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "fd0a0b9ecc07b9b5",
@@ -3300,6 +4130,26 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "9408d723bbe6fd35",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【高校受験2026】福岡県立高、社会と英語で得点率ダウン",
+    "url": "https://resemom.jp/article/2026/07/30/86999.html",
+    "publishedAt": "2026-07-30T07:45:06.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
+    "id": "a007c6e5ed7e5279",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "難関大受験の新戦略…一般×推薦を賢く併願する高校1、2年生からの「複線設計」",
+    "url": "https://resemom.jp/article/2026/07/30/86998.html",
+    "publishedAt": "2026-07-30T07:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "23f3f89075529952",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -3308,6 +4158,16 @@
     "publishedAt": "2026-07-30T07:26:43.000Z",
     "summary": "通知には「支払いに失敗した」「アカウントをハッキングした」「金銭を支払え」といった内容が記載されているとし、「通知を開いたり、操作したりしないでください」と呼び掛けている。",
     "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "2ccd0c3fced000b8",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【自由研究2026】テーマランキング＜小学生版＞…3年間で読まれたTOP8",
+    "url": "https://resemom.jp/article/2026/07/30/86997.html",
+    "publishedAt": "2026-07-30T07:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "bb6260d4cd0dbfbc",
@@ -3370,6 +4230,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "13520cdac1640459",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】豊洲千客万来「親子で学ぶ中央卸売市場」8/21-22",
+    "url": "https://resemom.jp/article/2026/07/30/86996.html",
+    "publishedAt": "2026-07-30T06:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "cba3faa679c2e32f",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -3388,6 +4258,16 @@
     "publishedAt": "2026-07-30T05:52:01.000Z",
     "summary": "日本HPと楽天が、HP製PC向けAIアプリ「Rakuten AI for Desktop」のプリバンドルを開始。70億パラメータの日本語LLM「Rakuten AI 7B」で、オフラインでも要約や翻訳をローカルで実行できる。",
     "fetchedAt": "2026-08-01T15:00:17.737Z"
+  },
+  {
+    "id": "5954c985c296e79a",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "熊本地震で10万円の支援金支給、JASSOが被災学生を救済",
+    "url": "https://resemom.jp/article/2026/07/30/86995.html",
+    "publishedAt": "2026-07-30T05:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "9cf38c5b62c3875e",
@@ -3410,6 +4290,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "339227249ff989b6",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】触覚で石を当てる…南紀熊野で体験型イベント8/1-23",
+    "url": "https://resemom.jp/article/2026/07/30/86994.html",
+    "publishedAt": "2026-07-30T05:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "d5d5dc7769ca90d1",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -3418,6 +4308,16 @@
     "publishedAt": "2026-07-30T05:05:04.000Z",
     "summary": "外国メディアが東アジアをカバーする東京支局を閉鎖し、中国の北京、上海やシンガポールなどへ移転し始めたのは今世紀に入った頃だっただろうか。東京支局のスタッフを減らす通信社もあった。日本外国特派員協会（FCCJ）の記者たちは、「毎週のように特派員仲間の送別会がある」と言っていた。 国際メディアが東京に見切...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "bea864aa6d02593f",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "活育財団、AI時代の教育アワード募集…ファイナル10/25",
+    "url": "https://resemom.jp/article/2026/07/30/86993.html",
+    "publishedAt": "2026-07-30T04:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "59f218ead565d894",
@@ -3470,6 +4370,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "3c3688b091435efb",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】亜細亜大、高校生に図書館開放8/3-9/3…蔵書67万冊",
+    "url": "https://resemom.jp/article/2026/07/30/86992.html",
+    "publishedAt": "2026-07-30T03:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "d201a7424c41d75a",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -3510,6 +4420,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "d273b2f90060cb0e",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】東大メタバース工学部、生成AIなどジュニア講座6選",
+    "url": "https://resemom.jp/article/2026/07/30/86991.html",
+    "publishedAt": "2026-07-30T02:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "9781925f3c13a5d9",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -3518,6 +4438,16 @@
     "publishedAt": "2026-07-30T02:10:00.000Z",
     "summary": "米Googleは7月29日（現地時間）、新しい音楽生成モデル「Lyria 3.5」を発表した。音楽制作サービス「Google Flow Music」で、同日より提供が始まっている。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "6287402a67698bb1",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "惑星直列とペルセウス座流星群…観測は8/12-13が好条件",
+    "url": "https://resemom.jp/article/2026/07/30/86990.html",
+    "publishedAt": "2026-07-30T01:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "dbe353b66295bc35",
@@ -3578,6 +4508,16 @@
     "publishedAt": "2026-07-30T00:15:19.000Z",
     "summary": "Amazon.co.jpでは現在、「暮らし応援サマーSale」を開催しています。レジャー用品、家電ほか多数の商品がお買い得価格で販売されています。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "512f0d14b614238e",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験2027】総合型選抜、国公私立大の一覧公表…駿台",
+    "url": "https://resemom.jp/article/2026/07/30/86989.html",
+    "publishedAt": "2026-07-30T00:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "1356fa87eec79f36",
@@ -3718,6 +4658,26 @@
     "publishedAt": "2026-07-29T22:17:08.000Z",
     "summary": "ナフサ不足を受けて白黒パッケージにしたカルビーのポテトチップスだが、販売がさえない。7月9日に原材料の調達見通しがついたとして、8月から表側のみカラーに戻すと発表した。なじみあるパッケージを白黒にするという戦略は、政府を巻き込むほどの話題を集めたが、食品包装における色の重要性を改めて浮き彫りにした。...",
     "fetchedAt": "2026-07-30T00:14:26.642Z"
+  },
+  {
+    "id": "f02b3e27834f7012",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "仕事を\"任せられる\"AIって？　Codexは仕事の風景をどう変えたのか——Codex超入門 vol.1",
+    "url": "https://studyhacker.net/toshimitsu-miyachi-interview201",
+    "publishedAt": "2026-07-29T22:01:00.000Z",
+    "summary": "「業務時間を半分にしながら、ひとりで10人分の仕事を回す」。今年5月、そんな働き方の裏側を語った連載「Claude Code超入門」は大きな反響を呼び、連動して開催されたライブセミナーは1,000名以上のお申し込みで満席となりました。 ところがその後、読者や参加者から届いた声は、大きくふたつに分かれたそうです。「実際に業務が変わり始めた」という声と、「興味はあるのに、結局、最初の一歩が踏み出せなかった」という声です。 株式会社AI Orchestra代表取締役の宮地俊充さん（みやっち🧑‍💻）は、後者の人にこそ伝えたい選択肢があると言います。それが、C…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "b20a608b27e889bd",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「質問ありますか」で固まる人へ。才能いらずで身につく、仕事ができる人の質問技術5選",
+    "url": "https://studyhacker.net/question-skill",
+    "publishedAt": "2026-07-29T22:00:00.000Z",
+    "summary": "会議の最後、「なにか質問はありますか」の声に、頭が真っ白になる。「的外れだったらどうしよう」と迷っているうちに、話は次へ進んでいく。 心当たりがある方も多いかもしれません。じつは、質問が出てこない原因は、知識不足ではなく、質問の技術を知らないだけなのです。 良い質問はミスを防ぎ、評価を高め、会話の質を変えます。この記事では、その技術を紹介します。 質問をためらう人が知らない、損失と利益 【損失】「わかったつもり」が認識のズレを招く 【利益】質問できる人は「解像度が高い」と評価される 仕事ができる人の質問技術5選 技術1 相手の話を最後まで聞き、前提を確認…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "95c10dd22bbe68b1",
@@ -4010,6 +4970,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "e4771573fa60b615",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "有名企業400社実就職率ランキング…慶應4位・早大9位",
+    "url": "https://resemom.jp/article/2026/07/29/86988.html",
+    "publishedAt": "2026-07-29T10:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "8ed9cc917458106c",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4020,6 +4990,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "5b3b4267895e2523",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "知らない分野の本は「4つの枠」で読む。初心者ほど深く理解できる『REAPメソッド』実践レポート",
+    "url": "https://studyhacker.net/reap-reading-method",
+    "publishedAt": "2026-07-29T10:10:00.000Z",
+    "summary": "新しい分野の入門書を開いてみたものの、慣れない用語に阻まれて、同じ行を何度も読み返してしまう。数ページ進んだところで、最初に書いてあった内容をもう思い出せない。 知らない分野を学ぶときほど、「読んでいるのに頭に入ってこない」という壁にぶつかりがちです。多くの読書術が事前の知識や疑問を前提としているため、初心者にはハードルが高いという事情もあります。 そこでおすすめしたいのが、予備知識ゼロでも実践できる読書ノート術「REAP（リープ）メソッド」。この記事では、その概要とやり方を、筆者の実践例とともにご紹介します。 REAPメソッドとは何か REAPメソッド…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "c9ba5f6500e64362",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -4028,6 +5008,16 @@
     "publishedAt": "2026-07-29T10:06:52.000Z",
     "summary": "はじめに GMOコネクトの永田です。 「パスキー対応できますか？」と聞かれて、即答できませんでした😇 技術的な可否の話だと思って調べ始めたのですが、認証そのものの実装は思ったより軽かったです。重かったのは運用側でした。「最初の1つをどう渡すのか」「なくしたときどう戻すのか...",
     "fetchedAt": "2026-08-01T15:00:17.953Z"
+  },
+  {
+    "id": "7e619b1cf2f570d0",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "千代の富士に学ぶ「三年先の稽古」。 \"目の前の成功\"と\"将来の成長\"をどう両立するのか",
+    "url": "https://studyhacker.net/future-keiko",
+    "publishedAt": "2026-07-29T10:00:00.000Z",
+    "summary": "毎日、目の前の仕事を片づけるだけで精一杯。メールを返し、会議に出て、資料をつくる。気づけば、もう一日が終わっている。 資格の勉強も、読書も、英語も、「いつかやろう」と思ったまま手つかずで残っていく。そうして数か月が、あっという間に過ぎていきます。 キャリアの差は、じつは「今日どれだけ忙しかったか」だけでは決まりません。 大横綱・千代の富士の言葉として紹介される「いま強くなる稽古と、三年先に強くなるための稽古の両方をしなくてはならない」という考え方をヒントに、忙しい日々に「未来の自分を強くする時間」を差し込む方法を紹介します。 千代の富士に学ぶ。強い人は「…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "10e1a6a76e08e3e0",
@@ -4078,6 +5068,16 @@
     "publishedAt": "2026-07-29T09:26:05.000Z",
     "summary": "今回、Xで「みいちゃんと山田さん」について投稿し、多くの閲覧を頂き厳しい批判含め、様々なお声を頂きました 長くなるので、ここに考えを整理させて頂きます。 まず第一に、「みいちゃんと山田さん」について、連載もアニメ化も含め、批判的な立場ではありません 漫画は教材である必要はありませんし、障害者が登場す...",
     "fetchedAt": "2026-07-30T00:14:26.642Z"
+  },
+  {
+    "id": "84fb2481a3ecf603",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】室内・オンラインで涼しく学べる…自由研究に役立つイベントまとめ",
+    "url": "https://resemom.jp/article/2026/07/29/86987.html",
+    "publishedAt": "2026-07-29T09:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "d525d678e213e33b",
@@ -4140,6 +5140,16 @@
     "fetchedAt": "2026-07-30T00:14:25.438Z"
   },
   {
+    "id": "9ae665735025632e",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "渋幕や東大寺学園など40校、高校生クイズTOKYOラウンドへ",
+    "url": "https://resemom.jp/article/2026/07/29/86986.html",
+    "publishedAt": "2026-07-29T08:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "48338090cf0a2a1e",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4190,6 +5200,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "88d2419feea5b212",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【高校野球2026夏】出場49校決定、初出場は4校…気になる組合せ抽選は？",
+    "url": "https://resemom.jp/article/2026/07/29/86985.html",
+    "publishedAt": "2026-07-29T07:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "9f40b51f1067daba",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4210,6 +5230,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "ad9ff6d95deeeba0",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校サッカー男子インターハイ、4強に近大附属と大津",
+    "url": "https://resemom.jp/article/2026/07/29/86984.html",
+    "publishedAt": "2026-07-29T06:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "6febc0f9d9e63e19",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -4228,6 +5258,16 @@
     "publishedAt": "2026-07-29T05:41:54.000Z",
     "summary": "京都住所の「上ル」「下ル」、1階と2階とで市が違うビル、長野県長野市南長野県町、住所の中に「ABC」や「渡辺」の文字――。 日本の住所は実はツッコミどころだらけ。全国のユニークな住所をたどると、そこには歴史の偶然や行政の事情、地域の人々の思いが隠されていた。 なぜこんな住所が生まれたのか？ なぜ今も残って...",
     "fetchedAt": "2026-07-30T00:14:26.642Z"
+  },
+  {
+    "id": "0fb539d704204b43",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校サッカー男子インターハイ、滝川第二・静岡学園が4強入り",
+    "url": "https://resemom.jp/article/2026/07/29/86983.html",
+    "publishedAt": "2026-07-29T05:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "b185d12aaf0f6a8e",
@@ -4290,6 +5330,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "3902f85625a4e472",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】森永製菓、鶴見工場の親子探検120人募集",
+    "url": "https://resemom.jp/article/2026/07/29/86982.html",
+    "publishedAt": "2026-07-29T04:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "3633f281ccf5d0a6",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4350,6 +5400,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "a0127e1fd286f9e7",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "豊田市、SDGsこども記者30人を募集…小3-高3対象",
+    "url": "https://resemom.jp/article/2026/07/29/86981.html",
+    "publishedAt": "2026-07-29T03:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
     "id": "17b0a2f42d99def1",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -4368,6 +5428,16 @@
     "publishedAt": "2026-07-29T02:48:13.000Z",
     "summary": "半導体大手の台湾TSMCは7月28日夜、同日午後の最大震度7の地震で操業を一時中断した子会社JASM（熊本県菊陽町）について、従業員全員の無事を確認し、段階的に通常操業に戻りつつあると回答した。台湾紙・経済日報が報じた。",
     "fetchedAt": "2026-07-30T00:14:25.438Z"
+  },
+  {
+    "id": "5059dd4623193329",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "砂金甲子園、神戸女学院が優勝…全国14校の中高生が腕競う",
+    "url": "https://resemom.jp/article/2026/07/29/86980.html",
+    "publishedAt": "2026-07-29T02:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "5bf291794d68601a",
@@ -4410,6 +5480,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "5a9e597f9245f5b8",
+    "source": "中学受験情報局",
+    "sourceUrl": "https://www.e-juken.jp/feed",
+    "title": "【中学受験】「うちの子タイプ」で選ぶ！辻義夫・西村則康が教える、思考力を育む夏休み自由研究",
+    "url": "https://www.e-juken.jp/benkyo/natsuyasumi-jiyukenkyu.html",
+    "publishedAt": "2026-07-29T01:36:54.000Z",
+    "summary": "夏休みになると、お子さんも親御さんも頭を悩ませるのが「自由研究」です。 特に中学受験を控える高学年のご家庭では、夏期講習や日々の宿題に追われ、「自由研究に時間をかけたくない」という本音も耳にします。 しかし、中学受験情報…",
+    "fetchedAt": "2026-08-01T16:02:23.716Z"
+  },
+  {
     "id": "e800d2e5a8b6ae9c",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -4418,6 +5498,16 @@
     "publishedAt": "2026-07-29T01:33:43.000Z",
     "summary": "生成AIで画像を作るのは速くなった。それでも社外に出す本番の広告には、なかなか使われない。Adobeが7月6日に発表した3つのソリューションは、この「作れるのに使えない」を埋めにきている。ノードをつないで工程そのものを再現可能にする仕組みは、企業とクリエイターのどちらを見ているのか。",
     "fetchedAt": "2026-07-30T00:14:25.438Z"
+  },
+  {
+    "id": "a54a54969a01826b",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】HOKET工作コンクール、作品をAIでデジタルカード化…9/30締切",
+    "url": "https://resemom.jp/article/2026/07/29/86979.html",
+    "publishedAt": "2026-07-29T01:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "59d3c3af346cd2d8",
@@ -4478,6 +5568,16 @@
     "publishedAt": "2026-07-29T00:15:14.000Z",
     "summary": "AWS GameDayに着想を得た実践型クラウド演習を、自分で設計・実装・開催する本です。参加者の体験とストーリーを起点に、ローカルChallenge、AWS Challenge、AWS Battleを簡単な順に一から作り、TenkaCloudで複数チームが遊べる競技として動かします。",
     "fetchedAt": "2026-07-30T00:14:25.516Z"
+  },
+  {
+    "id": "1f9ae1f1a82713e9",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "品川女子学院の定員変更など…東京都私学審議会、10件を認可",
+    "url": "https://resemom.jp/article/2026/07/29/86978.html",
+    "publishedAt": "2026-07-29T00:15:11.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
     "id": "945a83099658f1c5",
@@ -4630,6 +5730,16 @@
     "fetchedAt": "2026-07-29T00:11:10.368Z"
   },
   {
+    "id": "4ff6cfa5411f1123",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "仕事は好きなのに苦しい——「脳の状態×適性」でわかる働き方の正解",
+    "url": "https://studyhacker.net/takeyuki-nishi-interview503",
+    "publishedAt": "2026-07-28T22:01:00.000Z",
+    "summary": "私たちは仕事で悩んだとき、その原因を忙しさや能力不足に求めがちです。しかし、そもそも「自分に合わない働き方」を続けていることが、ストレスの根本原因になっている場合もあります。脳科学者の西剛志さんは、「仕事との相性」と「脳のコンディション」の両方が、働く人の幸福度やパフォーマンスを大きく左右すると指摘します。ストレスフリーで自分らしく働くためにはなにが必要なのか、そのヒントを聞きました。 構成／岩川悟 取材・文／清家茂樹 写真／石塚雅人 【プロフィール】 西剛志（にし・たけゆき） 1975年生まれ。脳科学者（工学博士）、分子生物学者。東京工業大学大学院生命…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "46657a9fd146f0ca",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -4648,6 +5758,16 @@
     "publishedAt": "2026-07-28T22:00:00.000Z",
     "summary": "グローバルニッチは高い技術力を持つ一方で、知名度が実力に比べて劣り、ITを駆使して海外でのブランディングや販売に生かしていることも多い。この連載では、こうした企業のIT戦略をインタビューで深堀りする。印刷物をラミネートする機械を製造・販売するラミーコーポレーションを取り上げる。",
     "fetchedAt": "2026-07-29T00:11:11.041Z"
+  },
+  {
+    "id": "bcbe08a7928238ca",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "予定が崩れても動じない人は、最初の数十秒が違う。差し込みに強くなる3つのアクション",
+    "url": "https://studyhacker.net/task-interruption-action",
+    "publishedAt": "2026-07-28T22:00:00.000Z",
+    "summary": "丁寧に立てた一日の予定が、差し込み案件ひとつで崩れていく。元の仕事も新しい仕事もどちらも中途半端になり、焦りからミスまで重なってしまう。 臨機応変にさばいていく同僚を横目に、「自分は要領が悪い」と責めてしまう。心当たりがあるかもしれません。 でも、それは能力不足や性格の問題ではありません。急な変更に弱いのは、脳が「予期せぬ認知負荷」に対応しきれず、一時的にフリーズしているだけ。だとすれば、その場で脳を落ち着かせる手順さえ知っておけば、対応する力は後から身につけられます。 本記事では、急な差し込みに動じないための「3つのアクション」を、脳科学的な視点から紹…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "c5b2170e4f08b6ea",
@@ -5110,6 +6230,16 @@
     "fetchedAt": "2026-07-29T00:11:11.041Z"
   },
   {
+    "id": "6b17a3bed4765544",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「ドパガキ」化する私たち。その中毒設計に打ち勝つ、たったひとつの方法",
+    "url": "https://studyhacker.net/dopamine-addiction-hack",
+    "publishedAt": "2026-07-28T10:00:00.000Z",
+    "summary": "ショート動画をひとつ見るだけのつもりが、気づけば30分。仕事の合間にSNSを開き、通知が鳴ればすぐ手が伸びる。腰を据えて何かに取り組もうとしても、数分で集中が切れて、またスマホを触ってしまう。 こうした状態は、ネット上で「ドパガキ」「ドーパミン中毒」と呼ばれ、若い世代を中心に自虐まじりに語られています。強い刺激に慣れて、刺激がないと落ち着かない。心当たりがあるかもしれません。 ただ、これを「自分の意志が弱いせい」と責める必要はありません。むしろ逆で、スマホを手放せないのは、手放せないように作られているから。だとすれば、打つ手は根性ではなく、別のところにあ…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "68eb4e9547676b97",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -5500,6 +6630,16 @@
     "fetchedAt": "2026-07-28T00:13:21.484Z"
   },
   {
+    "id": "d5536b0c11fa2634",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "なぜあの人は折れないのか？　脳科学者が教える「ストレスに強い脳」のつくり方",
+    "url": "https://studyhacker.net/takeyuki-nishi-interview502",
+    "publishedAt": "2026-07-27T22:01:00.000Z",
+    "summary": "同じ出来事を経験しても、深く傷つく人もいれば、すぐに立ち直ることができる人もいます。その違いを生むのは、能力や精神力ではなく、脳のコンディションなのかもしれません。脳科学者の西剛志さんは、「ストレスへの反応や回復力が、脳内で働く複数の神経伝達物質と密接に関係していることがわかっている」と言います。「しんどい、つらい」の正体とはなにか、そして脳を健やかに保つ方法とはどのようなものでしょうか。 構成／岩川悟 取材・文／清家茂樹 写真／石塚雅人 【プロフィール】 西剛志（にし・たけゆき） 1975年生まれ。脳科学者（工学博士）、分子生物学者。東京工業大学大学院…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "e455009f82a1ad1b",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -5508,6 +6648,16 @@
     "publishedAt": "2026-07-27T22:00:05.000Z",
     "summary": "数学やコードの強化学習は、モデルに解答を出力させて、最後に正誤で点数をつけます。ではtool callを使うエージェントはどうでしょうか。エージェントは 思考 → tool call → 実行結果 → 思考 → tool call → … と何度も環境とやり取りし、その一連の流れ（trajectory）で1つのタスクを解きます。この流れ全体を、どうやって1つの学習信号に変換して重みを動かすのか。 tool useを持つエージェントを環境との相互作用の中でRLする領域は、Agentic RLと呼ばれます（まだ新しい用語であり指す範囲に揺れがあるため、この記…",
     "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
+    "id": "85bf1945781d5c26",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "学んだのに身についていないのはなぜ？　原因を特定できる『バーラト学習モデル』で診断してみた",
+    "url": "https://studyhacker.net/bharat-learning-model",
+    "publishedAt": "2026-07-27T22:00:00.000Z",
+    "summary": "「本は読んでいるのに、仕事に活かせている気がしない」 「オンライン講座を最後まで受けたのに、内容をもう思い出せない」 学んだのに、身についていない。時間をかけたのに、成果になっていない。足りないのは努力の量なのでしょうか。 じつはその原因、最近発表された学習モデルを使うと「診断」できるかもしれません。学びがうまくいかない理由を、特定できる形で示してくれるモデルです。 今回は、その「バーラト学習モデル」の考え方と診断のやり方、そしてゼロを埋めるふたつの行動をご紹介します。 「身につかない学び」を診断できる、バーラト学習モデル 学びの成否は、「掛け算」で決ま…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "d701ce9cb61c91fa",
@@ -5880,6 +7030,16 @@
     "fetchedAt": "2026-07-28T00:13:21.209Z"
   },
   {
+    "id": "8c1b85306b439638",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "伝わるメールは「順番」が命！ テンプレ付き、返信がすぐ来るメールの作り方",
+    "url": "https://studyhacker.net/business-mail-short",
+    "publishedAt": "2026-07-27T10:00:00.000Z",
+    "summary": "「必要な情報は全部メールに書いてあるのに、読んでもらえていないようだ」「なかなか返信が来ない……」 そんなことが続けば、業務にも支障が出て困りもの。同時に、「自分の時間や仕事が軽視されているのではないか」とモヤモヤしてしまう人もいるかもしれません。 これはもちろん相手側にも不手際がありますが、メールの送り手側にも工夫の余地があるはずです。カギを握るのは、情報の「順番」。どういうことなのか、一緒に考えていきましょう。 「一瞬で伝わる人」がやっている3つのポイント （1）冒頭1行で「誰向けの、何の話で、何をしてほしいか」を完結させる （2）相手に求めるアクシ…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "22cd930d1d841aca",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -6120,6 +7280,16 @@
     "fetchedAt": "2026-07-28T00:13:21.209Z"
   },
   {
+    "id": "72ee29e6de7fefcc",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "仕事のストレスは発散するな。脳科学者が警告する「最も危険なストレス習慣」",
+    "url": "https://studyhacker.net/takeyuki-nishi-interview501",
+    "publishedAt": "2026-07-26T22:01:00.000Z",
+    "summary": "「人生の質」を左右するものはなんでしょうか。収入や肩書、健康、人間関係などさまざまな要素がありますが、その土台には「どのような脳の状態で日々を過ごしているか」という視点があります。慢性的なストレスは「仕事の成果にとどまらず人生そのものに悪影響を与える」と警鐘を鳴らすのは、脳科学者の西剛志さん。仕事のストレスが人生をむしばむメカニズムと、その対処法について聞きました。 構成／岩川悟 取材・文／清家茂樹 写真／石塚雅人 【プロフィール】 西剛志（にし・たけゆき） 1975年生まれ。脳科学者（工学博士）、分子生物学者。東京工業大学大学院生命情報専攻修了、博士号…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "8dc5f473db060752",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -6128,6 +7298,16 @@
     "publishedAt": "2026-07-26T22:00:00.000Z",
     "summary": "前編「Appleはもう『メモリのお得意様』ではない？ NVIDIAだけでiPhone数億台分、苦境に陥った”買いたたき王者”のいま」では、米Appleによる中華メモリメーカー・CXMTへの接近と、その対応にはあまり意味がないのでは？ という疑問を述べた。後編では筆者がそう考える背景をご紹介したい。",
     "fetchedAt": "2026-07-28T00:13:21.209Z"
+  },
+  {
+    "id": "ce6f93b52fab24e7",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "そのイライラ、忙しさのせいじゃないかも。脳を消耗させる「認知負荷」の正体",
+    "url": "https://studyhacker.net/hidden-stress-work",
+    "publishedAt": "2026-07-26T22:00:00.000Z",
+    "summary": "超多忙な毎日。チャットの通知が鳴るたびにイラッ、同僚からの質問にイラッ。今日は思わず後輩に、強い口調で返してしまった……。 こんなとき、多くの人は「仕事が忙しすぎる」「忍耐力がない」と考えるでしょう。でも、原因は「忙しさ」や「精神力」だけとは限りません。 ここで見落とされがちなのが、集中力や感情をむしばむ「認知負荷」の存在です。 では、いったい何があなたの認知負荷をそこまで奪っているのか。その正体を、対策とあわせて見ていきましょう。 原因1 自分で決められない「コントロール権の欠如」 原因2 集中を寸断する「頻繁な中断」 原因3 頭に居座る「未処理タスク…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "f3b45ced8e929640",
@@ -6178,6 +7358,16 @@
     "publishedAt": "2026-07-26T11:34:50.000Z",
     "summary": "フロントエンドのアーキテクチャ手法 Feature-Sliced Design (FSD) を体系的にまとめた本です。Layers・Slices・Segments の定義から、Public API、依存ルール、cross-import、層の判断基準、lint による強制、既存プロジェクトへの段階導入までを、公式仕様に沿って整理しました。",
     "fetchedAt": "2026-07-29T00:11:11.638Z"
+  },
+  {
+    "id": "f57a117faf634074",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "サーバント・リーダーは「奉仕者」ではない。命令せずに成果を出す「空気の支配者」の正体",
+    "url": "https://studyhacker.net/servant-leader-control",
+    "publishedAt": "2026-07-26T10:00:00.000Z",
+    "summary": "2008年、日本で『サーバントリーダーシップ』という500ページを超える一冊が翻訳出版されました。「リーダーは、まず奉仕せよ」。この考え方は静かに広まり、いまや「良い上司」の代名詞のように語られています。*1 その教えにならって、あなたも実践してきたかもしれません。会議では自分が仕切らずにメンバーへ意見を求め、面倒な仕事も進んで引き受け、指示するより、まず相手の話に耳を傾ける。 それなのに、チームはいつまでも指示待ちのまま。困りごとは全部あなたに集まり、肝心の自分の仕事は後回し。「支えているほど、なぜか空回りする」。そんな感覚に、心当たりはありませんか。…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "227ea957c6361552",
@@ -6480,6 +7670,16 @@
     "fetchedAt": "2026-07-26T07:13:52.587Z"
   },
   {
+    "id": "548cd40c3228fc50",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "SNSで話題の「ノンデリ」ってなに？ 踏み込みグセのある人への対処法と、\"隠れノンデリ\"を防ぐセルフチェック",
+    "url": "https://studyhacker.net/non-delicacy-boundary",
+    "publishedAt": "2026-07-25T22:00:00.000Z",
+    "summary": "最近、SNSでよく耳にする「ノンデリ」という言葉。「ノンデリカシー」の略で、デリカシー（配慮）に欠ける人や発言を指します。 「まだ結婚しないの？」「その仕事、向いてないんじゃない？」悪気はなさそうなのに、ぐさりと踏み込んでくる……。そう聞くと、職場の誰かの顔が浮かんでくるかもしれません。 無神経なひとことに心が乱されると、仕事のパフォーマンスや学びへの集中力まで奪われてしまうもの。 そこで本記事では、ノンデリな人に振り回されないための心理学的な「境界線（バウンダリー）」の引き方と、自分が知らないうちに「隠れノンデリ」になっていないかを確認する簡単なセルフ…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "1d576f2eadfb41a6",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -6670,6 +7870,16 @@
     "fetchedAt": "2026-07-26T07:13:52.858Z"
   },
   {
+    "id": "ec0fa15f3fca1b3b",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "あなたは当てはまってない？──信頼されない人に共通する4つの「無自覚な振る舞い」タイプ診断",
+    "url": "https://studyhacker.net/how-to-build-trust",
+    "publishedAt": "2026-07-25T10:00:00.000Z",
+    "summary": "仕事ぶりには、それなりの自信がある。真面目に取り組んでいるし、手を抜いてもいない。それなのに、気づけばチームの中でどこか浮いている気がする。大事な仕事は、いつも自分以外の誰かに回っていく。 「正当に評価されていないのでは」「自分ばかり損をしているのでは」。そう感じたことのある人は、少なくないかもしれません。その違和感の正体は、まわりとの信頼関係を十分に築けていないことにあるのかもしれません。 能力や成果を上げるだけでは、信頼関係は自動的には育ちません。むしろ信頼を遠ざけているのは、本人がまったく気づいていない「無自覚な振る舞い」であることが多いのです。だ…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "60a555cbabd18483",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -6760,6 +7970,16 @@
     "fetchedAt": "2026-07-26T07:13:52.587Z"
   },
   {
+    "id": "18b4cb677d060f43",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "シンクロニシティの科学：人生の転換期をビジネスの武器にする方法",
+    "url": "https://studyhacker.net/career-coincidence",
+    "publishedAt": "2026-07-24T22:00:00.000Z",
+    "summary": "「久しぶりに思い出した人から、その日の午後に連絡が来た」 「苦しい時期に、見知らぬ人から、必要な言葉をかけられた」 偶然にしては出来すぎたタイミングに、はっとした経験はありませんか。 スイスの精神科医・心理学者カール・グスタフ・ユング氏は、こうした「意味のある偶然」をシンクロニシティと呼びました。*1 興味深いのは、それが人生のどの時期にも均等に起こるわけではなく、キャリアの転換、離職、独立、大きな挑戦といった「節目」に集中しやすいという指摘があることです。 この現象を長年研究してきたのが、バージニア大学客員教授で元ミズーリ大学精神科主任のバーナード・バ…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "2e453a08cfa89660",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -6818,6 +8038,16 @@
     "publishedAt": "2026-07-24T10:20:00.000Z",
     "summary": "スーパーの青果売り場に並ぶ、生成AIで作ったとみられる派手な商品ポップがXで物議を醸している。吸血鬼や戦国武将を描いたデザインに「見づらい」との声が相次ぐ中、看板広告で知られるきぬた歯科のきぬた泰和院長は「これはアリ」と評価。その理由とは。",
     "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "b8f2d062a5df21bd",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「次の休みにやろう」と決めたはずなのに動けない？ ——その理由と対策、教えます。",
+    "url": "https://studyhacker.net/laziness-brain-mechanism",
+    "publishedAt": "2026-07-24T10:00:00.000Z",
+    "summary": "「週末こそ、旅行の計画を立てよう」「仕事が終わったら、副業のアイデアを形にしよう」。仕事中はやりたいことが次々と浮かぶのに、いざ休日を迎えると、なぜかソファから動けないまま夕方になっている。こんな経験はありませんか？ あれほどあった仕事中のやる気は、いったいどこへ消えてしまったのか。自由な時間があるはずの休日ほど、かえって動けなくなる。 じつはこれ、意志が弱いからではなく、脳の仕組みが引き起こす自然な現象です。仕組みさえわかれば、動かす手立ては見えてきます。 あえて、自分を縛る あえて、やりかけで終える あえて、締め切りをつくる よくある質問（FAQ） …",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "bb82eaf3162fea25",
@@ -7008,6 +8238,16 @@
     "publishedAt": "2026-07-23T22:11:26.000Z",
     "summary": "アメリカのトランプ政権は、日本を含む主要な60の貿易相手の国や地域を対象に、日本時間の24日午後1時すぎ、新たな追加関税を発動します。日本からの輸入品には、既存の関税率とあわせて12.5％の関税を課す…",
     "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "d45c8815d9175e44",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "その勉強、続かないのは意志が弱いからじゃない。始める前に書く『設計図メモ』",
+    "url": "https://studyhacker.net/study-blueprint-memo",
+    "publishedAt": "2026-07-23T22:00:00.000Z",
+    "summary": "資格試験の参考書を買い込んだのに、気づけば本棚の肥やし。仕事終わりのカフェで「今日こそ」とノートを開いてもスマホを眺めて終わり、休日にまとめてやろうと思っていた日は昼過ぎまで寝てしまう。 やる気がないわけではないのに、勉強だけがなぜか続かない。いったい、何が足りないのでしょうか。 多くのビジネスパーソンが「自分は意志が弱いから続かないんだ」と自分を責めがちです。しかし、じつはその挫折の原因は、あなたの意志力とはほとんど関係がありません。 原因は、勉強を始める前に「設計図」を用意していないことにあります。ゴールも決めず、復習のタイミングも決めず、ただ「なん…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "c8c1a00df637ed7f",
@@ -7328,6 +8568,16 @@
     "publishedAt": "2026-07-23T10:03:37.000Z",
     "summary": "シャチがホエールウォッチングの船のそばを泳ぐ様子＝2024年1月、カリフォルニア州ハンティントンビーチ沖/Mark Rightmire/MediaNews Group/Orange County Register/Getty Images （CNN） 大型の重い魚に猛スピードで体当たりし、その衝撃で一瞬にしてバラバラの肉片に粉砕する――。「キラーホエール」とも呼ばれるシャチ...",
     "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "5f0e095e52980a17",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「勉強できる人」と「仕事ができる人」3つの共通点。大切なのは意外にも “性格” だった",
+    "url": "https://studyhacker.net/3things_study_work",
+    "publishedAt": "2026-07-23T10:00:00.000Z",
+    "summary": "「学生の頃は優秀だと言われたのに、仕事ではなぜか評価されない」。あるいは逆に、「仕事はそれなりにこなせているのに、勉強となるとどうも苦手」。勉強と仕事の手ごたえがどうもかみ合わない、そんな感覚に心当たりはありませんか。 勉強と仕事は、別物のように思えます。けれど、その両方を高いレベルでこなす人たちを見ていくと、意外な共通点が浮かび上がってきます。 しかもその共通点は、どれも今日から意識できるものばかり。勉強と仕事、両方の手ごたえを変えていく手がかりを、これから見ていきます。 仕事ができる人については、「圧倒的に仕事ができる人の特徴14選。仕事ができる人は…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "5f1533efabb4b4cf",
@@ -7660,6 +8910,16 @@
     "fetchedAt": "2026-07-23T00:16:34.141Z"
   },
   {
+    "id": "2bdb7c7742d9b82e",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「あの人、話しかけづらい……」がラクになる。心理学でわかった報連相の3つのコツ",
+    "url": "https://studyhacker.net/hard-to-talk-reason",
+    "publishedAt": "2026-07-22T22:00:00.000Z",
+    "summary": "「あの人、なんだか話しかけづらいな」。職場に、そう感じる相手のひとりやふたり、いるものです。いつも忙しそうだったり、どこか不機嫌そうだったり。ちょっとした用でも、つい後回しにしたくなります。 とはいえ、仕事をしている以上、報告・連絡・相談は避けて通れません。話しかけづらいからといって、放っておくわけにもいかないものです。 そこで頼りになるのが、心理学の知見です。ほんの少し工夫するだけで、話しかけづらい相手とのやりとりは、思ったより楽になります。 コツ1 フラットに話しかける コツ2 クローズド・クエスチョンで聞く コツ3 「相手の事情」ととらえ直す よく…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
     "id": "ca169e699c49b3bf",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -7958,6 +9218,16 @@
     "publishedAt": "2026-07-22T10:26:06.000Z",
     "summary": "6月の貿易統計が発表され、緊迫した状況が続くイラン情勢を受けて、中東からの原油の輸入量は前の年の同じ月より40％余り減少しました。一方、アメリカからの原油の輸入量は5.5倍に増えていて、代替調達の動き…",
     "fetchedAt": "2026-07-23T00:16:34.638Z"
+  },
+  {
+    "id": "128fe8212e19443d",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "計画を「あとから」立てたらうまくいった。無計画で走り出す『変速3ステップ計画術』をやってみた",
+    "url": "https://studyhacker.net/three-steps-planning",
+    "publishedAt": "2026-07-22T10:00:00.000Z",
+    "summary": "「やるべきことを書き出してみたら、タスクの多さとゴールまでの遠さに圧倒され、逆にやる気がなくなってしまった……」 「そもそも初めてのチャレンジだから、どれくらい時間がかかるか読めず、計画の立てようがない……」 じつはこれ、少し前の筆者の悩みです。目標に向かって一歩を踏み出そうとするたび、計画の段階で行き詰まってしまう。同じところでつまずいている人は、筆者だけではないかもしれません。 そこで試してみたのが、計画を立てるタイミングをズラすというアプローチ。本記事では、筆者が実際にやってみて効果を実感した「変速3ステップ計画術」を、実践のノートとともに紹介しま…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "e92807a52884d596",
@@ -8338,6 +9608,16 @@
     "publishedAt": "2026-07-21T22:14:00.000Z",
     "summary": "LINEヤフーは21日、「Yahoo!天気」アプリおよび「Agent i」で、「天気コーデ」機能の提供を始めた。その日の天気や気温にあったコーディネートを画像で確認できる。",
     "fetchedAt": "2026-07-22T00:06:43.054Z"
+  },
+  {
+    "id": "3f0ff85cceab20e8",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "仕事ができないのではない。「評価される場所」が違うだけだった",
+    "url": "https://studyhacker.net/mai-teshigawara-interview03",
+    "publishedAt": "2026-07-21T22:01:00.000Z",
+    "summary": ".related-box { background: #f7f9fa; border: 1px solid #2c3e50; border-radius: 4px; padding: 10px 16px; margin: 20px 0; font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; } .related-box-label { font-size: 12px; font-weight: 600; color: #04a2d6; letter-spacing: 0…",
+    "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
     "id": "1de0e14ad84705d8",
@@ -10938,6 +12218,16 @@
     "publishedAt": "2026-07-14T10:00:42.000Z",
     "summary": "! この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに さて、今年も夏がやってきましたね。みなさん、夏休みの過ごし方はもう決まりましたか？ 私は「今年こそ積んでた技術書を消化するぞ」とひそかに誓っているのですが、どうせ気づいたらYouTubeで虎とライオンが喧嘩する動画を3時間見ている——そんな未来がうっすら見えています。 そんなどうでもいい余談は置いといて、普段ReactでWebフロントを書いているみなさん、App StoreやGoogle Playからアプリをダウンロードするたびに「これ、もしかしてReact Na…",
     "fetchedAt": "2026-07-20T10:51:01.784Z"
+  },
+  {
+    "id": "99551e9597e11c59",
+    "source": "中学受験情報局",
+    "sourceUrl": "https://www.e-juken.jp/feed",
+    "title": "東京女学館中学校 校長インタビュー 我が子の「見えない限界」を取り払う！新時代の「化ける」6年間と手厚いサポートの全貌",
+    "url": "https://www.e-juken.jp/gakko/tokyojogakkan-specialinterview.html",
+    "publishedAt": "2026-07-14T00:00:49.000Z",
+    "summary": "＜東京女学館中学校＞校長対談 我が子の「見えない限界」を取り払う！新時代の「化ける」6年間と手厚いサポートの全貌 公開年月日：2026年7月15日 中学受験は決してゴールではありません。12歳から18歳という、人間形成に…",
+    "fetchedAt": "2026-08-01T16:02:23.716Z"
   },
   {
     "id": "ba459a3d7857ae96",

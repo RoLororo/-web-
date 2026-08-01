@@ -29,6 +29,8 @@ export const THEME_CATALOG = {
   'home-server-selfhost':   { title: '自宅サーバー・セルフホスト',       category: 'AI・テクノロジー' },
   'remote-work':            { title: 'リモートワーク・ハイブリッド勤務', category: 'ビジネス' },
   'senior-health':          { title: '高齢者向け健康・認知症予防',       category: '健康' },
+  'study-methods':          { title: '学習法・勉強効率',                 category: '教育' },
+  'exam-admission':         { title: '受験・進学',                       category: '教育' },
 };
 
 /** テーマ ID → 表示名 (未知の id なら id をそのまま返す) */

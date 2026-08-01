@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-01T15:17:30.380Z",
+  "generatedAt": "2026-08-01T15:57:12.512Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
-  "mappedThemeCount": 11,
-  "successCount": 11,
+  "mappedThemeCount": 13,
+  "successCount": 13,
   "skippedCount": 0,
   "errorCount": 0,
-  "totalRequestCount": 11,
+  "totalRequestCount": 13,
   "themesSkipped": [],
   "errors": [],
   "themes": {
@@ -18,7 +18,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -74,7 +74,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -130,7 +130,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -186,7 +186,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -242,7 +242,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -298,7 +298,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -354,7 +354,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -410,7 +410,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -466,7 +466,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -522,7 +522,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -578,7 +578,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T15:17:30.380Z",
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -625,6 +625,118 @@
           "issued": "2025.5",
           "publisher": "秀和システム",
           "author": "りゅう, かつや"
+        }
+      ],
+      "errors": []
+    },
+    "study-methods": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 7534,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 7534
+      },
+      "topItems": [
+        {
+          "title": "IoTを支える技術 : あらゆるモノをつなぐ半導体のしくみ",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028022466",
+          "issued": "2017.3",
+          "publisher": "SBクリエイティブ",
+          "author": "菊地, 正典, 1944-"
+        },
+        {
+          "title": "IQ200の「学び」の方法 : 読む・書く・考える",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024696710",
+          "issued": "2013.8",
+          "publisher": "祥伝社",
+          "author": "矢野, 祥, 1990-"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i9363150",
+          "issued": "2010",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i9364187",
+          "issued": "2009-2010",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "ITエンジニアのゼロから始める英語勉強法 : 英語落ちこぼれでもペラペラになれる!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024267762",
+          "issued": "2013.3",
+          "publisher": "日経BP社",
+          "author": null
+        }
+      ],
+      "errors": []
+    },
+    "exam-admission": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T15:57:12.512Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 8286,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 8286
+      },
+      "topItems": [
+        {
+          "title": "アースライズ総合英語",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034557671",
+          "issued": "2026.2",
+          "publisher": "数研出版",
+          "author": null
+        },
+        {
+          "title": "アースライズ総合英語",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031948288",
+          "issued": "2021.11",
+          "publisher": "数研出版",
+          "author": null
+        },
+        {
+          "title": "「ああ、そうか」と気づく「子育てQ&A」 : 思春期・青年期50例集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010114290",
+          "issued": "2009.5",
+          "publisher": "文芸社ビジュアルアート",
+          "author": "安部, 利一"
+        },
+        {
+          "title": "合言葉は現役合格 : 大学受験必勝のカギ",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002140695",
+          "issued": "1990.12",
+          "publisher": "現役会",
+          "author": "現役会"
+        },
+        {
+          "title": "相澤のセンター試験倫理をはじめからていねいに : 大学受験倫理",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009606670",
+          "issued": "2008.9",
+          "publisher": "ナガセ",
+          "author": "相澤, 理"
         }
       ],
       "errors": []

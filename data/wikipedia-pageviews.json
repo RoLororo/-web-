@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-01T15:14:55.269Z",
+  "generatedAt": "2026-08-01T15:55:19.708Z",
   "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
   "windowDays": 30,
   "windowStart": "2026-07-02",
   "windowEnd": "2026-07-31",
-  "mappedThemeCount": 11,
-  "successCount": 9,
-  "errorCount": 2,
+  "mappedThemeCount": 13,
+  "successCount": 12,
+  "errorCount": 1,
   "themes": {
     "ai-business-automation": {
       "articles": [
@@ -54,7 +54,7 @@
         "2026-07-30": 1105,
         "2026-07-31": 903
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "ai-coding": {
       "articles": [
@@ -100,7 +100,7 @@
         "2026-07-30": 74,
         "2026-07-31": 63
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "ai-content-generation": {
       "articles": [
@@ -146,22 +146,53 @@
         "2026-07-30": 135,
         "2026-07-31": 125
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "ai-hardware": {
       "articles": [
         "NVIDIA"
       ],
-      "articlesFetched": [],
-      "articlesFailed": [
+      "articlesFetched": [
         "NVIDIA"
       ],
-      "totalPageviews30d": 0,
-      "totalPageviews7d": 0,
-      "totalPageviewsPrior7d": 0,
-      "growthPercent": null,
-      "byDate": {},
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "articlesFailed": [],
+      "totalPageviews30d": 34178,
+      "totalPageviews7d": 4005,
+      "totalPageviewsPrior7d": 9787,
+      "growthPercent": -59,
+      "byDate": {
+        "2026-07-02": 495,
+        "2026-07-03": 409,
+        "2026-07-04": 338,
+        "2026-07-05": 376,
+        "2026-07-06": 401,
+        "2026-07-07": 413,
+        "2026-07-08": 446,
+        "2026-07-09": 441,
+        "2026-07-10": 577,
+        "2026-07-11": 396,
+        "2026-07-12": 356,
+        "2026-07-13": 524,
+        "2026-07-14": 617,
+        "2026-07-15": 2715,
+        "2026-07-16": 7593,
+        "2026-07-17": 4289,
+        "2026-07-18": 2941,
+        "2026-07-19": 2059,
+        "2026-07-20": 1122,
+        "2026-07-21": 1431,
+        "2026-07-22": 850,
+        "2026-07-23": 812,
+        "2026-07-24": 572,
+        "2026-07-25": 550,
+        "2026-07-26": 518,
+        "2026-07-27": 531,
+        "2026-07-28": 725,
+        "2026-07-29": 774,
+        "2026-07-30": 488,
+        "2026-07-31": 419
+      },
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "infrastructure-outages": {
       "articles": [
@@ -207,7 +238,7 @@
         "2026-07-30": 162,
         "2026-07-31": 163
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "security-breach": {
       "articles": [
@@ -253,7 +284,7 @@
         "2026-07-30": 50,
         "2026-07-31": 38
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "payment-troubles": {
       "articles": [
@@ -299,22 +330,53 @@
         "2026-07-30": 240,
         "2026-07-31": 380
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "home-server-selfhost": {
       "articles": [
         "自宅サーバ"
       ],
-      "articlesFetched": [],
-      "articlesFailed": [
+      "articlesFetched": [
         "自宅サーバ"
       ],
-      "totalPageviews30d": 0,
-      "totalPageviews7d": 0,
-      "totalPageviewsPrior7d": 0,
-      "growthPercent": null,
-      "byDate": {},
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "articlesFailed": [],
+      "totalPageviews30d": 192,
+      "totalPageviews7d": 49,
+      "totalPageviewsPrior7d": 43,
+      "growthPercent": 14,
+      "byDate": {
+        "2026-07-02": 5,
+        "2026-07-03": 3,
+        "2026-07-04": 7,
+        "2026-07-05": 13,
+        "2026-07-06": 5,
+        "2026-07-07": 6,
+        "2026-07-08": 14,
+        "2026-07-09": 3,
+        "2026-07-10": 5,
+        "2026-07-11": 5,
+        "2026-07-12": 2,
+        "2026-07-13": 8,
+        "2026-07-14": 3,
+        "2026-07-15": 6,
+        "2026-07-16": 5,
+        "2026-07-17": 10,
+        "2026-07-18": 3,
+        "2026-07-19": 2,
+        "2026-07-20": 9,
+        "2026-07-21": 10,
+        "2026-07-22": 7,
+        "2026-07-23": 4,
+        "2026-07-24": 8,
+        "2026-07-25": 3,
+        "2026-07-26": 8,
+        "2026-07-27": 9,
+        "2026-07-28": 7,
+        "2026-07-29": 8,
+        "2026-07-30": 7,
+        "2026-07-31": 7
+      },
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "remote-work": {
       "articles": [
@@ -360,7 +422,7 @@
         "2026-07-30": 24,
         "2026-07-31": 21
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "senior-health": {
       "articles": [
@@ -406,7 +468,7 @@
         "2026-07-30": 84,
         "2026-07-31": 89
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     },
     "ai-regulation": {
       "articles": [
@@ -452,18 +514,74 @@
         "2026-07-30": 549,
         "2026-07-31": 543
       },
-      "fetchedAt": "2026-08-01T15:14:55.269Z"
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
+    },
+    "study-methods": {
+      "articles": [
+        "学習"
+      ],
+      "articlesFetched": [
+        "学習"
+      ],
+      "articlesFailed": [],
+      "totalPageviews30d": 880,
+      "totalPageviews7d": 182,
+      "totalPageviewsPrior7d": 194,
+      "growthPercent": -6,
+      "byDate": {
+        "2026-07-02": 40,
+        "2026-07-03": 32,
+        "2026-07-04": 22,
+        "2026-07-05": 32,
+        "2026-07-06": 51,
+        "2026-07-07": 31,
+        "2026-07-08": 36,
+        "2026-07-09": 26,
+        "2026-07-10": 30,
+        "2026-07-11": 21,
+        "2026-07-12": 21,
+        "2026-07-13": 37,
+        "2026-07-14": 32,
+        "2026-07-15": 35,
+        "2026-07-16": 33,
+        "2026-07-17": 25,
+        "2026-07-18": 24,
+        "2026-07-19": 24,
+        "2026-07-20": 18,
+        "2026-07-21": 41,
+        "2026-07-22": 30,
+        "2026-07-23": 23,
+        "2026-07-24": 34,
+        "2026-07-25": 19,
+        "2026-07-26": 36,
+        "2026-07-27": 31,
+        "2026-07-28": 21,
+        "2026-07-29": 31,
+        "2026-07-30": 26,
+        "2026-07-31": 18
+      },
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
+    },
+    "exam-admission": {
+      "articles": [
+        "大学入学共通テスト"
+      ],
+      "articlesFetched": [],
+      "articlesFailed": [
+        "大学入学共通テスト"
+      ],
+      "totalPageviews30d": 0,
+      "totalPageviews7d": 0,
+      "totalPageviewsPrior7d": 0,
+      "growthPercent": null,
+      "byDate": {},
+      "fetchedAt": "2026-08-01T15:55:19.708Z"
     }
   },
   "errors": [
     {
-      "theme": "ai-hardware",
-      "article": "NVIDIA",
-      "error": "HTTP 404 Not Found"
-    },
-    {
-      "theme": "home-server-selfhost",
-      "article": "自宅サーバ",
+      "theme": "exam-admission",
+      "article": "大学入学共通テスト",
       "error": "HTTP 404 Not Found"
     }
   ]

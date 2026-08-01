@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:16:20.417Z",
+  "generatedAt": "2026-08-01T15:55:57.374Z",
   "source": "arxiv",
   "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
   "mappingVersion": 1,
@@ -7,18 +7,18 @@
   "windowDays": 30,
   "windowStart": "202607020000",
   "windowEnd": "202608010000",
-  "mappedThemeCount": 11,
-  "successCount": 11,
+  "mappedThemeCount": 13,
+  "successCount": 13,
   "skippedCount": 0,
   "errorCount": 0,
-  "totalRequestCount": 11,
+  "totalRequestCount": 13,
   "themesSkipped": [],
   "themes": {
     "ai-business-automation": {
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -92,7 +92,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -166,7 +166,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -240,7 +240,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -314,7 +314,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -388,7 +388,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -462,7 +462,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -536,7 +536,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -602,7 +602,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -676,7 +676,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -750,7 +750,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:16:20.417Z",
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -817,6 +817,122 @@
           "category": "cs.CY",
           "authorCount": 2,
           "firstAuthor": "Adam Zable"
+        }
+      ]
+    },
+    "study-methods": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 4073,
+        "engagement": null,
+        "contributors": 540,
+        "latestActivityAt": "2026-07-28T07:32:09Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 4073,
+        "uniqueAuthors": 540,
+        "avgAuthorsPerPaper": 5.5,
+        "primaryCategoryTop": "cs.CV",
+        "isAuthorsSampled": true,
+        "sampleSize": 100,
+        "latestPaperPublished": "2026-07-28T07:32:09Z"
+      },
+      "meta": {
+        "searchQuery": "abs:\"learning strategies\" OR abs:\"spaced repetition\" OR abs:\"self-regulated learning\" OR abs:\"memory retention\" AND submittedDate:[202607020000 TO 202608010000]",
+        "dateFilter": "202607020000 TO 202608010000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      },
+      "topItems": [
+        {
+          "title": "Gaussian Volumetric Representation for Efficient Shear-Warp Visualization",
+          "url": "https://arxiv.org/abs/2607.25377v1",
+          "publishedAt": "2026-07-28T07:32:09Z",
+          "category": "cs.CV",
+          "authorCount": 2,
+          "firstAuthor": "Mayuri Mathur"
+        },
+        {
+          "title": "Memdora: Designing Cognitively-Grounded Flashcard Interactions for AI-Powered Spaced Repetition",
+          "url": "https://arxiv.org/abs/2607.25096v1",
+          "publishedAt": "2026-07-27T21:40:14Z",
+          "category": "cs.HC",
+          "authorCount": 1,
+          "firstAuthor": "Ruiyang Zhang"
+        },
+        {
+          "title": "Offline-Online Curriculum RL for Multimodal Reasoning",
+          "url": "https://arxiv.org/abs/2607.23700v1",
+          "publishedAt": "2026-07-26T14:47:47Z",
+          "category": "cs.AI",
+          "authorCount": 14,
+          "firstAuthor": "Wendi Deng"
+        },
+        {
+          "title": "Not All Patches are Equal: Sampling Matters for Visible-Infrared Pre-Training",
+          "url": "https://arxiv.org/abs/2607.20238v1",
+          "publishedAt": "2026-07-22T14:59:02Z",
+          "category": "cs.CV",
+          "authorCount": 8,
+          "firstAuthor": "Qiwei Ma"
+        },
+        {
+          "title": "OffNadirLoc: Benchmark and Framework for Challenging UAV-to-Satellite Geo-Localization under Large Off-Nadir Views",
+          "url": "https://arxiv.org/abs/2607.19951v1",
+          "publishedAt": "2026-07-22T09:27:50Z",
+          "category": "cs.CV",
+          "authorCount": 5,
+          "firstAuthor": "Qian Qiao"
+        }
+      ]
+    },
+    "exam-admission": {
+      "envelopeVersion": "1.0.0",
+      "source": "arxiv",
+      "windowDays": 30,
+      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 1,
+        "engagement": null,
+        "contributors": 1,
+        "latestActivityAt": "2026-07-17T22:50:47Z"
+      },
+      "nativeMetrics": {
+        "paperCount": 1,
+        "uniqueAuthors": 1,
+        "avgAuthorsPerPaper": 1,
+        "primaryCategoryTop": "math.ST",
+        "isAuthorsSampled": false,
+        "sampleSize": 1,
+        "latestPaperPublished": "2026-07-17T22:50:47Z"
+      },
+      "meta": {
+        "searchQuery": "abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\" AND submittedDate:[202607020000 TO 202608010000]",
+        "dateFilter": "202607020000 TO 202608010000",
+        "maxResults": 100,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      },
+      "topItems": [
+        {
+          "title": "Projective Maximum Entropy: Universality and Acceptance-Region Calibration",
+          "url": "https://arxiv.org/abs/2607.16547v1",
+          "publishedAt": "2026-07-17T22:50:47Z",
+          "category": "math.ST",
+          "authorCount": 1,
+          "firstAuthor": "Hideitsu Hino"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:21:57.629Z",
+  "generatedAt": "2026-08-01T16:08:37.338Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,11 +10,11 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:14:55.269Z",
-      "mappedThemeCount": 11,
-      "successCount": 9,
+      "generatedAt": "2026-08-01T15:55:19.708Z",
+      "mappedThemeCount": 13,
+      "successCount": 12,
       "skippedCount": 0,
-      "errorCount": 2,
+      "errorCount": 1,
       "requestCount": null,
       "observedThemes": [
         "ai-business-automation",
@@ -27,22 +27,19 @@
         "home-server-selfhost",
         "remote-work",
         "senior-health",
-        "ai-regulation"
+        "ai-regulation",
+        "study-methods",
+        "exam-admission"
       ],
       "skipped": [],
       "errors": [
         {
-          "theme": "ai-hardware",
-          "type": "unknown",
-          "retryable": false
-        },
-        {
-          "theme": "home-server-selfhost",
+          "theme": "exam-admission",
           "type": "unknown",
           "retryable": false
         }
       ],
-      "totalVolume": 82949
+      "totalVolume": 118199
     },
     {
       "id": "qiita",
@@ -53,22 +50,14 @@
       "apiDocs": "https://qiita.com/api/v2/docs",
       "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:15:03.464Z",
-      "mappedThemeCount": 11,
-      "successCount": 9,
-      "skippedCount": 2,
-      "errorCount": 0,
-      "requestCount": 43,
+      "generatedAt": "2026-08-01T15:55:26.923Z",
+      "mappedThemeCount": 13,
+      "successCount": 1,
+      "skippedCount": 3,
+      "errorCount": 21,
+      "requestCount": 13,
       "observedThemes": [
-        "ai-business-automation",
-        "ai-coding",
-        "ai-content-generation",
-        "ai-hardware",
-        "infrastructure-outages",
-        "security-breach",
-        "payment-troubles",
-        "home-server-selfhost",
-        "remote-work"
+        "ai-business-automation"
       ],
       "skipped": [
         {
@@ -80,10 +69,121 @@
           "theme": "ai-regulation",
           "reason": null,
           "note": null
+        },
+        {
+          "theme": "exam-admission",
+          "reason": null,
+          "note": null
         }
       ],
-      "errors": [],
-      "totalVolume": 2171
+      "errors": [
+        {
+          "theme": "ai-business-automation",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-coding",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-coding",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-content-generation",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-content-generation",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-hardware",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-hardware",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "ai-hardware",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "infrastructure-outages",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "infrastructure-outages",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "security-breach",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "security-breach",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "security-breach",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "security-breach",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "payment-troubles",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "payment-troubles",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "home-server-selfhost",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "remote-work",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "remote-work",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "study-methods",
+          "type": "rate-limit",
+          "retryable": true
+        },
+        {
+          "theme": "study-methods",
+          "type": "rate-limit",
+          "retryable": true
+        }
+      ],
+      "totalVolume": 1041
     },
     {
       "id": "arxiv",
@@ -94,12 +194,12 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:16:20.417Z",
-      "mappedThemeCount": 11,
-      "successCount": 11,
+      "generatedAt": "2026-08-01T15:55:57.374Z",
+      "mappedThemeCount": 13,
+      "successCount": 13,
       "skippedCount": 0,
       "errorCount": 0,
-      "requestCount": 11,
+      "requestCount": 13,
       "observedThemes": [
         "ai-business-automation",
         "ai-coding",
@@ -111,11 +211,13 @@
         "home-server-selfhost",
         "remote-work",
         "senior-health",
-        "ai-regulation"
+        "ai-regulation",
+        "study-methods",
+        "exam-admission"
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 6644
+      "totalVolume": 10718
     },
     {
       "id": "appstore",
@@ -126,9 +228,9 @@
       "apiDocs": "https://rss.marketingtools.apple.com/",
       "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
       "windowDays": 1,
-      "generatedAt": "2026-08-01T15:16:16.138Z",
-      "mappedThemeCount": 11,
-      "successCount": 4,
+      "generatedAt": "2026-08-01T15:55:53.262Z",
+      "mappedThemeCount": 13,
+      "successCount": 6,
       "skippedCount": 7,
       "errorCount": 0,
       "requestCount": 2,
@@ -136,7 +238,9 @@
         "ai-business-automation",
         "ai-content-generation",
         "payment-troubles",
-        "remote-work"
+        "remote-work",
+        "study-methods",
+        "exam-admission"
       ],
       "skipped": [
         {
@@ -187,12 +291,12 @@
       "apiDocs": "https://docs.github.com/rest/search",
       "method": "GitHub Search API (repositories created in window)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:17:02.154Z",
-      "mappedThemeCount": 10,
+      "generatedAt": "2026-08-01T15:56:39.330Z",
+      "mappedThemeCount": 12,
       "successCount": 10,
       "skippedCount": 0,
-      "errorCount": 0,
-      "requestCount": 10,
+      "errorCount": 2,
+      "requestCount": 12,
       "observedThemes": [
         "ai-business-automation",
         "ai-regulation",
@@ -206,8 +310,19 @@
         "ai-content-generation"
       ],
       "skipped": [],
-      "errors": [],
-      "totalVolume": 7636
+      "errors": [
+        {
+          "theme": "study-methods",
+          "type": "http-error",
+          "retryable": false
+        },
+        {
+          "theme": "exam-admission",
+          "type": "http-error",
+          "retryable": false
+        }
+      ],
+      "totalVolume": 7637
     },
     {
       "id": "ndl",
@@ -218,12 +333,12 @@
       "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
       "method": "NDL Search OpenSearch API (bibliography count)",
       "windowDays": null,
-      "generatedAt": "2026-08-01T15:17:30.380Z",
-      "mappedThemeCount": 11,
-      "successCount": 11,
+      "generatedAt": "2026-08-01T15:57:12.512Z",
+      "mappedThemeCount": 13,
+      "successCount": 13,
       "skippedCount": 0,
       "errorCount": 0,
-      "requestCount": 11,
+      "requestCount": 13,
       "observedThemes": [
         "senior-health",
         "ai-coding",
@@ -235,11 +350,13 @@
         "ai-regulation",
         "ai-business-automation",
         "home-server-selfhost",
-        "ai-content-generation"
+        "ai-content-generation",
+        "study-methods",
+        "exam-admission"
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 11169
+      "totalVolume": 26989
     }
   ],
   "news": {
@@ -250,21 +367,26 @@
     "homepage": null,
     "apiDocs": null,
     "method": "RSS",
-    "articleCount": 1096,
+    "articleCount": 1225,
     "feeds": [
-      "GIGAZINE",
       "NHK",
       "はてな",
+      "GIGAZINE",
+      "ライフハッカー",
       "はてなIT",
       "Impress Watch",
+      "STUDY HACKER",
+      "リセマム",
       "ITmedia Mobile",
       "CodeZine",
       "Qiita",
+      "ICT教育ニュース",
       "Zenn",
       "ITmedia",
       "窓の杜",
       "ITmedia AI+",
-      "Publickey"
+      "Publickey",
+      "中学受験情報局"
     ]
   }
 }

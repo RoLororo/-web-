@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:17:02.154Z",
+  "generatedAt": "2026-08-01T15:56:39.330Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
@@ -7,30 +7,43 @@
   "windowDays": 30,
   "createdSince": "2026-07-02",
   "authenticated": false,
-  "mappedThemeCount": 10,
+  "mappedThemeCount": 12,
   "successCount": 10,
   "skippedCount": 0,
-  "errorCount": 0,
-  "totalRequestCount": 10,
+  "errorCount": 2,
+  "totalRequestCount": 12,
   "themesSkipped": [],
-  "errors": [],
+  "errors": [
+    {
+      "theme": "study-methods",
+      "type": "http-error",
+      "message": "HTTP 403 rate limit exceeded",
+      "retryable": false
+    },
+    {
+      "theme": "exam-admission",
+      "type": "http-error",
+      "message": "HTTP 403 rate limit exceeded",
+      "retryable": false
+    }
+  ],
   "themes": {
     "ai-business-automation": {
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2375,
-        "engagement": 248,
+        "volume": 2376,
+        "engagement": 250,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2375,
-        "topStarSum": 248,
+        "newRepoCount": 2376,
+        "topStarSum": 250,
         "topLanguage": "JavaScript",
         "createdSince": "2026-07-02"
       },
@@ -38,7 +51,7 @@
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 158,
+          "stars": 160,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -82,7 +95,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -145,7 +158,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -208,17 +221,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 698,
+        "volume": 699,
         "engagement": 57,
         "contributors": null,
         "latestActivityAt": "2026-07-03T06:42:03Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 698,
+        "newRepoCount": 699,
         "topStarSum": 57,
         "topLanguage": "Go",
         "createdSince": "2026-07-02"
@@ -271,7 +284,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -334,7 +347,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -397,18 +410,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 267,
-        "engagement": 108,
+        "volume": 266,
+        "engagement": 109,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 267,
-        "topStarSum": 108,
+        "newRepoCount": 266,
+        "topStarSum": 109,
         "topLanguage": "Go",
         "createdSince": "2026-07-02"
       },
@@ -416,7 +429,7 @@
         {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 42,
+          "stars": 43,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -460,7 +473,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -523,7 +536,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -586,7 +599,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:17:02.154Z",
+      "fetchedAt": "2026-08-01T15:56:39.330Z",
       "complete": true,
       "coverage": 1,
       "metrics": {

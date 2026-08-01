@@ -57,6 +57,16 @@
       "query": "text to image generation",
       "expectedMonthlyCount": null,
       "note": "画像生成 / コンテンツ生成。verifiedAt 時点では未計測 (demands.json から drop されるテーマのため)"
+    },
+    "study-methods": {
+      "query": "spaced repetition flashcard",
+      "expectedMonthlyCount": null,
+      "note": "暗記・学習支援ツール。2026-08-02 追加時点では未計測"
+    },
+    "exam-admission": {
+      "query": "exam preparation quiz",
+      "expectedMonthlyCount": null,
+      "note": "受験対策ツール。2026-08-02 追加時点では未計測"
     }
   }
 }

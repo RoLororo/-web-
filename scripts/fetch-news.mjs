@@ -80,6 +80,30 @@ const FEEDS = [
   { name: 'Impress Watch',  url: 'https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf' },
   { name: 'GIGAZINE',       url: 'https://gigazine.net/news/rss_2.0/' },
   { name: 'はてなIT',        url: 'https://b.hatena.ne.jp/hotentry/it.rss' },
+
+  // ── 教育カテゴリ（2026-08-02 追加） ──────────────────────────────
+  // ここまでの 13 本は技術・ビジネス媒体に偏っており、9 分野のうち
+  // 稼働していたのは 3 分野だけだった。分野を埋めるには、その分野を
+  // 継続的に扱う媒体を足すしかない。
+  //
+  // 採否は技術系と同じく実測で決めた。ただし「紐付き率」は使えない
+  // （既存テーマが技術寄りなので、新分野ほど低く出るため逆向きの指標になる）。
+  // 代わりに「反復語が何であるか」で判断した。実測:
+  //   STUDY HACKER   30件 需要語100% 反復語=勉強法(18)/学習(17)/脳科学(19) → 継続する話題
+  //   リセマム        50件 需要語 10% 反復語=高校野球/インターハイ         → 出来事が主
+  //                        ただし受験語で絞ると 6 件が残り、他に代えがない
+  //   ICT教育ニュース  20件 需要語 25% 反復語=開催/運営                  → 定型文寄り、量の補助
+  //   ライフハッカー    20件 需要語 35% 反復語=方法(4)/時間(4)            → 学習法を 3 情報源にするため
+  //
+  // 不採用: 東洋経済 / プレジデント / ダイヤモンド / 日経ビジネス /
+  //         リクナビNEXT（学習法・受験とも 0-1 件で、量として成立しない）
+  { name: 'STUDY HACKER',   url: 'https://studyhacker.net/feed' },
+  { name: 'リセマム',        url: 'https://resemom.jp/rss/index.rdf' },
+  { name: 'ICT教育ニュース',  url: 'https://ict-enews.net/feed/' },
+  { name: 'ライフハッカー',    url: 'https://www.lifehacker.jp/feed/index.xml' },
+  // 受験テーマが リセマム 1 本に依存していたので追加。
+  // 実測: 10 件すべてが受験の記事（10/10 = 100%）。
+  { name: '中学受験情報局',    url: 'https://www.e-juken.jp/feed' },
 ];
 
 /**

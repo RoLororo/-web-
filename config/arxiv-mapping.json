@@ -61,6 +61,16 @@
       "query": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\"",
       "expectedMonthlyCount": 1176,
       "note": "カテゴリ横断、AI 政策 / 安全性 / ガバナンス / 倫理"
+    },
+    "study-methods": {
+      "query": "abs:\"learning strategies\" OR abs:\"spaced repetition\" OR abs:\"self-regulated learning\" OR abs:\"memory retention\"",
+      "expectedMonthlyCount": null,
+      "note": "学習科学。2026-08-02 追加時点では未計測"
+    },
+    "exam-admission": {
+      "query": "abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\"",
+      "expectedMonthlyCount": null,
+      "note": "入学者選抜の研究。2026-08-02 追加時点では未計測"
     }
   },
   "skippedReasons": {}

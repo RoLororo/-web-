@@ -31,6 +31,26 @@ export default function CategoryDetail() {
   const rising = useMemo(() => [...all].sort((a, b) => b.change - a.change).slice(0, 3), [all]);
   const falling = useMemo(() => [...all].filter((d) => d.change < 0).sort((a, b) => a.change - b.change), [all]);
 
+  /**
+   * 「この分野で急上昇」を出すかどうか。
+   *
+   * rising は上位 3 件を切り出すだけなので、テーマが 3 件以下の分野では
+   * 下の「すべての需要」と中身が完全に一致し、同じカードが 2 回並ぶ。
+   * 2026-08-02 に教育分野（2 件）を追加して顕在化したが、
+   * 健康分野（1 件）でも以前から同じ状態だった。
+   *
+   * 抜粋になっていない時は出さない。上がっているテーマが 1 つも無い時も出さない
+   * （全部下がっている分野で「急上昇」と見出しを出すのは嘘になる）。
+   */
+  const showRising = all.length > rising.length && rising.some((d) => d.change > 0);
+
+  /**
+   * 「下降傾向」も同じ理由で抜粋の時だけ出す。
+   * 全テーマが下降している分野では falling === all になり、
+   * すべての需要と丸ごと重複する（実測 2026-08-02: 健康分野が該当）。
+   */
+  const showFalling = falling.length > 0 && falling.length < all.length;
+
   const avgChange = all.length
     ? Math.round((all.reduce((s, d) => s + d.change, 0) / all.length) * 10) / 10
     : 0;
@@ -73,7 +93,7 @@ export default function CategoryDetail() {
         </div>
       </section>
 
-      {rising.length > 0 && (
+      {showRising && (
         <section className="section">
           <div className="section-head">
             <h2 className="section-title">この分野で急上昇</h2>
@@ -104,7 +124,7 @@ export default function CategoryDetail() {
         </div>
       </section>
 
-      {falling.length > 0 && (
+      {showFalling && (
         <section className="section">
           <div className="section-head">
             <h2 className="section-title">下降傾向</h2>
