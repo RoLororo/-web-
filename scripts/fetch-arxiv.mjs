@@ -140,7 +140,22 @@ function parseArxivFeed(xml) {
 
 async function processTheme(themeId, cfg, windowStart, windowEnd, maxResults) {
   const dateFilter = `submittedDate:[${arxivDate(windowStart)} TO ${arxivDate(windowEnd)}]`;
-  const fullQuery  = `${cfg.query} AND ${dateFilter}`;
+  // mapping のクエリは必ず括弧で囲む。
+  //
+  // 括弧が無いと `A OR B OR C AND submittedDate:[...]` になり、arXiv の
+  // パーサは AND を OR より強く結合するため `A OR B OR (C AND 日付)` と
+  // 解釈する。つまり**日付フィルタが最後の語にしか掛からない**。
+  //
+  // 実測 (2026-08-02、同じ 30 日窓での件数):
+  //   senior-health  2,425 本 → 38 本  (64 倍の過大)
+  //   remote-work      147 本 →  2 本  (74 倍の過大)
+  //   study-methods  4,073 本 → 38 本  (107 倍の過大)
+  //   ai-content-generation 465 本 → 465 本 (元から括弧つきなので影響なし)
+  //
+  // arXiv の件数はスコアには入らないが、詳細ページで
+  // 「arXiv に N 本の論文投稿 — 研究者コミュニティが継続的に取り組み中」
+  // として表示され、総合判定「研究先行」の根拠にもなっていた。
+  const fullQuery  = `(${cfg.query}) AND ${dateFilter}`;
   const url = `${ARXIV_API_BASE}?search_query=${encodeURIComponent(fullQuery)}` +
               `&start=0&max_results=${maxResults}` +
               `&sortBy=submittedDate&sortOrder=descending`;

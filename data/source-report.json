@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:08:37.338Z",
+  "generatedAt": "2026-08-01T16:20:19.088Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -194,7 +194,7 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:55:57.374Z",
+      "generatedAt": "2026-08-01T16:19:22.516Z",
       "mappedThemeCount": 13,
       "successCount": 13,
       "skippedCount": 0,
@@ -217,7 +217,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 10718
+      "totalVolume": 3057
     },
     {
       "id": "appstore",

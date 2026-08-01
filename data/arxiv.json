@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-01T15:55:57.374Z",
+  "generatedAt": "2026-08-01T16:19:22.516Z",
   "source": "arxiv",
   "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
   "mappingVersion": 1,
-  "verifiedAt": "2026-07-22",
+  "verifiedAt": "2026-08-02",
   "windowDays": 30,
   "windowStart": "202607020000",
   "windowEnd": "202608010000",
@@ -18,7 +18,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -39,7 +39,7 @@
         "latestPaperPublished": "2026-07-30T17:59:11Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\") AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\")) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -92,7 +92,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -113,7 +113,7 @@
         "latestPaperPublished": "2026-07-30T17:02:12Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot) AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot)) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -166,7 +166,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -187,7 +187,7 @@
         "latestPaperPublished": "2026-07-30T17:58:02Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\") AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\")) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -240,7 +240,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -261,7 +261,7 @@
         "latestPaperPublished": "2026-07-30T17:59:56Z"
       },
       "meta": {
-        "searchQuery": "abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100) AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100)) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -314,7 +314,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -335,7 +335,7 @@
         "latestPaperPublished": "2026-07-29T16:18:22Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\") AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\")) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -388,7 +388,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -409,7 +409,7 @@
         "latestPaperPublished": "2026-07-29T09:01:26Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing) AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing)) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -462,7 +462,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -483,7 +483,7 @@
         "latestPaperPublished": "2026-07-23T21:21:01Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\") AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\")) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -536,7 +536,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -557,7 +557,7 @@
         "latestPaperPublished": "2026-07-30T12:56:05Z"
       },
       "meta": {
-        "searchQuery": "cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab) AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab)) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -602,28 +602,28 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 147,
+        "volume": 2,
         "engagement": null,
-        "contributors": 377,
+        "contributors": 10,
         "latestActivityAt": "2026-07-30T13:51:22Z"
       },
       "nativeMetrics": {
-        "paperCount": 147,
-        "uniqueAuthors": 377,
-        "avgAuthorsPerPaper": 4,
-        "primaryCategoryTop": "cs.HC",
-        "isAuthorsSampled": true,
-        "sampleSize": 100,
+        "paperCount": 2,
+        "uniqueAuthors": 10,
+        "avgAuthorsPerPaper": 5,
+        "primaryCategoryTop": "cs.NI",
+        "isAuthorsSampled": false,
+        "sampleSize": 2,
         "latestPaperPublished": "2026-07-30T13:51:22Z"
       },
       "meta": {
-        "searchQuery": "abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\" AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\") AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -645,30 +645,6 @@
           "category": "econ.EM",
           "authorCount": 3,
           "firstAuthor": "Fangchen Song"
-        },
-        {
-          "title": "Remote work expands pathways to upward career mobility",
-          "url": "https://arxiv.org/abs/2605.01268v1",
-          "publishedAt": "2026-05-02T05:58:15Z",
-          "category": "econ.GN",
-          "authorCount": 2,
-          "firstAuthor": "Yunhan Zheng"
-        },
-        {
-          "title": "Bootstrapping with AI/ML-generated labels",
-          "url": "https://arxiv.org/abs/2604.23770v1",
-          "publishedAt": "2026-04-26T15:48:03Z",
-          "category": "econ.EM",
-          "authorCount": 3,
-          "firstAuthor": "Timothy Christensen"
-        },
-        {
-          "title": "Can Humans Detect AI? Mining Textual Signals of AI-Assisted Writing Under Varying Scrutiny Conditions",
-          "url": "https://arxiv.org/abs/2604.23471v1",
-          "publishedAt": "2026-04-25T23:34:44Z",
-          "category": "cs.HC",
-          "authorCount": 1,
-          "firstAuthor": "Daniel Tabach"
         }
       ]
     },
@@ -676,28 +652,28 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 2425,
+        "volume": 38,
         "engagement": null,
-        "contributors": 416,
+        "contributors": 171,
         "latestActivityAt": "2026-07-29T14:55:55Z"
       },
       "nativeMetrics": {
-        "paperCount": 2425,
-        "uniqueAuthors": 416,
+        "paperCount": 38,
+        "uniqueAuthors": 171,
         "avgAuthorsPerPaper": 4.6,
         "primaryCategoryTop": "cs.LG",
-        "isAuthorsSampled": true,
-        "sampleSize": 100,
+        "isAuthorsSampled": false,
+        "sampleSize": 38,
         "latestPaperPublished": "2026-07-29T14:55:55Z"
       },
       "meta": {
-        "searchQuery": "abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\" AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\") AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -750,28 +726,28 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1197,
+        "volume": 53,
         "engagement": null,
-        "contributors": 464,
+        "contributors": 227,
         "latestActivityAt": "2026-07-30T12:45:50Z"
       },
       "nativeMetrics": {
-        "paperCount": 1197,
-        "uniqueAuthors": 464,
-        "avgAuthorsPerPaper": 5.1,
+        "paperCount": 53,
+        "uniqueAuthors": 227,
+        "avgAuthorsPerPaper": 4.3,
         "primaryCategoryTop": "cs.CY",
-        "isAuthorsSampled": true,
-        "sampleSize": 100,
+        "isAuthorsSampled": false,
+        "sampleSize": 53,
         "latestPaperPublished": "2026-07-30T12:45:50Z"
       },
       "meta": {
-        "searchQuery": "abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\" AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\") AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -824,28 +800,28 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 4073,
+        "volume": 88,
         "engagement": null,
-        "contributors": 540,
-        "latestActivityAt": "2026-07-28T07:32:09Z"
+        "contributors": 383,
+        "latestActivityAt": "2026-07-30T13:17:12Z"
       },
       "nativeMetrics": {
-        "paperCount": 4073,
-        "uniqueAuthors": 540,
-        "avgAuthorsPerPaper": 5.5,
-        "primaryCategoryTop": "cs.CV",
-        "isAuthorsSampled": true,
-        "sampleSize": 100,
-        "latestPaperPublished": "2026-07-28T07:32:09Z"
+        "paperCount": 88,
+        "uniqueAuthors": 383,
+        "avgAuthorsPerPaper": 4.7,
+        "primaryCategoryTop": "cs.CY",
+        "isAuthorsSampled": false,
+        "sampleSize": 88,
+        "latestPaperPublished": "2026-07-30T13:17:12Z"
       },
       "meta": {
-        "searchQuery": "abs:\"learning strategies\" OR abs:\"spaced repetition\" OR abs:\"self-regulated learning\" OR abs:\"memory retention\" AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(cat:cs.CY AND (abs:\"learning\" OR abs:\"education\")) AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",
@@ -853,44 +829,44 @@
       },
       "topItems": [
         {
-          "title": "Gaussian Volumetric Representation for Efficient Shear-Warp Visualization",
-          "url": "https://arxiv.org/abs/2607.25377v1",
-          "publishedAt": "2026-07-28T07:32:09Z",
-          "category": "cs.CV",
-          "authorCount": 2,
-          "firstAuthor": "Mayuri Mathur"
+          "title": "Technology-Enhanced Tabletop Exercises for Cybersecurity Education: Lessons Learned",
+          "url": "https://arxiv.org/abs/2607.28179v1",
+          "publishedAt": "2026-07-30T13:17:12Z",
+          "category": "cs.CY",
+          "authorCount": 4,
+          "firstAuthor": "Jan Vykopal"
         },
         {
-          "title": "Memdora: Designing Cognitively-Grounded Flashcard Interactions for AI-Powered Spaced Repetition",
-          "url": "https://arxiv.org/abs/2607.25096v1",
-          "publishedAt": "2026-07-27T21:40:14Z",
-          "category": "cs.HC",
+          "title": "When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution",
+          "url": "https://arxiv.org/abs/2607.28041v1",
+          "publishedAt": "2026-07-30T11:24:56Z",
+          "category": "cs.CY",
           "authorCount": 1,
-          "firstAuthor": "Ruiyang Zhang"
+          "firstAuthor": "Kai Yao"
         },
         {
-          "title": "Offline-Online Curriculum RL for Multimodal Reasoning",
-          "url": "https://arxiv.org/abs/2607.23700v1",
-          "publishedAt": "2026-07-26T14:47:47Z",
-          "category": "cs.AI",
-          "authorCount": 14,
-          "firstAuthor": "Wendi Deng"
+          "title": "Is Solving Better Than Evaluating GenAI Solutions?",
+          "url": "https://arxiv.org/abs/2607.27586v1",
+          "publishedAt": "2026-07-30T02:08:29Z",
+          "category": "cs.CY",
+          "authorCount": 3,
+          "firstAuthor": "Ethan Dickey"
         },
         {
-          "title": "Not All Patches are Equal: Sampling Matters for Visible-Infrared Pre-Training",
-          "url": "https://arxiv.org/abs/2607.20238v1",
-          "publishedAt": "2026-07-22T14:59:02Z",
-          "category": "cs.CV",
-          "authorCount": 8,
-          "firstAuthor": "Qiwei Ma"
+          "title": "Aligning LLM-Simulated and Human Examinees for Psychometric Calibration: A Cognitive Diagnostic Profiling Approach",
+          "url": "https://arxiv.org/abs/2607.26317v1",
+          "publishedAt": "2026-07-28T22:33:16Z",
+          "category": "cs.CY",
+          "authorCount": 4,
+          "firstAuthor": "Wenjie Zhou"
         },
         {
-          "title": "OffNadirLoc: Benchmark and Framework for Challenging UAV-to-Satellite Geo-Localization under Large Off-Nadir Views",
-          "url": "https://arxiv.org/abs/2607.19951v1",
-          "publishedAt": "2026-07-22T09:27:50Z",
-          "category": "cs.CV",
-          "authorCount": 5,
-          "firstAuthor": "Qian Qiao"
+          "title": "Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels",
+          "url": "https://arxiv.org/abs/2607.26121v1",
+          "publishedAt": "2026-07-28T17:50:44Z",
+          "category": "cs.RO",
+          "authorCount": 41,
+          "firstAuthor": "Xinyu Yang"
         }
       ]
     },
@@ -898,7 +874,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:55:57.374Z",
+      "fetchedAt": "2026-08-01T16:19:22.516Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -919,7 +895,7 @@
         "latestPaperPublished": "2026-07-17T22:50:47Z"
       },
       "meta": {
-        "searchQuery": "abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\" AND submittedDate:[202607020000 TO 202608010000]",
+        "searchQuery": "(abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\") AND submittedDate:[202607020000 TO 202608010000]",
         "dateFilter": "202607020000 TO 202608010000",
         "maxResults": 100,
         "sortBy": "submittedDate",

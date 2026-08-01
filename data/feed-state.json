@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T16:11:41.642Z",
+  "updatedAt": "2026-08-01T16:20:39.112Z",
   "date": "2026-08-02",
   "topId": "ai-business-automation",
   "themes": {
@@ -29,11 +29,11 @@
     },
     "ai-regulation": {
       "score": 45,
-      "verdict": "研究先行"
+      "verdict": "様子見"
     },
     "study-methods": {
       "score": 43,
-      "verdict": "研究先行"
+      "verdict": "様子見"
     },
     "ai-content-generation": {
       "score": 42,

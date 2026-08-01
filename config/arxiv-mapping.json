@@ -1,7 +1,7 @@
 {
   "$schema": "arxiv-mapping/v1",
   "mappingVersion": 1,
-  "verifiedAt": "2026-07-22",
+  "verifiedAt": "2026-08-02",
   "description": "arXiv 検索式マッピング。11 テーマ × 過去 30 日で実測 (verifiedAt 時点の件数を expectedMonthlyCount に記録)。改訂時は mappingVersion をインクリメント + verifiedAt を更新。abs: フィルタは緩めのため若干のノイズを含む可能性があるが、v1 はまずデータ蓄積優先。",
   "windowDays": 30,
   "maxResultsPerQuery": 100,
@@ -63,15 +63,16 @@
       "note": "カテゴリ横断、AI 政策 / 安全性 / ガバナンス / 倫理"
     },
     "study-methods": {
-      "query": "abs:\"learning strategies\" OR abs:\"spaced repetition\" OR abs:\"self-regulated learning\" OR abs:\"memory retention\"",
-      "expectedMonthlyCount": null,
-      "note": "学習科学。2026-08-02 追加時点では未計測"
+      "query": "cat:cs.CY AND (abs:\"learning\" OR abs:\"education\")",
+      "expectedMonthlyCount": 88,
+      "note": "教育工学。abs だけで learning を引くと機械学習の論文が入る（実測: 主分野が cs.CV になった）ため cs.CY = Computers and Society に限定した。2026-08-02 実測 88 本・主分野 cs.CY"
     },
     "exam-admission": {
       "query": "abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\"",
-      "expectedMonthlyCount": null,
-      "note": "入学者選抜の研究。2026-08-02 追加時点では未計測"
+      "expectedMonthlyCount": 1,
+      "note": "2026-08-02 実測 1 本。日本の入学者選抜は arXiv の主題ではなく、この情報源はこのテーマをほぼ観測できない。0 に近い値が出るのが正しい"
     }
   },
-  "skippedReasons": {}
+  "skippedReasons": {},
+  "queryNote": "クエリは fetch-arxiv.mjs 側で括弧で囲まれる。囲まないと OR 連結のクエリで日付フィルタが最後の語にしか掛からず、件数が 64-107 倍に膨れる（2026-08-02 実測）"
 }
