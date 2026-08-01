@@ -1,5 +1,395 @@
 [
   {
+    "id": "3d9558386c2cf34e",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "千葉 市川 マンションで「爆発音がした」通報 複数人けがか",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193241000",
+    "publishedAt": "2026-07-31T23:47:52.000Z",
+    "summary": "警察によりますと、1日午前6時半ごろ、千葉県市川市のマンションで「爆発音がした」と通報があり、複数人がけがをしているということです。詳しい容体などは分かっておらず、警察が詳しい状況を調べています。",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "9c20dcc34466032f",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "39度予想 熊本被災地でも猛暑日に できるかぎりの対策を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193191000",
+    "publishedAt": "2026-07-31T22:10:50.000Z",
+    "summary": "西日本と東日本では1日、広い範囲で38度以上の危険な暑さとなり、熊本県の地震の被災地でも31日より気温が高くなると予想されています。熱中症を防ぐためにできるかぎりの対策を行ってください。一方、前線や湿…",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "361642af75419a38",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本で震度7 同程度の地震注意 猛暑予想 熱中症対策を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193161000",
+    "publishedAt": "2026-07-31T22:09:38.000Z",
+    "summary": "先月28日、最大震度7の揺れを観測した熊本県ではその後も地震活動が続いていて、気象庁は1週間ほどは最大震度7程度の地震に注意するよう呼びかけています。熊本県では来週にかけて危険な暑さが予想されていて、…",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "0640da058bd7690c",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本 断水の影響 「災害中間支援組織」が支援漏れないよう調整",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193081000",
+    "publishedAt": "2026-07-31T21:38:54.000Z",
+    "summary": "熊本地震の被災地ではすでにNPO法人などが物資の提供などの活動を進めていますが、いち早い復旧には、支援の「漏れ」や「ムラ」を無くすことが重要です。熊本県には10年前の地震以降、支援を提供できる団体など…",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "0175a95aec70703f",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "円相場 再び急激な円買い 米財務省が市場介入の可能性伝達",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193171000",
+    "publishedAt": "2026-07-31T21:35:27.000Z",
+    "summary": "外国為替市場では日本時間の31日夕方からけさ早くにかけて短時間で急激に円が買われる場面が相次ぎ、一時、1ドル＝157円台前半とおよそ2か月半ぶりの円高水準をつけました。アメリカ財務省が複数の銀行に対し…",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "3ccff9e6527b98ef",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本地震 避難生活の長期化も見据え環境改善進める 政府",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193101000",
+    "publishedAt": "2026-07-31T21:03:04.000Z",
+    "summary": "今回の地震で、政府は、避難生活が長引くことも想定し、車中泊をしている人へのガソリンの供給強化や、被災地の外にあるホテルの空室の活用など、猛暑の中での避難環境の改善を進めることにしています。",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "8fcd77ca383c3f0e",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本地震 関連調査中含め36人死亡 9500人余りが避難 県発表",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193131000",
+    "publishedAt": "2026-07-31T20:52:48.000Z",
+    "summary": "熊本県は、7月31日午後7時時点で、今回の地震で県内では災害との関連を調査している2人を含めて36人が死亡し、9500人余りが避難していることなどを発表しました。",
+    "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "fc0a0d43738cfdf1",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ワイヤーブラは1回でも洗濯機にかけたら死にます。捨ててください→「ブラは死んでからが本番」「私の中では生きてるんで大丈夫です」",
+    "url": "https://togetter.com/li/2727170",
+    "publishedAt": "2026-07-31T19:35:50.000Z",
+    "summary": "さんだば @dekkaDog 下着屋さんってマジで、生活のすべての中で一番ブラジャーを尊重しろみたいなこと平気で言ってくるけど、マジで他にいろいろやること（税金、家電のお手入れ、クワガタの世話）ありすぎて無理。下着は乾燥までかける。 2026-07-29 00:05:49",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "401d41a0b77781cc",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "米財務省も円買い介入示唆、異例の予告「複数の銀行に伝達」 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOGN31CAR0R30C26A7000000/",
+    "publishedAt": "2026-07-31T18:02:58.000Z",
+    "summary": "【ワシントン=河浪武史】政府・日銀が30日に実施した円買い・ドル売り介入に続き、米財務省が31日に追加の為替介入がある可能性を市場に伝達したことがわかった。日本だけでなく米当局も投機的な円売りを警戒していることが明らかになった。米当局関係者は31日、日本経済新聞の取材に「米財務省はニューヨーク連銀を通じ...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "0405d60f5c097e0a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "仕事終わり、駐車場に男性が立っており「料金を値上げしたが精算機の設定が変更できてないので支払い後、僕に追加で500円現金を下さい」→真偽を判断したくても材料がなさすぎたので、支払ってしまった話",
+    "url": "https://togetter.com/li/2727158",
+    "publishedAt": "2026-07-31T16:41:14.000Z",
+    "summary": "浅野真澄 / あさのますみ @masumi_asano 仕事終わり、駐車場に男性が立っていて、「ここ、料金を先日から値上げしたんてすが精算機の設定が変更できてなくて。なので、精算機で支払ったあと、僕に追加で500円現金を下さい」とのこと。真偽を判断したくても材料がなさすぎて「あ、はい…」とお支払いしたのですが、皆さん...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "e2da75c797c3f0b8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "第201話 怨念を継ぐ者 / レッドブルー - 波切敦 | サンデーうぇぶり",
+    "url": "https://www.sunday-webry.com/episode/12207421984039215123",
+    "publishedAt": "2026-07-31T15:24:22.000Z",
+    "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標（登録番号 第6091713号）です。 詳しくは［ABJマーク］または［電子出版制作・流通協議会］で検索してください。",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "ce09435721eddb45",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "[第24話]来見沢善彦の愚行 - ときわ四葩 | 少年ジャンプ＋",
+    "url": "https://shonenjumpplus.com/episode/9253191255561726089",
+    "publishedAt": "2026-07-31T15:07:15.000Z",
+    "summary": "来見沢善彦の愚行 ときわ四葩 舞台は昭和の少年漫画界――かつてヒット作を生み人気漫画家として名を馳せる来見沢は、新作の構想がうまくいかず追い詰められていた。そんなある日、若き漫画家志望の畑と出会う。畑の素晴らしい作品を前に、来見沢は無謀な考えを思いつき… [JC2巻発売中]",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "fb98773ef9f4e7f1",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "同志社第三者委報告書は「思想的問題に及び腰」　麗澤大の高橋史朗特別教授",
+    "url": "https://www.sankei.com/article/20260731-HM7HZPUQ7ZIVRGQPPPTF6NDXDM/",
+    "publishedAt": "2026-07-31T14:23:31.000Z",
+    "summary": "沖縄県名護市辺野古沖で3月、船が転覆して平和学習中だった同志社国際高校（京都府）2年の武石知華さん（17）ら2人が死亡した事故で、学校法人同志社が特別調査委員会（第三者委員会）の報告書を公表した。麗澤大の高橋史朗特別教授（教育学）は、構造的問題への踏み込み不足を指摘する。 ◇ 今回の報告書で最も注目され...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "06bd0b01ec9c2cd6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "辺野古事故2日後に沖縄・玉城知事と面会の同志社国際高・校長「研修を継続していきたい」",
+    "url": "https://www.sankei.com/article/20260731-4NGOLYTAXVJBTOQ3DLNPFVLJLQ/",
+    "publishedAt": "2026-07-31T14:04:18.000Z",
+    "summary": "沖縄県名護市辺野古沖で船2隻が転覆し同志社国際高校（京都府）2年、武石知華（ともか）さん（17）ら2人が死亡した事故で、同校の西田喜久夫校長が事故2日後に沖縄県の玉城デニー知事と県庁で面会した際、「今後も同様に訪問させていただき、研修を継続していきたい」と語っていたことが31日、県への取材で分かった。 事...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "b6cf57c1dabab50b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "SNS等における記者への誹謗中傷、名誉毀損、人権侵害等について",
+    "url": "https://ryukyushimpo.jp/ryukyushimpo-notice/entry-5419841.html",
+    "publishedAt": "2026-07-31T13:55:10.000Z",
+    "summary": "X（旧Twitter）をはじめとするSNS（ソーシャルネットワーキングサービス）やインターネット上の掲示板等において、当社の特定記者に対する悪質な投稿が複数確認されております。 当社は報道機関として、言論および表現の自由を最大限に尊重しており、正当なご批判、多様なご意見については、真摯に受け止めるべきものと...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "ab038bc3ecfbe107",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "日本語で書いたブログが世界中の言語で翻訳されるとしたら何を書くべきなんだろう？ - 世界のねじを巻くブログ",
+    "url": "https://www.nejimakiblog.com/entry/japanese-english-blog-translation-nihongo",
+    "publishedAt": "2026-07-31T13:46:19.000Z",
+    "summary": "グローバル翻訳と個人ブログ サブスタックで日本語の投稿も世界中の言語に翻訳される機能が数か月前に始まった。 簡単に言えば、日本語で書いた文章が、 ブエノスアイレスやマラケシュ、サウジアラビア、ナミビアなど世界中で読まれることも起こりえる、という話。 nejimakinikki.hatenablog.com もし本当に言語の壁フリ...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "57b3279bd5aa5e89",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "＜イオンモール爆発で亡くなった女性店員＞『金庫にお金を入れないといけないと言われたので戻る』　女性の母親「会社は真実を話してほしい」　2026年熊本地震　 | TBS NEWS DIG",
+    "url": "https://newsdig.tbs.co.jp/articles/-/2842682",
+    "publishedAt": "2026-07-31T13:45:54.000Z",
+    "summary": "最大震度7を記録した熊本地震から4日目です。地震直後に爆発事故が起きた、熊本県嘉島町のイオンモール熊本では、これまでに7人の死亡が確認されています。そのうちの1人の遺族がRKK熊本放送の取材に応じ、苦しい…",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "9fc32bf7e7ff7fef",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「教員には不満」「何度も止める機会」辺野古報告書で武石知華さん両親がコメント＜全文＞",
+    "url": "https://www.sankei.com/article/20260731-ANKII4G35JLVJJRAWNMKSSIZIQ/",
+    "publishedAt": "2026-07-31T13:35:32.000Z",
+    "summary": "沖縄県名護市辺野古沖の船転覆事故で死亡した同志社国際高校（京都府）の武石知華（ともか）さん（17）の両親は31日、同校を運営する学校法人同志社の特別調査委員会（第三者委員会）の調査報告書の公表を受けてコメントを出した。コメントの全文は次の通り。 ◇ 本日公表された調査報告書を、全文読みました。 安全管理...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "8a2fccc50f152309",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "GitHubにスタックプルリクエストが登場。gh stackでPRを分割して積み上げよう",
+    "url": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
+    "publishedAt": "2026-07-31T13:33:10.000Z",
+    "summary": "GitHubでPRを細かく作り、前のブランチに対して数珠つなぎのようにPRを作る私が大歓喜！ GitHubに「スタックプルリクエスト」機能が来ました💐 3行まとめ 大きな変更を、順序付きの小さなPR群（スタック）に分割して扱える機能がGitHub公式で登場 gh extension install github/gh-stackでCLIから使える gh stack syncでスタックのrebase, pushまで一発でできる 巨大な1つのプルリクエストは悪 AIエージェントでの開発が前提の現在、AIエージェントは素早く多くのコードを生み出します。気をつ…",
+    "fetchedAt": "2026-08-01T00:13:56.683Z"
+  },
+  {
+    "id": "2fcf82067855e1bb",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "AI時代の強いチームの作り方",
+    "url": "https://speakerdeck.com/yuukiyo/building-strong-teams-in-the-age-of-ai",
+    "publishedAt": "2026-07-31T13:23:13.000Z",
+    "summary": "「それ、どこに出しても恥ずかしくないTerraformコードになってるか？」 / Terraform AWS Best Practices",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "4de05a8ee9858ffa",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "セブン＆アイ、共通会員IDのPayPay統合を正式発表　ソフトバンクや三井住友カードなどが計3000億円出資",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000345/",
+    "publishedAt": "2026-07-31T13:22:17.000Z",
+    "summary": "セブン＆アイ・ホールディングスとセブン-イレブン・ジャパンは7月31日、ソフトバンク、PayPay、LINEヤフー、三井住友カードとの戦略的パートナーシップを発表した。セブン＆アイの共通会員ID「7iD」を「PayPay ID」に統合する。また、ソフトバンクや三井住友カードなどと資本業務提携も結び、各社から1000億円ずつ、総額3000億円の出資を受ける。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "0ca1b70a707fc778",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "＜イオンモール爆発で亡くなった女性店員＞『金庫にお金を入れないといけないと言われたので戻る』　女性の母親「会社は真実を話してほしい」　2026年熊本地震　（RKK熊本放送） - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/articles/18b3b41125af210e24ed99afad149d69b994b01f",
+    "publishedAt": "2026-07-31T12:22:09.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "4e1c0baa0da20fea",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "148時間残業したトラックドライバーの過労死　裁判でフリーランス「偽装」と判断（今野晴貴） - エキスパート - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/expert/articles/a3e09289d8db142804529ed5ed8986c4831f7d1f",
+    "publishedAt": "2026-07-31T12:19:35.000Z",
+    "summary": "今月15日に2025年度「過労死等の労災補償状況」が公表された。これによれば、長時間労働などが原因で起こる、脳心臓疾患の労災申請件数は前年度よりも約2割も増えて、1254件に上った。職種別でみると「自動車運転従事者」が257件にのぼり、全体の約2割を占めている。つまりこの間の「働き方改革」で過労死は減少するどこ...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "b98a82608204b453",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【メメント・モリ】山田五郎、最後の授業。伝えたい言葉。【皆様へのメッセージ】",
+    "url": "https://www.youtube.com/watch?v=DMe_hWiAp50",
+    "publishedAt": "2026-07-31T12:10:42.000Z",
+    "summary": "本講義の最後に、山田五郎から皆様への言葉がございます。 この動画は、五郎さん本人より「このかたちで収録ができるのはたぶん最後だから」との言葉があり、なるべく普段通りに撮影されました。 五郎さんのメッセージを皆様それぞれに受け取っていただけましたら幸いです。 山田五郎は２０２６年７月１４日（火）帰天。...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "60beadcd166ef5ef",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【速報】辺野古転覆事故の遺族「学校関係者の当事者意識のなさが際立っている」【コメント全文】｜京都新聞デジタル　京都・滋賀のニュースサイト",
+    "url": "https://www.kyoto-np.co.jp/articles/-/1763867",
+    "publishedAt": "2026-07-31T12:02:33.000Z",
+    "summary": "沖縄県辺野古沖の転覆事故で亡くなった女子生徒について記者会見で思い出を語る両親（７月３０日午後、東京都千代田区） 沖縄県名護市辺野古沖で同志社国際高校（京都府京田辺市）２年の武石知華さん（１７）らが死亡した船転覆事故について、学校法人同志社が設置した外部の弁護士による特別調査委員会は７月３１日、調...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "d7e1b2f78ef3219d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "妻に言いたいこと…",
+    "url": "https://anond.hatelabo.jp/20260731204952",
+    "publishedAt": "2026-07-31T11:59:23.000Z",
+    "summary": "妻に言いたいこと…いや言ってるんだけど、なんで改善してくれないんですかね？ 食器用洗剤やハンドソープが残り少なくなったからといって、水で薄めないでください。劣化します。 トイレットペーパーが無くなりそうだからといって、ティッシュを使ってトイレに流さないでください。詰まります。 トイレを詰まらせたら放...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "2fc785487216840d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「ザ・キンクスのベスト・ソング TOP40」　英ガーディアン発表 - amass",
+    "url": "https://amass.jp/191009/",
+    "publishedAt": "2026-07-31T11:32:23.000Z",
+    "summary": "40. Scattered (1993) 39. Rosy Won’t You Please Come Home (1966) 38. You Can’t Stop the Music (1975) 37. Two Sisters (1967) 36. I Go to Sleep (1965) 35. Lavender Lane (1971) 34. I’m Not Like Everybody Else (1966) 33. Living on a Thin Line (1984) 32. (Wish I Could Fly Like) Superma…",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "b74d8bb2ea89f53e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ターミナル内で動くブラウザー「terminal-browser」が登場 ——エージェントからも操作可能、現在Apple Silicon Macのみ対応 | gihyo.jp",
+    "url": "https://gihyo.jp/article/2026/07/terminal-browser",
+    "publishedAt": "2026-07-31T11:03:57.000Z",
+    "summary": "開発者のRob Pruzan氏は2026年7月30日、既存のターミナル内でChromiumベースのブラウザーを表示・操作できる「terminal-browser」をXで紹介した。WebサイトやローカルのHTMLファイルをコーディングエージェントの横に開けるほか、CLIを介してエージェントがページの内容を確認し、クリックや文字入力などを実行できる。G...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "205f403de2471618",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ソニー、タムロン買収提案の狙いを説明　「イメージング事業の発展につながる」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000342/",
+    "publishedAt": "2026-07-31T10:52:30.000Z",
+    "summary": "ソニーグループの陶琳CFOは7月31日の決算説明会で、傘下のソニーがレンズメーカーのタムロンに提案している完全子会社化について「両者が一緒になることで強みを生かせる」と狙いを語った。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "9de8bc426150bc43",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "心がふたつある？『映画ちいかわ 人魚の島のひみつ』感想 - 沼の見える街",
+    "url": "https://numagasablog.com/entry/2026/07/31/182507",
+    "publishedAt": "2026-07-31T10:30:11.000Z",
+    "summary": "『映画ちいかわ 人魚の島のひみつ』を観てきた。「ちいかわ」シリーズ原作はTwitterのオタクが日夜騒いでいた（言い方）姿を遠巻きから眺めていたくらい。時々、SNSで流れてくる漫画を読んでみたが、１ページだけだとハイコンテクスト（←先に言っておくとこの記事の重要ワードとなる）でよくわからんな…いつかまとめて読...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "780395c6f24c8a21",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ロシアの「.ru」ドメインが実質使えなくなりそう？　本人確認義務化でユーザー悲鳴、関連事業者は対応急ぐ",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000340/",
+    "publishedAt": "2026-07-31T09:55:24.000Z",
+    "summary": "ロシア政府が「.ru」ドメインなどの管理者に本人確認を義務付ける方針を示し、同ドメインに関連する事業者が対応を迫られている。SNSでは、対象のドメインを使うユーザーから不安の声も出ている。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "cbd534763395f718",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "一般消費者が「空調服」と書いたら商標権侵害？　公式Xの注意喚起が波紋、弁理士の見解は",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000328/",
+    "publishedAt": "2026-07-31T09:43:11.000Z",
+    "summary": "ファン付きウェア「空調服」を展開する株式会社空調服が、公式Xで「空調服は登録商標」として一般名称の使用を呼びかけ、批判を受けて謝罪した。一連の投稿について、知的財産に詳しい栗原潔弁理士は「商標権者が呼びかけを行うことは賢明」との見解を示す。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "59f33252fd4b4a43",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ソニーの熊本工場、8月中旬には「地震前の稼働水準」に　早期復旧の理由を決算会見で明かす",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000341/",
+    "publishedAt": "2026-07-31T09:38:03.000Z",
+    "summary": "ソニーグループの陶琳CFOは7月31日の決算説明会で、令和8年熊本地震で生産を止めた熊本の半導体工場が8月中旬に地震発生前の稼働水準へ戻る見通しを示した。2016年の熊本地震では回復まで3カ月余りかかっており、早期復旧の理由を「被害の程度が違う」と説明し",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "e948954d4933bfcf",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『ドンキーコング バナンザ』おもしろいバグは仕様にしちゃう。マイナスを減らしプラスを伸ばすQA（品質保証）とデバッグ環境作り【CEDEC2026】 | ゲーム・エンタメ最新情報のファミ通.com",
+    "url": "https://www.famitsu.com/article/202607/82908",
+    "publishedAt": "2026-07-31T09:06:17.000Z",
+    "summary": "2026年7月22日から7月24日にかけての3日間で行われた、“CEDEC2026（Computer Entertainment Developers Conference 2026）”。本イベントは、CESA（コンピュータエンターテインメント協会）が主催する、日本最大のゲーム開発者向けカンファレンスだ。 本稿では、その中で行われた“『ドンキーコング バナンザ』の破壊を推...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "ee26fe48f0359954",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ぷよぷよは4つ並んだら必ず消えるから面白いのであって「4つ並んだら75%の確率で消える、3つでも25%の確率で消える」だと面白さの質が変化する、確率要素の扱いはとても難しい",
+    "url": "https://togetter.com/li/2726989",
+    "publishedAt": "2026-07-31T08:45:22.000Z",
+    "summary": "渡鳥之 @watari_toriyuki 「ぷよぷよ」というゲームがあるが、あれは4つ並んだら必ず消えるから面白いのであって 「4つ並んだら75%の確率で消える。ただし3つでも25%の確率で消えることがある」とかだったら面白くなくなるか、少なくとも面白さの質はだいぶ変わると思います ゲームのどこに確率要素を入れるかは慎重に 2...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "c84d4dec81d9de9a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "スマホが限界なのでヨドバシに相談したら「キャリア間を2年ごとに反復横跳びするとお得」という謎の仕組みについて説明された←この仕組みって誰が得してるの？",
+    "url": "https://togetter.com/li/2727032",
+    "publishedAt": "2026-07-31T08:35:05.000Z",
+    "summary": "まくるめ @MAMAAAAU スマホが耐久限界なのでヨドバシに相談したら、なんかキャリア間を二年ごとに反復横跳びするとお得だという謎のしくみについて説明され、結局、スマホは新しくなってまあよかったんだけど、あの二年ごとに反復横跳びすると新機種がつかえる仕組みって誰が得してんの？ 2026-07-30 19:42:55 まくるめ ...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "964d6a010f870018",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "キオクシアQ1、純利益が前年同期比4500％増　株式分割・自社株買いも",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000336/",
+    "publishedAt": "2026-07-31T08:16:03.000Z",
+    "summary": "キオクシアホールディングス（HD）が7月31日に公開した2027年3月期第1四半期（26年4月1日?6月30日）連結決算は、売上収益が1兆7671億1700万円（前年同期比415.5％増）、営業利益が1兆2700億1700万円（同2728.6％増）、純利益が8421億6500万円（同4506.6％増）と大幅な増収増益だった。AIサーバを巡るNAND需要の拡大が業績をけん引した。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "469775661f9203b9",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ダイナミックマッププラットフォーム、「3Dmapspocket」の一般道点群データの提供エリアを拡大",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000338/",
+    "publishedAt": "2026-07-31T08:11:56.000Z",
+    "summary": "ダイナミックマッププラットフォームは30日、3D空間プラットフォーム「3Dmapspocket」において、一般道点群データの提供エリア拡大を発表した。関東・中部・東北地方の11都県のデータ利用可能範囲を拡充した。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
+    "id": "121d7241bdbcbe54",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "呼び鈴が鳴るまで・呼び鈴が鳴るまで | マンガSPA!",
+    "url": "https://mangaspa.nikkan-spa.jp/episodes/7416643ffd3e5",
+    "publishedAt": "2026-07-31T08:08:26.000Z",
+    "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "36efb37058afca06",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -10,6 +400,16 @@
     "fetchedAt": "2026-07-31T08:10:20.681Z"
   },
   {
+    "id": "77c2ee08128fce98",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "全国の「歴史の古い草原」分布を初めて地図化──シンク・ネイチャー",
+    "url": "https://www.itmedia.co.jp/news/article/2607/31/2000000337/",
+    "publishedAt": "2026-07-31T08:06:22.000Z",
+    "summary": "シンク・ネイチャーのサイエンスチームは、100年以上にわたって人為的な管理が継続されてきた「歴史の古い半自然草原（古草原）」の分布を地図化し、閲覧用のWebサイトを公開した。",
+    "fetchedAt": "2026-08-01T00:13:56.549Z"
+  },
+  {
     "id": "7444eea35cd92d3c",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -18,6 +418,16 @@
     "publishedAt": "2026-07-31T07:56:55.000Z",
     "summary": "31日午後4時50分ごろ地震がありました。この地震による津波の心配はありません。震源地は熊本県熊本地方で震源の深さは10キロ、地震の規模を示すマグニチュードは3.7と推定されます。各市町村の震度は以下…",
     "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "61b5fc5155e6adf1",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【速報】死亡の武石さん、辺野古行きから変更希望",
+    "url": "https://www.47news.jp/14716957.html",
+    "publishedAt": "2026-07-31T07:53:57.000Z",
+    "summary": "辺野古沖の船転覆事故で亡くなった同志社国際高の武石知華さんが研修旅行前、抗議船に乗るコースからの変更希望を提出していたことが第三者委員会の報告書で分かった。変更希望は計51人に上り、武石さんは抽選に外れ認められなかった。",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "4271381447f98337",
@@ -40,6 +450,16 @@
     "fetchedAt": "2026-07-31T08:10:20.681Z"
   },
   {
+    "id": "56ccc528d4f39f48",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Copilot Chat（Microsoft 365）の会話を Markdown に保存・エクスポートする方法（拡張機能不要）",
+    "url": "https://zenn.dev/dxclab/articles/bdc3935d10706c",
+    "publishedAt": "2026-07-31T07:31:07.000Z",
+    "summary": "Copilot Chat の会話をあとから見返したい、Markdown ファイルとして保存しておきたいと思ったことはありませんか？ 現時点では、Copilot Chat には会話全体をまとめてエクスポート・一括保存する機能がありません。できるのは、回答を1つずつコピーするか、プロンプトを使って1つの回答にまとめさせ Wordファイル や Pa...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "279784ce4c0317bd",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -58,6 +478,16 @@
     "publishedAt": "2026-07-31T06:54:55.000Z",
     "summary": "赤澤経済産業大臣は、公費を使って不適切な出張を繰り返していた疑いがあるなどと報じられた、経済産業省出身の、木原官房長官の元秘書官について31日付けで訓告の処分を行ったことを明らかにしました。",
     "fetchedAt": "2026-07-31T08:10:20.681Z"
+  },
+  {
+    "id": "2ca2094608ccb424",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "日本のロボット産業はなぜ「夜明け前」に力尽きたのか？―香港メディア",
+    "url": "https://www.recordchina.co.jp/b987936-s25-c20-d0193.html",
+    "publishedAt": "2026-07-31T06:46:27.000Z",
+    "summary": "27日、香港メディアの香港01は、AI汎用ヒューマノイド本体の市場で米国と中国が主導権を握る一方、日本が本体開発の競争から後退した背景について報じた。画像はAIで作成。 2026年7月27日、香港メディアの香港01は「日本のロボットはなぜ夜明け前に死したのか」と題し、AI汎用ヒューマノイド（人型ロボット）本体の市場...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "4df884cb755a2a96",
@@ -88,6 +518,36 @@
     "publishedAt": "2026-07-31T06:39:32.000Z",
     "summary": "(画像: ©コロリド・ツインエンジンパートナーズ) 皆さん、『超かぐや姫！』知っていますか？ 電柱から現れた少女「かぐや」を引き取った女子高校生「彩葉」が、インターネット上の仮想空間「ツクヨミ」でライバーとして活躍していくという、「令和版竹取物語」です！ 2026年1月にNetflixで配信された後劇場公開され、...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "d1ebd7315ccccbb3",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "メテオフォール開発",
+    "url": "https://zenn.dev/hisaju01/books/meteorfall-development",
+    "publishedAt": "2026-07-31T06:16:08.000Z",
+    "summary": "AIエージェントで粗い初期実装をまず落とし、人間が観測・分解・修正していく開発手法「メテオフォール開発」の考え方と実践をまとめた本。依頼設計・レビュー・タスク分解・ジュニア参加・品質ゲート・ケーススタディ・テンプレートまでを扱う。",
+    "fetchedAt": "2026-08-01T00:13:56.683Z"
+  },
+  {
+    "id": "5942eb1d1b27b747",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "AMDの新グラボ「Radeon RX 9050」には“4GBモデル”もあり。メモリ不足もあってか約4年ぶりの登場 - AUTOMATON",
+    "url": "https://automaton-media.com/articles/newsjp/20260731-457515/",
+    "publishedAt": "2026-07-31T06:11:25.000Z",
+    "summary": "AMDは7月29日、新型グラフィックカード「Radeon RX 9050」を発表した。AMDの発表によれば、同製品は8GBのGDDR6メモリを備えている一方で、メーカーが一時公開していた製品情報からは、OEMパートナー向けに販売される4GBモデルの存在についても明らかになっている。海外メディアTom’s Hardwareなどが報じている。 「Radeo...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "448a67ce49b9fefa",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Claudeが演習と勘違いし実在システムに攻撃。原因は設定ミス",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2129514.html",
+    "publishedAt": "2026-07-31T06:10:39.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "3eee6fcf7bd6d509",
@@ -130,6 +590,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "fe8b1b5ec310dad9",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "毎日新聞では「41％」に急落…高市内閣の支持率が暗転した根本的理由　「物価高」でも「強引な国会運営」でもない多くの国民が“最も疑問を抱いた論点”とは | デイリー新潮",
+    "url": "https://www.dailyshincho.jp/article/2026/07310503/",
+    "publishedAt": "2026-07-31T05:17:31.000Z",
+    "summary": "「週刊新潮」の発売前日に速報が届く！ メールマガジン登録 デイリー新潮とは？ 広告掲載について お問い合わせ 著作権・リンクについて ご購入について 免責事項 プライバシーポリシー データポリシー 運営：株式会社新潮社 Copyright © SHINCHOSHA All Rights Reserved. すべての画像・データについて無断転用・無断転...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "ddc318464f7d1447",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -140,6 +610,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "dd339d1dd9359bb2",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『君は人間』読切 - 田山巽 | COMIC OGYAAA!!",
+    "url": "https://comic-ogyaaa.com/episode/12207421984027250358",
+    "publishedAt": "2026-07-31T04:47:10.000Z",
+    "summary": "君は人間 田山巽 「将来の夢はロボットになることです」 クラスの発表会でそう言い放った津村。 ロボット研究者を目指す優等生・村上は、その日を境に津村につきまとわれるようになる。 クラスでも浮いた存在の津村に嫌気が差していた村上だったが──。 少年時代の痛みとまなざしを鮮烈に描く読切作品。",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "512596a9d627eac2",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -148,6 +628,16 @@
     "publishedAt": "2026-07-31T04:28:03.000Z",
     "summary": "スクウェア・エニックスが、ゲームの品質を検証するQAテストの自動化に米GoogleのAI「Gemini」を活用している。同社の荒牧岳志氏（AI＆エンジン開発ディビジョン ジェネラル・マネージャー）が7月30日、「Google Cloud Next Tokyo '26」の基調講演で披露した。AIがゲーム画面を見て状況を把握し、コントローラーを自動で...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "3bd6679eeaddb5a2",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "論破したがりが使う「ストローマン論法」、議論上手が使う「スティールマン論法」とは - ナゾロジー",
+    "url": "https://nazology.kusuguru.co.jp/archives/198168",
+    "publishedAt": "2026-07-31T04:16:22.000Z",
+    "summary": "近年、SNSやテレビの討論では、相手の矛盾を突き、鋭い一言で黙らせる場面が「議論に勝った瞬間」として注目されがちです。 しかし「相手を言い負かすこと（論破）」と「実りある議論をすること（対話）」は、同じではありません。 相手の本当の主張を理解しないまま批判しても、新しい知識や考え方が得られるわけではな...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "b2d2c32e88657b31",
@@ -300,6 +790,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "27a077fac2432977",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "漫画家いがらしゆみこが解説、『なかよし』『りぼん』黄金期の“リアルな業界の裏側”",
+    "url": "https://www.sbbit.jp/article/cont1/186043",
+    "publishedAt": "2026-07-31T00:32:25.000Z",
+    "summary": "『なかよし』（講談社）、『りぼん』（集英社）、『別冊マーガレット』（集英社）──少女漫画誌がしのぎを削り、空前の熱狂を生み出していた1970年代後半から1980年代前半の時代。なぜあれほどまでに雑誌は売れ、ヒット作は生まれ続けたのか。その裏側にはどんな現場やトレンドがあったのか。『キャンディ・キャンディ』...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "1f3ba00830a00423",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -318,6 +818,16 @@
     "publishedAt": "2026-07-30T23:51:07.000Z",
     "summary": "講談社編集達がみいちゃんについて話してる動画エグかったよ 「人の不幸話はめっちゃくちゃ楽しい」「誰かが可哀想な目に合うところを見たい」「みいちゃんが落ちていく様を見たい」「ポップに罪悪感なく人の不幸が読めちゃう」「この世界の底が見たいみいちゃんは底まで落ちていく才能がある」 https://youtu.be/HM_a-a...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "54250126e37ccfa3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "目が見えなくなって気づいた「日比谷駅にある謎の10メートル」について / 視覚障害者の日常",
+    "url": "https://rocketnews24.com/2026/07/31/2784211/",
+    "publishedAt": "2026-07-30T23:43:10.000Z",
+    "summary": "通勤や通学の途中で、「なんでだろう？」と気になっている場所はないだろうか？ 私の場合、日比谷駅の地下通路にある点字ブロックがそうだった。 目が見えなくなった今では「これはなんだろう？」が日常のほとんどなのだが、見えなくても「なぜだろう？」となってしまう場所……。 そのモヤモヤを解決したら、同時に「歴史...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "7416a31532c1e817",
@@ -398,6 +908,26 @@
     "publishedAt": "2026-07-30T22:17:23.000Z",
     "summary": "前書き コーディングエージェントに改修を依頼するたびに、「この修正はどこまで影響するんだろう」と、同じ調査を何度もやり直させた経験はないでしょうか 社内の仕様書や設計ドキュメントをベクトルDBに入れて、エージェントに検索させる構成を組んでいる方も多いと思います。 ドキュメントの中身自体は正しく引けるも...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "c20d4109332b4a7b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "USOMAP — 架空世界地図ジェネレーター",
+    "url": "https://amix-design.com/asoboad/tools/d-usomap/",
+    "publishedAt": "2026-07-30T22:14:03.000Z",
+    "summary": "SHARE このリンクを開くと、同じ設定の地図が再現されます（手描き編集は含まれません。編集も残すならプロジェクト保存をお使いください）。",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "00c86d9517ad17cc",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "神戸電鉄｢大株主となった神戸市｣は援軍になれるか　異例の株式取得と｢トップ会談｣で何を狙う？",
+    "url": "https://toyokeizai.net/articles/-/952727",
+    "publishedAt": "2026-07-30T21:09:13.000Z",
+    "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "2259be7ec1c63f6a",
@@ -590,6 +1120,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "3c0f208660d20a62",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "2026年7月28日に発生した令和8年熊本地震による図書館等への影響",
+    "url": "https://current.ndl.go.jp/car/282959",
+    "publishedAt": "2026-07-30T08:55:44.000Z",
+    "summary": "2026年7月28日16時27分頃に、熊本県熊本地方でマグニチュード7.1（暫定値）の地震（令和8年熊本地震）が発生しました。その影響により、熊本県内の図書館等が臨時休館するなどしています（以下、2026年7月29日16時時点の情報）。 ●公共図書館 【臨時休館】地震の影響に伴う臨時休館のお知らせ（熊本県立図書館, 2026/7/2...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "fd0a0b9ecc07b9b5",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -650,6 +1190,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "a89088013b47a17c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "｢暑ければ我慢すればいい｣エアコン普及率3％､教室内40℃､猛暑5000人超死亡…のドイツがそこまで我慢をする理由",
+    "url": "https://toyokeizai.net/articles/-/952873?display=b",
+    "publishedAt": "2026-07-30T03:33:05.000Z",
+    "summary": "「暑いのは我慢すればよい」昭和の日本人もビックリのドイツ人の「暑さ対策」 先日、ドイツはミュンヘンの中心部マリエンプラッツ付近を歩いていた時のこと。1450年創業の老舗のバイエルン料理の店Spöckmeierの前に手書きの看板が設置されていました。看板にはこう書かれています。 「当店、エアコンあります」 ドイツで...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
     "id": "168f498143de0982",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -678,6 +1228,16 @@
     "publishedAt": "2026-07-30T02:36:04.000Z",
     "summary": "ソニーの「RX10 V」を使いって、これはもう“レンズ一体型α”だ、と思った。技術の進化と最新の画像処理エンジンを得て、24-600mm相当という超高倍率ズームレンズを持つ、その気になれば何でも撮れるカメラに進化した。",
     "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "01221576a7a3e3d8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "家業の歯ブラシ製造を3代追って見えてきた日本の製造史…もうこれ『百年の孤独』八尾版では - イーアイデム「ジモコロ」",
+    "url": "https://www.e-aidem.com/ch/jimocoro/entry/ohkita18",
+    "publishedAt": "2026-07-30T02:16:38.000Z",
+    "summary": "唐突ですが、家の話をさせてください。 というのも前回「昭和の時代にプラスチック容器に玉子豆腐を入れて躍進したメーカー」さんの話を聞いたんです。プラスチックを導入して躍進って聞いたことあるな、とハッとしたんですよね。 それ、うちの家だったんです。母の生家が営んでた歯ブラシ工場がいち早くプラスチックを...",
+    "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
     "id": "95633f0708037753",

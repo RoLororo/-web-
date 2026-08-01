@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-31T08:18:43.287Z",
+  "generatedAt": "2026-08-01T00:24:26.316Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-07-01",
+  "createdSince": "2026-07-02",
   "authenticated": true,
   "mappedThemeCount": 10,
   "successCount": 10,
@@ -19,26 +19,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2355,
-        "engagement": 203,
+        "volume": 2324,
+        "engagement": 204,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2355,
-        "topStarSum": 203,
+        "newRepoCount": 2324,
+        "topStarSum": 204,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 125,
+          "stars": 141,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -52,14 +52,6 @@
           "publishedAt": "2026-07-07T08:55:24Z"
         },
         {
-          "title": "byerlikaya/claude-starter-kit",
-          "url": "https://github.com/byerlikaya/claude-starter-kit",
-          "stars": 21,
-          "language": "Shell",
-          "description": "Enterprise engineering workflow for Claude Code — not just prompts. AI agents that plan, build, audit, and ship with sec",
-          "publishedAt": "2026-07-02T12:25:26Z"
-        },
-        {
           "title": "larrymargerum01/AI-Saas-Platform",
           "url": "https://github.com/larrymargerum01/AI-Saas-Platform",
           "stars": 16,
@@ -68,12 +60,20 @@
           "publishedAt": "2026-07-10T21:56:50Z"
         },
         {
-          "title": "dorakoo/doubao-studio",
-          "url": "https://github.com/dorakoo/doubao-studio",
-          "stars": 14,
-          "language": "TypeScript",
-          "description": "豆包工作室 - AI 内容创作者多账号自动化工作台 | Electron + React + TypeScript | 视频参数校验、可恢复调度、手动视频提取下载与额度预测",
-          "publishedAt": "2026-07-02T17:02:10Z"
+          "title": "dark-ps/DarkPs-Agent-CLI",
+          "url": "https://github.com/dark-ps/DarkPs-Agent-CLI",
+          "stars": 11,
+          "language": "Python",
+          "description": "Extensible local-first AI agent framework for automation, coding, tools, and multi-model workflows.",
+          "publishedAt": "2026-07-22T11:53:04Z"
+        },
+        {
+          "title": "mr-sanjai-offl/google-forms-mcp",
+          "url": "https://github.com/mr-sanjai-offl/google-forms-mcp",
+          "stars": 9,
+          "language": "Python",
+          "description": "Production-grade MCP server for Google Forms, Google Drive & Google Sheets. Build, automate, and manage forms using AI-p",
+          "publishedAt": "2026-07-15T15:50:20Z"
         }
       ],
       "errors": []
@@ -82,26 +82,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1781,
-        "engagement": 796,
+        "volume": 1773,
+        "engagement": 802,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1781,
-        "topStarSum": 796,
+        "newRepoCount": 1773,
+        "topStarSum": 802,
         "topLanguage": "Python",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 269,
+          "stars": 274,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -117,7 +117,7 @@
         {
           "title": "agutinbaigo28/financial-agent-api",
           "url": "https://github.com/agutinbaigo28/financial-agent-api",
-          "stars": 127,
+          "stars": 128,
           "language": "TypeScript",
           "description": "financial agent api with multi-agent framework for scalable AI systems focusing on financial intelligence, RAG pipelines",
           "publishedAt": "2026-07-14T07:15:38Z"
@@ -145,20 +145,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1060,
-        "engagement": 120,
+        "volume": 1046,
+        "engagement": 114,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1060,
-        "topStarSum": 120,
+        "newRepoCount": 1046,
+        "topStarSum": 114,
         "topLanguage": "Java",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
@@ -172,18 +172,10 @@
         {
           "title": "rzkyyds/gobiz-payment-v2",
           "url": "https://github.com/rzkyyds/gobiz-payment-v2",
-          "stars": 20,
+          "stars": 21,
           "language": "TypeScript",
           "description": "QRIS payment gateway on Cloudflare Workers (based on kavionn/gobiz-payment)",
           "publishedAt": "2026-07-13T02:06:39Z"
-        },
-        {
-          "title": "sn0914r/payment-orchestration-engine",
-          "url": "https://github.com/sn0914r/payment-orchestration-engine",
-          "stars": 11,
-          "language": "TypeScript",
-          "description": "A payment orchestration engine that routes transactions across Razorpay and Cashfree, handles gateway failures with auto",
-          "publishedAt": "2026-07-02T17:34:58Z"
         },
         {
           "title": "weizerouter/weizerouter",
@@ -200,6 +192,14 @@
           "language": "CSS",
           "description": null,
           "publishedAt": "2026-07-05T21:05:15Z"
+        },
+        {
+          "title": "martian56/epoint-python",
+          "url": "https://github.com/martian56/epoint-python",
+          "stars": 4,
+          "language": "Python",
+          "description": "Python client for the epoint.az payment gateway. Sync and async, all 30 endpoints, fully typed.",
+          "publishedAt": "2026-07-20T16:37:11Z"
         }
       ],
       "errors": []
@@ -208,20 +208,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 694,
-        "engagement": 74,
+        "volume": 685,
+        "engagement": 57,
         "contributors": null,
         "latestActivityAt": "2026-07-03T06:42:03Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 694,
-        "topStarSum": 74,
-        "topLanguage": "Python",
-        "createdSince": "2026-07-01"
+        "newRepoCount": 685,
+        "topStarSum": 57,
+        "topLanguage": "Go",
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
@@ -231,14 +231,6 @@
           "language": null,
           "description": "Bootstrap a fully personalized Obsidian vault with AI. Interactive onboarding, document ingestion, and automatic knowled",
           "publishedAt": "2026-07-03T06:42:03Z"
-        },
-        {
-          "title": "chrisipanaque/qwen-lora-finetune",
-          "url": "https://github.com/chrisipanaque/qwen-lora-finetune",
-          "stars": 21,
-          "language": "Python",
-          "description": "Fine-tune Qwen2.5-Coder for code generation on your own dataset using QLoRA. Train on JSONL instruction-response pairs a",
-          "publishedAt": "2026-07-02T02:44:31Z"
         },
         {
           "title": "darkneuralnetwork/DarkCode",
@@ -263,6 +255,14 @@
           "language": "Swift",
           "description": "Workflow-first, AI-ready iOS architecture with typed effects, manifests, SwiftUI/UIKit examples, and agent-safe code gen",
           "publishedAt": "2026-07-06T14:25:56Z"
+        },
+        {
+          "title": "NijoP/pcbflow",
+          "url": "https://github.com/NijoP/pcbflow",
+          "stars": 4,
+          "language": "Python",
+          "description": "PCB Flow — autonomous, AI-assisted PCB design workflow that takes a hardware project from requirements to manufacturing-",
+          "publishedAt": "2026-07-12T20:11:16Z"
         }
       ],
       "errors": []
@@ -271,30 +271,22 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 488,
-        "engagement": 35,
+        "volume": 480,
+        "engagement": 27,
         "contributors": null,
-        "latestActivityAt": "2026-07-02T14:53:14Z"
+        "latestActivityAt": "2026-07-10T12:57:40Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 488,
-        "topStarSum": 35,
-        "topLanguage": "HTML",
-        "createdSince": "2026-07-01"
+        "newRepoCount": 480,
+        "topStarSum": 27,
+        "topLanguage": "Python",
+        "createdSince": "2026-07-02"
       },
       "topItems": [
-        {
-          "title": "danieloz147/Browser-Based-Ransomware",
-          "url": "https://github.com/danieloz147/Browser-Based-Ransomware",
-          "stars": 13,
-          "language": "HTML",
-          "description": "Proof-of-concept demonstrating browser-native file encryption via the File System Access API. No software installation r",
-          "publishedAt": "2026-07-02T14:53:14Z"
-        },
         {
           "title": "ATcharumathi/Early-Stage-Behavioral-Detection-Prevention-Of-Ransomware-Attacks-On-Devices",
           "url": "https://github.com/ATcharumathi/Early-Stage-Behavioral-Detection-Prevention-Of-Ransomware-Attacks-On-Devices",
@@ -304,9 +296,9 @@
           "publishedAt": "2026-07-10T12:57:40Z"
         },
         {
-          "title": "ransomwaredecryption/FakeCry",
-          "url": "https://github.com/ransomwaredecryption/FakeCry",
-          "stars": 6,
+          "title": "getdatabreacher/FakeCry",
+          "url": "https://github.com/getdatabreacher/FakeCry",
+          "stars": 7,
           "language": null,
           "description": "Ransomware",
           "publishedAt": "2026-07-11T00:50:54Z"
@@ -320,12 +312,20 @@
           "publishedAt": "2026-07-21T22:24:48Z"
         },
         {
-          "title": "ransomwaredecryption/ransomwaredecryption",
-          "url": "https://github.com/ransomwaredecryption/ransomwaredecryption",
-          "stars": 3,
+          "title": "getdatabreacher/ransomwaredecryption",
+          "url": "https://github.com/getdatabreacher/ransomwaredecryption",
+          "stars": 4,
           "language": null,
           "description": null,
           "publishedAt": "2026-07-19T15:47:29Z"
+        },
+        {
+          "title": "AtharDar/smart-decoy-ransomware-defense",
+          "url": "https://github.com/AtharDar/smart-decoy-ransomware-defense",
+          "stars": 3,
+          "language": "Python",
+          "description": "Smart Decoy System using Machine Learning for Real-Time Ransomware Detection, Incident Response, and Automated Mitigatio",
+          "publishedAt": "2026-07-14T21:17:05Z"
         }
       ],
       "errors": []
@@ -334,30 +334,22 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 447,
-        "engagement": 1109,
+        "volume": 432,
+        "engagement": 309,
         "contributors": null,
-        "latestActivityAt": "2026-07-02T14:43:11Z"
+        "latestActivityAt": "2026-07-26T11:08:51Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 447,
-        "topStarSum": 1109,
+        "newRepoCount": 432,
+        "topStarSum": 309,
         "topLanguage": "Python",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
-        {
-          "title": "jmerelnyc/Talos",
-          "url": "https://github.com/jmerelnyc/Talos",
-          "stars": 846,
-          "language": "Python",
-          "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocke",
-          "publishedAt": "2026-07-02T14:43:11Z"
-        },
         {
           "title": "nopnoping/micro-vllm",
           "url": "https://github.com/nopnoping/micro-vllm",
@@ -377,10 +369,18 @@
         {
           "title": "arizqi/cpubrrr",
           "url": "https://github.com/arizqi/cpubrrr",
-          "stars": 52,
+          "stars": 53,
           "language": "Rust",
           "description": "Frontier-class LLM inference on a laptop CPU — gpt-oss:20b at ~110 tok/s on Apple M4 Max, 7.5x llama.cpp, no GPU. From-s",
           "publishedAt": "2026-07-04T17:49:51Z"
+        },
+        {
+          "title": "Jinlong-cs/pi.cpp",
+          "url": "https://github.com/Jinlong-cs/pi.cpp",
+          "stars": 45,
+          "language": "Python",
+          "description": "TensorRT-first robot foundation model inference for edge GPUs",
+          "publishedAt": "2026-07-23T07:02:15Z"
         },
         {
           "title": "tinyBigGAMES/Gemma4.pas",
@@ -397,26 +397,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 259,
-        "engagement": 101,
+        "volume": 258,
+        "engagement": 107,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 259,
-        "topStarSum": 101,
+        "newRepoCount": 258,
+        "topStarSum": 107,
         "topLanguage": "Go",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 38,
+          "stars": 42,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -424,7 +424,7 @@
         {
           "title": "Nerdy-Technician/JellyGlance",
           "url": "https://github.com/Nerdy-Technician/JellyGlance",
-          "stars": 21,
+          "stars": 23,
           "language": "JavaScript",
           "description": "A modern Jellyfin dashboard for live sessions, user stats, recently added media, libraries, downloads, calendars, webhoo",
           "publishedAt": "2026-07-17T22:32:40Z"
@@ -460,20 +460,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 256,
+        "volume": 255,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 256,
+        "newRepoCount": 255,
         "topStarSum": 43,
         "topLanguage": "Lua",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
@@ -523,20 +523,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 57,
+        "volume": 55,
         "engagement": 18,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 57,
+        "newRepoCount": 55,
         "topStarSum": 18,
         "topLanguage": "HCL",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {
@@ -586,20 +586,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-07-31T08:18:43.287Z",
+      "fetchedAt": "2026-08-01T00:24:26.316Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 181,
+        "volume": 179,
         "engagement": 64,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 181,
+        "newRepoCount": 179,
         "topStarSum": 64,
         "topLanguage": "Python",
-        "createdSince": "2026-07-01"
+        "createdSince": "2026-07-02"
       },
       "topItems": [
         {

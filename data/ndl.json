@@ -1,61 +1,360 @@
 {
-  "generatedAt": "2026-07-31T08:19:08.698Z",
+  "generatedAt": "2026-08-01T00:24:52.283Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "mappedThemeCount": 11,
-  "successCount": 5,
+  "successCount": 11,
   "skippedCount": 0,
-  "errorCount": 6,
+  "errorCount": 0,
   "totalRequestCount": 11,
   "themesSkipped": [],
-  "errors": [
-    {
-      "theme": "senior-health",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "ai-coding",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "remote-work",
-      "type": "rate-limit-429",
-      "message": "HTTP 429 Too Many Requests",
-      "retryable": true
-    },
-    {
-      "theme": "payment-troubles",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "infrastructure-outages",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "security-breach",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    }
-  ],
+  "errors": [],
   "themes": {
+    "senior-health": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 3489,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 3489
+      },
+      "topItems": [
+        {
+          "title": "アートリップ入門 : 認知症のうつ・イライラを改善する対話型アート鑑賞プログラム",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030530838",
+          "issued": "2020.8",
+          "publisher": "誠文堂新光社",
+          "author": "林, 容子"
+        },
+        {
+          "title": "愛知医療学院短期大学紀要",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024943326-i27121009",
+          "issued": "2018",
+          "publisher": "佑愛学園愛知医療学院短期大学",
+          "author": "愛知医療学院短期大学"
+        },
+        {
+          "title": "愛知学泉大学・短期大学紀要",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004330160-i4397679",
+          "issued": "2006-2008",
+          "publisher": "愛知学泉大学",
+          "author": "愛知学泉大学"
+        },
+        {
+          "title": "愛知県理学療法学会誌",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I11168039",
+          "issued": "2011",
+          "publisher": "愛知県理学療法学会",
+          "author": null
+        },
+        {
+          "title": "あいち認知症予防プログラム : 脳とからだの体操で、いつまでもいきいき！ : いつでもだれでも簡単に！",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I23111191026328",
+          "issued": "2018.3",
+          "publisher": "愛知県",
+          "author": "国立長寿医療研究ｾﾝﾀｰ"
+        }
+      ],
+      "errors": []
+    },
+    "ai-coding": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 2794,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 2794
+      },
+      "topItems": [
+        {
+          "title": "Rによる機械学習 : 12のステップで理解するR言語と機械学習の基礎理論と実装手法",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027996592",
+          "issued": "2017.3",
+          "publisher": "翔泳社",
+          "author": "Lantz, Brett"
+        },
+        {
+          "title": "IEを自在に操るExcel VBAプログラミング入門 : データの収集・加工を完全自動化!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024836663",
+          "issued": "2013.10",
+          "publisher": "秀和システム",
+          "author": null
+        },
+        {
+          "title": "I-APL操作マニュアル",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002369803",
+          "issued": "1989.7",
+          "publisher": "宮城県高等学校教育研究会数学部会",
+          "author": "Camacho, Anthony"
+        },
+        {
+          "title": "IoT開発がこれ1冊でしっかりわかる教科書",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034500378",
+          "issued": "2026.2",
+          "publisher": "技術評論社",
+          "author": "坂東, 大輔, 1978-"
+        },
+        {
+          "title": "IoTのしくみと技術がこれ1冊でしっかりわかる教科書",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030248859",
+          "issued": "2020.3",
+          "publisher": "技術評論社",
+          "author": null
+        }
+      ],
+      "errors": []
+    },
+    "remote-work": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1698,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 1698
+      },
+      "topItems": [
+        {
+          "title": "iOSビジネス年鑑 : 働き方を変える! : iPhone/iPad導入の成功事例と最新の企業向けサービス、そして仕事に役立つApple活用",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029906629",
+          "issued": "2019.8",
+          "publisher": "マイナビ出版",
+          "author": null
+        },
+        {
+          "title": "IoTの知識地図 : 設計・実装・運用のための必須知識をこれ一冊で",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033414539",
+          "issued": "2024.4",
+          "publisher": "技術評論社",
+          "author": "ソラコム"
+        },
+        {
+          "title": "ICTを活用した組織変革 : マネジメントの視点からのテレワークの分析",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027108534",
+          "issued": "2016.2",
+          "publisher": "晃洋書房",
+          "author": "安達, 房子"
+        },
+        {
+          "title": "ITエンジニア1年目の教科書",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034489133",
+          "issued": "2026.1",
+          "publisher": "講談社",
+          "author": "小野, 歩"
+        },
+        {
+          "title": "ITサービスマネジメントの教科書 : 一歩進んだ知識があなたの武器になる!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032019426",
+          "issued": "2022.3",
+          "publisher": "アイテック",
+          "author": "谷, 誠之"
+        }
+      ],
+      "errors": []
+    },
+    "payment-troubles": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1119,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 1119
+      },
+      "topItems": [
+        {
+          "title": "IoT : モノのインターネット",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031728437",
+          "issued": "2021.10",
+          "publisher": "創元社",
+          "author": "高安, 篤史"
+        },
+        {
+          "title": "愛産大経営論叢",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007816548-i32233249",
+          "issued": "2022",
+          "publisher": "愛知産業大学経営研究所",
+          "author": "愛知産業大学経営研究所"
+        },
+        {
+          "title": "ICカードの中には何がある?くらしの中のITがわかる本 : バーコード・クレカ・オンライン決済…",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034566793",
+          "issued": "2026.3",
+          "publisher": "工学社",
+          "author": "大沢, 文孝, 1973-"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i31571122",
+          "issued": "2023",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "ITパスポート試験直前対策1週間完全プログラム",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030489794",
+          "issued": "2020.7",
+          "publisher": "FOM出版",
+          "author": null
+        }
+      ],
+      "errors": []
+    },
+    "infrastructure-outages": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 792,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 792
+      },
+      "topItems": [
+        {
+          "title": "ITアーキテクトとエンジニアのための金融ITシステム入門",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033809651",
+          "issued": "2024.12",
+          "publisher": "科学情報出版",
+          "author": "遠藤, 正之"
+        },
+        {
+          "title": "ITエンジニアのためのデータベース再入門",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027984807",
+          "issued": "2017.3",
+          "publisher": "リックテレコム",
+          "author": "真野, 正"
+        },
+        {
+          "title": "ITレジリエンスの教科書 : 止まらないシステムから止まっても素早く復旧するシステムへ",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032288082",
+          "issued": "2022.8",
+          "publisher": "翔泳社",
+          "author": "大和総研"
+        },
+        {
+          "title": "あなたの業務に直結している! 自行庫システムの大まかな構造や障害対応の重要性を知っておこう",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I032008762",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "アプリケーションオーナー制度の適用事例と成功要因の考察",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I027062650",
+          "issued": null,
+          "publisher": null,
+          "author": "角田 仁"
+        }
+      ],
+      "errors": []
+    },
+    "security-breach": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 255,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 255
+      },
+      "topItems": [
+        {
+          "title": "アイティセレクト : ビジネスイノベーターのためのIT活用情報誌",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008158266-i24225858",
+          "issued": "2006",
+          "publisher": "アイティメディア",
+          "author": "アイティメディア株式会社"
+        },
+        {
+          "title": "後を絶たない不正 暗中模索の情報漏洩対策",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I030354311",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "一次回答これ1冊!税理士のための人事労務と会社法務",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029478619",
+          "issued": "2019.2",
+          "publisher": "第一法規",
+          "author": "コンパッソ社会保険労務士法人"
+        },
+        {
+          "title": "今すぐ使えるかんたんFinalCode : 最新のファイルセキュリティでデータがどこにあっても安全!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030128412",
+          "issued": "2020.1",
+          "publisher": "技術評論社",
+          "author": "リンクアップ"
+        },
+        {
+          "title": "インサイト Windows 8タブレット提案の必須要件に 遠隔消去は情報漏洩対策の最後の砦",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I024953929",
+          "issued": null,
+          "publisher": null,
+          "author": "藤井 宏治"
+        }
+      ],
+      "errors": []
+    },
     "ai-hardware": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-07-31T08:19:08.698Z",
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -111,7 +410,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-07-31T08:19:08.698Z",
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -167,7 +466,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-07-31T08:19:08.698Z",
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -223,7 +522,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-07-31T08:19:08.698Z",
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -279,7 +578,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-07-31T08:19:08.698Z",
+      "fetchedAt": "2026-08-01T00:24:52.283Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
