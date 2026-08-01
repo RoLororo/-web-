@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/mirror-public.mjs",
+    "prebuild": "node scripts/mirror-public.mjs && node scripts/generate-sitemap.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "mirror": "node scripts/mirror-public.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
     "news": "node scripts/fetch-news.mjs",
     "themes": "node scripts/extract-demand-candidates.mjs",
     "themes:ai": "node scripts/analyze-themes.mjs",

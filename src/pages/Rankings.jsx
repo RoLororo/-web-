@@ -21,7 +21,8 @@ import {
 import { getDemands } from '../services/demandService.js';
 import { themeTitle, themeCategory } from '../services/themeCatalog.js';
 import { sourceDisplay, metricLabel } from '../services/sourceCatalog.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
+import AdSlot from '../components/AdSlot.jsx';
 
 const TABS = [
   { key: 'growth',  label: '伸び率' },
@@ -50,7 +51,11 @@ const WINDOWS = [
 function sign(n) { return n > 0 ? '+' : ''; }
 
 export default function Rankings() {
-  usePageTitle('ランキング — Demand Atlas');
+  useSeo({
+    title: "需要ランキング — 観測量・反応・参加者で並べ替え | Demand Atlas",
+    description: "追跡中の需要テーマを需要スコア順に並べたランキングです。観測量・反応・参加者の 3 つの見方で並べ替えられます。毎日 1 回、公開データから自動更新しています。",
+    path: "/rankings",
+  });
   const [tab, setTab] = useState('growth');
   const [windowDays, setWindowDays] = useState(1);
   const [sourceFilter, setSourceFilter] = useState('');
@@ -250,6 +255,10 @@ export default function Rankings() {
           ))}
         </ol>
       )}
+
+      {/* 広告枠。順位を最後まで見た人にだけ届く位置。
+          並べ替えのたびに再描画される領域の外に置き、操作の邪魔をしない。 */}
+      <AdSlot variant="list" id="rankings-below-list" />
     </div>
   );
 }

@@ -347,17 +347,70 @@ console.log('flat:',(flat/total*100).toFixed(0)+'% | cat:',JSON.stringify(cat));
 
 | 項目 | 値 |
 |---|---|
-| 初期 HTML の本文 | **27 文字**（script/タグを除去して計測。2026-07-30） |
-| 内部リンク（非 JS クローラー視点） | **0** |
-| robots.txt | **不在**（200 だが中身は index.html。2026-07-30 再確認） |
-| sitemap.xml | **不在**（同上） |
-| 24 URL の title / description | **全て同一**（`/ideas` 追加で 23 → 24。初期 HTML の本文 27 文字 / a タグ 0） |
+| 初期 HTML の本文 | **27 文字**（script/タグを除去して計測。2026-07-30。**未解決**） |
+| 内部リンク（非 JS クローラー視点） | **0**（**未解決**。SSR / プリレンダを入れない限り変わらない） |
+| robots.txt | **解決**（2026-08-01）。`public/robots.txt` を設置。`public/` は rewrite より先に配信されると実測（`og-image.jpg` が `image/jpeg` で返ることで確認） |
+| sitemap.xml | **解決**（2026-08-01）。`scripts/generate-sitemap.mjs` が prebuild で生成。**27 URL**（固定 13 + テーマ 10 + 分野 3、`/favorites` は除外）。`lastmod` は `generatedAt` |
+| 各 URL の title / description | **解決**（2026-08-01）。`useSeo` で 18 ルート全てに固有の title / description / canonical を設定。JS 実行後に実測済み（下表） |
+| canonical | **解決**（2026-08-01）。全ページに設定。`noindex` のページには**出さない**（矛盾指示の回避。`/this-does-not-exist` が自分自身を canonical にしていたのを修正） |
+| 構造化データ | **解決**（2026-08-01）。WebSite / BreadcrumbList / Dataset / FAQPage / TechArticle / AboutPage / ContactPage。実測前は **0 件** |
+| soft 404 | **緩和**（2026-08-01）。HTTP は 200 のまま（静的ホスティングの制約）だが `noindex, follow` を出す |
+| 詳細ページの見出し | **解決**（2026-08-01）。本文 5,806 字に対し h1 が 1 個だけで h2 が 0 だったのを、`block-title` 15 個を `<h2>` 化（見た目は不変） |
+| パンくず | **解決**（2026-08-01）。詳細ページ・分野ページ・説明ページに設置（+ BreadcrumbList） |
+| フッターの内部リンク | **解決**（2026-08-01）。`<a href>` 5 本を `<Link>` 化（毎回ページ全体を再読み込みしていた）。サイト情報 5 本を追加 |
 | meta description の内容 | **是正済み**（`c9e8e90`）。実際の 7 情報源を列挙する文へ変更し本番で確認 |
 | OGP タグ | og:url / og:image / twitter:image とも絶対 URL（修正済） |
 | OG 画像 | **`og-image.jpg` を配置し解決**（1200x630 / 44,331B / `image/jpeg`・本番でバイト一致を確認） |
 | OG 画像の**内容** | **2026-07-30 に初めて目視確認し問題なし**。ロゴ / LIVE バッジ / 見出し「今、世の中で何が求められているのか。」/ 補助文「需要の変化から、次のビジネスチャンスを発見する。」/ 上昇曲線。誤った情報源の記載なし。見出しは canvas 高の 14% で、500px 幅に縮小しても可読 |
 | 計測手段 | **ゼロ**（analytics 未導入 / GitHub stars 0・watchers 0・forks 0） |
 | npm audit（prod） | react-router moderate × 2（open redirect / SSR hydration）**実害未検証** |
+
+---
+
+## 広告掲載（AdSense 審査）の状態（2026-08-01 実測）
+
+### 実装済み（Must）
+
+| 項目 | 状態 | 実測 |
+|---|---|---|
+| プライバシーポリシー | `/privacy` | 本文 2,235 字。localStorage 5 キー・サーバー保存項目・広告の節を実装どおりに記載 |
+| 利用規約 | `/terms` | 本文 1,593 字 |
+| お問い合わせ | `/contact` | **`CONTACT_FORM_URL` が空。埋めるまで審査不可** |
+| 運営者情報 | `/about` | 本文 1,899 字。できないこと 5 項目を明記 |
+| 計算方法の説明 | `/methodology` | 本文 2,277 字。FAQPage 構造化データ付き |
+| robots.txt | 実ファイル | `dist/robots.txt` 868B。AdsBot-Google を明示的に Allow |
+| sitemap.xml | 生成 | 27 URL / 4,722B |
+| 404 | `noindex, follow` | HTTP は 200 のまま（静的ホスティングの制約） |
+| favicon | 既存 | `favicon.svg` |
+| OGP / meta | ページ別 | 18 ルート全てで固有。canonical も個別 |
+| 広告枠 | 5 か所・未有効 | `ADS_ENABLED = false`。本番バンドルに `ad-slot` の文字列が**存在しないこと**を確認 |
+
+### 広告枠の配置
+
+`home-below-list` / `rankings-below-list` / `ideas-below-list` /
+`detail-after-decision` / `detail-after-evidence`。1 ページ最大 2 枠。
+説明・法的ページには置かない。予約高さはモバイル 250〜280px / デスクトップ 100〜250px で
+CLS を 0 に保つ。実測（375px）: 幅 343px・左端 16px・高さ 280 / 250px・横溢れなし。
+
+### 審査を阻むもの（未解決）
+
+| # | 項目 | 内容 |
+|---|---|---|
+| B1 | 連絡先 | `CONTACT_FORM_URL` が空。**これだけは自分で埋める必要がある** |
+| B2 | コンテンツ量 | 独自テキストはテーマ本文 8,571 字（10 テーマ・平均 857 字）+ 説明ページ 8,974 字。**AdSense の「相当量の独自コンテンツ」としては薄い** |
+| B3 | 初期 HTML | 本文 27 字・内部リンク 0（SPA）。Google はレンダリングするが審査担当は素の HTML も見る |
+| B4 | トラフィック | 訪問者 1 桁（2026-08-01: 今日 3 / 昨日 7 / 累計 10） |
+| B5 | ads.txt | 審査通過後に AdSense のパブリッシャー ID が出てから設置 |
+
+### バンドルサイズへの影響
+
+| | 変更前 | 変更後 | 差 |
+|---|---|---|---|
+| index.js (gzip) | 85.33 KB | 89.22 KB | +3.89 KB |
+| CSS (gzip) | 14.35 KB | 14.93 KB | +0.58 KB |
+| 説明ページ 5 本 | — | 別チャンク計 12.68 KB (gzip) | 初回表示には載らない |
+
+説明ページを同梱すると +11.5 KB (gzip) だったため `React.lazy` で分離した。
 
 ---
 

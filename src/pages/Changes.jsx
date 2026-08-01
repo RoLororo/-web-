@@ -19,7 +19,7 @@ import {
 import { getDemands } from '../services/demandService.js';
 import { sourceDisplay, metricLabel } from '../services/sourceCatalog.js';
 import { themeTitle } from '../services/themeCatalog.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 const WINDOWS = [
   { key: 1,  label: '昨日と比較' },
@@ -60,7 +60,11 @@ function deltaClass(delta) {
 }
 
 export default function Changes() {
-  usePageTitle('変化 — Demand Atlas');
+  useSeo({
+    title: "需要の変化 — 前日からの増減 | Demand Atlas",
+    description: "前回の観測からスコアが動いたテーマを、上がった順・下がった順に並べています。何が新しく動き始めたかを最短で確認できます。",
+    path: "/changes",
+  });
 
   const [allSeries, setAllSeries] = useState(null);
   const [windowDays, setWindowDays] = useState(1);

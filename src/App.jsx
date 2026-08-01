@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
+import { useEffect, lazy, Suspense } from 'react';
+import { Routes, Route, Link, useLocation, useNavigationType } from 'react-router-dom';
 import { fetchTodayVisitors } from './services/visitorService.js';
 import Header from './components/Header.jsx';
 import FoxMark from './components/FoxMark.jsx';
@@ -17,6 +17,15 @@ import WhatsNew from './pages/WhatsNew.jsx';
 import Compare from './pages/Compare.jsx';
 import Ideas from './pages/Ideas.jsx';
 import NotFound from './pages/NotFound.jsx';
+
+// 説明・法的ページは長い散文で、開かれる回数もごく少ない。
+// 一緒に束ねると初回表示の JS が重くなる（実測: 同梱すると gzip 後 +11.5KB）。
+// 別チャンクにして、そのページを開いた人だけが読み込むようにする。
+const About       = lazy(() => import('./pages/About.jsx'));
+const Methodology = lazy(() => import('./pages/Methodology.jsx'));
+const Privacy     = lazy(() => import('./pages/Privacy.jsx'));
+const Terms       = lazy(() => import('./pages/Terms.jsx'));
+const Contact     = lazy(() => import('./pages/Contact.jsx'));
 
 export default function App() {
   const location = useLocation();
@@ -53,6 +62,9 @@ export default function App() {
       <main className="main" id="main" tabIndex={-1}>
         {/* key forces a remount → page-fade animation replays on every navigation */}
         <div className="page-fade" key={location.pathname}>
+          {/* 遅延読み込みするのは説明・法的ページだけ。読み込みは一瞬なので、
+              スピナーではなく高さだけ確保して画面が飛び跳ねないようにする */}
+          <Suspense fallback={<div className="container section" style={{ minHeight: '60vh' }} />}>
           <Routes location={location}>
             <Route path="/" element={<Home />} />
             <Route path="/explore" element={<Explore />} />
@@ -66,18 +78,36 @@ export default function App() {
             <Route path="/whats-new" element={<WhatsNew />} />
             <Route path="/compare" element={<Compare />} />
             <Route path="/ideas" element={<Ideas />} />
+            {/* サイトの説明・法的情報。検索と広告審査の両方から参照される */}
+            <Route path="/about" element={<About />} />
+            <Route path="/methodology" element={<Methodology />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
         </div>
       </main>
+      {/* フッターは <a href> だと毎回ページ全体を読み込み直していた（SPA の遷移に
+          ならず、状態も破棄される）。全て <Link> に統一する。
+          サイトの説明と法的情報は、どのページからも 1 クリックで届く必要がある
+          （検索から詳細ページに着地した人と、広告審査の担当者の両方が使う）。 */}
       <footer className="footer">
         <div className="container footer-inner">
           <nav className="footer-nav" aria-label="補助ナビゲーション">
-            <a href="/explore">需要を探す</a>
-            <a href="/categories">分野</a>
-            <a href="/changes">変化</a>
-            <a href="/timeline">履歴</a>
-            <a href="/whats-new">新規追加</a>
+            <Link to="/explore">需要を探す</Link>
+            <Link to="/categories">分野</Link>
+            <Link to="/changes">変化</Link>
+            <Link to="/timeline">履歴</Link>
+            <Link to="/whats-new">新規追加</Link>
+          </nav>
+          <nav className="footer-nav footer-nav-meta" aria-label="サイト情報">
+            <Link to="/about">このサイトについて</Link>
+            <Link to="/methodology">計算方法と用語</Link>
+            <Link to="/contact">お問い合わせ</Link>
+            <Link to="/privacy">プライバシーポリシー</Link>
+            <Link to="/terms">利用規約</Link>
           </nav>
           <p className="footer-text">
             <span className="brand-mini">
@@ -85,6 +115,7 @@ export default function App() {
               Demand Atlas
             </span>
             Wikipedia / Qiita / arXiv / App Store JP / GitHub / 国立国会図書館 / 主要ニュース RSS の公開データを日次観測。
+            スコアは決まった計算式による観測結果で、将来の予測ではありません。
           </p>
         </div>
       </footer>

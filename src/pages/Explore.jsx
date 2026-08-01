@@ -8,7 +8,7 @@ import DemandCard from '../components/DemandCard.jsx';
 import CategoryFilter from '../components/CategoryFilter.jsx';
 import FoxMark from '../components/FoxMark.jsx';
 import { searchDemands } from '../services/demandService.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 const STATUS_OPTIONS = ['', '急上昇', '成長中', '安定', '下降'];
 const SORT_OPTIONS = [
@@ -18,7 +18,11 @@ const SORT_OPTIONS = [
 ];
 
 export default function Explore() {
-  usePageTitle('需要を探索する — Demand Atlas');
+  useSeo({
+    title: "需要を検索する — Demand Atlas",
+    description: "キーワードや分野で需要テーマを絞り込めます。スコア順・変化率順に並べ替えて、気になるテーマの詳細へ移動できます。",
+    path: "/explore",
+  });
   const [params, setParams] = useSearchParams();
 
   const [keyword, setKeyword]   = useState(params.get('q') || '');

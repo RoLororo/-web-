@@ -74,8 +74,67 @@ npm run visits:check # 「今日訪れた人」が本番で数えられている
 | `/explore` | 検索・並び替え・分野・状態でのフィルタ |
 | `/categories` | 分野の一覧（観測テーマ 0 件の分野はカードにしない） |
 | `/categories/:name` | 単一分野の掘り下げ |
-| `/favorites` | 保存した需要（localStorage） |
-| `*` | 404 |
+| `/favorites` | 保存した需要（localStorage）。`noindex`／sitemap 対象外 |
+| `/about` | サイトの目的・運営者・できること／できないこと |
+| `/methodology` | スコアの計算式、7 情報源の選定理由、判定ラベルの定義、手法の限界 |
+| `/contact` | お問い合わせ（Google フォーム。`CONTACT_FORM_URL` 未設定なら準備中表示） |
+| `/privacy` | プライバシーポリシー（保存する情報／しない情報を実装どおりに記載） |
+| `/terms` | 利用規約 |
+| `*` | 404。`noindex, follow` を出す（SPA なので HTTP ステータスは 200 のまま） |
+
+`/about` `/methodology` `/privacy` `/terms` `/contact` は `React.lazy` で別チャンク。
+初回表示の JS に含めない（同梱すると gzip 後 +11.5KB になったため）。
+
+---
+
+## SEO と広告掲載の準備
+
+### 単一の出典
+
+`src/config/site.js` がサイト名・URL・運営者名・連絡先・情報源一覧・スコア定義の正本。
+About / 方法論 / ポリシー / 規約 / 構造化データが全てここを読む。
+**`CONTACT_FORM_URL` が空のままだと `/contact` は準備中表示になり、AdSense 審査に通らない。**
+
+### ページごとの meta
+
+`src/utils/useSeo.js` が `title` / `description` / `canonical` / OGP / 構造化データを
+ルートごとに差し替える。SPA は index.html を全ルートで使い回すため、
+これが無いと 13 ページが同じ description と canonical を名乗る（2026-08-01 実測）。
+
+- `noindex: true` のページには canonical を出さない（矛盾した指示になるため）
+- 作ったタグはアンマウント時に必ず消す。index.html の静的タグは値を戻すだけ
+
+構造化データ: WebSite（`/`）/ BreadcrumbList（詳細・分野・説明ページ）/
+Dataset（テーマ詳細）/ FAQPage + TechArticle（`/methodology`）/ AboutPage / ContactPage。
+
+### robots.txt と sitemap.xml
+
+- `public/robots.txt` … 静的ファイル。`public/` 配下は SPA の rewrite より先に配信される
+  （2026-08-01 実測: ファイルが無かったため `/robots.txt` が HTML を返していた）
+- `public/sitemap.xml` … `npm run sitemap`（prebuild で自動実行）が `demands.json` から生成。
+  `lastmod` はビルド時刻ではなく `generatedAt` を使う。派生物なので git 追跡しない
+
+### 広告枠
+
+`src/components/AdSlot.jsx` の `ADS_ENABLED` が全枠の唯一のスイッチ。
+現在 `false` で、**本番バンドルからは描画コードごと消える**（実測: `ad-slot` の文字列が
+`dist/assets/index-*.js` に存在しない）。開発時のみ位置確認用の破線枠が出る。
+
+配置は 5 か所。1 ページあたり最大 2 枠。
+
+| ページ | id | 位置 | 理由 |
+| --- | --- | --- | --- |
+| `/` | `home-below-list` | 需要カード一覧の後 | 主目的（今日の需要）を最初のスクロールで見せ切った後 |
+| `/rankings` | `rankings-below-list` | 順位リストの後 | 並べ替えで再描画される領域の外 |
+| `/ideas` | `ideas-below-list` | 一覧の後 | 一覧の途中に挟むと絞り込みながら比べる流れが切れる |
+| `/demand/:id` | `detail-after-decision` | 判定・評価・スコア内訳の直後 | 知りたいことが一度満たされる唯一の区切り |
+| `/demand/:id` | `detail-after-evidence` | 根拠ニュース一覧の後 | 外部リンクと広告を隣接させない（誤クリック誘発はポリシー違反） |
+
+`/about` `/methodology` `/privacy` `/terms` `/contact` には枠を置かない。
+
+有効化手順: ① 審査に通る ② `ADS_ENABLED = true` ③ `index.html` に AdSense のスクリプトを
+1 本追加 ④ `AdSlot.jsx` の `<aside>` 内に `<ins className="adsbygoogle">` を入れる
+⑤ `public/ads.txt` を設置 ⑥ `/privacy` の広告の節が自動で切り替わることを確認。
 
 ---
 
@@ -160,8 +219,14 @@ demand-atlas/
 │   ├── qiita / appstore / arxiv / github / ndl-mapping.json
 │   └── theme-registry.json    追跡テーマの状態と候補・却下語（needs: themes:eval）
 │
-├── scripts/                   取得・合成・判定・履歴（16 本・すべて Node 標準のみ）
+├── public/
+│   ├── robots.txt             静的。rewrite より先に配信される（git 追跡する）
+│   ├── sitemap.xml            prebuild で生成される派生物（git 追跡しない）
+│   └── favicon.svg / og-image.jpg
+│
+├── scripts/                   取得・合成・判定・履歴（17 本・すべて Node 標準のみ）
 │   ├── fetch-*.mjs            7 情報源の取得。共通 envelope で出力
+│   ├── generate-sitemap.mjs   demands.json から public/sitemap.xml を生成
 │   ├── check-sources.mjs      情報源の健全性検査。致命時は exit 1 で公開を止める
 │   ├── build-demands.mjs      スコア算出と合成 → data/demands.json
 │   ├── generate-insights.mjs  判定・アイデア生成（LLM 不使用のルールベース）
@@ -173,13 +238,14 @@ demand-atlas/
 ├── history/                   日次スナップショット（current 90 日 + archive）
 │
 └── src/
-    ├── main.jsx / App.jsx     エントリとルーティング（13 ルート）
+    ├── main.jsx / App.jsx     エントリとルーティング（18 ルート・説明ページは lazy）
     ├── styles.css             デザインシステム全体（1 ファイル）
+    ├── config/site.js         サイト名 / URL / 運営者 / 連絡先 / 情報源 / スコア定義の正本
     ├── data/mockDemands.js    フォールバック専用（dynamic import）
     ├── services/              demandService / historyService / sourceCatalog / themeCatalog
-    ├── utils/                 favorites / format / series（グラフ系列の選択）/ toast
-    ├── components/            16 個（DemandCard / TrendChart / SourceTrends / InsightsPanel …）
-    └── pages/                 13 個（Home / DemandDetail / Ideas / Rankings / Compare …）
+    ├── utils/                 favorites / format / series / toast / useSeo（meta と構造化データ）
+    ├── components/            20 個（DemandCard / TrendChart / Breadcrumbs / AdSlot …）
+    └── pages/                 18 個（Home / DemandDetail / About / Methodology / Privacy …）
 ```
 
 ---

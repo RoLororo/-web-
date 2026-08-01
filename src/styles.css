@@ -1041,7 +1041,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 .block { margin-bottom: var(--s-6); }
+/* h2 として出力する（2026-08-01 実測: 詳細ページは本文 5,806 字あるのに
+   見出しが h1 の 1 個だけで、15 個のセクション名は div だった）。
+   見た目は変えないので font-size / margin は明示して h2 の既定値を打ち消す。 */
 .block-title {
+  margin-top: 0;
   font-size: 12px;
   color: var(--text-2);
   text-transform: uppercase;
@@ -3200,6 +3204,15 @@ select.select:focus {
 }
 .footer-nav a:hover { color: var(--text); }
 
+/* サイト情報（About / 計算方法 / 問い合わせ / 法的ページ）。
+   探索用のナビと役割が違うので、区切り線を挟んで一段落として見せる。 */
+.footer-nav-meta {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  width: 100%;
+  gap: 16px;
+}
+
 .footer-text {
   color: var(--text-3);
   font-size: 12px;
@@ -4556,3 +4569,202 @@ h1.section-title::before {
   text-decoration: none;
 }
 .main:focus { outline: none; }
+
+/* ==========================================================================
+   パンくず / 説明ページ / 通知 / 広告枠
+   （2026-08-01 の広告掲載準備で追加）
+   ========================================================================== */
+
+/* --- パンくず -----------------------------------------------------------
+   検索から詳細ページへ直接着地した人向けの現在地表示。
+   区切りは CSS で描き、テキストとしてはコピーされないようにする。         */
+
+.breadcrumbs {
+  margin: 20px 0 8px;
+  font-size: 12px;
+  color: var(--text-3);
+}
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumbs li { display: inline-flex; align-items: center; gap: 6px; }
+.breadcrumbs li + li::before {
+  content: "/";
+  color: var(--border-strong);
+  font-size: 11px;
+}
+.breadcrumbs a {
+  color: var(--text-3);
+  text-decoration: none;
+  transition: color 0.15s var(--ease);
+}
+.breadcrumbs a:hover { color: var(--text); text-decoration: underline; }
+.breadcrumbs [aria-current="page"] {
+  color: var(--text-2);
+  /* 現在地は長いテーマ名になることがある。折り返さず省略する */
+  max-width: 22em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* --- 説明ページ（About / 方法論 / 規約 / ポリシー / 問い合わせ） --------
+   長い散文を読ませるページ。1 行の文字数を 46 全角に抑え、
+   見出しで区切りが分かるようにする。                                      */
+
+.prose-page { max-width: 860px; }
+
+/* .page-hero は padding: 0 4px を持つため、そのままだと見出しだけ本文より
+   4px 内側にずれる（2026-08-01 実測・375px: パンくず 16 / h1 20 / 本文 16）。
+   説明ページでは左端を揃える。共有ルール側は他ページに影響するので触らない。 */
+.prose-page .page-hero { padding-inline: 0; }
+
+.prose {
+  color: var(--text-2);
+  line-height: 1.9;
+  font-size: 15px;
+}
+.prose > * { max-width: 46em; }
+.prose h2 {
+  margin: 40px 0 12px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.5;
+  scroll-margin-top: 80px;
+}
+.prose h2:first-child { margin-top: 0; }
+.prose p { margin: 0 0 16px; }
+.prose ul, .prose ol { margin: 0 0 16px; padding-left: 1.4em; }
+.prose li { margin-bottom: 8px; }
+.prose strong { color: var(--text); font-weight: 700; }
+.prose code {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.9em;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+.prose a {
+  color: var(--green-bright);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose a:hover { opacity: 0.8; }
+
+/* 数式の 1 行。読み飛ばされないよう枠で囲む */
+.prose-formula {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--green-bright);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* 表は狭い画面で横スクロールさせる。ページ本体を横に伸ばさない */
+.prose-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 20px;
+  font-size: 14px;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.prose-table th,
+.prose-table td {
+  border-bottom: 1px solid var(--border);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-table th {
+  color: var(--text);
+  font-weight: 600;
+  white-space: nowrap;
+  border-bottom-color: var(--border-strong);
+}
+.prose-table td:first-child { white-space: nowrap; }
+.prose-table td:last-child { min-width: 18em; }
+
+.prose-dl { margin: 0 0 20px; }
+.prose-dl > div {
+  border-left: 2px solid var(--border);
+  padding-left: 14px;
+  margin-bottom: 14px;
+}
+.prose-dl dt {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.prose-dl dd { margin: 0; }
+
+/* --- 通知（お問い合わせの準備中など） ---------------------------------- */
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin: 0 0 20px;
+  background: var(--bg-2);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.notice strong { color: var(--text); }
+.notice-warn { border-left: 3px solid var(--v-amber, #d98a00); }
+
+/* --- 404 の導線 --------------------------------------------------------- */
+
+.empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* --- 広告枠 -------------------------------------------------------------
+   まだ広告コードは入れていない。高さだけ先に決めておき、
+   後から差し込んでも本文が下へずれない（CLS を 0 に保つ）ようにする。    */
+
+.ad-slot {
+  display: block;
+  width: 100%;
+  min-height: var(--ad-h-mobile);
+  margin: var(--s-6) auto;
+  /* 枠の中で広告がはみ出しても、ページ全体を横に伸ばさない */
+  overflow: hidden;
+  /* 本文と地続きに見えないよう、上下に余白と細い区切りを持たせる */
+  border-block: 1px solid var(--border);
+  padding-block: var(--s-3);
+}
+@media (min-width: 721px) {
+  .ad-slot { min-height: var(--ad-h-desktop); }
+}
+/* 開発中のみ表示される位置確認用の枠。本番では要素ごと出ない */
+.ad-slot-preview {
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--text-3);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}

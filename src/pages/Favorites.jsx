@@ -8,10 +8,17 @@ import DemandCard from '../components/DemandCard.jsx';
 import FoxMark from '../components/FoxMark.jsx';
 import { getFavorites } from '../utils/favorites.js';
 import { getDemandById } from '../services/demandService.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 export default function Favorites() {
-  usePageTitle('お気に入りの需要 — Demand Atlas');
+  // 中身は端末ごとに違い、他人が開くと必ず空になる。
+  // 検索結果に出しても価値がないので索引から外す（sitemap にも入れていない）。
+  useSeo({
+    title: 'お気に入りの需要 — Demand Atlas',
+    description: 'この端末で保存した需要テーマの一覧です。',
+    path: '/favorites',
+    noindex: true,
+  });
   const [ids, setIds] = useState(getFavorites());
 
   useEffect(() => {

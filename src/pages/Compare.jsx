@@ -23,7 +23,7 @@ import { Fragment, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { getDemands, getDemandById } from '../services/demandService.js';
 import { sourceDisplay, sourceColor } from '../services/sourceCatalog.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 // 選択前に見せる比較表の行見出し（下の cmp-grid と同じ順序）
 const SKELETON_ROWS = ['総合スコア', '前日比', 'ステータス', '総合判定', '観測の確かさ'];
@@ -203,7 +203,11 @@ function buildComparisonNarrative(a, b) {
 }
 
 export default function Compare() {
-  usePageTitle('テーマ比較 — Demand Atlas');
+  useSeo({
+    title: "テーマを比べる — 2 つの需要を並べて確認 | Demand Atlas",
+    description: "需要テーマを 2 つ選んで、スコア・勢い・参入しやすさ・競争・情報源の内訳を並べて比較できます。どちらに賭けるかを決めるためのページです。",
+    path: "/compare",
+  });
   const [params, setParams] = useSearchParams();
   const demands = useMemo(() => getDemands(), []);
 
@@ -325,13 +329,13 @@ export default function Compare() {
 
           {/* 情報源別 volume */}
           <div className="cmp-section">
-            <h3 className="cmp-section-title">情報源別の観測量</h3>
+            <h2 className="cmp-section-title">情報源別の観測量</h2>
             <SourceBars leftVolumes={volA} rightVolumes={volB} />
           </div>
 
           {/* 3スコア triad */}
           <div className="cmp-section">
-            <h3 className="cmp-section-title">評価スコア</h3>
+            <h2 className="cmp-section-title">評価スコア</h2>
             <div className="cmp-triad-grid">
               <AssessTriad demand={demandA} />
               <AssessTriad demand={demandB} />
@@ -341,7 +345,7 @@ export default function Compare() {
           {/* インサイト narrative */}
           {narrative.length > 0 && (
             <div className="cmp-section cmp-narrative">
-              <h3 className="cmp-section-title">この 2 つの差</h3>
+              <h2 className="cmp-section-title">この 2 つの差</h2>
               <ul>
                 {narrative.map((n, i) => <li key={i}>{n}</li>)}
               </ul>
@@ -351,7 +355,7 @@ export default function Compare() {
           {/* キーワード */}
           {kwClass && (
             <div className="cmp-section">
-              <h3 className="cmp-section-title">関連キーワード</h3>
+              <h2 className="cmp-section-title">関連キーワード</h2>
               <div className="cmp-kw-grid">
                 <div>
                   <div className="cmp-kw-label">A だけ ({kwClass.onlyA.length})</div>
@@ -371,7 +375,7 @@ export default function Compare() {
 
           {/* アイデア */}
           <div className="cmp-section">
-            <h3 className="cmp-section-title">収益化アイデア (上位 3)</h3>
+            <h2 className="cmp-section-title">収益化アイデア (上位 3)</h2>
             <div className="cmp-idea-grid">
               <IdeaList ideas={demandA._insights?.monetization} />
               <IdeaList ideas={demandB._insights?.monetization} />

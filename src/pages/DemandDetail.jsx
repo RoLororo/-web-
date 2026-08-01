@@ -16,7 +16,10 @@ import InsightsPanel from '../components/InsightsPanel.jsx';
 import { getDemandById } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
 import { trendSeries, sliceSeries, availableRanges, seriesPeriodLabel } from '../utils/series.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import Breadcrumbs from '../components/Breadcrumbs.jsx';
+import AdSlot from '../components/AdSlot.jsx';
+import { useSeo, breadcrumbJsonLd } from '../utils/useSeo.js';
+import { SITE_URL, SITE_NAME } from '../config/site.js';
 import { toast } from '../utils/toast.js';
 
 export default function DemandDetail() {
@@ -36,11 +39,50 @@ export default function DemandDetail() {
     [fullSeries, rangeDays],
   );
 
-  usePageTitle(
-    demand
-      ? `${demand.title} — 需要分析 | Demand Atlas`
-      : 'ページが見つかりません — Demand Atlas'
-  );
+  // 検索結果に出るのはほぼこのページなので、description はテーマごとに変える。
+  // 全ページ共通の説明文のままだと、10 件のテーマが同じ内容だと見なされる。
+  const seoDescription = demand
+    ? [
+        `「${demand.title}」の需要スコアは ${demand.score}/100。`,
+        demand._insights?.verdict ? `判定は「${demand._insights.verdict.label}」。` : '',
+        `Wikipedia・Qiita・arXiv・GitHub など ${demand.sourceCount || 7} 種類の公開データから観測しました。`,
+        'スコアの内訳と、根拠になった実際のニュース記事を掲載しています。',
+      ].join('').slice(0, 160)
+    : 'お探しの需要テーマは見つかりませんでした。';
+
+  useSeo({
+    title: demand
+      ? `${demand.title}の需要スコアと根拠 — ${SITE_NAME}`
+      : `ページが見つかりません — ${SITE_NAME}`,
+    description: seoDescription,
+    noindex: !demand,
+    jsonLd: demand
+      ? [
+          breadcrumbJsonLd([
+            { name: '分野', path: '/categories' },
+            { name: demand.category, path: `/categories/${encodeURIComponent(demand.category)}` },
+            { name: demand.title, path: `/demand/${demand.id}` },
+          ]),
+          {
+            // 生成物であることを隠さない。Dataset として申告する
+            '@context': 'https://schema.org',
+            '@type': 'Dataset',
+            name: `${demand.title} の需要観測データ`,
+            description: demand.summary,
+            url: `${SITE_URL}/demand/${demand.id}`,
+            inLanguage: 'ja',
+            license: `${SITE_URL}/terms`,
+            isAccessibleForFree: true,
+            creator: { '@type': 'Person', name: 'RoLororo' },
+            dateModified: demand.updatedAt || undefined,
+            variableMeasured: [
+              { '@type': 'PropertyValue', name: '需要スコア', value: demand.score, maxValue: 100, minValue: 0 },
+              { '@type': 'PropertyValue', name: '観測情報源数', value: demand.sourceCount },
+            ],
+          },
+        ]
+      : null,
+  });
 
   if (!demand) {
     return (
@@ -100,6 +142,15 @@ export default function DemandDetail() {
     <div>
       <div className="container">
         <div className="detail-header">
+          {/* 検索から直接ここへ着地した人は、自分がサイトのどこにいるか分からない。
+              「← 一覧に戻る」だけでは分野へ横に移動できないので、パンくずを併置する */}
+          <Breadcrumbs
+            items={[
+              { name: '分野', path: '/categories' },
+              { name: demand.category, path: `/categories/${encodeURIComponent(demand.category)}` },
+              { name: demand.title, path: `/demand/${demand.id}` },
+            ]}
+          />
           <Link to="/" className="back-link">← 一覧に戻る</Link>
 
           <div className="detail-header-top">
@@ -167,7 +218,7 @@ export default function DemandDetail() {
             {/* なぜ伸びたのか (合成) — 最も重要な結論を最初に */}
             {demand._insights?.whyTrending && (
               <div className="block">
-                <div className="block-title">なぜ伸びたのか</div>
+                <h2 className="block-title">なぜ伸びたのか</h2>
                 <InsightsPanel.WhyTrending data={demand._insights.whyTrending} />
               </div>
             )}
@@ -175,7 +226,7 @@ export default function DemandDetail() {
             {/* 3スコア評価: 勢い / 参入しやすさ / 競争 */}
             {demand._insights && (
               <div className="block">
-                <div className="block-title">このテーマの評価</div>
+                <h2 className="block-title">このテーマの評価</h2>
                 <div className="insight-assess-grid">
                   <InsightsPanel.Assessment
                     title="今の勢い"
@@ -209,10 +260,10 @@ export default function DemandDetail() {
 
             {/* スコアの内訳 (説明性) */}
             <div className="block">
-              <div className="block-title">
+              <h2 className="block-title">
                 需要スコア {demand.score} の内訳
                 <span className="block-title-count">4 要素の合計</span>
-              </div>
+              </h2>
               <p className="score-breakdown-lead">
                 needs = 40×ニュース量 + 30×直近成長 + 20×ニュース媒体の多様性 + 10×鮮度。各要素は 0〜1 に正規化。
                 <br />
@@ -268,9 +319,14 @@ export default function DemandDetail() {
 
             {/* ▲ 意思決定ゾーン ここまで ▲ */}
 
+            {/* 広告枠 1。判定・評価・スコア内訳まで読み終えた直後の区切り。
+                ここまでで「知りたかったこと」が一度満たされるので、
+                読解を中断させずに挟める唯一の位置。 */}
+            <AdSlot variant="inline" id="detail-after-decision" />
+
             {/* 需要の変化 */}
             <div className="block">
-              <div className="block-title">需要の変化</div>
+              <h2 className="block-title">需要の変化</h2>
               <div className="chart-card">
                 <div className="chart-toolbar">
                   <div className="range-tabs" role="tablist">
@@ -323,7 +379,7 @@ export default function DemandDetail() {
 
             {/* 情報源ごとの実数 (demands.json に既に含まれる nativeMetrics) */}
             <div className="block">
-              <div className="block-title">情報源ごとの実数</div>
+              <h2 className="block-title">情報源ごとの実数</h2>
               <p className="block-lead">
                 各情報源が直近の観測窓で実際に返した数字です。判断の材料にならない内部計算値は出していません。
               </p>
@@ -332,19 +388,19 @@ export default function DemandDetail() {
 
             {/* 情報源別の時系列 (history/current から動的読み込み) */}
             <div className="block">
-              <div className="block-title">情報源別に見る積み上がり</div>
+              <h2 className="block-title">情報源別に見る積み上がり</h2>
               <SourceTrends themeId={demand.id} />
             </div>
 
             {/* 情報源別の実際の観測 (demand._{source}Detail.topItems 由来) */}
             <div className="block">
-              <div className="block-title">情報源別に見る実際の観測</div>
+              <h2 className="block-title">情報源別に見る実際の観測</h2>
               <SourceObservations demand={demand} />
             </div>
 
             {/* 誰が求めているか */}
             <div className="block">
-              <div className="block-title">どのような人が求めているか</div>
+              <h2 className="block-title">どのような人が求めているか</h2>
               <div className="pill-list">
                 {demand.audience.map((a) => <span className="pill" key={a}>{a}</span>)}
               </div>
@@ -352,7 +408,7 @@ export default function DemandDetail() {
 
             {/* 具体的な悩み */}
             <div className="block">
-              <div className="block-title">具体的な悩み</div>
+              <h2 className="block-title">具体的な悩み</h2>
               <div className="quote-list">
                 {demand.problems.map((p) => (
                   <div className="quote" key={p}>「{p}」</div>
@@ -362,10 +418,10 @@ export default function DemandDetail() {
 
             {/* 実際の観測 (ニュース記事一覧) */}
             <div className="block">
-              <div className="block-title">
+              <h2 className="block-title">
                 この需要が観測された実際のニュース
                 <span className="block-title-count">{demand.evidence.length}</span>
-              </div>
+              </h2>
               {demand.evidence.length === 0 && (
                 <div className="empty-hint">直近のニュース記事はまだ観測されていません。</div>
               )}
@@ -402,13 +458,19 @@ export default function DemandDetail() {
               </div>
             </div>
 
+            {/* 広告枠 2。根拠のニュースを読み終えた後、アイデア群に入る前。
+                ここまで到達した人は滞在時間が長く、離脱リスクが低い。
+                外部リンクの一覧の直後なので、広告と記事リンクが隣り合わない
+                （隣り合うと誤クリックを誘発し、AdSense のポリシー違反になる）。 */}
+            <AdSlot variant="rectangle" id="detail-after-evidence" />
+
             {/* 収益化アイデア (詳細版: barrier + revenue バッジ付き) */}
             {demand._insights?.monetization && demand._insights.monetization.length > 0 && (
               <div className="block">
-                <div className="block-title">
+                <h2 className="block-title">
                   収益化アイデア
                   <span className="block-title-count">{demand._insights.monetization.length}</span>
-                </div>
+                </h2>
                 <InsightsPanel.Ideas items={demand._insights.monetization} columns="monetization" />
               </div>
             )}
@@ -416,10 +478,10 @@ export default function DemandDetail() {
             {/* コンテンツ化アイデア */}
             {demand._insights?.content && demand._insights.content.length > 0 && (
               <div className="block">
-                <div className="block-title">
+                <h2 className="block-title">
                   コンテンツ化アイデア
                   <span className="block-title-count">{demand._insights.content.length}</span>
-                </div>
+                </h2>
                 <InsightsPanel.Ideas items={demand._insights.content} columns="content" />
               </div>
             )}
@@ -427,10 +489,10 @@ export default function DemandDetail() {
             {/* SaaS / アプリ化アイデア */}
             {demand._insights?.saas && demand._insights.saas.length > 0 && (
               <div className="block">
-                <div className="block-title">
+                <h2 className="block-title">
                   SaaS / アプリ化アイデア
                   <span className="block-title-count">{demand._insights.saas.length}</span>
-                </div>
+                </h2>
                 <InsightsPanel.Ideas items={demand._insights.saas} columns="saas" />
               </div>
             )}
@@ -438,7 +500,7 @@ export default function DemandDetail() {
             {/* 似たテーマ */}
             {demand._insights?.similarThemes && demand._insights.similarThemes.length > 0 && (
               <div className="block">
-                <div className="block-title">似たテーマを比べる</div>
+                <h2 className="block-title">似たテーマを比べる</h2>
                 <InsightsPanel.Similar items={demand._insights.similarThemes} />
                 <div className="similar-cta-row">
                   <Link to={`/compare?a=${demand.id}`} className="btn primary">
@@ -451,7 +513,7 @@ export default function DemandDetail() {
             {/* 次の一歩 (行動チェックリスト) */}
             {demand._insights?.nextActions && demand._insights.nextActions.length > 0 && (
               <div className="block next-actions-block">
-                <div className="block-title">次の一歩</div>
+                <h2 className="block-title">次の一歩</h2>
                 <div className="next-actions-lead">
                   観測を眺めるだけで終わらせないための、実行可能な 5 ステップ。
                 </div>

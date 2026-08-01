@@ -16,10 +16,14 @@ import ThemeLink from '../components/ThemeLink.jsx';
 import { loadAllTimeseries, loadIndex, flattenMetrics } from '../services/historyService.js';
 import { getDemands } from '../services/demandService.js';
 import { themeTitle } from '../services/themeCatalog.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 export default function Timeline() {
-  usePageTitle('タイムライン — Demand Atlas');
+  useSeo({
+    title: "観測の履歴 — 日ごとの積み上がり | Demand Atlas",
+    description: "毎日の観測結果がどう積み上がってきたかを日付順に表示します。どの情報源がいつ動いたかを追えます。",
+    path: "/timeline",
+  });
 
   const [allSeries, setAllSeries] = useState(null); // { themeId: [records] }
   const [index, setIndex] = useState(null);

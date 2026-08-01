@@ -18,7 +18,8 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getDemands } from '../services/demandService.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
+import AdSlot from '../components/AdSlot.jsx';
 
 const KINDS = [
   { key: 'all',          label: '全て' },
@@ -85,7 +86,12 @@ function IdeaBody({ kind, item }) {
 }
 
 export default function Ideas() {
-  usePageTitle('アイデア一覧 — Demand Atlas');
+  useSeo({
+    // 件数はテーマが増えると変わるので title には入れない（古い数字が残る）
+    title: "事業アイデア一覧 — 観測データから機械的に導いた案 | Demand Atlas",
+    description: "追跡中の需要テーマの観測結果から、決まったルールで導いた事業アイデアの一覧です。収益化・コンテンツ・SaaS の 3 種類を、テーマと参入難度で絞り込めます。",
+    path: "/ideas",
+  });
 
   const [kind, setKind] = useState('all');
   const [theme, setTheme] = useState('');
@@ -216,6 +222,10 @@ export default function Ideas() {
           </button>
         </div>
       )}
+
+      {/* 広告枠。一覧の途中には差し込まない（絞り込みながら読む画面なので、
+          リストが途切れると比較の流れが切れる）。一覧を見終えた後に 1 枚だけ。 */}
+      <AdSlot variant="list" id="ideas-below-list" />
 
       <p className="ideas-note">
         アイデアは各テーマの観測データ（ニュース件数・情報源の内訳・カテゴリ）から

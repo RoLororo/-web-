@@ -22,10 +22,14 @@ import {
 import { getDemands } from '../services/demandService.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
 import { themeTitle } from '../services/themeCatalog.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 export default function WhatsNew() {
-  usePageTitle('新規追加 — Demand Atlas');
+  useSeo({
+    title: "情報源と追加履歴 — いま動いている 7 つのデータ元 | Demand Atlas",
+    description: "Demand Atlas が現在観測している情報源の一覧と、テーマ・情報源をいつ追加したかの記録です。どのデータがいつから入っているかを確認できます。",
+    path: "/whats-new",
+  });
   const [index, setIndex] = useState(null);
   const [allSeries, setAllSeries] = useState(null);
 

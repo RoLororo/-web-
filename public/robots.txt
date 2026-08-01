@@ -1,0 +1,28 @@
+# Demand Atlas — https://demand-atlas.vercel.app
+#
+# 2026-08-01 まで /robots.txt は SPA の rewrite に飲まれて HTML を返していた。
+# public/ 配下の実ファイルは rewrite より先に配信されるため、ここに置けば直る。
+
+User-agent: *
+Allow: /
+
+# アクセス集計の API。クロールしても中身がなく、GET のたびに集計を読むだけなので外す。
+# ページの描画には不要（取得できない時は訪問者の表示が出ないだけ）。
+Disallow: /api/
+
+# /data/ と /history/ は **絶対に Disallow しないこと**。
+# このサイトは SPA で、本文は全て /data/demands.json と /history/*.jsonl を
+# JavaScript が取得してから描画される。ここを塞ぐと Googlebot のレンダリングが
+# 空のページになり、サイト全体が「中身のないページの集まり」として索引される。
+
+# 広告配信のクローラーには全ページを許可する（審査と配信の両方で参照される）
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+Sitemap: https://demand-atlas.vercel.app/sitemap.xml

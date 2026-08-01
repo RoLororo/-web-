@@ -13,6 +13,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import DemandCard from '../components/DemandCard.jsx';
+import AdSlot from '../components/AdSlot.jsx';
 import CategoryFilter from '../components/CategoryFilter.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import DailyBrief from '../components/DailyBrief.jsx';
@@ -20,10 +21,15 @@ import FavoritesStrip from '../components/FavoritesStrip.jsx';
 import TodayVisitors from '../components/TodayVisitors.jsx';
 import { getDemands, getTotalArticles } from '../services/demandService.js';
 import { loadAllTimeseries, biggestMoverOfTheme } from '../services/historyService.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo, websiteJsonLd } from '../utils/useSeo.js';
 
 export default function Home() {
-  usePageTitle('Demand Atlas — 世の中の需要を可視化する');
+  useSeo({
+    title: "Demand Atlas — 世の中の需要を数字で見る",
+    description: "Wikipedia・Qiita・arXiv・App Store・GitHub・国立国会図書館・ニュースの公開データを毎日集め、いま何が求められているかを需要スコアにして並べています。スコアの根拠になった記事まで辿れます。",
+    path: "/",
+    jsonLd: websiteJsonLd(),
+  });
   const [category, setCategory] = useState('');
 
   const allDemands = useMemo(() => getDemands(), []);
@@ -142,6 +148,13 @@ export default function Home() {
           )}
         </div>
       </section>
+
+      {/* 広告枠。需要カードを一通り見終えた後、フッターの前。
+          ヒーローと一覧の間には置かない（サイトの主目的である
+          「今日の需要」を最初のスクロールで見せ切るため）。 */}
+      <div className="container">
+        <AdSlot variant="list" id="home-below-list" />
+      </div>
     </div>
   );
 }

@@ -27,3 +27,7 @@ yarn-error.log*
 # canonical (data/, history/) だけを git 追跡する (二重管理解消)。
 public/data/
 public/history/
+
+# sitemap.xml は demands.json から prebuild で生成する派生物。
+# 手書きすると必ずテーマ増減とずれるので追跡しない (robots.txt は静的なので追跡する)。
+public/sitemap.xml

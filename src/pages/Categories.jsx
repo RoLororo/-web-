@@ -5,10 +5,14 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getCategorySummaries } from '../services/demandService.js';
-import { usePageTitle } from '../utils/usePageTitle.js';
+import { useSeo } from '../utils/useSeo.js';
 
 export default function Categories() {
-  usePageTitle('分野から探す — Demand Atlas');
+  useSeo({
+    title: "分野から需要を探す — Demand Atlas",
+    description: "需要テーマを分野ごとに一覧できます。各分野の登録数と平均変化率を見て、興味のある分野から掘り下げてください。",
+    path: "/categories",
+  });
   const nav = useNavigate();
   const cats = useMemo(() => getCategorySummaries(), []);
   // 観測テーマが 0 件の分野はカードにしない。
