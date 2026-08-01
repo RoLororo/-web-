@@ -222,6 +222,54 @@ async function main() {
     }
   }
 
+  // 導出値（score / 判定 / 内訳 / 評価）のその日の値。
+  //
+  // ここまで履歴は生の観測値 55 項目だけを記録していて、パイプラインが
+  // 計算した値は 1 つも残していなかった（2026-08-01 実測）。
+  // 生の値は残っているので後から再計算できそうに見えるが、実際にはできない。
+  // スコアは「その日の全テーマの中央値」など横断の統計に依存していて、
+  // 計算式や正規化を変えた瞬間に過去の値は再現できなくなる。
+  // **その日に出した数字は、その日に残さないと永久に失われる。**
+  //
+  // これが無いと作れないもの:
+  //   需要スコアの推移 / ランキング履歴（いつ何位だったか）/ 判定の遷移
+  //   （いつ拡大局面に入ったか）/ スコア込みの CSV 出力
+  // いずれも Premium の中心になる機能。
+  const derivedOf = (id) => {
+    const d = (demandsData?.demands || []).find((x) => x.id === id);
+    if (!d) return null;
+    const b = d._scoreBreakdown || {};
+    const i = d._insights || {};
+    const out = {
+      score: d.score ?? null,
+      rank: null, // 下で全テーマを並べてから入れる
+      change: d.change ?? null,
+      status: d.status ?? null,
+      confidence: d.confidence ?? null,
+      sourceCount: d.sourceCount ?? null,
+      matchedArticles: d._matchingArticleCount ?? null,
+      dataQuality: d._dataQuality ?? null,
+      breakdown: {
+        newsVolume: b.newsVolume ?? null,
+        growth: b.growth ?? null,
+        sourceDiversity: b.sourceDiversity ?? null,
+        freshness: b.freshness ?? null,
+      },
+      verdict: i.verdict?.label ?? null,
+      momentum: i.momentum?.score ?? null,
+      beginnerFriendliness: i.beginnerFriendliness?.score ?? null,
+      competition: i.competition?.score ?? null,
+    };
+    return out;
+  };
+
+  // 順位はスコアの降順。同点は id で決めて、日によって揺れないようにする
+  const rankOf = {};
+  [...(demandsData?.demands || [])]
+    .filter((d) => typeof d.score === 'number')
+    .sort((a, b) => b.score - a.score || String(a.id).localeCompare(String(b.id)))
+    .forEach((d, i) => { rankOf[d.id] = i + 1; });
+
   // 全ソースに登場するテーマ ID の union
   const allThemeIds = new Set([
     ...Object.keys(qiitaThemes),
@@ -266,7 +314,14 @@ async function main() {
     if (n) sources.ndl       = n;
     if (Object.keys(sources).length === 0) continue;
 
-    const todayRecord = { date: today, generatedAt, sources };
+    // derived は sources と並べて別枝に置く。既存の読み手（historyService /
+    // Rankings / Timeline / Changes）は sources しか見ていないので影響しない。
+    const derived = derivedOf(themeId);
+    if (derived) derived.rank = rankOf[themeId] ?? null;
+
+    const todayRecord = derived
+      ? { date: today, generatedAt, sources, derived }
+      : { date: today, generatedAt, sources };
     const currentPath = PATHS.history.currentTheme(themeId);
     const { records, skipped } = await readJsonlSafe(currentPath);
     totalReadSkipped += skipped;
