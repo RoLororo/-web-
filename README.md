@@ -142,6 +142,30 @@ HowTo（`/guide`）/ AboutPage / ContactPage。**29 ページ中 19 ページで
 1 本追加 ④ `AdSlot.jsx` の `<aside>` 内に `<ins className="adsbygoogle">` を入れる
 ⑤ `public/ads.txt` を設置 ⑥ `/privacy` の広告の節が自動で切り替わることを確認。
 
+### プリレンダ
+
+`npm run build` は `vite build` のあとに `scripts/prerender.mjs` を実行し、
+37 ルートぶんの `dist/<ルート>/index.html` を書き出す。
+
+なぜ必要だったか（2026-08-01 実測・本番）: 37 URL すべてが同じ生 HTML を返していた。
+title も og:title も同一、本文 251 字、内部リンク 0 本。
+X・Slack・LINE は JavaScript を実行しないので、どのページを共有しても同じカードが出ていた。
+
+実装後の生 HTML: 本文 341〜11,045 字 / 内部リンク 20〜30 本 / title・description・canonical は全て固有 / 構造化データ 29 ルート。本番で CLS 0・console error 0。
+
+- `src/entry-server.jsx` … `renderToPipeableStream` + `onAllReady`。
+  `renderToString` だと React.lazy の 9 ページが Suspense のフォールバックのまま出る
+- `useSeo` の `SeoCollectorContext` … 効果はサーバーで走らないので、
+  レンダー中に meta を受け取る。ブラウザでは収集器が null で動作は不変
+- ブラウザは `createRoot` のまま（`hydrateRoot` にしない）。
+  AnimatedNumber と日時がサーバーと食い違うため、描き直す方が壊れにくい
+
+**注意**: React の Node ストリームはチャンク境界で NUL バイトを混ぜてくる。
+entry-server で除去し、prerender 側で U+FFFD を検出したらビルドを落とす。
+
+`/changes` `/timeline` `/rankings` `/whats-new` は history を効果の中で読むので、
+生 HTML では空の状態になる（クライアントでは埋まる）。
+
 ### 情報源レポート（`/sources` の中身）
 
 `scripts/build-source-report.mjs` が各 fetcher の出力から
