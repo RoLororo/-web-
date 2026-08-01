@@ -607,7 +607,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.195Z",
+        "generatedAt": "2026-08-01T07:58:02.310Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -739,21 +739,24 @@
             "title": "個人情報漏洩・セキュリティ対策",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "payment-troubles",
             "title": "決済インフラ・キャッシュレス",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "remote-work",
             "title": "リモートワーク・ハイブリッド勤務",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -1569,7 +1572,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.195Z",
+        "generatedAt": "2026-08-01T07:58:02.311Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1711,7 +1714,8 @@
             "similarity": 0.091,
             "sharedKeywords": [
               "ai"
-            ]
+            ],
+            "reason": "keyword"
           },
           {
             "id": "ai-coding",
@@ -1720,14 +1724,16 @@
             "similarity": 0.077,
             "sharedKeywords": [
               "claude"
-            ]
+            ],
+            "reason": "keyword"
           },
           {
             "id": "ai-hardware",
             "title": "AI向けハードウェア・計算基盤",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -2376,7 +2382,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.196Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -2499,21 +2505,24 @@
             "title": "システム障害・可用性への関心",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "payment-troubles",
             "title": "決済インフラ・キャッシュレス",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "remote-work",
             "title": "リモートワーク・ハイブリッド勤務",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -3143,7 +3152,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.196Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -3273,21 +3282,24 @@
             "similarity": 0.077,
             "sharedKeywords": [
               "claude"
-            ]
+            ],
+            "reason": "keyword"
           },
           {
             "id": "ai-regulation",
             "title": "AI規制・安全性・プライバシー",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "ai-hardware",
             "title": "AI向けハードウェア・計算基盤",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -4091,7 +4103,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.196Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -4227,21 +4239,24 @@
             "title": "システム障害・可用性への関心",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "security-breach",
             "title": "個人情報漏洩・セキュリティ対策",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "remote-work",
             "title": "リモートワーク・ハイブリッド勤務",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -4784,7 +4799,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.197Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 71,
@@ -4913,21 +4928,24 @@
             "similarity": 0.091,
             "sharedKeywords": [
               "ai"
-            ]
+            ],
+            "reason": "keyword"
           },
           {
             "id": "ai-coding",
             "title": "AI駆動のコード生成・開発支援",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "ai-hardware",
             "title": "AI向けハードウェア・計算基盤",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -5632,7 +5650,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.197Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 69,
@@ -5759,21 +5777,24 @@
             "title": "システム障害・可用性への関心",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "security-breach",
             "title": "個人情報漏洩・セキュリティ対策",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "payment-troubles",
             "title": "決済インフラ・キャッシュレス",
             "category": "ビジネス",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -6210,7 +6231,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.197Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 38,
@@ -6315,7 +6336,32 @@
             "hypothesis": "早期発見の需要 vs 病院に行きたくない心理のギャップ"
           }
         ],
-        "similarThemes": [],
+        "similarThemes": [
+          {
+            "id": "ai-hardware",
+            "title": "AI向けハードウェア・計算基盤",
+            "category": "AI・テクノロジー",
+            "similarity": 0,
+            "sharedKeywords": [],
+            "reason": "score"
+          },
+          {
+            "id": "home-server-selfhost",
+            "title": "自宅サーバー・セルフホスト",
+            "category": "AI・テクノロジー",
+            "similarity": 0,
+            "sharedKeywords": [],
+            "reason": "score"
+          },
+          {
+            "id": "remote-work",
+            "title": "リモートワーク・ハイブリッド勤務",
+            "category": "ビジネス",
+            "similarity": 0,
+            "sharedKeywords": [],
+            "reason": "score"
+          }
+        ],
         "nextActions": [
           {
             "label": "観測を1週間ウォッチする",
@@ -6914,7 +6960,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.197Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 84,
@@ -7046,21 +7092,24 @@
             "title": "AI業務自動化",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "ai-coding",
             "title": "AI駆動のコード生成・開発支援",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "ai-regulation",
             "title": "AI規制・安全性・プライバシー",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -7622,7 +7671,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-01T00:25:29.197Z",
+        "generatedAt": "2026-08-01T07:58:02.312Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 77,
@@ -7728,21 +7777,24 @@
             "title": "AI業務自動化",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "ai-coding",
             "title": "AI駆動のコード生成・開発支援",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           },
           {
             "id": "ai-regulation",
             "title": "AI規制・安全性・プライバシー",
             "category": "AI・テクノロジー",
             "similarity": 0,
-            "sharedKeywords": []
+            "sharedKeywords": [],
+            "reason": "category"
           }
         ],
         "nextActions": [
@@ -7768,6 +7820,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-08-01T00:25:29.197Z",
+  "insightsGeneratedAt": "2026-08-01T07:58:02.312Z",
   "insightsMethod": "heuristic-v1"
 }

@@ -777,14 +777,52 @@ function computeSimilarThemes(demands, themeIndex) {
       });
     }
     rows.sort((a, b) => b.similarity - a.similarity);
-    // 少なくとも 3 個返す。similarity 0 でも「同カテゴリ」で fallback
-    let top = rows.filter((r) => r.similarity > 0).slice(0, 3);
-    if (top.length < 3) {
-      const seen = new Set(top.map((r) => r.id));
-      const sameCat = rows.filter((r) => r.category === d.category && !seen.has(r.id));
-      top = [...top, ...sameCat].slice(0, 3);
+
+    // 必ず 3 件そろえる。
+    //
+    // 以前は「キーワード類似 → 同カテゴリ」の 2 段だけで、
+    // 同カテゴリに他のテーマが 1 件も無い場合は 0 件のままだった。
+    // 2026-08-01 実測: senior-health（健康分野で唯一のテーマ）が 0 件になり、
+    // 詳細ページから他のテーマへ辿る手段が 1 本も無い行き止まりになっていた。
+    //
+    // 段を足して、どの段で選ばれたかを reason として持たせる。
+    // 「関連です」とだけ出すと、関係が薄いものを近いように見せてしまうため、
+    // UI 側で理由をそのまま表示する。
+    const pick = (list, reason) => list.map((r) => ({ ...r, reason }));
+    const chosen = [];
+    const seen = new Set();
+    const take = (candidates, reason) => {
+      for (const r of pick(candidates, reason)) {
+        if (chosen.length >= 3) return;
+        if (seen.has(r.id)) continue;
+        seen.add(r.id);
+        chosen.push(r);
+      }
+    };
+
+    // 1) 語が実際に重なっているもの
+    take(rows.filter((r) => r.similarity > 0), 'keyword');
+    // 2) 同じ分野
+    take(rows.filter((r) => r.category === d.category), 'category');
+    // 3) 同じ判定（局面が同じなら、取るべき行動も近い）
+    const myVerdict = d._insights?.verdict?.label || null;
+    if (myVerdict) {
+      take(
+        rows.filter((r) => (themeIndex[r.id]?.verdict || null) === myVerdict),
+        'verdict',
+      );
     }
-    out.set(d.id, top);
+    // 4) スコアが近い順（最後の砦。ここまで来れば必ず 3 件になる）
+    take(
+      [...rows].sort((a, b) => {
+        const sa = Math.abs((themeIndex[a.id]?.score ?? 0) - (d.score ?? 0));
+        const sb = Math.abs((themeIndex[b.id]?.score ?? 0) - (d.score ?? 0));
+        return sa - sb;
+      }),
+      'score',
+    );
+
+    out.set(d.id, chosen);
   }
   return out;
 }
@@ -860,7 +898,10 @@ async function main() {
   const demands = payload.demands || [];
 
   // similar 計算のためのインデックス
-  const themeIndex = Object.fromEntries(demands.map((d) => [d.id, { title: d.title, category: d.category }]));
+  // similarThemes のフォールバックで score と status を使うので index に含める
+  const themeIndex = Object.fromEntries(
+    demands.map((d) => [d.id, { title: d.title, category: d.category, score: d.score, status: d.status }]),
+  );
   const similarMap = computeSimilarThemes(demands, themeIndex);
 
   let filled = 0;

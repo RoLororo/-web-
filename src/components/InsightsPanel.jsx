@@ -74,31 +74,46 @@ function WhyTrending({ data }) {
   );
 }
 
+/**
+ * 何を根拠に「関連」と言っているかを、そのまま書く。
+ * 「関連テーマ」とだけ出すと、たまたまスコアが近いだけのものまで
+ * 中身が近いように見えてしまう（2026-08-01: senior-health は他分野に
+ * 語が 1 つも重ならず、スコアの近さでしか並べられない）。
+ */
+function relationLabel(s) {
+  if (s.reason === 'keyword' || (!s.reason && s.similarity > 0)) {
+    const shared = s.sharedKeywords?.slice(0, 3).join(' / ');
+    return {
+      text: `語が重なる${shared ? `（${shared}）` : ''}`,
+      strong: true,
+    };
+  }
+  if (s.reason === 'category' || !s.reason) return { text: '同じ分野', strong: false };
+  if (s.reason === 'status') return { text: '同じ状態', strong: false };
+  return { text: 'スコアが近いだけ（内容は別）', strong: false };
+}
+
 function SimilarThemes({ items }) {
   if (!items || items.length === 0) return null;
   return (
     <div className="insight-similar">
       <ul className="insight-similar-list">
-        {items.map((s) => (
-          <li key={s.id}>
-            <Link to={`/demand/${s.id}`} className="insight-similar-card">
-              <div className="insight-similar-cat">{s.category}</div>
-              <div className="insight-similar-title">{s.title}</div>
-              <div className="insight-similar-foot">
-                {s.similarity > 0 ? (
-                  <span className="insight-similar-sim">
-                    キーワード類似 {(s.similarity * 100).toFixed(1)}%
-                    {s.sharedKeywords && s.sharedKeywords.length > 0 &&
-                      <> ({s.sharedKeywords.slice(0, 3).join(' / ')})</>
-                    }
+        {items.map((s) => {
+          const rel = relationLabel(s);
+          return (
+            <li key={s.id}>
+              <Link to={`/demand/${s.id}`} className="insight-similar-card">
+                <div className="insight-similar-cat">{s.category}</div>
+                <div className="insight-similar-title">{s.title}</div>
+                <div className="insight-similar-foot">
+                  <span className={`insight-similar-sim ${rel.strong ? '' : 'faded'}`}>
+                    {rel.text}
                   </span>
-                ) : (
-                  <span className="insight-similar-sim faded">同分野</span>
-                )}
-              </div>
-            </Link>
-          </li>
-        ))}
+                </div>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
