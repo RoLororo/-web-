@@ -69,8 +69,16 @@ const DAY_MS = 24 * 60 * 60 * 1000;
  *         (Wikipedia/Qiita/arXiv) で代替される。keyword-trends.json
  *         パイプラインは残しても score には反映されないだけ (fetcher 削除
  *         は別 issue)。
+ *
+ * 2026-08-01 再リカリブレーション (15 → 30):
+ *   フィードを 4 本 → 13 本に増やし corpus が 822 → 1093 件になった結果、
+ *   ヒット数の実測レンジが 2-20 から 2-48 に広がった。飽和点 15 のままだと
+ *   11 テーマ中 5 テーマが 1.00 に張り付き、40 点満点の要素が上位を
+ *   区別できなくなる（96/89/84/84/83 と 5 テーマが 13 点内に密集した）。
+ *   実測最大 48 に対し 30 とすると 48→1.00 / 29→0.97 / 20→0.67 /
+ *   15→0.50 / 9→0.30 / 3→0.10 と全域で差がつく。
  */
-const VOLUME_SATURATION = 15;
+const VOLUME_SATURATION = 30;
 
 /**
  * sourceDiversity の飽和点 (ユニーク情報源数)
@@ -78,8 +86,14 @@ const VOLUME_SATURATION = 15;
  * 2026-08 リカリブレーション: 実際に fetch-news.mjs が拾っているのは
  * NHK / ITmedia / はてな / Zenn の 4 種のみ。旧 6 のままでは誰も満点に
  * ならず sourceDiversity=20 点満点が原理的に取れない → 4 に修正。
+ *
+ * 2026-08-01 再リカリブレーション (4 → 8):
+ *   フィードが 13 本になり、1 テーマが実際に 8 情報源から観測されるように
+ *   なった（実測レンジ 1-8）。飽和点 4 のままだと 11 テーマ中 6 テーマが
+ *   1.00 になり、20 点満点の要素が定数と化す。
+ *   飽和点は「実際に到達しうる最大値」に合わせる。
  */
-const SOURCE_SATURATION = 4;
+const SOURCE_SATURATION = 8;
 
 /** freshness を 0 にする最大日数 */
 const FRESHNESS_MAX_DAYS = 30;
@@ -436,11 +450,18 @@ async function main() {
       // ── 内部フィールド (フロント無変更のまま参考として保存。表示には使われない) ──
       _dataQuality:          dataQuality,
       _hasEnoughGrowthData:  growth.hasEnoughData,
+      // 小数第 4 位まで保つ。
+      // 第 2 位で丸めていた頃は、この 4 値から score を計算し直すと
+      // 本物の score と 1 点ずれることがあった（実測 2026-08-02:
+      // 生成AIによるコンテンツ制作 は score 43 なのに内訳の合計が 44 点と
+      // 表示された。0.0667→0.07 などの切り上げが 4 つ積もって 43.5 になったため）。
+      // 「スコアの根拠を出す」ことがこのサイトの中心なので、
+      // 出した内訳から score を再現できない状態は許容しない。
       _scoreBreakdown: {
-        newsVolume:      Math.round(newsVolume      * 100) / 100,
-        growth:          Math.round(growth.value    * 100) / 100,
-        sourceDiversity: Math.round(diversity.value * 100) / 100,
-        freshness:       Math.round(freshness       * 100) / 100,
+        newsVolume:      Math.round(newsVolume      * 10000) / 10000,
+        growth:          Math.round(growth.value    * 10000) / 10000,
+        sourceDiversity: Math.round(diversity.value * 10000) / 10000,
+        freshness:       Math.round(freshness       * 10000) / 10000,
         formula: 'score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness',
       },
       _growthDetail: {

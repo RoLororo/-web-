@@ -45,6 +45,21 @@ import { storage } from './lib/storage.mjs';
 const INPUT  = PATHS.source.articles;
 const OUTPUT = PATHS.source.candidates;
 
+/**
+ * 1 テーマあたり保持する根拠記事の最大数。
+ *
+ * build-demands.mjs は evidenceArticleIds を newsVolume / sourceDiversity /
+ * freshness の 3 要素すべての入力に使うため、この上限がそのままスコアの
+ * 上限になる。
+ *
+ * 2026-08-01 に 20 → 60 へ引き上げた。
+ * 理由: フィードを 4 本 → 13 本に増やした結果、AI業務自動化 は 48 件
+ * ヒットするようになったが、20 件で切られるため 21 件目以降が
+ * スコアから完全に消えていた（48 件のテーマと 20 件のテーマが同点になる）。
+ * 実測の最大が 48 件なので、当面の余裕を見て 60 とする。
+ */
+const MAX_EVIDENCE = 60;
+
 // ---------------------------------------------------------------------------
 // テーマ辞書 — 現時点は手動キュレーション
 //
@@ -288,10 +303,10 @@ async function main() {
       .slice(0, 6)
       .map(([k]) => k);
 
-    // 根拠は publishedAt 新しい順に上位 20 件を保持
+    // 根拠は publishedAt 新しい順に上位 MAX_EVIDENCE 件を保持
     const sortedEvidence = evidence
       .sort((a, b) => Date.parse(b.article.publishedAt || 0) - Date.parse(a.article.publishedAt || 0))
-      .slice(0, 20);
+      .slice(0, MAX_EVIDENCE);
 
     candidates.push({
       id: theme.id,

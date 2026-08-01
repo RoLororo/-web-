@@ -150,7 +150,7 @@ export default function Methodology() {
         <ul>
           <li>
             <strong>日本語圏に偏っています。</strong>
-            Wikipedia は日本語版、ニュースは国内 4 媒体、App Store は日本ストアです。
+            Wikipedia は日本語版、ニュースは国内 13 媒体、App Store は日本ストアです。
             海外で先に起きている動きは拾えません。
           </li>
           <li>

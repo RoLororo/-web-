@@ -289,20 +289,21 @@ console.log('flat:',(flat/total*100).toFixed(0)+'% | cat:',JSON.stringify(cat));
 | カテゴリ | ビジネス 4 / AI・テクノロジー 5 / 健康 1 = **3 / 9 使用** |
 | envelope complete・coverage | 24 観測すべて健全（異常 0） |
 
-### テーマ拡張（2026-07-30 初測定）
+### テーマ拡張（2026-08-02 更新）
 
 | 項目 | 値 |
 |---|---|
-| 観測しているテーマ | **11**（5 つの mapping と wikipedia / insights / candidates 辞書に定義） |
-| 公開されているテーマ | **10**。差の 1 件（`ai-content-generation`）は **7 世代すべての日次コミットで不在** |
+| 観測しているテーマ | **11** |
+| 公開されているテーマ | **11**（2026-08-02 に `ai-content-generation` が復活。フィード拡張で hot 語がヒットするようになった） |
+| 分野の稼働 | **3 / 9**（AI・テクノロジー 6 / ビジネス 4 / 健康 1）。起業・副業・教育・生活・エンタメ・美容は **0 件のまま** |
 | 非公開になる条件 | `extract-demand-candidates.mjs` の `if (evidence.length === 0) continue`。**猶予期間なし・記録なし・UI 表示なし** |
-| 昇格基準の充足状況 | **3 / 10 が未達**（remote-work news 4 / home-server 3 / senior-health 3。基準は「3 ソース以上 かつ news 5 件以上」） |
+| 昇格基準の充足状況 | **4 / 11 が未達**（ai-content-generation news 2 / senior-health 3 / home-server 3 / remote-work 5。基準は「3 ソース以上 かつ news 5 件以上」） |
 | 1 テーマ追加に必要な編集 | **9 ファイル**（qiita / appstore / arxiv / github / ndl の mapping + `fetch-wikipedia-pageviews.mjs` + `generate-insights.mjs` + `extract-demand-candidates.mjs` + `themeCatalog.js`） |
-| 発見の原材料 | 未紐付け記事 **607 / 691 件**。頻出語は事件・固有名詞が支配（熊本 20 / ジャンプ 19 / イラン 12 / 高市首相 12）。**一般ニュースの語頻度だけでは需要テーマが出ない** |
-| 候補評価に使える既存資産 | `keyword-trends.json` = 任意キーワードの Google News RSS 集計（**57 語・API キー不要・日次系列つき**）。`totalItems` は **55/57 が 100 件上限に飽和**して使えないが、**velocity（件/日）は 0.4〜26.5 の 66 倍レンジ**で飽和せず判別力がある（中央値 1.7） |
-| ニュース corpus の上限 | RSS **4 本**（NHK / ITmedia / Zenn / はてな）。日次 19〜92 件（中央値 約 68） |
-| 記事の帰属 | 排他ではない（**13 / 84 件が 2 テーマ以上の根拠**）→ キーワード追加で既存テーマを壊す心配はない |
-| 停滞テーマの原因 | `ai-content-generation` の hot 語 3 つ（動画生成 / 画像生成 / 音声合成）は 691 記事中 **すべて 0 件**。代替語も精度が低い（`生成AI` 16 件中、内容が合致するのは 3 件程度） |
+| ニュース corpus | RSS **13 本** / **1,096 件**。4 本 822 件から拡張（2026-08-02） |
+| フィード採否の基準 | 紐付き率 **50% 以上**。実測は `config/theme-registry.json` の `seedFilter.feedCriteria` が正本 |
+| 根拠記事の上限 | 1 テーマ **60 件**（20 件から引き上げ）。上限が実測を切り捨ててスコアを潰していたため |
+| 記事の帰属 | 排他ではない（複数テーマの根拠になりうる）→ キーワード追加で既存テーマを壊す心配はない |
+| 次の corpus 拡張余地 | 技術系フィードは概ね取り切った。**非技術カテゴリ（起業/副業/教育/生活/美容）を埋めるフィードは未探索**。はてブ経済/暮らし/学びは 2026-07-30 に 0% で却下済み |
 
 ### 情報量（2026-07-30 初測定）
 
@@ -317,15 +318,15 @@ console.log('flat:',(flat/total*100).toFixed(0)+'% | cat:',JSON.stringify(cat));
 | history の metric 種類 | volume / engagement / contributors / latestActivityAt（4 種） |
 | Rankings が使う metric | **volume のみ**（`r.metric === 'volume'` でフィルタ） |
 | Compare が出す判定 | score / change / status / momentum / beginner / competition。**verdict と dataQuality は無い** |
-| ニュース | 取得 691 件 → テーマ紐付け **97 件（14%）**。1 テーマ 16 件中 UI 表示は evidence 8 + problems 5 |
+| ニュース | 取得 **1,096 件** → テーマ紐付け **156 件**（延べ・重複あり）。1 テーマ最大 48 件、UI 表示は evidence 8 + problems 5 |
 | 日次系列を作れる情報源 | wikipedia のみ実装済。**qiita / arxiv / github は全項目を走査済みなので API 追加なしで日次化可能**（topItems を 5 件に絞る前に集計すればよい）。appstore は日付フィールドを持たず不可、ndl は年単位のため不可 |
 
 ### サイズ
 
 | 項目 | 値 |
 |---|---|
-| demands.json | **47 KB gzip / 267 KB raw** |
-| history | 89 KB(raw) / 77 レコード / **1,183 B per record** |
+| demands.json | **291 KB raw**（2026-08-02。テーマ 11 件・根拠上限 60 件へ拡張後） |
+| history | 11 テーマ × 9 日 = 99 レコード。2026-08-01 分から `derived`（score/rank/verdict/breakdown）を記録 |
 | history jsonl（1 テーマ・7 レコード） | 約 8 KB raw |
 | .git | 3.9 MB |
 | data/ | 888 KB |

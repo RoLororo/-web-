@@ -267,8 +267,8 @@ export default function DemandDetail() {
               <p className="score-breakdown-lead">
                 needs = 40×ニュース量 + 30×直近成長 + 20×ニュース媒体の多様性 + 10×鮮度。各要素は 0〜1 に正規化。
                 <br />
-                「ニュース媒体の多様性」は観測している 4 媒体（NHK / ITmedia / はてな / Zenn）のうち
-                何媒体が報じたかを表します。ページ下部の情報源（Wikipedia・Qiita 等）とは別の指標です。
+                「ニュース媒体の多様性」は購読している 13 媒体のうち何媒体が報じたかを表します。
+                8 媒体で満点です。ページ下部の情報源（Wikipedia・Qiita 等）とは別の指標です。
               </p>
               {(() => {
                 const sb = demand._scoreBreakdown || {};
@@ -278,7 +278,6 @@ export default function DemandDetail() {
                   { key: 'sourceDiversity', label: 'ニュース媒体の多様性', val: sb.sourceDiversity ?? 0, weight: 20 },
                   { key: 'freshness',       label: '鮮度',              val: sb.freshness ?? 0,       weight: 10 },
                 ];
-                const total = rows.reduce((s, r) => s + r.val * r.weight, 0);
                 return (
                   <>
                     <ul className="score-bars">
@@ -310,7 +309,9 @@ export default function DemandDetail() {
                     </ul>
                     <div className="score-total-row">
                       <span>合計</span>
-                      <span className="score-total-val">{Math.round(total)} 点</span>
+                      {/* 各行は表示のために丸めているので、行の見た目を足すと
+                          1 点ずれることがある。合計は必ず本物のスコアを出す。 */}
+                      <span className="score-total-val">{demand.score} 点</span>
                     </div>
                   </>
                 );

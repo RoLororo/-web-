@@ -32,6 +32,8 @@
 
 import Parser from 'rss-parser';
 import { createHash } from 'node:crypto';
+import http from 'node:http';
+import https from 'node:https';
 import { PATHS } from './lib/paths.mjs';
 import { storage } from './lib/storage.mjs';
 
@@ -52,16 +54,57 @@ import { storage } from './lib/storage.mjs';
  *   国際政治や汎用語に置き換わり発見の質が下がったため撤回した。
  *   一般ニュースの分野別フィードには需要（作りたい / 買いたい / 困っている）が
  *   現れない。**紐付き率 0% のフィードは採用しない。**
+ *
+ * ■ 2026-08-01 の拡張（4 本 → 13 本）
+ *   候補 12 本を実測し、紐付き率 50% 以上の 9 本を採用した。
+ *   実測値: Publickey 100% / ITmedia AI+ 90% / CodeZine 85% / Qiita人気 77% /
+ *           窓の杜 75% / はてブIT 70% / Impress Watch 60% / GIGAZINE 57% /
+ *           ITmedia Mobile 50%
+ *   不採用: マイナビ 12%（内容はスポーツ結果）/ ITmedia ビジネス（フィード統合済み
+ *           で 1 件のみ）/ TechCrunch JP（証明書が jp.techcrunch.com と不一致で取得不可）
+ *
+ *   注目すべきは「はてブ IT 70%」で、同じサイトの総合フィード（5%）の 14 倍。
+ *   はてブは総合ではなくカテゴリを選べば有効という結論になった。
  */
 const FEEDS = [
-  { name: 'NHK',           url: 'https://www.nhk.or.jp/rss/news/cat0.xml' },
-  { name: 'ITmedia',       url: 'https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml' },
-  { name: 'Zenn',          url: 'https://zenn.dev/feed' },
-  { name: 'はてな',         url: 'https://b.hatena.ne.jp/hotentry.rss' },
+  { name: 'NHK',            url: 'https://www.nhk.or.jp/rss/news/cat0.xml' },
+  { name: 'ITmedia',        url: 'https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml' },
+  { name: 'Zenn',           url: 'https://zenn.dev/feed' },
+  { name: 'はてな',          url: 'https://b.hatena.ne.jp/hotentry.rss' },
+  { name: 'ITmedia AI+',    url: 'https://rss.itmedia.co.jp/rss/2.0/aiplus.xml' },
+  { name: 'ITmedia Mobile', url: 'https://rss.itmedia.co.jp/rss/2.0/mobile.xml' },
+  { name: 'Qiita',          url: 'https://qiita.com/popular-items/feed' },
+  { name: 'CodeZine',       url: 'https://codezine.jp/rss/new/20/index.xml' },
+  { name: 'Publickey',      url: 'https://www.publickey1.jp/atom.xml' },
+  { name: '窓の杜',          url: 'https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf' },
+  { name: 'Impress Watch',  url: 'https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf' },
+  { name: 'GIGAZINE',       url: 'https://gigazine.net/news/rss_2.0/' },
+  { name: 'はてなIT',        url: 'https://b.hatena.ne.jp/hotentry/it.rss' },
 ];
 
-/** 保存する最大件数 (古いものから溢れる) */
-const MAX_ARTICLES = 1000;
+/**
+ * 保存する最大件数 (古いものから溢れる)。
+ *
+ * フィードを 4 本 → 13 本に増やした時点で 1000 では足りなくなった。
+ * 実測: 1 回の取得で 100 件 → 245 件になり、重複除去後の 1 日あたり純増は
+ * 約 70 件 → 約 170 件。1000 件のままだと保持できるのは 6 日弱で、
+ * growth の判定窓（直近 2 日 vs その前 5 日 = 7 日）を割ってしまう。
+ */
+const MAX_ARTICLES = 3000;
+
+/**
+ * 保持する最大日数。件数上限とは別に、古い記事は日付で落とす。
+ *
+ * なぜ必要か:
+ *   - freshness は 30 日で 0 に減衰するため、それより古い記事は
+ *     newsVolume を押し上げるだけで freshness の平均を下げる（純粋なノイズ）
+ *   - 件数上限だけだとフィードを増減させるたびに「何日ぶん残るか」が変わり、
+ *     スコアの意味が静かにズレる。日数で切れば窓が固定される
+ *   - articles.json は日次でコミットされるため、無制限に増やすとリポジトリが膨らむ
+ *
+ * 45 日 = freshness 窓 30 日 + 余裕 15 日。
+ */
+const MAX_AGE_DAYS = 45;
 
 /** 1 フィードあたりの取得タイムアウト (ミリ秒) */
 const FEED_TIMEOUT_MS = 15000;
@@ -181,8 +224,19 @@ async function main() {
     }
   }
 
+  // MAX_AGE_DAYS より古い記事を落とす。
+  // publishedAt が読めない記事は日付で判断できないため残し、件数上限に任せる。
+  const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const all = Array.from(byUrl.values());
+  const fresh = all.filter((a) => {
+    if (!a.publishedAt) return true;
+    const t = Date.parse(a.publishedAt);
+    return Number.isNaN(t) ? true : t >= cutoff;
+  });
+  const dropped = all.length - fresh.length;
+
   // publishedAt の新しい順に並べ、上限で切る
-  const merged = Array.from(byUrl.values())
+  const merged = fresh
     .sort((a, b) => {
       const ta = a.publishedAt ? Date.parse(a.publishedAt) : 0;
       const tb = b.publishedAt ? Date.parse(b.publishedAt) : 0;
@@ -202,8 +256,25 @@ async function main() {
   }
   console.log('────────────────────────────────────────');
   console.log(`  今回追加:     ${added} 件`);
+  console.log(`  期限切れ削除: ${dropped} 件 (${MAX_AGE_DAYS} 日より古い)`);
   console.log(`  保存後合計:   ${merged.length} 件`);
   console.log(`  出力ファイル: ${OUTPUT}`);
+
+  // ── keep-alive ソケットを明示的に閉じる ──────────────────────────────
+  // Node 19 以降、http(s).globalAgent は keepAlive: true が既定。
+  // 一部の配信元は接続を長時間開いたままにするため、全ての取得が終わって
+  // ファイルも書き終えた後もソケットが event loop を掴み続け、
+  // プロセスが終了しない。
+  //
+  // 実測 (2026-08-02): 13 フィードの取得自体は 1.5 秒で終わるのに、
+  // プロセスは 7 分以上残り続けた。残存ハンドルは TCPSocketWrap 1 個。
+  // これを放置すると `npm run all` が news の後ろで止まり、
+  // GitHub Actions の日次更新が丸ごと動かなくなる。
+  //
+  // process.exit() で強制終了するとパイプ経由の stdout が途中で切れるため、
+  // アイドルソケットだけを閉じて event loop を自然に空にする。
+  http.globalAgent.destroy();
+  https.globalAgent.destroy();
 }
 
 main().catch((err) => {

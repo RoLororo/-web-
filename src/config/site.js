@@ -39,7 +39,7 @@ export const SOURCES = [
   { name: 'App Store（日本）',            what: '既に売られている製品があるか',          url: 'https://performance-partners.apple.com/search-api' },
   { name: 'GitHub',                       what: '実際に作っている人がいるか',            url: 'https://docs.github.com/rest' },
   { name: '国立国会図書館サーチ',          what: '書籍として蓄積されているか',            url: 'https://ndlsearch.ndl.go.jp/help/api' },
-  { name: '主要ニュース RSS（4 媒体）',    what: '報道としてどれだけ扱われたか',          url: null },
+  { name: '主要ニュース RSS（13 媒体）',   what: '報道としてどれだけ扱われたか',          url: null },
 ];
 
 /** 需要スコアの定義。方法論ページと About が同じ数字を出せるようにする */
@@ -48,7 +48,7 @@ export const SCORE_FORMULA = {
   terms: [
     { key: 'ニュースの量',   weight: 40, desc: 'そのテーマを扱ったニュース記事が、観測期間中にどれだけ出たか。' },
     { key: '直近の伸び',     weight: 30, desc: '直近 2 日の観測量が、それ以前と比べて増えているか。' },
-    { key: '話題の広がり',   weight: 20, desc: '7 つの情報源のうち、いくつで実際に観測できたか。1 か所だけで騒がれている状態と区別する。' },
+    { key: '話題の広がり',   weight: 20, desc: '購読している 13 のニュース媒体のうち、いくつが実際に報じたか（8 媒体で満点）。1 媒体だけで騒がれている状態と区別する。下の 7 情報源とは別の指標。' },
     { key: '情報の新しさ',   weight: 10, desc: '観測できた情報が、どれだけ最近のものか。' },
   ],
 };

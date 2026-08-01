@@ -58,6 +58,21 @@ history/
       "metrics":       { "volume": 145230, "engagement": null, "contributors": null, "latestActivityAt": "2026-07-20" },
       "nativeMetrics": { "totalPageviews30d": 145230, "totalPageviews7d": 38210, "totalPageviewsPrior7d": 32100, "growthPercent": 19 }
     }
+  },
+  "derived": {
+    "score": 87,
+    "rank": 1,
+    "change": 57,
+    "status": "急上昇",
+    "confidence": "参考レベル",
+    "sourceCount": 10,
+    "matchedArticles": 48,
+    "dataQuality": 0.93,
+    "breakdown": { "newsVolume": 1, "growth": 0.64, "sourceDiversity": 1, "freshness": 0.79 },
+    "verdict": "定着",
+    "momentum": 72,
+    "beginnerFriendliness": 41,
+    "competition": 58
   }
 }
 ```
@@ -69,6 +84,7 @@ history/
 | `date` | 記録日 (UTC の `npm run history` 実行日) |
 | `generatedAt` | 記録時刻 (ISO 8601、監査用) |
 | `sources` | ソース id → 縮約エンベロープ |
+| `derived` | その日の算出値 (score / rank / verdict など)。**後から再計算できないため必ず記録する** |
 
 ### 各 source ブロックに含まれるもの
 
@@ -85,6 +101,53 @@ history/
 - `derivedMetrics` — 別レイヤーで計算(将来)
 
 **設計原則**: 「時系列分析に必要な数値のみ」を保存。参照情報が必要なら `data/*.json` の git 履歴を参照。
+
+---
+
+## `derived` — その日にしか記録できない算出値
+
+`sources` が「観測した生の値」なのに対し、`derived` は「その日に算出した結論」を保存する。
+2026-08-01 から記録を開始した。
+
+| フィールド | 説明 |
+| --- | --- |
+| `score` | 0-100 の需要スコア |
+| `rank` | その日の score 降順順位 (同点は id 昇順) |
+| `change` | 前日比 (%) |
+| `status` | 急上昇 / 成長中 / 安定 / 下降 |
+| `confidence` | 信頼度ラベル |
+| `sourceCount` | 根拠記事のユニーク情報源数 |
+| `matchedArticles` | 根拠記事数 |
+| `dataQuality` | 観測基盤の信頼度 0-1 |
+| `breakdown` | score の 4 要素 (newsVolume / growth / sourceDiversity / freshness) |
+| `verdict` | 総合判定ラベル (拡大局面 / 様子見 など) |
+| `momentum` / `beginnerFriendliness` / `competition` | insights の 3 指標 |
+
+### なぜ `sources` と分けて必ず保存するのか
+
+score は **その日の全テーマ横断の統計**に依存する。growth は全テーマの
+rawRatio 中央値で正規化され、rank は当日のテーマ集合で決まる。
+つまり生の観測値をすべて残しても、当日の score は後から再現できない。
+**記録しなかった日の score は永久に欠測になる。**
+
+demands.json に score が存在しないテーマ (stalled など) では `derived` を
+省略する。無い値を 0 や null で埋めない。
+
+### 較正を変えた日 (連続性の断絶)
+
+score の飽和定数を変更すると、その前後の score は直接比較できない。
+**変更したら必ずここに記録する。** 記録しないと、後から「実際に需要が動いたのか、
+計算を変えただけなのか」が判別できなくなる。
+
+| 較正日 | 変更内容 | 影響のあった日 |
+| --- | --- | --- |
+| 2026-08-02 (JST) | ニュースフィード 4 本 → 13 本。`VOLUME_SATURATION` 15 → 30、`SOURCE_SATURATION` 4 → 8、根拠記事上限 20 → 60 | **なし**。derived の記録初日 2026-08-01 (UTC) の行を同日中に置き換えたため、旧較正の score は 1 行も残っていない |
+
+corpus が 822 → 1093 件に増えると、飽和点を据え置いた場合に 11 テーマ中 5-6 テーマが
+満点へ張り付き、40 点と 20 点の要素が上位を区別できなくなる（実測: 96/89/84/84/83 と
+5 テーマが 13 点内に密集した）。そのため情報源の追加と同じ実行で較正した。
+
+較正を変えるなら記録初日が最も安い。1 日でも遅れれば、比較できない日が永久に残る。
 
 ---
 
