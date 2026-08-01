@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-08-01T03:15:13.174Z",
+  "sources": [
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia 日本語版 日次閲覧数",
+      "metricKind": "flow",
+      "unit": "閲覧数",
+      "homepage": "https://ja.wikipedia.org/",
+      "apiDocs": "https://wikimedia.org/api/rest_v1/",
+      "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
+      "windowDays": 30,
+      "generatedAt": "2026-07-31T08:16:16.901Z",
+      "mappedThemeCount": 11,
+      "successCount": 11,
+      "skippedCount": 0,
+      "errorCount": 0,
+      "requestCount": null,
+      "observedThemes": [
+        "ai-business-automation",
+        "ai-coding",
+        "ai-content-generation",
+        "ai-hardware",
+        "infrastructure-outages",
+        "security-breach",
+        "payment-troubles",
+        "home-server-selfhost",
+        "remote-work",
+        "senior-health",
+        "ai-regulation"
+      ],
+      "skipped": [],
+      "errors": [],
+      "totalVolume": 117733
+    },
+    {
+      "id": "qiita",
+      "name": "Qiita",
+      "metricKind": "flow",
+      "unit": "記事数",
+      "homepage": "https://qiita.com/",
+      "apiDocs": "https://qiita.com/api/v2/docs",
+      "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
+      "windowDays": 30,
+      "generatedAt": "2026-07-31T08:16:20.185Z",
+      "mappedThemeCount": 11,
+      "successCount": 9,
+      "skippedCount": 2,
+      "errorCount": 0,
+      "requestCount": 43,
+      "observedThemes": [
+        "ai-business-automation",
+        "ai-coding",
+        "ai-content-generation",
+        "ai-hardware",
+        "infrastructure-outages",
+        "security-breach",
+        "payment-troubles",
+        "home-server-selfhost",
+        "remote-work"
+      ],
+      "skipped": [
+        {
+          "theme": "senior-health",
+          "reason": null,
+          "note": null
+        },
+        {
+          "theme": "ai-regulation",
+          "reason": null,
+          "note": null
+        }
+      ],
+      "errors": [],
+      "totalVolume": 2184
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "metricKind": "flow",
+      "unit": "論文数",
+      "homepage": "https://arxiv.org/",
+      "apiDocs": "https://info.arxiv.org/help/api/index.html",
+      "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
+      "windowDays": 30,
+      "generatedAt": "2026-07-31T08:18:07.332Z",
+      "mappedThemeCount": 11,
+      "successCount": 11,
+      "skippedCount": 0,
+      "errorCount": 0,
+      "requestCount": 11,
+      "observedThemes": [
+        "ai-business-automation",
+        "ai-coding",
+        "ai-content-generation",
+        "ai-hardware",
+        "infrastructure-outages",
+        "security-breach",
+        "payment-troubles",
+        "home-server-selfhost",
+        "remote-work",
+        "senior-health",
+        "ai-regulation"
+      ],
+      "skipped": [],
+      "errors": [],
+      "totalVolume": 6777
+    },
+    {
+      "id": "appstore",
+      "name": "App Store（日本ストア）",
+      "metricKind": "snapshot",
+      "unit": "アプリ数",
+      "homepage": "https://www.apple.com/jp/app-store/",
+      "apiDocs": "https://rss.marketingtools.apple.com/",
+      "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
+      "windowDays": 1,
+      "generatedAt": "2026-07-31T08:18:05.120Z",
+      "mappedThemeCount": 11,
+      "successCount": 4,
+      "skippedCount": 7,
+      "errorCount": 0,
+      "requestCount": 2,
+      "observedThemes": [
+        "ai-business-automation",
+        "ai-content-generation",
+        "payment-troubles",
+        "remote-work"
+      ],
+      "skipped": [
+        {
+          "theme": "ai-coding",
+          "reason": "apps-exist-but-not-charting",
+          "note": "GitHub / Termius 等の Developer Tools アプリは存在するが、総合 top 100 に到達せず。v2 で Developer Tools カテゴリチャート追加時に復活検討。"
+        },
+        {
+          "theme": "ai-hardware",
+          "reason": "concept-not-app",
+          "note": "GPU / AIチップ等のハードウェア概念、消費者アプリ化不能。他ソース(Qiita, Wikipedia)に依存。"
+        },
+        {
+          "theme": "infrastructure-outages",
+          "reason": "concept-not-app",
+          "note": "システム障害という概念、消費者アプリで直接観測不可。他ソース(News, Wikipedia)に依存。"
+        },
+        {
+          "theme": "security-breach",
+          "reason": "apps-exist-but-not-charting",
+          "note": "NordVPN / 1Password / Malwarebytes / ノートン 360 等の Utilities アプリは存在するが、総合 top 100 に到達せず。v2 で Utilities カテゴリチャート追加時に復活検討。"
+        },
+        {
+          "theme": "home-server-selfhost",
+          "reason": "concept-not-app",
+          "note": "自宅サーバ運用の概念、消費者アプリ化不能。技術者向けカテゴリ。他ソース(Qiita)に依存。"
+        },
+        {
+          "theme": "senior-health",
+          "reason": "apps-exist-but-not-charting",
+          "note": "認知症予防アプリ / 脳トレ / 歩数計 / Sleep Meister 等は存在するが、総合 top 100 に到達せず。v2 で Health & Fitness カテゴリチャート追加時に復活検討。"
+        },
+        {
+          "theme": "ai-regulation",
+          "reason": "concept-not-app",
+          "note": "AI 規制 / 政策の概念、アプリ化不能。他ソース(News, Wikipedia)に依存。"
+        }
+      ],
+      "errors": [],
+      "totalVolume": null
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "metricKind": "flow",
+      "unit": "新規リポジトリ数",
+      "homepage": "https://github.com/",
+      "apiDocs": "https://docs.github.com/rest/search",
+      "method": "GitHub Search API (repositories created in window)",
+      "windowDays": 30,
+      "generatedAt": "2026-07-31T08:18:43.287Z",
+      "mappedThemeCount": 10,
+      "successCount": 10,
+      "skippedCount": 0,
+      "errorCount": 0,
+      "requestCount": 10,
+      "observedThemes": [
+        "ai-business-automation",
+        "ai-regulation",
+        "payment-troubles",
+        "ai-coding",
+        "security-breach",
+        "ai-hardware",
+        "home-server-selfhost",
+        "remote-work",
+        "infrastructure-outages",
+        "ai-content-generation"
+      ],
+      "skipped": [],
+      "errors": [],
+      "totalVolume": 7578
+    },
+    {
+      "id": "ndl",
+      "name": "国立国会図書館サーチ",
+      "metricKind": "stock",
+      "unit": "書誌件数",
+      "homepage": "https://ndlsearch.ndl.go.jp/",
+      "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
+      "method": "NDL Search OpenSearch API (bibliography count)",
+      "windowDays": null,
+      "generatedAt": "2026-07-31T08:19:08.698Z",
+      "mappedThemeCount": 11,
+      "successCount": 5,
+      "skippedCount": 0,
+      "errorCount": 6,
+      "requestCount": 11,
+      "observedThemes": [
+        "ai-hardware",
+        "ai-regulation",
+        "ai-business-automation",
+        "home-server-selfhost",
+        "ai-content-generation"
+      ],
+      "skipped": [],
+      "errors": [
+        {
+          "theme": "senior-health",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "ai-coding",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "remote-work",
+          "type": "rate-limit-429",
+          "retryable": true
+        },
+        {
+          "theme": "payment-troubles",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "infrastructure-outages",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "security-breach",
+          "type": "timeout",
+          "retryable": true
+        }
+      ],
+      "totalVolume": 1022
+    }
+  ],
+  "news": {
+    "id": "news",
+    "name": "主要ニュース RSS",
+    "metricKind": "flow",
+    "unit": "記事数",
+    "homepage": null,
+    "apiDocs": null,
+    "method": "RSS",
+    "articleCount": 766,
+    "feeds": [
+      "NHK",
+      "ITmedia",
+      "はてな",
+      "Zenn"
+    ]
+  }
+}

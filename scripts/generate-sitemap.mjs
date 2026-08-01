@@ -37,6 +37,9 @@ const STATIC_PAGES = [
   { path: '/changes',     priority: '0.6', changefreq: 'daily' },
   { path: '/timeline',    priority: '0.5', changefreq: 'daily' },
   { path: '/whats-new',   priority: '0.5', changefreq: 'weekly' },
+  { path: '/guide',       priority: '0.8', changefreq: 'monthly' },
+  { path: '/sources',     priority: '0.8', changefreq: 'weekly' },
+  { path: '/glossary',    priority: '0.7', changefreq: 'monthly' },
   { path: '/methodology', priority: '0.8', changefreq: 'monthly' },
   { path: '/about',       priority: '0.7', changefreq: 'monthly' },
   { path: '/contact',     priority: '0.4', changefreq: 'yearly' },
@@ -46,6 +49,9 @@ const STATIC_PAGES = [
 
 // お気に入りは端末ごとの内容で、他人が開いても空。載せる意味がないので除外する
 const EXCLUDED = ['/favorites'];
+
+// 情報源の解説ページ。src/data/sourceGuide.js の SOURCE_ORDER と一致させる
+const SOURCE_SLUGS = ['wikipedia', 'arxiv', 'qiita', 'github', 'appstore', 'news', 'ndl'];
 
 const escapeXml = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -91,6 +97,17 @@ async function main() {
     }));
   }
 
+  // 情報源の解説ページ。sourceGuide.js の slug と 1 対 1 で対応する
+  //（ここを増やしたら src/data/sourceGuide.js にも追加すること）
+  for (const slug of SOURCE_SLUGS) {
+    entries.push(urlEntry({
+      path: `/sources/${slug}`,
+      lastmod,
+      changefreq: 'weekly',
+      priority: '0.6',
+    }));
+  }
+
   // 実際にテーマが 1 件以上ある分野だけ。0 件の分野は中身のないページになる
   const categories = [...new Set(demands.map((d) => d.category).filter(Boolean))];
   for (const c of categories) {
@@ -115,6 +132,7 @@ async function main() {
 
   console.log(`   固定ページ ${STATIC_PAGES.length - EXCLUDED.length} 件`);
   console.log(`   テーマ     ${demands.length} 件`);
+  console.log(`   情報源     ${SOURCE_SLUGS.length} 件`);
   console.log(`   分野       ${categories.length} 件`);
   console.log(`   → ${out}（合計 ${entries.length} URL / lastmod ${lastmod || 'なし'}）`);
 }

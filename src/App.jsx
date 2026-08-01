@@ -26,6 +26,10 @@ const Methodology = lazy(() => import('./pages/Methodology.jsx'));
 const Privacy     = lazy(() => import('./pages/Privacy.jsx'));
 const Terms       = lazy(() => import('./pages/Terms.jsx'));
 const Contact     = lazy(() => import('./pages/Contact.jsx'));
+const Sources      = lazy(() => import('./pages/Sources.jsx'));
+const SourceDetail = lazy(() => import('./pages/SourceDetail.jsx'));
+const Glossary     = lazy(() => import('./pages/Glossary.jsx'));
+const Guide        = lazy(() => import('./pages/Guide.jsx'));
 
 export default function App() {
   const location = useLocation();
@@ -84,6 +88,11 @@ export default function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/contact" element={<Contact />} />
+            {/* 情報源・用語・読み方。サイトの中身を説明する読み物 */}
+            <Route path="/sources" element={<Sources />} />
+            <Route path="/sources/:id" element={<SourceDetail />} />
+            <Route path="/glossary" element={<Glossary />} />
+            <Route path="/guide" element={<Guide />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
@@ -103,8 +112,11 @@ export default function App() {
             <Link to="/whats-new">新規追加</Link>
           </nav>
           <nav className="footer-nav footer-nav-meta" aria-label="サイト情報">
+            <Link to="/guide">読み方</Link>
+            <Link to="/sources">情報源</Link>
+            <Link to="/glossary">用語集</Link>
             <Link to="/about">このサイトについて</Link>
-            <Link to="/methodology">計算方法と用語</Link>
+            <Link to="/methodology">計算方法</Link>
             <Link to="/contact">お問い合わせ</Link>
             <Link to="/privacy">プライバシーポリシー</Link>
             <Link to="/terms">利用規約</Link>

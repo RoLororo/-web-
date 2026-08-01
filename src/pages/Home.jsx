@@ -12,6 +12,7 @@
 // ============================================================================
 
 import { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import DemandCard from '../components/DemandCard.jsx';
 import AdSlot from '../components/AdSlot.jsx';
 import CategoryFilter from '../components/CategoryFilter.jsx';
@@ -146,6 +147,39 @@ export default function Home() {
               <p>別の分野を選ぶか、需要を探すページを試してみてください。</p>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* 初めて来た人が「この数字は何なのか」を確かめる入口。
+          データを先に見せてから説明へ誘導する（説明を先に置くと、
+          何のサイトか分からないまま読ませることになる）。 */}
+      <section className="container section">
+        <h2 className="section-title">この数字の読み方</h2>
+        <div className="learn-strip">
+          <Link to="/guide" className="learn-card">
+            <div className="learn-card-title">このサイトの読み方</div>
+            <div className="learn-card-desc">
+              実際のテーマを例に、どの順番で何を見るかを 5 手順で説明しています。
+            </div>
+          </Link>
+          <Link to="/sources" className="learn-card">
+            <div className="learn-card-title">7 つの情報源と、その限界</div>
+            <div className="learn-card-desc">
+              どこから取っているか、何が見えないか、いま実際に何件取れているか。
+            </div>
+          </Link>
+          <Link to="/glossary" className="learn-card">
+            <div className="learn-card-title">用語集</div>
+            <div className="learn-card-desc">
+              需要スコア・観測の確かさ・フローとストックの違いを定義しています。
+            </div>
+          </Link>
+          <Link to="/methodology" className="learn-card">
+            <div className="learn-card-title">計算方法</div>
+            <div className="learn-card-desc">
+              スコアの式と、この方法で分からないことを公開しています。
+            </div>
+          </Link>
         </div>
       </section>
 

@@ -3,7 +3,7 @@
 // ============================================================================
 
 import { useMemo } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { getCategorySummaries } from '../services/demandService.js';
 import { useSeo } from '../utils/useSeo.js';
 
@@ -13,7 +13,6 @@ export default function Categories() {
     description: "需要テーマを分野ごとに一覧できます。各分野の登録数と平均変化率を見て、興味のある分野から掘り下げてください。",
     path: "/categories",
   });
-  const nav = useNavigate();
   const cats = useMemo(() => getCategorySummaries(), []);
   // 観測テーマが 0 件の分野はカードにしない。
   //   実測 (2026-07-30): 9 分野中 6 分野が 0 件で、いずれも「まだ需要が登録され
@@ -35,10 +34,12 @@ export default function Categories() {
 
       <div className="cat-grid">
         {active.map((c, i) => (
-          <button
+          // button から Link へ（2026-08-01）。分野ページへの内部リンクが
+          // 1 本も無く、クローラーは sitemap 経由でしか到達できなかった
+          <Link
             key={c.name}
+            to={`/categories/${encodeURIComponent(c.name)}`}
             className="cat-card"
-            onClick={() => nav(`/categories/${encodeURIComponent(c.name)}`)}
             style={{ '--i': i }}
           >
             <div className="cat-name">{c.name}</div>
@@ -57,7 +58,7 @@ export default function Categories() {
                 </span>
               </span>
             </div>
-          </button>
+          </Link>
         ))}
       </div>
 
@@ -80,6 +81,46 @@ export default function Categories() {
           </div>
         </>
       )}
+
+      {/* 2026-08-01 実測: このページの本文は 377 字しかなく、
+          カードのラベル以外に説明が無かった。分野が何を意味するのか、
+          なぜ空の分野があるのかが分からないと、カードを見ても判断できない。 */}
+      <div className="prose cat-explainer">
+        <h2>分野はどう決めているか</h2>
+        <p>
+          分野は、テーマを登録するときに手で割り当てています。
+          自動分類はしていません。1 テーマが属する分野は 1 つだけです。
+        </p>
+        <p>
+          そのため、複数の分野にまたがるテーマ（たとえば「AI 規制」は技術でも社会でもあります）は、
+          どちらか主だと考えた方に入っています。
+          分野をまたいで探したいときは<Link to="/explore">検索</Link>や
+          <Link to="/rankings">ランキング</Link>を使ってください。
+        </p>
+
+        <h2>なぜ空の分野があるのか</h2>
+        <p>
+          分野の枠は先に用意してありますが、そこに入るテーマをまだ登録していません。
+          テーマを増やすには、7 つの情報源それぞれに検索条件を設定する必要があり、
+          設定できない情報源が多いテーマは、登録しても観測の確かさが低いままになります。
+          <strong>数を増やすより、観測できる状態で登録することを優先しています。</strong>
+        </p>
+        <p>
+          どのテーマをいつ追加したかは<Link to="/whats-new">追加履歴</Link>で確認できます。
+          追加してほしい分野やテーマがあれば<Link to="/contact">お問い合わせ</Link>からご提案ください。
+        </p>
+
+        <h2>分野ごとの平均変化率について</h2>
+        <p>
+          カードに出ている平均変化率は、その分野に属するテーマの変化率を単純に平均したものです。
+          テーマ数が少ない分野では、1 テーマの動きがそのまま平均になります。
+          分野同士を比べるときは、登録数も合わせて見てください。
+        </p>
+        <p>
+          数字の意味は<Link to="/glossary">用語集</Link>に、
+          計算方法は<Link to="/methodology">計算方法のページ</Link>にまとめています。
+        </p>
+      </div>
     </section>
   );
 }

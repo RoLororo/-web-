@@ -79,6 +79,8 @@ export const PATHS = {
   // builder が書き込む合成データ (canonical)
   output: {
     demands: resolve(DATA_ROOT, 'demands.json'),
+    // 情報源そのものの成績表（/sources が読む）。demands.json とは別に配信する
+    sourceReport: resolve(DATA_ROOT, 'source-report.json'),
   },
   /** テーマ評価の日次ログ (evaluate-themes.mjs が追記。連続日数の判定に使う) */
   evaluations: resolve(DATA_ROOT, 'theme-evaluations.jsonl'),
@@ -100,6 +102,7 @@ export const PATHS = {
     root:     PUBLIC_ROOT,
     dataDir:  resolve(PUBLIC_ROOT, 'data'),
     demands:  resolve(PUBLIC_ROOT, 'data', 'demands.json'),
+    sourceReport: resolve(PUBLIC_ROOT, 'data', 'source-report.json'),
     historyRoot: resolve(PUBLIC_ROOT, 'history'),
   },
   // mapping / config

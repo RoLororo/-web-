@@ -68,6 +68,21 @@ function redisRestDriver({ url, token }) {
       await call(['SADD', indexKey, member]);
     },
 
+    /**
+     * 本文を 1 件保存する（お問い合わせ用）。
+     * カウンタと違って上書きも加算もしないので、必ず新しいキーを渡すこと。
+     * ttlSeconds を必ず要求するのは、置きっぱなしにしないため
+     * （利用者が書いた文章を無期限に持ち続ける理由がない）。
+     */
+    async pushMessage(key, value, ttlSeconds) {
+      await call(['SET', key, value, 'EX', String(ttlSeconds)]);
+    },
+
+    /** 保存した本文を読む。運用者が CLI から読むためだけに使う */
+    async readMessage(key) {
+      return call(['GET', key]);
+    },
+
     /** キーの残り寿命（秒）。-1 = 無期限、-2 = キーが無い */
     async ttl(key) {
       const v = await call(['TTL', key]);

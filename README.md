@@ -75,14 +75,19 @@ npm run visits:check # 「今日訪れた人」が本番で数えられている
 | `/categories` | 分野の一覧（観測テーマ 0 件の分野はカードにしない） |
 | `/categories/:name` | 単一分野の掘り下げ |
 | `/favorites` | 保存した需要（localStorage）。`noindex`／sitemap 対象外 |
+| `/guide` | このサイトの読み方。実際のテーマを例に 5 手順で説明（例は demands.json から取るので古びない） |
+| `/sources` | 7 情報源の一覧。何が見えて何が見えないか＋**実際の取得状況** |
+| `/sources/:id` | 情報源 1 つの詳細。スキップしたテーマとその理由、直近の失敗まで出す |
+| `/glossary` | 用語集（需要スコア / 観測の確かさ / フローとストック / 判定 7 種） |
 | `/about` | サイトの目的・運営者・できること／できないこと |
 | `/methodology` | スコアの計算式、7 情報源の選定理由、判定ラベルの定義、手法の限界 |
-| `/contact` | お問い合わせ（Google フォーム。`CONTACT_FORM_URL` 未設定なら準備中表示） |
+| `/contact` | お問い合わせ。**サイト内フォーム**（`/api/contact`）で完結。外部サービス不要 |
 | `/privacy` | プライバシーポリシー（保存する情報／しない情報を実装どおりに記載） |
 | `/terms` | 利用規約 |
 | `*` | 404。`noindex, follow` を出す（SPA なので HTTP ステータスは 200 のまま） |
 
-`/about` `/methodology` `/privacy` `/terms` `/contact` は `React.lazy` で別チャンク。
+説明・法的ページ 9 本（`/guide` `/sources` `/sources/:id` `/glossary` `/about`
+`/methodology` `/privacy` `/terms` `/contact`）は `React.lazy` で別チャンク。
 初回表示の JS に含めない（同梱すると gzip 後 +11.5KB になったため）。
 
 ---
@@ -93,19 +98,20 @@ npm run visits:check # 「今日訪れた人」が本番で数えられている
 
 `src/config/site.js` がサイト名・URL・運営者名・連絡先・情報源一覧・スコア定義の正本。
 About / 方法論 / ポリシー / 規約 / 構造化データが全てここを読む。
-**`CONTACT_FORM_URL` が空のままだと `/contact` は準備中表示になり、AdSense 審査に通らない。**
+お問い合わせはサイト内で完結するので、`CONTACT_FORM_URL` は空でよい（外部フォームを併設したい場合だけ埋める）。
 
 ### ページごとの meta
 
 `src/utils/useSeo.js` が `title` / `description` / `canonical` / OGP / 構造化データを
 ルートごとに差し替える。SPA は index.html を全ルートで使い回すため、
-これが無いと 13 ページが同じ description と canonical を名乗る（2026-08-01 実測）。
+これが無いと全ページが同じ description と canonical を名乗る（2026-08-01 実測）。
 
 - `noindex: true` のページには canonical を出さない（矛盾した指示になるため）
 - 作ったタグはアンマウント時に必ず消す。index.html の静的タグは値を戻すだけ
 
 構造化データ: WebSite（`/`）/ BreadcrumbList（詳細・分野・説明ページ）/
-Dataset（テーマ詳細）/ FAQPage + TechArticle（`/methodology`）/ AboutPage / ContactPage。
+Dataset（テーマ詳細）/ FAQPage + TechArticle（`/methodology`）/ FAQPage（`/glossary`）/
+HowTo（`/guide`）/ AboutPage / ContactPage。**29 ページ中 19 ページで出力**。
 
 ### robots.txt と sitemap.xml
 
@@ -130,11 +136,36 @@ Dataset（テーマ詳細）/ FAQPage + TechArticle（`/methodology`）/ AboutPa
 | `/demand/:id` | `detail-after-decision` | 判定・評価・スコア内訳の直後 | 知りたいことが一度満たされる唯一の区切り |
 | `/demand/:id` | `detail-after-evidence` | 根拠ニュース一覧の後 | 外部リンクと広告を隣接させない（誤クリック誘発はポリシー違反） |
 
-`/about` `/methodology` `/privacy` `/terms` `/contact` には枠を置かない。
+説明・法的ページ 9 本には枠を置かない（信頼を落とすうえ、AdSense でも推奨されない）。
 
 有効化手順: ① 審査に通る ② `ADS_ENABLED = true` ③ `index.html` に AdSense のスクリプトを
 1 本追加 ④ `AdSlot.jsx` の `<aside>` 内に `<ins className="adsbygoogle">` を入れる
 ⑤ `public/ads.txt` を設置 ⑥ `/privacy` の広告の節が自動で切り替わることを確認。
+
+### 情報源レポート（`/sources` の中身）
+
+`scripts/build-source-report.mjs` が各 fetcher の出力から
+「その日どのテーマが取れて、どれが取れなかったか、なぜか」を `data/source-report.json`
+に集約する（`npm run all` の中で実行 → `public/data/` にミラー）。
+
+これを出す理由は、隠すと「7 情報源で観測」という説明が実態より強く見えるため。
+2026-07-31 の実測では App Store が 11 中 4、国立国会図書館が 11 中 5（6 件が
+timeout / 429）しか取れていない。`/sources/:id` はこれをそのまま表示する。
+
+- **事実**（成功数・スキップ理由・失敗の種類）… `data/source-report.json`（毎日生成）
+- **解釈**（見えるもの・見えないもの・読むときの注意）… `src/data/sourceGuide.js`（人が書く）
+
+この 2 つを混ぜないこと。解釈を自動生成すると、書いていないことまで断定してしまう。
+
+### お問い合わせ
+
+`api/contact.js` が受け取り、アクセス集計と同じ Upstash に保存する。
+**外部フォームも新しい API キーも要らない。**
+
+- 保存: 種別 / 本文（最大 2,000 字）/ 返信先（**任意**）/ 受付日時。180 日で自動削除
+- 保存しない: IP・User-Agent・こちらが付ける識別子（IP は連投判定でメモリを通るだけ）
+- 読む: `npm run contact:read`
+- 防御: 同一オリジンのみ・10 分に 5 件まで・制御文字除去・未知の種別は「その他」に倒す
 
 ---
 
@@ -224,9 +255,11 @@ demand-atlas/
 │   ├── sitemap.xml            prebuild で生成される派生物（git 追跡しない）
 │   └── favicon.svg / og-image.jpg
 │
-├── scripts/                   取得・合成・判定・履歴（17 本・すべて Node 標準のみ）
+├── scripts/                   取得・合成・判定・履歴（19 本・すべて Node 標準のみ）
 │   ├── fetch-*.mjs            7 情報源の取得。共通 envelope で出力
 │   ├── generate-sitemap.mjs   demands.json から public/sitemap.xml を生成
+│   ├── build-source-report.mjs 各 fetcher の成績表を data/source-report.json へ
+│   ├── read-contact.mjs       届いた問い合わせを CLI で読む
 │   ├── check-sources.mjs      情報源の健全性検査。致命時は exit 1 で公開を止める
 │   ├── build-demands.mjs      スコア算出と合成 → data/demands.json
 │   ├── generate-insights.mjs  判定・アイデア生成（LLM 不使用のルールベース）

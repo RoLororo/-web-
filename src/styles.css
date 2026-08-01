@@ -606,6 +606,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   text-align: left;
   width: 100%;
   color: inherit;
+  /* button から <a> に変えたので下線を消す（見た目は従来どおり） */
+  text-decoration: none;
   overflow: hidden;
   isolation: isolate;
   animation: fadeSlideUp 0.55s var(--ease) both;
@@ -3137,6 +3139,7 @@ select.select:focus {
   cursor: pointer;
   text-align: left;
   color: inherit;
+  text-decoration: none;   /* button → <a> に変更したため */
   display: flex;
   flex-direction: column;
   gap: var(--s-3);
@@ -4768,3 +4771,253 @@ h1.section-title::before {
   font-size: 12px;
   letter-spacing: 0.06em;
 }
+
+/* --- 情報源カード（/sources） -------------------------------------------
+   一覧で「取れているか」が一目で分かるようにする。
+   取得率が低い情報源は色を変えて、見落とせないようにする。            */
+
+.src-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--s-4);
+  margin: 0 0 24px;
+  max-width: none;   /* .prose > * の 46em を打ち消す（カードは箱なので対象外） */
+}
+.src-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: var(--s-4);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+.src-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+}
+.src-card-head { display: flex; flex-direction: column; gap: 2px; }
+.src-card-role {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--green-bright);
+  font-weight: 600;
+}
+.src-card-name { font-size: 16px; font-weight: 700; color: var(--text); }
+.src-card-line { font-size: 13px; color: var(--text-2); line-height: 1.7; margin: 0; }
+.src-card-stats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
+.src-stat {
+  font-size: 11px;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+.src-stat b { color: var(--text-2); font-weight: 700; }
+/* 取得率が低い / 失敗があるものは目立たせる。良く見せない方が判断の役に立つ */
+.src-stat.low { border-color: var(--v-amber, #d98a00); color: var(--v-amber, #d98a00); }
+.src-stat.low b { color: inherit; }
+.src-stat.kind { border-style: dashed; }
+
+/* 情報源ページ内の「観測できているテーマ」一覧 */
+.src-theme-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+.src-theme-links li { margin: 0; }
+.src-theme-links a,
+.src-theme-links span {
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--text-2);
+}
+.src-theme-links a:hover { border-color: var(--green-bright); color: var(--text); }
+
+/* 用語集の補足行。定義と注意書きを見分けられるようにする */
+.glossary-note {
+  color: var(--text-3);
+  font-size: 13px;
+  border-left: 2px solid var(--border);
+  padding-left: 10px;
+}
+.glossary-dl dd > p { margin-bottom: 8px; }
+.glossary-dl dd > p:last-child { margin-bottom: 0; }
+
+/* --- Home の読み物への導線 ---------------------------------------------
+   初めて来た人が「これは何を見ているサイトなのか」を確かめる入口。
+   一覧の下、フッターの上に置く（データを先に見せてから説明へ誘導する）。 */
+
+.learn-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--s-3);
+  margin-top: var(--s-6);
+}
+.learn-card {
+  display: block;
+  padding: var(--s-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s var(--ease);
+}
+.learn-card:hover { border-color: var(--green-bright); }
+.learn-card-title { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.learn-card-desc { font-size: 12px; color: var(--text-3); line-height: 1.65; }
+
+/* --- お問い合わせフォーム -----------------------------------------------
+   入力欄は 44px 以上の高さを確保する（モバイルで押しにくくならないよう）。 */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+  margin: 0 0 24px;
+  max-width: 34em;   /* .prose > * の 46em より狭く。フォームは読み物ではない */
+}
+.contact-form .field { display: flex; flex-direction: column; gap: 6px; }
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.field-req, .field-opt {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--control-border, var(--border-strong));
+}
+.field-req { color: var(--green-bright); border-color: var(--green-bright); }
+.field-opt { color: var(--text-3); }
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 15px;   /* 16px 未満だと iOS が拡大するので 15px 以上を保つ */
+  color: var(--text);
+  background: var(--bg-2);
+  border: 1px solid var(--control-border, var(--border-strong));
+  border-radius: var(--radius-sm);
+}
+.contact-form textarea { resize: vertical; line-height: 1.7; min-height: 140px; }
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible {
+  outline: 2px solid var(--focus-ring, var(--green-bright));
+  outline-offset: 1px;
+  border-color: var(--green-bright);
+}
+.contact-form .btn { align-self: flex-start; min-height: 44px; padding-inline: 24px; }
+.contact-form .btn[disabled] { opacity: 0.45; cursor: not-allowed; }
+
+.field-help { font-size: 12px; color: var(--text-3); line-height: 1.65; }
+.field-help strong { color: var(--text-2); }
+.field-error { color: var(--v-amber, #d98a00); font-weight: 600; }
+
+.contact-done { max-width: 34em; align-items: flex-start; }
+.contact-done code {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  background: var(--bg-1, var(--bg-2));
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+.contact-done .btn { margin-top: 6px; min-height: 44px; }
+
+/* --- 薄かったページの補足説明 -------------------------------------------
+   .prose を一覧ページの中で使うので、上に区切りを置いて本体と分ける。      */
+
+.cat-explainer,
+.cmp-explainer {
+  margin-top: var(--s-7);
+  padding-top: var(--s-6);
+  border-top: 1px solid var(--border);
+}
+.cmp-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+  max-width: none;
+}
+.cmp-quick-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--text-2);
+  text-decoration: none;
+}
+.cmp-quick-link:hover { border-color: var(--green-bright); color: var(--text); }
+.cmp-quick-link span { font-weight: 700; color: var(--green-bright); }
+
+/* --- タップ対象を WCAG 2.5.8 (AA) の 24px 以上にする --------------------
+   2026-08-01 実測: 一覧の中の単独リンクが 18〜22px しかなかった
+   （rank-title 22px / idea-theme-link 19px / timeline-hi-link 21px /
+     パンくず 19px / 記事タイトル 18px）。
+   文字サイズは変えず、当たり判定の高さだけを 24px に揃える。            */
+
+.rank-title,
+.idea-theme-link,
+.timeline-hi-link,
+.breadcrumbs a,
+.breadcrumbs [aria-current="page"] {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+}
+/* 記事タイトルは複数行に折り返すので inline-flex にはできない。
+   行間で当たり判定を稼ぐ（折り返しの挙動を変えずに高さだけ増やす）。 */
+.src-obs-title,
+.news-evidence-title {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 1.6;
+}
+
+/* 本文中のリンクは行の高さで 20px に収まる（WCAG 2.5.8 のインライン例外に
+   あたるが、当たり判定は広い方が押しやすい）。padding は行ボックスに影響
+   しないので、レイアウトを変えずに高さだけ 24px にできる。 */
+.prose a { padding-block: 2px; }
+
+/* 詳細ページのメタ行にある分野リンク（実測 40x17）。padding は行ボックスを
+   変えないので、表示はそのままで当たり判定だけ 24px 以上になる。 */
+.meta-row a { padding-block: 4px; }
+
+/* 「← 一覧に戻る」（実測 74x21）。当たり判定だけ 24px にする */
+.back-link { min-height: 24px; }
+
+/* 検索欄（実測 375px: 枠は 48px あるのに <input> は 22px しかなく、
+   枠の上下をタップしても入力に入らなかった）。
+   align-self: stretch は <input> の内在高さに勝てなかったので、
+   枠の上下 padding を入力側へ移す。枠の外形は 48px のまま変わらない。 */
+.search-bar { padding-block: 5px; }
+.search-bar input { padding-block: 7px; }
+
+/* 表の中のリンクは行間が詰まっていて 23px（実測）。あと 1px 足りない */
+.prose-table a { padding-block: 3px; }

@@ -37,6 +37,13 @@ async function main() {
     filesCopied++;
   }
 
+  // 情報源の成績表 (/sources が読む)。demands.json とは別ファイルにして、
+  // 需要データを見るだけの人に余分な payload を配らないようにする
+  if (await storage.fileExists(PATHS.output.sourceReport)) {
+    await storage.copyFile(PATHS.output.sourceReport, PATHS.publicMirror.sourceReport);
+    filesCopied++;
+  }
+
   // ─── history/ → public/history/ ────────────────────────────────────
   await storage.rmTree(historyDir);
   await storage.ensureDir(historyDir);

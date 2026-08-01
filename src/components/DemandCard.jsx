@@ -12,7 +12,7 @@
 //   - meta の dot 区切りは 1 行 chip row に統合
 // ============================================================================
 
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Sparkline from './Sparkline.jsx';
 import AnimatedNumber from './AnimatedNumber.jsx';
 import { changeClass, formatChange } from '../utils/format.js';
@@ -60,7 +60,6 @@ function BadgeRow({ verdict, insights }) {
 }
 
 export default function DemandCard({ demand, rank, index = 0, historyMove = null }) {
-  const nav = useNavigate();
   const insights = demand._insights;
   const verdict = insights?.verdict;
 
@@ -80,10 +79,15 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
   // Subtle tiering: top-3 get a slightly stronger border
   const tier = rank <= 3 ? 'top3' : rank <= 6 ? 'mid' : 'rest';
 
+  // <button onClick={nav()}> から <Link> に変更した（2026-08-01）。
+  // カードは詳細ページへの唯一の入口なのに <a> が 1 本も無く、
+  // クローラーは 10 件のテーマ詳細（1 ページ 4,692 字・サイトで最も厚い）へ
+  // 内部リンクで到達できなかった（実測: Home の内部リンク 4 本、Explore は 0 本）。
+  // 副次的に、キーボードでの遷移・新しいタブで開く・リンクのコピーも可能になる。
   return (
-    <button
+    <Link
+      to={`/demand/${demand.id}`}
       className={`demand-card compact tier-${tier}`}
-      onClick={() => nav(`/demand/${demand.id}`)}
       aria-label={`${demand.title} の詳細を見る`}
       style={{ '--i': index }}
     >
@@ -135,6 +139,6 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
           <span className="score-lbl">スコア</span>
         </div>
       </div>
-    </button>
+    </Link>
   );
 }

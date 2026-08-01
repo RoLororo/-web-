@@ -9,6 +9,7 @@
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import { useSeo, breadcrumbJsonLd } from '../utils/useSeo.js';
+import ContactForm from '../components/ContactForm.jsx';
 import { SITE_NAME, SITE_URL, OPERATOR, CONTACT_FORM_URL } from '../config/site.js';
 
 export default function Contact() {
@@ -44,31 +45,34 @@ export default function Contact() {
 
       <div className="prose">
         <h2>お問い合わせフォーム</h2>
-        {CONTACT_FORM_URL ? (
-          <>
-            <p>
-              下のボタンからフォームを開いてください。別のタブで開きます。
-            </p>
-            <p>
-              <a
-                className="btn primary"
-                href={CONTACT_FORM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                お問い合わせフォームを開く
-              </a>
-            </p>
-          </>
-        ) : (
-          <div className="notice notice-warn" role="status">
-            <strong>フォームは準備中です。</strong>
-            <span>
-              現在、お問い合わせフォームを用意しています。
-              お急ぎのご連絡は、しばらくお待ちいただくか、後日あらためてこのページをご確認ください。
-            </span>
-          </div>
+        <p>
+          このページから直接送信できます。会員登録は不要です。
+          返信先の入力は任意で、書かなくても送信できます。
+        </p>
+        <ContactForm />
+
+        {/* 外部フォームを併用したい場合の受け皿。未設定なら何も出さない
+            （空の案内を出すと「連絡手段が無い」ように見えるため） */}
+        {CONTACT_FORM_URL && (
+          <p>
+            フォームがうまく動かない場合は、
+            <a href={CONTACT_FORM_URL} target="_blank" rel="noopener noreferrer">
+              こちらの外部フォーム
+            </a>
+            もご利用いただけます。
+          </p>
         )}
+
+        <h2>送信された内容の扱い</h2>
+        <ul>
+          <li>ご用件・本文・返信先（入力された場合）・受付日時のみを保存します</li>
+          <li>IP アドレスなど、こちらが自動で付ける識別情報は保存しません</li>
+          <li>保存した内容は <strong>180 日後に自動で削除</strong>されます</li>
+          <li>運営者以外は閲覧しません。第三者に提供することもありません</li>
+        </ul>
+        <p>
+          詳しくは<Link to="/privacy">プライバシーポリシー</Link>をご確認ください。
+        </p>
 
         <h2>こんなご連絡をお待ちしています</h2>
         <ul>
