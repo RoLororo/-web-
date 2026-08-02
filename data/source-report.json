@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T05:56:32.208Z",
+  "generatedAt": "2026-08-02T11:49:21.216Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,11 +10,11 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-08-02T05:53:52.181Z",
+      "generatedAt": "2026-08-02T11:48:57.445Z",
       "mappedThemeCount": 16,
-      "successCount": 14,
+      "successCount": 16,
       "skippedCount": 0,
-      "errorCount": 2,
+      "errorCount": 0,
       "requestCount": null,
       "observedThemes": [
         "ai-business-automation",
@@ -35,19 +35,8 @@
         "fitness-training"
       ],
       "skipped": [],
-      "errors": [
-        {
-          "theme": "ai-content-generation",
-          "type": "unknown",
-          "retryable": false
-        },
-        {
-          "theme": "senior-health",
-          "type": "unknown",
-          "retryable": false
-        }
-      ],
-      "totalVolume": 117367
+      "errors": [],
+      "totalVolume": 123948
     },
     {
       "id": "qiita",

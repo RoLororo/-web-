@@ -45,6 +45,12 @@ const REQUEST_TIMEOUT_MS = 15000;
 /** 記事間の待機時間 (Wikimedia に優しく) */
 const RATE_LIMIT_MS = 200;
 
+/** 1 記事あたりの最大試行回数 (一時的な失敗を 0 として記録しないため) */
+const MAX_ATTEMPTS = 3;
+
+/** リトライの基本待機。attempt 回目は RETRY_BASE_MS × attempt 待つ */
+const RETRY_BASE_MS = 800;
+
 /** Wikipedia REST API のベース URL (ja / all-access / user agent) */
 const PV_API_BASE =
   'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user';
@@ -137,6 +143,41 @@ function computeWindow(days) {
  * 戻り値: { byDate: { 'YYYY-MM-DD': views }, itemCount }
  * 失敗時: throw
  */
+/**
+ * 一時的な失敗かどうか。
+ * 429 (レート制限) と 5xx は待てば直る。404 は記事名が違うので待っても直らない。
+ */
+function isTransient(status) {
+  return status === 429 || status === 408 || (status >= 500 && status < 600);
+}
+
+/**
+ * リトライ付きで 1 記事を取る。
+ *
+ * ■ なぜ必要か（2026-08-02 実測）
+ *   認知症 と Stable_Diffusion の取得が失敗し、そのまま
+ *   「30 日の閲覧数 0」としてページに出ていた。あとから同じ記事を
+ *   直接叩くと 認知症 2,787 PV / Stable Diffusion 3,794 PV と正常に返るので、
+ *   恒久的な失敗ではなく一時的なものだった。
+ *   履歴では 119 観測中 3 件 (3%) が同じ理由で 0 になっている。
+ *   1 回で諦めていたのが原因なので、待って数回試す。
+ */
+async function fetchArticlePVWithRetry(articleName, start, end) {
+  let lastErr;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      return await fetchArticlePV(articleName, start, end);
+    } catch (err) {
+      lastErr = err;
+      const status = Number((String(err.message).match(/HTTP (\d+)/) || [])[1]);
+      // 404 のような恒久エラーは繰り返しても同じなので即座に諦める
+      if (status && !isTransient(status)) throw err;
+      if (attempt < MAX_ATTEMPTS) await sleep(RETRY_BASE_MS * attempt);
+    }
+  }
+  throw lastErr;
+}
+
 async function fetchArticlePV(articleName, start, end) {
   const url = `${PV_API_BASE}/${encodeArticle(articleName)}/daily/${apiDay(start)}/${apiDay(end)}`;
 
@@ -188,7 +229,7 @@ async function fetchThemePV(themeId, articleNames, start, end) {
 
   for (const article of articleNames) {
     try {
-      const { byDate } = await fetchArticlePV(article, start, end);
+      const { byDate } = await fetchArticlePVWithRetry(article, start, end);
       successArticles.push(article);
       for (const [day, views] of Object.entries(byDate)) {
         themeByDate[day] = (themeByDate[day] || 0) + views;
@@ -271,13 +312,26 @@ async function main() {
     const hasAnyData = Object.keys(themeByDate).length > 0;
     if (!hasAnyData) {
       console.log(`✗ 全記事失敗 (${articles.join(', ')})`);
+      // ここで 0 を書いてはいけない。
+      //
+      // 「0 回読まれた」と「読まれた回数を取得できなかった」は違う。
+      // 以前は 0 を書いていたため、詳細ページに
+      // 「Wikipedia 30 日の閲覧数 0」と表示されていた。
+      // 実測（2026-08-02）では 認知症 が 2,787 PV、Stable Diffusion が
+      // 3,794 PV あり、表示は事実と違っていた。
+      //
+      // null にしておけば、UI 側で「取得できず」と書き分けられる。
+      // 数値として扱う箇所は ?? で弾かれるので 0 と同じ挙動になり、
+      // スコアには影響しない（Wikipedia はスコアに寄与しない）。
       themes[themeId] = {
         articles,
         articlesFetched: successArticles,
         articlesFailed:  failedArticles.map((f) => f.article),
-        totalPageviews30d:      0,
-        totalPageviews7d:       0,
-        totalPageviewsPrior7d:  0,
+        fetchFailed:            true,
+        fetchError:             failedArticles.map((f) => `${f.article}: ${f.error}`).join(' / '),
+        totalPageviews30d:      null,
+        totalPageviews7d:       null,
+        totalPageviewsPrior7d:  null,
         growthPercent:          null,
         byDate:                 {},
         fetchedAt,

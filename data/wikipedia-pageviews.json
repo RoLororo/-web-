@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-02T05:53:52.181Z",
+  "generatedAt": "2026-08-02T11:48:57.445Z",
   "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
   "windowDays": 30,
   "windowStart": "2026-07-03",
   "windowEnd": "2026-08-01",
   "mappedThemeCount": 16,
-  "successCount": 14,
-  "errorCount": 2,
+  "successCount": 16,
+  "errorCount": 0,
   "themes": {
     "ai-business-automation": {
       "articles": [
@@ -54,7 +54,7 @@
         "2026-07-31": 903,
         "2026-08-01": 757
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "ai-coding": {
       "articles": [
@@ -100,22 +100,53 @@
         "2026-07-31": 63,
         "2026-08-01": 25
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "ai-content-generation": {
       "articles": [
         "Stable_Diffusion"
       ],
-      "articlesFetched": [],
-      "articlesFailed": [
+      "articlesFetched": [
         "Stable_Diffusion"
       ],
-      "totalPageviews30d": 0,
-      "totalPageviews7d": 0,
-      "totalPageviewsPrior7d": 0,
-      "growthPercent": null,
-      "byDate": {},
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "articlesFailed": [],
+      "totalPageviews30d": 3794,
+      "totalPageviews7d": 907,
+      "totalPageviewsPrior7d": 869,
+      "growthPercent": 4,
+      "byDate": {
+        "2026-07-03": 113,
+        "2026-07-04": 146,
+        "2026-07-05": 152,
+        "2026-07-06": 137,
+        "2026-07-07": 121,
+        "2026-07-08": 122,
+        "2026-07-09": 93,
+        "2026-07-10": 161,
+        "2026-07-11": 107,
+        "2026-07-12": 100,
+        "2026-07-13": 122,
+        "2026-07-14": 128,
+        "2026-07-15": 140,
+        "2026-07-16": 121,
+        "2026-07-17": 136,
+        "2026-07-18": 119,
+        "2026-07-19": 133,
+        "2026-07-20": 146,
+        "2026-07-21": 119,
+        "2026-07-22": 103,
+        "2026-07-23": 99,
+        "2026-07-24": 98,
+        "2026-07-25": 171,
+        "2026-07-26": 143,
+        "2026-07-27": 156,
+        "2026-07-28": 85,
+        "2026-07-29": 113,
+        "2026-07-30": 135,
+        "2026-07-31": 125,
+        "2026-08-01": 150
+      },
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "ai-hardware": {
       "articles": [
@@ -161,7 +192,7 @@
         "2026-07-31": 419,
         "2026-08-01": 339
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "infrastructure-outages": {
       "articles": [
@@ -207,7 +238,7 @@
         "2026-07-31": 163,
         "2026-08-01": 111
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "security-breach": {
       "articles": [
@@ -253,7 +284,7 @@
         "2026-07-31": 38,
         "2026-08-01": 20
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "payment-troubles": {
       "articles": [
@@ -299,7 +330,7 @@
         "2026-07-31": 380,
         "2026-08-01": 279
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "home-server-selfhost": {
       "articles": [
@@ -345,7 +376,7 @@
         "2026-07-31": 7,
         "2026-08-01": 9
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "remote-work": {
       "articles": [
@@ -391,22 +422,53 @@
         "2026-07-31": 21,
         "2026-08-01": 21
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "senior-health": {
       "articles": [
         "認知症"
       ],
-      "articlesFetched": [],
-      "articlesFailed": [
+      "articlesFetched": [
         "認知症"
       ],
-      "totalPageviews30d": 0,
-      "totalPageviews7d": 0,
-      "totalPageviewsPrior7d": 0,
-      "growthPercent": null,
-      "byDate": {},
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "articlesFailed": [],
+      "totalPageviews30d": 2787,
+      "totalPageviews7d": 666,
+      "totalPageviewsPrior7d": 607,
+      "growthPercent": 10,
+      "byDate": {
+        "2026-07-03": 96,
+        "2026-07-04": 82,
+        "2026-07-05": 97,
+        "2026-07-06": 93,
+        "2026-07-07": 86,
+        "2026-07-08": 91,
+        "2026-07-09": 109,
+        "2026-07-10": 103,
+        "2026-07-11": 79,
+        "2026-07-12": 85,
+        "2026-07-13": 89,
+        "2026-07-14": 78,
+        "2026-07-15": 111,
+        "2026-07-16": 100,
+        "2026-07-17": 127,
+        "2026-07-18": 88,
+        "2026-07-19": 88,
+        "2026-07-20": 79,
+        "2026-07-21": 84,
+        "2026-07-22": 108,
+        "2026-07-23": 78,
+        "2026-07-24": 74,
+        "2026-07-25": 96,
+        "2026-07-26": 104,
+        "2026-07-27": 116,
+        "2026-07-28": 103,
+        "2026-07-29": 89,
+        "2026-07-30": 84,
+        "2026-07-31": 89,
+        "2026-08-01": 81
+      },
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "ai-regulation": {
       "articles": [
@@ -452,7 +514,7 @@
         "2026-07-31": 543,
         "2026-08-01": 501
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "study-methods": {
       "articles": [
@@ -498,7 +560,7 @@
         "2026-07-31": 18,
         "2026-08-01": 16
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "exam-admission": {
       "articles": [
@@ -544,7 +606,7 @@
         "2026-07-31": 114,
         "2026-08-01": 115
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "housing": {
       "articles": [
@@ -590,7 +652,7 @@
         "2026-07-31": 59,
         "2026-08-01": 79
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "home-appliance": {
       "articles": [
@@ -636,7 +698,7 @@
         "2026-07-31": 12,
         "2026-08-01": 8
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     },
     "fitness-training": {
       "articles": [
@@ -682,19 +744,8 @@
         "2026-07-31": 41,
         "2026-08-01": 35
       },
-      "fetchedAt": "2026-08-02T05:53:52.181Z"
+      "fetchedAt": "2026-08-02T11:48:57.445Z"
     }
   },
-  "errors": [
-    {
-      "theme": "ai-content-generation",
-      "article": "Stable_Diffusion",
-      "error": "HTTP 404 Not Found"
-    },
-    {
-      "theme": "senior-health",
-      "article": "認知症",
-      "error": "HTTP 404 Not Found"
-    }
-  ]
+  "errors": []
 }

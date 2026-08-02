@@ -29,12 +29,20 @@ const SOURCE_FIGURES = {
   wikipedia: (d) => {
     const w = d._wikipediaDetail;
     if (!w) return null;
+    // 取得に失敗した日は「0 回読まれた」ではなく「取れなかった」と書く。
+    // 以前は失敗を 0 として保存していたため、実際には 2,787 PV ある
+    // 認知症のページに「30 日の閲覧数 0」と出ていた（2026-08-02 実測）。
+    if (w.fetchFailed) {
+      return [{ label: '30 日の閲覧数', value: '取得できず' }];
+    }
     return [
       { label: '30 日の閲覧数', value: num(w.totalPageviews30d) },
       { label: '直近 7 日',     value: num(w.totalPageviews7d) },
       { label: 'その前の 7 日', value: num(w.totalPageviewsPrior7d) },
       { label: '7 日比',        value: pct(w.growthPercent) },
-      { label: '対象記事',      value: num(w.articlesFetched) },
+      // articlesFetched は配列。num() は数値しか通さないので、
+      // これまでこの行は一度も表示されていなかった（2026-08-02 実測）。
+      { label: '対象記事',      value: num((w.articlesFetched || []).length) },
     ];
   },
   qiita: (d) => {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T05:56:28.686Z",
+  "generatedAt": "2026-08-02T11:49:20.187Z",
   "method": "news-only signals (Phase 4-a)",
   "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness",
   "disclaimer": "ニュース信号のみによる暫定スコア。SNS・検索指数・求人などの他データ源は未統合。",
@@ -120,7 +120,7 @@
       },
       "sourceCount": 12,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.684Z",
+      "updatedAt": "2026-08-02T11:49:20.185Z",
       "trendData": {
         "7d": [
           5,
@@ -262,7 +262,7 @@
         "newsVolume": 1,
         "growth": 0.48,
         "sourceDiversity": 1,
-        "freshness": 0.7877,
+        "freshness": 0.7795,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -347,7 +347,7 @@
           "2026-07-31": 903,
           "2026-08-01": 757
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_qiitaDetail": {
         "envelopeVersion": "1.0.0",
@@ -809,7 +809,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.162Z",
+        "generatedAt": "2026-08-02T11:49:20.704Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -1117,7 +1117,7 @@
       },
       "sourceCount": 9,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.684Z",
+      "updatedAt": "2026-08-02T11:49:20.185Z",
       "trendData": {
         "7d": [
           3,
@@ -1259,7 +1259,7 @@
         "newsVolume": 1,
         "growth": 0.46,
         "sourceDiversity": 1,
-        "freshness": 0.7629,
+        "freshness": 0.7547,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -1340,7 +1340,7 @@
           "2026-07-31": 63,
           "2026-08-01": 25
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -1537,7 +1537,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.163Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 46,
@@ -1819,7 +1819,7 @@
       },
       "sourceCount": 5,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.684Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           1,
@@ -1955,13 +1955,13 @@
           1
         ]
       },
-      "_dataQuality": 0.64,
+      "_dataQuality": 0.63,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.7,
         "growth": 0.6675,
         "sourceDiversity": 0.625,
-        "freshness": 0.5835,
+        "freshness": 0.5757,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -2053,7 +2053,7 @@
           "2026-07-31": 59,
           "2026-08-01": 79
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -2248,7 +2248,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.163Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 46,
@@ -2529,7 +2529,7 @@
       },
       "sourceCount": 5,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.685Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           0,
@@ -2671,7 +2671,7 @@
         "newsVolume": 0.6667,
         "growth": 0.54,
         "sourceDiversity": 0.625,
-        "freshness": 0.6363,
+        "freshness": 0.6281,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -2751,7 +2751,7 @@
           "2026-07-31": 163,
           "2026-08-01": 111
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -2948,7 +2948,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 72,
@@ -3231,7 +3231,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.685Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           0,
@@ -3373,7 +3373,7 @@
         "newsVolume": 0.5667,
         "growth": 0.5975,
         "sourceDiversity": 0.375,
-        "freshness": 0.8989,
+        "freshness": 0.8908,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -3462,7 +3462,7 @@
           "2026-07-31": 41,
           "2026-08-01": 35
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -3616,7 +3616,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 55,
@@ -3893,7 +3893,7 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.685Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           0,
@@ -4035,7 +4035,7 @@
         "newsVolume": 0.5667,
         "growth": 0.4475,
         "sourceDiversity": 0.5,
-        "freshness": 0.6861,
+        "freshness": 0.6779,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -4114,7 +4114,7 @@
           "2026-07-31": 38,
           "2026-08-01": 20
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -4311,7 +4311,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 72,
@@ -4589,7 +4589,7 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.685Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           0,
@@ -4731,7 +4731,7 @@
         "newsVolume": 0.5,
         "growth": 0.455,
         "sourceDiversity": 0.5,
-        "freshness": 0.7337,
+        "freshness": 0.7255,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -4810,7 +4810,7 @@
           "2026-07-31": 380,
           "2026-08-01": 279
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -5171,7 +5171,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -5466,7 +5466,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.685Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           1,
@@ -5608,7 +5608,7 @@
         "newsVolume": 0.3667,
         "growth": 0.6525,
         "sourceDiversity": 0.375,
-        "freshness": 0.8891,
+        "freshness": 0.881,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -5704,7 +5704,7 @@
           "2026-07-31": 18,
           "2026-08-01": 16
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -5895,7 +5895,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 46,
@@ -6171,7 +6171,7 @@
       },
       "sourceCount": 5,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.186Z",
       "trendData": {
         "7d": [
           1,
@@ -6313,7 +6313,7 @@
         "newsVolume": 0.3333,
         "growth": 0.585,
         "sourceDiversity": 0.625,
-        "freshness": 0.7788,
+        "freshness": 0.7706,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -6392,7 +6392,7 @@
           "2026-07-31": 543,
           "2026-08-01": 501
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -6589,7 +6589,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 46,
@@ -6876,7 +6876,7 @@
       },
       "sourceCount": 4,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -7018,7 +7018,7 @@
         "newsVolume": 0.3333,
         "growth": 0.6025,
         "sourceDiversity": 0.5,
-        "freshness": 0.8266,
+        "freshness": 0.8184,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -7119,7 +7119,7 @@
           "2026-07-31": 114,
           "2026-08-01": 115
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -7274,7 +7274,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.705Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 66,
@@ -7550,7 +7550,7 @@
       },
       "sourceCount": 5,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -7686,13 +7686,13 @@
           0
         ]
       },
-      "_dataQuality": 0.59,
+      "_dataQuality": 0.58,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.3,
         "growth": 0.52,
         "sourceDiversity": 0.625,
-        "freshness": 0.8307,
+        "freshness": 0.8225,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -7783,7 +7783,7 @@
           "2026-07-31": 12,
           "2026-08-01": 8
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -7893,7 +7893,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.706Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 42,
@@ -8123,7 +8123,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -8259,13 +8259,13 @@
           1
         ]
       },
-      "_dataQuality": 0.48,
+      "_dataQuality": 0.47,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.1,
         "growth": 0.8275,
         "sourceDiversity": 0.375,
-        "freshness": 0.9564,
+        "freshness": 0.9482,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -8302,16 +8302,47 @@
         "articles": [
           "Stable_Diffusion"
         ],
-        "articlesFetched": [],
-        "articlesFailed": [
+        "articlesFetched": [
           "Stable_Diffusion"
         ],
-        "totalPageviews30d": 0,
-        "totalPageviews7d": 0,
-        "totalPageviewsPrior7d": 0,
-        "growthPercent": null,
-        "byDate": {},
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "articlesFailed": [],
+        "totalPageviews30d": 3794,
+        "totalPageviews7d": 907,
+        "totalPageviewsPrior7d": 869,
+        "growthPercent": 4,
+        "byDate": {
+          "2026-07-03": 113,
+          "2026-07-04": 146,
+          "2026-07-05": 152,
+          "2026-07-06": 137,
+          "2026-07-07": 121,
+          "2026-07-08": 122,
+          "2026-07-09": 93,
+          "2026-07-10": 161,
+          "2026-07-11": 107,
+          "2026-07-12": 100,
+          "2026-07-13": 122,
+          "2026-07-14": 128,
+          "2026-07-15": 140,
+          "2026-07-16": 121,
+          "2026-07-17": 136,
+          "2026-07-18": 119,
+          "2026-07-19": 133,
+          "2026-07-20": 146,
+          "2026-07-21": 119,
+          "2026-07-22": 103,
+          "2026-07-23": 99,
+          "2026-07-24": 98,
+          "2026-07-25": 171,
+          "2026-07-26": 143,
+          "2026-07-27": 156,
+          "2026-07-28": 85,
+          "2026-07-29": 113,
+          "2026-07-30": 135,
+          "2026-07-31": 125,
+          "2026-08-01": 150
+        },
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -8580,15 +8611,15 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.706Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
-          "score": 49,
-          "label": "低",
+          "score": 74,
+          "label": "高",
           "signals": [
-            "アクティブソース 2/4",
+            "アクティブソース 3/4",
             "実観測 9 件",
-            "growth 片方 0"
+            "news×wiki 符号一致"
           ]
         },
         "verdict": {
@@ -8833,7 +8864,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -8969,13 +9000,13 @@
           0
         ]
       },
-      "_dataQuality": 0.33,
+      "_dataQuality": 0.32,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.1667,
         "growth": 0.4525,
         "sourceDiversity": 0.25,
-        "freshness": 0.5657,
+        "freshness": 0.5576,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -9011,16 +9042,47 @@
         "articles": [
           "認知症"
         ],
-        "articlesFetched": [],
-        "articlesFailed": [
+        "articlesFetched": [
           "認知症"
         ],
-        "totalPageviews30d": 0,
-        "totalPageviews7d": 0,
-        "totalPageviewsPrior7d": 0,
-        "growthPercent": null,
-        "byDate": {},
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "articlesFailed": [],
+        "totalPageviews30d": 2787,
+        "totalPageviews7d": 666,
+        "totalPageviewsPrior7d": 607,
+        "growthPercent": 10,
+        "byDate": {
+          "2026-07-03": 96,
+          "2026-07-04": 82,
+          "2026-07-05": 97,
+          "2026-07-06": 93,
+          "2026-07-07": 86,
+          "2026-07-08": 91,
+          "2026-07-09": 109,
+          "2026-07-10": 103,
+          "2026-07-11": 79,
+          "2026-07-12": 85,
+          "2026-07-13": 89,
+          "2026-07-14": 78,
+          "2026-07-15": 111,
+          "2026-07-16": 100,
+          "2026-07-17": 127,
+          "2026-07-18": 88,
+          "2026-07-19": 88,
+          "2026-07-20": 79,
+          "2026-07-21": 84,
+          "2026-07-22": 108,
+          "2026-07-23": 78,
+          "2026-07-24": 74,
+          "2026-07-25": 96,
+          "2026-07-26": 104,
+          "2026-07-27": 116,
+          "2026-07-28": 103,
+          "2026-07-29": 89,
+          "2026-07-30": 84,
+          "2026-07-31": 89,
+          "2026-08-01": 81
+        },
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -9154,15 +9216,15 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.706Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 42,
           "label": "低",
           "signals": [
-            "アクティブソース 1/4",
+            "アクティブソース 2/4",
             "実観測 10 件",
-            "growth 片方 0"
+            "news×wiki 符号不一致"
           ]
         },
         "verdict": {
@@ -9405,7 +9467,7 @@
       },
       "sourceCount": 3,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -9541,13 +9603,13 @@
           0
         ]
       },
-      "_dataQuality": 0.4,
+      "_dataQuality": 0.39,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.1667,
         "growth": 0.3075,
         "sourceDiversity": 0.375,
-        "freshness": 0.647,
+        "freshness": 0.6388,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -9624,7 +9686,7 @@
           "2026-07-31": 21,
           "2026-08-01": 21
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_appstoreDetail": {
         "envelopeVersion": "1.0.0",
@@ -9858,7 +9920,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.706Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 37,
@@ -10116,7 +10178,7 @@
       },
       "sourceCount": 2,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -10252,13 +10314,13 @@
           0
         ]
       },
-      "_dataQuality": 0.35,
+      "_dataQuality": 0.34,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.2,
         "growth": 0.3175,
         "sourceDiversity": 0.25,
-        "freshness": 0.5851,
+        "freshness": 0.5769,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -10337,7 +10399,7 @@
           "2026-07-31": 419,
           "2026-08-01": 339
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -10534,7 +10596,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.706Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 69,
@@ -10773,7 +10835,7 @@
       },
       "sourceCount": 1,
       "confidence": "参考レベル",
-      "updatedAt": "2026-08-02T05:56:28.686Z",
+      "updatedAt": "2026-08-02T11:49:20.187Z",
       "trendData": {
         "7d": [
           0,
@@ -10909,13 +10971,13 @@
           0
         ]
       },
-      "_dataQuality": 0.28,
+      "_dataQuality": 0.27,
       "_hasEnoughGrowthData": true,
       "_scoreBreakdown": {
         "newsVolume": 0.1,
         "growth": 0.3775,
         "sourceDiversity": 0.125,
-        "freshness": 0.6016,
+        "freshness": 0.5934,
         "formula": "score = 40*newsVolume + 30*growth + 20*sourceDiversity + 10*freshness"
       },
       "_growthDetail": {
@@ -10994,7 +11056,7 @@
           "2026-07-31": 7,
           "2026-08-01": 9
         },
-        "fetchedAt": "2026-08-02T05:53:52.181Z"
+        "fetchedAt": "2026-08-02T11:48:57.445Z"
       },
       "_ndlDetail": {
         "envelopeVersion": "1.0.0",
@@ -11183,7 +11245,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-02T05:59:43.164Z",
+        "generatedAt": "2026-08-02T11:49:20.706Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 37,
@@ -11335,6 +11397,6 @@
       }
     }
   ],
-  "insightsGeneratedAt": "2026-08-02T05:59:43.164Z",
+  "insightsGeneratedAt": "2026-08-02T11:49:20.706Z",
   "insightsMethod": "heuristic-v1"
 }
