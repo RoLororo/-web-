@@ -133,6 +133,53 @@ export function getTrendingDemands(limit = 4) {
 }
 
 /**
+ * 1 テーマの検索対象テキストを作る。
+ *
+ * ■ なぜ広げたか（2026-08-02 実測）
+ *   旧実装は title + summary + category の 3 つだけで、全 15 テーマ合わせて
+ *   **638 字**しか検索できなかった（ページに出ている本文は 120,511 字）。
+ *   結果として、そのテーマ自身のページに載っている語で検索しても
+ *   見つからない状態だった:
+ *     - テーマ定義語 228 語のうち **165 語 (72%)** で、そのテーマが出ない
+ *     - 「ChatGPT」「マンション」「エアコン」「中学受験」「在宅勤務」は 0 件
+ *   情報を増やしても、到達できなければ無いのと同じなので対象を広げる。
+ *
+ * ■ 何を入れるか
+ *   「そのテーマのページを見れば書いてある語」に限る。
+ *   ページに出ていない内部計算値は入れない（検索でヒットしても
+ *   なぜ出たのか説明できないため）。
+ *
+ * ■ 実測（638 字 → 10,991 字 / 17.2 倍）
+ *   定義語で自分が出ない語: 165 → **0**
+ *   1 語あたり平均ヒット: 0.4 → 1.5 テーマ（全 15 テーマ中。絞り込みとして健全）
+ */
+function searchHaystack(d) {
+  // 空文字もキャッシュ済みとして扱う。`if (d.__haystack)` だと
+  // 空文字のとき毎回 defineProperty に入り、2 回目で TypeError になる。
+  if (Object.prototype.hasOwnProperty.call(d, '__haystack')) return d.__haystack;
+  const parts = [
+    d.title, d.summary, d.category,
+    ...(d._searchTerms || []),        // テーマを定義している語（hot + warm）
+    ...(d._relatedKeywords || []),    // 実際にヒットした語
+    ...(d.audience || []),
+    ...(d.problems || []),
+    ...(d.evidence || []).map((e) => e.title || ''),
+    ...(d.businessOpportunities || []).map((o) => `${o.title || ''} ${o.desc || ''}`),
+    d._insights?.verdict?.label || '',
+  ];
+  // 1 テーマにつき 1 回だけ作って使い回す（キーストロークごとに再構築しない）
+  const built = parts.join(' ').toLowerCase();
+  // enumerable: false → JSON.stringify や {...d} に混ざらない
+  // configurable: true → 万一の再定義でも落ちない
+  try {
+    Object.defineProperty(d, '__haystack', { value: built, enumerable: false, configurable: true });
+  } catch {
+    // 凍結されたオブジェクトなら諦めてキャッシュしない（検索自体は動く）
+  }
+  return built;
+}
+
+/**
  * 需要探索用のフィルタ・並び替え。
  * options: { keyword, category, status, sort }
  */
@@ -142,11 +189,7 @@ export function searchDemands(options = {}) {
 
   if (keyword.trim()) {
     const k = keyword.trim().toLowerCase();
-    list = list.filter((d) =>
-      d.title.toLowerCase().includes(k) ||
-      d.summary.toLowerCase().includes(k) ||
-      d.category.toLowerCase().includes(k)
-    );
+    list = list.filter((d) => searchHaystack(d).includes(k));
   }
   if (category) list = list.filter((d) => d.category === category);
   if (status)   list = list.filter((d) => d.status === status);

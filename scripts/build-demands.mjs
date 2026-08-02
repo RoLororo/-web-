@@ -476,6 +476,9 @@ async function main() {
           : `データ不足 (前5日=${growth.prior5}件 < 閾値${GROWTH_MIN_PRIOR_SAMPLES})`,
       },
       _relatedKeywords:      c.relatedKeywords || [],
+      // 検索用。テーマを定義している語すべて（hot + warm）。
+      // 画面には出さない。src/services/demandService.js の searchDemands が読む。
+      _searchTerms:          c.searchTerms || [],
       _matchingArticleCount: evidenceArticles.length,
       _keywordTrendTotal:    keywordTrendTotal,
     });

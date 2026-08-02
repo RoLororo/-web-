@@ -407,6 +407,15 @@ async function main() {
       summary: theme.summary,
       category: theme.category,
       relatedKeywords,
+      // このテーマを定義している語をすべて出す。
+      //
+      // relatedKeywords は「実際にヒットした上位 6 語」なので、辞書にあっても
+      // その日たまたま記事が無い語は落ちる。検索でそれを落とすと、
+      // 「勉強法」でも「偏差値」でも「掃除機」でも 0 件になる
+      // （実測 2026-08-02: テーマ定義語 228 語のうち 165 語で、
+      //   そのテーマ自身が検索に出てこなかった）。
+      // 検索用途では辞書全体を持つ。
+      searchTerms: [...new Set([...theme.keywords.hot, ...theme.keywords.warm])],
       evidenceArticleIds: sortedEvidence.map((e) => e.article.id),
       evidenceArticleCount: evidence.length,
       confidence,

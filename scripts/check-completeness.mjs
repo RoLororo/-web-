@@ -78,9 +78,45 @@ const crossActive = CROSS.filter((k) => demands.some((d) => d[k]));
 // 5. カテゴリごとの情報量 / 6. 検索対象テキスト量
 // ---------------------------------------------------------------------------
 
-/** 検索は title + summary + category しか見ない（src/services/demandService.js searchDemands） */
-const searchableOf = (d) => `${d.title}${d.summary}${d.category}`.length;
+/**
+ * 検索対象テキスト。
+ * src/services/demandService.js の searchHaystack と同じ範囲を数える。
+ * 片方だけ変えると差分の数字が嘘になるので、変更時は必ず両方を直す。
+ */
+const searchableOf = (d) => [
+  d.title, d.summary, d.category,
+  ...(d._searchTerms || []),
+  ...(d._relatedKeywords || []),
+  ...(d.audience || []),
+  ...(d.problems || []),
+  ...(d.evidence || []).map((e) => e.title || ''),
+  ...(d.businessOpportunities || []).map((o) => `${o.title || ''} ${o.desc || ''}`),
+  d._insights?.verdict?.label || '',
+].join(' ').length;
 const searchableTotal = demands.reduce((s, d) => s + searchableOf(d), 0);
+
+/**
+ * 検索の実効性: そのテーマを定義している語で、そのテーマ自身が検索に出るか。
+ * 自分のページに書いてある語で自分が出ないなら、それは明確な欠陥。
+ */
+const haystackOf = (d) => [
+  d.title, d.summary, d.category,
+  ...(d._searchTerms || []), ...(d._relatedKeywords || []),
+  ...(d.audience || []), ...(d.problems || []),
+  ...(d.evidence || []).map((e) => e.title || ''),
+  ...(d.businessOpportunities || []).map((o) => `${o.title || ''} ${o.desc || ''}`),
+  d._insights?.verdict?.label || '',
+].join(' ').toLowerCase();
+
+let searchTermTotal = 0, searchTermMiss = 0;
+for (const d of demands) {
+  for (const w of d._searchTerms || []) {
+    const q = String(w).trim().toLowerCase();
+    if (q.length < 2) continue;
+    searchTermTotal++;
+    if (!haystackOf(d).includes(q)) searchTermMiss++;
+  }
+}
 
 /** テーマ 1 件がページに出す文字量（検索対象外だが情報量としては効く） */
 const proseOf = (d) => {
@@ -162,6 +198,7 @@ const report = {
     }];
   })),
   検索対象テキスト量: searchableTotal,
+  検索の実効性: { 定義語: searchTermTotal, 自分が出ない語: searchTermMiss },
   内部リンク密度: { ページ数: pageStats.length, 平均リンク数: Math.round(avgLinks * 10) / 10, 総本文字数: totalChars, 本文400字未満: thin.length },
   データ品質: {
     昇格基準を満たすテーマ: promoted.length,
@@ -205,7 +242,7 @@ if (asJson) {
   console.log(`  ② テーマ数         ${num(r.テーマ数)}`);
   console.log(`  ③ 情報源数         ${r.情報源数.合計}（ニュース媒体 ${r.情報源数.ニュース媒体} + 横断 ${r.情報源数.横断ソース}）`);
   console.log(`  ④ 記事数           ${num(r.記事数)}`);
-  console.log(`  ⑥ 検索対象テキスト ${num(r.検索対象テキスト量)} 字  ※検索は title+summary+category のみ対象`);
+  console.log(`  ⑥ 検索対象テキスト ${num(r.検索対象テキスト量)} 字  / 定義語 ${r.検索の実効性.定義語} 語のうち自分が出ない語 ${r.検索の実効性.自分が出ない語} 語`);
   console.log(`  ⑦ 内部リンク密度   ${r.内部リンク密度.ページ数} ページ / 平均 ${r.内部リンク密度.平均リンク数} リンク / 総本文 ${num(r.内部リンク密度.総本文字数)} 字`);
   console.log(`  ⑧ データ品質       昇格基準クリア ${r.データ品質.昇格基準を満たすテーマ}/${r.テーマ数} / 平均品質 ${r.データ品質.平均dataQuality} / score再現 ${r.データ品質.内訳からscore再現}`);
   console.log('\n  ⑤ カテゴリごとの情報量');
