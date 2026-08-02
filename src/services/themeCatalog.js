@@ -31,6 +31,8 @@ export const THEME_CATALOG = {
   'senior-health':          { title: '高齢者向け健康・認知症予防',       category: '健康' },
   'study-methods':          { title: '学習法・勉強効率',                 category: '教育' },
   'exam-admission':         { title: '受験・進学',                       category: '教育' },
+  'housing':                { title: '住まい・住宅',                     category: '生活' },
+  'home-appliance':         { title: '家電・暮らしの道具',               category: '生活' },
 };
 
 /** テーマ ID → 表示名 (未知の id なら id をそのまま返す) */

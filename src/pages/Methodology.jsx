@@ -9,7 +9,7 @@
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import { useSeo, breadcrumbJsonLd } from '../utils/useSeo.js';
-import { SITE_NAME, SITE_URL, SCORE_FORMULA, VERDICTS, SOURCES } from '../config/site.js';
+import { SITE_NAME, SITE_URL, SCORE_FORMULA, VERDICTS, SOURCES, NEWS_FEED_COUNT } from '../config/site.js';
 
 export default function Methodology() {
   useSeo({
@@ -150,7 +150,7 @@ export default function Methodology() {
         <ul>
           <li>
             <strong>日本語圏に偏っています。</strong>
-            Wikipedia は日本語版、ニュースは国内 13 媒体、App Store は日本ストアです。
+            Wikipedia は日本語版、ニュースは国内 {NEWS_FEED_COUNT} 媒体、App Store は日本ストアです。
             海外で先に起きている動きは拾えません。
           </li>
           <li>

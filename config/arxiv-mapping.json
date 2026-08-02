@@ -71,6 +71,16 @@
       "query": "abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\"",
       "expectedMonthlyCount": 1,
       "note": "2026-08-02 実測 1 本。日本の入学者選抜は arXiv の主題ではなく、この情報源はこのテーマをほぼ観測できない。0 に近い値が出るのが正しい"
+    },
+    "housing": {
+      "query": "cat:econ.GN AND (abs:\"housing\" OR abs:\"real estate\")",
+      "expectedMonthlyCount": null,
+      "note": "住宅経済。2026-08-02 追加時点では未計測。クエリは fetch 側で括弧に包まれる"
+    },
+    "home-appliance": {
+      "query": "cat:cs.HC AND (abs:\"smart home\" OR abs:\"home appliance\")",
+      "expectedMonthlyCount": null,
+      "note": "スマートホーム / 家電の HCI 研究。2026-08-02 追加時点では未計測"
     }
   },
   "skippedReasons": {},

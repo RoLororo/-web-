@@ -67,6 +67,16 @@
       "query": "exam preparation quiz",
       "expectedMonthlyCount": null,
       "note": "受験対策ツール。2026-08-02 追加時点では未計測"
+    },
+    "housing": {
+      "query": "real estate listing",
+      "expectedMonthlyCount": null,
+      "note": "2026-08-02 追加時点では未計測"
+    },
+    "home-appliance": {
+      "query": "smart home automation",
+      "expectedMonthlyCount": null,
+      "note": "2026-08-02 追加時点では未計測"
     }
   }
 }

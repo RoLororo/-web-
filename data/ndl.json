@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-02T00:23:00.585Z",
+  "generatedAt": "2026-08-01T16:47:40.660Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
-  "mappedThemeCount": 13,
-  "successCount": 13,
+  "mappedThemeCount": 15,
+  "successCount": 15,
   "skippedCount": 0,
   "errorCount": 0,
-  "totalRequestCount": 13,
+  "totalRequestCount": 15,
   "themesSkipped": [],
   "errors": [],
   "themes": {
@@ -18,7 +18,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -74,7 +74,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -130,7 +130,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -186,7 +186,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -242,7 +242,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -298,7 +298,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -354,7 +354,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -410,7 +410,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -466,7 +466,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -522,7 +522,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -578,7 +578,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -634,7 +634,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -690,7 +690,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-02T00:23:00.585Z",
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -737,6 +737,118 @@
           "issued": "2008.9",
           "publisher": "ナガセ",
           "author": "相澤, 理"
+        }
+      ],
+      "errors": []
+    },
+    "housing": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1794,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 1794
+      },
+      "topItems": [
+        {
+          "title": "アイソス : マネジメントシステムと国際標準化の専門月刊誌",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000103475-d3201825",
+          "issued": "1999-09",
+          "publisher": "システム規格社",
+          "author": "システム規格社"
+        },
+        {
+          "title": "あきた経済",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I586014",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "あきた経済",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010365510-i30272826",
+          "issued": "2014",
+          "publisher": "秋田経済研究所",
+          "author": "秋田経済研究所"
+        },
+        {
+          "title": "「秋田県住宅リフォーム助成制度」実現と波及効果",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I10890029",
+          "issued": null,
+          "publisher": null,
+          "author": "袴田 周吾"
+        },
+        {
+          "title": "秋田県内の住宅リフォーム動向について",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I025586008",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        }
+      ],
+      "errors": []
+    },
+    "home-appliance": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 4627,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 4627
+      },
+      "topItems": [
+        {
+          "title": "亜鉛めっき鋼板と家電製品について-亜鉛めっき鋼板利用上の問題点-",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390001204197784832",
+          "issued": "1977",
+          "publisher": null,
+          "author": "河合 宏紀"
+        },
+        {
+          "title": "秋田魁新報創刊１２０年企画 2||昔今夢のさきがけ||蛍光灯パッ！忘れられぬ感動 : 秋田魁新報",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I1051702",
+          "issued": "1994年6月28日 朝刊 10面（1994-06-28）",
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "秋葉原哀歌",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002401670",
+          "issued": "1995.4",
+          "publisher": "ビレッジセンター (発売)",
+          "author": "島川, 言成"
+        },
+        {
+          "title": "アクセシブルデザインの世界(第23回)家電製品の良かったこと調査",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I028065041",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "アクティブマトリックスVFDによる高輝度日本語情報表示",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390001204522409984",
+          "issued": "1996",
+          "publisher": null,
+          "author": "則武 篤史"
         }
       ],
       "errors": []

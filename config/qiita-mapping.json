@@ -46,9 +46,13 @@
     "senior-health": [],
     "ai-regulation": [],
     "study-methods": [
-      "学習",
-      "ポエム"
+      "学習"
     ],
-    "exam-admission": []
-  }
+    "exam-admission": [],
+    "housing": [],
+    "home-appliance": [
+      "スマートホーム"
+    ]
+  },
+  "tagNote": "タグは「そのテーマの需要を書いている人」が付けるタグに限る。件数を稼ぐために広いタグ（ポエム / IoT など）を入れると、無関係な記事が根拠として表示される（2026-08-02 実測で 2 件発生）"
 }

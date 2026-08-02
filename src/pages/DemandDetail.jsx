@@ -19,7 +19,7 @@ import { trendSeries, sliceSeries, availableRanges, seriesPeriodLabel } from '..
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import AdSlot from '../components/AdSlot.jsx';
 import { useSeo, breadcrumbJsonLd } from '../utils/useSeo.js';
-import { SITE_URL, SITE_NAME } from '../config/site.js';
+import { SITE_URL, SITE_NAME, NEWS_FEED_COUNT, NEWS_DIVERSITY_SATURATION } from '../config/site.js';
 import { toast } from '../utils/toast.js';
 
 export default function DemandDetail() {
@@ -267,8 +267,8 @@ export default function DemandDetail() {
               <p className="score-breakdown-lead">
                 needs = 40×ニュース量 + 30×直近成長 + 20×ニュース媒体の多様性 + 10×鮮度。各要素は 0〜1 に正規化。
                 <br />
-                「ニュース媒体の多様性」は購読している 13 媒体のうち何媒体が報じたかを表します。
-                8 媒体で満点です。ページ下部の情報源（Wikipedia・Qiita 等）とは別の指標です。
+                「ニュース媒体の多様性」は購読している {NEWS_FEED_COUNT} 媒体のうち何媒体が報じたかを表します。
+                {NEWS_DIVERSITY_SATURATION} 媒体で満点です。ページ下部の情報源（Wikipedia・Qiita 等）とは別の指標です。
               </p>
               {(() => {
                 const sb = demand._scoreBreakdown || {};

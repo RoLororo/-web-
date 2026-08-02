@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:23:47.683Z",
+  "generatedAt": "2026-08-02T05:21:59.103Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -63,6 +63,16 @@
       "lastDate": "2026-08-02"
     },
     {
+      "id": "home-appliance",
+      "name": "家電・暮らしの道具",
+      "category": "生活",
+      "currentPath": "history/current/home-appliance.jsonl",
+      "archivePaths": [],
+      "recordCount": 2,
+      "firstDate": "2026-08-01",
+      "lastDate": "2026-08-02"
+    },
+    {
       "id": "home-server-selfhost",
       "name": "自宅サーバー・セルフホスト",
       "category": "AI・テクノロジー",
@@ -70,6 +80,16 @@
       "archivePaths": [],
       "recordCount": 10,
       "firstDate": "2026-07-22",
+      "lastDate": "2026-08-02"
+    },
+    {
+      "id": "housing",
+      "name": "住まい・住宅",
+      "category": "生活",
+      "currentPath": "history/current/housing.jsonl",
+      "archivePaths": [],
+      "recordCount": 2,
+      "firstDate": "2026-08-01",
       "lastDate": "2026-08-02"
     },
     {

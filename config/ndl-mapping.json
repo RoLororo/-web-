@@ -72,6 +72,16 @@
       "query": "大学受験",
       "expectedCount": null,
       "note": "2026-08-02 追加時点では未計測"
+    },
+    "housing": {
+      "query": "住宅リフォーム",
+      "expectedCount": null,
+      "note": "2026-08-02 追加時点では未計測"
+    },
+    "home-appliance": {
+      "query": "家電製品",
+      "expectedCount": null,
+      "note": "2026-08-02 追加時点では未計測"
     }
   }
 }

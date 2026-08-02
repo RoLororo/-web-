@@ -1,41 +1,42 @@
 {
-  "generatedAt": "2026-08-02T00:19:45.127Z",
+  "generatedAt": "2026-08-02T05:20:32.440Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
   "cutoffDate": "2026-07-03",
-  "mappedThemeCount": 13,
-  "successCount": 10,
-  "skippedCount": 3,
+  "mappedThemeCount": 15,
+  "successCount": 11,
+  "skippedCount": 4,
   "errorCount": 0,
-  "totalRequestCount": 47,
-  "rateRemainingAtEnd": 13,
+  "totalRequestCount": 45,
+  "rateRemainingAtEnd": 15,
   "themesSkipped": [
     "senior-health",
     "ai-regulation",
-    "exam-admission"
+    "exam-admission",
+    "housing"
   ],
   "themes": {
     "ai-business-automation": {
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 25,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1795,
-        "engagement": 3180,
-        "contributors": 667,
-        "latestActivityAt": "2026-08-02T09:11:47+09:00"
+        "volume": 1807,
+        "engagement": 3219,
+        "contributors": 673,
+        "latestActivityAt": "2026-08-02T14:14:46+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1795,
-        "lgtmSum": 3180,
-        "uniqueAuthors": 667,
-        "latestPublishedAt": "2026-08-02T09:11:47+09:00"
+        "articleCount": 1807,
+        "lgtmSum": 3219,
+        "uniqueAuthors": 673,
+        "latestPublishedAt": "2026-08-02T14:14:46+09:00"
       },
       "meta": {
         "tags": [
@@ -54,22 +55,22 @@
           },
           {
             "tag": "Claude",
-            "totalCount": 402,
-            "fetched": 402,
+            "totalCount": 405,
+            "fetched": 405,
             "pages": 5,
             "stoppedBy": "done"
           },
           {
             "tag": "LLM",
-            "totalCount": 771,
-            "fetched": 771,
+            "totalCount": 776,
+            "fetched": 776,
             "pages": 8,
             "stoppedBy": "done"
           },
           {
             "tag": "生成AI",
-            "totalCount": 813,
-            "fetched": 813,
+            "totalCount": 820,
+            "fetched": 820,
             "pages": 9,
             "stoppedBy": "done"
           }
@@ -94,7 +95,7 @@
           "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと",
           "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
           "publishedAt": "2026-07-17T07:54:35+09:00",
-          "likes": 159,
+          "likes": 160,
           "author": "Koukyosyumei"
         },
         {
@@ -108,7 +109,7 @@
           "title": "ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～",
           "url": "https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612",
           "publishedAt": "2026-07-25T20:22:16+09:00",
-          "likes": 84,
+          "likes": 85,
           "author": "WdknWdkn"
         }
       ]
@@ -117,22 +118,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 117,
-        "engagement": 171,
-        "contributors": 75,
-        "latestActivityAt": "2026-08-02T08:33:09+09:00"
+        "volume": 118,
+        "engagement": 173,
+        "contributors": 76,
+        "latestActivityAt": "2026-08-02T11:21:12+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 117,
-        "lgtmSum": 171,
-        "uniqueAuthors": 75,
-        "latestPublishedAt": "2026-08-02T08:33:09+09:00"
+        "articleCount": 118,
+        "lgtmSum": 173,
+        "uniqueAuthors": 76,
+        "latestPublishedAt": "2026-08-02T11:21:12+09:00"
       },
       "meta": {
         "tags": [
@@ -142,8 +143,8 @@
         "tagBreakdown": [
           {
             "tag": "GitHubCopilot",
-            "totalCount": 55,
-            "fetched": 55,
+            "totalCount": 56,
+            "fetched": 56,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -198,7 +199,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -279,22 +280,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 3,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 74,
-        "engagement": 97,
-        "contributors": 51,
-        "latestActivityAt": "2026-08-02T08:46:23+09:00"
+        "volume": 75,
+        "engagement": 99,
+        "contributors": 52,
+        "latestActivityAt": "2026-08-02T12:45:08+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 74,
-        "lgtmSum": 97,
-        "uniqueAuthors": 51,
-        "latestPublishedAt": "2026-08-02T08:46:23+09:00"
+        "articleCount": 75,
+        "lgtmSum": 99,
+        "uniqueAuthors": 52,
+        "latestPublishedAt": "2026-08-02T12:45:08+09:00"
       },
       "meta": {
         "tags": [
@@ -305,8 +306,8 @@
         "tagBreakdown": [
           {
             "tag": "GPU",
-            "totalCount": 42,
-            "fetched": 42,
+            "totalCount": 43,
+            "fetched": 43,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -331,7 +332,7 @@
           "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録",
           "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
           "publishedAt": "2026-07-25T09:25:54+09:00",
-          "likes": 22,
+          "likes": 23,
           "author": "nakatada-lab"
         },
         {
@@ -368,7 +369,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -449,22 +450,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 4,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 45,
-        "engagement": 515,
+        "volume": 46,
+        "engagement": 516,
         "contributors": 26,
-        "latestActivityAt": "2026-08-01T19:52:36+09:00"
+        "latestActivityAt": "2026-08-02T12:17:32+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 45,
-        "lgtmSum": 515,
+        "articleCount": 46,
+        "lgtmSum": 516,
         "uniqueAuthors": 26,
-        "latestPublishedAt": "2026-08-01T19:52:36+09:00"
+        "latestPublishedAt": "2026-08-02T12:17:32+09:00"
       },
       "meta": {
         "tags": [
@@ -483,8 +484,8 @@
           },
           {
             "tag": "ランサムウェア",
-            "totalCount": 12,
-            "fetched": 12,
+            "totalCount": 13,
+            "fetched": 13,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -509,7 +510,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 450,
+          "likes": 451,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -546,7 +547,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -627,7 +628,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -693,7 +694,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -774,27 +775,26 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T00:19:45.127Z",
-      "requestCount": 4,
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
+      "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 248,
-        "engagement": 1461,
-        "contributors": 131,
-        "latestActivityAt": "2026-08-02T06:05:04+09:00"
+        "volume": 20,
+        "engagement": 76,
+        "contributors": 17,
+        "latestActivityAt": "2026-07-31T08:54:34+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 248,
-        "lgtmSum": 1461,
-        "uniqueAuthors": 131,
-        "latestPublishedAt": "2026-08-02T06:05:04+09:00"
+        "articleCount": 20,
+        "lgtmSum": 76,
+        "uniqueAuthors": 17,
+        "latestPublishedAt": "2026-07-31T08:54:34+09:00"
       },
       "meta": {
         "tags": [
-          "学習",
-          "ポエム"
+          "学習"
         ],
         "tagBreakdown": [
           {
@@ -803,51 +803,103 @@
             "fetched": 20,
             "pages": 1,
             "stoppedBy": "done"
-          },
-          {
-            "tag": "ポエム",
-            "totalCount": 232,
-            "fetched": 232,
-            "pages": 3,
-            "stoppedBy": "done"
           }
         ]
       },
       "topItems": [
-        {
-          "title": "『めっちゃカメレオン』のサーバー代0円ってまじ？",
-          "url": "https://qiita.com/i-icc/items/fb02ae5fa0848f4c511e",
-          "publishedAt": "2026-07-06T23:42:23+09:00",
-          "likes": 596,
-          "author": "i-icc"
-        },
-        {
-          "title": "「日本企業風GitHub」のパロディに学ぶ、なぜJTC業務システムは「警告と文字」で埋め尽くされるのか",
-          "url": "https://qiita.com/Shiro_Shihi/items/4928640d01c78480962b",
-          "publishedAt": "2026-07-04T12:45:44+09:00",
-          "likes": 273,
-          "author": "Shiro_Shihi"
-        },
-        {
-          "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった",
-          "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
-          "publishedAt": "2026-07-10T09:58:51+09:00",
-          "likes": 87,
-          "author": "tatsuya582"
-        },
-        {
-          "title": "バイブコーディング(笑) と言われないための考え方",
-          "url": "https://qiita.com/fallout/items/d732b94ff0f68c5cd1ab",
-          "publishedAt": "2026-07-17T16:56:50+09:00",
-          "likes": 43,
-          "author": "fallout"
-        },
         {
           "title": "そのSQL、本当に大丈夫？実務で意識したい5つの基本ルール",
           "url": "https://qiita.com/T-furukubo/items/3ace375e1b8aafd014a2",
           "publishedAt": "2026-07-13T09:27:02+09:00",
           "likes": 38,
           "author": "T-furukubo"
+        },
+        {
+          "title": "コードを書かせるだけは、正直もったいない。Claude Codeを「先生」として使い倒す5つのプロンプト",
+          "url": "https://qiita.com/jqit_suwa/items/2f38d32328996d826d48",
+          "publishedAt": "2026-07-15T08:29:02+09:00",
+          "likes": 31,
+          "author": "jqit_suwa"
+        },
+        {
+          "title": "なぜ私はRustが全く書けないのか",
+          "url": "https://qiita.com/harupython/items/41b8c271012135228031",
+          "publishedAt": "2026-07-14T12:39:09+09:00",
+          "likes": 5,
+          "author": "harupython"
+        },
+        {
+          "title": "なぜ私はPythonをやめることができないのか",
+          "url": "https://qiita.com/harupython/items/f2f397027d4c2e463910",
+          "publishedAt": "2026-07-16T21:27:45+09:00",
+          "likes": 1,
+          "author": "harupython"
+        },
+        {
+          "title": "資格30個以上！私の資格勉強方法",
+          "url": "https://qiita.com/Kazeneko/items/bedf3718ff8e29079ef2",
+          "publishedAt": "2026-07-06T12:19:00+09:00",
+          "likes": 1,
+          "author": "Kazeneko"
+        }
+      ]
+    },
+    "home-appliance": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-08-02T05:20:32.440Z",
+      "requestCount": 1,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 3,
+        "engagement": 0,
+        "contributors": 3,
+        "latestActivityAt": "2026-07-27T19:26:17+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 3,
+        "lgtmSum": 0,
+        "uniqueAuthors": 3,
+        "latestPublishedAt": "2026-07-27T19:26:17+09:00"
+      },
+      "meta": {
+        "tags": [
+          "スマートホーム"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "スマートホーム",
+            "totalCount": 3,
+            "fetched": 3,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      },
+      "topItems": [
+        {
+          "title": "Home Assistantの現状整理（2026年7月版）",
+          "url": "https://qiita.com/ham0806/items/ba4a8aaac607e15742ba",
+          "publishedAt": "2026-07-27T19:26:17+09:00",
+          "likes": 0,
+          "author": "ham0806"
+        },
+        {
+          "title": "電池寿命を延ばすナノパワー電源設計とは？",
+          "url": "https://qiita.com/farnell_japan/items/a3bc1bd43e68996b1f1e",
+          "publishedAt": "2026-07-23T14:58:43+09:00",
+          "likes": 0,
+          "author": "farnell_japan"
+        },
+        {
+          "title": "スマートディスプレイ「Quote/0」に燃えるゴミの日を出す",
+          "url": "https://qiita.com/ryofujimotox/items/afe234071ca2bc3c660e",
+          "publishedAt": "2026-07-11T12:02:53+09:00",
+          "likes": 0,
+          "author": "ryofujimotox"
         }
       ]
     }

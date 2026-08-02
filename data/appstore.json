@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:21:45.039Z",
+  "generatedAt": "2026-08-01T16:46:09.869Z",
   "source": "appstore",
   "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
   "mappingVersion": 1,
@@ -11,9 +11,9 @@
     "topgrossingapplications"
   ],
   "feedLimit": 100,
-  "mappedThemeCount": 13,
-  "successCount": 6,
-  "skippedCount": 7,
+  "mappedThemeCount": 15,
+  "successCount": 7,
+  "skippedCount": 8,
   "errorCount": 0,
   "totalRequestCount": 2,
   "themesSkipped": [
@@ -51,6 +51,11 @@
       "theme": "ai-regulation",
       "reason": "concept-not-app",
       "note": "AI 規制 / 政策の概念、アプリ化不能。他ソース(News, Wikipedia)に依存。"
+    },
+    {
+      "theme": "home-appliance",
+      "reason": "not-verified",
+      "note": ""
     }
   ],
   "themes": {
@@ -58,7 +63,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-02T00:21:45.039Z",
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -67,16 +72,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-01T17:21:46-07:00"
+        "latestActivityAt": "2026-08-01T09:46:12-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 4,
         "uniquePublishers": 4,
-        "topFreeMatchCount": 4,
+        "topFreeMatchCount": 3,
         "topGrossingMatchCount": 3,
         "bestRank": 4,
-        "averageRank": 44,
-        "rankWeightedScore": 399,
+        "averageRank": 37.5,
+        "rankWeightedScore": 381,
         "matchedApps": [
           {
             "appId": "6448311069",
@@ -102,16 +107,7 @@
             "publisher": "Anthropic PBC",
             "releaseDate": "2024-05-01T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 33,
-            "chart": "topfreeapplications"
-          },
-          {
-            "appId": "6670324846",
-            "name": "Grok 生成AI",
-            "publisher": "X Corp.",
-            "releaseDate": "2025-01-18T00:00:00-07:00",
-            "category": "仕事効率化",
-            "rank": 96,
+            "rank": 34,
             "chart": "topfreeapplications"
           },
           {
@@ -120,7 +116,7 @@
             "publisher": "OpenAI OpCo, LLC",
             "releaseDate": "2023-05-25T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 4,
+            "rank": 5,
             "chart": "topgrossingapplications"
           },
           {
@@ -129,7 +125,7 @@
             "publisher": "Anthropic PBC",
             "releaseDate": "2024-05-01T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 80,
+            "rank": 84,
             "chart": "topgrossingapplications"
           },
           {
@@ -138,7 +134,7 @@
             "publisher": "X Corp.",
             "releaseDate": "2025-01-18T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 86,
+            "rank": 93,
             "chart": "topgrossingapplications"
           }
         ]
@@ -167,17 +163,17 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-01T17:21:45-07:00",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
             "totalEntries": 100,
-            "matchCount": 4,
+            "matchCount": 3,
             "bestRank": 4
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-01T17:21:46-07:00",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
             "totalEntries": 100,
             "matchCount": 3,
-            "bestRank": 4
+            "bestRank": 5
           }
         ]
       },
@@ -191,14 +187,6 @@
           "category": "仕事効率化"
         },
         {
-          "name": "ChatGPT",
-          "publisher": "OpenAI OpCo, LLC",
-          "rank": 4,
-          "chart": "topgrossingapplications",
-          "appId": "6448311069",
-          "category": "仕事効率化"
-        },
-        {
           "name": "Google Gemini",
           "publisher": "Google",
           "rank": 5,
@@ -207,9 +195,17 @@
           "category": "仕事効率化"
         },
         {
+          "name": "ChatGPT",
+          "publisher": "OpenAI OpCo, LLC",
+          "rank": 5,
+          "chart": "topgrossingapplications",
+          "appId": "6448311069",
+          "category": "仕事効率化"
+        },
+        {
           "name": "Claude by Anthropic",
           "publisher": "Anthropic PBC",
-          "rank": 33,
+          "rank": 34,
           "chart": "topfreeapplications",
           "appId": "6473753684",
           "category": "仕事効率化"
@@ -217,7 +213,7 @@
         {
           "name": "Claude by Anthropic",
           "publisher": "Anthropic PBC",
-          "rank": 80,
+          "rank": 84,
           "chart": "topgrossingapplications",
           "appId": "6473753684",
           "category": "仕事効率化"
@@ -228,7 +224,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-02T00:21:45.039Z",
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -237,16 +233,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-01T17:21:45-07:00"
+        "latestActivityAt": "2026-08-01T09:46:10-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 1,
         "uniquePublishers": 1,
         "topFreeMatchCount": 1,
         "topGrossingMatchCount": 0,
-        "bestRank": 43,
-        "averageRank": 43,
-        "rankWeightedScore": 58,
+        "bestRank": 48,
+        "averageRank": 48,
+        "rankWeightedScore": 53,
         "matchedApps": [
           {
             "appId": "897446215",
@@ -254,7 +250,7 @@
             "publisher": "Canva",
             "releaseDate": "2014-10-15T03:23:37-07:00",
             "category": "写真／ビデオ",
-            "rank": 43,
+            "rank": 48,
             "chart": "topfreeapplications"
           }
         ]
@@ -271,14 +267,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-01T17:21:45-07:00",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
             "totalEntries": 100,
             "matchCount": 1,
-            "bestRank": 43
+            "bestRank": 48
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-01T17:21:46-07:00",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -289,7 +285,7 @@
         {
           "name": "Canva（キャンバ） - 信じられないほど、素晴らしく",
           "publisher": "Canva",
-          "rank": 43,
+          "rank": 48,
           "chart": "topfreeapplications",
           "appId": "897446215",
           "category": "写真／ビデオ"
@@ -300,7 +296,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-02T00:21:45.039Z",
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -309,16 +305,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-01T17:21:45-07:00"
+        "latestActivityAt": "2026-08-01T09:46:10-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 5,
         "uniquePublishers": 5,
         "topFreeMatchCount": 5,
         "topGrossingMatchCount": 0,
-        "bestRank": 21,
-        "averageRank": 39.8,
-        "rankWeightedScore": 306,
+        "bestRank": 22,
+        "averageRank": 38.2,
+        "rankWeightedScore": 314,
         "matchedApps": [
           {
             "appId": "1435783608",
@@ -326,7 +322,7 @@
             "publisher": "PayPay Corporation",
             "releaseDate": "2018-10-05T12:26:21-07:00",
             "category": "ファイナンス",
-            "rank": 21,
+            "rank": 22,
             "chart": "topfreeapplications"
           },
           {
@@ -335,7 +331,7 @@
             "publisher": "East Japan Railway Company",
             "releaseDate": "2016-10-23T23:47:42-07:00",
             "category": "ファイナンス",
-            "rank": 34,
+            "rank": 32,
             "chart": "topfreeapplications"
           },
           {
@@ -353,7 +349,7 @@
             "publisher": "株式会社NTTドコモ",
             "releaseDate": "2018-04-25T15:24:10-07:00",
             "category": "ファイナンス",
-            "rank": 45,
+            "rank": 41,
             "chart": "topfreeapplications"
           },
           {
@@ -362,7 +358,7 @@
             "publisher": "イオンスマートテクノロジー株式会社",
             "releaseDate": "2021-08-31T00:00:00-07:00",
             "category": "ファイナンス",
-            "rank": 59,
+            "rank": 56,
             "chart": "topfreeapplications"
           }
         ]
@@ -403,14 +399,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-01T17:21:45-07:00",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
             "totalEntries": 100,
             "matchCount": 5,
-            "bestRank": 21
+            "bestRank": 22
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-01T17:21:46-07:00",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -421,7 +417,7 @@
         {
           "name": "PayPay",
           "publisher": "PayPay Corporation",
-          "rank": 21,
+          "rank": 22,
           "chart": "topfreeapplications",
           "appId": "1435783608",
           "category": "ファイナンス"
@@ -429,7 +425,7 @@
         {
           "name": "Suica",
           "publisher": "East Japan Railway Company",
-          "rank": 34,
+          "rank": 32,
           "chart": "topfreeapplications",
           "appId": "1156875272",
           "category": "ファイナンス"
@@ -445,7 +441,7 @@
         {
           "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
           "publisher": "株式会社NTTドコモ",
-          "rank": 45,
+          "rank": 41,
           "chart": "topfreeapplications",
           "appId": "1328132872",
           "category": "ファイナンス"
@@ -453,7 +449,7 @@
         {
           "name": "iAEON-イオンペイも使える！「アイイオン」",
           "publisher": "イオンスマートテクノロジー株式会社",
-          "rank": 59,
+          "rank": 56,
           "chart": "topfreeapplications",
           "appId": "1565489157",
           "category": "ファイナンス"
@@ -464,7 +460,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-02T00:21:45.039Z",
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -473,7 +469,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-01T17:21:46-07:00"
+        "latestActivityAt": "2026-08-01T09:46:12-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -505,14 +501,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-01T17:21:45-07:00",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-01T17:21:46-07:00",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -525,7 +521,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-02T00:21:45.039Z",
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -534,7 +530,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-01T17:21:46-07:00"
+        "latestActivityAt": "2026-08-01T09:46:12-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -562,14 +558,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-01T17:21:45-07:00",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-01T17:21:46-07:00",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -582,7 +578,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-02T00:21:45.039Z",
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -591,7 +587,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-01T17:21:46-07:00"
+        "latestActivityAt": "2026-08-01T09:46:12-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -615,14 +611,71 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-01T17:21:45-07:00",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-01T17:21:46-07:00",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
+            "totalEntries": 100,
+            "matchCount": 0,
+            "bestRank": null
+          }
+        ]
+      },
+      "topItems": []
+    },
+    "housing": {
+      "envelopeVersion": "1.0.0",
+      "source": "appstore",
+      "windowDays": 1,
+      "fetchedAt": "2026-08-01T16:46:09.869Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": null,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": "2026-08-01T09:46:12-07:00"
+      },
+      "nativeMetrics": {
+        "matchedAppCount": 0,
+        "uniquePublishers": 0,
+        "topFreeMatchCount": 0,
+        "topGrossingMatchCount": 0,
+        "bestRank": null,
+        "averageRank": null,
+        "rankWeightedScore": 0,
+        "matchedApps": []
+      },
+      "meta": {
+        "mappedApps": [
+          {
+            "name": "SUUMO",
+            "id": "429558326"
+          },
+          {
+            "name": "アットホーム",
+            "id": "482875445"
+          }
+        ],
+        "storefront": "jp",
+        "copyright": "Copyright 2008 Apple Inc.",
+        "chartBreakdown": [
+          {
+            "chart": "topfreeapplications",
+            "feedUpdated": "2026-08-01T09:46:10-07:00",
+            "totalEntries": 100,
+            "matchCount": 0,
+            "bestRank": null
+          },
+          {
+            "chart": "topgrossingapplications",
+            "feedUpdated": "2026-08-01T09:46:12-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null

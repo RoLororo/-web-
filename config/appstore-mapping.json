@@ -101,7 +101,18 @@
         "name": "スタディサプリ",
         "id": "1005421542"
       }
-    ]
+    ],
+    "housing": [
+      {
+        "name": "SUUMO",
+        "id": "429558326"
+      },
+      {
+        "name": "アットホーム",
+        "id": "482875445"
+      }
+    ],
+    "home-appliance": []
   },
   "skippedReasons": {
     "ai-coding": {

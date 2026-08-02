@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-02T00:18:13.683Z",
-  "totalArticles": 1283,
-  "themeCount": 13,
-  "candidateCount": 13,
+  "generatedAt": "2026-08-01T16:42:40.033Z",
+  "totalArticles": 1318,
+  "themeCount": 15,
+  "candidateCount": 15,
   "method": "rule-based keyword matching",
   "candidates": [
     {
@@ -12,15 +12,14 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude",
-        "活用",
         "生成AI",
         " AI",
+        "活用",
         "ChatGPT",
-        "Copilot"
+        "導入"
       ],
       "evidenceArticleIds": [
         "c533b5efbfcc5e2b",
-        "cb4906e868c77182",
         "122a77ca397bae34",
         "45de4d6ad64fbf34",
         "e74f272d586158b6",
@@ -73,9 +72,9 @@
         "5e4f185e204b1a85",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 53,
+      "evidenceArticleCount": 52,
       "confidence": 0.96,
-      "reason": "15 種類のキーワードが 53 件の記事でヒット（例：Claude、活用、生成AI）"
+      "reason": "15 種類のキーワードが 52 件の記事でヒット（例：Claude、生成AI、 AI）"
     },
     {
       "id": "ai-coding",
@@ -91,7 +90,6 @@
         "GitHub Copilot"
       ],
       "evidenceArticleIds": [
-        "032d1e166a115591",
         "8fd81291389d37ac",
         "7a992fb5e8218120",
         "b38dac98b7c4d442",
@@ -124,9 +122,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 32,
+      "evidenceArticleCount": 31,
       "confidence": 0.91,
-      "reason": "11 種類のキーワードが 32 件の記事でヒット（例：Claude Code、codex、開発）"
+      "reason": "11 種類のキーワードが 31 件の記事でヒット（例：Claude Code、codex、開発）"
     },
     {
       "id": "infrastructure-outages",
@@ -166,6 +164,44 @@
       "evidenceArticleCount": 20,
       "confidence": 0.93,
       "reason": "12 種類のキーワードが 20 件の記事でヒット（例：障害、復旧、影響）"
+    },
+    {
+      "id": "housing",
+      "theme": "住まい・住宅",
+      "summary": "住み替え・リノベ・断熱など、住まいをよくしたい需要",
+      "category": "生活",
+      "relatedKeywords": [
+        "賃貸",
+        "マンション",
+        "住宅",
+        "暮らし",
+        "住まい",
+        "駅"
+      ],
+      "evidenceArticleIds": [
+        "a9786e249439aa74",
+        "bed8e933c20154a6",
+        "012bd4f5781ac512",
+        "f9098bef5941fb9f",
+        "667c6909fca44154",
+        "1d576f2eadfb41a6",
+        "326f904134f1067f",
+        "ed4603edc7640ec3",
+        "ec59069cbff80a05",
+        "cb1087e7779aa8d7",
+        "451bfbb30bc96343",
+        "ab49ce79688ec9a2",
+        "aa46ff61f3160daa",
+        "166df04cd68d9645",
+        "517a19a79e05dcc3",
+        "508f31c0d33ea0ec",
+        "090ef1cf8beb8822",
+        "baa068bc6cce8d1b",
+        "4ee536bc41b15f57"
+      ],
+      "evidenceArticleCount": 19,
+      "confidence": 0.86,
+      "reason": "20 種類のキーワードが 19 件の記事でヒット（例：賃貸、マンション、住宅）"
     },
     {
       "id": "security-breach",
@@ -238,35 +274,6 @@
       "reason": "10 種類のキーワードが 15 件の記事でヒット（例：決済、PayPay、カード）"
     },
     {
-      "id": "ai-regulation",
-      "theme": "AI規制・安全性・プライバシー",
-      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "AI",
-        "規制",
-        "安全性",
-        "プライバシー",
-        "欧州委員会",
-        "保護"
-      ],
-      "evidenceArticleIds": [
-        "4225ab8cdd8742a1",
-        "45de4d6ad64fbf34",
-        "e14459d1d7527cc9",
-        "3c055302b0d3a3ee",
-        "75752a40a43aee02",
-        "e1e25c3e3465493b",
-        "d95ca7cebce53876",
-        "4bf8f55cb8457c0e",
-        "653519ff37ac720c",
-        "1c3d73cfafe83c4f"
-      ],
-      "evidenceArticleCount": 10,
-      "confidence": 0.85,
-      "reason": "7 種類のキーワードが 10 件の記事でヒット（例：AI、規制、安全性）"
-    },
-    {
       "id": "study-methods",
       "theme": "学習法・勉強効率",
       "summary": "限られた時間で学び直し・スキル習得を進めたい需要",
@@ -325,6 +332,60 @@
       "reason": "13 種類のキーワードが 10 件の記事でヒット（例：中学、中学受験、大学受験）"
     },
     {
+      "id": "ai-regulation",
+      "theme": "AI規制・安全性・プライバシー",
+      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "AI",
+        "規制",
+        "安全性",
+        "欧州委員会",
+        "保護",
+        "Meta"
+      ],
+      "evidenceArticleIds": [
+        "45de4d6ad64fbf34",
+        "e14459d1d7527cc9",
+        "3c055302b0d3a3ee",
+        "75752a40a43aee02",
+        "e1e25c3e3465493b",
+        "d95ca7cebce53876",
+        "4bf8f55cb8457c0e",
+        "653519ff37ac720c",
+        "1c3d73cfafe83c4f"
+      ],
+      "evidenceArticleCount": 9,
+      "confidence": 0.85,
+      "reason": "7 種類のキーワードが 9 件の記事でヒット（例：AI、規制、安全性）"
+    },
+    {
+      "id": "home-appliance",
+      "theme": "家電・暮らしの道具",
+      "summary": "家電の買い替え・選び方・電気代など、暮らしの道具の需要",
+      "category": "生活",
+      "relatedKeywords": [
+        "エアコン",
+        "家電",
+        "洗濯機",
+        "価格",
+        "発売",
+        "キッチン"
+      ],
+      "evidenceArticleIds": [
+        "5db04eda1ee5756d",
+        "fc0a0d43738cfdf1",
+        "3f74499d80dcc267",
+        "462c25ce6a34d19d",
+        "84d9be9d808d31c0",
+        "877f5cc7a5d979ca",
+        "451bfbb30bc96343"
+      ],
+      "evidenceArticleCount": 7,
+      "confidence": 0.76,
+      "reason": "12 種類のキーワードが 7 件の記事でヒット（例：エアコン、家電、洗濯機）"
+    },
+    {
       "id": "ai-hardware",
       "theme": "AI向けハードウェア・計算基盤",
       "summary": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
@@ -333,21 +394,19 @@
         "NVIDIA",
         "Rubin",
         "フィジカルAI",
-        "GPU",
-        "データセンター",
-        "計算基盤"
+        "計算基盤",
+        "チップ"
       ],
       "evidenceArticleIds": [
-        "5456384d7d9407cc",
         "7fb18d14aca682c3",
         "518c2849e102028b",
         "80e3de34fa920b2b",
         "706ce620672e77a7",
         "5a133a290273e381"
       ],
-      "evidenceArticleCount": 6,
-      "confidence": 0.68,
-      "reason": "7 種類のキーワードが 6 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
+      "evidenceArticleCount": 5,
+      "confidence": 0.56,
+      "reason": "5 種類のキーワードが 5 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
     },
     {
       "id": "remote-work",
@@ -374,6 +433,30 @@
       "reason": "7 種類のキーワードが 5 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
+      "id": "senior-health",
+      "theme": "高齢者向け健康・認知症予防",
+      "summary": "認知症・健康寿命の関心が高い需要",
+      "category": "健康",
+      "relatedKeywords": [
+        "高齢者",
+        "シニア",
+        "健康",
+        "寿命",
+        "介護",
+        "ボケ"
+      ],
+      "evidenceArticleIds": [
+        "326f904134f1067f",
+        "75f5c24b7ac2d25c",
+        "9203b3becd8967c9",
+        "e2193fce8f746f0f",
+        "508f31c0d33ea0ec"
+      ],
+      "evidenceArticleCount": 5,
+      "confidence": 0.73,
+      "reason": "8 種類のキーワードが 5 件の記事でヒット（例：高齢者、シニア、健康）"
+    },
+    {
       "id": "home-server-selfhost",
       "theme": "自宅サーバー・セルフホスト",
       "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
@@ -392,29 +475,8 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.47,
+      "confidence": 0.48,
       "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
-    },
-    {
-      "id": "senior-health",
-      "theme": "高齢者向け健康・認知症予防",
-      "summary": "認知症・健康寿命の関心が高い需要",
-      "category": "健康",
-      "relatedKeywords": [
-        "高齢者",
-        "介護",
-        "ボケ",
-        "認知症",
-        "サウナ"
-      ],
-      "evidenceArticleIds": [
-        "75f5c24b7ac2d25c",
-        "9203b3becd8967c9",
-        "e2193fce8f746f0f"
-      ],
-      "evidenceArticleCount": 3,
-      "confidence": 0.5,
-      "reason": "5 種類のキーワードが 3 件の記事でヒット（例：高齢者、介護、ボケ）"
     },
     {
       "id": "ai-content-generation",
@@ -432,7 +494,7 @@
         "c93646e47a2b2e30"
       ],
       "evidenceArticleCount": 2,
-      "confidence": 0.42,
+      "confidence": 0.43,
       "reason": "4 種類のキーワードが 2 件の記事でヒット（例：画像生成、画像、動画生成）"
     }
   ]

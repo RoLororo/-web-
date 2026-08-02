@@ -104,6 +104,27 @@ const FEEDS = [
   // 受験テーマが リセマム 1 本に依存していたので追加。
   // 実測: 10 件すべてが受験の記事（10/10 = 100%）。
   { name: '中学受験情報局',    url: 'https://www.e-juken.jp/feed' },
+
+  // ── 生活カテゴリ（2026-08-02 追加） ──────────────────────────────
+  // 本物の判定式（hot >= 1 かつ 合計 >= 4 点）で測った採用件数:
+  //   SUUMOジャーナル   15件 → 住まい 10
+  //   アットホームタイムズ 10件 → 住まい  6
+  //   家電Watch        15件 → 家電    4（変種Bの語で 3）
+  //   roomie          20件 → 住まい  1
+  //   ソレドコ          30件 → 住まい  1 / 家電 1
+  //
+  // 既存 13 テーマへの混入は 2 件だけで、どちらも SUUMO の高齢者住宅記事が
+  // senior-health に入るもの。内容として正しく、1 情報源しか無かった
+  // senior-health の補強になるのでそのままにする。
+  //
+  // 着手前に「home-server-selfhost の hot 語『自宅』が住宅記事を吸う」と
+  // 見ていたが、実測すると混入 0 件だった。採用条件が hot 単独では 3 点で、
+  // warm（サーバ / 構築 / NAS）が無いと 4 点に届かないため。修正は不要。
+  { name: 'SUUMOジャーナル',   url: 'https://suumo.jp/journal/feed/' },
+  { name: 'アットホームタイムズ', url: 'https://athome-inc.jp/feed/' },
+  { name: '家電Watch',       url: 'https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf' },
+  { name: 'roomie',         url: 'https://www.roomie.jp/feed/' },
+  { name: 'ソレドコ',         url: 'https://soredoko.jp/feed' },
 ];
 
 /**

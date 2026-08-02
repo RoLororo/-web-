@@ -294,12 +294,12 @@ console.log('flat:',(flat/total*100).toFixed(0)+'% | cat:',JSON.stringify(cat));
 | 項目 | 値 |
 |---|---|
 | 観測しているテーマ | **11** |
-| 公開されているテーマ | **13**（2026-08-02: ai-content-generation 復活 + 教育カテゴリ 2 件を新設） |
-| 分野の稼働 | **4 / 9**（AI・テクノロジー 6 / ビジネス 4 / 教育 2 / 健康 1）。起業・副業・生活・エンタメ・美容が **0 件** |
+| 公開されているテーマ | **15**（2026-08-02: 教育 2 件 + 生活 2 件を新設、ai-content-generation 復活） |
+| 分野の稼働 | **5 / 9**（AI・テクノロジー 6 / ビジネス 4 / 教育 2 / 生活 2 / 健康 1）。起業・副業・エンタメ・美容 が **0 件** |
 | 非公開になる条件 | `extract-demand-candidates.mjs` の `if (evidence.length === 0) continue`。**猶予期間なし・記録なし・UI 表示なし** |
 | 昇格基準の充足状況 | **4 / 11 が未達**（ai-content-generation news 2 / senior-health 3 / home-server 3 / remote-work 5。基準は「3 ソース以上 かつ news 5 件以上」） |
 | 1 テーマ追加に必要な編集 | **9 ファイル**（qiita / appstore / arxiv / github / ndl の mapping + `fetch-wikipedia-pageviews.mjs` + `generate-insights.mjs` + `extract-demand-candidates.mjs` + `themeCatalog.js`） |
-| ニュース corpus | RSS **18 本** / **1,225 件**（技術 13 + 教育 5）。2026-08-02 に 4 本 822 件から 2 段階で拡張 |
+| ニュース corpus | RSS **23 本** / **1,318 件**（技術 13 + 教育 5 + 生活 5）。2026-08-02 に 4 本 822 件から 3 段階で拡張 |
 | フィード採否の基準 | 紐付き率 **50% 以上**。実測は `config/theme-registry.json` の `seedFilter.feedCriteria` が正本 |
 | 根拠記事の上限 | 1 テーマ **60 件**（20 件から引き上げ）。上限が実測を切り捨ててスコアを潰していたため |
 | 記事の帰属 | 排他ではない（複数テーマの根拠になりうる）→ キーワード追加で既存テーマを壊す心配はない |

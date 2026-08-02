@@ -1,223 +1,23 @@
 [
   {
-    "id": "dc669bd946b6d43c",
-    "source": "Impress Watch",
-    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
-    "title": "「AI導入しても評価されない問題」は解決できるのか",
-    "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2129414.html",
-    "publishedAt": "2026-08-02T00:00:00.000Z",
-    "summary": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。",
-    "fetchedAt": "2026-08-02T00:18:05.684Z"
-  },
-  {
-    "id": "bb0a70dc020dae7d",
-    "source": "ライフハッカー",
-    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
-    "title": "コーヒー三銃士がやってきた！「幸せを感じたコーヒーグッズ」3選 #これ買ってよかった",
-    "url": "https://www.lifehacker.jp/article/2607-korekai-three-coffee-musketeers/",
-    "publishedAt": "2026-08-02T00:00:00.000Z",
-    "summary": "コーヒーを楽しみ抜いた筆者が、買ってよかった3つのアイテム、「Fellow Carter Move Mug」「OXO オート ドリップ コーヒーメーカー」「BODUM フレンチプレスコーヒーメーカー」を紹介します。",
-    "fetchedAt": "2026-08-02T00:18:11.937Z"
-  },
-  {
-    "id": "5b605e470313da26",
-    "source": "ライフハッカー",
-    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
-    "title": "傘が浮いた！？3COINSのシリコンホルダーが、雨天時に車へ荷物を積み込むときの救世主だった",
-    "url": "https://www.lifehacker.jp/article/2607gizmodo_3coins_silicone-magnetic-umbrella-holder/",
-    "publishedAt": "2026-08-01T23:30:00.000Z",
-    "summary": "3COINSで見つけた「シリコーンマグネット傘ホルダー」。いつもの傘に取り付けるだけで、車へ荷物を積み込む際のストレスを激減させてくれるアイテムです。",
-    "fetchedAt": "2026-08-02T00:18:11.937Z"
-  },
-  {
-    "id": "8e959add032ca21d",
+    "id": "f62787b7580955b7",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "大分 日田で40度の酷暑日予想 東北は土砂災害などに厳重警戒を",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015193981000",
-    "publishedAt": "2026-08-01T23:24:24.000Z",
-    "summary": "西日本と東日本は2日も気温が上がり、大分県日田市では40度と酷暑日が予想されているほか、熊本県の地震の被災地でも危険な暑さとなる見込みで、引き続き熱中症への対策を徹底してください。一方、低気圧などの影…",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
+    "title": "【地震速報】熊本 水俣市 上天草市などで震度4 津波の心配なし",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193911000",
+    "publishedAt": "2026-08-01T16:34:31.000Z",
+    "summary": "2日午前1時7分ごろ、熊本県で震度4の揺れを観測する地震がありました。この地震による津波の心配はありません。",
+    "fetchedAt": "2026-08-01T16:42:34.597Z"
   },
   {
-    "id": "6d51e34abf86def1",
+    "id": "5abff1dc56f34db7",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "岡山 矢掛町 行方不明の2歳男児 祖母の家近くの山で無事発見",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015194021000",
-    "publishedAt": "2026-08-01T23:04:13.000Z",
-    "summary": "1日、岡山県矢掛町で祖母の家に帰省していた2歳の男の子の行方が分からなくなっていましたが、警察によりますと、2日午前7時半前、祖母の家の近くの山にいるのが見つかりました。男の子は無事だということです。",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
-  },
-  {
-    "id": "0fbc8cac1b32816d",
-    "source": "NHK",
-    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "米報道“週末にも攻撃計画” イランもけん制 攻撃応酬に懸念",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015193951000",
-    "publishedAt": "2026-08-01T23:03:23.000Z",
-    "summary": "アメリカのメディアは、トランプ政権がこの週末にもイスラエルとともにイランへの攻撃を計画していると報じました。一方、イラン側も「アメリカの盾となる国は戦火で焼かれることになる」などと強くけん制し、攻撃の…",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
-  },
-  {
-    "id": "8bfef6b5f2163d04",
-    "source": "GIGAZINE",
-    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
-    "title": "植物は地球上であとどれくらい生き残れるのか？",
-    "url": "https://gigazine.net/news/20260802-plant-maximum-lifetime/",
-    "publishedAt": "2026-08-01T23:00:00.000Z",
-    "summary": "植物は地球上の動物の生活を支える重要な存在ですが、気温等の変化の影響を受けて絶滅してしまうかもしれません。その絶滅は一体いつ起こるのか、研究者らが予測しました。 続きを読む...",
-    "fetchedAt": "2026-08-02T00:18:06.367Z"
-  },
-  {
-    "id": "80ed94be839bf95a",
-    "source": "ライフハッカー",
-    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
-    "title": "迷子のケーブルさん、エレコムの新作「くっつくコネクタ」で居場所定まるよ",
-    "url": "https://www.lifehacker.jp/article/amazon-elecom-connectercable-2608/",
-    "publishedAt": "2026-08-01T23:00:00.000Z",
-    "summary": "USBケーブルはある程度の長さがなければ不便だと理解しつつも、使用・持ち運び・保管の際に絡まるとイライラしませんか？ それを吹っ飛ばすのが、6月22日に発売したTHANKO（サンコー）の「PD対応見える充電マグネットケーブル」です。 こちら、求めるメリットを全盛りした“最先端Type-Cケーブル”なんです。",
-    "fetchedAt": "2026-08-02T00:18:11.937Z"
-  },
-  {
-    "id": "be613fdb2ad4d0ce",
-    "source": "NHK",
-    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "ゼレンスキー大統領”迎撃したミサイル1発のみ” 欧米は支援を",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015193941000",
-    "publishedAt": "2026-08-01T22:51:14.000Z",
-    "summary": "ウクライナでロシア軍による弾道ミサイルなどを使った大規模な攻撃があり、首都キーウではこれまでに9人が死亡しました。ゼレンスキー大統領は弾道ミサイルのうち迎撃できたのは1発のみだったとして、欧米諸国など…",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
-  },
-  {
-    "id": "a68ef047945a1d20",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "サウンドハウスオリジナルTシャツレビュー｜音屋ファン注目の公式ロゴTを写真付きで紹介【夏向き】 | ギターいじリストのおうち",
-    "url": "https://guitar-ijiri.com/blog/review/apparel/soundhouse-original-tshirt/",
-    "publishedAt": "2026-08-01T22:39:51.000Z",
-    "summary": "サウンドハウスのオリジナルTシャツを実際に購入してレビュー。公式ロゴTのデザインや質感、着心地を写真付きで紹介します。音屋ファンなら気になる一枚を詳しくチェック。",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "5ff7e1e33e76aa1b",
-    "source": "ITmedia",
-    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
-    "title": "OpenAI、アクティブユーザー10億人超に　導入企業は200万社超",
-    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000346/",
-    "publishedAt": "2026-08-01T22:21:26.000Z",
-    "summary": "OpenAIは、アクティブユーザーが10億人、導入企業が200万社を突破したと公表した。推論の保持やコンテキスト管理の改善、本番ソフトウェアの最適化によりコスト削減やトークン生成効率の向上を実現。「GPT-5.6」の一部モデルの値下げはこれらの成果を顧客に還元したものであり、再投資の循環を強調した。",
-    "fetchedAt": "2026-08-02T00:17:59.486Z"
-  },
-  {
-    "id": "62a4741a00ea8009",
-    "source": "ITmedia",
-    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
-    "title": "新作「レイダース」で初めて「スプラトゥーン」に触れたマンガ家がその面白さに驚愕！　と同時に絶望した理由",
-    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000343/",
-    "publishedAt": "2026-08-01T22:15:00.000Z",
-    "summary": "23日にNintendo Switch 2用ソフト「スプラトゥーン レイダース」が発売されました。今作は1人でも遊べる、ステージクリア型のアクションゲーム。PvPが苦手なボクもこれなら楽しめそうです。",
-    "fetchedAt": "2026-08-02T00:17:59.486Z"
-  },
-  {
-    "id": "cd363cacb6237eba",
-    "source": "NHK",
-    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "熊本 地震活動が活発 震度7程度に注意 危険な暑さ熱中症対策を",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015193991000",
-    "publishedAt": "2026-08-01T22:13:31.000Z",
-    "summary": "先月28日に最大震度7の非常に激しい揺れを観測した熊本県では、1日夜も宇城市で震度5弱の強い揺れを観測するなど地震活動が活発になっていて、気象庁は引き続き最大震度7程度の揺れに注意するよう呼びかけてい…",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
-  },
-  {
-    "id": "230de7202ea51210",
-    "source": "STUDY HACKER",
-    "sourceUrl": "https://studyhacker.net/feed",
-    "title": "あなたの学びに「補助線」を——あえて他分野を学ぶ効果と、オススメの組み合わせ。",
-    "url": "https://studyhacker.net/different-genre-learning",
-    "publishedAt": "2026-08-01T22:01:00.000Z",
-    "summary": "毎日コツコツ勉強している。資格の参考書も、ビジネス書も、英語アプリも続けている。勉強はもう習慣になっている。それなのに、会議で意見を求められた瞬間、学んだはずの知識がすっと出てこない。そんな心当たりはありませんか。 こんなとき、つい「もっと勉強しよう」と考えがちです。けれど、ある程度やっても手応えがないなら、足りないのは勉強の「量」ではなく、知識の「見方」かもしれません。 いま学んでいることを捨てる必要はありません。そこに、いつもと違う角度を1本だけ足してみる。それだけで、眠っていた知識が動きだすことがあるのです。 なぜ、量を足しても使えないのか どのジ…",
-    "fetchedAt": "2026-08-02T00:18:09.188Z"
-  },
-  {
-    "id": "4225ab8cdd8742a1",
-    "source": "GIGAZINE",
-    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
-    "title": "薬局チェーンが業務効率化のためにAIを導入したところ遅延・誤った情報提供・プライバシー問題などが発生",
-    "url": "https://gigazine.net/news/20260802-pharmacy-chain-ai/",
-    "publishedAt": "2026-08-01T22:00:00.000Z",
-    "summary": "アメリカのバーモント州とニューヨーク州で薬局チェーンを展開する「Kinney Drugs」は、処方箋の問い合わせや薬の再処方受付を効率化するためAIアシスタントを導入しました。しかし、導入後に薬の受け渡しの遅延や誤った再処方、患者情報の取り扱いに対する不安などが相次ぎ、顧客の不満が高まっています。 続きを読む...",
-    "fetchedAt": "2026-08-02T00:18:06.367Z"
-  },
-  {
-    "id": "010157e2bce53e3d",
-    "source": "STUDY HACKER",
-    "sourceUrl": "https://studyhacker.net/feed",
-    "title": "「あと少し」がやめられない人へ。疲れをためる前に休む、3つの環境づくり",
-    "url": "https://studyhacker.net/concentration-recovery-system",
-    "publishedAt": "2026-08-01T22:00:00.000Z",
-    "summary": "締め切り前でも粘れたはずの集中力が続かない。休日を挟んでも、疲れが抜けない。それでも「気合いを入れ直せばまた戻るはず」と根性で乗り切ろうとして、うまくいかない……。 「前はもっとできていたはずなのに」。これまで結果にこだわって働いてきた人ほど、そんな戸惑いを感じやすいものです。 こうした行き詰まりの正体は、能力の低下ではなく、崩れてしまった「回復のシステム」にあります。根性で立て直そうとするのをやめ、仕組みのほうを整えれば、休むことは意外なほど自然に戻ってくるものです。 まずはセルフチェック。「休めない人」に共通する7つのサイン なぜ、わかっていても休め…",
-    "fetchedAt": "2026-08-02T00:18:09.188Z"
-  },
-  {
-    "id": "39c03859e236213c",
-    "source": "ライフハッカー",
-    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
-    "title": "Safari向け拡張機能「Filtre」なら、ネタバレもニュースもキーワードで手軽にブロックできる",
-    "url": "https://www.lifehacker.jp/article/2608-filtre-lets-you-block-unwanted-content-on-every-site-in-safari/",
-    "publishedAt": "2026-08-01T22:00:00.000Z",
-    "summary": "Safari向け拡張機能「Filtre」を使えば、見たくないキーワードを設定するだけで、不快なニュースやネタバレを自動でブロックできます。Appleデバイス間での同期にも対応し、見たい情報だけに集中できる快適なWeb閲覧環境を実現する便利な機能を紹介します。",
-    "fetchedAt": "2026-08-02T00:18:11.937Z"
-  },
-  {
-    "id": "53e08e55785f33b5",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "「深いメッセージ性も、巧みな伏線回収もない」「考察ブームへのアンチテーゼ」とある准教授の映画「ちいかわ」評が本当に観たのか不安な内容でスゴい",
-    "url": "https://togetter.com/li/2727643",
-    "publishedAt": "2026-08-01T21:02:51.000Z",
-    "summary": "｢クレヨンしんちゃん｣｢プリキュア｣とはまったく違う…映画｢ちいかわ｣が破った\"長編アニメのお約束\" | PRESIDENT Online（プレジデントオンライン） 7月24日に公開された『映画ちいかわ 人魚の島のひみつ』が好調だ。公開から3日で興行収入は22億4000万円、観客動員数は150万人を突破し、今年の夏映画の大本命となっている...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "30376a95bf10e833",
-    "source": "NHK",
-    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "モスクワで爆発 3人死亡 15人けが 原因や背景を捜査",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015193971000",
-    "publishedAt": "2026-08-01T20:31:37.000Z",
-    "summary": "ロシアの首都モスクワ中心部で爆発があり、現地のメディアによりますと、これまでに3人が死亡し、15人がけがをしました。ロシアでは、ウクライナへの軍事侵攻開始以降、軍の幹部が爆発によって殺害される事件が相…",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
-  },
-  {
-    "id": "75889314318e541f",
-    "source": "NHK",
-    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
-    "title": "熊本地震 関連調査中含め36人死亡 避難所の熱中症対策を強化へ",
-    "url": "https://news.web.nhk/newsweb/na/na-k10015193881000",
-    "publishedAt": "2026-08-01T20:26:50.000Z",
-    "summary": "先月28日の大地震で熊本県によりますと、県内ではこれまでに災害との関連を調査している2人を含めて36人が死亡し、9000人余りが避難しています。県内は暑さが続く見込みで、県は避難所での熱中症への対策を…",
-    "fetchedAt": "2026-08-02T00:17:58.475Z"
-  },
-  {
-    "id": "721ec3793fe4119c",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "熊本地震後の宇城市において、「インドネシア人」たちが持っていたおにぎりなどが入ったファミマのケースは盗品ではないのでは - 電脳塵芥",
-    "url": "https://nou-yunyun.hatenablog.com/entry/2026/08/02/020000",
-    "publishedAt": "2026-08-01T17:12:29.000Z",
-    "summary": "https://x.com/Izumi_Sunagawa/status/2083100482109886869 宇城市において、インドネシア人があげたとされる動画が拡散していた。この動画は駐車場において休んでいる外国人と思われる複数の男性が映り、動画のさ中にファミマのケースが映り、そこには大量のおにぎりなどが入っているという動画である。この動画内でど...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "f6e0b6829a536d4d",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "TVアニメ『天幕のジャードゥーガル』第3弾PV",
-    "url": "https://www.youtube.com/watch?v=MW7gpFhFC3Y",
-    "publishedAt": "2026-08-01T15:34:21.000Z",
-    "summary": "第3弾PV解禁✨ ボラクチン役を演じるのはくじらに決定！ テレビ朝日系全国24局ネット“IMAnimation”枠・BS 朝日ほかにて好評放送中！ ◆ストーリー 少女と妃。 復讐の絆で結ばれた二人が、地上最強の帝国に嵐を起こす――。 母を亡くし、故郷からも遠く引き離された幼い少女・シタラは、 学者一家の心優しい奥方・ファーティ...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "title": "秋田 横手市に避難指示 686世帯の計1479人",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193921000",
+    "publishedAt": "2026-08-01T16:29:51.000Z",
+    "summary": "「レベル4土砂災害危険警報」と「レベル4大雨危険警報」が発表されている秋田県横手市は、土砂災害のおそれがあるとして1日午後11時20分、横手本町や城南町などの土砂災害警戒区域に住む686世帯、あわせて…",
+    "fetchedAt": "2026-08-01T16:42:34.597Z"
   },
   {
     "id": "e999655afbf3540b",
@@ -260,34 +60,14 @@
     "fetchedAt": "2026-08-01T16:02:20.291Z"
   },
   {
-    "id": "49f6a84b6e6e14ca",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造｜Infoseekニュース",
-    "url": "https://news.infoseek.co.jp/article/mogumogunews_36639/",
-    "publishedAt": "2026-08-01T14:42:42.000Z",
-    "summary": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造 もぐもぐニュース / 2026年7月30日 9時34分 序論：社会的弱者表象をめぐる現代の倫理的ジレンマ 2027年にテレビアニメ化が予定されている亜月ねね氏の漫画『みいちゃんと山田さん』を...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "421a716f4d7c5ee5",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "亜月ねねとダイアナは別人なのか？別人主張の謎をわかりやすく解説｜大知コラム",
-    "url": "https://www.taichimaster.jp/miiyama-betsujin/",
-    "publishedAt": "2026-08-01T14:23:46.000Z",
-    "summary": "『みいちゃんと山田さん』の作者・亜月ねねが7月31日に出したポストが、いま大変なことになっている。 内容は「ダイアナというアカウントと私は別人です」という訂正だ。 これに対するネットの反応は、ほぼ一色だった。 「バレバレの嘘をついている」 証拠のスクリーンショットが次々と貼られ、擁護の声はかき消されてい...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "0653fd042946aca6",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "「最後は横山氏の政治感覚で」　維新、都構想の区割りを一任 | 毎日新聞",
-    "url": "https://mainichi.jp/articles/20260801/k00/00m/010/121000c",
-    "publishedAt": "2026-08-01T14:10:26.000Z",
-    "summary": "大阪維新の会は1日、大阪都構想の法定協議会（法定協）に提案した特別区の区割り3案を一つに絞り込む作業について、党代表代行の横山英幸・大阪市長に一任することを決めた。横山氏が4、8、24区案の中から選び、7日に開かれる次回法定協で示す。 大阪市議と市内選出の府議、国会議員らの会合で決定した。市を廃止して特...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "id": "73f13788c0613d8a",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "もうリモコンは探さなくていい。スマホで遠隔操作ができるエアコン用スマートプラグ",
+    "url": "https://www.roomie.jp/2026/08/1841095/",
+    "publishedAt": "2026-08-01T14:45:38.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 「エアコン、切ってきたっけ」。外出先で、ふと頭をよぎるあの一瞬。確かめようがないから、答えは帰宅するまでわかりません……。 数日家を空けるときなんかは、熱のこもった部屋の空気にやられてしまうのはあるあるですよね。 HAWSTONEの「エアコンパートナー」は、この二つの問題をスマホひとつで片付けてくれます。 本体をコンセ",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "2908ab1fe102c954",
@@ -300,16 +80,6 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
-    "id": "032d1e166a115591",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "CLAUDE.mdとAGENTS.mdを削ったら、AIコーディングがグンと賢くなった｜白井暁彦 aka しらいはかせ",
-    "url": "https://note.com/o_ob/n/nd19cba8e11d7",
-    "publishedAt": "2026-08-01T13:32:46.000Z",
-    "summary": "Claude CodeやCodexのようなコーディングエージェントを使い続けていると、いつの間にかCLAUDE.mdやAGENTS.mdが巨大化していきます。 最初は数十行だったはずなのに、注意事項を追加し、作業手順を書き足し、引き継ぎ事項を残し、過去のトラブルを記録しているうちに、数百行の「何でも帳」になってしまいます。 情報を...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "e8b613298f7e1a46",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -318,26 +88,6 @@
     "publishedAt": "2026-08-01T13:25:45.000Z",
     "summary": "1日午後9時47分ごろ熊本県で震度5弱の揺れを観測する地震がありました。この地震による津波の心配はありません。",
     "fetchedAt": "2026-08-01T15:00:17.388Z"
-  },
-  {
-    "id": "93dfc5907f93490c",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "9月に閉館するライブハウス1000CLUBが移転して再オープン、キャパもステージの高さもそのまま - 音楽ナタリー",
-    "url": "https://natalie.mu/music/news/683429",
-    "publishedAt": "2026-08-01T13:22:54.000Z",
-    "summary": "9月に閉館するライブハウス1000CLUBが移転して再オープン、キャパもステージの高さもそのまま 2026年8月1日 19:29 7854 60 音楽ナタリー編集部 × 7854 この記事に関するナタリー公式アカウントの投稿が、SNS上でシェア / いいねされた数の合計です。 3887 3967 0 シェア",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "60c211d4504ca6d3",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "「経済オンチ」一部野党とメディア、高市首相の消費減税の理由を理解できない　高橋洋一　日本の解き方",
-    "url": "https://www.sankei.com/article/20260801-PAG2G7MRRBNUNIYGB6CSN3UHC4/?outputType=theme_weekly-fuji",
-    "publishedAt": "2026-08-01T13:20:38.000Z",
-    "summary": "消費税1％への減税について記者団の取材に応じる高市早苗首相＝7月30日午後、首相官邸高市早苗首相は7月30日、飲食料品の消費税率を来年4月から2年間限定で、現行の8％から1％に引き下げると表明した。1989年に消費税が導入されて以降、税率の引き下げは初めてとなる。中低所得者向けへの現金給付も行い、税負担を「実質...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "678bae38e6bdf128",
@@ -380,14 +130,14 @@
     "fetchedAt": "2026-08-01T15:13:28.305Z"
   },
   {
-    "id": "f1dce571217faa54",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "生鮮ジャガイモ解禁進展か　米国産、JA慎重対応要請 | NEWSjp",
-    "url": "https://news.jp/i/1455487618908619193?c=39550187727945729",
-    "publishedAt": "2026-08-01T13:00:30.000Z",
-    "summary": "現在は輸入を禁止している米国産の生鮮ジャガイモを巡り、日米両政府が解禁に向けた協議を進めていることが30日、分かった。農林水産省によると、解禁可否の判断時期は未定。これまで日本政府は病害虫の侵入を防ぐため、ポテトチップス用以外の輸入を原則として認めていなかった。 全国農業協同組合中央会（JA全中）の神...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "id": "e9524b07782051fc",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "夏アクティビティに安心感をプラス！ 操作性もそのまま、写真も綺麗に撮れる「防水スマホケース」にやっと出会った",
+    "url": "https://www.roomie.jp/2026/08/1835588/",
+    "publishedAt": "2026-08-01T13:00:38.000Z",
+    "summary": "海や川などの水辺でスマホを使うとき、落としてしまわないか心配。 ですが、防水ケースに入れると使い勝手が悪くなったり、写真が撮れなくなってしまったりするんですよね……。 真空密着で操作が快適 そんなときに見つけたのが、シュピゲン（Spigen）の「真空ポンプ付き防水スマホケース」というアイテム！ 付属のポンプを使って中の空気を抜くことで、フィルムが画面にピッタリと密着してくれるんです。 このおかげで",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "c495e2e5b8593fec",
@@ -400,6 +150,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "ef2678f879f14d73",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "樽の中って、こうなってたのか。熟成が“見える”ミニ樽で、ふだん飲みのウイスキーを育ててみた",
+    "url": "https://www.roomie.jp/2026/08/1841084/",
+    "publishedAt": "2026-08-01T12:45:33.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by 山科拓郎、T&G Global Bridge ウイスキーが樽の中で育つ、という話はなんとなく知っています。でも、その中身をのぞいたことがある人って、たぶんほとんどいないですよね。木の壁に囲まれたまま静かに時間が流れて、あるとき琥珀色になって出てくる。……いったい、中で何が起きているんでし",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
+  },
+  {
     "id": "3e31d184b3048544",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -408,6 +168,16 @@
     "publishedAt": "2026-08-01T12:34:40.000Z",
     "summary": "1日午後、愛知県豊田市の矢作川で、川遊びをしていた中学2年生の男子生徒が流され、死亡しました。",
     "fetchedAt": "2026-08-01T15:00:17.388Z"
+  },
+  {
+    "id": "ad0db40b27966464",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "ニオイが気になる頭皮に、週2回のスペシャルケア。ダヴィネスの「海塩スクラブ」で夏の不快感が軽くなった",
+    "url": "https://www.roomie.jp/2026/08/1831545/",
+    "publishedAt": "2026-08-01T12:30:02.000Z",
+    "summary": "汗をかく季節になると、どうしても気になるのが頭皮のニオイ。 毎日きちんと洗っているはずなのに、いつものシャンプーだけでは汚れを落としきれていないような気がして、モヤモヤしていました。 そんなときに見つけたのが、davines（ダヴィネス）の「ダヴィネスエッセンシャル ソル スクラブクレンザー」でした。 見つけたのは、海塩入りのスクラブクレンザー davines（ダヴィネス） 「ダヴィネスエッセンシ",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "463437e33eda4d28",
@@ -430,16 +200,6 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
-    "id": "932f41eb21c50102",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "《避難所の厳しい現実》“進次郎クーラー”300台搬入も「電源がなく機材は置かれたまま」の現場、トイレは「プールの水を汲んで流す。ドボンと落ちそう」…震災経験は生かされているのか【熊本地震】",
-    "url": "https://www.news-postseven.com/archives/20260801_2124334.html?DETAIL",
-    "publishedAt": "2026-08-01T12:20:26.000Z",
-    "summary": "《避難所の厳しい現実》“進次郎クーラー”300台搬入も「電源がなく機材は置かれたまま」の現場、トイレは「プールの水を汲んで流す。ドボンと落ちそう」…震災経験は生かされているのか【熊本地震】 7月28日に震度7の揺れが熊本を襲ってから数日。余震が収まらないなか、一部の住民たちは今も学校の体育館や防災センターで...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "3871641d6ca9b21c",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -450,6 +210,16 @@
     "fetchedAt": "2026-08-01T16:02:20.657Z"
   },
   {
+    "id": "0cd44c23b78373cd",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "「レシピ動画を観ながら楽しくお料理」できるようになった！山崎実業の意外な逸品でキッチン狭い問題も改善",
+    "url": "https://www.roomie.jp/2026/08/1836940/",
+    "publishedAt": "2026-08-01T12:00:33.000Z",
+    "summary": "実家に帰ってきたタイミングで、炊事当番をすることに。 自宅ですら「もっと広いキッチンだったら、手際よく料理できるのに！」と渋々料理をすることも多いのですが、今日は使い慣れない実家の台所。 最近気に入っている、料理の時間を楽しくしてくれる秘密兵器を持ち込みました。 レシピ動画を観ながら快適に料理 山崎実業「コースター タワー スマホスタンド付き」 990円（税込） 狭いキッチンではないのですが、大人",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
+  },
+  {
     "id": "995d9b6f02b3b9b1",
     "source": "ライフハッカー",
     "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
@@ -458,16 +228,6 @@
     "publishedAt": "2026-08-01T12:00:00.000Z",
     "summary": "「もし自分の手でお酒を熟成させたら？」そんな好奇心を叶えるOAKHAUSの透明熟成樽。熟成の経過を目で鑑賞しながら、自分好みの極上の一杯を育てられます。ウイスキー好き必見のホームバー体験をご紹介！",
     "fetchedAt": "2026-08-01T15:53:36.410Z"
-  },
-  {
-    "id": "ad283367884aab14",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "住宅ローン固定金利引き上げ 大手5行 三井住友信託は4％超え",
-    "url": "https://news.tv-asahi.co.jp/news_economy/articles/000523418.html",
-    "publishedAt": "2026-08-01T11:59:46.000Z",
-    "summary": "1 住宅ローンの固定金利がそろって引き上げられます。 大手銀行5行が、8月の住宅ローン金利を発表しました。 固定10年の「最優遇金利」は三菱UFJ銀行は3.59％、三井住友銀行は3.65％、みずほ銀行は3.35％に引き上げられます。 三井住友信託銀行は4.105％、りそな銀行は3.795％に引き上げられます。 （2026年8月1日放送分...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "d571158e8911bc0d",
@@ -510,16 +270,6 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
-    "id": "11d688bac9ddb500",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "京都に旅行した時、京都河原町駅で駅員さんに「四条はどうやって行くんですか？」と聞いたら「ここが四条です」と言われた→客が何を求めているかを理解すべきか？伝え方の問題か？",
-    "url": "https://togetter.com/li/2727438",
-    "publishedAt": "2026-08-01T11:39:20.000Z",
-    "summary": "れもん🐖(°▿°)🇯🇵 @thronefallosusu 京都に旅行行った時、京都河原町駅で駅員さんに 「四条はどうやって行くんですか？」 って聞いたら 「ここが四条です」 って言われたからね。 駅員さんにだよ？ 旅行客が四条駅の事聞いてるってわかっててそう答えてるだろ。 x.com/orangeitems_/s… 2026-07-31 10:15:26 orangeitems @...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "44df34144bdaefe8",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -530,14 +280,24 @@
     "fetchedAt": "2026-08-01T15:00:17.388Z"
   },
   {
-    "id": "f3c91772e470e82e",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "ロシアのミサイル攻撃で9人死亡　ゼレンスキー氏「1発しか撃墜出来ず」",
-    "url": "https://news.tv-asahi.co.jp/news_international/articles/000523513.html",
-    "publishedAt": "2026-08-01T11:16:58.000Z",
-    "summary": "1 ウクライナのキーウでロシアによるミサイル攻撃が相次ぎ、これまでに9人が死亡しました。ゼレンスキー大統領は不足する迎撃ミサイルへの支援を訴えています。 1日未明、ロシアからミサイル35発と185機のドローンが発射され、キーウでは5階建ての住宅の一部が崩落して炎上するなど、これまでに9人が死亡、およそ30人が...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "id": "a04aa20264e7f5e9",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "スマホ代を抑えたいあなたへ。OPPOのAIカメラモデルが3万円切ってます",
+    "url": "https://www.roomie.jp/2026/08/1840899/",
+    "publishedAt": "2026-08-01T11:15:19.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 スマホ代は抑えたい。でも、電池持ちや写真性能、最新機能も妥協したくない。高コスパSIMフリースマホ「OPPO A5 5G」がAmazonで20%オフ、過去最安値の3万円切りです。 ■この記事で紹介している商品 OPPO A5 5G SIMフリー スマホ 本体 6.7インチ メーカー純正 【日本正規代理店品】",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
+  },
+  {
+    "id": "40f93d391d88e0b7",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "ズボラの私「パスタ茹でるの」やめました。トップバリュの1食86円「冷凍スパゲッティ」で夏休みランチが楽ちんに",
+    "url": "https://www.roomie.jp/2026/08/1836403/",
+    "publishedAt": "2026-08-01T11:00:05.000Z",
+    "summary": "夏の昼ごはん、どうしよう問題。 スパゲッティは手軽だけど、お湯を沸かす工程が地味にネックです。 そんな悩みを解消してくれたのが、トップバリュベストプライス「冷凍スパゲッティ」でした。 トップバリュに冷凍スパゲッティが登場 トップバリュベストプライス「スパゲッティ 180g×3食入」278円（税込） 2026年6月3日に発売されたのがこの冷凍タイプのスパゲッティ。 180gが3食分入っていて、1食ず",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "5fbd6ca6ded80220",
@@ -577,7 +337,17 @@
     "url": "https://anond.hatelabo.jp/20260801194409",
     "publishedAt": "2026-08-01T10:47:21.000Z",
     "summary": "俺みたいなことを書くと、必ず同じ脅しが返ってくる。 「そんなこと言ってると、お前が障害者になったときに困るぞ」 「お前の子供が負け組になったらどうするんだ」 全然響かない。一ミリもだ。理由を説明する。 その脅しが効くのは、「落ちたら誰かが助けてくれる世界」を信じてる奴だけなんだよ。落ちたときに拾って...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "fetchedAt": "2026-08-01T16:42:34.905Z"
+  },
+  {
+    "id": "7251a64f49fc7319",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "大人も子どもも夢中になるね。おうちで思い切り撃てる、弾不要の本格射撃ゲーム",
+    "url": "https://www.roomie.jp/2026/08/1840322/",
+    "publishedAt": "2026-08-01T10:45:19.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by flukeforest 休日のおうちで、ひとつの遊び道具を取り合うことになるかも。 machi-yaに登場した「電動ブローバックG17」は、BB弾を使わずに撃てるスマートモデルガン。射撃の反動や弾切れになればマガジン交換も必要など、かなり本気の作りをスマホやTVと連携して楽しめるのがポイ",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "65ebae2033506545",
@@ -588,16 +358,6 @@
     "publishedAt": "2026-08-01T10:39:26.000Z",
     "summary": "Blaugust2026(Day1) どうも、ねじまきです。 2026年のブローガスト、本日よりスタート。 「8月にブログを毎日書く」という世界的なオンラインイベント。 詳細はこちらより。 www.nejimakiblog.com 去年のBlaugustの思い出と言えば・・・ そう、去年は言いだしっぺにもかかわらず、 仕事付き合いの飲み会に誘われ、 一日...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
-  },
-  {
-    "id": "d26e75731044b2ce",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "個人開発で踏みやすいパフォーマンス・アンチパターン 5 点 — Prisma N+1 から useMemo 漏れまで",
-    "url": "https://qiita.com/teppei19980914/items/8d0ec908a7943725ec98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-08-01T10:31:36.000Z",
-    "summary": "この記事は約 5 分で読めます。 筆者プロフィール: ソフトウェアエンジニア。「知った気にならない。いつまでも学び続ける」を信条に、業務と個人開発の両輪で技術を磨いています。AI 駆動開発で複数の個人開発アプリを構築・運用中。 👉 ポートフォリオ: 筆者ホームページ 「...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "211a30441ccaa37c",
@@ -620,16 +380,6 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
-    "id": "6e24d23292e20269",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "「くまモン」が活動休止、熊本県　支援使用は許諾不要の届け出制 | NEWSjp",
-    "url": "https://news.jp/i/1456199280523575983?c=39550187727945729",
-    "publishedAt": "2026-08-01T10:15:04.000Z",
-    "summary": "熊本県で最大震度7を観測した地震を受け、県は1日までに、PRキャラクター「くまモン」が活動を休止したと発表した。募金など地震被害の支援活動に使う場合は、現在公表している全てのイラストを許諾不要の届け出制で使用できるという。 くまモンの公式X（旧ツイッター）は地震が起きた7月28日、「地震発生に伴い、くまモ...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "065ae2efa16c4a11",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -638,6 +388,16 @@
     "publishedAt": "2026-08-01T10:11:30.000Z",
     "summary": "滋賀県の近江八幡市教育委員会は３１日、昨年１２月、市立小学校で男子児童が同級生の男児に倒されて心臓マッサージや顔に座られるなどし、息ができないほどの命の危険を感じる「いじめ重大事態」があったと発表した。 【写真】担任が「花丸」を描いて女児に返した、自殺をほのめかす言葉を記したノート（代理人弁護士が...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "9141a520aa31ca2a",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "使うたびに水筒の内側がピカピカに。シャカシャカ振るだけの「ボトル洗浄剤」で、毎日のお手入れがラクになった",
+    "url": "https://www.roomie.jp/2026/08/1840630/",
+    "publishedAt": "2026-08-01T10:00:11.000Z",
+    "summary": "毎日使う水筒は、帰宅したらすぐに洗っておきたいもの。 けれど、水筒用の長いスポンジを出して洗い、使い終わったら乾かすのがどうにも面倒でした。 しかも、そこまで手間をかけて洗っているのに、いつの間にか内側に茶渋がつき、蓋を開けるとムワッとしたニオイを感じることも。 そんな水筒洗いの手間と、汚れやニオイの悩みをまとめて減らしてくれる洗浄剤を見つけたんです。 ブラシもつけ置きも不要な「水筒洗浄剤」 丹羽",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "218538f8f4a8cfe7",
@@ -670,26 +430,6 @@
     "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
-    "id": "3dc00c3c678c2afe",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "【AWS】Managed Knowledge Baseでの検索フィルターを確認しました",
-    "url": "https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-08-01T09:59:21.000Z",
-    "summary": "はじめに Managed Knowledge Baseと検索フィルターを組み合わせていろいろ試してみました。 Gateway の Interceptor で検索リクエストを書き換えれば、検索の時点で絞り込めるはず。そう思って試したら、思っていたより制約が多かったので書き残...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
-  },
-  {
-    "id": "653f57738f8c4445",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "『みいちゃんと山田さん』障害をもつ主人公が転落していく様を楽しむヤンマガ編集部",
-    "url": "https://www.nicovideo.jp/watch/sm46610918",
-    "publishedAt": "2026-08-01T09:51:41.000Z",
-    "summary": "「みいちゃんと山田さん」へのアツい感想を教えてくれる講談社 ヤンマガ編集部の皆様出演：三浦 礼士上田 航平暮田 佳音乙部 修平（左から右へ）",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "094444ad864c9d37",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -698,6 +438,16 @@
     "publishedAt": "2026-08-01T09:48:24.000Z",
     "summary": "トミナガハルキ | フリーランス歴10年な人 @asobodesign 地図生成の裏側を少しだけ触れると、USOMAPは「絵」を一発で描いているのではなく、世界の成り立ちを順番に計算しています。 ①大地 → ②気候 → ③水 → ④人 → ⑤国 → ⑥道 前の結果を次が受け取るので、地図の上の出来事が噛み合いやすくなっています。 ■なんちゃって...",
     "fetchedAt": "2026-08-01T15:00:18.714Z"
+  },
+  {
+    "id": "8f4864dfc59cd5b3",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "クロスの代わりに「高密度パッド」を使ってみたら、愛車の窓がスパッとキレイになった",
+    "url": "https://www.roomie.jp/2026/08/1836556/",
+    "publishedAt": "2026-08-01T09:45:04.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by Yama3 せっかく洗車したのに、窓を拭き上げたあとに残るうっすらスジやクロスから出たホコリ汚れ。見過ごしてもいいんだけど、地味にストレスじゃないですか？ そんな課題を解決してくれたのが、「カーボンイレイサー」でした。 実際に愛車で使ってみると、マイクロファイバーより快適でなかなかの実力",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "c8493ab426289081",
@@ -718,16 +468,6 @@
     "publishedAt": "2026-08-01T09:20:05.000Z",
     "summary": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］ 編集部：haruka 中国のゲームメーカーJoystickは，サクセスが2006年に発売したニンテンドーDS用ソフト「メタルサーガ 〜鋼の季節〜」のリマスター版（PC / PS5 / PS4 / Nintendo Switch 2）を発表し，20...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
-  },
-  {
-    "id": "3f4ee8fd7d7b0b34",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "サッカーゲームは「動かせない21人」といかにして戦ってきたか｜遊星歯車機関",
-    "url": "https://note.com/planetary_gear/n/nc5f8073392e3",
-    "publishedAt": "2026-08-01T09:13:01.000Z",
-    "summary": "文・otaku can change the world サッカーは決して一人ではできない。 ── 『イナズマイレブンGO』円堂守 今日の格言（47話）0.サッカーゲームは選手を操作するとは限らない世界で最も長く続いているサッカーゲームの系譜の一つは、選手をまったく操作できない。 1982年、英国のプログラマー、ケヴィン・トムズ（Kevin To...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "84d304ecdec82cce",
@@ -790,6 +530,16 @@
     "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
+    "id": "94f5a4b736188d46",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "旅行用にもう1つ、はもう不要。自宅でも携帯でも活躍する本格5枚刃のミニシェーバー",
+    "url": "https://www.roomie.jp/2026/08/1837404/",
+    "publishedAt": "2026-08-01T08:45:36.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by Astract Japan LLC 洗面所に置いてある1台、旅行や出張で持ち出すけど、ちょっとかさばるよね。でも携帯用は剃り味が物足りない。 そんな悩みに応えてくれそうなのが、machi-yaに登場した「カプセルシェーバー5B」。手のひらに収まるカプセル型ながら、チタンコーティングの5枚",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
+  },
+  {
     "id": "efde507ed9a83d7d",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -830,14 +580,14 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
-    "id": "eb0b7520359cdd26",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "不法滞在者を超低賃金・超長時間労働で搾取、ルーマニア人4人摘発 イタリア",
-    "url": "https://www.afpbb.com/articles/-/3646640",
-    "publishedAt": "2026-08-01T07:17:50.000Z",
-    "summary": "【8月1日 AFP】イタリア警察は7月31日、シチリア島で不法滞在の外国人（不法移民）を搾取し、電気も水道も通っていない家に住まわせ週70時間の過酷な労働を強いていたとして、ルーマニア人の男4人を摘発したと発表した。 パレルモ警察によると、高品質な柑橘（かんきつ）類の産地として知られるシチリア島中部エンナの検...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "id": "91dc8e3acfe2cac2",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "持ち運び・普段の保管・いざという時の使い勝手3拍子揃った簡易トイレ！もしものときの安心感が違います",
+    "url": "https://www.roomie.jp/2026/08/1836725/",
+    "publishedAt": "2026-08-01T08:00:53.000Z",
+    "summary": "※本記事は2024年11月7日に公開された記事の再編集です。 Text and Photographed by かくれい 災害時、お手洗いはきっとかなりのストレス源になると思うんです。混雑や衛生面などに問題が発生することは想像に難くありません。 かといって、「防災のためだけにかさばる簡易トイレを置いておくのもなぁ」と思っていました。 普段も災害時も役立つ簡易トイレ スツーレ 「ツーレStep 簡易",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "ddd3cb41129f6f11",
@@ -850,6 +600,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "874f86e2bbc21d18",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "モンベルの「魔法みたいな折りたたみリュック」が旅行で大活躍！大容量なのにこんなに小さくなるとは",
+    "url": "https://www.roomie.jp/2026/08/1832801/",
+    "publishedAt": "2026-08-01T07:00:50.000Z",
+    "summary": "※本記事は2025年8月26日に公開された記事を再編集して掲載しています。 Text and Photographed by mio お盆休みを前に、旅行の計画が捗るこの頃。 そこで取り入れたのがモンベルのリュックです。 このリュックが旅行で早速大活躍した理由はね…… 「ポケッタブル仕様」で予想以上なコンパクトさ モンベル 「ポケッタブル デイパック 15」 5,300円（税込） 今回手に入れたの",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
+  },
+  {
     "id": "4efb928f7267fdd5",
     "source": "ライフハッカー",
     "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
@@ -858,6 +618,16 @@
     "publishedAt": "2026-08-01T07:00:00.000Z",
     "summary": "不快で鬱々としたニュースやSNSの投稿を、嫌な気分になるとわかっていながらダラダラと追い続けてしまう「ドゥームスクロール」。スマホに意識を奪われ、気力や集中力を擦り減らさないための具体策と、前向きな習慣へシフトする6つのアプローチを紹介します。",
     "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
+    "id": "74798d33a1a71133",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "濡らして5秒。首元をひんやり冷やす冷感タオルが22％オフ",
+    "url": "https://www.roomie.jp/2026/08/1840898/",
+    "publishedAt": "2026-08-01T06:55:40.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 真夏の外出は、首元を冷やせるだけでも気分が変わります！ BELLEMOND（ベルモンド）の「ふりふり冷感君 冷感タオル 3枚セット」が、Amazonで22％オフですよ。 ■この記事で紹介している商品 ふりふり冷感君 冷感タオル 3枚セット 接触冷感 ひんやり｜熱中症対策 暑さ対策 UVカット｜B1164#2",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "3855994acd6424eb",
@@ -890,24 +660,14 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
-    "id": "cb4906e868c77182",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "Copilot活用に向けた「Microsoft Teamsでの情報共有の考え方」を作成しました  | 北海道大学DX業務推進室",
-    "url": "https://mx.general.hokudai.ac.jp/posts/SuvDaMaR",
-    "publishedAt": "2026-08-01T06:41:19.000Z",
-    "summary": "こんにちは！「事務職員が変われば、北大は変わる」を信じてる、北海道大学DX業務推進室の佐久間です。Microsoft 365 Copilotをもっと活用するためには、業務に関する情報がTeams上に適...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
-    "id": "ecb3c7eb7859664a",
-    "source": "はてなIT",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
-    "title": "セキュリティの仕事は、社内に落ちている──情シス・インフラが最初に拾うべき5つ",
-    "url": "https://zenn.dev/gangy/articles/7ae64ac2a9e435",
-    "publishedAt": "2026-08-01T06:32:51.000Z",
-    "summary": "この記事について 「セキュリティをやりたいけど、転職しないと無理だと思っている」——情シスやインフラ運用をしている人から、わりとよく聞く話です。 でも実際にやってみて思うのは、セキュリティの仕事は、たいてい社内に落ちているということです。誰の担当でもないまま放置されているタスクが必ずあって、それを拾...",
-    "fetchedAt": "2026-08-02T00:18:07.340Z"
+    "id": "61a73f5f15112533",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "霧が晴れるように育つ革っていいね。カードも小銭も使いやすい小さなお財布",
+    "url": "https://www.roomie.jp/2026/08/1840318/",
+    "publishedAt": "2026-08-01T06:45:30.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by 山田祐揮 革のお財布は使うほどに色が深まって、手になじんでいく。長く付き合うほど愛着がわいてくるのが魅力です。 そんな革の楽しみを、ユニークなイタリアンレザーで実現したのが本革ミニ財布「CALM」。霧が晴れるようにエイジングが楽しめつつ、小さいお財布としてもかなり使い勝手が良い仕上がりな",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "7a992fb5e8218120",
@@ -950,16 +710,6 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
-    "id": "e0da20b7bfc16372",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "品川会 #7 に富山から参加して登壇してきた",
-    "url": "https://qiita.com/ssakita/items/fee908686d2b9f72b30d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-08-01T05:38:34.000Z",
-    "summary": "はじめに こんにちは！ssakitaです！ 7月29日（水）、株式会社クレスコさんで開催された「品川会 #7」に参加してきました！ 品川会は初参加で、せっかくなので登壇もさせていただきました！ 品川会とは 前Jr.Championの八雲さんが立ち上げた、AWSを中心と...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
-  },
-  {
     "id": "e17094fbe74ed98c",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -978,16 +728,6 @@
     "publishedAt": "2026-08-01T05:27:16.000Z",
     "summary": "個人の金融所得が社会保険料の算定に反映される新制度 金融所得課税が強化されつつありますが、先だって社会保険料の算定基準も変わる、ということで話が進んでいますね。日本はこれから、少子化に伴う国民負担率の上昇という困難な道に直面します。増税と社保負担増の両輪です。 これまでは氷河期世代が団塊世代の老後...",
     "fetchedAt": "2026-08-01T15:53:34.679Z"
-  },
-  {
-    "id": "cff1531a61ef7c53",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "skills/plugins/html/skills/html at main · mathbullet/skills",
-    "url": "https://github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
-    "publishedAt": "2026-08-01T05:17:24.000Z",
-    "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "2c03a41acf32534e",
@@ -1088,6 +828,16 @@
     "publishedAt": "2026-08-01T04:01:40.000Z",
     "summary": "【読売新聞】 【ワシントン＝坂本幸信、ニューヨーク＝木瀬武】７月３１日のニューヨーク外国為替市場で、対ドルの円相場は一時、５月中旬以来、約２か月半ぶりの円高・ドル安水準となる１ドル＝１５７円２０銭台に上昇した。円が急騰する場面が断続",
     "fetchedAt": "2026-08-01T15:13:28.305Z"
+  },
+  {
+    "id": "fa5331165abfbcf4",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "旅行用の「とにかく軽いリュック」見つけた！ 大容量でタフなのにペットボトル1本分の軽さとは…",
+    "url": "https://www.roomie.jp/2026/08/1836737/",
+    "publishedAt": "2026-08-01T04:00:57.000Z",
+    "summary": "暮らしを快適にするために、日々さまざまなアイテムをリサーチしたり、試したりしているROOMIEライター。 本記事では、そんな彼らが、今気になったものを紹介していきます。 年々、「できるだけ身軽に旅行したい」と思うようになりました。 荷物の中身を厳選するのはもちろんですが、リュック自体を軽くするだけでも、移動がぐっと楽になりますよね。 軽くて機能性のいいリュックを探していたところ、旅にぴったりのアイ",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "12d31a38b9a7c5f6",
@@ -1230,14 +980,14 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
-    "id": "245589798a16fe2a",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "【YAMAHAルーター】RTX1300を2台でHA構成。VRRPの基本から（1回目）",
-    "url": "https://qiita.com/Heizo_Hasegawa/items/8ea5d459681f7f7ac2a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-08-01T02:38:21.000Z",
-    "summary": "はじめに 最近、もんじゃが美味しい街での技術勉強会に呼ばれることが増えてきました。 若手エンジニアさん達が物理サーバの蓋を開けて、おそるおそるメモリやライザーカードを挿してる姿を見ると色々と教えられるものがありますね。初心忘れるべからず。 さて、サーバ側でどれだけHA組も...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
+    "id": "7eb0852593879427",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "鯵干物のまぜ寿司が意外にも美味しい【こぐれひでこの｢ごはん日記｣】",
+    "url": "https://www.roomie.jp/2026/08/1837080/",
+    "publishedAt": "2026-08-01T02:30:01.000Z",
+    "summary": "7月20日 朝ごはん 午前4:00からのW杯の決勝戦、スペイン vs アルゼンチンを観た。いやあ、すごい試合でしたね。泣いてたメッシが印象的。 途中、頂き物の豆餅（京都・ふたば）を食べました。餡子が美味しかった。試合終了後、ベッドに戻り睡眠。 昼ごはん 4日前、poule au potを変身させて作ったカレーを、具ごとブレンダーにかけてカレー味を調節。プール・オ・ポ変身3代目のカレーに昨日のレモン",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "0e089b9f8553ce73",
@@ -1310,14 +1060,14 @@
     "fetchedAt": "2026-08-01T15:00:17.953Z"
   },
   {
-    "id": "0127d7133788613a",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "新しい SLO が良い感じにハマっている話",
-    "url": "https://speakerdeck.com/z63d/about-how-the-new-slo-is-fitting-in-nicely",
+    "id": "a9786e249439aa74",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "築55年の個性を活かす。インテリアデザイナーがリノベした理想の1LDK（東京都）",
+    "url": "https://www.roomie.jp/2026/08/1707732/",
     "publishedAt": "2026-08-01T01:00:01.000Z",
-    "summary": "もう一度考えるSRE #1 https://topotal.connpass.com/event/399194/",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
+    "summary": "Photographed by tsubottlee 都心部にある、築55年のヴィンテージマンション。 低めの天井や大きな梁といった、築55年のヴィンテージマンションならではの個性を活かしながら暮らしているのが、インテリアデザインを仕事にするnamiさんです。 お名前（職業）：namiさん（インテリアデザイナー） 場所：東京都 間取り：1LDK 築年数：55年 住宅形態：マンション（分譲リノベ）",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "c273de28d87a3c43",
@@ -1370,16 +1120,6 @@
     "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
-    "id": "7d7d159a65641732",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "「史上最悪の欠陥マンション」はなぜ生まれてしまったのか？ 東京八王子『ベルコリーヌ南大沢』関係者が明かす“杜撰すぎる建設エピソード” | 文春オンライン",
-    "url": "https://bunshun.jp/articles/-/90243",
-    "publishedAt": "2026-08-01T00:36:34.000Z",
-    "summary": "史上最悪の欠陥マンション群を生んだ「2つの要因」 なぜ、これほど重大な欠陥が、大量に生じたのか。 その直接的な原因は、「工期の短さ」と「寄せ集めの建設会社による野放図な施工」に集約される。 まず、「工期の短さ」をみてみよう。通常、団地を建設するには、土地の取得から設計、各種認可、着工、竣工まで「5年」...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "22d0f9fbe589cdde",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1430,6 +1170,16 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "719faa88a5a11398",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "テスターで試したら良すぎて即購入。「トーンアップUV乳液」は資生堂の技術が光る名作だった！",
+    "url": "https://www.roomie.jp/2026/08/1840796/",
+    "publishedAt": "2026-08-01T00:00:05.000Z",
+    "summary": "※本記事は2026年4月11日に公開された記事の再掲載です。 Text and Photographed by mio ノーファンデは肌が楽だけど、やっぱりくすみや色むらが気になることも……。 そんななか、ドラッグストアでテスターをなんとなく試して、完成度の高さに驚いたのがエリクシールのトーンアップUV乳液！ 「乳液」とあって本当にスーッと軽く伸びるのに、顔を明るく見せてくれる気がするのです。 エ",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
+  },
+  {
     "id": "525e523de58bde1a",
     "source": "CodeZine",
     "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
@@ -1458,6 +1208,16 @@
     "publishedAt": "2026-07-31T23:47:52.000Z",
     "summary": "警察によりますと、1日午前6時半ごろ、千葉県市川市のマンションで「爆発音がした」と通報があり、複数人がけがをしているということです。詳しい容体などは分かっておらず、警察が詳しい状況を調べています。",
     "fetchedAt": "2026-08-01T00:13:55.899Z"
+  },
+  {
+    "id": "d4528edd38415b8e",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "料理は人任せだった私が、公式プレートのおかげで「アイラップ使い」になりました",
+    "url": "https://www.roomie.jp/2026/08/1836806/",
+    "publishedAt": "2026-07-31T23:45:17.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 私は料理らしい料理をしません。いや、しませんでした……というほうが正しいでしょうか。 アイラップと、このアイラップ用の耐熱プレートを手にした今となっては、もはや「料理男子」といって過言ではないでしょう（過言です）。 岩谷マテリアル アイラッププレート ダークグレー 約幅18.8×奥行17.7×高さ4.9cm",
+    "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
     "id": "a11d5dfb0fce5d73",
@@ -1610,16 +1370,6 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
-    "id": "769a95fcdb14353f",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "ガバメントクラウドでのAWS DevOps Agentの活用",
-    "url": "https://qiita.com/infra365/items/70eb40b12d6f9c0011ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-31T20:16:50.000Z",
-    "summary": "概要 2026/07/31に開催されたJAWS UG 名古屋 × Gov JAWSコラボにて「ガバメントクラウドでのAWS DevOps Agentの活用」というタイトルでLT登壇させていただいた内容です。 ガバメントクラウドの運用はマルチアカウント構成や閉域ネット...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
-  },
-  {
     "id": "705694bbd6eee007",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -1678,16 +1428,6 @@
     "publishedAt": "2026-07-31T17:45:21.000Z",
     "summary": "MADE IN YAMATO。この女、ただの筋トレ女子にあらず、 筋に囚われた獣なり‼ 美容、健康、話題作り、様々な理由で筋トレをする者がいるが、この女、信濃川大和はそんな生ぬるい理由では断じて筋トレはせぬ‼ ひたすらに筋肉を愛し筋肉のために筋肉を想い続け筋肉を育てし求道者なり‼ しかし、筋肉とは仲良くできても、ちょ...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
-  },
-  {
-    "id": "5456384d7d9407cc",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "スマホのWebGPUで分散AI基盤を作ろうとしたら精度差で出力が分岐した話（ArcAsha-OS開発記）",
-    "url": "https://qiita.com/ryotani3/items/af4244bb68009412ee83?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-31T16:41:18.000Z",
-    "summary": "はじめに Big Techの巨大データセンターに対抗し、**「自分の部屋にあるスマホ群を繋いで分散知能を作る」**をテーマに、オープンソースのエッジ分散AI基盤 ArcAsha-os を開発しています。 今回、MacのMaster（Orchestrator）に対して、iP...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "0405d60f5c097e0a",
@@ -2280,6 +2020,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "3b4bb59e6eeff9a7",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "キャリーケース＆リュックの2WAYバッグ5選 機内持ち込みOKで旅行や遠征や仕事にも",
+    "url": "https://soredoko.jp/entry/2026/07/31/180000",
+    "publishedAt": "2026-07-31T09:00:00.000Z",
+    "summary": "キャリーケースにもリュックにもなる2WAYタイプのバッグなら、旅行やライブ遠征、出張などの移動時に負担を軽減できます。容量や重さ、キャスターのタイプなどを比較しながら、使いやすいおすすめ商品5つを紹介します。 キャリーケース（スーツケース）とリュックのどちらを選ぶべきか、旅行や出張、遠征のたびに迷っていませんか？ キャリーケースは荷物を楽に運べる一方、階段や段差では持ち上げる必要があります。リュックは両手が空くものの、PCや着替え、メイク用品などを詰めると、肩や腰に負担がかかりがちです。 そこで便利なのが、転がす・背負うを切り替えられる2WAYタイプ。平…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "098add5fa37ac6a0",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -2590,6 +2340,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "d11c919151f11de8",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "suisai（スイサイ）ビューティクリアパウダーウォッシュで夏の毛穴汚れがすっきり｜編集部の買ってよかったもの",
+    "url": "https://soredoko.jp/entry/2026/07/31/160000",
+    "publishedAt": "2026-07-31T07:00:00.000Z",
+    "summary": "スタッフが自腹で買って実際に試してみて「よかった！」と実感するおすすめ商品をピックアップ！ 今週は、夏の毛穴汚れ対策におすすめの酵素洗顔「suisai（スイサイ）ビューティクリア パウダーウォッシュ」を紹介します。個包装で衛生的なのもうれしいポイント。皮脂や汗が気になる季節にぴったりの一品です。 ▼買ってよかったもの2025と先週分はこちら 個包装で衛生的なのがうれしい！suisai（スイサイ）ビューティクリア パウダーウォッシュ 画像参照元：楽天24 コスメ館 カプセルに1回分が入った酵素洗顔パウダーです。タンパク質分解酵素（プロテアーゼ）と皮脂分解酵…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "7e4b1bd03f126dd8",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -2648,6 +2408,16 @@
     "publishedAt": "2026-07-31T06:45:03.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
+    "id": "0840bc81a2440f8e",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "日傘はユニクロにしました。いま値下がり中",
+    "url": "https://kaden.watch.impress.co.jp/docs/column/iikoto/2129630.html",
+    "publishedAt": "2026-07-31T06:43:46.000Z",
+    "summary": "家電 Watchでも時々紹介している日傘。もちろん家電ではないですが、この暑さ対策に、あるのとないのとでは大違いなことを実感している人も、少なくないでしょう。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
     "id": "5ee0979c0e5f8fd6",
@@ -3160,6 +2930,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "099807785192614c",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "下半身強化のパワードスーツ　歩行から登山まで",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2129284.html",
+    "publishedAt": "2026-07-31T03:04:00.000Z",
+    "summary": "ハイパーシェルは、下半身を強化するパワードスーツの新製品「新Hypershell Xシリーズ」を7月30日に発売した。「Hypershell X Pro S」、「Hypershell X Max S」、「Hypershell X Ultra S」の3モデルをラインナップ。価格は順に189,800円、269,800円、359,800円。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "af4fc0e547999438",
     "source": "ITmedia Mobile",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
@@ -3330,6 +3110,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "03a6d00d227b50e3",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "無印、前髪崩れにくいヘルメット　蒸れにくい",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2128972.html",
+    "publishedAt": "2026-07-31T02:04:00.000Z",
+    "summary": "良品計画は、「風が抜ける自転車ヘルメット」を8月19日より無印良品の一部店舗およびネットストアで順次販売する。52～56cm、56～60cmの2サイズ展開で、価格は各4,990円。SG基準認証取得済み。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "1f4d1f0b980991bc",
     "source": "ITmedia AI+",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
@@ -3368,16 +3158,6 @@
     "publishedAt": "2026-07-31T01:54:48.000Z",
     "summary": "OpenAIは30日(米国時間)、「GPT-5.6」シリーズの価格引き下げを発表した。「GPT-5.6 Luna」の価格は80%引き下げ、「GPT-5.6 Terra」は20%引き下げたほか、APIのGPT-5.6 Solにおいて高速なオプションを追加する。",
     "fetchedAt": "2026-08-01T15:00:18.618Z"
-  },
-  {
-    "id": "01813d2a4e57468a",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "検証！Claude Codeのサブエージェント並列はお得なのか",
-    "url": "https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-31T01:46:31.000Z",
-    "summary": "Claude Codeのサブエージェント、並列にすると本当に速い・お得なのか実測してみた 前回はモデルごとのトークン消費比較をやりました。今回は第3弾として、Claude Codeのサブエージェント(Agentツール)を並列実行するとどれだけ効果があるのかを実際に測定して...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "0a71b8bd4c73584b",
@@ -3428,6 +3208,16 @@
     "publishedAt": "2026-07-31T01:35:54.000Z",
     "summary": "『みいちゃんと山田さん』のアニメ化反対署名をしている人たちを見た時、まず不思議に思ったのはタイトルのようなことでした。反対署名運動者の多くはSNSフェミニストのアカウントであったのですが、『みいちゃんと山田さん』はふだん彼女たちが主張しているようなことに極めて近いメッセージを打ち出した作品であると感...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "49767bc6a97d1b18",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "ストッパー付きキャリーケースおすすめ6選 機内持ち込みOKで2万円以下の手軽なモデルも",
+    "url": "https://soredoko.jp/entry/2026/07/31/103000",
+    "publishedAt": "2026-07-31T01:30:00.000Z",
+    "summary": "ストッパー付きのキャリーケースを選べば、旅行などの移動時、荷物から手を離したいときに便利です。機能や予算に合わせて選べる、おすすめの商品を紹介します。 ストッパー付きのキャリーケース（スーツケース）は、電車やバスを利用する旅行やライブ遠征、出張などで活躍します。 「車内が揺れるたびにキャリーケースを足で押さえるのが大変」「駅のホームのわずかな傾斜で荷物が動いてしまう」と困った経験はありませんか？ PCや着替え、メイク用品、ライブグッズなどで荷物が重くなるほど、移動中に押さえ続ける負担も大きくなります。 ストッパーを搭載したモデルなら、電車やバスの車内、坂…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
   },
   {
     "id": "0541986bcc6eee59",
@@ -3518,6 +3308,16 @@
     "publishedAt": "2026-07-31T01:10:50.000Z",
     "summary": "Thinking Machines Labの共同創業者リリアン・ウェン氏が、健康上の理由で同社を離れると発表した。同社がオープンウェイトモデル「Inkling」を発表した直後の辞任となる。同氏は古巣のOpenAIに復帰し、AIの再帰的自己改善に関する研究チームを率いる見込み。",
     "fetchedAt": "2026-07-31T08:10:21.471Z"
+  },
+  {
+    "id": "1fdee98f5166e993",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "ジャパネットからハンディ高圧洗浄機　初のPB",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2129219.html",
+    "publishedAt": "2026-07-31T01:04:00.000Z",
+    "summary": "ジャパネットたかたは、同社初のプライベートブランド「J PRIDE LIFETECH(ジェイプライドライフテック)」を立ち上げ、第1弾商品として「どこでも使える高圧ハンディウォッシャー JPLT-PW1000」を7月29日に発売した。価格は16,980円。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
     "id": "dcdad714944798bf",
@@ -3648,6 +3448,16 @@
     "publishedAt": "2026-07-31T00:06:13.000Z",
     "summary": "黒猫のアシ @kuronekono_ashi 近所のサイゼリヤで飯食ってたら、おばあちゃん10人グループがやってきた。 案の定ドリンクバーだけでワイワイガヤガヤめちゃめちゃうるさくて、聞きたくなくても会話が耳に入ってくるんだけど、話の内容が「折り鶴、次はいつ集まる？」らしく、本当にやりきれない気分で店を出た。 2026-07...",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "a076dce8b2b16082",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "【家電ミニレビュー】ワークマンの腰につける爆風ファンが涼しい!",
+    "url": "https://kaden.watch.impress.co.jp/docs/column_review/kdnreview/2129193.html",
+    "publishedAt": "2026-07-31T00:04:00.000Z",
+    "summary": "真夏のアウトドアや野外作業の暑さ対策グッズとして注目される「ファン付きウェア」。あると重宝しそうだけれど、手持ちの服とのコーディネートが難しいことから利用シーンが限られて、購入をためらう人も多いのではないでしょうか。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
     "id": "22dc53b57c7f1396",
@@ -3920,6 +3730,16 @@
     "fetchedAt": "2026-08-01T15:00:18.618Z"
   },
   {
+    "id": "3f74499d80dcc267",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "エアコン2027年問題、今すぐ買い替えたほうがいいの? 家電識者に聞いた",
+    "url": "https://kaden.watch.impress.co.jp/docs/topic/topic/2119699.html",
+    "publishedAt": "2026-07-30T23:04:00.000Z",
+    "summary": "2027年の省エネ基準引き上げ、いわゆる「エアコンの2027年問題」が話題となっている。2027年4月にエアコンの省エネ基準が引き上げられることから、省エネ基準を満たさない安価なモデルが手に入らなくなるのではないかと、不安にかられた人もいるだろう。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "78157da8dbcbf0f1",
     "source": "ITmedia AI+",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
@@ -4040,16 +3860,6 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
-    "id": "fef6a8bd62bf09d6",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "【AWS】S3 + CloudFrontで静的サイトを安全に公開！OACとAWS WAF（IP制限）の設定手順",
-    "url": "https://qiita.com/kandu/items/53c5de65a6f3fe3cbbee?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-30T22:14:41.000Z",
-    "summary": "はじめに Amazon S3とAmazon CloudFrontを組み合わせて、静的Webサイト（HTML/CSS/JS等）を配信するインフラを構築しました。 本記事では、AWSマネジメントコンソールを使った具体的な構築手順に加え、セキュリティ強化のための OAC（Ori...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
-  },
-  {
     "id": "c20d4109332b4a7b",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4058,6 +3868,16 @@
     "publishedAt": "2026-07-30T22:14:03.000Z",
     "summary": "SHARE このリンクを開くと、同じ設定の地図が再現されます（手描き編集は含まれません。編集も残すならプロジェクト保存をお使いください）。",
     "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "14fb0d44f2e1e70a",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "水分補給だけじゃ足りない。アイススラリーで体を冷やす!",
+    "url": "https://kaden.watch.impress.co.jp/docs/column/puko/2129312.html",
+    "publishedAt": "2026-07-30T22:04:00.000Z",
+    "summary": "非常に暑い。暑すぎる! 少し外出するだけでヘトヘト。強靭な胃腸を持っているのか夏バテとは無縁だけど、気持ちの方がバテそうだ。そんな暑さの中でも、趣味の家庭菜園はどうしても楽しみたい私。もともと週末は目覚まし時計もかけず、二度寝三度寝を繰り返して昼近くまでゴロゴロし、そしてのっそり起きだして畑に向かう。いつもそんな感じなんだけど、さすがにこの暑さの中、真昼に外出するのは危険すぎる。なので早起きして畑に行く生活になんとかシフトした。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
     "id": "b05f8b56cc222cae",
@@ -4118,6 +3938,16 @@
     "publishedAt": "2026-07-30T21:45:00.000Z",
     "summary": "このコーナーでは、「Windows 11 Insider Preview」ビルドでテストされている最新のOS機能を紹介します。ただし、テストの結果、紹介した機能が製品版OSに搭載されないこともあります。あらかじめご留意ください。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "da3603361179b7b5",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "旬の枝豆で「ずんだの冷やし汁粉」",
+    "url": "https://kaden.watch.impress.co.jp/docs/column/precooking/2129002.html",
+    "publishedAt": "2026-07-30T21:30:00.000Z",
+    "summary": "枝豆が美味しい時期に、自宅でずんだスイーツを作りませんか。今回は、白玉団子の「ずんだの冷やし汁粉」をご紹介します。手作りのスイーツは、自分好みの甘さに調整できることが魅力です。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
     "id": "00c86d9517ad17cc",
@@ -4560,16 +4390,6 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
-    "id": "f590f649fd41c9a3",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "ZedエディタのGPUIを使ったUIアプリを作成",
-    "url": "https://qiita.com/fits/items/a7379b14a05b755a1fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-30T08:58:17.000Z",
-    "summary": "ZedはGPUを活用したRust製の高性能エディタで、3Dゲームのような手法で画面を描画しているのが特徴です。 GPUIと呼ばれるUIフレームワークがUIの描画を担っており、そのコア機能がgpuiクレートとして利用できるようになっています。 gpui 0.2.2 そこで...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
-  },
-  {
     "id": "3c0f208660d20a62",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4598,16 +4418,6 @@
     "publishedAt": "2026-07-30T08:45:03.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:53:36.031Z"
-  },
-  {
-    "id": "a206c6022d84db64",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "フラグシップウォークマンWM1シリーズ「NW-WM1ZM2」が出荷完了。現行WALKMANすべて在庫限り。 - ソニーが基本的に好き。| ソニーショップくんこく",
-    "url": "https://kunkoku.jp/nw-wm1zm2-discontinued.html",
-    "publishedAt": "2026-07-30T08:40:20.000Z",
-    "summary": "フラグシップウォークマンWM1シリーズ「NW-WM1ZM2」が出荷完了。現行WALKMANすべて在庫限り。 ソニーのフラグシップウォークマンWM1シリーズ「NW-WM1ZM2」について正式に出荷完了となった。 ソニーストアでは、その出荷完了にともなって販売価格を値下げされている。 ウォークマンWM1シリーズ「NW-WM1ZM2」【256GB】 カ...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "2ca2c9f8f38f6efd",
@@ -4700,6 +4510,16 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
+    "id": "367bb47db4c6c020",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "スタンレーの真空マグ使用レポ！コーヒーをこぼさず持ち歩ける",
+    "url": "https://soredoko.jp/entry/2026/07/30/160000",
+    "publishedAt": "2026-07-30T07:00:00.000Z",
+    "summary": "スタンレーの真空マグ「カフェトゥーゴー トラベル 真空断熱マグ」があれば、コンビニのコーヒーもカバンに入れて持ち運べる！二重ネジ構造で漏れの心配がなく、保冷・保温力も抜群。0.23Lと0.35Lのサイズ選びのコツや、実際に使ってわかった本音のメリット・デメリットまで、徹底レビューをどうぞ！ コンビニで買った美味しいコーヒーを「持ち運びたい」と思いつつも、紙カップのまま手に持って歩くのは片手がふさがって不便……。かといってタンブラーに入れ替えても「カバンの中で漏れないかな……？」と不安になること、ありますよね。 そんなコーヒーの「持ち運び」にまつわる小さな…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "bb6260d4cd0dbfbc",
     "source": "ITmedia AI+",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
@@ -4718,16 +4538,6 @@
     "publishedAt": "2026-07-30T06:46:26.000Z",
     "summary": "ITエンジニア向け技術書籍の読み放題サービス「TechLib」（月額3,080円）では、プログラミング言語、サーバー・クラウドサービス、コンテナ開発、情報処理資格、AI・機械学習、ネットワーク・セキュリティなど様々なジャンルの書籍を取り揃え、続々と新しい書籍が追加されている。本コーナーでは、そんな「TechLib」に新規で追加された書籍を紹介する。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
-  },
-  {
-    "id": "39cd1cb2b1b53023",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "C#で new を差し替える実験的モックツールを作っている話",
-    "url": "https://qiita.com/kaneko_desu/items/a75831913a96757444fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-30T06:43:45.000Z",
-    "summary": "C#で new を差し替える実験的モックツールを作っている話 C# のテストで、次のようなコードに出会うことがあります。 namespace TargetApp; public class UserService { public string GetDispl...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "1fea74a85f3434c8",
@@ -4850,6 +4660,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "6fcfc5c399229ae3",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "日立ビッグドラム、高い洗浄力でも布傷みや毛玉を抑える",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2129170.html",
+    "publishedAt": "2026-07-30T05:04:00.000Z",
+    "summary": "日立グローバルライフソリューションズは、ドラム式洗濯乾燥機「ビッグドラム」の3機種を8月下旬より順次発売する。洗濯容量13kg/洗濯～乾燥容量7kgの「BD-STX130P」と「BD-SX130P」を8月下旬に、洗濯容量12kg/洗濯～乾燥容量6kgの「BD-SVX120P」を9月中旬に発売する。価格はオープンで、市場想定価格は順に45万円前後、42万円前後、36万円前後。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "bea864aa6d02593f",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -4920,6 +4740,16 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
+    "id": "a7950a75c87a8261",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "ニトリから「雪の宿」そっくりなスポンジ",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2128438.html",
+    "publishedAt": "2026-07-30T03:04:00.000Z",
+    "summary": "ニトリは、三幸製菓のロングセラー菓子とコラボレーションした「雪の宿」キッチンスポンジを7月下旬に発売した。価格は1個入りが249円、4個入りが799円。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "d201a7424c41d75a",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -4980,6 +4810,26 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "462c25ce6a34d19d",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "象印の3万円台の炊飯器、大火力で甘み引き出す",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2128561.html",
+    "publishedAt": "2026-07-30T02:04:00.000Z",
+    "summary": "象印マホービンは、IH炊飯ジャー「NV-KA型」を9月1日に発売する。価格はオープンプライス。ラインナップと市場想定価格は、5.5合炊きの「NV-KA10」が30,500円前後、1升(10合)炊きの「NV-KA18」が36,000円前後。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
+    "id": "f6feaf9d1d1eff80",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "山崎実業towerのホルダーが水筒やペットボトルの持ち運びに最適！ はめるだけで持ち手を後付け",
+    "url": "https://soredoko.jp/entry/2026/07/30/103000",
+    "publishedAt": "2026-07-30T01:30:00.000Z",
+    "summary": "水筒やペットボトルを持ち歩くときの「手がふさがる・かさばる」を解決してくれる、山崎実業towerの「シリコーン水筒ホルダー ハンドルタイプ」。実際のフィット感や持ち運びの便利さを、吉祥ゆかりさんがレビューします。 連日厳しい暑さが続いていて、水筒やペットボトルを持ち歩く機会が増えましたよね。私も家族も、毎日職場や学校に水筒を持ち歩いています。 でも、持ち手のないボトルって地味に不便じゃないですか？ そのまま持つと片手がふさがってスマホや財布を出しにくいし、かといって小さめのバッグだと中に入らなかったり、無理に入れるとパンパンにかさばってしまったり……。 …",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "6287402a67698bb1",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -4988,6 +4838,16 @@
     "publishedAt": "2026-07-30T01:15:03.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
+    "id": "84d9be9d808d31c0",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "山崎実業、洗濯機の脇に収納スペース増やせるラック",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2128610.html",
+    "publishedAt": "2026-07-30T01:04:00.000Z",
+    "summary": "山崎実業は、防水パンの上の空きスペースを有効活用できる「洗濯機防水パン上ラック タワー 高さ調節」を発売した。価格は3,960円。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
     "id": "dbe353b66295bc35",
@@ -5070,6 +4930,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "9ab932b6e89c96dc",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "【e-bike試乗レビュー】静岡に完成した新MTBパーク、ハイエンドe-bikeに乗れてコースも走りごたえあり!",
+    "url": "https://kaden.watch.impress.co.jp/docs/column_review/ebike-drive/2106834.html",
+    "publishedAt": "2026-07-30T00:04:00.000Z",
+    "summary": "2026年4月25日に、静岡県森町にMTB(マウンテンバイク)向けのバイクパーク「Forecha(フォレッチャ)」が新たに誕生しました。運営元は国内e-bikeメーカーの雄、ヤマハ。なんと最新ハイエンドモデルのe-bikeにも乗れる! ということで、プレオープン初日に行ってきました。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "7e24052044a5e5cb",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -5150,6 +5020,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "56aeceacb1d05be9",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "エアコンを買い替えて、地味な掃除と送風の重要性を実感した",
+    "url": "https://kaden.watch.impress.co.jp/docs/column/kaji/2123489.html",
+    "publishedAt": "2026-07-29T23:04:00.000Z",
+    "summary": "リビングに設置していた15年目のエアコンを買い替えたばかりだ。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "289f1d84da14ba35",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -5200,6 +5080,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "926980e1a4c677d7",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "パナソニックのパルックLED照明、本体取付後は自分で交換できる",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2128451.html",
+    "publishedAt": "2026-07-29T22:04:00.000Z",
+    "summary": "パナソニックは、「パルックLEDラインランプ搭載 設備照明シリーズ」計12品番を9月上旬に発売する。価格はオープンプライス。",
+    "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
     "id": "f02b3e27834f7012",
     "source": "STUDY HACKER",
     "sourceUrl": "https://studyhacker.net/feed",
@@ -5228,16 +5118,6 @@
     "publishedAt": "2026-07-29T21:55:00.000Z",
     "summary": "米Microsoftは7月27日（現地時間）、 「MAI-Cyber-1-Flash」 を発表した。脆弱性の発見に特化した自社製のAIモデルで、同社の 「MDASH」 （multi-agent vulnerability identification and remediation harness：マルチエージェント脆弱性検出・修復ハーネス）に統合されるという。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
-  },
-  {
-    "id": "82143c0fd7d44730",
-    "source": "Qiita",
-    "sourceUrl": "https://qiita.com/popular-items/feed",
-    "title": "開発エコシステムdbtはもう不要？Snowflake Dynamic TablesとSQLMesh on Databricksの台頭がもたらす影響",
-    "url": "https://qiita.com/mellowlaunch/items/96c71af13cd4b4350c28?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "publishedAt": "2026-07-29T21:23:32.000Z",
-    "summary": "📚 関連書籍 『Databricks──ゼロから触ってわかった！Databricks非公式ガイド（2026年更新版）』 クラウド時代の分析基盤を “体験的” に学べるベストセラー入門書。 Databricksの操作、SQL／DataFrame、Delta Lakeの基...",
-    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "903230b7121532e3",
@@ -5770,6 +5650,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "14270dfd358c6854",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "絵本の収納に困ったら！子どもの「読みたい」を引き出しつつ収納力もバッチリな絵本棚はコレ",
+    "url": "https://soredoko.jp/entry/2026/07/29/160000",
+    "publishedAt": "2026-07-29T07:00:00.000Z",
+    "summary": "どんどん増える絵本の収納にお悩みですか？子どもの「読みたい」を引き出すディスプレイ機能と抜群の収納力を両立した、おすすめの絵本棚をブロガーの桜花さんがご紹介。棚板可動式＆ナチュラルで部屋になじむ、買って大正解のアイテムです！ 子どもが生まれてから「家の中でどんどん増えていくもの」の代表格が絵本です。 小さい頃からよく読み聞かせしていたこともあり、娘は絵本が大好き。自分たちで買うこともあれば、祖父母や友人からプレゼントでもらうことも多く、気づけばかなりの冊数になっていました。 そして困ったのが収納です。 せっかくなので、もっと見やすくて手に取りやすい環境を…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "d4aa49a7f56bd048",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -6050,6 +5940,16 @@
     "fetchedAt": "2026-07-30T00:14:25.438Z"
   },
   {
+    "id": "81103f505d6e7ab9",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "マーナのヨーグルトスプーンですくい残しゼロへ 瓶、タッパー、ミキサーの隅までキレイに",
+    "url": "https://soredoko.jp/entry/2026/07/29/103000",
+    "publishedAt": "2026-07-29T01:30:00.000Z",
+    "summary": "ヨーグルトの容器の底や、ジャムの瓶のフチに残る「最後のひとすくい」が取れない。そんなイライラを解消してくれるのが、マーナ「残さずすくえるヨーグルトスプーン」です。先端がやわらかいシリコン素材だから、瓶・タッパー・ミキサーの底や側面にもフィット。調理や盛り付けにも使える万能シリコンスプーンの実力を、デメリットも含めてレビューします。 ヨーグルトを食べ終わった後、カップの底や側面にうっすら残る白い食べ残し。硬いスプーンですくい取ろうとしても、「あとちょっと」のところに届かず、すくい切れない。 ジャムの瓶底、タッパーの四隅、何かを攪拌（かくはん）した後のミキサ…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "a54a54969a01826b",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -6280,16 +6180,6 @@
     "fetchedAt": "2026-07-29T00:11:10.368Z"
   },
   {
-    "id": "c584f3c12cadc184",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "モラル・ライセンシング - Wikipedia",
-    "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%A9%E3%83%AB%E3%83%BB%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0",
-    "publishedAt": "2026-07-28T22:05:58.000Z",
-    "summary": "モラル・ライセンシング（英: moral licensing、セルフ・ライセンシング：en:self-licensing）とは、心理的に自分が過去に行った道徳的・倫理的な行動体験に基づき、その後の非道徳的・非倫理的な行動を自己中心的に正当化して行う現象を指す。社会心理学、マーケティングにおける概念である[1][2]。 これは、道徳行動と...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "4ff6cfa5411f1123",
     "source": "STUDY HACKER",
     "sourceUrl": "https://studyhacker.net/feed",
@@ -6478,6 +6368,26 @@
     "publishedAt": "2026-07-28T15:00:29.000Z",
     "summary": "蚊ニキ 望月ころも 私のお兄ちゃんは蚊。嫌いとかではないけど、まあまあ鬱陶しい。でもなんでだろう。いつものお兄ちゃんとのうざい日常を過ごしているだけなのに、何かを忘れているような気がする…",
     "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "bed8e933c20154a6",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "アットホーム 賃貸・街ランキング 宮城県編",
+    "url": "https://www.athome.co.jp/corporate/news/ranking/town/chintaimachi-ranking-miyagi-202607/",
+    "publishedAt": "2026-07-28T15:00:00.000Z",
+    "summary": "総合1位は前年に引き続き「仙台市青葉区」で、全てのタイプでトップを獲得しました。仙台市中心部としての交通・商業利便性が、単身者からファミリーまで幅広い層の関心につながったとみられます。仙台駅東口方面の利便性を持つ「仙台市宮城野区」、長町エリアなど住宅地としての人気がある「仙台市太白区」も上位に入りました。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
+  },
+  {
+    "id": "5718facb89031cc0",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "令和8年熊本地震により被災された皆さまへ",
+    "url": "https://www.athome.co.jp/corporate/news/topics/hisai-kumamotojishin-omimai-202607/",
+    "publishedAt": "2026-07-28T15:00:00.000Z",
+    "summary": "このたびの令和8年熊本地震により被災された皆さまに、心よりお見舞い申し上げます。また、お亡くなりになられた方々に謹んで哀悼の意を表しますとともに、ご遺族の皆さまに心よりお悔やみ申し上げます。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
   },
   {
     "id": "a26b5b75f599542c",
@@ -6800,16 +6710,6 @@
     "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
-    "id": "65d2d562f645d190",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "「天皇陛下に弓を引いた」高市内閣の支持率が急落！　ゾンビのように生き残ろうとする政府の次の一手は「反中国」への国民扇動　古賀茂明 | AERA DIGITAL（アエラデジタル）",
-    "url": "https://dot.asahi.com/articles/-/288530?page=1",
-    "publishedAt": "2026-07-28T09:54:51.000Z",
-    "summary": "古賀茂明氏 この記事の写真をすべて見る 何が起きても下がらないと言われていた高市早苗首相の内閣支持率が急落している。毎日新聞の7月の世論調査では、支持率 41％（10ポイント減）、不支持率 44％と、初めて不支持率が支持率を上回った。「報道ステーション」（テレビ朝日系）、朝日新聞、読売新聞などの同月の世論調...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "68eb4e9547676b97",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -7080,6 +6980,16 @@
     "fetchedAt": "2026-07-29T00:11:11.904Z"
   },
   {
+    "id": "d6a2f1789a32a3d1",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "エリ・そでの黄ばみに！夏の皮脂汚れに強い洗剤や石けん4選",
+    "url": "https://soredoko.jp/entry/2026/07/28/103000",
+    "publishedAt": "2026-07-28T01:30:00.000Z",
+    "summary": "シャツのエリやそでにできる黄ばみ・黒ずみ、普通の洗濯では落ちにくくて困っていませんか？ その正体は、皮脂による頑固な汚れ。今回は、いつものお洗濯にひと手間プラスするだけでスッキリ落とせる、エリそで汚れ用の洗濯石けん・洗剤を4つ厳選して紹介します。 気温が上がり汗ばむ日が増えると、気になり始めるのがシャツの「エリ・そでの黄ばみや黒ずみ」。普通の洗濯では落ちにくいガンコな皮脂汚れ、そのまま放置していませんか？ いつものお洗濯にひと手間プラスするだけで厄介な汚れをすっきりさせる、おすすめ洗濯アイテムを4つ厳選してご紹介します！ あらゆる汚れを丸ごと洗浄！ ウタ…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "278a6ffe478abd14",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -7208,6 +7118,16 @@
     "publishedAt": "2026-07-27T22:01:00.000Z",
     "summary": "同じ出来事を経験しても、深く傷つく人もいれば、すぐに立ち直ることができる人もいます。その違いを生むのは、能力や精神力ではなく、脳のコンディションなのかもしれません。脳科学者の西剛志さんは、「ストレスへの反応や回復力が、脳内で働く複数の神経伝達物質と密接に関係していることがわかっている」と言います。「しんどい、つらい」の正体とはなにか、そして脳を健やかに保つ方法とはどのようなものでしょうか。 構成／岩川悟 取材・文／清家茂樹 写真／石塚雅人 【プロフィール】 西剛志（にし・たけゆき） 1975年生まれ。脳科学者（工学博士）、分子生物学者。東京工業大学大学院…",
     "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "c037008104bcfab2",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "団地の大規模修繕、高齢化で「委員立候補ゼロ」の危機！ “管理会社に丸投げ”に潜む罠、絶望の理事長を救った救世主とは？【ポンコツ理事長奮闘記9】",
+    "url": "https://suumo.jp/journal/2026/07/28/218297/",
+    "publishedAt": "2026-07-27T22:00:55.000Z",
+    "summary": "築40年を超える団地（120戸）の理事長経験者である筆者が、自身の団地の老朽化、高齢化、単身世帯化をぼやく本連載。今回のテーマは「大規模修繕」（※）です。 振り返れば、前回の大規模修繕（2回目）が行われたのは、かれこれ15年も前のこと。 「次の工事まで己の命があるか……」弱気になる第一世代の住人たちを気遣いつつも、団地の第二世代にあたる私が「大規模修繕」に向けた“最初の第一歩”＝「補修委員会」の人集めに奔走した顛末（てんまつ）をご紹介します。 ※「大規模修繕」とは、一定の周期で修繕することが望ましい計画修繕などのうち、工事内容や費用が多大で、長期間を要し…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
   },
   {
     "id": "e455009f82a1ad1b",
@@ -7368,6 +7288,26 @@
     "publishedAt": "2026-07-27T15:00:52.000Z",
     "summary": "限界OL霧切ギリ子 ミートスパ土本 限界生まれ限界育ち、癖の強い奴はだいたい知り合い…。霧切ギリ子が贈る、今日をなんとか生きるライフハック――!?読めば新たな知見を得る限界群像劇。 [JC3巻9/4発売予定]",
     "fetchedAt": "2026-07-28T00:13:21.484Z"
+  },
+  {
+    "id": "18970af97a0448ab",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "2026年6月 首都圏における「新築戸建」の価格動向",
+    "url": "https://www.athome.co.jp/corporate/news/data/market/shinchiku-kodate-kakaku-202606/",
+    "publishedAt": "2026-07-27T15:00:00.000Z",
+    "summary": "首都圏の新築戸建の平均価格は5,139万円で、前月比+1.2％と4カ月連続で上昇。前年同月比は+6.8％と22カ月連続で上昇。東京都（23区/都下）、神奈川県（横浜市･川崎市/他）、埼玉県（さいたま市/他）、千葉県他は2017年1月以降最高額を更新。東京23区の平均価格は初の9,000万円台。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
+  },
+  {
+    "id": "012bd4f5781ac512",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "2026年6月 首都圏における「中古マンション」の価格動向",
+    "url": "https://www.athome.co.jp/corporate/news/data/market/chuuko-mansion-202606/",
+    "publishedAt": "2026-07-27T15:00:00.000Z",
+    "summary": "首都圏の中古マンション1戸あたり平均価格は5,843万円。前月比、前年同月比ともに23カ月連続で上昇。東京都（23区/都下）、神奈川県（横浜市･川崎市/他）、さいたま市、千葉県西部の6エリアは2017年1月以降最高額を更新。東京23区の前月比上昇率は2カ月連続で0％台。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
   },
   {
     "id": "7461e6a2c7cc31d6",
@@ -7680,6 +7620,16 @@
     "fetchedAt": "2026-07-28T00:13:21.284Z"
   },
   {
+    "id": "a356ba38902293b6",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "荷物かさばる問題を解決！夏の旅行を快適にするトラベルグッズおすすめ5選",
+    "url": "https://soredoko.jp/entry/2026/07/27/160000",
+    "publishedAt": "2026-07-27T07:00:00.000Z",
+    "summary": "旅行や遠征の持ち物、ついアレもコレもと詰め込んで荷物がパンパンになっていませんか？ 今回は、そんな「かさばる荷物」の悩みを解消する便利なトラベルグッズを厳選しました！ コンパクトにまとまって使い勝手も抜群なアイテムを取り入れて、夏の旅行を身軽に楽しみましょう。 夏休みシーズン到来！ 旅行の予定を立てている人も多いのでは？ ワクワクする一方で、毎回つきまとうのが「荷物かさばる問題」。そこで今回は、そんな悩みをすっきり解消してくれる隠れた名品トラベルグッズを厳選しました。コンパクトにまとまって使い勝手も抜群。快適な夏の旅のお供に、ぜひ取り入れてみてください。…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "bd181552ed79cf01",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -7800,6 +7750,16 @@
     "fetchedAt": "2026-07-29T00:11:11.638Z"
   },
   {
+    "id": "d8940d6fae9ee4d7",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "コールマンのキャリーケース5つを宿泊日数別に比較！旅行や遠征のほか出張にも使える",
+    "url": "https://soredoko.jp/entry/2026/07/27/103000",
+    "publishedAt": "2026-07-27T01:30:00.000Z",
+    "summary": "「コールマン」のキャリーケースのおすすめを5商品ピックアップしました。宿泊日数別に、容量や機能性を比較。旅行、遠征、出張など幅広い用途で使いやすいラインアップです。 コールマンのキャリーケースは、 アウトドアブランドらしい機能性とカジュアルなデザインが魅力です。 しかしラインアップが多く「どのサイズを選べばいい？」「仕事と旅行の両方に使える？」「帰りに荷物が増えても収納できる？」などと悩むことも。 モデルによって容量や重量、開き方、拡張機能などが異なるため、宿泊日数だけでなく、移動手段や荷物の種類に合わせて選ぶことが大切です。 この記事では、使いやすいモ…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "19446b737f4541eb",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -7880,6 +7840,16 @@
     "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
+    "id": "f9098bef5941fb9f",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "40℃超の酷暑日にも有効な「窓断熱」体験レポ！ 東京都民は自己負担「約6分の1」でリノベ可、窓の表面温度が劇的に下がる実力がすごすぎた",
+    "url": "https://suumo.jp/journal/2026/07/27/218585/",
+    "publishedAt": "2026-07-26T22:00:00.000Z",
+    "summary": "40℃超の酷暑日が毎年のように観測され、暑さが加速する日本の夏。実は、夏の間に住宅へ流れ込む熱のうち、約7割が「窓」から入ってくることをご存じでしょうか。それだけに重要なのが、窓の断熱。東京・品川にある「YKK AP 体感ショールーム」の検証では、断熱化によってガラス表面温度が約8℃も低下する驚きの効果が出ています。建築・設計関係者向け・完全予約制のショールームを特別に取材し、窓リノベの驚きの断熱効果や、国と東京都の助成金を活用して自己負担を約6分の1に抑える方法を専門家に聞きました。 夏に流入する熱の約7割は窓から。暑さ対策には窓の断熱が効果的 202…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
     "id": "f3b45ced8e929640",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -7918,6 +7888,26 @@
     "publishedAt": "2026-07-26T15:02:22.000Z",
     "summary": "Unity社は代表的なゲームエンジンの1つである「Unity」の次世代版となる「Unity 7」を発表しました。 Introducing Unity 7 - built for a faster-moving, more open industry where creators, cross-functional teams, and coding agents can seamlessly collaborate across every stage of the deve……",
     "fetchedAt": "2026-08-01T15:00:18.324Z"
+  },
+  {
+    "id": "667c6909fca44154",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "2026年6月 全国主要都市の「賃貸マンション・アパート」募集家賃動向",
+    "url": "https://www.athome.co.jp/corporate/news/data/market/chintai-yachin-202606/",
+    "publishedAt": "2026-07-26T15:00:00.000Z",
+    "summary": "マンションの平均募集家賃は、首都圏全エリア（東京23区・東京都下・神奈川県・埼玉県・千葉県）および名古屋市・京都市・大阪市・神戸市・福岡市の計10エリアが全面積帯で前年同月を上回る。マンションは、カップル向きが5カ月連続して全エリアで前年同月を上回る。シングル向きでは東京23区が25カ月連続で2015年1月以降最高値を更新。京都市は3カ月連続して全面積帯で最高値を更新した。アパートは、シングル向きが4カ月連続して全エリアで前年同月を上回る。同面積帯では前月同様13エリア中11エリアが2015年1月以降最高値となり、中でも東京23区は14カ月連続で最高値を…",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
+  },
+  {
+    "id": "078a2bf4235c0c19",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "2026年 夏季休暇および当社施設「アットホームスクエア」休館のお知らせ",
+    "url": "https://www.athome.co.jp/corporate/news/topics/kakikyuka-202607/",
+    "publishedAt": "2026-07-26T15:00:00.000Z",
+    "summary": "当社では、誠に勝手ながら2026年8月8日(土)～8月16日(日)の期間、夏季休暇をいただき、当社施設「アットホームスクエア」は同期間休館いたします。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
   },
   {
     "id": "5323bc2577d2b92e",
@@ -8370,16 +8360,6 @@
     "fetchedAt": "2026-07-26T07:13:52.858Z"
   },
   {
-    "id": "b8c39611fbc7fec4",
-    "source": "はてな",
-    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
-    "title": "みいちゃんと山田さん | 【第36話(1)】知らない知らない知らない / マガポケ | 少年マガジン公式無料漫画アプリ",
-    "url": "https://pocket.shonenmagazine.com/title/02620/episode/441298",
-    "publishedAt": "2026-07-25T15:07:34.000Z",
-    "summary": "みいちゃんと山田さん亜月ねねUP次回更新は8/16(日曜)予定です。 無料話更新：隔週日曜 最新話更新：隔週日曜 2012年、新宿。夜の街でキャバクラ嬢として働く山田さんは、何をやってもダメダメな新人・みいちゃんと出会う。ヤル気と元気はあるものの、漢字も空気も読めないみいちゃんは、周りから馬鹿にされ「可哀想」の...",
-    "fetchedAt": "2026-08-02T00:18:01.033Z"
-  },
-  {
     "id": "873e62f312cfa639",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -8650,6 +8630,16 @@
     "fetchedAt": "2026-07-26T07:13:52.587Z"
   },
   {
+    "id": "f6ccd0ddcf259c2d",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "無印良品「発酵導入化粧液」がサラッと快適！美容液との違いとは｜編集部の買ってよかったもの",
+    "url": "https://soredoko.jp/entry/2026/07/24/160000",
+    "publishedAt": "2026-07-24T07:00:00.000Z",
+    "summary": "スタッフが自腹で買って実際に試してみて「よかった！」と実感するおすすめ商品をピックアップ！ 今週は、無印良品の大人気スキンケア「発酵導入化粧液」を紹介します。サラッとした使い心地で肌なじみがよく、化粧水の前のひと手間にぴったり。発酵導入美容液との違いにも触れつつレビューします。 ▼買ってよかったもの2025と先週分はこちら サラッとして使い心地がいい！無印良品 発酵導入化粧液 画像参照元：【楽天市場】無印良品 無印良品の発酵導入シリーズといえば、大人気のスキンケア。米ぬか発酵液やセラミドが配合されていて、化粧水の前に使う導入アイテムです。美容液・化粧液・…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "8cf2ef4e153b167b",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -8728,6 +8718,16 @@
     "publishedAt": "2026-07-24T01:37:00.000Z",
     "summary": "MetaがAIに対する楽観的なビジョンを打ち出すブランドキャンペーンを開始した。マーク・ザッカーバーグCEOは「未来は全員のものだ」と投稿し、45秒の動画広告は「AIが人々のつながりを弱めると言う人もいるが、まったく同意できない」と反論する。だが、BGMに採用されたのはデビッド・ボウイが世界の終末を歌った「Five Years」だった。",
     "fetchedAt": "2026-07-26T07:13:52.587Z"
+  },
+  {
+    "id": "2b7cd2ff813fc250",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "ニトリのキャリーケース5選！1万円以下 機内持ち込みOK 拡張タイプなど",
+    "url": "https://soredoko.jp/entry/2026/07/24/103000",
+    "publishedAt": "2026-07-24T01:30:00.000Z",
+    "summary": "ニトリのキャリーケースのおすすめを5つピックアップ。フロントオープンや拡張機能など機能性が高く、1万円以下で買えるものも。用途に合わせた比較表も用意したので、自分に合うタイプを探してみてください。 ニトリのキャリーケースはラインアップが豊富。容量を拡張できるタイプから、PCを取り出しやすいフロントオープン型、収納に便利な折りたたみ型まで、容量や機能性、価格の異なる商品がそろっています。 それゆえ、探す際に「種類が多くて違いが分からない」「1泊2日ならどのサイズが合う？」などと迷いがちです。 そこでこの記事では、旅行や出張はもちろん、ライブ遠征にも使いやす…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
   },
   {
     "id": "ee8db45590077640",
@@ -8818,6 +8818,16 @@
     "publishedAt": "2026-07-23T22:11:26.000Z",
     "summary": "アメリカのトランプ政権は、日本を含む主要な60の貿易相手の国や地域を対象に、日本時間の24日午後1時すぎ、新たな追加関税を発動します。日本からの輸入品には、既存の関税率とあわせて12.5％の関税を課す…",
     "fetchedAt": "2026-07-24T00:13:53.068Z"
+  },
+  {
+    "id": "326f904134f1067f",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "【健康寿命を延ばす実家フルリノベ】60代後半、女性一人暮らしで決断。高断熱・高気密＆趣味を楽しむアトリエ付きに",
+    "url": "https://suumo.jp/journal/2026/07/24/218157/",
+    "publishedAt": "2026-07-23T22:00:10.000Z",
+    "summary": "Kさん（女性）が60代の終わりに、築30年の実家をスケルトンリノベーションした理由は明快だった。 「健康寿命を延ばしたい」。両親を見送り、一人暮らしとなった住まいを高気密・高断熱仕様へと刷新。1階に生活機能を集約し、2階は趣味を楽しむアトリエへ改修した。住み慣れた家や地域とのつながりを手放すことなく、未来の人生をより豊かに生きる。単身シニア世代の住まい選びのヒントが詰まっている。 両親を見送り、一人に。長年温め続けた家づくりの夢をリノベで実現 ■Kさん邸データ 工法木造階数・間取り2階建て・2LDK＋納戸建物面積89.43m2竣工年月2025年11月世帯…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
   },
   {
     "id": "d45c8815d9175e44",
@@ -9398,6 +9408,16 @@
     "publishedAt": "2026-07-23T02:17:28.000Z",
     "summary": "「ソースコードを公開すれば、利用者が増え、改善が返ってきて、みんなが得をする」 OSSにはそんな理想があります。しかし、実際にプロジェクトが成功すると、別の光景が現れることがあります。巨大クラウド事業者がOSSをマネージドサービスとして提供し、運用の手軽さと販売網を武器に大きな売上を得る。一方、最初にソ...",
     "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "ad14af031365d59a",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "無印良品の歯みがきタブレットにミント新登場！ 泡立ちやスッキリ感をチェックしてみた",
+    "url": "https://soredoko.jp/entry/2026/07/23/103000",
+    "publishedAt": "2026-07-23T01:30:00.000Z",
+    "summary": "外出先で気軽に口の中をリフレッシュしたいときに便利なのが、無印良品の「歯みがきタブレット」。新たに登場したミントフレーバーの使用感やレモンフレーバーとの違いを、ライターの吉祥ゆかりさんがレビューします。 外出先で口の中をスッキリさせたいときって、意外と多いですよね。でも、大きい歯みがき粉やマウスウォッシュを持ち歩くのは地味に面倒じゃないですか？ 無印良品の「歯みがきタブレット」は、そんな悩みを解決してくれる人気アイテム。これまでのレモンフレーバーに加えて、新たにミントフレーバーが登場したと聞いて、実際に数日間使用してみました。 これまでのフレーバーとの違…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
   },
   {
     "id": "9695ecd9c8c0214e",
@@ -10090,6 +10110,16 @@
     "fetchedAt": "2026-07-23T00:16:34.141Z"
   },
   {
+    "id": "f69564296b92943c",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "ビオレUVアクアリッチエアリーホールドクリームはふわふわなのに塗ればさらさら！体用にぴったり",
+    "url": "https://soredoko.jp/entry/2026/07/22/103000",
+    "publishedAt": "2026-07-22T01:30:00.000Z",
+    "summary": "ベタつかない日焼け止めを探している人に、necomimiさんが今夏おすすめするのが「ビオレ UV アクアリッチ エアリーホールドクリーム」。ホイップのようなテクスチャで、塗ったあとはさらさら。体用にぴったりで、首の後ろまで塗り忘れがなくなる使い心地です。 ドラッグストアの日焼け止めコーナーでは、毎年新商品が出る。この価格でこんなに使い心地がいいんだ？と驚くものを探すカテゴリーになっている気がする。宝探しみたいだ。 今夏はパッケージにピンときて、「ビオレ UV アクアリッチ エアリーホールドクリーム」を体用（※顔にも使える商品です）として使うことにした。 …",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "653519ff37ac720c",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -10198,6 +10228,16 @@
     "publishedAt": "2026-07-21T22:01:00.000Z",
     "summary": ".related-box { background: #f7f9fa; border: 1px solid #2c3e50; border-radius: 4px; padding: 10px 16px; margin: 20px 0; font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; } .related-box-label { font-size: 12px; font-weight: 600; color: #04a2d6; letter-spacing: 0…",
     "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "ed4603edc7640ec3",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "パリ郊外の”セカンドユース”新名所に熱視線！ 家具・家電、衣類など商店街8店舗の商品すべてが「中古品（リユース）」!? サーキュラーエコノミーを極めた「ラ・ヴネル（La venelle）」に潜入",
+    "url": "https://suumo.jp/journal/2026/07/22/217008/",
+    "publishedAt": "2026-07-21T22:00:06.000Z",
+    "summary": "2025年9月、パリ郊外の街モントルイユに、フランス初となる「サーキュラーエコノミー（循環型経済）」に捧げられた村が誕生しました。その名も「ラ・ヴネル（フランス語で「路地」）」。モントルイユ市のイニシアチブで実現したこのプロジェクトは、分譲マンションや低所得者向けの公営住宅、コリビング、さらには9つの商業施設が共存し、中心部には菜園やコンポストがある“理想の循環型コミュニティ“です。オープンから半年が経った今、そこにはどんな暮らしが生まれているのでしょう？ プロジェクト実行の中核人物と、分譲マンションにお住まいの男性を取材しました。 サーキュラーエコノミ…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
   },
   {
     "id": "1de0e14ad84705d8",
@@ -10368,6 +10408,16 @@
     "publishedAt": "2026-07-21T15:02:48.000Z",
     "summary": "走る昨日へ 夏島扉 「50m6.66で走れると過去へ戻れる陸上トラックがあるらしい」…。にわかに囁かれるその噂に挑戦するため、陸上部エース・水嶋にコーチを頼んだのは、成績優秀な長浜くんで…？全て振りきる、SF陸上ドラマ！",
     "fetchedAt": "2026-07-22T00:06:44.236Z"
+  },
+  {
+    "id": "ec59069cbff80a05",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "アットホーム 賃貸・駅ランキング 静岡県編",
+    "url": "https://www.athome.co.jp/corporate/news/ranking/station/chintaieki-ranking-shizuoka-202607/",
+    "publishedAt": "2026-07-21T15:00:00.000Z",
+    "summary": "総合1位は前年に引き続き「浜松」駅となり、全てのタイプでトップを獲得しました。2位の「静岡」駅、3位の「沼津」駅も前年と同順位で、住環境の良さが安定した支持につながったと考えられます。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
   },
   {
     "id": "96a2d703f539b738",
@@ -11030,6 +11080,16 @@
     "fetchedAt": "2026-07-21T12:48:35.055Z"
   },
   {
+    "id": "da690b4885b2e66a",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "イノベーターのキャリーケースを遠征や旅行に！機内持ち込みOKから大容量までおすすめ5選",
+    "url": "https://soredoko.jp/entry/2026/07/21/103000",
+    "publishedAt": "2026-07-21T01:30:00.000Z",
+    "summary": "「イノベーター（innovator）」のキャリーケース（スーツケース）は、遠征や旅行、出張などさまざまなシーンに使える幅広いラインアップがそろっています。旅行はもちろん推し活にも使いやすい、人気モデル5つのスペックを詳しく紹介します。 「イノベーター（innovator）」のキャリーケースは、洗練されたデザインと使いやすい機能を備え、旅行や出張、ライブ遠征にも活用しやすいアイテムです。 一方で、型番やサイズの種類が多く「1泊の遠征にはどれが合う？」「帰りにグッズが増えても収納できる？」「仕事用のPCも持ち運べる？」と迷う人もいるでしょう。 コインロッカー…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "51ae4c67b829d240",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -11178,6 +11238,16 @@
     "publishedAt": "2026-07-20T22:33:00.000Z",
     "summary": "AMDは、Microsoftとの戦略的提携を拡大すると発表した。Microsoftはクラウドサービス「Azure」に、GPUやCPUを一体化したAMDのラックスケール製品「AMD Helios」を大規模に導入し、フロンティアAIモデルの推論処理などに活用する。Heliosは2026年後半から出荷が開始される予定だ。",
     "fetchedAt": "2026-07-21T12:48:34.615Z"
+  },
+  {
+    "id": "cb1087e7779aa8d7",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "【新宿駅30分以内】中古マンション価格相場が安い駅ランキング2026年。一人暮らし向け、二人暮らし・ファミリー向け、それぞれ1位は？",
+    "url": "https://suumo.jp/journal/2026/07/21/218371/",
+    "publishedAt": "2026-07-20T22:00:57.000Z",
+    "summary": "「新宿グランドターミナル構想」を掲げ、駅と街が一体になった一大再開発プロジェクトが進む新宿駅。JR各線や小田急電鉄、京王電鉄、東京メトロ、都営地下鉄など多彩な路線が乗り入れ、2022年にはギネス世界記録で「最も混雑する鉄道駅」と認定されるほどのにぎわいをみせている。ビジネスに遊びに、各地へ向かう経由地としても多くの人に利用されている新宿駅まで、アクセスしやすく、かつリーズナブルに住める街を調査した。新宿駅まで30分圏内にある、「一人暮らし向け」と「二人暮らし・ファミリー向け」、それぞれの中古マンションの価格相場が安い駅ランキングを一挙紹介！ 新宿駅まで3…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
   },
   {
     "id": "ef4c3e3584ef4256",
@@ -12350,6 +12420,16 @@
     "fetchedAt": "2026-07-20T10:51:01.714Z"
   },
   {
+    "id": "f92af6b476d26a34",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "折りたたみ日傘はWpc.「遮光クラシックフリル ミニ」がおすすめ！晴雨兼用で軽量｜編集部の買ってよかったもの",
+    "url": "https://soredoko.jp/entry/2026/07/17/160000",
+    "publishedAt": "2026-07-17T07:00:00.000Z",
+    "summary": "スタッフが自腹で買って実際に試してみて「よかった！」と実感するおすすめ商品をピックアップ！ 今週は、晴れの日も雨の日もこれ1本で安心のWpc.折りたたみ日傘「遮光クラシックフリル ミニ」を紹介します。日傘選びで迷う人にぴったりの、遮光率100％・晴雨兼用の一本です。 ▼買ってよかったもの2025と先週分はこちら どんな服にも合わせやすい「Wpc. 日傘 遮光クラシックフリル ミニ」 画像参照元：【楽天市場】Wpc.／KiU OFFICIAL SHOP 「日差しが強い日も雨が心配な日も、とりあえずカバンにこれ1本入れておけば安心」という状態にしたく、できる…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "f0ba930eff6d184c",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -12468,6 +12548,16 @@
     "publishedAt": "2026-07-17T02:14:00.000Z",
     "summary": "Metaは、10代のユーザーが「Meta AI」との会話で自殺や自傷をほのめかした場合、Instagramのペアレンタルコントロール機能を利用する保護者に通知する新機能を発表した。米、英、豪、加で提供を開始しており、年内にグローバルに拡大する計画。自殺の差し迫ったリスクがあると判断した場合に緊急サービスへ通報する仕組みも構築中としている。",
     "fetchedAt": "2026-07-20T10:51:01.714Z"
+  },
+  {
+    "id": "93ee1472a903f2af",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "キッチン引き出し収納にリッチェル トトノが優秀！掛けるゴミ袋収納や立てる食器収納でスッキリ",
+    "url": "https://soredoko.jp/entry/2026/07/17/103000",
+    "publishedAt": "2026-07-17T01:30:00.000Z",
+    "summary": "リッチェル「トトノシリーズ」のキッチン向け引き出し用収納は、お皿や袋類などをスッキリ使いやすくしまえる優秀アイテム。愛用中のブロガー・ぴかさんが「ディッシュスタンド」「ゴミ袋ストッカー」「レジ袋収納ボックス」の使い心地を詳しく紹介します。 2025年に引っ越しをしたのですが、新居では絶対に食器の収納を改善したいと思っていました。 前の家ではスペースの都合もあり、食器は積み重ねる収納がメイン。下の方にあるお皿が取り出しづらいし、しまう際にも棚の中で他のお皿を動かす必要があったりして、すごく使いづらかったんですよね。 なので「新居では絶対に『立てる』食器収納…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
   },
   {
     "id": "2ba17dc2c94e966b",
@@ -12660,6 +12750,16 @@
     "fetchedAt": "2026-07-20T10:51:01.714Z"
   },
   {
+    "id": "451bfbb30bc96343",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "工事不要＆賃貸設置OKなお手頃食洗機「ラクアmini plus」レポ",
+    "url": "https://soredoko.jp/entry/2026/07/16/103000",
+    "publishedAt": "2026-07-16T01:30:00.000Z",
+    "summary": "工事不要で設置できるから、サンコーの小型食器洗浄機「ラクアmini plus」は賃貸物件でも使えちゃう！おまけにお手頃！この便利アイテムを使い込んで分かった、便利なポイントから、弱点まで、ブロガーのOKPさんがレビューします！小型ゆえに「使う人を選ぶ」そうですが、本アイテムが向く人 / 向かない人までばっちりレポート！ 昨年、サンコーのタンク式小型食洗機「ラクアmini Plus」を購入しました。購入してから毎日、昼と夜の2回稼働させていますが、かなり満足度の高い買い物となっています。 一方で、万人受けするアイテムではないとも思うので、どんな人や家庭に向…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "f66e64028ec6546f",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -12700,6 +12800,16 @@
     "fetchedAt": "2026-07-20T10:51:01.714Z"
   },
   {
+    "id": "ab49ce79688ec9a2",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "【新宿駅30分以内】家賃相場が安い駅ランキング2026年。6万円台の駅が多数！川崎・稲城エリアに注目",
+    "url": "https://suumo.jp/journal/2026/07/16/218130/",
+    "publishedAt": "2026-07-15T22:00:01.000Z",
+    "summary": "JR各線や小田急電鉄、京王電鉄、東京メトロ、都営地下鉄など多彩な路線が交差する新宿駅。日本屈指の巨大ターミナルであり、2022年にはギネス世界記録で「最も混雑する鉄道駅」と認定されるほどの活気に満ちている。さらに現在は「新宿グランドターミナル構想」のもと、駅と街が一体となった大規模再開発が加速。今後も魅力が増すことが予想される。今回は、そんな進化を続ける新宿駅まで30分以内にある駅を対象に、シングル向け賃貸物件（10平米以上〜40平米未満、ワンルーム・1K・1DK）の家賃相場を調査した。神奈川県のほか東京都内の駅も上位に並ぶ結果となった、家賃相場が安い駅…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
     "id": "53b37118fd483e97",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -12728,6 +12838,16 @@
     "publishedAt": "2026-07-15T19:17:50.000Z",
     "summary": "はじめに git logはコミットが縦に長く並び視覚的でない為、私はgit log --graph --oneline --decorate --allでリポジトリの履歴をいつも確認している。 --graph コミット間の親子関係を*や|などの記号で視覚的に表示 --oneline コミットハッシュとコミットメッセージを1行に短縮して表示 --decorate ブランチ名やタグ名...",
     "fetchedAt": "2026-07-22T00:06:44.236Z"
+  },
+  {
+    "id": "aa46ff61f3160daa",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "アットホーム、「賃貸住宅フェア2026東京」にブース出展",
+    "url": "https://www.athome.co.jp/corporate/news/release/corporate/zenchin-fair-202607/",
+    "publishedAt": "2026-07-15T15:00:00.000Z",
+    "summary": "全国賃貸住宅新聞社主催の「賃貸住宅フェア2026東京」にブース出展いたします。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
   },
   {
     "id": "5a133a290273e381",
@@ -12780,6 +12900,36 @@
     "fetchedAt": "2026-07-20T10:51:01.784Z"
   },
   {
+    "id": "902be962b2714bd5",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "突っ張り棒と山崎実業の棚板でぬいぐるみ収納！カーテンレール上のデッドスペースに居場所づくり",
+    "url": "https://soredoko.jp/entry/2026/07/15/103000",
+    "publishedAt": "2026-07-15T01:30:00.000Z",
+    "summary": "部屋の断捨離や模様替えを進める中でぶち当たった「ぬいぐるみ収納問題」を突っ張り棒で解決します。カーテンレール上のデッドスペースを活用し、浮かせる収納で10体もの居場所を確保。設置方法や収納のコツをレビューします。 最近部屋の掃除にハマっておりまして。 いわゆる断捨離だったり模様替えだったりを楽しく進める中で、こんな課題にぶち当たりました。 我が家……ぬいぐるみ、ありすぎでは……？？？？ そうして悩みながら、インターネットの知恵も借りながら、収納方法を調べてたどり着いたのが「突っ張り棒」。 同じ悩みをお持ちの方に向けて、具体的な収納方法とコツをご紹介します…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "166df04cd68d9645",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "「冷房だけでは限界」が約6割。東京都の意識調査から見えた、酷暑を乗り切る「断熱リフォーム」の必要性。助成制度も解説",
+    "url": "https://suumo.jp/journal/2026/07/15/218467/",
+    "publishedAt": "2026-07-14T22:00:36.000Z",
+    "summary": "梅雨明けの地域が増えて、暑さが本格化する時期になった。今年はダブル高気圧の影響で、酷暑日が多いともいわれている。東京都の調査によると、自宅の室温を測定したことがある人の約35％が自宅で35℃以上を経験し、電気代の負担を感じているという。住まいの暑さ対策についてどう考えているか、詳しく見ていこう。 【今週の住活トピック】 「夏の住まいに関する意識調査」を実施／東京都 自宅の夏の困りごと、最多は冷房による「電気代が高くなる」 東京都の調査は、東京都内の持ち家（一戸建てまたはマンション）に住む20～70代の男女合計 1200人を対象に、2026年6月に実施した…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "517a19a79e05dcc3",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "アットホーム 賃貸・駅ランキング 兵庫県編",
+    "url": "https://www.athome.co.jp/corporate/news/ranking/station/chintaieki-ranking-hyogo-202607/",
+    "publishedAt": "2026-07-14T15:00:00.000Z",
+    "summary": "総合1位は前年に引き続き「姫路」駅で、全てのタイプでトップ3に入り安定した人気を維持しました。生活利便性と住環境のバランスの良さが幅広い支持につながったと考えられます。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
+  },
+  {
     "id": "6d3091f538209f67",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -12800,6 +12950,26 @@
     "fetchedAt": "2026-07-20T10:51:01.784Z"
   },
   {
+    "id": "773b6d0b3a9343b0",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "siroca（シロカ）のホームベーカリーを6年愛用中！食パンやべーグルを簡単においしく作れて優秀",
+    "url": "https://soredoko.jp/entry/2026/07/14/160000",
+    "publishedAt": "2026-07-14T07:00:00.000Z",
+    "summary": "siroca（シロカ）のホームベーカリーは、食パンだけでなく、ベーグルやピザ生地、うどん、お餅まで作れる一台。材料をセットするだけで失敗しにくく、パン作りが初めてでも手軽です。コロナ禍に購入して6年、今も現役で使い続けているノンちゃんさんが、長く愛用できる魅力を本音でレビューします。 ホームベーカリーって、「いつか欲しいけど、別に今じゃなくてもいいかな」と思っている人が多い家電じゃないでしょうか。わたしも例に漏れず、そうでした。 きっかけはコロナ禍。家にいる時間が増えて、「家で焼きたてのパンが食べられたらいいな」と思い切って購入したのがsiroca（シロ…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "797a46bb21f9eaef",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "「奇跡の歯ブラシ」で磨き残しはなくなる？ メリット・デメリットを本音レビュー",
+    "url": "https://soredoko.jp/entry/2026/07/14/103000",
+    "publishedAt": "2026-07-14T01:30:00.000Z",
+    "summary": "歯のザラつきや磨き残しに悩んでいる方におすすめしたいのが、「奇跡の歯ブラシ」。独特なピラミッド形状のヘッドで、軽い力でも磨きやすいと口コミでも評判のアイテムです。磨き残しは減るのか、ライターの吉祥ゆかりさんが実際に試してみました。 朝昼晩とできるだけ丁寧に歯磨きをしているつもりでも、なんだか歯の表面がザラザラしている気がする。磨き残しが気になっていた先日、歯科の定期検診に行ったら、案の定磨き残しを指摘されてしまいました……。 なにか良い歯ブラシがないかと探していて見つけたのが、「奇跡の歯ブラシ」。ちょっと大げさにも聞こえる商品名や1本600円前後の価格か…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
     "id": "99551e9597e11c59",
     "source": "中学受験情報局",
     "sourceUrl": "https://www.e-juken.jp/feed",
@@ -12808,6 +12978,186 @@
     "publishedAt": "2026-07-14T00:00:49.000Z",
     "summary": "＜東京女学館中学校＞校長対談 我が子の「見えない限界」を取り払う！新時代の「化ける」6年間と手厚いサポートの全貌 公開年月日：2026年7月15日 中学受験は決してゴールではありません。12歳から18歳という、人間形成に…",
     "fetchedAt": "2026-08-01T16:02:23.716Z"
+  },
+  {
+    "id": "508f31c0d33ea0ec",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "一人暮らし高齢者のホンネ「施設でなく賃貸がいい」、24時間見守り付きで自立した暮らしを。3社連携で孤独死や入居拒否の壁をなくす「まごころアパート」｜横浜市",
+    "url": "https://suumo.jp/journal/2026/07/14/218098/",
+    "publishedAt": "2026-07-13T22:00:00.000Z",
+    "summary": "超高齢社会の日本において、シニアの住まい探しは依然として高い壁に阻まれています。今の住まいを離れれば、入居できるのは数千万円規模の費用がかかる有料施設か、低所得者向けの賃貸住宅か。極端な選択肢の狭間で悩む「中間層」の高齢者がいるのです。 そのような中、神奈川県で第1号となる居住サポート住宅が誕生。生活サポートを展開するMIKAWAYA21、居住支援法人あんど、高齢者専門の仲介を担うR65不動産の3社連携による新しい賃貸モデルについて聞きました。 「資金があっても借りられない」元気な高齢者と中間層を阻む壁 高齢者専門の賃貸住宅仲介を手がけるR65不動産の山…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "601b81e876f9c75f",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "無印良品「ごはんにかける 四川麻婆豆腐」が本格的な痺れで手軽すぎた｜編集部の買ってよかったもの",
+    "url": "https://soredoko.jp/entry/2026/07/13/160000",
+    "publishedAt": "2026-07-13T07:00:00.000Z",
+    "summary": "スタッフが自腹で買って実際に試してみて「よかった！」と実感するおすすめ商品をピックアップ！ 今週紹介するのは、無印良品「ごはんにかける 四川麻婆豆腐」。ごはんにかけるだけで、山椒がしっかりきいた本格四川の味が楽しめます。暑くて料理が億劫な日や、時短ごはんにおすすめです！ ▼買ってよかったもの2025と先週分はこちら レトルトレベルと思えない本格派！無印良品 ごはんにかける 四川麻婆豆腐 画像参照元：Amazon 麻婆豆腐が好きで、お家でもよく作ります。白ご飯と一緒に食べるのが至福の時間です。 簡単に作れる料理ではありますが、具材を買ってきて調理するのは、…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "d8dd3d25a1545c67",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "マッサージボールなら家事や仕事の合間にコリをほぐせる！トリガーポイントMB1をレビュー",
+    "url": "https://soredoko.jp/entry/2026/07/13/103000",
+    "publishedAt": "2026-07-13T01:30:00.000Z",
+    "summary": "Triggerpoint（トリガーポイント）の 「マッサージボール MB1」は、コリが気になる箇所に当てて転がすだけで手軽にケアができるアイテム。仕事と育児で忙しく過ごすライター・藤田華子さんが、スキマ時間にも取り入れやすいおすすめの使い方を紹介します。 子育て中は、家事や仕事で日々動き回るだけでなく、休日も子どもの遊びに付き合ってクタクタになりがちです。 たまった疲れを癒やすのにマッサージにでも行きたいけれど、なかなかそんな時間も気力もない……。そんな私を救ってくれたのが、Triggerpoint（トリガーポイント）の 「マッサージボール MB1」でし…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "090ef1cf8beb8822",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "【30代夫妻が建てた平屋】施工費2367万円・83平米、天井高3.5mの開放感！ 高断熱で冬も結露なし、こたつを楽しめる”おこもりロフト”も｜神奈川県相模原市",
+    "url": "https://suumo.jp/journal/2026/07/13/217598/",
+    "publishedAt": "2026-07-12T22:00:41.000Z",
+    "summary": "数年前からブームが続いている、コンパクトかつ高性能な「平屋」。その人気は、今なお衰える気配がない。今回紹介する神奈川県相模原市のIさん夫妻も、「感覚的にもう“平屋”しかない、と。絶対条件でした」と語るほど、平屋の暮らしに魅せられた一組。二人はどのようにして理想の住まいに出合い、どのように暮らしを楽しんでいるのだろうか。マイホームに伺い、完成までの道のりや、実際の住み心地を伺った。 天井高最大3.5m。勾配天井のロフト付きで開放感抜群 ■Iさん邸データ 施工費2367万円家族構成夫30代、妻30代竣工年月2024年9月間取り平屋 3LDK+ロフト敷地面積2…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "60da73e49518698f",
+    "source": "アットホームタイムズ",
+    "sourceUrl": "https://athome-inc.jp/feed/",
+    "title": "オンライン入居申込システム「スマート申込」新たにライフライン関連事業者3社と連携",
+    "url": "https://www.athome.co.jp/corporate/news/release/services/smartmoushikomi02-202607/",
+    "publishedAt": "2026-07-12T15:00:00.000Z",
+    "summary": "賃貸物件の入居申込をオンライン上で行える「スマート申込」において、ライフライン取次サービスを展開する株式会社スマサポ、株式会社ラストワンマイル、電気・ガスの提供事業者である東京ガス株式会社と連携したことをお知らせいたします。",
+    "fetchedAt": "2026-08-01T16:42:37.707Z"
+  },
+  {
+    "id": "40e486001aae51f1",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "UHA味覚糖「グミサプリ鉄＆葉酸」はグミ好きも大満足のおいしさ！手頃に鉄分・葉酸補給",
+    "url": "https://soredoko.jp/entry/2026/07/12/103000",
+    "publishedAt": "2026-07-12T01:30:00.000Z",
+    "summary": "グミ好きに朗報！ UHA味覚糖の「グミサプリ 鉄＆葉酸」は、噛みごたえのある濃厚な食感で、おやつとしても大満足のおいしさ。しかも、女性に不足しがちな鉄分と葉酸まで補えるんです。多くの味を食べ比べてきたグミ好きが、その魅力を本音でレビューします！ 私はグミが！大好きです！！ グミはグミでも歯ごたえのあるハードな食感のグミが好き。ハードだけど、ただ硬いだけじゃなくて弾力のある、オノマトペをつけるなら“ぐにぐにっ”としたようなグミが大好物です。 そんなグミ好きの私が「これはすごい」と唸ったのが、UHA味覚糖の「グミサプリ」！ おやつとして大満足のおいしさなのに…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "d17bf89509f10816",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "asoのクリアブックカバーfogは表紙が透けにくい！ 周囲が気になりづらく外での読書が捗る",
+    "url": "https://soredoko.jp/entry/2026/07/11/103000",
+    "publishedAt": "2026-07-11T01:30:00.000Z",
+    "summary": "asoの「クリアブックカバー fog」は、ほどよい透け感で「本の表紙が周囲から見え過ぎない」ブックカバー。さらには手に持った際にすべりにくく、外出先でも読書に集中しやすいのが魅力です。 こんにちは、ソレドコ編集部の藤井です。最近、外出時の空き時間などに本を読む習慣ができました。 もっぱら持ち運びに便利な文庫本を買っているのですが、カバンにそのまま入れてしまうと、どうしても表紙や中身が折れたりして傷みがち。また、何の本を読んでいるのか周囲から丸分かりなのが少し気になる……という場面もあります。 そこで「シンプルで使い勝手のいい、ほどよいブックカバーはないか…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "1efff390a4998af5",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "57gで超軽量なのに大風量！ハンディファン「ポケファン」が優秀｜編集部の買ってよかったもの",
+    "url": "https://soredoko.jp/entry/2026/07/10/103000",
+    "publishedAt": "2026-07-10T01:30:00.000Z",
+    "summary": "スタッフが自腹で買って実際に試してみて「よかった！」と実感するおすすめ商品をピックアップ！ 今週は暑い夏に欠かせないハンディファン「ポケファン」を紹介します。コンパクトで57gと軽いのに風量もしっかりあって、外出時はもちろん家の中でも使いやすいので、とにかく小さいハンディファンを探している人は、チェックしてみてくださいね。 ▼買ってよかったもの2025と先週分はこちら 57gの軽さで風量が強い！ポケファン 画像参照元：【楽天市場】futura ruru 日傘を差しながらハンディファンを持つとなると、できるだけ軽いものがいい。暑い日に荷物が重くなったり、か…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "fc95c4c2ed701260",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "ニューヨーク人情酒場　最新のNYの恋活アプリ事情と成功者夫妻を号泣させたエピソードとは？ OMAKASEレストランのお客さんから学んだこと",
+    "url": "https://suumo.jp/journal/2026/07/10/217413/",
+    "publishedAt": "2026-07-09T22:00:58.000Z",
+    "summary": "一見華やかな大都会、ニューヨークでの暮らし。しかし、生活にはお金がかかる！ 生活を維持するために多くの移民が働く場所、それは飲食店。 単身やってきたニューヨークで飛び込んだ先は大衆酒場。愉快な同僚と寿司との出会い、そして別れ。 仕事って、生活って、幸せってなんだろう？そんなことを考えながら寿司を巻く日々のこと。 寿司＝恋人たちの食べ物！？ ニューヨーカーたちに寿司を振る舞っていると､アメリカでは寿司はロマンチックな食べ物という位置づけであることがよくわかります｡日本ではお祝いのときの食べ物という印象ですが､NYではちょっとオシャレをして恋人と食べにいく､…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "d1b6eeff06392a28",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "Amazonプライムデーは2026年7月10日0時からスタート！攻略法＆絶対チェックしたいセール品11選",
+    "url": "https://soredoko.jp/entry/2026/07/09/180000",
+    "publishedAt": "2026-07-09T09:00:00.000Z",
+    "summary": "Amazonでプライム会員限定のセールイベント「Amazonプライムデー」が開催！ 期間は2026年7月10日（金）00:00から2024年7月13日（月）23:59まで。ちなみに先行セールは7月7日（火）からすでに開催中です。 この記事では、プライムデーの攻略方法と、編集部がピックアップしたおすすめセール商品をご紹介します！ 🏃‍♀Amazon プライムデーへGO！ 会場でお買い得品をチェック Amazonプライム会員 無料体験はこちら Amazonプライムデー2026について 【必須】Amazonプライム会員になる ポイントアップキャンペーンにエン…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "15a9f380725c6d6e",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "Ankerのモバイルバッテリー＆充電器で買うべき3選！ 推し活必携で充電切れの心配がなくなりました",
+    "url": "https://soredoko.jp/entry/2026/07/09/103000",
+    "publishedAt": "2026-07-09T01:30:00.000Z",
+    "summary": "Anker（アンカー）の充電器やモバイルバッテリーは推し活の必需品！ すぐに充電が減る＆ケーブルでカバンがごちゃごちゃする悩みを解決してくれる3つのアイテムを、アイドル大好きなはるんさんがおすすめしてくれました。 スマホは、推し活に欠かせないアイテム。 現場に行くときは友達とたくさん写真を撮るし、もちろんうちわやアクスタなどのグッズも撮るし、どこにいっても推しの動画を見まくるし、SNSでの情報収集も欠かせないし……。推し活において「スマホの充電切れ」は死活問題と言っても過言ではありません。 そこで私が重宝しているのは、機能性の高さとコストのバランスが絶妙…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "625b8c41a1dc5d03",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "【母子留学】”教育移住”で脚光のマレーシアのリアル。家賃10万円代で150平米の絶景豪邸も、円安で年1000万円?!",
+    "url": "https://suumo.jp/journal/2026/07/09/217854/",
+    "publishedAt": "2026-07-08T22:00:34.000Z",
+    "summary": "近年、子どもの教育をきっかけに、一定期間海外で暮らす“教育移住”という選択肢が注目されている。なかでも人気を集めているのが、マレーシアだ。 「子どもたちには、将来“世界のどこでも働ける人”になってほしい」。夫の仕事をきっかけにマレーシアへ渡ったK.C.さん一家。現在は同国の都市ジョホール・バルで、“母子留学”という形で暮らしている。150平米・家賃10万円台の住まい、多民族環境での子育て、そして海外生活のリアルとは。マレーシアの留学エージェント「ルシュエット」中村さんへの取材とともに、マレーシアへの“教育移住”の実態を聞いた。 “教育移住”として広がるマ…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "c8a69106dee5813b",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "「かかとのガサガサ」はツルラボのかかとやすりでツルツルに！夏のサンダルコーデも怖くない",
+    "url": "https://soredoko.jp/entry/2026/07/08/103000",
+    "publishedAt": "2026-07-08T01:30:00.000Z",
+    "summary": "かかとのガサガサを解消するならツルラボのかかとやすりがおすすめ！ かかとやすりをいくつか試した中で「一番ツルツルになった！」とおすすめしてくれたのはブロガーのぶち猫さん。サンダルを履く機会が増える夏もこれで怖くない！ 梅雨が明けたら本格的な夏！ サンダルのシーズン到来ですね。 この季節になると気になるのが「かかとのガサガサ」。 いつでも気軽にサンダルを履けるようきれいにお手入れをしておきたいですが、わたしは面倒くさがりなので、できるだけ手間はかけたくないのです。 そんな中でたどり着いたのが、ツルラボのかかとやすりです。 ツルラボ かかとやすり ツルラボ公…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "e2874e9d1a5cad58",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "不動産の売却検討タイミングとして59.4％が有利と評価、売れるときに売る、価格より時期を重視する傾向へ",
+    "url": "https://suumo.jp/journal/2026/07/08/218397/",
+    "publishedAt": "2026-07-07T22:00:49.000Z",
+    "summary": "リクルートのSUUMOリサーチセンターが『住まいの売却検討者＆実施者』調査を行い、2025年（調査時期：2025年12月～2026年1月）の調査結果を公表した。その結果を見ると、売却の検討については住宅市場の動きに対応していることがうかがえる。詳しく見ていこう。 【今週の住活トピック】 「首都圏『住まいの売却検討者＆実施者』調査（2025年）」公表／リクルート 不動産の売却検討率は低下するも、売却完了割合は増加 調査では「売却検討者」を抽出するために、まず、首都圏（東京都/千葉県/埼玉県/神奈川県）在住の20～69歳の男女2万人にスクリーニング調査を実施…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "8b93f5603da43127",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "アホ毛（パヤ毛）スティックはウルリス ウォーターインマトメイクが優秀！湿気にも強いキープ力",
+    "url": "https://soredoko.jp/entry/2026/07/07/103000",
+    "publishedAt": "2026-07-07T01:30:00.000Z",
+    "summary": "「ウルリス ウォーターイン マトメイク」は、サッと塗るだけでアホ毛・パヤ毛を抑えてくれるヘアスティック。前髪やおくれ毛もキープしてくれるので、湿気の多い梅雨時や汗をかきやすい夏にぴったりです。 私はアホ毛がパヤパヤしやすい毛質です。私の頭を見た友人から「静電気すごいね」と言われたことも。 そんな暴れ放題のアホ毛（パヤ毛）をぴっちり抑えてくれるのが「ウルリス ウォーターインマトメイク」。 アホ毛対策用のヘアスティックはいくつか試してきましたが、今のところこれが一番いいなと思っています。 【公式】ululis ウォーターインマトメイク 2本セット（ブルー/ピ…",
+    "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "baa068bc6cce8d1b",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "19世紀”花の都パリ\"の象徴「オスマニアン建築」の60平米アパルトマンを全面リノベ！ 予算1850万円、アートと工夫が詰まった夫婦の空間が素敵すぎる　パリの暮らしとインテリア[24]",
+    "url": "https://suumo.jp/journal/2026/07/07/217561/",
+    "publishedAt": "2026-07-06T22:00:26.000Z",
+    "summary": "妻ヴェロニクさんは銀行のホスピタリティマネージャー。夫ローランさんは社会学者。結婚生活41年になるご夫妻は、1998年から今日まで、現在のアパルトマン（アパート）にお住まいです。その28年の歳月の中で、長女が誕生し、家族3人になり、3年前にはその長女も独立。家族が成長する空間から、夫婦2人の生活美意識を凝縮する空間へ、変化し続ける60平米を訪ねました。（文・Keiko Sumino-Leblanc ） 愛着ある賃貸物件を購入、そして大工事 ヘリンボーンに張った床、高い天井、大理石の暖炉etc. ヴェロニクさん&ローランさんのお住まいは、19世紀オスマニア…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "8b5bf8fee5695613",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "築60年超の団地に「ビール醸造所」やカフェ!? 地域住民が商品開発にも参加、シェアキッチンで“小さなお店の夢”を叶える「団地キッチン」さいたま市",
+    "url": "https://suumo.jp/journal/2026/07/03/217536/",
+    "publishedAt": "2026-07-02T22:00:48.000Z",
+    "summary": "JR武蔵野線・西浦和駅から徒歩数分。埼玉県さいたま市桜区の田島団地に隣接する一角に、かつて銀行の支店だった建物を改装した「『団地キッチン』田島」はあります。 運営するのは、UR都市機構のグループ会社として60年以上にわたり住宅管理を担ってきた日本総合住生活株式会社（以下、JS）。「食」をテーマに世代を超えたコミュニティをつくろうとする取り組みを取材しました。 銀行撤退から生まれた、団地の新たな拠点 「団地キッチン」田島は、カフェ、クラフトビールの醸造所（ブルワリー）、そして3つのシェアキッチンを備えた複合施設です。 一度にまとまった区画の集合住宅が整備さ…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
+  },
+  {
+    "id": "4ee536bc41b15f57",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "夏に暑さを感じるのは「寝室」。寝苦しさや電気代が気になって夏場のストレスに!?",
+    "url": "https://suumo.jp/journal/2026/07/01/218281/",
+    "publishedAt": "2026-06-30T22:00:07.000Z",
+    "summary": "2026年の夏は、太平洋高気圧とチベット高気圧が重なる「ダブル高気圧」の影響で、全国的に厳しい暑さが予想されているという。そんななか、夏の暑さと住まいに関する調査結果が相次いで発表された。いずれの調査も、自宅で暑さを感じるのは「寝室」という結果が出た。詳しく見ていこう。 【今週の住活トピック】 「夏の暑さと住まいに関する意識調査」結果発表／LIXIL 「夏の住まいの暑さ・湿気に関する意識調査 2026」結果発表／一条工務店 電気代の高さや寝苦しさが夏場のストレスに！？ まず、LIXILが「全国の持ち家（戸建て・分譲マンション）居住者で、電気代を自ら支払っ…",
+    "fetchedAt": "2026-08-01T16:42:37.453Z"
   },
   {
     "id": "ba459a3d7857ae96",
