@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T05:51:49.957Z",
-  "totalArticles": 1455,
+  "generatedAt": "2026-08-02T12:03:18.231Z",
+  "totalArticles": 1721,
   "themeCount": 16,
   "candidateCount": 16,
   "method": "rule-based keyword matching",
@@ -16,7 +16,7 @@
         "活用",
         "生成AI",
         "ChatGPT",
-        "Copilot"
+        "導入"
       ],
       "searchTerms": [
         "生成AI",
@@ -41,7 +41,9 @@
         "122a77ca397bae34",
         "d5ad0c3eec0b8c11",
         "45de4d6ad64fbf34",
+        "ac61f942b16e8718",
         "e74f272d586158b6",
+        "910a20f35421b162",
         "8aed98bea7f630a2",
         "81ac046fbaefc666",
         "ebd80794ff221e4c",
@@ -57,44 +59,117 @@
         "978de76491ad3950",
         "35acbf722b905c59",
         "15f694ccca3fd7d9",
+        "9aaf6568d183dbb4",
         "16eb23ae1d865f45",
         "c93646e47a2b2e30",
         "16b6bfc35852767b",
         "46cebecbab83e4bc",
         "f02b3e27834f7012",
+        "10207090446fe2ae",
         "4beeb768be9735e6",
         "54480ef975be5e0e",
+        "78159c2a776c1e1b",
         "b40c9644e6cb6c8c",
         "fbcfedecb86926e7",
+        "8f45d5ab8ab47a99",
         "75752a40a43aee02",
         "c04b3e742dc7fd32",
+        "bc0397634f6eab66",
         "e41ef298f3cb7354",
         "12104805f05ba26c",
         "017f9e9b4df86db3",
         "d3f4a5180eebed4d",
+        "8909d85cf623c559",
+        "644bb4b4685f8efc",
+        "6820d06a89ec4928",
         "4fac2a81a434d3a1",
         "fec42c256fea6ef5",
         "ee8db45590077640",
         "b0b37699f69b4128",
+        "940e7e1256f19c97",
         "8d14857a40a4884e",
+        "e22e89329ce37e24",
+        "a9e3c67273178751",
         "eacb2a407defd3aa",
         "b9518240141c2f25",
         "3924def162eedd37",
         "62362f8e0232e2b9",
         "ef4c3e3584ef4256",
-        "ea331e1a61b4d07c",
-        "ecb92cdc1d651134",
-        "fc2b057114879075",
-        "ebf16c0d6b88f915",
-        "8f21f44283dbbd68",
-        "4c7a70c2142235c3",
-        "8bf578f7eebdd318",
-        "5e4f185e204b1a85",
-        "37cf43d81fe7cb8c"
+        "ea331e1a61b4d07c"
       ],
-      "evidenceArticleCount": 55,
+      "evidenceArticleCount": 69,
       "confidence": 0.96,
-      "reason": "15 種類のキーワードが 55 件の記事でヒット（例：Claude、 AI、活用）"
+      "reason": "15 種類のキーワードが 69 件の記事でヒット（例：Claude、 AI、活用）"
+    },
+    {
+      "id": "security-breach",
+      "theme": "個人情報漏洩・セキュリティ対策",
+      "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "情報",
+        "サイバー攻撃",
+        "個人情報",
+        "漏えい",
+        "ランサム",
+        "不正アクセス"
+      ],
+      "searchTerms": [
+        "個人情報",
+        "漏えい",
+        "漏洩",
+        "ランサム",
+        "フィッシング",
+        "サイバー攻撃",
+        "情報",
+        "流出",
+        "セキュリティ",
+        "不正アクセス",
+        "被害"
+      ],
+      "evidenceArticleIds": [
+        "e62e37e89c01cc69",
+        "ce6da8b3e1877d58",
+        "f89102fcb3b7192a",
+        "4df884cb755a2a96",
+        "b2d2c32e88657b31",
+        "7526ae477807c8e1",
+        "ad63531bbdf79652",
+        "1c53eb65366304f3",
+        "d825e975916cbb8b",
+        "df9df6f66e325eab",
+        "036007644dffe045",
+        "d3c47a84bc8ee906",
+        "c836e40b2d7b3f35",
+        "7dfd36103e27af90",
+        "94f81c21e04465da",
+        "ef5306cb5ecabc6f",
+        "121bff6b0f305e61",
+        "4b3cc591bf413541",
+        "58bdd0b3aa322c27",
+        "a1167d06d12dc2f0",
+        "c44c304b78b696d1",
+        "689612a1036666af",
+        "11a761c52dae4e5a",
+        "9c694f913d5ab878",
+        "30194a29d161f841",
+        "287c16c07dd20372",
+        "1d5b3a6d3eb3c092",
+        "5364b956c670e858",
+        "ccef449a4687fc7a",
+        "09589dc24839ae61",
+        "0bcf86b668654cd1",
+        "f968a3171e579c47",
+        "da6aaa79a942ed39",
+        "0d830324d5f3d134",
+        "f28951ad7868357f",
+        "dd64271ab03bf3a7",
+        "b778b7551fcdb609",
+        "31931e12804789ed"
+      ],
+      "evidenceArticleCount": 38,
+      "confidence": 0.95,
+      "reason": "11 種類のキーワードが 38 件の記事でヒット（例：情報、サイバー攻撃、個人情報）"
     },
     {
       "id": "ai-coding",
@@ -132,6 +207,7 @@
         "b38dac98b7c4d442",
         "5a6bbd8f7834fc3a",
         "211d10a92b8dcb5d",
+        "910a20f35421b162",
         "866dae0e261d6373",
         "85f7d10ba51c87d7",
         "475af6ae350a2ce1",
@@ -145,9 +221,11 @@
         "e41ef298f3cb7354",
         "017f9e9b4df86db3",
         "78c4bacdda3f3520",
+        "8909d85cf623c559",
         "3c9652f07e173702",
         "eacb2a407defd3aa",
         "7e9d11fc61986cb6",
+        "2ce3f03e0fb8e0eb",
         "b9518240141c2f25",
         "71fe0f416c0f5fbb",
         "3924def162eedd37",
@@ -159,9 +237,68 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 33,
-      "confidence": 0.91,
-      "reason": "11 種類のキーワードが 33 件の記事でヒット（例：Claude Code、codex、Copilot）"
+      "evidenceArticleCount": 36,
+      "confidence": 0.9,
+      "reason": "11 種類のキーワードが 36 件の記事でヒット（例：Claude Code、codex、Copilot）"
+    },
+    {
+      "id": "infrastructure-outages",
+      "theme": "システム障害・可用性への関心",
+      "summary": "大規模障害の頻発を背景にした、可用性・監視・復旧設計への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "障害",
+        "復旧",
+        "影響",
+        "システム",
+        "サービス",
+        "AWS"
+      ],
+      "searchTerms": [
+        "障害",
+        "ダウン",
+        "復旧",
+        "不調",
+        "AWS",
+        "CloudFront",
+        "PayPay",
+        "システム",
+        "サービス",
+        "停止",
+        "アクセス",
+        "影響"
+      ],
+      "evidenceArticleIds": [
+        "ba6968ff36fc5437",
+        "0640da058bd7690c",
+        "2d15002b66a45426",
+        "036007644dffe045",
+        "2487a3178d2fc6e6",
+        "fd9a2866d1c144b3",
+        "70abad109feea0d4",
+        "728d5f741478a1c6",
+        "3387c43456e88917",
+        "9683eb10a28f55f8",
+        "31714153c1ef69ff",
+        "ab51597997a02e16",
+        "a5eaeb85305d6a3a",
+        "5364b956c670e858",
+        "0bcf86b668654cd1",
+        "f2543dd7d048e207",
+        "f968a3171e579c47",
+        "8b168b65f86faf1b",
+        "dd64271ab03bf3a7",
+        "24fe6ef017365832",
+        "485d56fcf20b8a49",
+        "a235f8243e0c248d",
+        "a6deeefb72857e5e",
+        "c58ae6ceeab58497",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 26,
+      "confidence": 0.94,
+      "reason": "12 種類のキーワードが 26 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "housing",
@@ -230,106 +367,56 @@
       "reason": "22 種類のキーワードが 21 件の記事でヒット（例：マンション、賃貸、住まい）"
     },
     {
-      "id": "infrastructure-outages",
-      "theme": "システム障害・可用性への関心",
-      "summary": "大規模障害の頻発を背景にした、可用性・監視・復旧設計への需要",
+      "id": "payment-troubles",
+      "theme": "決済インフラ・キャッシュレス",
+      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
       "category": "ビジネス",
       "relatedKeywords": [
-        "障害",
-        "復旧",
-        "影響",
-        "システム",
-        "サービス",
-        "AWS"
+        "決済",
+        "PayPay",
+        "カード",
+        "クレカ",
+        "キャッシュレス",
+        "クレジットカード"
       ],
       "searchTerms": [
-        "障害",
-        "ダウン",
-        "復旧",
-        "不調",
-        "AWS",
-        "CloudFront",
+        "決済",
+        "クレカ",
+        "クレジットカード",
         "PayPay",
-        "システム",
-        "サービス",
-        "停止",
-        "アクセス",
-        "影響"
+        "Visa",
+        "Suica",
+        "カード",
+        "支払い",
+        "払え",
+        "キャッシュレス",
+        "取引"
       ],
       "evidenceArticleIds": [
-        "0640da058bd7690c",
-        "2d15002b66a45426",
-        "2487a3178d2fc6e6",
-        "728d5f741478a1c6",
-        "9683eb10a28f55f8",
-        "31714153c1ef69ff",
-        "ab51597997a02e16",
-        "5364b956c670e858",
-        "0bcf86b668654cd1",
-        "f2543dd7d048e207",
-        "f968a3171e579c47",
-        "8b168b65f86faf1b",
-        "dd64271ab03bf3a7",
-        "24fe6ef017365832",
-        "485d56fcf20b8a49",
-        "a235f8243e0c248d",
+        "6afac132d339eab9",
+        "56ec8e1817c0a696",
+        "863b692d8b992b95",
+        "4de05a8ee9858ffa",
+        "ab6ad6a81aa4cfb5",
+        "bb962bf80ec9a0ca",
+        "cdcdbfbadb597d0c",
+        "f89102fcb3b7192a",
+        "72c89165ed6cc4fb",
+        "1497ad035faf58f4",
+        "af4fc0e547999438",
+        "d525d678e213e33b",
+        "efa8f82e0a7656dc",
+        "7d23fd4b8e588331",
+        "fad6cd527efa3c50",
+        "e905eff59636ae08",
         "a6deeefb72857e5e",
-        "c58ae6ceeab58497",
+        "e360e5574473698e",
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 20,
       "confidence": 0.93,
-      "reason": "12 種類のキーワードが 20 件の記事でヒット（例：障害、復旧、影響）"
-    },
-    {
-      "id": "security-breach",
-      "theme": "個人情報漏洩・セキュリティ対策",
-      "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "情報",
-        "サイバー攻撃",
-        "個人情報",
-        "漏えい",
-        "ランサム",
-        "不正アクセス"
-      ],
-      "searchTerms": [
-        "個人情報",
-        "漏えい",
-        "漏洩",
-        "ランサム",
-        "フィッシング",
-        "サイバー攻撃",
-        "情報",
-        "流出",
-        "セキュリティ",
-        "不正アクセス",
-        "被害"
-      ],
-      "evidenceArticleIds": [
-        "f89102fcb3b7192a",
-        "4df884cb755a2a96",
-        "b2d2c32e88657b31",
-        "7526ae477807c8e1",
-        "a1167d06d12dc2f0",
-        "c44c304b78b696d1",
-        "689612a1036666af",
-        "287c16c07dd20372",
-        "1d5b3a6d3eb3c092",
-        "5364b956c670e858",
-        "ccef449a4687fc7a",
-        "0bcf86b668654cd1",
-        "f968a3171e579c47",
-        "f28951ad7868357f",
-        "dd64271ab03bf3a7",
-        "b778b7551fcdb609",
-        "31931e12804789ed"
-      ],
-      "evidenceArticleCount": 17,
-      "confidence": 0.91,
-      "reason": "10 種類のキーワードが 17 件の記事でヒット（例：情報、サイバー攻撃、個人情報）"
+      "reason": "10 種類のキーワードが 20 件の記事でヒット（例：決済、PayPay、カード）"
     },
     {
       "id": "fitness-training",
@@ -339,10 +426,10 @@
       "relatedKeywords": [
         "筋肉",
         "毎日",
-        "トレーニング",
         "筋トレ",
+        "トレーニング",
         "ストレッチ",
-        "股関節"
+        "運動"
       ],
       "searchTerms": [
         "筋トレ",
@@ -368,6 +455,8 @@
         "分間"
       ],
       "evidenceArticleIds": [
+        "6674995cf6266914",
+        "c1bb1c0f801d7b63",
         "9b6c374bfa5c8f7a",
         "840527165c07e865",
         "acebab300efa1d99",
@@ -386,56 +475,9 @@
         "3a9f0177129d4886",
         "cbca98ab5d8a4caf"
       ],
-      "evidenceArticleCount": 17,
-      "confidence": 0.87,
-      "reason": "13 種類のキーワードが 17 件の記事でヒット（例：筋肉、毎日、トレーニング）"
-    },
-    {
-      "id": "payment-troubles",
-      "theme": "決済インフラ・キャッシュレス",
-      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "決済",
-        "PayPay",
-        "カード",
-        "クレカ",
-        "Visa",
-        "キャッシュレス"
-      ],
-      "searchTerms": [
-        "決済",
-        "クレカ",
-        "クレジットカード",
-        "PayPay",
-        "Visa",
-        "Suica",
-        "カード",
-        "支払い",
-        "払え",
-        "キャッシュレス",
-        "取引"
-      ],
-      "evidenceArticleIds": [
-        "863b692d8b992b95",
-        "4de05a8ee9858ffa",
-        "f89102fcb3b7192a",
-        "72c89165ed6cc4fb",
-        "1497ad035faf58f4",
-        "af4fc0e547999438",
-        "d525d678e213e33b",
-        "efa8f82e0a7656dc",
-        "7d23fd4b8e588331",
-        "fad6cd527efa3c50",
-        "e905eff59636ae08",
-        "a6deeefb72857e5e",
-        "e360e5574473698e",
-        "6d3295d8aef77bb3",
-        "f66e64028ec6546f"
-      ],
-      "evidenceArticleCount": 15,
-      "confidence": 0.92,
-      "reason": "10 種類のキーワードが 15 件の記事でヒット（例：決済、PayPay、カード）"
+      "evidenceArticleCount": 19,
+      "confidence": 0.91,
+      "reason": "16 種類のキーワードが 19 件の記事でヒット（例：筋肉、毎日、筋トレ）"
     },
     {
       "id": "study-methods",
@@ -445,8 +487,8 @@
       "relatedKeywords": [
         "脳",
         "脳科学",
-        "集中力",
         "集中",
+        "集中力",
         "習慣",
         "実践"
       ],
@@ -481,6 +523,7 @@
         "独学"
       ],
       "evidenceArticleIds": [
+        "21f10e0affe82b9e",
         "1eff7e45eb6a07fd",
         "22f8fdbfc0f664b2",
         "4efb928f7267fdd5",
@@ -493,9 +536,9 @@
         "72ee29e6de7fefcc",
         "ce6f93b52fab24e7"
       ],
-      "evidenceArticleCount": 11,
+      "evidenceArticleCount": 12,
       "confidence": 0.85,
-      "reason": "16 種類のキーワードが 11 件の記事でヒット（例：脳、脳科学、集中力）"
+      "reason": "16 種類のキーワードが 12 件の記事でヒット（例：脳、脳科学、集中）"
     },
     {
       "id": "ai-regulation",
@@ -529,15 +572,16 @@
         "e14459d1d7527cc9",
         "3c055302b0d3a3ee",
         "75752a40a43aee02",
+        "c8462d45b99bf2ea",
         "e1e25c3e3465493b",
         "d95ca7cebce53876",
         "4bf8f55cb8457c0e",
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 10,
+      "evidenceArticleCount": 11,
       "confidence": 0.85,
-      "reason": "7 種類のキーワードが 10 件の記事でヒット（例：AI、規制、安全性）"
+      "reason": "7 種類のキーワードが 11 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "exam-admission",
@@ -653,7 +697,7 @@
         "451bfbb30bc96343"
       ],
       "evidenceArticleCount": 9,
-      "confidence": 0.84,
+      "confidence": 0.83,
       "reason": "13 種類のキーワードが 9 件の記事でヒット（例：エアコン、家電、洗濯機）"
     },
     {
@@ -663,8 +707,8 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "NVIDIA",
-        "Rubin",
         "フィジカルAI",
+        "Rubin",
         "GPU",
         "データセンター",
         "計算基盤"
@@ -685,14 +729,16 @@
       "evidenceArticleIds": [
         "5456384d7d9407cc",
         "7fb18d14aca682c3",
+        "37487f7a015b38b9",
+        "c0e965912237c214",
         "518c2849e102028b",
         "80e3de34fa920b2b",
         "706ce620672e77a7",
         "5a133a290273e381"
       ],
-      "evidenceArticleCount": 6,
-      "confidence": 0.68,
-      "reason": "7 種類のキーワードが 6 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
+      "evidenceArticleCount": 8,
+      "confidence": 0.81,
+      "reason": "7 種類のキーワードが 8 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
       "id": "remote-work",
@@ -726,7 +772,7 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.68,
+      "confidence": 0.67,
       "reason": "7 種類のキーワードが 5 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
@@ -760,7 +806,7 @@
         "508f31c0d33ea0ec"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.73,
+      "confidence": 0.72,
       "reason": "8 種類のキーワードが 5 件の記事でヒット（例：高齢者、シニア、健康）"
     },
     {
@@ -790,11 +836,12 @@
       "evidenceArticleIds": [
         "edf7e0a21755decb",
         "30095b7179005226",
+        "2ab5a4afefa24cb6",
         "c93646e47a2b2e30"
       ],
-      "evidenceArticleCount": 3,
-      "confidence": 0.49,
-      "reason": "4 種類のキーワードが 3 件の記事でヒット（例：画像生成、画像、動画生成）"
+      "evidenceArticleCount": 4,
+      "confidence": 0.55,
+      "reason": "4 種類のキーワードが 4 件の記事でヒット（例：画像生成、画像、動画生成）"
     },
     {
       "id": "home-server-selfhost",

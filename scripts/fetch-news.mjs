@@ -141,6 +141,40 @@ const FEEDS = [
   //
   // MELOS は 家電・暮らしの道具 にもエアコンの電気代記事を 2 件足す（内容は正しい）。
   { name: 'MELOS',          url: 'https://melos.media/feed/' },
+
+  // ── 記事量の底上げ（2026-08-02 追加） ────────────────────────────
+  // これまでは「分野を埋める」ために足してきたが、今回は
+  // **1 日あたりの記事量そのもの**を増やすために足す。
+  //
+  // 採否は 2 つの実測で決めた。
+  //   ① 寄与率 = 取得した記事のうち、既存 16 テーマの根拠になった割合
+  //      （hot >= 1 かつ 合計 >= 4 点。実際に評価に使われる基準そのもの）
+  //   ② 件/日 = 返ってきた記事の日付から算出した実際の公開ペース
+  //
+  // 既存 24 フィードの寄与率は 全体 15% / 中央値 15% なので、
+  // **20% 以上**を採用ラインにした。
+  //
+  //   ITmedia エンタープライズ  50件  3.2 件/日  寄与 14 件 (28%)
+  //   Security NEXT          20件 12.9 件/日  寄与  6 件 (30%)
+  //   Think IT               30件  0.9 件/日  寄与  9 件 (30%)
+  //   ケータイ Watch           30件 19.6 件/日  寄与  7 件 (23%)
+  //   ScanNetSecurity        50件 12.5 件/日  寄与 10 件 (20%)
+  //   さくらのナレッジ          30件  0.2 件/日  寄与  6 件 (20%)
+  //   クラウドWatch            15件 14.9 件/日  寄与  3 件 (20%)
+  //   合計 225 件 / 64.2 件/日 / 寄与 55 件 (24%)
+  //
+  // 不採用（寄与率が既存中央値 15% 以下、または量が出ない）:
+  //   ASCII.jp 7% / CNET Japan 3% / DevelopersIO 3% / はてブ世の中 3% /
+  //   INTERNET Watch 0% / AV Watch 0% / PC Watch 10% /
+  //   ITmedia NEWS 速報 16%（0.4 件/日で量にならない）
+  //   InfoQ Japan・マイナビTECH+・ZDNET Japan は取得不可
+  { name: 'ITmedia エンタープライズ', url: 'https://rss.itmedia.co.jp/rss/2.0/enterprise.xml' },
+  { name: 'Security NEXT',   url: 'https://www.security-next.com/feed' },
+  { name: 'Think IT',        url: 'https://thinkit.co.jp/rss.xml' },
+  { name: 'ケータイWatch',     url: 'https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf' },
+  { name: 'ScanNetSecurity', url: 'https://scan.netsecurity.ne.jp/rss/index.rdf' },
+  { name: 'さくらのナレッジ',    url: 'https://knowledge.sakura.ad.jp/feed/' },
+  { name: 'クラウドWatch',     url: 'https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf' },
 ];
 
 /**
@@ -151,7 +185,13 @@ const FEEDS = [
  * 約 70 件 → 約 170 件。1000 件のままだと保持できるのは 6 日弱で、
  * growth の判定窓（直近 2 日 vs その前 5 日 = 7 日）を割ってしまう。
  */
-const MAX_ARTICLES = 3000;
+// 2026-08-02 に 3000 → 8000 へ引き上げた。
+// 実測: 既存 94.9 件/日 + 追加 7 本 64.2 件/日 = 159.1 件/日。
+// MAX_AGE_DAYS = 45 を保つには 159.1 × 45 = 7,160 件が要る。
+// 1 件あたり 807 バイトなので 8000 件で raw 約 6.2MB / gzip 約 2MB。
+// articles.json は日次コミットされるが、日々の差分は新規 160 件ぶんなので
+// git の delta 圧縮が効く。ブラウザには配信されない（public/ にミラーしない）。
+const MAX_ARTICLES = 8000;
 
 /**
  * 保持する最大日数。件数上限とは別に、古い記事は日付で落とす。
