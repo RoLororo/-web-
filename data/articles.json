@@ -1,5 +1,225 @@
 [
   {
+    "id": "dc669bd946b6d43c",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "「AI導入しても評価されない問題」は解決できるのか",
+    "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2129414.html",
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "summary": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。",
+    "fetchedAt": "2026-08-02T00:18:05.684Z"
+  },
+  {
+    "id": "bb0a70dc020dae7d",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "コーヒー三銃士がやってきた！「幸せを感じたコーヒーグッズ」3選 #これ買ってよかった",
+    "url": "https://www.lifehacker.jp/article/2607-korekai-three-coffee-musketeers/",
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "summary": "コーヒーを楽しみ抜いた筆者が、買ってよかった3つのアイテム、「Fellow Carter Move Mug」「OXO オート ドリップ コーヒーメーカー」「BODUM フレンチプレスコーヒーメーカー」を紹介します。",
+    "fetchedAt": "2026-08-02T00:18:11.937Z"
+  },
+  {
+    "id": "5b605e470313da26",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "傘が浮いた！？3COINSのシリコンホルダーが、雨天時に車へ荷物を積み込むときの救世主だった",
+    "url": "https://www.lifehacker.jp/article/2607gizmodo_3coins_silicone-magnetic-umbrella-holder/",
+    "publishedAt": "2026-08-01T23:30:00.000Z",
+    "summary": "3COINSで見つけた「シリコーンマグネット傘ホルダー」。いつもの傘に取り付けるだけで、車へ荷物を積み込む際のストレスを激減させてくれるアイテムです。",
+    "fetchedAt": "2026-08-02T00:18:11.937Z"
+  },
+  {
+    "id": "8e959add032ca21d",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "大分 日田で40度の酷暑日予想 東北は土砂災害などに厳重警戒を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193981000",
+    "publishedAt": "2026-08-01T23:24:24.000Z",
+    "summary": "西日本と東日本は2日も気温が上がり、大分県日田市では40度と酷暑日が予想されているほか、熊本県の地震の被災地でも危険な暑さとなる見込みで、引き続き熱中症への対策を徹底してください。一方、低気圧などの影…",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "6d51e34abf86def1",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "岡山 矢掛町 行方不明の2歳男児 祖母の家近くの山で無事発見",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015194021000",
+    "publishedAt": "2026-08-01T23:04:13.000Z",
+    "summary": "1日、岡山県矢掛町で祖母の家に帰省していた2歳の男の子の行方が分からなくなっていましたが、警察によりますと、2日午前7時半前、祖母の家の近くの山にいるのが見つかりました。男の子は無事だということです。",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "0fbc8cac1b32816d",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "米報道“週末にも攻撃計画” イランもけん制 攻撃応酬に懸念",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193951000",
+    "publishedAt": "2026-08-01T23:03:23.000Z",
+    "summary": "アメリカのメディアは、トランプ政権がこの週末にもイスラエルとともにイランへの攻撃を計画していると報じました。一方、イラン側も「アメリカの盾となる国は戦火で焼かれることになる」などと強くけん制し、攻撃の…",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "8bfef6b5f2163d04",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "植物は地球上であとどれくらい生き残れるのか？",
+    "url": "https://gigazine.net/news/20260802-plant-maximum-lifetime/",
+    "publishedAt": "2026-08-01T23:00:00.000Z",
+    "summary": "植物は地球上の動物の生活を支える重要な存在ですが、気温等の変化の影響を受けて絶滅してしまうかもしれません。その絶滅は一体いつ起こるのか、研究者らが予測しました。 続きを読む...",
+    "fetchedAt": "2026-08-02T00:18:06.367Z"
+  },
+  {
+    "id": "80ed94be839bf95a",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "迷子のケーブルさん、エレコムの新作「くっつくコネクタ」で居場所定まるよ",
+    "url": "https://www.lifehacker.jp/article/amazon-elecom-connectercable-2608/",
+    "publishedAt": "2026-08-01T23:00:00.000Z",
+    "summary": "USBケーブルはある程度の長さがなければ不便だと理解しつつも、使用・持ち運び・保管の際に絡まるとイライラしませんか？ それを吹っ飛ばすのが、6月22日に発売したTHANKO（サンコー）の「PD対応見える充電マグネットケーブル」です。 こちら、求めるメリットを全盛りした“最先端Type-Cケーブル”なんです。",
+    "fetchedAt": "2026-08-02T00:18:11.937Z"
+  },
+  {
+    "id": "be613fdb2ad4d0ce",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "ゼレンスキー大統領”迎撃したミサイル1発のみ” 欧米は支援を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193941000",
+    "publishedAt": "2026-08-01T22:51:14.000Z",
+    "summary": "ウクライナでロシア軍による弾道ミサイルなどを使った大規模な攻撃があり、首都キーウではこれまでに9人が死亡しました。ゼレンスキー大統領は弾道ミサイルのうち迎撃できたのは1発のみだったとして、欧米諸国など…",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "a68ef047945a1d20",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "サウンドハウスオリジナルTシャツレビュー｜音屋ファン注目の公式ロゴTを写真付きで紹介【夏向き】 | ギターいじリストのおうち",
+    "url": "https://guitar-ijiri.com/blog/review/apparel/soundhouse-original-tshirt/",
+    "publishedAt": "2026-08-01T22:39:51.000Z",
+    "summary": "サウンドハウスのオリジナルTシャツを実際に購入してレビュー。公式ロゴTのデザインや質感、着心地を写真付きで紹介します。音屋ファンなら気になる一枚を詳しくチェック。",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "5ff7e1e33e76aa1b",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "OpenAI、アクティブユーザー10億人超に　導入企業は200万社超",
+    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000346/",
+    "publishedAt": "2026-08-01T22:21:26.000Z",
+    "summary": "OpenAIは、アクティブユーザーが10億人、導入企業が200万社を突破したと公表した。推論の保持やコンテキスト管理の改善、本番ソフトウェアの最適化によりコスト削減やトークン生成効率の向上を実現。「GPT-5.6」の一部モデルの値下げはこれらの成果を顧客に還元したものであり、再投資の循環を強調した。",
+    "fetchedAt": "2026-08-02T00:17:59.486Z"
+  },
+  {
+    "id": "62a4741a00ea8009",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "新作「レイダース」で初めて「スプラトゥーン」に触れたマンガ家がその面白さに驚愕！　と同時に絶望した理由",
+    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000343/",
+    "publishedAt": "2026-08-01T22:15:00.000Z",
+    "summary": "23日にNintendo Switch 2用ソフト「スプラトゥーン レイダース」が発売されました。今作は1人でも遊べる、ステージクリア型のアクションゲーム。PvPが苦手なボクもこれなら楽しめそうです。",
+    "fetchedAt": "2026-08-02T00:17:59.486Z"
+  },
+  {
+    "id": "cd363cacb6237eba",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本 地震活動が活発 震度7程度に注意 危険な暑さ熱中症対策を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193991000",
+    "publishedAt": "2026-08-01T22:13:31.000Z",
+    "summary": "先月28日に最大震度7の非常に激しい揺れを観測した熊本県では、1日夜も宇城市で震度5弱の強い揺れを観測するなど地震活動が活発になっていて、気象庁は引き続き最大震度7程度の揺れに注意するよう呼びかけてい…",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "230de7202ea51210",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "あなたの学びに「補助線」を——あえて他分野を学ぶ効果と、オススメの組み合わせ。",
+    "url": "https://studyhacker.net/different-genre-learning",
+    "publishedAt": "2026-08-01T22:01:00.000Z",
+    "summary": "毎日コツコツ勉強している。資格の参考書も、ビジネス書も、英語アプリも続けている。勉強はもう習慣になっている。それなのに、会議で意見を求められた瞬間、学んだはずの知識がすっと出てこない。そんな心当たりはありませんか。 こんなとき、つい「もっと勉強しよう」と考えがちです。けれど、ある程度やっても手応えがないなら、足りないのは勉強の「量」ではなく、知識の「見方」かもしれません。 いま学んでいることを捨てる必要はありません。そこに、いつもと違う角度を1本だけ足してみる。それだけで、眠っていた知識が動きだすことがあるのです。 なぜ、量を足しても使えないのか どのジ…",
+    "fetchedAt": "2026-08-02T00:18:09.188Z"
+  },
+  {
+    "id": "4225ab8cdd8742a1",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "薬局チェーンが業務効率化のためにAIを導入したところ遅延・誤った情報提供・プライバシー問題などが発生",
+    "url": "https://gigazine.net/news/20260802-pharmacy-chain-ai/",
+    "publishedAt": "2026-08-01T22:00:00.000Z",
+    "summary": "アメリカのバーモント州とニューヨーク州で薬局チェーンを展開する「Kinney Drugs」は、処方箋の問い合わせや薬の再処方受付を効率化するためAIアシスタントを導入しました。しかし、導入後に薬の受け渡しの遅延や誤った再処方、患者情報の取り扱いに対する不安などが相次ぎ、顧客の不満が高まっています。 続きを読む...",
+    "fetchedAt": "2026-08-02T00:18:06.367Z"
+  },
+  {
+    "id": "010157e2bce53e3d",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「あと少し」がやめられない人へ。疲れをためる前に休む、3つの環境づくり",
+    "url": "https://studyhacker.net/concentration-recovery-system",
+    "publishedAt": "2026-08-01T22:00:00.000Z",
+    "summary": "締め切り前でも粘れたはずの集中力が続かない。休日を挟んでも、疲れが抜けない。それでも「気合いを入れ直せばまた戻るはず」と根性で乗り切ろうとして、うまくいかない……。 「前はもっとできていたはずなのに」。これまで結果にこだわって働いてきた人ほど、そんな戸惑いを感じやすいものです。 こうした行き詰まりの正体は、能力の低下ではなく、崩れてしまった「回復のシステム」にあります。根性で立て直そうとするのをやめ、仕組みのほうを整えれば、休むことは意外なほど自然に戻ってくるものです。 まずはセルフチェック。「休めない人」に共通する7つのサイン なぜ、わかっていても休め…",
+    "fetchedAt": "2026-08-02T00:18:09.188Z"
+  },
+  {
+    "id": "39c03859e236213c",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "Safari向け拡張機能「Filtre」なら、ネタバレもニュースもキーワードで手軽にブロックできる",
+    "url": "https://www.lifehacker.jp/article/2608-filtre-lets-you-block-unwanted-content-on-every-site-in-safari/",
+    "publishedAt": "2026-08-01T22:00:00.000Z",
+    "summary": "Safari向け拡張機能「Filtre」を使えば、見たくないキーワードを設定するだけで、不快なニュースやネタバレを自動でブロックできます。Appleデバイス間での同期にも対応し、見たい情報だけに集中できる快適なWeb閲覧環境を実現する便利な機能を紹介します。",
+    "fetchedAt": "2026-08-02T00:18:11.937Z"
+  },
+  {
+    "id": "53e08e55785f33b5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「深いメッセージ性も、巧みな伏線回収もない」「考察ブームへのアンチテーゼ」とある准教授の映画「ちいかわ」評が本当に観たのか不安な内容でスゴい",
+    "url": "https://togetter.com/li/2727643",
+    "publishedAt": "2026-08-01T21:02:51.000Z",
+    "summary": "｢クレヨンしんちゃん｣｢プリキュア｣とはまったく違う…映画｢ちいかわ｣が破った\"長編アニメのお約束\" | PRESIDENT Online（プレジデントオンライン） 7月24日に公開された『映画ちいかわ 人魚の島のひみつ』が好調だ。公開から3日で興行収入は22億4000万円、観客動員数は150万人を突破し、今年の夏映画の大本命となっている...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "30376a95bf10e833",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "モスクワで爆発 3人死亡 15人けが 原因や背景を捜査",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193971000",
+    "publishedAt": "2026-08-01T20:31:37.000Z",
+    "summary": "ロシアの首都モスクワ中心部で爆発があり、現地のメディアによりますと、これまでに3人が死亡し、15人がけがをしました。ロシアでは、ウクライナへの軍事侵攻開始以降、軍の幹部が爆発によって殺害される事件が相…",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "75889314318e541f",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本地震 関連調査中含め36人死亡 避難所の熱中症対策を強化へ",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193881000",
+    "publishedAt": "2026-08-01T20:26:50.000Z",
+    "summary": "先月28日の大地震で熊本県によりますと、県内ではこれまでに災害との関連を調査している2人を含めて36人が死亡し、9000人余りが避難しています。県内は暑さが続く見込みで、県は避難所での熱中症への対策を…",
+    "fetchedAt": "2026-08-02T00:17:58.475Z"
+  },
+  {
+    "id": "721ec3793fe4119c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "熊本地震後の宇城市において、「インドネシア人」たちが持っていたおにぎりなどが入ったファミマのケースは盗品ではないのでは - 電脳塵芥",
+    "url": "https://nou-yunyun.hatenablog.com/entry/2026/08/02/020000",
+    "publishedAt": "2026-08-01T17:12:29.000Z",
+    "summary": "https://x.com/Izumi_Sunagawa/status/2083100482109886869 宇城市において、インドネシア人があげたとされる動画が拡散していた。この動画は駐車場において休んでいる外国人と思われる複数の男性が映り、動画のさ中にファミマのケースが映り、そこには大量のおにぎりなどが入っているという動画である。この動画内でど...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "f6e0b6829a536d4d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "TVアニメ『天幕のジャードゥーガル』第3弾PV",
+    "url": "https://www.youtube.com/watch?v=MW7gpFhFC3Y",
+    "publishedAt": "2026-08-01T15:34:21.000Z",
+    "summary": "第3弾PV解禁✨ ボラクチン役を演じるのはくじらに決定！ テレビ朝日系全国24局ネット“IMAnimation”枠・BS 朝日ほかにて好評放送中！ ◆ストーリー 少女と妃。 復讐の絆で結ばれた二人が、地上最強の帝国に嵐を起こす――。 母を亡くし、故郷からも遠く引き離された幼い少女・シタラは、 学者一家の心優しい奥方・ファーティ...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "e999655afbf3540b",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -40,6 +260,36 @@
     "fetchedAt": "2026-08-01T16:02:20.291Z"
   },
   {
+    "id": "49f6a84b6e6e14ca",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造｜Infoseekニュース",
+    "url": "https://news.infoseek.co.jp/article/mogumogunews_36639/",
+    "publishedAt": "2026-08-01T14:42:42.000Z",
+    "summary": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造 もぐもぐニュース / 2026年7月30日 9時34分 序論：社会的弱者表象をめぐる現代の倫理的ジレンマ 2027年にテレビアニメ化が予定されている亜月ねね氏の漫画『みいちゃんと山田さん』を...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "421a716f4d7c5ee5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "亜月ねねとダイアナは別人なのか？別人主張の謎をわかりやすく解説｜大知コラム",
+    "url": "https://www.taichimaster.jp/miiyama-betsujin/",
+    "publishedAt": "2026-08-01T14:23:46.000Z",
+    "summary": "『みいちゃんと山田さん』の作者・亜月ねねが7月31日に出したポストが、いま大変なことになっている。 内容は「ダイアナというアカウントと私は別人です」という訂正だ。 これに対するネットの反応は、ほぼ一色だった。 「バレバレの嘘をついている」 証拠のスクリーンショットが次々と貼られ、擁護の声はかき消されてい...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "0653fd042946aca6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「最後は横山氏の政治感覚で」　維新、都構想の区割りを一任 | 毎日新聞",
+    "url": "https://mainichi.jp/articles/20260801/k00/00m/010/121000c",
+    "publishedAt": "2026-08-01T14:10:26.000Z",
+    "summary": "大阪維新の会は1日、大阪都構想の法定協議会（法定協）に提案した特別区の区割り3案を一つに絞り込む作業について、党代表代行の横山英幸・大阪市長に一任することを決めた。横山氏が4、8、24区案の中から選び、7日に開かれる次回法定協で示す。 大阪市議と市内選出の府議、国会議員らの会合で決定した。市を廃止して特...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "2908ab1fe102c954",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -50,6 +300,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "032d1e166a115591",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "CLAUDE.mdとAGENTS.mdを削ったら、AIコーディングがグンと賢くなった｜白井暁彦 aka しらいはかせ",
+    "url": "https://note.com/o_ob/n/nd19cba8e11d7",
+    "publishedAt": "2026-08-01T13:32:46.000Z",
+    "summary": "Claude CodeやCodexのようなコーディングエージェントを使い続けていると、いつの間にかCLAUDE.mdやAGENTS.mdが巨大化していきます。 最初は数十行だったはずなのに、注意事項を追加し、作業手順を書き足し、引き継ぎ事項を残し、過去のトラブルを記録しているうちに、数百行の「何でも帳」になってしまいます。 情報を...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "e8b613298f7e1a46",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -58,6 +318,26 @@
     "publishedAt": "2026-08-01T13:25:45.000Z",
     "summary": "1日午後9時47分ごろ熊本県で震度5弱の揺れを観測する地震がありました。この地震による津波の心配はありません。",
     "fetchedAt": "2026-08-01T15:00:17.388Z"
+  },
+  {
+    "id": "93dfc5907f93490c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "9月に閉館するライブハウス1000CLUBが移転して再オープン、キャパもステージの高さもそのまま - 音楽ナタリー",
+    "url": "https://natalie.mu/music/news/683429",
+    "publishedAt": "2026-08-01T13:22:54.000Z",
+    "summary": "9月に閉館するライブハウス1000CLUBが移転して再オープン、キャパもステージの高さもそのまま 2026年8月1日 19:29 7854 60 音楽ナタリー編集部 × 7854 この記事に関するナタリー公式アカウントの投稿が、SNS上でシェア / いいねされた数の合計です。 3887 3967 0 シェア",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "60c211d4504ca6d3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「経済オンチ」一部野党とメディア、高市首相の消費減税の理由を理解できない　高橋洋一　日本の解き方",
+    "url": "https://www.sankei.com/article/20260801-PAG2G7MRRBNUNIYGB6CSN3UHC4/?outputType=theme_weekly-fuji",
+    "publishedAt": "2026-08-01T13:20:38.000Z",
+    "summary": "消費税1％への減税について記者団の取材に応じる高市早苗首相＝7月30日午後、首相官邸高市早苗首相は7月30日、飲食料品の消費税率を来年4月から2年間限定で、現行の8％から1％に引き下げると表明した。1989年に消費税が導入されて以降、税率の引き下げは初めてとなる。中低所得者向けへの現金給付も行い、税負担を「実質...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "678bae38e6bdf128",
@@ -100,6 +380,16 @@
     "fetchedAt": "2026-08-01T15:13:28.305Z"
   },
   {
+    "id": "f1dce571217faa54",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "生鮮ジャガイモ解禁進展か　米国産、JA慎重対応要請 | NEWSjp",
+    "url": "https://news.jp/i/1455487618908619193?c=39550187727945729",
+    "publishedAt": "2026-08-01T13:00:30.000Z",
+    "summary": "現在は輸入を禁止している米国産の生鮮ジャガイモを巡り、日米両政府が解禁に向けた協議を進めていることが30日、分かった。農林水産省によると、解禁可否の判断時期は未定。これまで日本政府は病害虫の侵入を防ぐため、ポテトチップス用以外の輸入を原則として認めていなかった。 全国農業協同組合中央会（JA全中）の神...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "c495e2e5b8593fec",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -140,6 +430,16 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "932f41eb21c50102",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "《避難所の厳しい現実》“進次郎クーラー”300台搬入も「電源がなく機材は置かれたまま」の現場、トイレは「プールの水を汲んで流す。ドボンと落ちそう」…震災経験は生かされているのか【熊本地震】",
+    "url": "https://www.news-postseven.com/archives/20260801_2124334.html?DETAIL",
+    "publishedAt": "2026-08-01T12:20:26.000Z",
+    "summary": "《避難所の厳しい現実》“進次郎クーラー”300台搬入も「電源がなく機材は置かれたまま」の現場、トイレは「プールの水を汲んで流す。ドボンと落ちそう」…震災経験は生かされているのか【熊本地震】 7月28日に震度7の揺れが熊本を襲ってから数日。余震が収まらないなか、一部の住民たちは今も学校の体育館や防災センターで...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "3871641d6ca9b21c",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -158,6 +458,16 @@
     "publishedAt": "2026-08-01T12:00:00.000Z",
     "summary": "「もし自分の手でお酒を熟成させたら？」そんな好奇心を叶えるOAKHAUSの透明熟成樽。熟成の経過を目で鑑賞しながら、自分好みの極上の一杯を育てられます。ウイスキー好き必見のホームバー体験をご紹介！",
     "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
+    "id": "ad283367884aab14",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "住宅ローン固定金利引き上げ 大手5行 三井住友信託は4％超え",
+    "url": "https://news.tv-asahi.co.jp/news_economy/articles/000523418.html",
+    "publishedAt": "2026-08-01T11:59:46.000Z",
+    "summary": "1 住宅ローンの固定金利がそろって引き上げられます。 大手銀行5行が、8月の住宅ローン金利を発表しました。 固定10年の「最優遇金利」は三菱UFJ銀行は3.59％、三井住友銀行は3.65％、みずほ銀行は3.35％に引き上げられます。 三井住友信託銀行は4.105％、りそな銀行は3.795％に引き上げられます。 （2026年8月1日放送分...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "d571158e8911bc0d",
@@ -200,6 +510,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "11d688bac9ddb500",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "京都に旅行した時、京都河原町駅で駅員さんに「四条はどうやって行くんですか？」と聞いたら「ここが四条です」と言われた→客が何を求めているかを理解すべきか？伝え方の問題か？",
+    "url": "https://togetter.com/li/2727438",
+    "publishedAt": "2026-08-01T11:39:20.000Z",
+    "summary": "れもん🐖(°▿°)🇯🇵 @thronefallosusu 京都に旅行行った時、京都河原町駅で駅員さんに 「四条はどうやって行くんですか？」 って聞いたら 「ここが四条です」 って言われたからね。 駅員さんにだよ？ 旅行客が四条駅の事聞いてるってわかっててそう答えてるだろ。 x.com/orangeitems_/s… 2026-07-31 10:15:26 orangeitems @...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "44df34144bdaefe8",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -208,6 +528,16 @@
     "publishedAt": "2026-08-01T11:23:03.000Z",
     "summary": "地震後に大規模な爆発が起き、7人が死亡、5人がけがをした熊本県嘉島町のショッピングセンター「イオンモール熊本」。熊本県によりますと、警察や消防による捜索活動は1日正午に終了しました。地震の発生から爆発…",
     "fetchedAt": "2026-08-01T15:00:17.388Z"
+  },
+  {
+    "id": "f3c91772e470e82e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ロシアのミサイル攻撃で9人死亡　ゼレンスキー氏「1発しか撃墜出来ず」",
+    "url": "https://news.tv-asahi.co.jp/news_international/articles/000523513.html",
+    "publishedAt": "2026-08-01T11:16:58.000Z",
+    "summary": "1 ウクライナのキーウでロシアによるミサイル攻撃が相次ぎ、これまでに9人が死亡しました。ゼレンスキー大統領は不足する迎撃ミサイルへの支援を訴えています。 1日未明、ロシアからミサイル35発と185機のドローンが発射され、キーウでは5階建ての住宅の一部が崩落して炎上するなど、これまでに9人が死亡、およそ30人が...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "5fbd6ca6ded80220",
@@ -240,6 +570,16 @@
     "fetchedAt": "2026-08-01T15:00:18.618Z"
   },
   {
+    "id": "5ca61e48838ed975",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "椅子取りゲームに勝ち続けた氷河期世代の俺から一言",
+    "url": "https://anond.hatelabo.jp/20260801194409",
+    "publishedAt": "2026-08-01T10:47:21.000Z",
+    "summary": "俺みたいなことを書くと、必ず同じ脅しが返ってくる。 「そんなこと言ってると、お前が障害者になったときに困るぞ」 「お前の子供が負け組になったらどうするんだ」 全然響かない。一ミリもだ。理由を説明する。 その脅しが効くのは、「落ちたら誰かが助けてくれる世界」を信じてる奴だけなんだよ。落ちたときに拾って...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "65ebae2033506545",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -248,6 +588,16 @@
     "publishedAt": "2026-08-01T10:39:26.000Z",
     "summary": "Blaugust2026(Day1) どうも、ねじまきです。 2026年のブローガスト、本日よりスタート。 「8月にブログを毎日書く」という世界的なオンラインイベント。 詳細はこちらより。 www.nejimakiblog.com 去年のBlaugustの思い出と言えば・・・ そう、去年は言いだしっぺにもかかわらず、 仕事付き合いの飲み会に誘われ、 一日...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "d26e75731044b2ce",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "個人開発で踏みやすいパフォーマンス・アンチパターン 5 点 — Prisma N+1 から useMemo 漏れまで",
+    "url": "https://qiita.com/teppei19980914/items/8d0ec908a7943725ec98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T10:31:36.000Z",
+    "summary": "この記事は約 5 分で読めます。 筆者プロフィール: ソフトウェアエンジニア。「知った気にならない。いつまでも学び続ける」を信条に、業務と個人開発の両輪で技術を磨いています。AI 駆動開発で複数の個人開発アプリを構築・運用中。 👉 ポートフォリオ: 筆者ホームページ 「...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "211a30441ccaa37c",
@@ -268,6 +618,16 @@
     "publishedAt": "2026-08-01T10:18:31.000Z",
     "summary": "「求めているものに完璧に応えてる」話題の副首都法案について、京都府知事が「『京都はもともと首都なので副首都でいいのか』と言う人はいる」という声を紹介、圧倒的な京都しぐさ",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "6e24d23292e20269",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「くまモン」が活動休止、熊本県　支援使用は許諾不要の届け出制 | NEWSjp",
+    "url": "https://news.jp/i/1456199280523575983?c=39550187727945729",
+    "publishedAt": "2026-08-01T10:15:04.000Z",
+    "summary": "熊本県で最大震度7を観測した地震を受け、県は1日までに、PRキャラクター「くまモン」が活動を休止したと発表した。募金など地震被害の支援活動に使う場合は、現在公表している全てのイラストを許諾不要の届け出制で使用できるという。 くまモンの公式X（旧ツイッター）は地震が起きた7月28日、「地震発生に伴い、くまモ...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "065ae2efa16c4a11",
@@ -310,6 +670,26 @@
     "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
+    "id": "3dc00c3c678c2afe",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【AWS】Managed Knowledge Baseでの検索フィルターを確認しました",
+    "url": "https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T09:59:21.000Z",
+    "summary": "はじめに Managed Knowledge Baseと検索フィルターを組み合わせていろいろ試してみました。 Gateway の Interceptor で検索リクエストを書き換えれば、検索の時点で絞り込めるはず。そう思って試したら、思っていたより制約が多かったので書き残...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
+    "id": "653f57738f8c4445",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『みいちゃんと山田さん』障害をもつ主人公が転落していく様を楽しむヤンマガ編集部",
+    "url": "https://www.nicovideo.jp/watch/sm46610918",
+    "publishedAt": "2026-08-01T09:51:41.000Z",
+    "summary": "「みいちゃんと山田さん」へのアツい感想を教えてくれる講談社 ヤンマガ編集部の皆様出演：三浦 礼士上田 航平暮田 佳音乙部 修平（左から右へ）",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "094444ad864c9d37",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -338,6 +718,16 @@
     "publishedAt": "2026-08-01T09:20:05.000Z",
     "summary": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］ 編集部：haruka 中国のゲームメーカーJoystickは，サクセスが2006年に発売したニンテンドーDS用ソフト「メタルサーガ 〜鋼の季節〜」のリマスター版（PC / PS5 / PS4 / Nintendo Switch 2）を発表し，20...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "3f4ee8fd7d7b0b34",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "サッカーゲームは「動かせない21人」といかにして戦ってきたか｜遊星歯車機関",
+    "url": "https://note.com/planetary_gear/n/nc5f8073392e3",
+    "publishedAt": "2026-08-01T09:13:01.000Z",
+    "summary": "文・otaku can change the world サッカーは決して一人ではできない。 ── 『イナズマイレブンGO』円堂守 今日の格言（47話）0.サッカーゲームは選手を操作するとは限らない世界で最も長く続いているサッカーゲームの系譜の一つは、選手をまったく操作できない。 1982年、英国のプログラマー、ケヴィン・トムズ（Kevin To...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "84d304ecdec82cce",
@@ -440,6 +830,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "eb0b7520359cdd26",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "不法滞在者を超低賃金・超長時間労働で搾取、ルーマニア人4人摘発 イタリア",
+    "url": "https://www.afpbb.com/articles/-/3646640",
+    "publishedAt": "2026-08-01T07:17:50.000Z",
+    "summary": "【8月1日 AFP】イタリア警察は7月31日、シチリア島で不法滞在の外国人（不法移民）を搾取し、電気も水道も通っていない家に住まわせ週70時間の過酷な労働を強いていたとして、ルーマニア人の男4人を摘発したと発表した。 パレルモ警察によると、高品質な柑橘（かんきつ）類の産地として知られるシチリア島中部エンナの検...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "ddd3cb41129f6f11",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -490,6 +890,26 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "cb4906e868c77182",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Copilot活用に向けた「Microsoft Teamsでの情報共有の考え方」を作成しました  | 北海道大学DX業務推進室",
+    "url": "https://mx.general.hokudai.ac.jp/posts/SuvDaMaR",
+    "publishedAt": "2026-08-01T06:41:19.000Z",
+    "summary": "こんにちは！「事務職員が変われば、北大は変わる」を信じてる、北海道大学DX業務推進室の佐久間です。Microsoft 365 Copilotをもっと活用するためには、業務に関する情報がTeams上に適...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
+    "id": "ecb3c7eb7859664a",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "セキュリティの仕事は、社内に落ちている──情シス・インフラが最初に拾うべき5つ",
+    "url": "https://zenn.dev/gangy/articles/7ae64ac2a9e435",
+    "publishedAt": "2026-08-01T06:32:51.000Z",
+    "summary": "この記事について 「セキュリティをやりたいけど、転職しないと無理だと思っている」——情シスやインフラ運用をしている人から、わりとよく聞く話です。 でも実際にやってみて思うのは、セキュリティの仕事は、たいてい社内に落ちているということです。誰の担当でもないまま放置されているタスクが必ずあって、それを拾...",
+    "fetchedAt": "2026-08-02T00:18:07.340Z"
+  },
+  {
     "id": "7a992fb5e8218120",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -530,6 +950,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "e0da20b7bfc16372",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "品川会 #7 に富山から参加して登壇してきた",
+    "url": "https://qiita.com/ssakita/items/fee908686d2b9f72b30d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T05:38:34.000Z",
+    "summary": "はじめに こんにちは！ssakitaです！ 7月29日（水）、株式会社クレスコさんで開催された「品川会 #7」に参加してきました！ 品川会は初参加で、せっかくなので登壇もさせていただきました！ 品川会とは 前Jr.Championの八雲さんが立ち上げた、AWSを中心と...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
     "id": "e17094fbe74ed98c",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -548,6 +978,16 @@
     "publishedAt": "2026-08-01T05:27:16.000Z",
     "summary": "個人の金融所得が社会保険料の算定に反映される新制度 金融所得課税が強化されつつありますが、先だって社会保険料の算定基準も変わる、ということで話が進んでいますね。日本はこれから、少子化に伴う国民負担率の上昇という困難な道に直面します。増税と社保負担増の両輪です。 これまでは氷河期世代が団塊世代の老後...",
     "fetchedAt": "2026-08-01T15:53:34.679Z"
+  },
+  {
+    "id": "cff1531a61ef7c53",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "skills/plugins/html/skills/html at main · mathbullet/skills",
+    "url": "https://github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
+    "publishedAt": "2026-08-01T05:17:24.000Z",
+    "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "2c03a41acf32534e",
@@ -790,6 +1230,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "245589798a16fe2a",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【YAMAHAルーター】RTX1300を2台でHA構成。VRRPの基本から（1回目）",
+    "url": "https://qiita.com/Heizo_Hasegawa/items/8ea5d459681f7f7ac2a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T02:38:21.000Z",
+    "summary": "はじめに 最近、もんじゃが美味しい街での技術勉強会に呼ばれることが増えてきました。 若手エンジニアさん達が物理サーバの蓋を開けて、おそるおそるメモリやライザーカードを挿してる姿を見ると色々と教えられるものがありますね。初心忘れるべからず。 さて、サーバ側でどれだけHA組も...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
     "id": "0e089b9f8553ce73",
     "source": "ライフハッカー",
     "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
@@ -860,6 +1310,16 @@
     "fetchedAt": "2026-08-01T15:00:17.953Z"
   },
   {
+    "id": "0127d7133788613a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "新しい SLO が良い感じにハマっている話",
+    "url": "https://speakerdeck.com/z63d/about-how-the-new-slo-is-fitting-in-nicely",
+    "publishedAt": "2026-08-01T01:00:01.000Z",
+    "summary": "もう一度考えるSRE #1 https://topotal.connpass.com/event/399194/",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "c273de28d87a3c43",
     "source": "ITmedia Mobile",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
@@ -908,6 +1368,16 @@
     "publishedAt": "2026-08-01T01:00:00.000Z",
     "summary": "針がありません。数字の描かれた球体が目盛りの上を渡っていく自動巻き腕時計「TIMEORB」。ワンダリングアワーという、17世紀生まれの時間の読み方を腕に乗せてみました。",
     "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
+    "id": "7d7d159a65641732",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「史上最悪の欠陥マンション」はなぜ生まれてしまったのか？ 東京八王子『ベルコリーヌ南大沢』関係者が明かす“杜撰すぎる建設エピソード” | 文春オンライン",
+    "url": "https://bunshun.jp/articles/-/90243",
+    "publishedAt": "2026-08-01T00:36:34.000Z",
+    "summary": "史上最悪の欠陥マンション群を生んだ「2つの要因」 なぜ、これほど重大な欠陥が、大量に生じたのか。 その直接的な原因は、「工期の短さ」と「寄せ集めの建設会社による野放図な施工」に集約される。 まず、「工期の短さ」をみてみよう。通常、団地を建設するには、土地の取得から設計、各種認可、着工、竣工まで「5年」...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "22d0f9fbe589cdde",
@@ -1140,6 +1610,16 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "769a95fcdb14353f",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "ガバメントクラウドでのAWS DevOps Agentの活用",
+    "url": "https://qiita.com/infra365/items/70eb40b12d6f9c0011ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-31T20:16:50.000Z",
+    "summary": "概要 2026/07/31に開催されたJAWS UG 名古屋 × Gov JAWSコラボにて「ガバメントクラウドでのAWS DevOps Agentの活用」というタイトルでLT登壇させていただいた内容です。 ガバメントクラウドの運用はマルチアカウント構成や閉域ネット...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
     "id": "705694bbd6eee007",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -1198,6 +1678,16 @@
     "publishedAt": "2026-07-31T17:45:21.000Z",
     "summary": "MADE IN YAMATO。この女、ただの筋トレ女子にあらず、 筋に囚われた獣なり‼ 美容、健康、話題作り、様々な理由で筋トレをする者がいるが、この女、信濃川大和はそんな生ぬるい理由では断じて筋トレはせぬ‼ ひたすらに筋肉を愛し筋肉のために筋肉を想い続け筋肉を育てし求道者なり‼ しかし、筋肉とは仲良くできても、ちょ...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "5456384d7d9407cc",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "スマホのWebGPUで分散AI基盤を作ろうとしたら精度差で出力が分岐した話（ArcAsha-OS開発記）",
+    "url": "https://qiita.com/ryotani3/items/af4244bb68009412ee83?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-31T16:41:18.000Z",
+    "summary": "はじめに Big Techの巨大データセンターに対抗し、**「自分の部屋にあるスマホ群を繋いで分散知能を作る」**をテーマに、オープンソースのエッジ分散AI基盤 ArcAsha-os を開発しています。 今回、MacのMaster（Orchestrator）に対して、iP...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "0405d60f5c097e0a",
@@ -2880,6 +3370,16 @@
     "fetchedAt": "2026-08-01T15:00:18.618Z"
   },
   {
+    "id": "01813d2a4e57468a",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "検証！Claude Codeのサブエージェント並列はお得なのか",
+    "url": "https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-31T01:46:31.000Z",
+    "summary": "Claude Codeのサブエージェント、並列にすると本当に速い・お得なのか実測してみた 前回はモデルごとのトークン消費比較をやりました。今回は第3弾として、Claude Codeのサブエージェント(Agentツール)を並列実行するとどれだけ効果があるのかを実際に測定して...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
     "id": "0a71b8bd4c73584b",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -3540,6 +4040,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "fef6a8bd62bf09d6",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【AWS】S3 + CloudFrontで静的サイトを安全に公開！OACとAWS WAF（IP制限）の設定手順",
+    "url": "https://qiita.com/kandu/items/53c5de65a6f3fe3cbbee?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-30T22:14:41.000Z",
+    "summary": "はじめに Amazon S3とAmazon CloudFrontを組み合わせて、静的Webサイト（HTML/CSS/JS等）を配信するインフラを構築しました。 本記事では、AWSマネジメントコンソールを使った具体的な構築手順に加え、セキュリティ強化のための OAC（Ori...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
     "id": "c20d4109332b4a7b",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4050,6 +4560,16 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
+    "id": "f590f649fd41c9a3",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "ZedエディタのGPUIを使ったUIアプリを作成",
+    "url": "https://qiita.com/fits/items/a7379b14a05b755a1fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-30T08:58:17.000Z",
+    "summary": "ZedはGPUを活用したRust製の高性能エディタで、3Dゲームのような手法で画面を描画しているのが特徴です。 GPUIと呼ばれるUIフレームワークがUIの描画を担っており、そのコア機能がgpuiクレートとして利用できるようになっています。 gpui 0.2.2 そこで...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
+  },
+  {
     "id": "3c0f208660d20a62",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4078,6 +4598,16 @@
     "publishedAt": "2026-07-30T08:45:03.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
+    "id": "a206c6022d84db64",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "フラグシップウォークマンWM1シリーズ「NW-WM1ZM2」が出荷完了。現行WALKMANすべて在庫限り。 - ソニーが基本的に好き。| ソニーショップくんこく",
+    "url": "https://kunkoku.jp/nw-wm1zm2-discontinued.html",
+    "publishedAt": "2026-07-30T08:40:20.000Z",
+    "summary": "フラグシップウォークマンWM1シリーズ「NW-WM1ZM2」が出荷完了。現行WALKMANすべて在庫限り。 ソニーのフラグシップウォークマンWM1シリーズ「NW-WM1ZM2」について正式に出荷完了となった。 ソニーストアでは、その出荷完了にともなって販売価格を値下げされている。 ウォークマンWM1シリーズ「NW-WM1ZM2」【256GB】 カ...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "2ca2c9f8f38f6efd",
@@ -4188,6 +4718,16 @@
     "publishedAt": "2026-07-30T06:46:26.000Z",
     "summary": "ITエンジニア向け技術書籍の読み放題サービス「TechLib」（月額3,080円）では、プログラミング言語、サーバー・クラウドサービス、コンテナ開発、情報処理資格、AI・機械学習、ネットワーク・セキュリティなど様々なジャンルの書籍を取り揃え、続々と新しい書籍が追加されている。本コーナーでは、そんな「TechLib」に新規で追加された書籍を紹介する。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "39cd1cb2b1b53023",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "C#で new を差し替える実験的モックツールを作っている話",
+    "url": "https://qiita.com/kaneko_desu/items/a75831913a96757444fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-30T06:43:45.000Z",
+    "summary": "C#で new を差し替える実験的モックツールを作っている話 C# のテストで、次のようなコードに出会うことがあります。 namespace TargetApp; public class UserService { public string GetDispl...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "1fea74a85f3434c8",
@@ -4688,6 +5228,16 @@
     "publishedAt": "2026-07-29T21:55:00.000Z",
     "summary": "米Microsoftは7月27日（現地時間）、 「MAI-Cyber-1-Flash」 を発表した。脆弱性の発見に特化した自社製のAIモデルで、同社の 「MDASH」 （multi-agent vulnerability identification and remediation harness：マルチエージェント脆弱性検出・修復ハーネス）に統合されるという。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "82143c0fd7d44730",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "開発エコシステムdbtはもう不要？Snowflake Dynamic TablesとSQLMesh on Databricksの台頭がもたらす影響",
+    "url": "https://qiita.com/mellowlaunch/items/96c71af13cd4b4350c28?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-29T21:23:32.000Z",
+    "summary": "📚 関連書籍 『Databricks──ゼロから触ってわかった！Databricks非公式ガイド（2026年更新版）』 クラウド時代の分析基盤を “体験的” に学べるベストセラー入門書。 Databricksの操作、SQL／DataFrame、Delta Lakeの基...",
+    "fetchedAt": "2026-08-02T00:18:01.840Z"
   },
   {
     "id": "903230b7121532e3",
@@ -5730,6 +6280,16 @@
     "fetchedAt": "2026-07-29T00:11:10.368Z"
   },
   {
+    "id": "c584f3c12cadc184",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "モラル・ライセンシング - Wikipedia",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%A9%E3%83%AB%E3%83%BB%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0",
+    "publishedAt": "2026-07-28T22:05:58.000Z",
+    "summary": "モラル・ライセンシング（英: moral licensing、セルフ・ライセンシング：en:self-licensing）とは、心理的に自分が過去に行った道徳的・倫理的な行動体験に基づき、その後の非道徳的・非倫理的な行動を自己中心的に正当化して行う現象を指す。社会心理学、マーケティングにおける概念である[1][2]。 これは、道徳行動と...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
+  },
+  {
     "id": "4ff6cfa5411f1123",
     "source": "STUDY HACKER",
     "sourceUrl": "https://studyhacker.net/feed",
@@ -6238,6 +6798,16 @@
     "publishedAt": "2026-07-28T10:00:00.000Z",
     "summary": "ショート動画をひとつ見るだけのつもりが、気づけば30分。仕事の合間にSNSを開き、通知が鳴ればすぐ手が伸びる。腰を据えて何かに取り組もうとしても、数分で集中が切れて、またスマホを触ってしまう。 こうした状態は、ネット上で「ドパガキ」「ドーパミン中毒」と呼ばれ、若い世代を中心に自虐まじりに語られています。強い刺激に慣れて、刺激がないと落ち着かない。心当たりがあるかもしれません。 ただ、これを「自分の意志が弱いせい」と責める必要はありません。むしろ逆で、スマホを手放せないのは、手放せないように作られているから。だとすれば、打つ手は根性ではなく、別のところにあ…",
     "fetchedAt": "2026-08-01T15:53:35.910Z"
+  },
+  {
+    "id": "65d2d562f645d190",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「天皇陛下に弓を引いた」高市内閣の支持率が急落！　ゾンビのように生き残ろうとする政府の次の一手は「反中国」への国民扇動　古賀茂明 | AERA DIGITAL（アエラデジタル）",
+    "url": "https://dot.asahi.com/articles/-/288530?page=1",
+    "publishedAt": "2026-07-28T09:54:51.000Z",
+    "summary": "古賀茂明氏 この記事の写真をすべて見る 何が起きても下がらないと言われていた高市早苗首相の内閣支持率が急落している。毎日新聞の7月の世論調査では、支持率 41％（10ポイント減）、不支持率 44％と、初めて不支持率が支持率を上回った。「報道ステーション」（テレビ朝日系）、朝日新聞、読売新聞などの同月の世論調...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "68eb4e9547676b97",
@@ -7798,6 +8368,16 @@
     "publishedAt": "2026-07-25T15:16:17.000Z",
     "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/",
     "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "b8c39611fbc7fec4",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "みいちゃんと山田さん | 【第36話(1)】知らない知らない知らない / マガポケ | 少年マガジン公式無料漫画アプリ",
+    "url": "https://pocket.shonenmagazine.com/title/02620/episode/441298",
+    "publishedAt": "2026-07-25T15:07:34.000Z",
+    "summary": "みいちゃんと山田さん亜月ねねUP次回更新は8/16(日曜)予定です。 無料話更新：隔週日曜 最新話更新：隔週日曜 2012年、新宿。夜の街でキャバクラ嬢として働く山田さんは、何をやってもダメダメな新人・みいちゃんと出会う。ヤル気と元気はあるものの、漢字も空気も読めないみいちゃんは、周りから馬鹿にされ「可哀想」の...",
+    "fetchedAt": "2026-08-02T00:18:01.033Z"
   },
   {
     "id": "873e62f312cfa639",

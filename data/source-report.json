@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:20:19.088Z",
+  "generatedAt": "2026-08-02T00:23:47.332Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,11 +10,11 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:55:19.708Z",
+      "generatedAt": "2026-08-02T00:19:41.701Z",
       "mappedThemeCount": 13,
-      "successCount": 12,
+      "successCount": 13,
       "skippedCount": 0,
-      "errorCount": 1,
+      "errorCount": 0,
       "requestCount": null,
       "observedThemes": [
         "ai-business-automation",
@@ -32,14 +32,8 @@
         "exam-admission"
       ],
       "skipped": [],
-      "errors": [
-        {
-          "theme": "exam-admission",
-          "type": "unknown",
-          "retryable": false
-        }
-      ],
-      "totalVolume": 118199
+      "errors": [],
+      "totalVolume": 118086
     },
     {
       "id": "qiita",
@@ -50,14 +44,23 @@
       "apiDocs": "https://qiita.com/api/v2/docs",
       "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:55:26.923Z",
+      "generatedAt": "2026-08-02T00:19:45.127Z",
       "mappedThemeCount": 13,
-      "successCount": 1,
+      "successCount": 10,
       "skippedCount": 3,
-      "errorCount": 21,
-      "requestCount": 13,
+      "errorCount": 0,
+      "requestCount": 47,
       "observedThemes": [
-        "ai-business-automation"
+        "ai-business-automation",
+        "ai-coding",
+        "ai-content-generation",
+        "ai-hardware",
+        "infrastructure-outages",
+        "security-breach",
+        "payment-troubles",
+        "home-server-selfhost",
+        "remote-work",
+        "study-methods"
       ],
       "skipped": [
         {
@@ -76,114 +79,8 @@
           "note": null
         }
       ],
-      "errors": [
-        {
-          "theme": "ai-business-automation",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-coding",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-coding",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-content-generation",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-content-generation",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-hardware",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-hardware",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "ai-hardware",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "infrastructure-outages",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "infrastructure-outages",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "security-breach",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "security-breach",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "security-breach",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "security-breach",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "payment-troubles",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "payment-troubles",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "home-server-selfhost",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "remote-work",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "remote-work",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "study-methods",
-          "type": "rate-limit",
-          "retryable": true
-        },
-        {
-          "theme": "study-methods",
-          "type": "rate-limit",
-          "retryable": true
-        }
-      ],
-      "totalVolume": 1041
+      "errors": [],
+      "totalVolume": 2368
     },
     {
       "id": "arxiv",
@@ -194,7 +91,7 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T16:19:22.516Z",
+      "generatedAt": "2026-08-02T00:21:47.341Z",
       "mappedThemeCount": 13,
       "successCount": 13,
       "skippedCount": 0,
@@ -217,7 +114,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 3057
+      "totalVolume": 2876
     },
     {
       "id": "appstore",
@@ -228,7 +125,7 @@
       "apiDocs": "https://rss.marketingtools.apple.com/",
       "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
       "windowDays": 1,
-      "generatedAt": "2026-08-01T15:55:53.262Z",
+      "generatedAt": "2026-08-02T00:21:45.039Z",
       "mappedThemeCount": 13,
       "successCount": 6,
       "skippedCount": 7,
@@ -291,7 +188,7 @@
       "apiDocs": "https://docs.github.com/rest/search",
       "method": "GitHub Search API (repositories created in window)",
       "windowDays": 30,
-      "generatedAt": "2026-08-01T15:56:39.330Z",
+      "generatedAt": "2026-08-02T00:22:30.568Z",
       "mappedThemeCount": 12,
       "successCount": 10,
       "skippedCount": 0,
@@ -322,7 +219,7 @@
           "retryable": false
         }
       ],
-      "totalVolume": 7637
+      "totalVolume": 7452
     },
     {
       "id": "ndl",
@@ -333,7 +230,7 @@
       "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
       "method": "NDL Search OpenSearch API (bibliography count)",
       "windowDays": null,
-      "generatedAt": "2026-08-01T15:57:12.512Z",
+      "generatedAt": "2026-08-02T00:23:00.585Z",
       "mappedThemeCount": 13,
       "successCount": 13,
       "skippedCount": 0,
@@ -367,22 +264,22 @@
     "homepage": null,
     "apiDocs": null,
     "method": "RSS",
-    "articleCount": 1225,
+    "articleCount": 1283,
     "feeds": [
-      "NHK",
-      "はてな",
-      "GIGAZINE",
-      "ライフハッカー",
-      "はてなIT",
       "Impress Watch",
+      "ライフハッカー",
+      "NHK",
+      "GIGAZINE",
+      "はてな",
+      "ITmedia",
       "STUDY HACKER",
+      "はてなIT",
+      "Qiita",
       "リセマム",
       "ITmedia Mobile",
       "CodeZine",
-      "Qiita",
       "ICT教育ニュース",
       "Zenn",
-      "ITmedia",
       "窓の杜",
       "ITmedia AI+",
       "Publickey",

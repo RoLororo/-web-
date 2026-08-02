@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-01T15:56:39.330Z",
+  "generatedAt": "2026-08-02T00:22:30.568Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-07-02",
-  "authenticated": false,
+  "createdSince": "2026-07-03",
+  "authenticated": true,
   "mappedThemeCount": 12,
   "successCount": 10,
   "skippedCount": 0,
@@ -32,26 +32,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2376,
-        "engagement": 250,
+        "volume": 2327,
+        "engagement": 272,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2376,
-        "topStarSum": 250,
+        "newRepoCount": 2327,
+        "topStarSum": 272,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 160,
+          "stars": 182,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -95,26 +95,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1806,
-        "engagement": 811,
+        "volume": 1747,
+        "engagement": 821,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1806,
-        "topStarSum": 811,
+        "newRepoCount": 1747,
+        "topStarSum": 821,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 282,
+          "stars": 292,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -158,20 +158,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1064,
+        "volume": 1034,
         "engagement": 115,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1064,
+        "newRepoCount": 1034,
         "topStarSum": 115,
         "topLanguage": "Java",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -221,30 +221,22 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 699,
-        "engagement": 57,
+        "volume": 679,
+        "engagement": 38,
         "contributors": null,
-        "latestActivityAt": "2026-07-03T06:42:03Z"
+        "latestActivityAt": "2026-07-12T11:48:27Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 699,
-        "topStarSum": 57,
+        "newRepoCount": 679,
+        "topStarSum": 38,
         "topLanguage": "Go",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
-        {
-          "title": "anliberant/obsidian-ai-setup",
-          "url": "https://github.com/anliberant/obsidian-ai-setup",
-          "stars": 22,
-          "language": null,
-          "description": "Bootstrap a fully personalized Obsidian vault with AI. Interactive onboarding, document ingestion, and automatic knowled",
-          "publishedAt": "2026-07-03T06:42:03Z"
-        },
         {
           "title": "darkneuralnetwork/DarkCode",
           "url": "https://github.com/darkneuralnetwork/DarkCode",
@@ -276,6 +268,14 @@
           "language": "Python",
           "description": "PCB Flow — autonomous, AI-assisted PCB design workflow that takes a hardware project from requirements to manufacturing-",
           "publishedAt": "2026-07-12T20:11:16Z"
+        },
+        {
+          "title": "Aaravkhanal/Frameflow-ai",
+          "url": "https://github.com/Aaravkhanal/Frameflow-ai",
+          "stars": 3,
+          "language": "Python",
+          "description": "FrameFlow AI transforms screenshots, Figma designs, URLs, and screen recordings into clean, production-ready frontend co",
+          "publishedAt": "2026-07-24T08:43:44Z"
         }
       ],
       "errors": []
@@ -284,20 +284,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 490,
+        "volume": 479,
         "engagement": 27,
         "contributors": null,
         "latestActivityAt": "2026-07-10T12:57:40Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 490,
+        "newRepoCount": 479,
         "topStarSum": 27,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -347,26 +347,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 441,
-        "engagement": 312,
+        "volume": 442,
+        "engagement": 345,
         "contributors": null,
         "latestActivityAt": "2026-07-26T11:08:51Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 441,
-        "topStarSum": 312,
+        "newRepoCount": 442,
+        "topStarSum": 345,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
           "title": "nopnoping/micro-vllm",
           "url": "https://github.com/nopnoping/micro-vllm",
-          "stars": 110,
+          "stars": 111,
           "language": "Python",
           "description": "A small, educational vLLM implementation for exploring LLM inference, scheduling, KV-cache management, and GPU execution",
           "publishedAt": "2026-07-26T11:08:51Z"
@@ -374,7 +374,7 @@
         {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 73,
+          "stars": 102,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -382,7 +382,7 @@
         {
           "title": "arizqi/cpubrrr",
           "url": "https://github.com/arizqi/cpubrrr",
-          "stars": 53,
+          "stars": 54,
           "language": "Rust",
           "description": "Frontier-class LLM inference on a laptop CPU — gpt-oss:20b at ~110 tok/s on Apple M4 Max, 7.5x llama.cpp, no GPU. From-s",
           "publishedAt": "2026-07-04T17:49:51Z"
@@ -396,12 +396,12 @@
           "publishedAt": "2026-07-23T07:02:15Z"
         },
         {
-          "title": "tinyBigGAMES/Gemma4.pas",
-          "url": "https://github.com/tinyBigGAMES/Gemma4.pas",
-          "stars": 29,
-          "language": "Python",
-          "description": "Gemma4.pas is a high-performance AI inference engine developed entirely in Delphi to run Google’s Gemma 4 model natively",
-          "publishedAt": "2026-07-06T11:25:56Z"
+          "title": "fypklanfanqie/local-llm-with-character-setting-Arknights",
+          "url": "https://github.com/fypklanfanqie/local-llm-with-character-setting-Arknights",
+          "stars": 31,
+          "language": "Kotlin",
+          "description": "一款运行在安卓设备上的 LLM 对话助手应用。你可以自行下载并管理模型，自由定制角色人设，并随时在本地推理（部分机型支持 GPU/NPU 加速）与云端模型之间切换。同时内置 TTS 语音合成功能，让对话更加鲜活。 An Android LL",
+          "publishedAt": "2026-07-25T05:42:40Z"
         }
       ],
       "errors": []
@@ -410,20 +410,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 266,
+        "volume": 263,
         "engagement": 109,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 266,
+        "newRepoCount": 263,
         "topStarSum": 109,
         "topLanguage": "Go",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -473,20 +473,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 260,
+        "volume": 250,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 260,
+        "newRepoCount": 250,
         "topStarSum": 43,
         "topLanguage": "Lua",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -536,20 +536,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 56,
+        "volume": 54,
         "engagement": 18,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 56,
+        "newRepoCount": 54,
         "topStarSum": 18,
         "topLanguage": "HCL",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -599,20 +599,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T15:56:39.330Z",
+      "fetchedAt": "2026-08-02T00:22:30.568Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 179,
+        "volume": 177,
         "engagement": 64,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 179,
+        "newRepoCount": 177,
         "topStarSum": 64,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {

@@ -1,59 +1,59 @@
 {
-  "updatedAt": "2026-08-01T16:20:39.112Z",
+  "updatedAt": "2026-08-02T00:23:47.511Z",
   "date": "2026-08-02",
   "topId": "ai-business-automation",
   "themes": {
     "ai-business-automation": {
-      "score": 85,
-      "verdict": "定着"
+      "score": 83,
+      "verdict": "様子見"
     },
     "ai-coding": {
-      "score": 81,
+      "score": 83,
       "verdict": "様子見"
     },
     "infrastructure-outages": {
-      "score": 67,
+      "score": 64,
       "verdict": "様子見"
     },
     "security-breach": {
       "score": 54,
-      "verdict": "鎮静化中"
+      "verdict": "様子見"
     },
     "payment-troubles": {
-      "score": 53,
+      "score": 52,
+      "verdict": "様子見"
+    },
+    "ai-regulation": {
+      "score": 51,
       "verdict": "様子見"
     },
     "exam-admission": {
       "score": 49,
       "verdict": "様子見"
     },
-    "ai-regulation": {
-      "score": 45,
+    "ai-content-generation": {
+      "score": 47,
       "verdict": "様子見"
     },
     "study-methods": {
-      "score": 43,
-      "verdict": "様子見"
-    },
-    "ai-content-generation": {
-      "score": 42,
+      "score": 46,
       "verdict": "様子見"
     },
     "remote-work": {
-      "score": 33,
+      "score": 30,
       "verdict": "様子見"
+    },
+    "ai-hardware": {
+      "score": 29,
+      "verdict": "鎮静化中"
     },
     "senior-health": {
       "score": 27,
-      "verdict": "観測不足"
+      "verdict": "様子見"
     },
     "home-server-selfhost": {
-      "score": 25,
-      "verdict": "観測不足"
-    },
-    "ai-hardware": {
       "score": 24,
-      "verdict": "鎮静化中"
+      "verdict": "様子見"
     }
   }
 }
