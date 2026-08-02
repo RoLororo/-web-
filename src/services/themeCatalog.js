@@ -33,6 +33,7 @@ export const THEME_CATALOG = {
   'exam-admission':         { title: '受験・進学',                       category: '教育' },
   'housing':                { title: '住まい・住宅',                     category: '生活' },
   'home-appliance':         { title: '家電・暮らしの道具',               category: '生活' },
+  'fitness-training':       { title: 'フィットネス・筋トレ',             category: '健康' },
 };
 
 /** テーマ ID → 表示名 (未知の id なら id をそのまま返す) */

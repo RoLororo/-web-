@@ -1,42 +1,50 @@
 {
-  "generatedAt": "2026-08-02T05:20:32.440Z",
+  "generatedAt": "2026-08-02T05:54:03.354Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
   "cutoffDate": "2026-07-03",
-  "mappedThemeCount": 15,
-  "successCount": 11,
-  "skippedCount": 4,
-  "errorCount": 0,
-  "totalRequestCount": 45,
-  "rateRemainingAtEnd": 15,
+  "mappedThemeCount": 16,
+  "successCount": 1,
+  "skippedCount": 5,
+  "errorCount": 21,
+  "totalRequestCount": 11,
+  "rateRemainingAtEnd": 4,
   "themesSkipped": [
     "senior-health",
     "ai-regulation",
     "exam-admission",
-    "housing"
+    "housing",
+    "fitness-training"
   ],
   "themes": {
     "ai-business-automation": {
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 25,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
+      "fetchedAt": "2026-08-02T05:54:03.354Z",
+      "requestCount": 11,
+      "complete": false,
+      "coverage": 0.6688,
+      "errors": [
+        {
+          "type": "rate-limit",
+          "message": "skipped (rate-remaining=4 <= 5)",
+          "retryable": true,
+          "tag": "生成AI"
+        }
+      ],
       "metrics": {
-        "volume": 1807,
-        "engagement": 3219,
-        "contributors": 673,
-        "latestActivityAt": "2026-08-02T14:14:46+09:00"
+        "volume": 866,
+        "engagement": 1966,
+        "contributors": 399,
+        "latestActivityAt": "2026-08-02T14:48:40+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1807,
-        "lgtmSum": 3219,
-        "uniqueAuthors": 673,
-        "latestPublishedAt": "2026-08-02T14:14:46+09:00"
+        "articleCount": 866,
+        "lgtmSum": 1966,
+        "uniqueAuthors": 399,
+        "latestPublishedAt": "2026-08-02T14:48:40+09:00"
       },
       "meta": {
         "tags": [
@@ -48,8 +56,8 @@
         "tagBreakdown": [
           {
             "tag": "ChatGPT",
-            "totalCount": 255,
-            "fetched": 255,
+            "totalCount": 256,
+            "fetched": 256,
             "pages": 3,
             "stoppedBy": "done"
           },
@@ -63,16 +71,16 @@
           {
             "tag": "LLM",
             "totalCount": 776,
-            "fetched": 776,
-            "pages": 8,
-            "stoppedBy": "done"
+            "fetched": 300,
+            "pages": 3,
+            "stoppedBy": "rate-limit"
           },
           {
             "tag": "生成AI",
-            "totalCount": 820,
-            "fetched": 820,
-            "pages": 9,
-            "stoppedBy": "done"
+            "totalCount": null,
+            "fetched": 0,
+            "pages": 0,
+            "stoppedBy": "rate-limit-skip"
           }
         ]
       },
@@ -99,810 +107,169 @@
           "author": "Koukyosyumei"
         },
         {
-          "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった",
-          "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
-          "publishedAt": "2026-07-10T09:58:51+09:00",
-          "likes": 87,
-          "author": "tatsuya582"
+          "title": "AIエージェントがあれば技術書なんてすぐ書けるでしょ、と思ったが無理だった",
+          "url": "https://qiita.com/watany/items/11358e8e8966d5e48a09",
+          "publishedAt": "2026-07-25T15:46:06+09:00",
+          "likes": 79,
+          "author": "watany"
         },
         {
-          "title": "ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～",
-          "url": "https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612",
-          "publishedAt": "2026-07-25T20:22:16+09:00",
-          "likes": 85,
-          "author": "WdknWdkn"
-        }
-      ]
-    },
-    "ai-coding": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 2,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 118,
-        "engagement": 173,
-        "contributors": 76,
-        "latestActivityAt": "2026-08-02T11:21:12+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 118,
-        "lgtmSum": 173,
-        "uniqueAuthors": 76,
-        "latestPublishedAt": "2026-08-02T11:21:12+09:00"
-      },
-      "meta": {
-        "tags": [
-          "GitHubCopilot",
-          "Cursor"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "GitHubCopilot",
-            "totalCount": 56,
-            "fetched": 56,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "Cursor",
-            "totalCount": 66,
-            "fetched": 66,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "プロンプトを頑張るな、リポジトリを育てろ：GitHub Copilotが迷わないコードベース設計",
-          "url": "https://qiita.com/ochtum/items/28fc5b3dbf78b7795c80",
-          "publishedAt": "2026-07-08T15:59:45+09:00",
-          "likes": 34,
-          "author": "ochtum"
-        },
-        {
-          "title": "ナレッジ83件を2時間で作った。でも腐るのは、もっと速かった",
-          "url": "https://qiita.com/yamada-iknow/items/5e5ec4d5e96b12fbc75c",
-          "publishedAt": "2026-07-10T07:00:29+09:00",
-          "likes": 28,
-          "author": "yamada-iknow"
-        },
-        {
-          "title": "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方",
-          "url": "https://qiita.com/aktsmm/items/7b92f95325893cb4e5a3",
-          "publishedAt": "2026-07-10T04:39:22+09:00",
-          "likes": 25,
-          "author": "aktsmm"
-        },
-        {
-          "title": "AI Agent 時代は「うまく指示する」より「未知を見つける」が大事",
-          "url": "https://qiita.com/aktsmm/items/24e1db3b2930d56ba98c",
-          "publishedAt": "2026-07-06T12:43:19+09:00",
-          "likes": 9,
-          "author": "aktsmm"
-        },
-        {
-          "title": "AIエージェントが毎回同じミスをするのは、AGENTS.md / CLAUDE.md の書き方が9割かもしれません — 手戻りを減らす指示ファイル設計の実践ガイド（30行ルール・import・monorepo）",
-          "url": "https://qiita.com/akira_papa_AI/items/352abc9e678f13fa83e0",
-          "publishedAt": "2026-07-19T22:28:12+09:00",
-          "likes": 8,
-          "author": "akira_papa_AI"
-        }
-      ]
-    },
-    "ai-content-generation": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 2,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 33,
-        "engagement": 91,
-        "contributors": 22,
-        "latestActivityAt": "2026-08-01T13:27:35+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 33,
-        "lgtmSum": 91,
-        "uniqueAuthors": 22,
-        "latestPublishedAt": "2026-08-01T13:27:35+09:00"
-      },
-      "meta": {
-        "tags": [
-          "StableDiffusion",
-          "画像生成"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "StableDiffusion",
-            "totalCount": 10,
-            "fetched": 10,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "画像生成",
-            "totalCount": 28,
-            "fetched": 28,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "ComfyUI × 動画生成AI × Codex で、ゲーム用スプライトアニメを量産するパイプラインを作った話",
-          "url": "https://qiita.com/archeleeds/items/2efad73069b54288deb4",
-          "publishedAt": "2026-07-14T23:48:59+09:00",
-          "likes": 86,
-          "author": "archeleeds"
-        },
-        {
-          "title": "Agnes AIが無制限無料！LLM×画像生成で知識漫画・インフォグラフィックを自動生成するOSSアプリ「AI画像スタジオ」徹底解説",
-          "url": "https://qiita.com/lumichy/items/a62e706d85ed78bdd2cc",
-          "publishedAt": "2026-07-11T20:57:08+09:00",
-          "likes": 3,
-          "author": "lumichy"
-        },
-        {
-          "title": "ComfyUI のカスタムノードを自作してワークフローを拡張する",
-          "url": "https://qiita.com/olige/items/bfeea9050de33293b868",
-          "publishedAt": "2026-07-28T19:09:56+09:00",
-          "likes": 1,
-          "author": "olige"
-        },
-        {
-          "title": "SDXLを768pxで回していませんか — 「MPSの上限」だと思っていた数字は自分で書いたものだった",
-          "url": "https://qiita.com/claute_colo/items/353e941666b3cc499ee1",
-          "publishedAt": "2026-07-25T08:52:54+09:00",
-          "likes": 1,
-          "author": "claute_colo"
-        },
-        {
-          "title": "ローカル画像生成で「Corporate Memphis」を本物っぽく出す — Qwen-Imageのプロンプト/ネガティブ/img2img実装知見",
-          "url": "https://qiita.com/amanity-haray/items/06d3392294972de9862f",
-          "publishedAt": "2026-08-01T13:27:35+09:00",
-          "likes": 0,
-          "author": "amanity-haray"
-        }
-      ]
-    },
-    "ai-hardware": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 3,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 75,
-        "engagement": 99,
-        "contributors": 52,
-        "latestActivityAt": "2026-08-02T12:45:08+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 75,
-        "lgtmSum": 99,
-        "uniqueAuthors": 52,
-        "latestPublishedAt": "2026-08-02T12:45:08+09:00"
-      },
-      "meta": {
-        "tags": [
-          "GPU",
-          "NVIDIA",
-          "CUDA"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "GPU",
-            "totalCount": 43,
-            "fetched": 43,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "NVIDIA",
-            "totalCount": 29,
-            "fetched": 29,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "CUDA",
-            "totalCount": 16,
-            "fetched": 16,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録",
-          "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
-          "publishedAt": "2026-07-25T09:25:54+09:00",
-          "likes": 23,
-          "author": "nakatada-lab"
-        },
-        {
-          "title": "Fermiで時が止まっていた人のためのNVIDIA GPUアーキテクチャ進化史(2010→2026)",
-          "url": "https://qiita.com/sukimaengineer/items/8ead6b3ae0789fa36add",
-          "publishedAt": "2026-07-17T14:52:31+09:00",
-          "likes": 16,
-          "author": "sukimaengineer"
-        },
-        {
-          "title": "GPUだけでLLMを動かす必要はない",
-          "url": "https://qiita.com/DanielOkada/items/8d25b244be168cbc0d6b",
-          "publishedAt": "2026-07-10T22:19:15+09:00",
-          "likes": 14,
-          "author": "DanielOkada"
-        },
-        {
-          "title": "コンシューマー機2台をRPCでつないで96GB相当のVRAMを作り、6つのオープンLLMを実測してみた",
-          "url": "https://qiita.com/faliye/items/ab3b7fe1da80be1874e1",
-          "publishedAt": "2026-07-18T00:16:35+09:00",
-          "likes": 6,
-          "author": "faliye"
-        },
-        {
-          "title": "ローカルLLM向けハードウェアを「容量・帯域・MoE・TTFT」で選ぶ",
-          "url": "https://qiita.com/softbase/items/de82b236830298db334c",
-          "publishedAt": "2026-07-22T00:56:13+09:00",
-          "likes": 6,
-          "author": "softbase"
-        }
-      ]
-    },
-    "infrastructure-outages": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 2,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 32,
-        "engagement": 52,
-        "contributors": 28,
-        "latestActivityAt": "2026-07-31T19:27:39+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 32,
-        "lgtmSum": 52,
-        "uniqueAuthors": 28,
-        "latestPublishedAt": "2026-07-31T19:27:39+09:00"
-      },
-      "meta": {
-        "tags": [
-          "CloudFront",
-          "障害対応"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "CloudFront",
-            "totalCount": 22,
-            "fetched": 22,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "障害対応",
-            "totalCount": 11,
-            "fetched": 11,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "「止めないシステム」は、結局なにを守る設計なのか？",
-          "url": "https://qiita.com/mo__mo/items/c7e18f4dd3177b273555",
-          "publishedAt": "2026-07-09T11:11:29+09:00",
-          "likes": 14,
-          "author": "mo__mo"
-        },
-        {
-          "title": "データのコピーは全部同じ？ ミラー、スナップショット、バックアップの役割をクリアにしたい",
-          "url": "https://qiita.com/mo__mo/items/0ac1a48e166007cee947",
-          "publishedAt": "2026-07-16T10:38:40+09:00",
-          "likes": 8,
-          "author": "mo__mo"
-        },
-        {
-          "title": "RTO5分を成立させるまでの長い話",
-          "url": "https://qiita.com/mo__mo/items/ee246758cb01f0dffa3c",
-          "publishedAt": "2026-07-13T08:57:14+09:00",
-          "likes": 6,
-          "author": "mo__mo"
-        },
-        {
-          "title": "【AWS障害に学ぶ】CloudFront VPC Origins 障害 ―「よくある構成」への影響と、watch・備えの型",
-          "url": "https://qiita.com/Tom-Panasonic/items/bb5bca5f8798e268138c",
-          "publishedAt": "2026-07-16T21:43:31+09:00",
-          "likes": 5,
-          "author": "Tom-Panasonic"
-        },
-        {
-          "title": "CloudFrontの自動gzip圧縮が突然始まった",
-          "url": "https://qiita.com/kanzawa_kentaro/items/d4c9acbd39d90194e0b1",
-          "publishedAt": "2026-07-13T22:37:20+09:00",
-          "likes": 5,
-          "author": "kanzawa_kentaro"
-        }
-      ]
-    },
-    "security-breach": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 4,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 46,
-        "engagement": 516,
-        "contributors": 26,
-        "latestActivityAt": "2026-08-02T12:17:32+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 46,
-        "lgtmSum": 516,
-        "uniqueAuthors": 26,
-        "latestPublishedAt": "2026-08-02T12:17:32+09:00"
-      },
-      "meta": {
-        "tags": [
-          "情報セキュリティ",
-          "ランサムウェア",
-          "脆弱性",
-          "情報漏洩"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "情報セキュリティ",
-            "totalCount": 18,
-            "fetched": 18,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "ランサムウェア",
-            "totalCount": 13,
-            "fetched": 13,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "脆弱性",
-            "totalCount": 17,
-            "fetched": 17,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "情報漏洩",
-            "totalCount": 3,
-            "fetched": 3,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "セキュリティの勉強になるサイト138選(2026年版)",
-          "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
-          "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 451,
-          "author": "Nakanishi_RareTECH"
-        },
-        {
-          "title": "あと10日で攻撃コストが激変する。Kimi K3公開前にやるべきセキュリティ対策",
-          "url": "https://qiita.com/udowanllc/items/9a1c5da9a36b7f74691a",
-          "publishedAt": "2026-07-18T21:49:23+09:00",
-          "likes": 26,
-          "author": "udowanllc"
-        },
-        {
-          "title": "なぜニチレイは、たった10日で復旧できたのか",
-          "url": "https://qiita.com/harupython/items/3ca158f89a6e38d762aa",
-          "publishedAt": "2026-07-27T14:29:26+09:00",
-          "likes": 16,
-          "author": "harupython"
-        },
-        {
-          "title": "【Curl】Curlは一か月の夏休みを満喫するよ",
-          "url": "https://qiita.com/rana_kualu/items/6ac5b511b055d34d88fb",
-          "publishedAt": "2026-07-06T20:27:23+09:00",
-          "likes": 14,
-          "author": "rana_kualu"
-        },
-        {
-          "title": "2026/07/21 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-          "url": "https://qiita.com/ennagara128/items/cfa1b91a546bbb87d72c",
-          "publishedAt": "2026-07-21T07:25:27+09:00",
-          "likes": 3,
-          "author": "ennagara128"
-        }
-      ]
-    },
-    "payment-troubles": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 2,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 10,
-        "engagement": 2,
-        "contributors": 8,
-        "latestActivityAt": "2026-07-26T16:34:31+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 10,
-        "lgtmSum": 2,
-        "uniqueAuthors": 8,
-        "latestPublishedAt": "2026-07-26T16:34:31+09:00"
-      },
-      "meta": {
-        "tags": [
-          "Stripe",
-          "決済"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "Stripe",
-            "totalCount": 6,
-            "fetched": 6,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "決済",
-            "totalCount": 4,
-            "fetched": 4,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "WordPressプラグインの有料版を、Stripeとライセンスキーで実装する。検証・キャッシュ・失効まで",
-          "url": "https://qiita.com/Rapls/items/e552a87795f839561bf7",
-          "publishedAt": "2026-07-26T10:45:59+09:00",
-          "likes": 1,
-          "author": "Rapls"
-        },
-        {
-          "title": "潰れようがない商売に見えたのに、負債1259億で破綻した — 全東信がわからなくて、決済の仕組みを調べた",
-          "url": "https://qiita.com/bokuno_log/items/956a3dc62496308ee71d",
-          "publishedAt": "2026-07-08T18:18:04+09:00",
-          "likes": 1,
-          "author": "bokuno_log"
-        },
-        {
-          "title": "laravel×stripe×ngrokでクレジットカード決済機能（買い切り）を搭載する",
-          "url": "https://qiita.com/Engineering-seiya/items/7d4d0b12636048585aef",
-          "publishedAt": "2026-07-26T16:34:31+09:00",
-          "likes": 0,
-          "author": "Engineering-seiya"
-        },
-        {
-          "title": "決済と納品は成功したのに購入完了画面だけ失敗した話 ~Vite環境変数とruntime-config.jsonの不整合~",
-          "url": "https://qiita.com/Asano-S/items/48f8416882e54410dd0d",
-          "publishedAt": "2026-07-18T23:20:51+09:00",
-          "likes": 0,
-          "author": "Asano-S"
-        },
-        {
-          "title": "Stripe Checkout × FastAPI — ワンショット課金 AI ツールの実装パターン",
-          "url": "https://qiita.com/shota_0x/items/335c31eb21beffb8a2f3",
-          "publishedAt": "2026-07-17T22:52:09+09:00",
-          "likes": 0,
-          "author": "shota_0x"
-        }
-      ]
-    },
-    "home-server-selfhost": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 1,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 4,
-        "engagement": 3,
-        "contributors": 4,
-        "latestActivityAt": "2026-07-21T19:37:25+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 4,
-        "lgtmSum": 3,
-        "uniqueAuthors": 4,
-        "latestPublishedAt": "2026-07-21T19:37:25+09:00"
-      },
-      "meta": {
-        "tags": [
-          "homelab"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "homelab",
-            "totalCount": 4,
-            "fetched": 4,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "速い！安い！うまい！　「１万円で４０ギガ」光ファイバーイーサネット導入編",
-          "url": "https://qiita.com/masataka55/items/c133a0d7e9f4bc3bbd69",
-          "publishedAt": "2026-07-05T09:49:18+09:00",
-          "likes": 2,
-          "author": "masataka55"
-        },
-        {
-          "title": "Proxmox 2ノードクラスタのquorum問題を Oracle Cloud Always Free で月額0円で解決した話",
-          "url": "https://qiita.com/toumaru/items/393adfd6200380fbe30f",
-          "publishedAt": "2026-07-07T17:21:54+09:00",
-          "likes": 1,
-          "author": "toumaru"
-        },
-        {
-          "title": "VMware Cloud Foundation 入門④：VCF 9 インストール用デポトークンの取得方法",
-          "url": "https://qiita.com/mtoyoda/items/800882ee2666af1af670",
-          "publishedAt": "2026-07-21T19:37:25+09:00",
-          "likes": 0,
-          "author": "mtoyoda"
-        },
-        {
-          "title": "OSSのIoTプラットフォーム「ThingsBoard」をKubernetesにデプロイする",
-          "url": "https://qiita.com/takumiida1/items/4933c770afe60d92ab82",
-          "publishedAt": "2026-07-05T13:56:01+09:00",
-          "likes": 0,
-          "author": "takumiida1"
-        }
-      ]
-    },
-    "remote-work": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 2,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 10,
-        "engagement": 17,
-        "contributors": 10,
-        "latestActivityAt": "2026-07-27T21:03:37+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 10,
-        "lgtmSum": 17,
-        "uniqueAuthors": 10,
-        "latestPublishedAt": "2026-07-27T21:03:37+09:00"
-      },
-      "meta": {
-        "tags": [
-          "リモートワーク",
-          "在宅勤務"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "リモートワーク",
-            "totalCount": 9,
-            "fetched": 9,
-            "pages": 1,
-            "stoppedBy": "done"
-          },
-          {
-            "tag": "在宅勤務",
-            "totalCount": 2,
-            "fetched": 2,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": " 新卒の気づき｜在宅と出社のベストな使い分け",
-          "url": "https://qiita.com/ciel_coucou/items/bbef15c5bf4340d86505",
-          "publishedAt": "2026-07-13T11:56:55+09:00",
-          "likes": 7,
-          "author": "ciel_coucou"
-        },
-        {
-          "title": "肩・首・腰が全部痛い20代後半エンジニアが「オフィスチェア」と「マットレス」、どっちを先に買い替えるべきか本気で考えてみた",
-          "url": "https://qiita.com/misshi09/items/9a21e37147fbbe62a94d",
-          "publishedAt": "2026-07-06T10:14:05+09:00",
-          "likes": 5,
-          "author": "misshi09"
-        },
-        {
-          "title": "出社回帰で「品質に関する会話」は本当に増えるのかをQAエンジニア目線で考えてみた",
-          "url": "https://qiita.com/kazuky0307/items/613767e5d30575cd5e6b",
-          "publishedAt": "2026-07-15T21:43:32+09:00",
-          "likes": 2,
-          "author": "kazuky0307"
-        },
-        {
-          "title": "フルリモート組織における「デメリット解消」の考え方まとめ",
-          "url": "https://qiita.com/yukisnow0704/items/7ea530d832f37edb55da",
-          "publishedAt": "2026-07-18T12:09:08+09:00",
-          "likes": 1,
-          "author": "yukisnow0704"
-        },
-        {
-          "title": "リモートワークが形だけになっているチームへ。世界最先端のフルリモート組織の仕組みを学べる一冊",
-          "url": "https://qiita.com/yasu1109/items/f41c6d5eb563e55ca45e",
-          "publishedAt": "2026-07-18T07:53:13+09:00",
-          "likes": 1,
-          "author": "yasu1109"
-        }
-      ]
-    },
-    "study-methods": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 1,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 20,
-        "engagement": 76,
-        "contributors": 17,
-        "latestActivityAt": "2026-07-31T08:54:34+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 20,
-        "lgtmSum": 76,
-        "uniqueAuthors": 17,
-        "latestPublishedAt": "2026-07-31T08:54:34+09:00"
-      },
-      "meta": {
-        "tags": [
-          "学習"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "学習",
-            "totalCount": 20,
-            "fetched": 20,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "そのSQL、本当に大丈夫？実務で意識したい5つの基本ルール",
-          "url": "https://qiita.com/T-furukubo/items/3ace375e1b8aafd014a2",
-          "publishedAt": "2026-07-13T09:27:02+09:00",
-          "likes": 38,
-          "author": "T-furukubo"
-        },
-        {
-          "title": "コードを書かせるだけは、正直もったいない。Claude Codeを「先生」として使い倒す5つのプロンプト",
-          "url": "https://qiita.com/jqit_suwa/items/2f38d32328996d826d48",
-          "publishedAt": "2026-07-15T08:29:02+09:00",
-          "likes": 31,
-          "author": "jqit_suwa"
-        },
-        {
-          "title": "なぜ私はRustが全く書けないのか",
-          "url": "https://qiita.com/harupython/items/41b8c271012135228031",
-          "publishedAt": "2026-07-14T12:39:09+09:00",
-          "likes": 5,
-          "author": "harupython"
-        },
-        {
-          "title": "なぜ私はPythonをやめることができないのか",
-          "url": "https://qiita.com/harupython/items/f2f397027d4c2e463910",
-          "publishedAt": "2026-07-16T21:27:45+09:00",
-          "likes": 1,
-          "author": "harupython"
-        },
-        {
-          "title": "資格30個以上！私の資格勉強方法",
-          "url": "https://qiita.com/Kazeneko/items/bedf3718ff8e29079ef2",
-          "publishedAt": "2026-07-06T12:19:00+09:00",
-          "likes": 1,
-          "author": "Kazeneko"
-        }
-      ]
-    },
-    "home-appliance": {
-      "envelopeVersion": "1.0.0",
-      "source": "qiita",
-      "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:20:32.440Z",
-      "requestCount": 1,
-      "complete": true,
-      "coverage": 1,
-      "errors": [],
-      "metrics": {
-        "volume": 3,
-        "engagement": 0,
-        "contributors": 3,
-        "latestActivityAt": "2026-07-27T19:26:17+09:00"
-      },
-      "nativeMetrics": {
-        "articleCount": 3,
-        "lgtmSum": 0,
-        "uniqueAuthors": 3,
-        "latestPublishedAt": "2026-07-27T19:26:17+09:00"
-      },
-      "meta": {
-        "tags": [
-          "スマートホーム"
-        ],
-        "tagBreakdown": [
-          {
-            "tag": "スマートホーム",
-            "totalCount": 3,
-            "fetched": 3,
-            "pages": 1,
-            "stoppedBy": "done"
-          }
-        ]
-      },
-      "topItems": [
-        {
-          "title": "Home Assistantの現状整理（2026年7月版）",
-          "url": "https://qiita.com/ham0806/items/ba4a8aaac607e15742ba",
-          "publishedAt": "2026-07-27T19:26:17+09:00",
-          "likes": 0,
-          "author": "ham0806"
-        },
-        {
-          "title": "電池寿命を延ばすナノパワー電源設計とは？",
-          "url": "https://qiita.com/farnell_japan/items/a3bc1bd43e68996b1f1e",
-          "publishedAt": "2026-07-23T14:58:43+09:00",
-          "likes": 0,
-          "author": "farnell_japan"
-        },
-        {
-          "title": "スマートディスプレイ「Quote/0」に燃えるゴミの日を出す",
-          "url": "https://qiita.com/ryofujimotox/items/afe234071ca2bc3c660e",
-          "publishedAt": "2026-07-11T12:02:53+09:00",
-          "likes": 0,
-          "author": "ryofujimotox"
+          "title": "AIの推進がうまくいかない組織アンチパターン",
+          "url": "https://qiita.com/jw-automation/items/7a2f85593a2e2ba71306",
+          "publishedAt": "2026-07-20T19:21:23+09:00",
+          "likes": 67,
+          "author": "jw-automation"
         }
       ]
     }
   },
-  "errors": []
+  "errors": [
+    {
+      "theme": "ai-business-automation",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "生成AI"
+    },
+    {
+      "theme": "ai-coding",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "GitHubCopilot"
+    },
+    {
+      "theme": "ai-coding",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "Cursor"
+    },
+    {
+      "theme": "ai-content-generation",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "StableDiffusion"
+    },
+    {
+      "theme": "ai-content-generation",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "画像生成"
+    },
+    {
+      "theme": "ai-hardware",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "GPU"
+    },
+    {
+      "theme": "ai-hardware",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "NVIDIA"
+    },
+    {
+      "theme": "ai-hardware",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "CUDA"
+    },
+    {
+      "theme": "infrastructure-outages",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "CloudFront"
+    },
+    {
+      "theme": "infrastructure-outages",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "障害対応"
+    },
+    {
+      "theme": "security-breach",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "情報セキュリティ"
+    },
+    {
+      "theme": "security-breach",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "ランサムウェア"
+    },
+    {
+      "theme": "security-breach",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "脆弱性"
+    },
+    {
+      "theme": "security-breach",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "情報漏洩"
+    },
+    {
+      "theme": "payment-troubles",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "Stripe"
+    },
+    {
+      "theme": "payment-troubles",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "決済"
+    },
+    {
+      "theme": "home-server-selfhost",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "homelab"
+    },
+    {
+      "theme": "remote-work",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "リモートワーク"
+    },
+    {
+      "theme": "remote-work",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "在宅勤務"
+    },
+    {
+      "theme": "study-methods",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "学習"
+    },
+    {
+      "theme": "home-appliance",
+      "type": "rate-limit",
+      "message": "skipped (rate-remaining=4 <= 5)",
+      "retryable": true,
+      "tag": "スマートホーム"
+    }
+  ]
 }

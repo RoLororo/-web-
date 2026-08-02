@@ -40,7 +40,7 @@ export const LAUNCH_DATE = '2026-07-20';
  * ここ 1 箇所に集約し、`npm run completeness` が実データと突き合わせて
  * ズレを検出する。
  */
-export const NEWS_FEED_COUNT = 23;
+export const NEWS_FEED_COUNT = 24;
 
 /**
  * sourceDiversity（話題の広がり）の満点に必要な媒体数。

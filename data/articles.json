@@ -1,5 +1,555 @@
 [
   {
+    "id": "e075246d7fe588d9",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "家飲みが変わる、おいしくなる。陶器やガラスにはない木のぬくもり感じる酒器",
+    "url": "https://www.roomie.jp/2026/08/1841120/",
+    "publishedAt": "2026-08-02T04:45:01.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 「酒器を変えたところで、味にそれほど違いはないかな……」。家で日本酒を飲むときの盃（さかずき）には、特にこだわってきませんでした。 そんな考えをガラリと変えてくれたのが、岐阜県産の東濃ひのきから作られた木製平盃「するりと」。 飲み口の薄さや角度にこだわり、日本酒が舌の上へなめらかに流れるよう設計された盃です。今回は、い",
+    "fetchedAt": "2026-08-02T05:51:46.282Z"
+  },
+  {
+    "id": "8e959add032ca21d",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "和歌山・高知で40度超の酷暑日 東北 関東甲信は激しい雨警戒を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193981000",
+    "publishedAt": "2026-08-02T04:40:16.000Z",
+    "summary": "西日本と東日本は2日も気温が上がり、和歌山県と高知県では40度を超える酷暑日となっているところがあるほか、熊本県の地震の被災地でも猛烈な暑さになっていて引き続き熱中症への対策を徹底してください。一方、…",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "360858e471da941c",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "消費税減税 財源は予算編成過程で明確に 城内成長戦略相",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015194131000",
+    "publishedAt": "2026-08-02T03:46:28.000Z",
+    "summary": "高市総理大臣が表明した食料品の消費税減税の方針について、城内成長戦略担当大臣は、NHKの日曜討論で、物価高が続く中、特に中低所得の人の負担軽減を図るねらいがあるとした上で、財源は来年度の予算編成過程で…",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "75889314318e541f",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本地震 関連調査中含め38人死亡 初の災害関連死の疑いも",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193881000",
+    "publishedAt": "2026-08-02T03:32:17.000Z",
+    "summary": "熊本県は、2日午前の災害対策本部会議で、県内では災害との関連を調査している人も含めて38人が死亡したと発表しました。避難のため車中泊をしていた70代の女性が熱中症の疑いで死亡し、県は今回の地震では初め…",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "d496d33e135e1903",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "4キャリアで買うべきおすすめスマホ【2026年8月版】「一括1円」「月1円」からお得なiPhone／Pixel／Galaxyまで",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/02/news006.html",
+    "publishedAt": "2026-08-02T03:26:00.000Z",
+    "summary": "端末価格が高騰する中でも、各キャリアでは一括1円や月々1円などの格安スマホを購入できる。サブブランドや格安プランでは返却時の特典利用料がかからない端末購入プログラムも魅力的だ。プログラム条件を比較し、上位機種や折りたたみスマホなど、用途に合わせた最適な1台を選ぼう。",
+    "fetchedAt": "2026-08-02T05:51:42.684Z"
+  },
+  {
+    "id": "8586d5c053c4a6cf",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熱中症“初期症状見逃さないで”脱水状態に注意【専門家ＱＡ】",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015194121000",
+    "publishedAt": "2026-08-02T03:09:36.000Z",
+    "summary": "熊本地震の被災地では、猛烈な暑さが続いています。地震後に避難のため車中泊をし、70代の女性が熱中症の疑いで死亡しました。熱中症の専門家、済生会横浜市東部病院の谷口英喜 医師は、「これだけの猛暑の中の災…",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "9a291aba92fe9fef",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "トランプ大統領  イランへの攻撃を中止することに同意と投稿",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015194141000",
+    "publishedAt": "2026-08-02T03:05:33.000Z",
+    "summary": "アメリカのトランプ政権がこの週末にも、イランへの大規模な攻撃を計画していると報じられる中、トランプ大統領は、1日、イランやほかの中東諸国から要請があったとして、迅速に合意を成立させることを条件に、攻撃…",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "1164225bb8bc88ac",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "AWS Lambda、LMIキャパシティープロバイダーのログ自動発行を開始",
+    "url": "https://codezine.jp/article/detail/29197",
+    "publishedAt": "2026-08-02T03:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-02T05:51:43.062Z"
+  },
+  {
+    "id": "1eff7e45eb6a07fd",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "健康的な食事をしているADHDの青少年は集中力の問題が少ないとの研究結果",
+    "url": "https://gigazine.net/news/20260802-adhd-better-diets-sharper-focus/",
+    "publishedAt": "2026-08-02T03:00:00.000Z",
+    "summary": "注意欠如多動症(ADHD)は不注意や衝動性を特徴とする発達障害であり、治療には行動管理に役立つ薬物が用いられることが多いほか、日常生活の円滑化に役立つ生活習慣の改善策がアドバイスされることもあります。オーストラリアの10代の若者を対象にした研究で、より健康的な食事をとるADHDの若者は集中力の問題が少ないことが示されました。 続きを読む...",
+    "fetchedAt": "2026-08-02T05:51:43.600Z"
+  },
+  {
+    "id": "edf7e0a21755decb",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "Google画像検索が「Pinterest風ホーム画面」と「AI画像生成」で大進化",
+    "url": "https://www.lifehacker.jp/article/2607-google-images-is-celebrating-turning-25-with-two-new-features/",
+    "publishedAt": "2026-08-02T03:00:00.000Z",
+    "summary": "Google画像検索が25周年を迎え、2つの新機能を発表しました。興味関心に基づいた画像を閲覧・保存できるPinterest風のホーム画面刷新と、検索画面から直接AI画像生成が行える新機能です。",
+    "fetchedAt": "2026-08-02T05:51:44.661Z"
+  },
+  {
+    "id": "59642a89eebf3962",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "加速主義と抑制主義 - 内田樹の研究室",
+    "url": "http://blog.tatsuru.com/2026/08/02_0923.html",
+    "publishedAt": "2026-08-02T02:58:58.000Z",
+    "summary": "金滿里さんの主宰する『イマージュ』からやまゆり園事件から１０年経ってのコメントを求められた。少し長めのものを寄稿した。 相模原の事件から１０年経って、再びこの事件についてのコメントを金さんから求められた。 前にも書いたが、私にとってこの事件のもたらした最大の衝撃は、植松聖死刑囚が事件の前に安倍晋三...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "5fc5af8de2699b45",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "「洗濯ボール」は日本の洗濯革命！洗濯機に入れるだけでニオイや汚れにアプローチするよ",
+    "url": "https://www.roomie.jp/2026/08/1841111/",
+    "publishedAt": "2026-08-02T02:45:57.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 毎日の洗濯。特に汗ばむ季節は、襟元の汚れや部屋干し臭をスッキリと解消したいと思う人も多いはず。 洗剤を変えたりサーキュレーターを導入したり、対応策はさまざま。そんな選択肢の新常識が「洗濯ボール」です。 写真の「G-ZERO COIL OPTIMA WASHING BALL」は、内蔵したコイルが生み出すウルトラファインバ",
+    "fetchedAt": "2026-08-02T05:51:46.282Z"
+  },
+  {
+    "id": "cd363cacb6237eba",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本 地震活動が活発 震度7程度に注意 危険な暑さ熱中症対策を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015193991000",
+    "publishedAt": "2026-08-02T02:43:47.000Z",
+    "summary": "7月28日に最大震度7の非常に激しい揺れを観測した熊本県では、1日夜も宇城市で震度5弱の強い揺れを観測するなど地震活動が活発になっていて、気象庁は引き続き最大震度7程度の揺れに注意するよう呼びかけてい…",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "16ec85b2c7452bcd",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本地震 暑さ対策や支援物資の効率的配送も【支援の動き】",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015194081000",
+    "publishedAt": "2026-08-02T02:40:46.000Z",
+    "summary": "熊本県内の被災地で広がる支援の動きをまとめました。",
+    "fetchedAt": "2026-08-02T05:51:42.309Z"
+  },
+  {
+    "id": "1d0f04a6507cde39",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "TORUくん、80歳（傘寿）になりました。みなさんお祝い、ありがとう！！！！【こぐれひでこの｢ごはん日記｣】",
+    "url": "https://www.roomie.jp/2026/08/1837755/",
+    "publishedAt": "2026-08-02T02:30:06.000Z",
+    "summary": "7月21日 TORUくん、80歳（傘寿）になりました。みなさんお祝い、ありがとう！！！！ 昼ごはん ロースハム、パプリカのマリネ、鯵干物の混ぜ寿司（我が家は食材欠乏中）。 でもマンゴーはあった。美味しかった。ありがたかった～。 夜ごはん 「小笹」でお鮨。何年ぶりだろう、嬉しい、嬉しい、超嬉しい。6人並んだカウンター。歳の差はあるけど、同窓会みたいな気分で盛り上がる～～。 星カレイ、蒸した鮑、カンパ",
+    "fetchedAt": "2026-08-02T05:51:46.282Z"
+  },
+  {
+    "id": "4430a365c94e767e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ネタバレなし『みいちゃんと山田さん』レビュー - 渡辺みちたか（自民党・新宿区議会議員）official blog",
+    "url": "https://watanabemichitaka.hatenablog.com/entry/2026/07/30/184933",
+    "publishedAt": "2026-08-02T01:39:17.000Z",
+    "summary": "話題の『みいちゃんと山田さん』を読みました。 親から理解されない（軽度）知的障害・特性持ちが生きていく困難さを、よく描いた作品だと思います。 Xではアニメ化に否定的ですが、私はデメリットよりも、こういう人がいて、こうした生きづらさを抱えている、と世の中に問題提起できる効果の方が高いと感じました。 い...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "567544c8e1a4da89",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "サブカル系ミュージシャンの性加害「これは男性全体の問題です！」←まさに同じことやってるのが東京なんだよな",
+    "url": "https://anond.hatelabo.jp/20260802102237",
+    "publishedAt": "2026-08-02T01:28:31.000Z",
+    "summary": "自分に関係ない地方のネタなら地方特有の問題として指差してキャッキャしやがるくせに 身近なとこの問題になると、急にこれは日本全体の問題だと主語をデカくしてごまかす 欧米が同じことをしょっちゅうやってるから、俺らがクソ田舎にやったって構わねえだろとか余裕こいてんのかもしれねえが あるいは「ここは東京の中...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "79daf9e0988ed86d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "三大「古き良きOVA」",
+    "url": "https://anond.hatelabo.jp/20260802100933",
+    "publishedAt": "2026-08-02T01:15:24.000Z",
+    "summary": "・淫獣学園 あとは？",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "e1b117559e41892e",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Google、パーソナルAI「Gemini Spark」を日本でも利用可能に　Chrome統合は米国から",
+    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000347/",
+    "publishedAt": "2026-08-02T01:12:35.000Z",
+    "summary": "Googleは、パーソナルAIエージェント「Gemini Spark」の提供対象を日本を含む160カ国以上に拡大した。PC停止時やスマホのロック時もGoogleのクラウド基盤上で動作し、トリガーに応じてタスクを処理する。さらに、ログイン情報や保存されたパスワードを活用してWeb上の各種手続きを代行するChrome統合機能も発表された。",
+    "fetchedAt": "2026-08-02T05:51:42.441Z"
+  },
+  {
+    "id": "2665e9e837d97a96",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "1LDKを心地よく。「素材」「照明」「収納」で、家全体を整えるプロのルール（東京都）",
+    "url": "https://www.roomie.jp/2026/08/1707735/",
+    "publishedAt": "2026-08-02T01:00:22.000Z",
+    "summary": "Photographed by tsubottlee ダイニングキッチンとリビング、寝室がつながった1LDK（ワンルーム）に住むインテリアデザイナーのnamiさん。 部屋紹介編では、築55年のマンションをリノベーションした住まいを紹介しました。 ​この暮らしのアイデア編では、自宅づくりで実践した素材選びや照明計画、収納の考え方など、部屋づくりのヒントを伺います。 お名前（職業）：namiさん（イン",
+    "fetchedAt": "2026-08-02T05:51:46.282Z"
+  },
+  {
+    "id": "6c20759a2a0bf33d",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "【ワークマン】2900円の「撥水ワッシャーリュック」　表面に独特の陰影を演出",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/02/news005.html",
+    "publishedAt": "2026-08-02T01:00:00.000Z",
+    "summary": "ワークマンで「撥水ワッシャーリュック」が販売されている。表面に独特の陰影が出るワッシャー加工や、水を弾くはっ水加工を施している。内側にはメッシュポケットなど5つのポケットを備え、価格は2900円。",
+    "fetchedAt": "2026-08-02T05:51:42.684Z"
+  },
+  {
+    "id": "0277ebd43e0445e6",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "ゴルフバッグを買い替えずに進化。14本独立ケースでクラブを傷や絡まりから守れる",
+    "url": "https://www.lifehacker.jp/article/2608-costorypo-clubshield-start-1279922370/",
+    "publishedAt": "2026-08-02T01:00:00.000Z",
+    "summary": "約85cmのロング設計で、グリップからシャフト先端までを個別に収納。多角形筒だからバッグの中でも回りにくく、ヘッドの向きまで美しく揃う。今ならセールで最大24%OFF。",
+    "fetchedAt": "2026-08-02T05:51:44.661Z"
+  },
+  {
+    "id": "e6102181369d4811",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ブクマが消されてしまった",
+    "url": "https://anond.hatelabo.jp/20260802092139",
+    "publishedAt": "2026-08-02T00:57:35.000Z",
+    "summary": "9:00頃までトップコメだったのになぜか消えてしまった。 https://b.hatena.ne.jp/entry/s/news.infoseek.co.jp/article/mogumogunews_36639/ コメの内容: 「みいちゃん自身の頑迷さによって支援が届かないという社会構造を描いているよな。今まで蓋をしてきた問題を開いたらミーム化してしまうほどのインパクトがあるの...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "622482d8f1f8ac55",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "爪切りの時間が楽しみになる。削って・整えて・垢取りまでクセになりそうな燕三条の爪ヤスリ",
+    "url": "https://www.roomie.jp/2026/08/1841103/",
+    "publishedAt": "2026-08-02T00:45:10.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 普段、爪のお手入れはどうしていますか？ 私はといえば、爪切りでパチンと切って終わり。爪やすりは時間がかかって面倒、というイメージでした。 今回ご紹介するのは、新潟県燕三条の老舗が手がける「3WAY爪ヤスリ」。ヤスリ初心者が使ってみた感想を率直にお届けします。 125年の歴史が息づく燕三条の“黒”のヤスリ 「3WAY爪ヤ",
+    "fetchedAt": "2026-08-02T05:51:46.282Z"
+  },
+  {
+    "id": "4a21aa2dc093d123",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "モスクワ中心部のレストランで爆発、手製爆弾運んでいた女含む3人死亡",
+    "url": "https://www.cnn.co.jp/world/35251196.html",
+    "publishedAt": "2026-08-02T00:25:39.000Z",
+    "summary": "爆発のあったロシア首都モスクワ中心部のレストラン付近を走行する警察車両＝1日/Anastasia Barashkova/Reuters （CNN） ロシア首都モスクワ中心部のレストランで1日、手製爆弾が爆発し、3人が死亡、21人が負傷した。死者の中には爆発物を運んでいた疑いのある女も含まれる。国営RIAノーボスチ通信が国家対テロ委員会の...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "7e26e424e4f5f396",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "5ちゃんねるで、ヤマザキの災害時対応について「その無料パンの費用は回りまわってお前らパン買ってる奴が負担することになるんやで」という投稿を発見→間接的な募金みたいなもの",
+    "url": "https://togetter.com/li/2727684",
+    "publishedAt": "2026-08-02T00:19:09.000Z",
+    "summary": "5ちゃんねるで、ヤマザキの災害時対応について「その無料パンの費用は回りまわってお前らパン買ってる奴が負担することになるんやで」という投稿を発見→間接的な募金みたいなもの",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "974d536836f241e8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "GitHub - microsoft/skill-recorder",
+    "url": "https://github.com/microsoft/skill-recorder",
+    "publishedAt": "2026-08-02T00:10:53.000Z",
+    "summary": "Record yourself doing a task once, then turn it into a skill your AI agent can repeat. Skill Recorder captures a real work session on your screen: the clicks, the app and window switches, the pages you visit, and (if you want) your spoken narration. It then uses the GitHub Copilo…",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "d4d6c5c9b33f39aa",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "Github Copilot、7月に発表したVS Code向けアップデートをまとめて紹介",
+    "url": "https://codezine.jp/article/detail/29196",
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-02T05:51:43.062Z"
+  },
+  {
+    "id": "dc669bd946b6d43c",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "「AI導入しても評価されない問題」は解決できるのか",
+    "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2129414.html",
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "summary": "Impress Watchニュースレターに掲載した記事です。ニュースレターは無料で、毎週編集部員が会員向けのコラムなどをお送りしています。登録はこちらから。",
+    "fetchedAt": "2026-08-02T05:51:43.532Z"
+  },
+  {
+    "id": "bb0a70dc020dae7d",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "コーヒー三銃士がやってきた！「幸せを感じたコーヒーグッズ」3選 #これ買ってよかった",
+    "url": "https://www.lifehacker.jp/article/2607-korekai-three-coffee-musketeers/",
+    "publishedAt": "2026-08-02T00:00:00.000Z",
+    "summary": "コーヒーを楽しみ抜いた筆者が、買ってよかった3つのアイテム、「Fellow Carter Move Mug」「OXO オート ドリップ コーヒーメーカー」「BODUM フレンチプレスコーヒーメーカー」を紹介します。",
+    "fetchedAt": "2026-08-02T05:51:44.661Z"
+  },
+  {
+    "id": "258eb510a030094d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "26/8/1 キヴォトスではガチャを期待値で語るのは恥ずかしいことなんだよ - LWのサイゼリヤ",
+    "url": "https://saize-lw.hatenablog.com/entry/2026/08/01/205832",
+    "publishedAt": "2026-08-01T23:55:37.000Z",
+    "summary": "回してないのに熱いよ～ まだ皆が読んでるうちにグラフを貼る ガチャストレスのモデリングをしよう ユーザーの気持ちになるですよ 別に読まなくていい数学 ガチャストレスを可視化しよう 旧仕様のストレス体験 新仕様のストレス体験 ユーザーごとのストレス体験 平均的な運のユーザー 運の悪いユーザー 運の良いユーザー...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "63ba9b13497f8d5c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ロシアのミサイルでキーウ市民が死ぬのは悪い攻撃で、ウクライナのドローン攻撃でロシア国民に被害が出るのは仕方がないことなのは、なぜ？",
+    "url": "https://anond.hatelabo.jp/20260802084053",
+    "publishedAt": "2026-08-01T23:41:15.000Z",
+    "summary": "戦争反対というのは、どういうレベルでの戦争反対なのか？ やられたら、やりかえしていいのか？ やられても、やりかえすべきではないのか？ 戦争に反対する。 その言葉は同じでも、それぞれに一派があるのは間違いなく。",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "5b605e470313da26",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "傘が浮いた！？3COINSのシリコンホルダーが、雨天時に車へ荷物を積み込むときの救世主だった",
+    "url": "https://www.lifehacker.jp/article/2607gizmodo_3coins_silicone-magnetic-umbrella-holder/",
+    "publishedAt": "2026-08-01T23:30:00.000Z",
+    "summary": "3COINSで見つけた「シリコーンマグネット傘ホルダー」。いつもの傘に取り付けるだけで、車へ荷物を積み込む際のストレスを激減させてくれるアイテムです。",
+    "fetchedAt": "2026-08-02T05:51:44.661Z"
+  },
+  {
+    "id": "1d540177ee496369",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "天幕のジャードゥーガル：“作画チーフ”とは何？　アニメだから表現できること　吉田健一インタビュー - MANTANWEB（まんたんウェブ）",
+    "url": "https://mantan-web.jp/article/20260618dog00m200123000a.html",
+    "publishedAt": "2026-08-01T23:20:44.000Z",
+    "summary": "「このマンガがすごい！2023」（宝島社）のオンナ編1位に選ばれたことも話題のトマトスープさんのマンガが原作のテレビアニメ「天幕のジャードゥーガル」が、テレビ朝日系のアニメ枠“IMAnimation”で7月から放送されれている。「平家物語」「聲の形」「きみの色」などの山田尚子さんが総監督、「ダンダダン」第2期などのA...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "cf244fec9a71ef76",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "サンコーの新作マグネットケーブルは全盛り。奪うのは「絡まりストレス」だけ",
+    "url": "https://www.roomie.jp/2026/08/1831188/",
+    "publishedAt": "2026-08-01T23:15:44.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 USBケーブルはある程度の長さがなければ不便だと理解しつつも、使用・持ち運び・保管の際に絡まるとイライラしませんか？ それを吹っ飛ばすのが、6月22日に発売したTHANKO（サンコー）の「PD対応見える充電マグネットケーブル」です。 こちら、求めるメリットを全盛りした“最先端Type-Cケーブル”なんです。",
+    "fetchedAt": "2026-08-02T05:51:46.282Z"
+  },
+  {
+    "id": "9892c163d080c9cb",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「文学部」はなぜ〈文芸〉だけの学部ではないのか——「文学・literature・letters」の語誌と大学組織史｜Reading Monkey",
+    "url": "https://note.com/reading_monkey/n/n2c22764e066d",
+    "publishedAt": "2026-08-01T23:07:23.000Z",
+    "summary": "要約——「文学部」は文芸だけの学部ではない。1877年創設時の東京大学文学部は、史学・哲学・政治学と和漢文学から成っていた。本稿は、英語 literature の語誌、ヨーロッパの大学組織史、日本語「文学」の概念史という三つの異なる歴史を突き合わせ、この名称の広さが例外ではなく当時の通常の語義だったことを示す。ジ...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "fbe3d185f529da45",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "id:esbeeです。 ブコメへ返信したいと思って書きました。 私の理屈は、「..",
+    "url": "https://anond.hatelabo.jp/20260802074232",
+    "publishedAt": "2026-08-01T23:00:01.000Z",
+    "summary": "id:esbeeです。 ブコメへ返信したいと思って書きました。 gangan-56592 「アニメ化の反対は良くて、マンガ中止は許されない」ってどういう理屈なんだろ。キャンセルカルチャーって判断は妥当だと思うけど。特に制作スタッフに悪意を向けるコメントもあるし zuiji-zuisho ブコメ、「原作漫画内容知ってるのでアニメ化はア...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "8bfef6b5f2163d04",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "植物は地球上であとどれくらい生き残れるのか？",
+    "url": "https://gigazine.net/news/20260802-plant-maximum-lifetime/",
+    "publishedAt": "2026-08-01T23:00:00.000Z",
+    "summary": "植物は地球上の動物の生活を支える重要な存在ですが、気温等の変化の影響を受けて絶滅してしまうかもしれません。その絶滅は一体いつ起こるのか、研究者らが予測しました。 続きを読む...",
+    "fetchedAt": "2026-08-02T05:51:43.600Z"
+  },
+  {
+    "id": "80ed94be839bf95a",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "迷子のケーブルさん、エレコムの新作「くっつくコネクタ」で居場所定まるよ",
+    "url": "https://www.lifehacker.jp/article/amazon-elecom-connectercable-2608/",
+    "publishedAt": "2026-08-01T23:00:00.000Z",
+    "summary": "USBケーブルはある程度の長さがなければ不便だと理解しつつも、使用・持ち運び・保管の際に絡まるとイライラしませんか？ それを吹っ飛ばすのが、6月22日に発売したTHANKO（サンコー）の「PD対応見える充電マグネットケーブル」です。 こちら、求めるメリットを全盛りした“最先端Type-Cケーブル”なんです。",
+    "fetchedAt": "2026-08-02T05:51:44.661Z"
+  },
+  {
+    "id": "6e3a00b22adf7628",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ヤンキー君のコーリツ学 - ヤンキー君のコーリツ学 | ヤンマガWeb",
+    "url": "https://yanmaga.jp/viewer/comics/%E3%83%A4%E3%83%B3%E3%82%AD%E3%83%BC%E5%90%9B%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%AA%E3%83%84%E5%AD%A6/da1e064d4dfc70d781d503d8a4262644?cid=06Z1100000000947FREE",
+    "publishedAt": "2026-08-01T22:57:36.000Z",
+    "summary": "ヤンキー君のコーリツ学。効率こそ正義‥‥！効率こそ至高‥‥！効率厨ヤンキー、ここに爆誕ーー。",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "3ea82730c75df0ba",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "老害防ぐ「初心者」の気構え　川崎裕一氏 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOCD055830V00C26A2000000/",
+    "publishedAt": "2026-08-01T22:50:23.000Z",
+    "summary": "「老害」という言葉が組織のあちこちで使われている。老害とは加齢や性格ではなく、「再び初心者になるコスト」を払うことを拒否した人の別称だ。過去の栄光にすがるのも、新しいやり方を否定するのも、すべては素人に戻る恐怖からくる防衛本能に過ぎない。どんな人も何も知らないからこそ、必死に吸収し、失敗し、成長...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "c9d376d5a8397a95",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "スーパーの帰りに子供の同級生に会い、お祭りに一緒に行っていいか質問された…その後、その子の母親にLINEで「祭りに行くならうちの子も一緒に連れって行ってほしい」と先手を打った話",
+    "url": "https://togetter.com/li/2727667",
+    "publishedAt": "2026-08-01T22:39:18.000Z",
+    "summary": "🇯🇵ミサエ @MamaTheROC4026 さっきスーパーの帰りに子供の同級生に会った。 「お祭り行くなら一緒に行っていい？」と聞かれたから、「お母さんも来るの？」と聞き返したら「お母さん暑いから無理だって。◯ちゃんちに連れて行ってもらいなよって言ってたから大丈夫だよ」だってさ😩 知らんがな、だよ。 2026-08-01 14:53:5...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "5ff7e1e33e76aa1b",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "OpenAI、アクティブユーザー10億人超に　導入企業は200万社超",
+    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000346/",
+    "publishedAt": "2026-08-01T22:21:26.000Z",
+    "summary": "OpenAIは、アクティブユーザーが10億人、導入企業が200万社を突破したと公表した。推論の保持やコンテキスト管理の改善、本番ソフトウェアの最適化によりコスト削減やトークン生成効率の向上を実現。「GPT-5.6」の一部モデルの値下げはこれらの成果を顧客に還元したものであり、再投資の循環を強調した。",
+    "fetchedAt": "2026-08-02T05:51:42.441Z"
+  },
+  {
+    "id": "62a4741a00ea8009",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "新作「レイダース」で初めて「スプラトゥーン」に触れたマンガ家がその面白さに驚愕！　と同時に絶望した理由",
+    "url": "https://www.itmedia.co.jp/news/article/2608/02/2000000343/",
+    "publishedAt": "2026-08-01T22:15:00.000Z",
+    "summary": "23日にNintendo Switch 2用ソフト「スプラトゥーン レイダース」が発売されました。今作は1人でも遊べる、ステージクリア型のアクションゲーム。PvPが苦手なボクもこれなら楽しめそうです。",
+    "fetchedAt": "2026-08-02T05:51:42.441Z"
+  },
+  {
+    "id": "418d807384defed0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Web小説最新流行 8選",
+    "url": "https://anond.hatelabo.jp/20260802063301",
+    "publishedAt": "2026-08-01T22:10:06.000Z",
+    "summary": "もう一人の私 昭和に転生した元財務官僚、失われた30年を防ぐ。何度でも https://kakuyomu.jp/works/822139840712786528 令和から昭和へ。失われた30年を回避するため、全力を尽くす。何度でも。 おっさんが昭和に転生してやり直す物語 五十六歳の研究者、中学生から人生をやり直す https://kakuyomu.jp/works/82213984...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "230de7202ea51210",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "あなたの学びに「補助線」を——あえて他分野を学ぶ効果と、オススメの組み合わせ。",
+    "url": "https://studyhacker.net/different-genre-learning",
+    "publishedAt": "2026-08-01T22:01:00.000Z",
+    "summary": "毎日コツコツ勉強している。資格の参考書も、ビジネス書も、英語アプリも続けている。勉強はもう習慣になっている。それなのに、会議で意見を求められた瞬間、学んだはずの知識がすっと出てこない。そんな心当たりはありませんか。 こんなとき、つい「もっと勉強しよう」と考えがちです。けれど、ある程度やっても手応えがないなら、足りないのは勉強の「量」ではなく、知識の「見方」かもしれません。 いま学んでいることを捨てる必要はありません。そこに、いつもと違う角度を1本だけ足してみる。それだけで、眠っていた知識が動きだすことがあるのです。 なぜ、量を足しても使えないのか どのジ…",
+    "fetchedAt": "2026-08-02T05:51:43.896Z"
+  },
+  {
+    "id": "4225ab8cdd8742a1",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "薬局チェーンが業務効率化のためにAIを導入したところ遅延・誤った情報提供・プライバシー問題などが発生",
+    "url": "https://gigazine.net/news/20260802-pharmacy-chain-ai/",
+    "publishedAt": "2026-08-01T22:00:00.000Z",
+    "summary": "アメリカのバーモント州とニューヨーク州で薬局チェーンを展開する「Kinney Drugs」は、処方箋の問い合わせや薬の再処方受付を効率化するためAIアシスタントを導入しました。しかし、導入後に薬の受け渡しの遅延や誤った再処方、患者情報の取り扱いに対する不安などが相次ぎ、顧客の不満が高まっています。 続きを読む...",
+    "fetchedAt": "2026-08-02T05:51:43.600Z"
+  },
+  {
+    "id": "010157e2bce53e3d",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「あと少し」がやめられない人へ。疲れをためる前に休む、3つの環境づくり",
+    "url": "https://studyhacker.net/concentration-recovery-system",
+    "publishedAt": "2026-08-01T22:00:00.000Z",
+    "summary": "締め切り前でも粘れたはずの集中力が続かない。休日を挟んでも、疲れが抜けない。それでも「気合いを入れ直せばまた戻るはず」と根性で乗り切ろうとして、うまくいかない……。 「前はもっとできていたはずなのに」。これまで結果にこだわって働いてきた人ほど、そんな戸惑いを感じやすいものです。 こうした行き詰まりの正体は、能力の低下ではなく、崩れてしまった「回復のシステム」にあります。根性で立て直そうとするのをやめ、仕組みのほうを整えれば、休むことは意外なほど自然に戻ってくるものです。 まずはセルフチェック。「休めない人」に共通する7つのサイン なぜ、わかっていても休め…",
+    "fetchedAt": "2026-08-02T05:51:43.896Z"
+  },
+  {
+    "id": "39c03859e236213c",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "Safari向け拡張機能「Filtre」なら、ネタバレもニュースもキーワードで手軽にブロックできる",
+    "url": "https://www.lifehacker.jp/article/2608-filtre-lets-you-block-unwanted-content-on-every-site-in-safari/",
+    "publishedAt": "2026-08-01T22:00:00.000Z",
+    "summary": "Safari向け拡張機能「Filtre」を使えば、見たくないキーワードを設定するだけで、不快なニュースやネタバレを自動でブロックできます。Appleデバイス間での同期にも対応し、見たい情報だけに集中できる快適なWeb閲覧環境を実現する便利な機能を紹介します。",
+    "fetchedAt": "2026-08-02T05:51:44.661Z"
+  },
+  {
+    "id": "16f39bdb267f7ce8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "深井智朗氏の論文など７編で新たな捏造認定 ３大学が共同調査 「単なる注意義務違反ではなく故意」 2026年8月1日 - キリスト新聞社ホームページ",
+    "url": "https://www.kirishin.com/2026/08/01/92013/",
+    "publishedAt": "2026-08-01T21:33:02.000Z",
+    "summary": "金城学院大学（名古屋市）、聖学院大学（埼玉県上尾市）、東洋英和女学院大学（東京都港区）は７月３１日、日本基督教団愛泉教会牧師で東洋英和女学院大学元教授の深井智朗氏が執筆した論文など７編について、研究活動上の特定不正行為に当たる「捏造」があったとする調査結果を公表した。３大学は深井氏に対象著作の取...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "53e08e55785f33b5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「深いメッセージ性も、巧みな伏線回収もない」「考察ブームへのアンチテーゼ」とある准教授の映画「ちいかわ」評が本当に観たのか不安な内容でスゴい",
+    "url": "https://togetter.com/li/2727643",
+    "publishedAt": "2026-08-01T21:02:51.000Z",
+    "summary": "｢クレヨンしんちゃん｣｢プリキュア｣とはまったく違う…映画｢ちいかわ｣が破った\"長編アニメのお約束\" | PRESIDENT Online（プレジデントオンライン） 7月24日に公開された『映画ちいかわ 人魚の島のひみつ』が好調だ。公開から3日で興行収入は22億4000万円、観客動員数は150万人を突破し、今年の夏映画の大本命となっている...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "db329a0971a8cfff",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "宇宙際タイヒミュラー空間についての雑感｜下部　博一",
+    "url": "https://note.com/complex_manifold/n/ne2d5e726beda",
+    "publishedAt": "2026-08-01T19:30:59.000Z",
+    "summary": "望月先生により、ABC予想が証明されたとアナウンスされて、１０年以上経った。その証明は、６００ページを超える論文であり、しかも望月先生のほぼオリジナルな理論であるので、およそ誰にとっても専門外であり、論文の信憑性に関しては、多くの議論を呼んだ。論文は査読を通っているが、査読誌が望月先生の所属する機関...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "459d9390e87aefb0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造 | MOGU2NEWS",
+    "url": "https://mogumogunews.com/2026/07/topic_36639/",
+    "publishedAt": "2026-08-01T17:56:52.000Z",
+    "summary": "序論：社会的弱者表象をめぐる現代の倫理的ジレンマ 2027年にテレビアニメ化が予定されている亜月ねね氏の漫画『みいちゃんと山田さん』をめぐり、SNSをはじめとするメディア空間で先鋭的な論争が巻き起こっている。累計発行部数280万部を超える本作は、2012年の新宿・歌舞伎町を舞台に、キャバクラで働く女子大生の山田...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "f6408cd1a926b503",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "2026年7月のニュースレター運用ふりかえり",
+    "url": "https://blog.lai.so/2026-07/",
+    "publishedAt": "2026-08-01T16:52:17.000Z",
+    "summary": "6月末に「AI開発者ニュース」を有料特典として始めました。blog.lai.soの有料購読者とGitHub Sponsorsの支援者へ、AIエージェント、モデル、開発ツールの話題を一次情報へのリンク付きで届けています。 7月は配信を続ける仕組みを作れました。一方、新しい有料読者は増えませんでした。8月は情報量を減らして筆者の判断...",
+    "fetchedAt": "2026-08-02T05:51:43.658Z"
+  },
+  {
+    "id": "7199edcb2264d367",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "Context Ontology Accelerator Docs",
+    "url": "https://aws.github.io/context-ontology-accelerator/",
+    "publishedAt": "2026-08-01T16:42:03.000Z",
+    "summary": "Context Ontology Accelerator Documentation · the open source ontology accelerator for enterprise AI",
+    "fetchedAt": "2026-08-02T05:51:43.658Z"
+  },
+  {
     "id": "f62787b7580955b7",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -70,6 +620,36 @@
     "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
+    "id": "49f6a84b6e6e14ca",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造｜Infoseekニュース",
+    "url": "https://news.infoseek.co.jp/article/mogumogunews_36639/",
+    "publishedAt": "2026-08-01T14:42:42.000Z",
+    "summary": "メディアにおける社会的弱者表象の境界線：『みいちゃんと山田さん』論争とアメリカの倫理的潮流からみる「問題提起」と「露悪」の構造 もぐもぐニュース / 2026年7月30日 9時34分 序論：社会的弱者表象をめぐる現代の倫理的ジレンマ 2027年にテレビアニメ化が予定されている亜月ねね氏の漫画『みいちゃんと山田さん』を...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "f63b200652365d90",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "物価やべえ…",
+    "url": "https://anond.hatelabo.jp/20260801120630",
+    "publishedAt": "2026-08-01T14:32:40.000Z",
+    "summary": "コンビニで水とパンとクッキー買ったら700円。",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "421a716f4d7c5ee5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "亜月ねねとダイアナは別人なのか？別人主張の謎をわかりやすく解説｜大知コラム",
+    "url": "https://www.taichimaster.jp/miiyama-betsujin/",
+    "publishedAt": "2026-08-01T14:23:46.000Z",
+    "summary": "『みいちゃんと山田さん』の作者・亜月ねねが7月31日に出したポストが、いま大変なことになっている。 内容は「ダイアナというアカウントと私は別人です」という訂正だ。 これに対するネットの反応は、ほぼ一色だった。 「バレバレの嘘をついている」 証拠のスクリーンショットが次々と貼られ、擁護の声はかき消されてい...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "2908ab1fe102c954",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -78,6 +658,16 @@
     "publishedAt": "2026-08-01T14:00:00.000Z",
     "summary": "博士号を取得して大学や研究機関の職を得たいと考えている研究者にとって、執筆した研究論文は重要な自己アピールの材料となります。実際に著名な学者を「インフルエンサー」として採用し、Twitter(現X)で求職者の研究論文を紹介させた実験により、SNSで研究論文が著名な学者に紹介されることによる影響が明らかになりました。 続きを読む...",
     "fetchedAt": "2026-08-01T15:00:18.682Z"
+  },
+  {
+    "id": "032d1e166a115591",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "CLAUDE.mdとAGENTS.mdを削ったら、AIコーディングがグンと賢くなった｜白井暁彦 aka しらいはかせ",
+    "url": "https://note.com/o_ob/n/nd19cba8e11d7",
+    "publishedAt": "2026-08-01T13:32:46.000Z",
+    "summary": "Claude CodeやCodexのようなコーディングエージェントを使い続けていると、いつの間にかCLAUDE.mdやAGENTS.mdが巨大化していきます。 最初は数十行だったはずなのに、注意事項を追加し、作業手順を書き足し、引き継ぎ事項を残し、過去のトラブルを記録しているうちに、数百行の「何でも帳」になってしまいます。 情報を...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "e8b613298f7e1a46",
@@ -230,6 +820,16 @@
     "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
+    "id": "ad283367884aab14",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "住宅ローン固定金利引き上げ 大手5行 三井住友信託は4％超え",
+    "url": "https://news.tv-asahi.co.jp/news_economy/articles/000523418.html",
+    "publishedAt": "2026-08-01T11:59:46.000Z",
+    "summary": "1 住宅ローンの固定金利がそろって引き上げられます。 大手銀行5行が、8月の住宅ローン金利を発表しました。 固定10年の「最優遇金利」は三菱UFJ銀行は3.59％、三井住友銀行は3.65％、みずほ銀行は3.35％に引き上げられます。 三井住友信託銀行は4.105％、りそな銀行は3.795％に引き上げられます。 （2026年8月1日放送分...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "d571158e8911bc0d",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -268,6 +868,16 @@
     "publishedAt": "2026-08-01T11:41:11.000Z",
     "summary": "タノソ・彗星類人猿仮説 @hesonogomanai 出産した友達がお家に招いてくれたと母に報告したら「必ずかわいいねって言ってくるんだよ」と念を押された。「友達の延長としては大切だとは思うけど写真見てもかわいいと思えなかったし、親しき仲にも礼儀ありというけど友達に対して自分の感想まで偽る必要なんて…」とアスペ子...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "11d688bac9ddb500",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "京都に旅行した時、京都河原町駅で駅員さんに「四条はどうやって行くんですか？」と聞いたら「ここが四条です」と言われた→客が何を求めているかを理解すべきか？伝え方の問題か？",
+    "url": "https://togetter.com/li/2727438",
+    "publishedAt": "2026-08-01T11:39:20.000Z",
+    "summary": "れもん🐖(°▿°)🇯🇵 @thronefallosusu 京都に旅行行った時、京都河原町駅で駅員さんに 「四条はどうやって行くんですか？」 って聞いたら 「ここが四条です」 って言われたからね。 駅員さんにだよ？ 旅行客が四条駅の事聞いてるってわかっててそう答えてるだろ。 x.com/orangeitems_/s… 2026-07-31 10:15:26 orangeitems @...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "44df34144bdaefe8",
@@ -360,6 +970,26 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "d26e75731044b2ce",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "個人開発で踏みやすいパフォーマンス・アンチパターン 5 点 — Prisma N+1 から useMemo 漏れまで",
+    "url": "https://qiita.com/teppei19980914/items/8d0ec908a7943725ec98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T10:31:36.000Z",
+    "summary": "この記事は約 5 分で読めます。 筆者プロフィール: ソフトウェアエンジニア。「知った気にならない。いつまでも学び続ける」を信条に、業務と個人開発の両輪で技術を磨いています。AI 駆動開発で複数の個人開発アプリを構築・運用中。 👉 ポートフォリオ: 筆者ホームページ 「...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
+    "id": "840527165c07e865",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【週1回だけ続けて】プランク6種目で体幹を鍛える本気の体幹トレーニング",
+    "url": "https://melos.media/training/307409/",
+    "publishedAt": "2026-08-01T10:30:19.000Z",
+    "summary": "今回は、プランク6種目で体幹を徹底的に鍛えるトレーニングを行います。 腹筋だけでなく、背中・お尻・肩まわりまで全身を支え…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "211a30441ccaa37c",
     "source": "ライフハッカー",
     "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
@@ -430,6 +1060,26 @@
     "fetchedAt": "2026-08-01T15:53:36.410Z"
   },
   {
+    "id": "3dc00c3c678c2afe",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【AWS】Managed Knowledge Baseでの検索フィルターを確認しました",
+    "url": "https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T09:59:21.000Z",
+    "summary": "はじめに Managed Knowledge Baseと検索フィルターを組み合わせていろいろ試してみました。 Gateway の Interceptor で検索リクエストを書き換えれば、検索の時点で絞り込めるはず。そう思って試したら、思っていたより制約が多かったので書き残...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
+    "id": "653f57738f8c4445",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "『みいちゃんと山田さん』障害をもつ主人公が転落していく様を楽しむヤンマガ編集部",
+    "url": "https://www.nicovideo.jp/watch/sm46610918",
+    "publishedAt": "2026-08-01T09:51:41.000Z",
+    "summary": "「みいちゃんと山田さん」へのアツい感想を教えてくれる講談社 ヤンマガ編集部の皆様出演：三浦 礼士上田 航平暮田 佳音乙部 修平（左から右へ）",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "094444ad864c9d37",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -450,6 +1100,16 @@
     "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
+    "id": "acebab300efa1d99",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "立ったままできる股関節ストレッチ！毎日続けると柔らかくほぐれる",
+    "url": "https://melos.media/training/307217/",
+    "publishedAt": "2026-08-01T09:34:15.000Z",
+    "summary": "股関節は、歩く・立つ・しゃがむなど、日常のあらゆる動作に関わる重要な関節です。しかし、デスクワークや運動不足が続くと周辺…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "c8493ab426289081",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -468,6 +1128,16 @@
     "publishedAt": "2026-08-01T09:20:05.000Z",
     "summary": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］ 編集部：haruka 中国のゲームメーカーJoystickは，サクセスが2006年に発売したニンテンドーDS用ソフト「メタルサーガ 〜鋼の季節〜」のリマスター版（PC / PS5 / PS4 / Nintendo Switch 2）を発表し，20...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "3f4ee8fd7d7b0b34",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "サッカーゲームは「動かせない21人」といかにして戦ってきたか｜遊星歯車機関",
+    "url": "https://note.com/planetary_gear/n/nc5f8073392e3",
+    "publishedAt": "2026-08-01T09:13:01.000Z",
+    "summary": "文・otaku can change the world サッカーは決して一人ではできない。 ── 『イナズマイレブンGO』円堂守 今日の格言（47話）0.サッカーゲームは選手を操作するとは限らない世界で最も長く続いているサッカーゲームの系譜の一つは、選手をまったく操作できない。 1982年、英国のプログラマー、ケヴィン・トムズ（Kevin To...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "84d304ecdec82cce",
@@ -590,6 +1260,16 @@
     "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
+    "id": "ba5875eaac061c60",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "深いスクワットを1日30回、週2で1週間続けてみて！お尻と内ももへの効きを、実感しやすいのでおすすめ！",
+    "url": "https://melos.media/training/307547/",
+    "publishedAt": "2026-08-01T07:30:54.000Z",
+    "summary": "深くしゃがむフルスクワット30回と50秒のストレッチ。太ももとお尻に効かせる、3分間のメニューです。筋肉に疲れを残さない…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "ddd3cb41129f6f11",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -670,6 +1350,26 @@
     "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
+    "id": "cb4906e868c77182",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Copilot活用に向けた「Microsoft Teamsでの情報共有の考え方」を作成しました  | 北海道大学DX業務推進室",
+    "url": "https://mx.general.hokudai.ac.jp/posts/SuvDaMaR",
+    "publishedAt": "2026-08-01T06:41:19.000Z",
+    "summary": "こんにちは！「事務職員が変われば、北大は変わる」を信じてる、北海道大学DX業務推進室の佐久間です。Microsoft 365 Copilotをもっと活用するためには、業務に関する情報がTeams上に適...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "ecb3c7eb7859664a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "セキュリティの仕事は、社内に落ちている──情シス・インフラが最初に拾うべき5つ",
+    "url": "https://zenn.dev/gangy/articles/7ae64ac2a9e435",
+    "publishedAt": "2026-08-01T06:32:51.000Z",
+    "summary": "この記事について 「セキュリティをやりたいけど、転職しないと無理だと思っている」——情シスやインフラ運用をしている人から、わりとよく聞く話です。 でも実際にやってみて思うのは、セキュリティの仕事は、たいてい社内に落ちているということです。誰の担当でもないまま放置されているタスクが必ずあって、それを拾...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "7a992fb5e8218120",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -710,6 +1410,16 @@
     "fetchedAt": "2026-08-01T15:00:17.711Z"
   },
   {
+    "id": "e0da20b7bfc16372",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "品川会 #7 に富山から参加して登壇してきた",
+    "url": "https://qiita.com/ssakita/items/fee908686d2b9f72b30d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T05:38:34.000Z",
+    "summary": "はじめに こんにちは！ssakitaです！ 7月29日（水）、株式会社クレスコさんで開催された「品川会 #7」に参加してきました！ 品川会は初参加で、せっかくなので登壇もさせていただきました！ 品川会とは 前Jr.Championの八雲さんが立ち上げた、AWSを中心と...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
     "id": "e17094fbe74ed98c",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -728,6 +1438,26 @@
     "publishedAt": "2026-08-01T05:27:16.000Z",
     "summary": "個人の金融所得が社会保険料の算定に反映される新制度 金融所得課税が強化されつつありますが、先だって社会保険料の算定基準も変わる、ということで話が進んでいますね。日本はこれから、少子化に伴う国民負担率の上昇という困難な道に直面します。増税と社保負担増の両輪です。 これまでは氷河期世代が団塊世代の老後...",
     "fetchedAt": "2026-08-01T15:53:34.679Z"
+  },
+  {
+    "id": "d41c88bf2871631f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "飲みで「上っ面しか見せないよね」と言われてもわからん",
+    "url": "https://anond.hatelabo.jp/20260801141927",
+    "publishedAt": "2026-08-01T05:19:41.000Z",
+    "summary": "飲みの場で上司に「上っ面しか見せないよね」と言われても、何を言ったらいいのかわからない。 聞かれたことはモゴモゴせずに話してるし、なんなら周りでシラフで飲んでる人より話している。 というか内面を知りたいなら相手の返答を充分に待ってから話すべきで、矢継ぎ早に質問攻めするのは上っ面の皮剥きでしかないの...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
+    "id": "cff1531a61ef7c53",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "skills/plugins/html/skills/html at main · mathbullet/skills",
+    "url": "https://github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
+    "publishedAt": "2026-08-01T05:17:24.000Z",
+    "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+    "fetchedAt": "2026-08-02T05:51:43.658Z"
   },
   {
     "id": "2c03a41acf32534e",
@@ -910,6 +1640,26 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "575bd501c92a388d",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "俺が利用してる楽天関係のサービス",
+    "url": "https://anond.hatelabo.jp/20260801121056",
+    "publishedAt": "2026-08-01T03:12:18.000Z",
+    "summary": "楽天カード 楽天銀行 楽天証券 楽天ペイ 楽天モバイル 楽天フリマ 楽天トラベル 楽天家計簿 楽天マガジン 楽天ビューティ でもね 楽天市場はほぼ使ってないんだ 楽天市場は見た目があまり好きじゃないから… SBI証券の界隈にしたらよかったかな でも今更引き返せないよ",
+    "fetchedAt": "2026-08-02T05:51:43.658Z"
+  },
+  {
+    "id": "f37757a51814792b",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "なぜふくらはぎは硬くなる？よくある3つの原因と“ガチガチふくらはぎ”のデメリット",
+    "url": "https://melos.media/training/306952/",
+    "publishedAt": "2026-08-01T03:09:03.000Z",
+    "summary": "ふくらはぎが硬くなる原因は、運動不足だけではありません。長時間の座りっぱなしや立ちっぱなし、筋肉の使いすぎ、血行不良など…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "437607d141a4c3ec",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -978,6 +1728,16 @@
     "publishedAt": "2026-08-01T02:43:07.000Z",
     "summary": "それは戦後のサラリーマン社会が生んだものであり、たしかに一時は流行した。「帰省ブーム」が起こったとも言えるのだ。 しかし、ブームは一時は盛り上がるものの、少し時間が経てば廃すたれていく。廃れていくと、なぜそんなことをしなければならないのかが分からなくなってしまう。 どうして帰省はブームになったのだ...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "245589798a16fe2a",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【YAMAHAルーター】RTX1300を2台でHA構成。VRRPの基本から（1回目）",
+    "url": "https://qiita.com/Heizo_Hasegawa/items/8ea5d459681f7f7ac2a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-01T02:38:21.000Z",
+    "summary": "はじめに 最近、もんじゃが美味しい街での技術勉強会に呼ばれることが増えてきました。 若手エンジニアさん達が物理サーバの蓋を開けて、おそるおそるメモリやライザーカードを挿してる姿を見ると色々と教えられるものがありますね。初心忘れるべからず。 さて、サーバ側でどれだけHA組も...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
   },
   {
     "id": "7eb0852593879427",
@@ -1070,6 +1830,16 @@
     "fetchedAt": "2026-08-01T16:42:37.911Z"
   },
   {
+    "id": "0127d7133788613a",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "新しい SLO が良い感じにハマっている話",
+    "url": "https://speakerdeck.com/z63d/about-how-the-new-slo-is-fitting-in-nicely",
+    "publishedAt": "2026-08-01T01:00:01.000Z",
+    "summary": "もう一度考えるSRE #1 https://topotal.connpass.com/event/399194/",
+    "fetchedAt": "2026-08-02T05:51:43.658Z"
+  },
+  {
     "id": "c273de28d87a3c43",
     "source": "ITmedia Mobile",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
@@ -1118,6 +1888,26 @@
     "publishedAt": "2026-08-01T01:00:00.000Z",
     "summary": "針がありません。数字の描かれた球体が目盛りの上を渡っていく自動巻き腕時計「TIMEORB」。ワンダリングアワーという、17世紀生まれの時間の読み方を腕に乗せてみました。",
     "fetchedAt": "2026-08-01T15:53:36.410Z"
+  },
+  {
+    "id": "abb3f79e13d755bb",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "足パカを毎日45回、1週間続けてみて！内ももに起こる変化と“効かせる”やり方",
+    "url": "https://melos.media/training/307387/",
+    "publishedAt": "2026-08-01T00:46:01.000Z",
+    "summary": "「内ももを引き締めたい」「脚をすっきり見せたい」と思ったら、まず試したいのが足パカです。 足パカは、内ももの筋肉（内転筋…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
+    "id": "d5ad0c3eec0b8c11",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "OpenAIがGPT-5.6 Lunaを80%値下げしたから、今日からCodex派になりました。｜tatsuki",
+    "url": "https://note.com/nobel/n/n92fb2ecf10f4",
+    "publishedAt": "2026-08-01T00:41:48.000Z",
+    "summary": "この記事は数日間全文無料で読めます。 AIのモデルを追っていると、価格と性能の地図が毎週のように書き換わります。 少し前まで、ClaudeのFable 5はすごいと言われていた。そこへ、Fable 5に近い性能を半額で出すOpus 5が登場した。Kimi K3やGLM系は、評価項目によってはさらに安く、Grokもコストパフォーマンスがいい...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "22d0f9fbe589cdde",
@@ -1370,6 +2160,16 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "769a95fcdb14353f",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "ガバメントクラウドでのAWS DevOps Agentの活用",
+    "url": "https://qiita.com/infra365/items/70eb40b12d6f9c0011ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-31T20:16:50.000Z",
+    "summary": "概要 2026/07/31に開催されたJAWS UG 名古屋 × Gov JAWSコラボにて「ガバメントクラウドでのAWS DevOps Agentの活用」というタイトルでLT登壇させていただいた内容です。 ガバメントクラウドの運用はマルチアカウント構成や閉域ネット...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
     "id": "705694bbd6eee007",
     "source": "はてなIT",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -1388,6 +2188,26 @@
     "publishedAt": "2026-07-31T20:10:43.000Z",
     "summary": "【ブリュッセル=時事】欧州連合（EU）欧州委員会は31日、人工知能（AI）規制法に基づき、AIが生成・加工したコンテンツに識別表示を義務付ける規定を8月2日から適用すると発表した。欧州委と加盟国当局による規制の執行も同日開始し、利用者の保護とAIへの信頼確保を図る。人の行動を不当に操作するなど、禁止されたAI利...",
     "fetchedAt": "2026-08-01T15:00:18.714Z"
+  },
+  {
+    "id": "261eb4baf177a8ec",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "毎日20回のヒップリフトを続けるとどうなる？1週間〜1ヶ月で感じやすい体の変化",
+    "url": "https://melos.media/training/307104/",
+    "publishedAt": "2026-07-31T20:00:51.000Z",
+    "summary": "お尻や太ももの裏を鍛えられる「ヒップリフト」。毎日20回続けると、お尻はどう変わるのでしょうか。 個人差はありますが、毎…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
+    "id": "35c2cd91edea412c",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "スマホより軽い“進化系日傘”が大人気！約32.5℃の温度差、遮光・UVカットも",
+    "url": "https://melos.media/news/307478/",
+    "publishedAt": "2026-07-31T20:00:38.000Z",
+    "summary": "日傘の遮光・UVカットは当たり前。持ち運びしやすさや耐風性能も重視したいポイントです。そんな人に、“持ち運べる日陰”の異…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "32fd60636e2b9706",
@@ -1428,6 +2248,16 @@
     "publishedAt": "2026-07-31T17:45:21.000Z",
     "summary": "MADE IN YAMATO。この女、ただの筋トレ女子にあらず、 筋に囚われた獣なり‼ 美容、健康、話題作り、様々な理由で筋トレをする者がいるが、この女、信濃川大和はそんな生ぬるい理由では断じて筋トレはせぬ‼ ひたすらに筋肉を愛し筋肉のために筋肉を想い続け筋肉を育てし求道者なり‼ しかし、筋肉とは仲良くできても、ちょ...",
     "fetchedAt": "2026-08-01T15:00:17.711Z"
+  },
+  {
+    "id": "5456384d7d9407cc",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "スマホのWebGPUで分散AI基盤を作ろうとしたら精度差で出力が分岐した話（ArcAsha-OS開発記）",
+    "url": "https://qiita.com/ryotani3/items/af4244bb68009412ee83?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-31T16:41:18.000Z",
+    "summary": "はじめに Big Techの巨大データセンターに対抗し、**「自分の部屋にあるスマホ群を繋いで分散知能を作る」**をテーマに、オープンソースのエッジ分散AI基盤 ArcAsha-os を開発しています。 今回、MacのMaster（Orchestrator）に対して、iP...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
   },
   {
     "id": "0405d60f5c097e0a",
@@ -1730,6 +2560,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "0bc38b7225945d5b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "みいちゃんと山田さんは「中学生レベルの読解力・思考力」がない人にとっては差別肯定マンガになってしまうことは意識しておきたい｜よしき",
+    "url": "https://note.com/yoshiki_stu/n/n5689c1510949",
+    "publishedAt": "2026-07-31T11:49:56.000Z",
+    "summary": "今はもうMさんレベルの人もみんなSNSを使うようになってしまった。そうなると、同じようなレベルの人同士で群れるのでそもそも自分の読解力に疑問を抱かずに過ごせてしまう。 はたしてそれは良いことなのだろうか・・・ JJさんとMさんに共通しているのは「このキャラクターが作中でどのような立ち位置で描かれているか」...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "2fc785487216840d",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1810,6 +2650,26 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
+    "id": "ff929ddcdc8cc674",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【腕立て伏せは回数じゃない】じわじわ胸に効く2分間！週に1回やってみて！",
+    "url": "https://melos.media/training/307031/",
+    "publishedAt": "2026-07-31T10:30:33.000Z",
+    "summary": "今回は、ゆっくり動くことで胸筋へじわじわ効かせる「スロープッシュアップ」を行います。 たった3回×3セットでも、動作をゆ…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
+    "id": "700daa75d8c6c90a",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "腕立て伏せを1分間、一緒にやろう！腕と胸の引き締めに効果的で、週3のペースがオススメ",
+    "url": "https://melos.media/training/307447/",
+    "publishedAt": "2026-07-31T10:30:15.000Z",
+    "summary": "腕と胸に効かせる「プッシュアップ」。20秒×3セットを行います。今回は筋肥大ではなく、腕と胸の引き締めを狙っていきます。…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "9de8bc426150bc43",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1818,6 +2678,16 @@
     "publishedAt": "2026-07-31T10:30:11.000Z",
     "summary": "『映画ちいかわ 人魚の島のひみつ』を観てきた。「ちいかわ」シリーズ原作はTwitterのオタクが日夜騒いでいた（言い方）姿を遠巻きから眺めていたくらい。時々、SNSで流れてくる漫画を読んでみたが、１ページだけだとハイコンテクスト（←先に言っておくとこの記事の重要ワードとなる）でよくわからんな…いつかまとめて読...",
     "fetchedAt": "2026-08-01T00:13:57.197Z"
+  },
+  {
+    "id": "2bee09ce5b71cf39",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "つま先立ちを毎日60回、1ヶ月続けてみよう！どんな変化が期待できる？",
+    "url": "https://melos.media/training/307360/",
+    "publishedAt": "2026-07-31T10:30:03.000Z",
+    "summary": "「つま先立ち」を毎日1分（60回）続けると、体にはどのような変化が期待できるのでしょうか。 つま先立ちは、ふくらはぎを中…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "497098876d0bee4e",
@@ -1918,6 +2788,16 @@
     "publishedAt": "2026-07-31T09:54:57.000Z",
     "summary": "三菱地所は、日本橋川に面する場所で開発を進めてきた「大手町ゲートビルディング」が7月31日に竣工したと発表した。開発街区内にて、人道橋「仲通り散歩橋」と防災船着場「鎌倉河岸船着場」も整備した。同社は各施設を報道向けに公開するとともに、竣工記念式典を実施した。",
     "fetchedAt": "2026-08-01T15:00:18.618Z"
+  },
+  {
+    "id": "0fd46ec71c006dd8",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "“持ち歩く日陰”の異名を持つ「冷却日傘」、最大33.9℃差を実現",
+    "url": "https://melos.media/hobby/307477/",
+    "publishedAt": "2026-07-31T09:53:56.000Z",
+    "summary": "「日陰を持ち歩く」。そんな発想の日傘が、さらに進化しました。 ムーンバットが発売した「ハニカム断熱パラソル」は、遮光・遮…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "ee0caa8ca6d9a9a7",
@@ -2380,6 +3260,16 @@
     "fetchedAt": "2026-07-31T08:10:20.681Z"
   },
   {
+    "id": "9e6d798da8543e86",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "開脚運動を毎日30秒続けると、股関節にどんな変化が出る？1週間〜1ヶ月の効果",
+    "url": "https://melos.media/training/306586/",
+    "publishedAt": "2026-07-31T06:51:11.000Z",
+    "summary": "毎日30秒の開脚ストレッチを続けると、体にはどのような変化が起こるのでしょうか。理学療法士・パーソナルトレーナー大松 茉…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "2ca2094608ccb424",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -2520,6 +3410,16 @@
     "fetchedAt": "2026-08-01T15:00:18.618Z"
   },
   {
+    "id": "c9218079027be10f",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "筋トレを「毎日5分」続けると、どんな変化が期待できる？",
+    "url": "https://melos.media/training/306726/",
+    "publishedAt": "2026-07-31T06:00:41.000Z",
+    "summary": "忙しい日々の中で運動を続けたい人にとって、短時間トレーニングの効果は気になるポイントです。しかし、毎日5分の筋トレでも十…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "3eee6fcf7bd6d509",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -2640,6 +3540,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "8b1182f1e476fce6",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026年最新】大宮のパーソナルジムおすすめ14選｜安い・女性向け・初心者向けを比較",
+    "url": "https://melos.media/area_pickup/96742/",
+    "publishedAt": "2026-07-31T04:55:03.000Z",
+    "summary": "更新日：2026年7月31日 本記事にはプロモーションが含まれています 大宮でパーソナルジムを探すなら、まずは「通いやす…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "ddc318464f7d1447",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -2720,6 +3630,16 @@
     "fetchedAt": "2026-08-01T00:13:57.197Z"
   },
   {
+    "id": "dc4beacb06e5bab0",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026最新】代々木のパーソナルジムおすすめ14選！月額が安いジムやダイエットに人気のジムも",
+    "url": "https://melos.media/area_pickup/96733/",
+    "publishedAt": "2026-07-31T04:15:21.000Z",
+    "summary": "更新日：2026年7月31日 本記事にはプロモーションが含まれています 代々木でパーソナルジムを探すなら、まずは「通いや…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "2dd8462c8b620883",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -2738,6 +3658,16 @@
     "publishedAt": "2026-07-31T04:15:00.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:00:18.190Z"
+  },
+  {
+    "id": "62e4666143b3264c",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "炎天下でも涼しい！最大24℃差の「遮熱特化日傘」が登場",
+    "url": "https://melos.media/news/306777/",
+    "publishedAt": "2026-07-31T04:09:07.000Z",
+    "summary": "夏の暑さはこれまで以上に深刻な社会課題となっています。日傘に求められる役割も、紫外線対策だけでなく「いかに暑さを和らげら…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "b2d2c32e88657b31",
@@ -2920,6 +3850,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "7d241183c15e3d45",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "※服装と性犯罪は無関係です。(第20回NC佳作)・※服装と性犯罪は無関係です。(第20回NC佳作) | チャンピオンクロス",
+    "url": "https://championcross.jp/episodes/56897ce64fc9d",
+    "publishedAt": "2026-07-31T03:09:49.000Z",
+    "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "c0aa915981421880",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -2938,6 +3878,16 @@
     "publishedAt": "2026-07-31T03:04:00.000Z",
     "summary": "ハイパーシェルは、下半身を強化するパワードスーツの新製品「新Hypershell Xシリーズ」を7月30日に発売した。「Hypershell X Pro S」、「Hypershell X Max S」、「Hypershell X Ultra S」の3モデルをラインナップ。価格は順に189,800円、269,800円、359,800円。",
     "fetchedAt": "2026-08-01T16:42:37.815Z"
+  },
+  {
+    "id": "3b714a9ab43de489",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "SKE48伊藤実希が語るランニングの魅力「ハードで知られている“制服の芽”公演も、息ひとつ上がらずやり切れた」【前編】｜アイドルと、スポーツと、その先へ。",
+    "url": "https://melos.media/hobby/306235/",
+    "publishedAt": "2026-07-31T03:00:51.000Z",
+    "summary": "SKE48 Team KIIのリーダー・伊藤実希さんは、ランニングやマラソンに真剣に取り組むメンバーのひとりだ。もともと…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "af4fc0e547999438",
@@ -2990,6 +3940,16 @@
     "fetchedAt": "2026-08-01T15:00:18.682Z"
   },
   {
+    "id": "d9c7f99f9446cc1c",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "座るだけで日陰を作れる「シェードチェア」が話題に。両手が空くのが有り難い！",
+    "url": "https://melos.media/news/306762/",
+    "publishedAt": "2026-07-31T02:50:54.000Z",
+    "summary": "危険な暑さが続く夏。日傘を差しても腕が疲れる、子どもの見守りやスポーツ観戦では両手がふさがってしまう。そんな屋外ならでは…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "04966757152a3f0d",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -3040,6 +4000,16 @@
     "fetchedAt": "2026-08-01T15:00:17.584Z"
   },
   {
+    "id": "1503cc276d7fb636",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "細マッチョを目指して筋トレを続けると、「1週間～3ヶ月」でどんな変化が期待できる？",
+    "url": "https://melos.media/training/306663/",
+    "publishedAt": "2026-07-31T02:40:45.000Z",
+    "summary": "細マッチョは一気に変わるのではなく、段階的に体が変化していきます。特に最初の1カ月は変化がわかりにくいため、週ごとに目安…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "8a869160983e79af",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -3068,6 +4038,16 @@
     "publishedAt": "2026-07-31T02:18:22.000Z",
     "summary": "PerplexityがAIエージェントの危険な挙動を検知・防止するツール群「Numbat」をオープンソース化。Claude CodeやCodexに組み込み、タスクに執着したエージェントの“暴走”を実行前に阻止する。",
     "fetchedAt": "2026-08-01T15:00:17.737Z"
+  },
+  {
+    "id": "81ac046fbaefc666",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "プロフェッショナルAI駆動開発 | 技術評論社",
+    "url": "https://gihyo.jp/book/2026/978-4-297-15788-3",
+    "publishedAt": "2026-07-31T02:18:06.000Z",
+    "summary": "著者 松本淳太郎（まつもとじゅんたろう），サカモト 著 株式会社松尾研究所 金剛洙（キム カンス） 監修 定価 2,970円（本体2,700円＋税10%） 発売日 2026.8.27 判型 A5 頁数 288ページ ISBN 978-4-297-15788-3 概要 AIに指示すればコードは動く。だが同じ指示でも、返ってくるコードは毎回違う。LLMの出力は本質的...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "9028555276bdeca6",
@@ -3160,6 +4140,16 @@
     "fetchedAt": "2026-08-01T15:00:18.618Z"
   },
   {
+    "id": "01813d2a4e57468a",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "検証！Claude Codeのサブエージェント並列はお得なのか",
+    "url": "https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-31T01:46:31.000Z",
+    "summary": "Claude Codeのサブエージェント、並列にすると本当に速い・お得なのか実測してみた 前回はモデルごとのトークン消費比較をやりました。今回は第3弾として、Claude Codeのサブエージェント(Agentツール)を並列実行するとどれだけ効果があるのかを実際に測定して...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
     "id": "0a71b8bd4c73584b",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -3228,6 +4218,16 @@
     "publishedAt": "2026-07-31T01:29:00.000Z",
     "summary": "Amazon.co.jpで「OPPO Find X9 Ultra」の割引クーポンが配布中。定価27万4800円のところクーポン適用で25万68円で購入できる。さらに2748ポイント（1％）が還元される。",
     "fetchedAt": "2026-08-01T15:00:17.758Z"
+  },
+  {
+    "id": "14f1aa3e88e710b1",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "トマトジュースを飲み続けるとどうなる？ 1週間～3か月の変化",
+    "url": "https://melos.media/wellness/301187/",
+    "publishedAt": "2026-07-31T01:28:54.000Z",
+    "summary": "「トマトジュースを毎日飲むと、体にどんな変化が起きるの？」 健康や美容によいイメージがあるトマトジュースですが、実際に飲…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "e14459d1d7527cc9",
@@ -3380,6 +4380,16 @@
     "fetchedAt": "2026-08-01T15:00:17.953Z"
   },
   {
+    "id": "79ec072d20cb4bcb",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026年最新】所沢のおすすめパーソナルジム11選！料金・口コミ・特徴を徹底比較",
+    "url": "https://melos.media/area_pickup/119400/",
+    "publishedAt": "2026-07-31T00:50:18.000Z",
+    "summary": "更新日：2026年7月31日 本記事にはプロモーションが含まれています 所沢でパーソナルジムを探すなら、まずは「通いやす…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "d7b2da852e7eff36",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -3498,6 +4508,16 @@
     "publishedAt": "2026-07-30T23:55:50.000Z",
     "summary": "OpenAIは、「GPT-5.6」ファミリーの「Luna」を80％、「Terra」を20％値下げすると発表した。API価格の改定に加え、「ChatGPT Work」や「Codex」でのクレジット消費量も削減される。自律的なカーネル最適化により提供コストの削減を実現した。また、処理速度を最大2.5倍に高める「Fast mode」も新たに導入する。",
     "fetchedAt": "2026-08-01T15:00:17.737Z"
+  },
+  {
+    "id": "58ad64ae544b0042",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "“持ち歩く日陰”で有名な日傘がさらに進化！シリーズ最高レベルの遮熱性能",
+    "url": "https://melos.media/news/306814/",
+    "publishedAt": "2026-07-30T23:54:18.000Z",
+    "summary": "“持ち歩く日陰”で有名な日傘を展開する株式会社ムーンバットの高機能日傘ブランド「Fuwacool®（フワクール）」から、…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "337ce145edee95b4",
@@ -3710,6 +4730,16 @@
     "fetchedAt": "2026-07-31T08:10:21.471Z"
   },
   {
+    "id": "e846b67ce4184b07",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "糖質制限はもう古い！老けたくない人が知っておきたい\"黄金トリオ\"の食べ方",
+    "url": "https://melos.media/wellness/307173/",
+    "publishedAt": "2026-07-30T23:30:52.000Z",
+    "summary": "「最近、なんだか疲れやすいし、肌の調子もいまひとつ」――そんな心当たりはありませんか。近年、こうした不調や見た目の老化に…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "ed1f8eaa120eb6d2",
     "source": "CodeZine",
     "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
@@ -3860,6 +4890,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "fef6a8bd62bf09d6",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【AWS】S3 + CloudFrontで静的サイトを安全に公開！OACとAWS WAF（IP制限）の設定手順",
+    "url": "https://qiita.com/kandu/items/53c5de65a6f3fe3cbbee?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-30T22:14:41.000Z",
+    "summary": "はじめに Amazon S3とAmazon CloudFrontを組み合わせて、静的Webサイト（HTML/CSS/JS等）を配信するインフラを構築しました。 本記事では、AWSマネジメントコンソールを使った具体的な構築手順に加え、セキュリティ強化のための OAC（Ori...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
     "id": "c20d4109332b4a7b",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -3980,6 +5020,16 @@
     "fetchedAt": "2026-08-01T15:00:18.714Z"
   },
   {
+    "id": "3674f09ebde2d220",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "インド洋の水深4500メートルより深い場所で発見された「巨大生物の墓場」…その正体は？ | ニューズウィーク日本版 オフィシャルサイト",
+    "url": "https://www.newsweekjapan.jp/articles/-/329481?display=b",
+    "publishedAt": "2026-07-30T20:20:18.000Z",
+    "summary": "海の底には、まだ人間がほとんど見ていない場所がある。光も届かず、音も遠いその深海で、研究者たちは奇妙なものを見つけた。 ただの岩の連なりにも見えるそれは、なんと「クジラの墓場」だったのだ。 【動画】インド洋の水深4500メートルより深い場所で発見された、深海の「巨大生物の墓場」 クジラは、死んだあとも海...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
+  },
+  {
     "id": "2259be7ec1c63f6a",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -3988,6 +5038,16 @@
     "publishedAt": "2026-07-30T20:05:52.000Z",
     "summary": "【読売新聞】 イスラエルが占領を進めるヨルダン川西岸で、イスラエル治安部隊がパレスチナ人の子供らを射殺する事件が相次いでいる。パレスチナ自治区ガザで戦闘が始まった２０２３年１０月以降、西岸各地で軍事作戦が激化したことが背景にあり、こ",
     "fetchedAt": "2026-07-31T08:10:22.730Z"
+  },
+  {
+    "id": "1c02c4695e9604da",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "夏のウォーキングは何時がベスト？暑さに負けない服装・熱中症対策・痩せるコツ",
+    "url": "https://melos.media/training/306030/",
+    "publishedAt": "2026-07-30T20:00:29.000Z",
+    "summary": "夏のウォーキングは「暑いなか歩いても大丈夫？」「熱中症にならない？」と不安に感じる人も多いでしょう。 実際、夏は気温や湿…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "f69bf8a64d88bb69",
@@ -4050,6 +5110,16 @@
     "fetchedAt": "2026-07-31T08:10:22.730Z"
   },
   {
+    "id": "c4de10d6966af2a0",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "熱帯夜に眠れない「意外な原因」とは？約6割が知らなかった睡眠の新常識",
+    "url": "https://melos.media/news/306645/",
+    "publishedAt": "2026-07-30T15:00:25.000Z",
+    "summary": "エアコンをつけているのに暑くて目が覚める、朝起きると背中が汗でびっしょり。そんな経験はありませんか。 睡眠ブランド「NE…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "2487a3178d2fc6e6",
     "source": "ITmedia Mobile",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
@@ -4088,6 +5158,16 @@
     "publishedAt": "2026-07-30T13:20:34.000Z",
     "summary": "こんにちは、採用担当のでーもんです。 今回は、これまで学んできた技術を活用して、最終制作に向けたプロトタイプ制作の第一歩に挑戦しました。 今回制作するテーマは、 「初めて使う人もが簡単にHTMLページを作成できるページビルダー」 です。 まだ完成形ではありませんが、実際に手...",
     "fetchedAt": "2026-08-01T15:00:17.953Z"
+  },
+  {
+    "id": "a6484ebdf94edd26",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "エアコンの「タイマー」と「一晩つけっぱなし」、電気代の差は約15円！パナソニックが検証",
+    "url": "https://melos.media/wellness/307120/",
+    "publishedAt": "2026-07-30T13:17:31.000Z",
+    "summary": "夏の夜、エアコンはタイマーで切るべきか、それとも朝までつけっぱなしにした方がいいのか。 パナソニックは、夏の夜間を再現し…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "35acbf722b905c59",
@@ -4158,6 +5238,16 @@
     "publishedAt": "2026-07-30T11:36:00.000Z",
     "summary": "熊本地震の影響で発生していた携帯電話の通信障害が、ソフトバンクに続いて、NTTドコモとKDDIも復旧した。ドコモは7月30日17時頃に復旧し、KDDIは7月30日19時24分に復旧した。復旧後も通信しにくい場合がある。",
     "fetchedAt": "2026-08-01T15:00:17.758Z"
+  },
+  {
+    "id": "841eb6d3218e8fd6",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "サイドランジを毎日30回、1週間続けてみよう！お尻や内もも、股関節の変化を感じやすくなる！",
+    "url": "https://melos.media/training/307291/",
+    "publishedAt": "2026-07-30T11:30:43.000Z",
+    "summary": "サイドランジ30回とストレッチの組み合わせ。3分間のメニューです。トレーニングの後は、筋肉への負担を和らげる目的で、内も…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "aaf0c3751dce3bae",
@@ -4390,6 +5480,16 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
+    "id": "f590f649fd41c9a3",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "ZedエディタのGPUIを使ったUIアプリを作成",
+    "url": "https://qiita.com/fits/items/a7379b14a05b755a1fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-30T08:58:17.000Z",
+    "summary": "ZedはGPUを活用したRust製の高性能エディタで、3Dゲームのような手法で画面を描画しているのが特徴です。 GPUIと呼ばれるUIフレームワークがUIの描画を担っており、そのコア機能がgpuiクレートとして利用できるようになっています。 gpui 0.2.2 そこで...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
     "id": "3c0f208660d20a62",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -4418,6 +5518,16 @@
     "publishedAt": "2026-07-30T08:45:03.000Z",
     "summary": "",
     "fetchedAt": "2026-08-01T15:53:36.031Z"
+  },
+  {
+    "id": "a206c6022d84db64",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "フラグシップウォークマンWM1シリーズ「NW-WM1ZM2」が出荷完了。現行WALKMANすべて在庫限り。 - ソニーが基本的に好き。| ソニーショップくんこく",
+    "url": "https://kunkoku.jp/nw-wm1zm2-discontinued.html",
+    "publishedAt": "2026-07-30T08:40:20.000Z",
+    "summary": "フラグシップウォークマンWM1シリーズ「NW-WM1ZM2」が出荷完了。現行WALKMANすべて在庫限り。 ソニーのフラグシップウォークマンWM1シリーズ「NW-WM1ZM2」について正式に出荷完了となった。 ソニーストアでは、その出荷完了にともなって販売価格を値下げされている。 ウォークマンWM1シリーズ「NW-WM1ZM2」【256GB】 カ...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "2ca2c9f8f38f6efd",
@@ -4540,6 +5650,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "39cd1cb2b1b53023",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "C#で new を差し替える実験的モックツールを作っている話",
+    "url": "https://qiita.com/kaneko_desu/items/a75831913a96757444fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-30T06:43:45.000Z",
+    "summary": "C#で new を差し替える実験的モックツールを作っている話 C# のテストで、次のようなコードに出会うことがあります。 namespace TargetApp; public class UserService { public string GetDispl...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
+  },
+  {
     "id": "1fea74a85f3434c8",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -4638,6 +5758,16 @@
     "publishedAt": "2026-07-30T05:41:36.000Z",
     "summary": "米Googleは7月29日（現地時間）、AI動画生成モデル「Gemini Omni」を期間限定で無料開放すると発表した。8月4日23時59分（太平洋時間）までの期間中、最大10本の動画を無償で作成できる。「Google AI」のサブスクリプションプランに加入していないユーザーが対象だ。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "ce488cd5690eaf64",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "ジョギングはダイエットにそれほど効果なし？知っておきたい意外な事実",
+    "url": "https://melos.media/training/306940/",
+    "publishedAt": "2026-07-30T05:39:21.000Z",
+    "summary": "ダイエットのためにジョギングを始めたものの、「思ったほど体重が減らない」「頑張って走っているのに変化がない」と感じたこと…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "339227249ff989b6",
@@ -4750,6 +5880,16 @@
     "fetchedAt": "2026-08-01T16:42:37.815Z"
   },
   {
+    "id": "486433e073414c8d",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "医師が教える、猛暑日におすすめのアイスの食べ方",
+    "url": "https://melos.media/news/306714/",
+    "publishedAt": "2026-07-30T03:00:22.000Z",
+    "summary": "暑い日に食べるアイスは格別ですが、冷たいもののとりすぎは胃腸に負担をかけることもあります。猛暑の夏を少しでも快適に過ごす…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "d201a7424c41d75a",
     "source": "Qiita",
     "sourceUrl": "https://qiita.com/popular-items/feed",
@@ -4810,6 +5950,26 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "d800020bfeb03f58",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "ウォーキング、1ヶ月以上続けるとどんな変化が出てくる？",
+    "url": "https://melos.media/wellness/306192/",
+    "publishedAt": "2026-07-30T02:05:09.000Z",
+    "summary": "ウォーキングを1ヶ月以上続けると、歩行能力の向上に加え、見た目や体重にも少しずつ変化が現れる人もいます。 ▶ウォーキング…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
+    "id": "3ccc6ec4bd7a802c",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "日傘は“なんとなく”で選ばない！傘メーカーが教える、夏を快適に過ごす1本の見つけ方",
+    "url": "https://melos.media/news/306798/",
+    "publishedAt": "2026-07-30T02:04:54.000Z",
+    "summary": "夏の強い日差しや暑さ対策として、日傘は今や多くの人にとって欠かせないアイテムになりました。 完全遮光・UVカット・遮熱・…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "462c25ce6a34d19d",
     "source": "家電Watch",
     "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
@@ -4828,6 +5988,16 @@
     "publishedAt": "2026-07-30T01:30:00.000Z",
     "summary": "水筒やペットボトルを持ち歩くときの「手がふさがる・かさばる」を解決してくれる、山崎実業towerの「シリコーン水筒ホルダー ハンドルタイプ」。実際のフィット感や持ち運びの便利さを、吉祥ゆかりさんがレビューします。 連日厳しい暑さが続いていて、水筒やペットボトルを持ち歩く機会が増えましたよね。私も家族も、毎日職場や学校に水筒を持ち歩いています。 でも、持ち手のないボトルって地味に不便じゃないですか？ そのまま持つと片手がふさがってスマホや財布を出しにくいし、かといって小さめのバッグだと中に入らなかったり、無理に入れるとパンパンにかさばってしまったり……。 …",
     "fetchedAt": "2026-08-01T16:42:38.192Z"
+  },
+  {
+    "id": "cd92b60850d82227",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "筋トレはどのくらい休むと筋肉が落ちる？マッスルメモリーの仕組みと落ちた筋肉を戻す方法",
+    "url": "https://melos.media/training/306389/",
+    "publishedAt": "2026-07-30T01:17:49.000Z",
+    "summary": "「仕事が忙しくてジムに行けていない」「しばらく筋トレを休んでいた」などの理由でトレーニングにブランクができると、「筋肉が…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "6287402a67698bb1",
@@ -5118,6 +6288,16 @@
     "publishedAt": "2026-07-29T21:55:00.000Z",
     "summary": "米Microsoftは7月27日（現地時間）、 「MAI-Cyber-1-Flash」 を発表した。脆弱性の発見に特化した自社製のAIモデルで、同社の 「MDASH」 （multi-agent vulnerability identification and remediation harness：マルチエージェント脆弱性検出・修復ハーネス）に統合されるという。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "82143c0fd7d44730",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "開発エコシステムdbtはもう不要？Snowflake Dynamic TablesとSQLMesh on Databricksの台頭がもたらす影響",
+    "url": "https://qiita.com/mellowlaunch/items/96c71af13cd4b4350c28?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-07-29T21:23:32.000Z",
+    "summary": "📚 関連書籍 『Databricks──ゼロから触ってわかった！Databricks非公式ガイド（2026年更新版）』 クラウド時代の分析基盤を “体験的” に学べるベストセラー入門書。 Databricksの操作、SQL／DataFrame、Delta Lakeの基...",
+    "fetchedAt": "2026-08-02T05:51:42.831Z"
   },
   {
     "id": "903230b7121532e3",
@@ -5610,6 +6790,16 @@
     "fetchedAt": "2026-07-30T00:14:25.438Z"
   },
   {
+    "id": "5eaeb48884233d99",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "エアコンの電気代、室外機で変わる？プロが教える節電「3つのコツ」",
+    "url": "https://melos.media/news/306998/",
+    "publishedAt": "2026-07-29T07:31:30.000Z",
+    "summary": "猛暑が続く夏は、エアコンの電気代が気になる季節です。 パナソニック エアーマイスターの福田風子氏は、節電のポイントは室内…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "71987512587eacd4",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -5680,6 +6870,16 @@
     "fetchedAt": "2026-08-01T15:53:36.031Z"
   },
   {
+    "id": "7e87ddb38d7d5fa0",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "サイドレイズの正しいやり方とは？肩の筋肉「三角筋」を効率よく鍛えるコツ",
+    "url": "https://melos.media/training/307089/",
+    "publishedAt": "2026-07-29T06:10:08.000Z",
+    "summary": "サイドレイズは、肩の筋肉である三角筋を重点的に鍛えられる定番の筋トレです。肩幅を広く見せたい人や、上半身のシルエットを整…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "6febc0f9d9e63e19",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -5748,6 +6948,16 @@
     "publishedAt": "2026-07-29T04:29:46.000Z",
     "summary": "Amazon.co.jpでは現在、「暮らし応援サマーSale」を開催しています。レジャー用品、家電ほか多数の商品がお買い得価格で販売されています。",
     "fetchedAt": "2026-08-01T15:00:18.479Z"
+  },
+  {
+    "id": "6745499e55d19369",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026最新】秋葉原のパーソナルジムおすすめ8選！月額が安いジムやダイエットに人気のジムも",
+    "url": "https://melos.media/area_pickup/97936/",
+    "publishedAt": "2026-07-29T04:25:37.000Z",
+    "summary": "更新日：2026年7月29日 本記事にはプロモーションが含まれています 秋葉原でパーソナルジムを探すなら、まずは「通いや…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "c9f28e126dc78eee",
@@ -5840,6 +7050,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "7837b14a401b714a",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "イスを使った「立ち腕立て伏せ」とは？腕立て伏せができない人も“できちゃう”やり方",
+    "url": "https://melos.media/training/307063/",
+    "publishedAt": "2026-07-29T03:28:18.000Z",
+    "summary": "腕立て伏せは上半身を効率よく鍛えられる定番トレーニングですが、初心者にとっては数回もできないことがあります。 そんな人に…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "a0127e1fd286f9e7",
     "source": "リセマム",
     "sourceUrl": "https://resemom.jp/rss/index.rdf",
@@ -5860,6 +7080,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "eaaa4e705a732df3",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "なぜ「味噌汁」は熱中症対策にもおすすめなのか？",
+    "url": "https://melos.media/wellness/307024/",
+    "publishedAt": "2026-07-29T02:54:26.000Z",
+    "summary": "暑い日が続き、夏バテに苦しんでいるという方も多いのではないでしょうか。そんな方におすすめしたい料理が「みそ汁」です。今回…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "b005dad0efab13f5",
     "source": "ITmedia",
     "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
@@ -5868,6 +7098,16 @@
     "publishedAt": "2026-07-29T02:48:13.000Z",
     "summary": "半導体大手の台湾TSMCは7月28日夜、同日午後の最大震度7の地震で操業を一時中断した子会社JASM（熊本県菊陽町）について、従業員全員の無事を確認し、段階的に通常操業に戻りつつあると回答した。台湾紙・経済日報が報じた。",
     "fetchedAt": "2026-07-30T00:14:25.438Z"
+  },
+  {
+    "id": "9e009797565645c3",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "最短で細マッチョになるには？「体脂肪率15%前後の人」がまずやるべきこと",
+    "url": "https://melos.media/training/306993/",
+    "publishedAt": "2026-07-29T02:39:57.000Z",
+    "summary": "細マッチョを目指す方法は1つではありません。現在の体型によって、やるべきことは変わります。脂肪が多い人は、まず減量からで…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "5059dd4623193329",
@@ -5910,6 +7150,36 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "1db7e147ab82c451",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【細マッチョへの最短ルート】体脂肪率20%以上の人がまずやるべきこと",
+    "url": "https://melos.media/training/306705/",
+    "publishedAt": "2026-07-29T01:57:01.000Z",
+    "summary": "細マッチョを目指す方法は1つではありません。現在の体型によって、やるべきことは変わります。 脂肪が多い人は、まず減量から…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
+    "id": "843ca168a32e9194",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "1週間だけ！毎日30回の「スクワット」で太ももを引き締める",
+    "url": "https://melos.media/training/306536/",
+    "publishedAt": "2026-07-29T01:53:35.000Z",
+    "summary": "足幅を狭めて行う「ナロースクワット」とストレッチの組み合わせ。主に下半身の筋肉に効かせていきます。 ナロースクワットは、…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
+    "id": "eeb955a691e53342",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "開脚ストレッチを毎日30秒続けるとどうなる？股関節を柔らかくする効果とやり方",
+    "url": "https://melos.media/training/305288/",
+    "publishedAt": "2026-07-29T01:52:59.000Z",
+    "summary": "脚がぺたーっと開くの、ちょっと憧れますよね。とはいえ、開脚は1日や2日で劇的に変わるものではありません。 しかし毎日少し…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "255973e4fd7f785f",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -5920,6 +7190,16 @@
     "fetchedAt": "2026-07-30T00:14:26.642Z"
   },
   {
+    "id": "fa6fc8b39536a6d6",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "ウォーキング、どのくらい続ければ痩せる？脂肪燃焼を早める3つのコツ",
+    "url": "https://melos.media/training/306409/",
+    "publishedAt": "2026-07-29T01:47:57.000Z",
+    "summary": "ウォーキングの効果が現れる時期には個人差がありますが、歩き方や生活習慣を見直すことで、効率よく脂肪を燃焼しやすくなります…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "5a9e597f9245f5b8",
     "source": "中学受験情報局",
     "sourceUrl": "https://www.e-juken.jp/feed",
@@ -5928,6 +7208,16 @@
     "publishedAt": "2026-07-29T01:36:54.000Z",
     "summary": "夏休みになると、お子さんも親御さんも頭を悩ませるのが「自由研究」です。 特に中学受験を控える高学年のご家庭では、夏期講習や日々の宿題に追われ、「自由研究に時間をかけたくない」という本音も耳にします。 しかし、中学受験情報…",
     "fetchedAt": "2026-08-01T16:02:23.716Z"
+  },
+  {
+    "id": "4407483b5c537529",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "寝たまま腹筋やってみて！お腹の引き締めに効果的で、週2のペースがおすすめ（2分）",
+    "url": "https://melos.media/training/306856/",
+    "publishedAt": "2026-07-29T01:36:25.000Z",
+    "summary": "寝たままできる腹筋トレーニング＋少し起き上がって行うストレッチ。腹筋を鍛えた後は、筋肉の疲れを和らげる目的でストレッチを…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "e800d2e5a8b6ae9c",
@@ -6058,6 +7348,16 @@
     "publishedAt": "2026-07-29T00:00:05.000Z",
     "summary": "こちらの記事は「MEDLEY Summer Tech Blog Relay」の12日目の記事です。 はじめに こんにちは、株式会社メドレーの高橋です。 メドレーは「医療ヘルスケアの未来をつくる」をミッションに掲げ、テクノロジーを活用した事業やプロジェクトを通じて「納得できる医療」の実現を目指しています。人材プラットフォーム事業と医療プラットフォーム事業を展開し、医療、介護、福祉領域の人材採用や、医療機関と患者を支えるプロダクトを提供しています。 本記事では、業務外で開発している個人用基盤「Super MCP」について紹介します。Super MCPはCha…",
     "fetchedAt": "2026-07-30T00:14:25.516Z"
+  },
+  {
+    "id": "4c40606f97bfd3e4",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "毎日30回のサイドランジを続けるとどうなる？1週間～1ヶ月で感じやすい体の変化",
+    "url": "https://melos.media/training/306065/",
+    "publishedAt": "2026-07-28T23:59:15.000Z",
+    "summary": "「サイドランジ」は、お尻や内ももを鍛えながら、股関節を大きく動かせる下半身トレーニングです。 スクワットとは異なり、横方…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "22617d92a3eab281",
@@ -6770,6 +8070,16 @@
     "fetchedAt": "2026-08-01T15:00:18.479Z"
   },
   {
+    "id": "51e3da51455a065f",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "コンビニで「ジム飯」が買える時代に！セブン‐イレブンから高たんぱく・低脂質のボディメイク弁当が登場",
+    "url": "https://melos.media/news/306824/",
+    "publishedAt": "2026-07-28T09:00:12.000Z",
+    "summary": "セブン‐イレブンから、高たんぱく・低脂質にこだわった冷凍弁当「ジム飯」が登場しました。 コンビニで買える、高タンパク質な…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "fbcfedecb86926e7",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -6978,6 +8288,16 @@
     "publishedAt": "2026-07-28T03:08:40.000Z",
     "summary": "平沢進の特別仕様ギターモデル「CK1_Mayan Quetzal（マヤン・ケツァル）」の受注販売が、国産エレキギターメーカーCaramel's Guitar Kitchen（CGK）のオフィシャルオンラインショップでスタートした。 平沢進とは？ 1954年生まれ、東京都出身のプロデューサー / マルチプレイヤー。1979年にP-MODELのメンバーとしてデビ...",
     "fetchedAt": "2026-07-29T00:11:11.904Z"
+  },
+  {
+    "id": "1ed5ec030094ae55",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026年最新】世田谷のパーソナルジムおすすめ17選｜安い・女性向け・初心者向けを比較",
+    "url": "https://melos.media/area_pickup/98071/",
+    "publishedAt": "2026-07-28T01:50:16.000Z",
+    "summary": "更新日：2026年7月28日 本記事にはプロモーションが含まれています 世田谷でパーソナルジムを探すなら、まずは「通いや…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "d6a2f1789a32a3d1",
@@ -7550,6 +8870,16 @@
     "fetchedAt": "2026-08-01T15:53:35.910Z"
   },
   {
+    "id": "0d6040321acfc837",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "実は「お風呂」が熱中症対策に。知っておきたいその理由",
+    "url": "https://melos.media/news/306735/",
+    "publishedAt": "2026-07-27T09:52:48.000Z",
+    "summary": "暑さでなんとなく体が重い、寝ても疲れが取れない、食欲が湧かないといった“夏の不調”に悩まされる人は少なくありません。 こ…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "22cd930d1d841aca",
     "source": "Zenn",
     "sourceUrl": "https://zenn.dev/feed",
@@ -7920,6 +9250,16 @@
     "fetchedAt": "2026-07-29T00:11:11.638Z"
   },
   {
+    "id": "3a9f0177129d4886",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【たった4分】全身を効率よく鍛える王道筋トレ！まずは週1回やってみて",
+    "url": "https://melos.media/training/306019/",
+    "publishedAt": "2026-07-26T10:30:16.000Z",
+    "summary": "今回は、スクワットや腕立て伏せなど、筋トレの基本種目を組み合わせた4分間の全身トレーニングを行います。 全身の筋肉をバラ…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
+  },
+  {
     "id": "f57a117faf634074",
     "source": "STUDY HACKER",
     "sourceUrl": "https://studyhacker.net/feed",
@@ -8008,6 +9348,16 @@
     "publishedAt": "2026-07-26T04:48:27.000Z",
     "summary": "奈良県内の飛鳥時代の遺跡群、「飛鳥・藤原の宮都」が世界文化遺産として登録されることが、韓国で開かれたユネスコの世界遺産委員会で決まりました。今回の決定で、日本国内の世界遺産は文化遺産と自然遺産をあわせ…",
     "fetchedAt": "2026-07-26T07:13:51.757Z"
+  },
+  {
+    "id": "252b60c69f277d08",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "ウォーキングで痩せ始めるサインとは？体の変化はこんな順番で現れる",
+    "url": "https://melos.media/training/304373/",
+    "publishedAt": "2026-07-26T04:26:37.000Z",
+    "summary": "ウォーキングを続けているのに、なかなか体重が減らない。「本当に効果があるの？」と不安になる人もいるでしょう。 実は、ウォ…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "bc9edcae201664cd",
@@ -8468,6 +9818,16 @@
     "publishedAt": "2026-07-25T08:19:42.000Z",
     "summary": "政府が外国人の永住許可要件を厳格化し、新たに年収や年金の受給見込み額を追加する方針を固めたことが25日、関係者への取材で分かった。年収が日本人世帯の平均を上回ることや、年金の受給見込み額が厚生年金に30年加入していた水準に達していることを原則として求める。 10月1日付でガイドラインを改定し、来年4月の申...",
     "fetchedAt": "2026-07-26T07:13:52.858Z"
+  },
+  {
+    "id": "cbca98ab5d8a4caf",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "つま先立ちを毎日1分、1ヶ月続けてみて！ふくらはぎの筋力がアップして、むくみや冷え性の対策になるからおすすめ",
+    "url": "https://melos.media/training/306603/",
+    "publishedAt": "2026-07-25T06:30:27.000Z",
+    "summary": "つま先立ちをくり返す「カーフレイズ」と、ふくらはぎの筋肉をほぐす屈伸運動。ふくらはぎを鍛えた後は屈伸運動を行い、筋肉をほ…",
+    "fetchedAt": "2026-08-02T05:51:48.119Z"
   },
   {
     "id": "afbbfa76e009478c",
@@ -9088,6 +10448,16 @@
     "publishedAt": "2026-07-23T14:01:40.000Z",
     "summary": "イラクの武器市にて（佐藤慧撮影） 防衛大臣が海上幕僚長を「軍人」としてSNSに投稿し、自衛隊の階級呼称を旧日本軍式に戻す方針が決定するなど、自衛隊のこれまでのあり方を揺るがす動きが続いています。 武器輸出解禁に踏み切り、平和国家としての方針が大きく変えられる中で起こった、自衛官による中国大使館侵入や自...",
     "fetchedAt": "2026-07-24T00:13:54.565Z"
+  },
+  {
+    "id": "ffe8fa1a7553bafc",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "批判殺到の皇室典範改正案、何がホントの目的なのか？",
+    "url": "https://www.gqjapan.jp/article/20260723-minako-saito-column",
+    "publishedAt": "2026-07-23T13:48:03.000Z",
+    "summary": "①結婚後の女性皇族が皇族の身分を保持する一方、夫や生まれた子は一般人。 ②養子本人に皇位継承権はないが、養子の子が男子なら皇位継承権を持つ。 何が何でも女性天皇を阻止したいちょっとわかりにくいのだが、この改正案の要諦は「何が何でも男系男子の継承を保持する」「女性天皇は絶対に許さない」ということに尽き...",
+    "fetchedAt": "2026-08-02T05:51:42.636Z"
   },
   {
     "id": "f70983960e236f43",

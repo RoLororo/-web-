@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T05:21:59.103Z",
+  "generatedAt": "2026-08-02T05:56:35.730Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -60,6 +60,16 @@
       "archivePaths": [],
       "recordCount": 2,
       "firstDate": "2026-08-01",
+      "lastDate": "2026-08-02"
+    },
+    {
+      "id": "fitness-training",
+      "name": "フィットネス・筋トレ",
+      "category": "健康",
+      "currentPath": "history/current/fitness-training.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-08-02",
       "lastDate": "2026-08-02"
     },
     {

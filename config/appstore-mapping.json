@@ -99,20 +99,38 @@
     "exam-admission": [
       {
         "name": "スタディサプリ",
-        "id": "1005421542"
+        "id": "1059640427"
       }
     ],
     "housing": [
       {
         "name": "SUUMO",
-        "id": "429558326"
+        "id": "359578668"
       },
       {
         "name": "アットホーム",
-        "id": "482875445"
+        "id": "378782961"
+      },
+      {
+        "name": "ホームズ",
+        "id": "342650611"
       }
     ],
-    "home-appliance": []
+    "home-appliance": [],
+    "fitness-training": [
+      {
+        "name": "Nike Training Club",
+        "id": "301521403"
+      },
+      {
+        "name": "あすけん",
+        "id": "687287242"
+      },
+      {
+        "name": "筋トレMemo",
+        "id": "1109688815"
+      }
+    ]
   },
   "skippedReasons": {
     "ai-coding": {
@@ -143,5 +161,6 @@
       "reason": "concept-not-app",
       "note": "AI 規制 / 政策の概念、アプリ化不能。他ソース(News, Wikipedia)に依存。"
     }
-  }
+  },
+  "idNote": "すべての id は iTunes Lookup API (itunes.apple.com/lookup?id=...&country=jp) で実在とアプリ名を確認してから書く。2026-08-02 に記憶で書いた 3 件が存在しない ID だったため、この手順を必須にした"
 }

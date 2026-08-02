@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-02T05:32:00.269Z",
-  "totalArticles": 1318,
-  "themeCount": 15,
-  "candidateCount": 15,
+  "generatedAt": "2026-08-02T05:51:49.957Z",
+  "totalArticles": 1455,
+  "themeCount": 16,
+  "candidateCount": 16,
   "method": "rule-based keyword matching",
   "candidates": [
     {
@@ -12,11 +12,11 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude",
-        "生成AI",
         " AI",
         "活用",
+        "生成AI",
         "ChatGPT",
-        "導入"
+        "Copilot"
       ],
       "searchTerms": [
         "生成AI",
@@ -37,10 +37,13 @@
       ],
       "evidenceArticleIds": [
         "c533b5efbfcc5e2b",
+        "cb4906e868c77182",
         "122a77ca397bae34",
+        "d5ad0c3eec0b8c11",
         "45de4d6ad64fbf34",
         "e74f272d586158b6",
         "8aed98bea7f630a2",
+        "81ac046fbaefc666",
         "ebd80794ff221e4c",
         "7526ae477807c8e1",
         "04826be388407d2a",
@@ -89,9 +92,9 @@
         "5e4f185e204b1a85",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 52,
+      "evidenceArticleCount": 55,
       "confidence": 0.96,
-      "reason": "15 種類のキーワードが 52 件の記事でヒット（例：Claude、生成AI、 AI）"
+      "reason": "15 種類のキーワードが 55 件の記事でヒット（例：Claude、 AI、活用）"
     },
     {
       "id": "ai-coding",
@@ -101,8 +104,8 @@
       "relatedKeywords": [
         "Claude Code",
         "codex",
-        "開発",
         "Copilot",
+        "開発",
         "レビュー",
         "GitHub Copilot"
       ],
@@ -122,6 +125,8 @@
         "CI"
       ],
       "evidenceArticleIds": [
+        "d4d6c5c9b33f39aa",
+        "032d1e166a115591",
         "8fd81291389d37ac",
         "7a992fb5e8218120",
         "b38dac98b7c4d442",
@@ -154,9 +159,75 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 31,
-      "confidence": 0.9,
-      "reason": "11 種類のキーワードが 31 件の記事でヒット（例：Claude Code、codex、開発）"
+      "evidenceArticleCount": 33,
+      "confidence": 0.91,
+      "reason": "11 種類のキーワードが 33 件の記事でヒット（例：Claude Code、codex、Copilot）"
+    },
+    {
+      "id": "housing",
+      "theme": "住まい・住宅",
+      "summary": "住み替え・リノベ・断熱など、住まいをよくしたい需要",
+      "category": "生活",
+      "relatedKeywords": [
+        "マンション",
+        "賃貸",
+        "住まい",
+        "暮らし",
+        "住宅",
+        "駅"
+      ],
+      "searchTerms": [
+        "マンション",
+        "一戸建て",
+        "戸建て",
+        "賃貸",
+        "住宅ローン",
+        "リノベーション",
+        "リフォーム",
+        "断熱",
+        "間取り",
+        "持ち家",
+        "住み替え",
+        "住宅",
+        "住まい",
+        "物件",
+        "不動産",
+        "購入",
+        "価格",
+        "相場",
+        "駅",
+        "部屋",
+        "暮らし",
+        "家族",
+        "快適",
+        "万円"
+      ],
+      "evidenceArticleIds": [
+        "2665e9e837d97a96",
+        "ad283367884aab14",
+        "a9786e249439aa74",
+        "bed8e933c20154a6",
+        "012bd4f5781ac512",
+        "f9098bef5941fb9f",
+        "667c6909fca44154",
+        "1d576f2eadfb41a6",
+        "326f904134f1067f",
+        "ed4603edc7640ec3",
+        "ec59069cbff80a05",
+        "cb1087e7779aa8d7",
+        "451bfbb30bc96343",
+        "ab49ce79688ec9a2",
+        "aa46ff61f3160daa",
+        "166df04cd68d9645",
+        "517a19a79e05dcc3",
+        "508f31c0d33ea0ec",
+        "090ef1cf8beb8822",
+        "baa068bc6cce8d1b",
+        "4ee536bc41b15f57"
+      ],
+      "evidenceArticleCount": 21,
+      "confidence": 0.89,
+      "reason": "22 種類のキーワードが 21 件の記事でヒット（例：マンション、賃貸、住まい）"
     },
     {
       "id": "infrastructure-outages",
@@ -212,70 +283,6 @@
       "reason": "12 種類のキーワードが 20 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
-      "id": "housing",
-      "theme": "住まい・住宅",
-      "summary": "住み替え・リノベ・断熱など、住まいをよくしたい需要",
-      "category": "生活",
-      "relatedKeywords": [
-        "賃貸",
-        "マンション",
-        "住宅",
-        "暮らし",
-        "住まい",
-        "駅"
-      ],
-      "searchTerms": [
-        "マンション",
-        "一戸建て",
-        "戸建て",
-        "賃貸",
-        "住宅ローン",
-        "リノベーション",
-        "リフォーム",
-        "断熱",
-        "間取り",
-        "持ち家",
-        "住み替え",
-        "住宅",
-        "住まい",
-        "物件",
-        "不動産",
-        "購入",
-        "価格",
-        "相場",
-        "駅",
-        "部屋",
-        "暮らし",
-        "家族",
-        "快適",
-        "万円"
-      ],
-      "evidenceArticleIds": [
-        "a9786e249439aa74",
-        "bed8e933c20154a6",
-        "012bd4f5781ac512",
-        "f9098bef5941fb9f",
-        "667c6909fca44154",
-        "1d576f2eadfb41a6",
-        "326f904134f1067f",
-        "ed4603edc7640ec3",
-        "ec59069cbff80a05",
-        "cb1087e7779aa8d7",
-        "451bfbb30bc96343",
-        "ab49ce79688ec9a2",
-        "aa46ff61f3160daa",
-        "166df04cd68d9645",
-        "517a19a79e05dcc3",
-        "508f31c0d33ea0ec",
-        "090ef1cf8beb8822",
-        "baa068bc6cce8d1b",
-        "4ee536bc41b15f57"
-      ],
-      "evidenceArticleCount": 19,
-      "confidence": 0.86,
-      "reason": "20 種類のキーワードが 19 件の記事でヒット（例：賃貸、マンション、住宅）"
-    },
-    {
       "id": "security-breach",
       "theme": "個人情報漏洩・セキュリティ対策",
       "summary": "相次ぐ情報漏洩・ランサム攻撃を背景にしたセキュリティ需要",
@@ -323,6 +330,65 @@
       "evidenceArticleCount": 17,
       "confidence": 0.91,
       "reason": "10 種類のキーワードが 17 件の記事でヒット（例：情報、サイバー攻撃、個人情報）"
+    },
+    {
+      "id": "fitness-training",
+      "theme": "フィットネス・筋トレ",
+      "summary": "体を動かして体力・姿勢・見た目を変えたい需要",
+      "category": "健康",
+      "relatedKeywords": [
+        "筋肉",
+        "毎日",
+        "トレーニング",
+        "筋トレ",
+        "ストレッチ",
+        "股関節"
+      ],
+      "searchTerms": [
+        "筋トレ",
+        "トレーニング",
+        "ストレッチ",
+        "スクワット",
+        "体幹",
+        "筋肉",
+        "プランク",
+        "有酸素運動",
+        "ジム",
+        "ランニング",
+        "運動",
+        "効果",
+        "毎日",
+        "姿勢",
+        "柔軟",
+        "股関節",
+        "肩こり",
+        "腰痛",
+        "体力",
+        "習慣",
+        "分間"
+      ],
+      "evidenceArticleIds": [
+        "9b6c374bfa5c8f7a",
+        "840527165c07e865",
+        "acebab300efa1d99",
+        "ba5875eaac061c60",
+        "abb3f79e13d755bb",
+        "a417f8f9cd6a27f1",
+        "9e6d798da8543e86",
+        "c9218079027be10f",
+        "841eb6d3218e8fd6",
+        "cd92b60850d82227",
+        "7e87ddb38d7d5fa0",
+        "843ca168a32e9194",
+        "eeb955a691e53342",
+        "4407483b5c537529",
+        "4c40606f97bfd3e4",
+        "3a9f0177129d4886",
+        "cbca98ab5d8a4caf"
+      ],
+      "evidenceArticleCount": 17,
+      "confidence": 0.87,
+      "reason": "13 種類のキーワードが 17 件の記事でヒット（例：筋肉、毎日、トレーニング）"
     },
     {
       "id": "payment-troubles",
@@ -379,10 +445,10 @@
       "relatedKeywords": [
         "脳",
         "脳科学",
-        "実践",
-        "ストレス",
-        "テクニック",
-        "集中力"
+        "集中力",
+        "集中",
+        "習慣",
+        "実践"
       ],
       "searchTerms": [
         "勉強法",
@@ -415,6 +481,7 @@
         "独学"
       ],
       "evidenceArticleIds": [
+        "1eff7e45eb6a07fd",
         "22f8fdbfc0f664b2",
         "4efb928f7267fdd5",
         "522e3f74fd674eab",
@@ -426,9 +493,51 @@
         "72ee29e6de7fefcc",
         "ce6f93b52fab24e7"
       ],
+      "evidenceArticleCount": 11,
+      "confidence": 0.85,
+      "reason": "16 種類のキーワードが 11 件の記事でヒット（例：脳、脳科学、集中力）"
+    },
+    {
+      "id": "ai-regulation",
+      "theme": "AI規制・安全性・プライバシー",
+      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "AI",
+        "規制",
+        "安全性",
+        "プライバシー",
+        "欧州委員会",
+        "保護"
+      ],
+      "searchTerms": [
+        "規制",
+        "安全性",
+        "プライバシー",
+        "倫理",
+        "AI",
+        "欧州委員会",
+        "Meta",
+        "通知",
+        "保護",
+        "差別",
+        "偽広告"
+      ],
+      "evidenceArticleIds": [
+        "4225ab8cdd8742a1",
+        "45de4d6ad64fbf34",
+        "e14459d1d7527cc9",
+        "3c055302b0d3a3ee",
+        "75752a40a43aee02",
+        "e1e25c3e3465493b",
+        "d95ca7cebce53876",
+        "4bf8f55cb8457c0e",
+        "653519ff37ac720c",
+        "1c3d73cfafe83c4f"
+      ],
       "evidenceArticleCount": 10,
       "confidence": 0.85,
-      "reason": "16 種類のキーワードが 10 件の記事でヒット（例：脳、脳科学、実践）"
+      "reason": "7 種類のキーワードが 10 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "exam-admission",
@@ -495,47 +604,6 @@
       "reason": "13 種類のキーワードが 10 件の記事でヒット（例：中学、中学受験、大学受験）"
     },
     {
-      "id": "ai-regulation",
-      "theme": "AI規制・安全性・プライバシー",
-      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "AI",
-        "規制",
-        "安全性",
-        "欧州委員会",
-        "保護",
-        "Meta"
-      ],
-      "searchTerms": [
-        "規制",
-        "安全性",
-        "プライバシー",
-        "倫理",
-        "AI",
-        "欧州委員会",
-        "Meta",
-        "通知",
-        "保護",
-        "差別",
-        "偽広告"
-      ],
-      "evidenceArticleIds": [
-        "45de4d6ad64fbf34",
-        "e14459d1d7527cc9",
-        "3c055302b0d3a3ee",
-        "75752a40a43aee02",
-        "e1e25c3e3465493b",
-        "d95ca7cebce53876",
-        "4bf8f55cb8457c0e",
-        "653519ff37ac720c",
-        "1c3d73cfafe83c4f"
-      ],
-      "evidenceArticleCount": 9,
-      "confidence": 0.84,
-      "reason": "7 種類のキーワードが 9 件の記事でヒット（例：AI、規制、安全性）"
-    },
-    {
       "id": "home-appliance",
       "theme": "家電・暮らしの道具",
       "summary": "家電の買い替え・選び方・電気代など、暮らしの道具の需要",
@@ -544,9 +612,9 @@
         "エアコン",
         "家電",
         "洗濯機",
+        "電気代",
         "価格",
-        "発売",
-        "キッチン"
+        "発売"
       ],
       "searchTerms": [
         "冷蔵庫",
@@ -577,14 +645,16 @@
         "5db04eda1ee5756d",
         "fc0a0d43738cfdf1",
         "3f74499d80dcc267",
+        "a6484ebdf94edd26",
         "462c25ce6a34d19d",
         "84d9be9d808d31c0",
+        "5eaeb48884233d99",
         "877f5cc7a5d979ca",
         "451bfbb30bc96343"
       ],
-      "evidenceArticleCount": 7,
-      "confidence": 0.76,
-      "reason": "12 種類のキーワードが 7 件の記事でヒット（例：エアコン、家電、洗濯機）"
+      "evidenceArticleCount": 9,
+      "confidence": 0.84,
+      "reason": "13 種類のキーワードが 9 件の記事でヒット（例：エアコン、家電、洗濯機）"
     },
     {
       "id": "ai-hardware",
@@ -595,8 +665,9 @@
         "NVIDIA",
         "Rubin",
         "フィジカルAI",
-        "計算基盤",
-        "チップ"
+        "GPU",
+        "データセンター",
+        "計算基盤"
       ],
       "searchTerms": [
         "NVIDIA",
@@ -612,15 +683,16 @@
         "キオクシア"
       ],
       "evidenceArticleIds": [
+        "5456384d7d9407cc",
         "7fb18d14aca682c3",
         "518c2849e102028b",
         "80e3de34fa920b2b",
         "706ce620672e77a7",
         "5a133a290273e381"
       ],
-      "evidenceArticleCount": 5,
-      "confidence": 0.55,
-      "reason": "5 種類のキーワードが 5 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
+      "evidenceArticleCount": 6,
+      "confidence": 0.68,
+      "reason": "7 種類のキーワードが 6 件の記事でヒット（例：NVIDIA、Rubin、フィジカルAI）"
     },
     {
       "id": "remote-work",
@@ -692,6 +764,39 @@
       "reason": "8 種類のキーワードが 5 件の記事でヒット（例：高齢者、シニア、健康）"
     },
     {
+      "id": "ai-content-generation",
+      "theme": "生成AIによるコンテンツ制作",
+      "summary": "AIによる動画・画像・音声・3Dなどコンテンツ生成の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "画像生成",
+        "画像",
+        "動画生成",
+        "動画"
+      ],
+      "searchTerms": [
+        "動画生成",
+        "画像生成",
+        "音声合成",
+        "動画",
+        "画像",
+        "Blender",
+        "クリエイター",
+        "3D",
+        "イラスト",
+        "音楽",
+        "Netflix"
+      ],
+      "evidenceArticleIds": [
+        "edf7e0a21755decb",
+        "30095b7179005226",
+        "c93646e47a2b2e30"
+      ],
+      "evidenceArticleCount": 3,
+      "confidence": 0.49,
+      "reason": "4 種類のキーワードが 3 件の記事でヒット（例：画像生成、画像、動画生成）"
+    },
+    {
       "id": "home-server-selfhost",
       "theme": "自宅サーバー・セルフホスト",
       "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
@@ -725,38 +830,6 @@
       "evidenceArticleCount": 3,
       "confidence": 0.47,
       "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
-    },
-    {
-      "id": "ai-content-generation",
-      "theme": "生成AIによるコンテンツ制作",
-      "summary": "AIによる動画・画像・音声・3Dなどコンテンツ生成の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "画像生成",
-        "画像",
-        "動画生成",
-        "動画"
-      ],
-      "searchTerms": [
-        "動画生成",
-        "画像生成",
-        "音声合成",
-        "動画",
-        "画像",
-        "Blender",
-        "クリエイター",
-        "3D",
-        "イラスト",
-        "音楽",
-        "Netflix"
-      ],
-      "evidenceArticleIds": [
-        "30095b7179005226",
-        "c93646e47a2b2e30"
-      ],
-      "evidenceArticleCount": 2,
-      "confidence": 0.42,
-      "reason": "4 種類のキーワードが 2 件の記事でヒット（例：画像生成、画像、動画生成）"
     }
   ]
 }

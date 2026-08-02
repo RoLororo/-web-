@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-01T16:47:02.384Z",
+  "generatedAt": "2026-08-02T05:55:28.720Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-07-02",
+  "createdSince": "2026-07-03",
   "authenticated": false,
-  "mappedThemeCount": 14,
+  "mappedThemeCount": 15,
   "successCount": 10,
   "skippedCount": 0,
-  "errorCount": 4,
-  "totalRequestCount": 14,
+  "errorCount": 5,
+  "totalRequestCount": 15,
   "themesSkipped": [],
   "errors": [
     {
@@ -37,6 +37,12 @@
       "type": "http-error",
       "message": "HTTP 403 rate limit exceeded",
       "retryable": false
+    },
+    {
+      "theme": "fitness-training",
+      "type": "http-error",
+      "message": "HTTP 403 rate limit exceeded",
+      "retryable": false
     }
   ],
   "themes": {
@@ -44,26 +50,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2377,
-        "engagement": 253,
+        "volume": 2338,
+        "engagement": 287,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2377,
-        "topStarSum": 253,
+        "newRepoCount": 2338,
+        "topStarSum": 287,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 163,
+          "stars": 197,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -107,26 +113,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1807,
-        "engagement": 811,
+        "volume": 1750,
+        "engagement": 827,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1807,
-        "topStarSum": 811,
+        "newRepoCount": 1750,
+        "topStarSum": 827,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 282,
+          "stars": 298,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -170,26 +176,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1067,
-        "engagement": 115,
+        "volume": 1043,
+        "engagement": 116,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1067,
-        "topStarSum": 115,
+        "newRepoCount": 1043,
+        "topStarSum": 116,
         "topLanguage": "Java",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
           "title": "DigitalShieldOfficial/Crypto-Payment-Gateway",
           "url": "https://github.com/DigitalShieldOfficial/Crypto-Payment-Gateway",
-          "stars": 77,
+          "stars": 78,
           "language": "Java",
           "description": "A blockchain payment gateway for USDT that monitors on-chain wallet addresses, detects incoming transactions in real tim",
           "publishedAt": "2026-07-27T02:24:49Z"
@@ -233,30 +239,22 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 698,
-        "engagement": 57,
+        "volume": 679,
+        "engagement": 38,
         "contributors": null,
-        "latestActivityAt": "2026-07-03T06:42:03Z"
+        "latestActivityAt": "2026-07-12T11:48:27Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 698,
-        "topStarSum": 57,
+        "newRepoCount": 679,
+        "topStarSum": 38,
         "topLanguage": "Go",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
-        {
-          "title": "anliberant/obsidian-ai-setup",
-          "url": "https://github.com/anliberant/obsidian-ai-setup",
-          "stars": 22,
-          "language": null,
-          "description": "Bootstrap a fully personalized Obsidian vault with AI. Interactive onboarding, document ingestion, and automatic knowled",
-          "publishedAt": "2026-07-03T06:42:03Z"
-        },
         {
           "title": "darkneuralnetwork/DarkCode",
           "url": "https://github.com/darkneuralnetwork/DarkCode",
@@ -288,6 +286,14 @@
           "language": "Python",
           "description": "PCB Flow — autonomous, AI-assisted PCB design workflow that takes a hardware project from requirements to manufacturing-",
           "publishedAt": "2026-07-12T20:11:16Z"
+        },
+        {
+          "title": "Aaravkhanal/Frameflow-ai",
+          "url": "https://github.com/Aaravkhanal/Frameflow-ai",
+          "stars": 3,
+          "language": "Python",
+          "description": "FrameFlow AI transforms screenshots, Figma designs, URLs, and screen recordings into clean, production-ready frontend co",
+          "publishedAt": "2026-07-24T08:43:44Z"
         }
       ],
       "errors": []
@@ -296,20 +302,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 490,
+        "volume": 484,
         "engagement": 27,
         "contributors": null,
         "latestActivityAt": "2026-07-10T12:57:40Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 490,
+        "newRepoCount": 484,
         "topStarSum": 27,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -359,22 +365,30 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 442,
-        "engagement": 314,
+        "volume": 443,
+        "engagement": 361,
         "contributors": null,
-        "latestActivityAt": "2026-07-26T11:08:51Z"
+        "latestActivityAt": "2026-07-13T04:08:14Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 442,
-        "topStarSum": 314,
-        "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "newRepoCount": 443,
+        "topStarSum": 361,
+        "topLanguage": "Rust",
+        "createdSince": "2026-07-03"
       },
       "topItems": [
+        {
+          "title": "giannisanni/pulsar",
+          "url": "https://github.com/giannisanni/pulsar",
+          "stars": 115,
+          "language": "Rust",
+          "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
+          "publishedAt": "2026-07-13T04:08:14Z"
+        },
         {
           "title": "nopnoping/micro-vllm",
           "url": "https://github.com/nopnoping/micro-vllm",
@@ -384,17 +398,9 @@
           "publishedAt": "2026-07-26T11:08:51Z"
         },
         {
-          "title": "giannisanni/pulsar",
-          "url": "https://github.com/giannisanni/pulsar",
-          "stars": 73,
-          "language": "Rust",
-          "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
-          "publishedAt": "2026-07-13T04:08:14Z"
-        },
-        {
           "title": "arizqi/cpubrrr",
           "url": "https://github.com/arizqi/cpubrrr",
-          "stars": 53,
+          "stars": 54,
           "language": "Rust",
           "description": "Frontier-class LLM inference on a laptop CPU — gpt-oss:20b at ~110 tok/s on Apple M4 Max, 7.5x llama.cpp, no GPU. From-s",
           "publishedAt": "2026-07-04T17:49:51Z"
@@ -402,7 +408,7 @@
         {
           "title": "Jinlong-cs/pi.cpp",
           "url": "https://github.com/Jinlong-cs/pi.cpp",
-          "stars": 47,
+          "stars": 48,
           "language": "Python",
           "description": "TensorRT-first robot foundation model inference for edge GPUs",
           "publishedAt": "2026-07-23T07:02:15Z"
@@ -410,7 +416,7 @@
         {
           "title": "fypklanfanqie/local-llm-with-character-setting-Arknights",
           "url": "https://github.com/fypklanfanqie/local-llm-with-character-setting-Arknights",
-          "stars": 30,
+          "stars": 33,
           "language": "Kotlin",
           "description": "一款运行在安卓设备上的 LLM 对话助手应用。你可以自行下载并管理模型，自由定制角色人设，并随时在本地推理（部分机型支持 GPU/NPU 加速）与云端模型之间切换。同时内置 TTS 语音合成功能，让对话更加鲜活。 An Android LL",
           "publishedAt": "2026-07-25T05:42:40Z"
@@ -422,20 +428,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 267,
+        "volume": 262,
         "engagement": 109,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 267,
+        "newRepoCount": 262,
         "topStarSum": 109,
         "topLanguage": "Go",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -485,20 +491,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 261,
+        "volume": 250,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 261,
+        "newRepoCount": 250,
         "topStarSum": 43,
         "topLanguage": "Lua",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -548,20 +554,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 56,
+        "volume": 55,
         "engagement": 18,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 56,
+        "newRepoCount": 55,
         "topStarSum": 18,
         "topLanguage": "HCL",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {
@@ -611,20 +617,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-01T16:47:02.384Z",
+      "fetchedAt": "2026-08-02T05:55:28.720Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 179,
+        "volume": 177,
         "engagement": 64,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 179,
+        "newRepoCount": 177,
         "topStarSum": 64,
         "topLanguage": "Python",
-        "createdSince": "2026-07-02"
+        "createdSince": "2026-07-03"
       },
       "topItems": [
         {

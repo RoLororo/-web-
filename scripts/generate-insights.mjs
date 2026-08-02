@@ -312,6 +312,28 @@ const THEME_PROFILES = {
       { title: '入試要項の変更点を通知', target: '塾・予備校', hypothesis: '要項 PDF の差分を人手で追っている' },
     ],
   },
+  'fitness-training': {
+    audience: [
+      '運動を始めたい・再開したい 20-50代',
+      '肩こり・腰痛など不調を抱えるデスクワーカー',
+      'パーソナルジム / スタジオの運営者',
+      'フィットネス系の個人メディア運営者',
+    ],
+    monetization: [
+      { title: 'オンラインのフォームチェック', desc: '動画を送ってもらい、フォームの修正点を返す', barrier: '低', revenue: '1回 3,000-8,000円' },
+      { title: '目的別プログラムの販売', desc: '週 2 回・自宅・器具なしなど条件を絞った 8 週間プログラム', barrier: '低', revenue: '1本 3,000-15,000円' },
+      { title: '企業向けの運動習慣づくり', desc: '就業時間内にできる短時間メニューと継続の仕組みを設計', barrier: '中', revenue: 'プロジェクト 30-150万円' },
+    ],
+    content: [
+      { format: 'YouTube', title: '「1日5分、股関節ストレッチを2週間やった結果」', angle: '期間と回数を先に出して再現できるようにする' },
+      { format: 'Newsletter', title: '週次:「今週の1種目」', angle: '1 回 1 種目に絞ると続けやすい' },
+      { format: 'ブログ', title: '「筋トレが続かない人の共通点」', angle: '検索意図が明確な悩み系' },
+    ],
+    saas: [
+      { title: '続けられる回数から逆算する記録アプリ', target: '運動が続かない層', hypothesis: '記録はできても、負荷の上げ方が分からず止まる' },
+      { title: 'デスクワーク向けの不調別メニュー提示', target: '肩こり・腰痛のある人', hypothesis: '何をすればいいかが症状ごとに整理されていない' },
+    ],
+  },
   'housing': {
     audience: [
       '住み替えを検討している 30-50代の世帯',
@@ -455,14 +477,33 @@ function evaluateBeginnerFriendliness(demand) {
   const signals = [];
   let score = 40; // ベース
 
-  // 1. App Store に既製品があるか (製品存在 = 参入余地の明確化にプラス)
-  const apps = demand._appstoreDetail?.nativeMetrics?.matchedAppCount || 0;
-  if (apps === 0) {
-    score += 15; signals.push('既製アプリがない → 空白市場');
+  // 1. App Store の上位チャートに載っているか
+  //
+  // ■ 2026-08-02 に文言と配点を修正した
+  //   fetch-appstore.mjs が測っているのは「マッピングしたアプリが
+  //   無料/売上の**上位 100 位**に入っているか」であって、
+  //   アプリが存在するかどうかではない。
+  //   にもかかわらず 0 件を「既製アプリがない → 空白市場」と書き、
+  //   さらに +15 点していた。実測では **16 テーマ中 13 テーマ**が
+  //   この文言になっており、その中には Zoom / Teams / Google Meet を
+  //   マッピング済みの remote-work や、Anki / Studyplus を持つ
+  //   study-methods も含まれていた。どちらも「アプリが無い」は明確に嘘。
+  //
+  //   0 件は「上位に入っていない」以上の意味を持たないので、
+  //   点数は動かさず、測ったことだけを書く。
+  const appsRaw = demand._appstoreDetail?.nativeMetrics?.matchedAppCount;
+  const apps = appsRaw || 0;
+  const mapped = (demand._appstoreDetail?.meta?.mappedApps || []).length;
+  if (appsRaw == null) {
+    signals.push('App Store は観測対象外のテーマ');
+  } else if (apps === 0) {
+    signals.push(mapped > 0
+      ? `App Store 上位 100 位に該当なし (${mapped} 本を追跡中)`
+      : 'App Store 上位 100 位に該当なし');
   } else if (apps <= 3) {
-    score += 5; signals.push(`既製アプリが少数 (${apps}件) → 差別化余地あり`);
+    score += 5; signals.push(`App Store 上位 100 位に ${apps} 件 → 既に売れている領域`);
   } else {
-    score -= 10; signals.push(`既製アプリが多数 (${apps}件) → 差別化難`);
+    score -= 10; signals.push(`App Store 上位 100 位に ${apps} 件 → 競合が多い`);
   }
 
   // 2. Qiita 記事量 (多い = ノウハウが公開されている = 学びやすい)

@@ -81,6 +81,11 @@
       "query": "cat:cs.HC AND (abs:\"smart home\" OR abs:\"home appliance\")",
       "expectedMonthlyCount": null,
       "note": "スマートホーム / 家電の HCI 研究。2026-08-02 追加時点では未計測"
+    },
+    "fitness-training": {
+      "query": "abs:\"physical exercise\" OR abs:\"resistance training\" OR abs:\"physical activity intervention\"",
+      "expectedMonthlyCount": null,
+      "note": "運動介入の研究。2026-08-02 追加時点では未計測。クエリは fetch 側で括弧に包まれる"
     }
   },
   "skippedReasons": {},

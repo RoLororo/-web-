@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-01T16:47:40.660Z",
+  "generatedAt": "2026-08-02T05:56:09.440Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
-  "mappedThemeCount": 15,
-  "successCount": 15,
+  "mappedThemeCount": 16,
+  "successCount": 16,
   "skippedCount": 0,
   "errorCount": 0,
-  "totalRequestCount": 15,
+  "totalRequestCount": 16,
   "themesSkipped": [],
   "errors": [],
   "themes": {
@@ -18,7 +18,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -74,7 +74,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -130,7 +130,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -186,7 +186,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -242,7 +242,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -298,7 +298,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -354,7 +354,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -410,7 +410,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -466,7 +466,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -522,7 +522,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -578,7 +578,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -634,7 +634,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -690,7 +690,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -746,7 +746,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -802,7 +802,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-01T16:47:40.660Z",
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -849,6 +849,62 @@
           "issued": "1996",
           "publisher": null,
           "author": "則武 篤史"
+        }
+      ],
+      "errors": []
+    },
+    "fitness-training": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-02T05:56:09.440Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 5449,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 5449
+      },
+      "topItems": [
+        {
+          "title": "アイシングによる遅発性筋痛の軽減効果",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390282680552782464",
+          "issued": "2014",
+          "publisher": null,
+          "author": "甲斐 太陽"
+        },
+        {
+          "title": "アイソキネティックトレーニングは他の筋力トレーニングに比べてどのくらい有効か",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1570009750978432256",
+          "issued": "1986",
+          "publisher": null,
+          "author": "村松茂"
+        },
+        {
+          "title": "アイソメトリックトレーニング : 筋力トレーニングの理論と実際",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001187789",
+          "issued": "1970",
+          "publisher": "大修館書店",
+          "author": "Hettinger, Theodor"
+        },
+        {
+          "title": "アイソメトリックトレーニング",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1571980074289280640",
+          "issued": "1970",
+          "publisher": null,
+          "author": "ヘッティンガー"
+        },
+        {
+          "title": "アイソメトリックトレーニング : 筋力トレーニングの理論と実際",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I23111100368795",
+          "issued": "1974",
+          "publisher": "大修館書店",
+          "author": "Th.ヘティンガー"
         }
       ],
       "errors": []
