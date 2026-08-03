@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T12:03:18.231Z",
-  "totalArticles": 1721,
+  "generatedAt": "2026-08-03T08:52:32.026Z",
+  "totalArticles": 2005,
   "themeCount": 16,
   "candidateCount": 16,
   "method": "rule-based keyword matching",
@@ -12,8 +12,8 @@
       "category": "AI・テクノロジー",
       "relatedKeywords": [
         "Claude",
-        " AI",
         "活用",
+        " AI",
         "生成AI",
         "ChatGPT",
         "導入"
@@ -36,6 +36,23 @@
         "ワークフロー"
       ],
       "evidenceArticleIds": [
+        "c895db1bd5f06a28",
+        "d44128fe9e5e70ae",
+        "324a049fe48327c5",
+        "90814d317e62c090",
+        "e2ae54c032180670",
+        "a6e227828709fc90",
+        "9b9d5b6c535c4692",
+        "a56e757dc3e8fe81",
+        "3bf2a634ad8bf629",
+        "8dc3aad07f1a5b70",
+        "a9687dfa256202df",
+        "f072ef6a55b6a863",
+        "bbd89b5b63ad4980",
+        "45f7e4e3007c4fdd",
+        "20c9db5734040eeb",
+        "f9edc6e3c4070619",
+        "ebe84f30ab173dc1",
         "c533b5efbfcc5e2b",
         "cb4906e868c77182",
         "122a77ca397bae34",
@@ -78,28 +95,11 @@
         "e41ef298f3cb7354",
         "12104805f05ba26c",
         "017f9e9b4df86db3",
-        "d3f4a5180eebed4d",
-        "8909d85cf623c559",
-        "644bb4b4685f8efc",
-        "6820d06a89ec4928",
-        "4fac2a81a434d3a1",
-        "fec42c256fea6ef5",
-        "ee8db45590077640",
-        "b0b37699f69b4128",
-        "940e7e1256f19c97",
-        "8d14857a40a4884e",
-        "e22e89329ce37e24",
-        "a9e3c67273178751",
-        "eacb2a407defd3aa",
-        "b9518240141c2f25",
-        "3924def162eedd37",
-        "62362f8e0232e2b9",
-        "ef4c3e3584ef4256",
-        "ea331e1a61b4d07c"
+        "d3f4a5180eebed4d"
       ],
-      "evidenceArticleCount": 69,
+      "evidenceArticleCount": 86,
       "confidence": 0.96,
-      "reason": "15 種類のキーワードが 69 件の記事でヒット（例：Claude、 AI、活用）"
+      "reason": "15 種類のキーワードが 86 件の記事でヒット（例：Claude、活用、 AI）"
     },
     {
       "id": "security-breach",
@@ -108,11 +108,11 @@
       "category": "ビジネス",
       "relatedKeywords": [
         "情報",
-        "サイバー攻撃",
         "個人情報",
+        "サイバー攻撃",
         "漏えい",
-        "ランサム",
-        "不正アクセス"
+        "不正アクセス",
+        "ランサム"
       ],
       "searchTerms": [
         "個人情報",
@@ -128,6 +128,10 @@
         "被害"
       ],
       "evidenceArticleIds": [
+        "da40af5b69ffcb0f",
+        "94a1f174208d5220",
+        "0b2c64fee09a95b4",
+        "9204356316076e86",
         "e62e37e89c01cc69",
         "ce6da8b3e1877d58",
         "f89102fcb3b7192a",
@@ -167,9 +171,9 @@
         "b778b7551fcdb609",
         "31931e12804789ed"
       ],
-      "evidenceArticleCount": 38,
+      "evidenceArticleCount": 42,
       "confidence": 0.95,
-      "reason": "11 種類のキーワードが 38 件の記事でヒット（例：情報、サイバー攻撃、個人情報）"
+      "reason": "11 種類のキーワードが 42 件の記事でヒット（例：情報、個人情報、サイバー攻撃）"
     },
     {
       "id": "ai-coding",
@@ -179,10 +183,10 @@
       "relatedKeywords": [
         "Claude Code",
         "codex",
-        "Copilot",
         "開発",
-        "レビュー",
-        "GitHub Copilot"
+        "Copilot",
+        "コード",
+        "レビュー"
       ],
       "searchTerms": [
         "Claude Code",
@@ -200,7 +204,11 @@
         "CI"
       ],
       "evidenceArticleIds": [
+        "9b9d5b6c535c4692",
+        "83fd2bb8816dec9f",
+        "0a712501629d7840",
         "d4d6c5c9b33f39aa",
+        "011fb45434256d42",
         "032d1e166a115591",
         "8fd81291389d37ac",
         "7a992fb5e8218120",
@@ -237,9 +245,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 36,
+      "evidenceArticleCount": 40,
       "confidence": 0.9,
-      "reason": "11 種類のキーワードが 36 件の記事でヒット（例：Claude Code、codex、Copilot）"
+      "reason": "11 種類のキーワードが 40 件の記事でヒット（例：Claude Code、codex、開発）"
     },
     {
       "id": "infrastructure-outages",
@@ -297,8 +305,62 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 26,
-      "confidence": 0.94,
+      "confidence": 0.93,
       "reason": "12 種類のキーワードが 26 件の記事でヒット（例：障害、復旧、影響）"
+    },
+    {
+      "id": "payment-troubles",
+      "theme": "決済インフラ・キャッシュレス",
+      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "決済",
+        "PayPay",
+        "カード",
+        "クレカ",
+        "キャッシュレス",
+        "クレジットカード"
+      ],
+      "searchTerms": [
+        "決済",
+        "クレカ",
+        "クレジットカード",
+        "PayPay",
+        "Visa",
+        "Suica",
+        "カード",
+        "支払い",
+        "払え",
+        "キャッシュレス",
+        "取引"
+      ],
+      "evidenceArticleIds": [
+        "2f7f942d4c2b4df0",
+        "392d9de0a9385234",
+        "6afac132d339eab9",
+        "56ec8e1817c0a696",
+        "863b692d8b992b95",
+        "4de05a8ee9858ffa",
+        "ab6ad6a81aa4cfb5",
+        "bb962bf80ec9a0ca",
+        "cdcdbfbadb597d0c",
+        "f89102fcb3b7192a",
+        "72c89165ed6cc4fb",
+        "1497ad035faf58f4",
+        "af4fc0e547999438",
+        "d525d678e213e33b",
+        "efa8f82e0a7656dc",
+        "7d23fd4b8e588331",
+        "fad6cd527efa3c50",
+        "e905eff59636ae08",
+        "a6deeefb72857e5e",
+        "e360e5574473698e",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 22,
+      "confidence": 0.93,
+      "reason": "10 種類のキーワードが 22 件の記事でヒット（例：決済、PayPay、カード）"
     },
     {
       "id": "housing",
@@ -363,60 +425,8 @@
         "4ee536bc41b15f57"
       ],
       "evidenceArticleCount": 21,
-      "confidence": 0.89,
+      "confidence": 0.88,
       "reason": "22 種類のキーワードが 21 件の記事でヒット（例：マンション、賃貸、住まい）"
-    },
-    {
-      "id": "payment-troubles",
-      "theme": "決済インフラ・キャッシュレス",
-      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "決済",
-        "PayPay",
-        "カード",
-        "クレカ",
-        "キャッシュレス",
-        "クレジットカード"
-      ],
-      "searchTerms": [
-        "決済",
-        "クレカ",
-        "クレジットカード",
-        "PayPay",
-        "Visa",
-        "Suica",
-        "カード",
-        "支払い",
-        "払え",
-        "キャッシュレス",
-        "取引"
-      ],
-      "evidenceArticleIds": [
-        "6afac132d339eab9",
-        "56ec8e1817c0a696",
-        "863b692d8b992b95",
-        "4de05a8ee9858ffa",
-        "ab6ad6a81aa4cfb5",
-        "bb962bf80ec9a0ca",
-        "cdcdbfbadb597d0c",
-        "f89102fcb3b7192a",
-        "72c89165ed6cc4fb",
-        "1497ad035faf58f4",
-        "af4fc0e547999438",
-        "d525d678e213e33b",
-        "efa8f82e0a7656dc",
-        "7d23fd4b8e588331",
-        "fad6cd527efa3c50",
-        "e905eff59636ae08",
-        "a6deeefb72857e5e",
-        "e360e5574473698e",
-        "6d3295d8aef77bb3",
-        "f66e64028ec6546f"
-      ],
-      "evidenceArticleCount": 20,
-      "confidence": 0.93,
-      "reason": "10 種類のキーワードが 20 件の記事でヒット（例：決済、PayPay、カード）"
     },
     {
       "id": "fitness-training",
@@ -476,8 +486,121 @@
         "cbca98ab5d8a4caf"
       ],
       "evidenceArticleCount": 19,
-      "confidence": 0.91,
+      "confidence": 0.9,
       "reason": "16 種類のキーワードが 19 件の記事でヒット（例：筋肉、毎日、筋トレ）"
+    },
+    {
+      "id": "exam-admission",
+      "theme": "受験・進学",
+      "summary": "志望校選び・入試対策など、進学に向けた情報の需要",
+      "category": "教育",
+      "relatedKeywords": [
+        "中学",
+        "中学受験",
+        "大学",
+        "高校受験",
+        "高校",
+        "大学受験"
+      ],
+      "searchTerms": [
+        "中学受験",
+        "大学受験",
+        "高校受験",
+        "入試",
+        "志望校",
+        "偏差値",
+        "共通テスト",
+        "予備校",
+        "受験勉強",
+        "受験対策",
+        "合格",
+        "併願",
+        "出願",
+        "模試",
+        "内申",
+        "学費",
+        "奨学金",
+        "推薦",
+        "大学",
+        "高校",
+        "成績",
+        "塾",
+        "対策",
+        "学校",
+        "保護者",
+        "子ども",
+        "我が子",
+        "勉強",
+        "過去問",
+        "願書",
+        "進路",
+        "中学",
+        "小学"
+      ],
+      "evidenceArticleIds": [
+        "db912106ec4638c3",
+        "a59c3d0279eaa8a5",
+        "a04fae1c488b9efd",
+        "480e280cb47cbddf",
+        "0360df11a29ec06f",
+        "277211531a9be9e0",
+        "8bd00aa1d3e5d77b",
+        "920b619cf2063513",
+        "5c0ddd12dd61e3d5",
+        "9408d723bbe6fd35",
+        "512f0d14b614238e",
+        "5a9e597f9245f5b8",
+        "eb87aec2f0c9fce7",
+        "99551e9597e11c59"
+      ],
+      "evidenceArticleCount": 14,
+      "confidence": 0.81,
+      "reason": "16 種類のキーワードが 14 件の記事でヒット（例：中学、中学受験、大学）"
+    },
+    {
+      "id": "ai-regulation",
+      "theme": "AI規制・安全性・プライバシー",
+      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "AI",
+        "規制",
+        "安全性",
+        "プライバシー",
+        "欧州委員会",
+        "保護"
+      ],
+      "searchTerms": [
+        "規制",
+        "安全性",
+        "プライバシー",
+        "倫理",
+        "AI",
+        "欧州委員会",
+        "Meta",
+        "通知",
+        "保護",
+        "差別",
+        "偽広告"
+      ],
+      "evidenceArticleIds": [
+        "f7e4a5cc0d4463fa",
+        "f25b579b8a1c627a",
+        "4225ab8cdd8742a1",
+        "45de4d6ad64fbf34",
+        "e14459d1d7527cc9",
+        "3c055302b0d3a3ee",
+        "75752a40a43aee02",
+        "c8462d45b99bf2ea",
+        "e1e25c3e3465493b",
+        "d95ca7cebce53876",
+        "4bf8f55cb8457c0e",
+        "653519ff37ac720c",
+        "1c3d73cfafe83c4f"
+      ],
+      "evidenceArticleCount": 13,
+      "confidence": 0.85,
+      "reason": "7 種類のキーワードが 13 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "study-methods",
@@ -537,115 +660,8 @@
         "ce6f93b52fab24e7"
       ],
       "evidenceArticleCount": 12,
-      "confidence": 0.85,
+      "confidence": 0.84,
       "reason": "16 種類のキーワードが 12 件の記事でヒット（例：脳、脳科学、集中）"
-    },
-    {
-      "id": "ai-regulation",
-      "theme": "AI規制・安全性・プライバシー",
-      "summary": "AI の急速な普及に伴う規制・安全性・倫理面の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "AI",
-        "規制",
-        "安全性",
-        "プライバシー",
-        "欧州委員会",
-        "保護"
-      ],
-      "searchTerms": [
-        "規制",
-        "安全性",
-        "プライバシー",
-        "倫理",
-        "AI",
-        "欧州委員会",
-        "Meta",
-        "通知",
-        "保護",
-        "差別",
-        "偽広告"
-      ],
-      "evidenceArticleIds": [
-        "4225ab8cdd8742a1",
-        "45de4d6ad64fbf34",
-        "e14459d1d7527cc9",
-        "3c055302b0d3a3ee",
-        "75752a40a43aee02",
-        "c8462d45b99bf2ea",
-        "e1e25c3e3465493b",
-        "d95ca7cebce53876",
-        "4bf8f55cb8457c0e",
-        "653519ff37ac720c",
-        "1c3d73cfafe83c4f"
-      ],
-      "evidenceArticleCount": 11,
-      "confidence": 0.85,
-      "reason": "7 種類のキーワードが 11 件の記事でヒット（例：AI、規制、安全性）"
-    },
-    {
-      "id": "exam-admission",
-      "theme": "受験・進学",
-      "summary": "志望校選び・入試対策など、進学に向けた情報の需要",
-      "category": "教育",
-      "relatedKeywords": [
-        "中学",
-        "中学受験",
-        "大学受験",
-        "大学",
-        "塾",
-        "高校受験"
-      ],
-      "searchTerms": [
-        "中学受験",
-        "大学受験",
-        "高校受験",
-        "入試",
-        "志望校",
-        "偏差値",
-        "共通テスト",
-        "予備校",
-        "受験勉強",
-        "受験対策",
-        "合格",
-        "併願",
-        "出願",
-        "模試",
-        "内申",
-        "学費",
-        "奨学金",
-        "推薦",
-        "大学",
-        "高校",
-        "成績",
-        "塾",
-        "対策",
-        "学校",
-        "保護者",
-        "子ども",
-        "我が子",
-        "勉強",
-        "過去問",
-        "願書",
-        "進路",
-        "中学",
-        "小学"
-      ],
-      "evidenceArticleIds": [
-        "0360df11a29ec06f",
-        "277211531a9be9e0",
-        "8bd00aa1d3e5d77b",
-        "920b619cf2063513",
-        "5c0ddd12dd61e3d5",
-        "9408d723bbe6fd35",
-        "512f0d14b614238e",
-        "5a9e597f9245f5b8",
-        "eb87aec2f0c9fce7",
-        "99551e9597e11c59"
-      ],
-      "evidenceArticleCount": 10,
-      "confidence": 0.78,
-      "reason": "13 種類のキーワードが 10 件の記事でヒット（例：中学、中学受験、大学受験）"
     },
     {
       "id": "home-appliance",
@@ -655,10 +671,10 @@
       "relatedKeywords": [
         "エアコン",
         "家電",
+        "食洗機",
+        "キッチン",
         "洗濯機",
-        "電気代",
-        "価格",
-        "発売"
+        "電気代"
       ],
       "searchTerms": [
         "冷蔵庫",
@@ -686,6 +702,8 @@
         "電気代"
       ],
       "evidenceArticleIds": [
+        "e89a80b65f55d715",
+        "e034abfa8d319705",
         "5db04eda1ee5756d",
         "fc0a0d43738cfdf1",
         "3f74499d80dcc267",
@@ -696,9 +714,9 @@
         "877f5cc7a5d979ca",
         "451bfbb30bc96343"
       ],
-      "evidenceArticleCount": 9,
-      "confidence": 0.83,
-      "reason": "13 種類のキーワードが 9 件の記事でヒット（例：エアコン、家電、洗濯機）"
+      "evidenceArticleCount": 11,
+      "confidence": 0.85,
+      "reason": "14 種類のキーワードが 11 件の記事でヒット（例：エアコン、家電、食洗機）"
     },
     {
       "id": "ai-hardware",
@@ -708,10 +726,10 @@
       "relatedKeywords": [
         "NVIDIA",
         "フィジカルAI",
+        "チップ",
         "Rubin",
         "GPU",
-        "データセンター",
-        "計算基盤"
+        "データセンター"
       ],
       "searchTerms": [
         "NVIDIA",
@@ -727,6 +745,7 @@
         "キオクシア"
       ],
       "evidenceArticleIds": [
+        "324a049fe48327c5",
         "5456384d7d9407cc",
         "7fb18d14aca682c3",
         "37487f7a015b38b9",
@@ -736,9 +755,45 @@
         "706ce620672e77a7",
         "5a133a290273e381"
       ],
-      "evidenceArticleCount": 8,
-      "confidence": 0.81,
-      "reason": "7 種類のキーワードが 8 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
+      "evidenceArticleCount": 9,
+      "confidence": 0.82,
+      "reason": "7 種類のキーワードが 9 件の記事でヒット（例：NVIDIA、フィジカルAI、チップ）"
+    },
+    {
+      "id": "ai-content-generation",
+      "theme": "生成AIによるコンテンツ制作",
+      "summary": "AIによる動画・画像・音声・3Dなどコンテンツ生成の需要",
+      "category": "AI・テクノロジー",
+      "relatedKeywords": [
+        "画像",
+        "画像生成",
+        "動画生成",
+        "動画"
+      ],
+      "searchTerms": [
+        "動画生成",
+        "画像生成",
+        "音声合成",
+        "動画",
+        "画像",
+        "Blender",
+        "クリエイター",
+        "3D",
+        "イラスト",
+        "音楽",
+        "Netflix"
+      ],
+      "evidenceArticleIds": [
+        "4016b49b9d27f350",
+        "e6daa5dc32f61695",
+        "edf7e0a21755decb",
+        "30095b7179005226",
+        "2ab5a4afefa24cb6",
+        "c93646e47a2b2e30"
+      ],
+      "evidenceArticleCount": 6,
+      "confidence": 0.67,
+      "reason": "4 種類のキーワードが 6 件の記事でヒット（例：画像、画像生成、動画生成）"
     },
     {
       "id": "remote-work",
@@ -810,40 +865,6 @@
       "reason": "8 種類のキーワードが 5 件の記事でヒット（例：高齢者、シニア、健康）"
     },
     {
-      "id": "ai-content-generation",
-      "theme": "生成AIによるコンテンツ制作",
-      "summary": "AIによる動画・画像・音声・3Dなどコンテンツ生成の需要",
-      "category": "AI・テクノロジー",
-      "relatedKeywords": [
-        "画像生成",
-        "画像",
-        "動画生成",
-        "動画"
-      ],
-      "searchTerms": [
-        "動画生成",
-        "画像生成",
-        "音声合成",
-        "動画",
-        "画像",
-        "Blender",
-        "クリエイター",
-        "3D",
-        "イラスト",
-        "音楽",
-        "Netflix"
-      ],
-      "evidenceArticleIds": [
-        "edf7e0a21755decb",
-        "30095b7179005226",
-        "2ab5a4afefa24cb6",
-        "c93646e47a2b2e30"
-      ],
-      "evidenceArticleCount": 4,
-      "confidence": 0.55,
-      "reason": "4 種類のキーワードが 4 件の記事でヒット（例：画像生成、画像、動画生成）"
-    },
-    {
       "id": "home-server-selfhost",
       "theme": "自宅サーバー・セルフホスト",
       "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
@@ -875,7 +896,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 3,
-      "confidence": 0.47,
+      "confidence": 0.46,
       "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
     }
   ]

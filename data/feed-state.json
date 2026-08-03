@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-08-02T12:05:27.122Z",
-  "date": "2026-08-02",
+  "updatedAt": "2026-08-03T08:59:04.784Z",
+  "date": "2026-08-03",
   "topId": "ai-business-automation",
   "themes": {
     "ai-business-automation": {
-      "score": 83,
-      "verdict": "様子見"
-    },
-    "security-breach": {
-      "score": 81,
-      "verdict": "鎮静化中"
-    },
-    "ai-coding": {
-      "score": 81,
-      "verdict": "様子見"
+      "score": 98,
+      "verdict": "拡大局面"
     },
     "infrastructure-outages": {
-      "score": 77,
+      "score": 87,
+      "verdict": "拡大局面"
+    },
+    "security-breach": {
+      "score": 82,
       "verdict": "様子見"
     },
-    "housing": {
-      "score": 66,
+    "ai-coding": {
+      "score": 82,
       "verdict": "様子見"
     },
     "payment-troubles": {
-      "score": 63,
-      "verdict": "鎮静化中"
-    },
-    "fitness-training": {
-      "score": 60,
-      "verdict": "認知拡大中"
-    },
-    "ai-regulation": {
-      "score": 54,
-      "verdict": "様子見"
-    },
-    "study-methods": {
-      "score": 51,
+      "score": 68,
       "verdict": "様子見"
     },
     "exam-admission": {
-      "score": 49,
+      "score": 64,
+      "verdict": "様子見"
+    },
+    "housing": {
+      "score": 63,
       "verdict": "様子見"
     },
     "ai-content-generation": {
+      "score": 59,
+      "verdict": "様子見"
+    },
+    "ai-regulation": {
+      "score": 58,
+      "verdict": "様子見"
+    },
+    "fitness-training": {
+      "score": 55,
+      "verdict": "観測不足"
+    },
+    "home-appliance": {
       "score": 49,
       "verdict": "様子見"
     },
-    "home-appliance": {
-      "score": 48,
+    "study-methods": {
+      "score": 44,
       "verdict": "様子見"
     },
     "ai-hardware": {
-      "score": 36,
+      "score": 42,
       "verdict": "鎮静化中"
     },
     "senior-health": {
-      "score": 31,
+      "score": 32,
       "verdict": "様子見"
     },
     "remote-work": {
-      "score": 30,
-      "verdict": "観測不足"
+      "score": 31,
+      "verdict": "鎮静化中"
     },
     "home-server-selfhost": {
-      "score": 24,
-      "verdict": "観測不足"
+      "score": 25,
+      "verdict": "様子見"
     }
   }
 }

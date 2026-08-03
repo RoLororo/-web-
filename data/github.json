@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-02T05:55:28.720Z",
+  "generatedAt": "2026-08-03T08:57:11.254Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-07-03",
-  "authenticated": false,
+  "createdSince": "2026-07-04",
+  "authenticated": true,
   "mappedThemeCount": 15,
   "successCount": 10,
   "skippedCount": 0,
@@ -50,29 +50,37 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2338,
-        "engagement": 287,
+        "volume": 2429,
+        "engagement": 367,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2338,
-        "topStarSum": 287,
+        "newRepoCount": 2429,
+        "topStarSum": 367,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 197,
+          "stars": 247,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
+        },
+        {
+          "title": "zack-fosterzbqy5857/contentbot-content-engine",
+          "url": "https://github.com/zack-fosterzbqy5857/contentbot-content-engine",
+          "stars": 38,
+          "language": "HTML",
+          "description": "ContentBot v2026 is a web-based AI content automation tool combining content creation, workflow orchestration, and multi",
+          "publishedAt": "2026-08-01T22:04:42Z"
         },
         {
           "title": "caleb-rossvtf8117/arch-ai-tools-service-hub",
@@ -91,20 +99,12 @@
           "publishedAt": "2026-07-07T08:55:24Z"
         },
         {
-          "title": "larrymargerum01/AI-Saas-Platform",
-          "url": "https://github.com/larrymargerum01/AI-Saas-Platform",
-          "stars": 16,
-          "language": "TypeScript",
-          "description": "Built an AI SaaS Platform that enables users to access multiple AI-powered tools through a unified dashboard, including ",
-          "publishedAt": "2026-07-10T21:56:50Z"
-        },
-        {
-          "title": "dark-ps/DarkPs-Agent-CLI",
-          "url": "https://github.com/dark-ps/DarkPs-Agent-CLI",
-          "stars": 11,
-          "language": "Python",
-          "description": "Extensible local-first AI agent framework for automation, coding, tools, and multi-model workflows.",
-          "publishedAt": "2026-07-22T11:53:04Z"
+          "title": "Utsavdon/N8N-Workflows",
+          "url": "https://github.com/Utsavdon/N8N-Workflows",
+          "stars": 19,
+          "language": null,
+          "description": "14 production-tested n8n workflows: 7 practical business automations + 7 agentic AI systems, each with a full setup READ",
+          "publishedAt": "2026-08-02T12:21:21Z"
         }
       ],
       "errors": []
@@ -113,26 +113,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1750,
-        "engagement": 827,
+        "volume": 1817,
+        "engagement": 840,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1750,
-        "topStarSum": 827,
+        "newRepoCount": 1817,
+        "topStarSum": 840,
         "topLanguage": "Python",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 298,
+          "stars": 309,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -140,7 +140,7 @@
         {
           "title": "eli-labz/Cognitive-Core-Skills",
           "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
-          "stars": 212,
+          "stars": 213,
           "language": "Python",
           "description": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verifi",
           "publishedAt": "2026-07-05T21:25:55Z"
@@ -164,7 +164,7 @@
         {
           "title": "wei63w/pm-manager",
           "url": "https://github.com/wei63w/pm-manager",
-          "stars": 67,
+          "stars": 68,
           "language": "Python",
           "description": "Know what to fix next — local .pm governance skill pack for AI coding agents (Spec Kit–inspired).",
           "publishedAt": "2026-07-21T09:20:39Z"
@@ -176,20 +176,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1043,
-        "engagement": 116,
+        "volume": 1065,
+        "engagement": 113,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1043,
-        "topStarSum": 116,
+        "newRepoCount": 1065,
+        "topStarSum": 113,
         "topLanguage": "Java",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
@@ -209,14 +209,6 @@
           "publishedAt": "2026-07-13T02:06:39Z"
         },
         {
-          "title": "weizerouter/weizerouter",
-          "url": "https://github.com/weizerouter/weizerouter",
-          "stars": 7,
-          "language": null,
-          "description": "AI API Gateway, Web Platform, Telegram Bot Ordering, and Automated QRIS Payment System.",
-          "publishedAt": "2026-07-04T12:29:34Z"
-        },
-        {
           "title": "nargestohidloo/responsive-payment-gateway",
           "url": "https://github.com/nargestohidloo/responsive-payment-gateway",
           "stars": 6,
@@ -231,6 +223,14 @@
           "language": "Python",
           "description": "Python client for the epoint.az payment gateway. Sync and async, all 30 endpoints, fully typed.",
           "publishedAt": "2026-07-20T16:37:11Z"
+        },
+        {
+          "title": "InventiveGit-12/FreePaymentGateway",
+          "url": "https://github.com/InventiveGit-12/FreePaymentGateway",
+          "stars": 4,
+          "language": "TypeScript",
+          "description": "Free Payment Gateway for devs: no kyc, no commission",
+          "publishedAt": "2026-07-06T09:52:01Z"
         }
       ],
       "errors": []
@@ -239,20 +239,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 679,
+        "volume": 688,
         "engagement": 38,
         "contributors": null,
         "latestActivityAt": "2026-07-12T11:48:27Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 679,
+        "newRepoCount": 688,
         "topStarSum": 38,
         "topLanguage": "Go",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
@@ -302,22 +302,30 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 484,
-        "engagement": 27,
+        "volume": 508,
+        "engagement": 34,
         "contributors": null,
-        "latestActivityAt": "2026-07-10T12:57:40Z"
+        "latestActivityAt": "2026-08-02T00:59:25Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 484,
-        "topStarSum": 27,
-        "topLanguage": "Python",
-        "createdSince": "2026-07-03"
+        "newRepoCount": 508,
+        "topStarSum": 34,
+        "topLanguage": "HTML",
+        "createdSince": "2026-07-04"
       },
       "topItems": [
+        {
+          "title": "isaacrdward6634/ai-malware-detection-system",
+          "url": "https://github.com/isaacrdward6634/ai-malware-detection-system",
+          "stars": 10,
+          "language": "HTML",
+          "description": "Browser-based AI security application using machine learning and behavioral analysis to detect, isolate, and mitigate ra",
+          "publishedAt": "2026-08-02T00:59:25Z"
+        },
         {
           "title": "ATcharumathi/Early-Stage-Behavioral-Detection-Prevention-Of-Ransomware-Attacks-On-Devices",
           "url": "https://github.com/ATcharumathi/Early-Stage-Behavioral-Detection-Prevention-Of-Ransomware-Attacks-On-Devices",
@@ -327,8 +335,8 @@
           "publishedAt": "2026-07-10T12:57:40Z"
         },
         {
-          "title": "getdatabreacher/FakeCry",
-          "url": "https://github.com/getdatabreacher/FakeCry",
+          "title": "trojansrc/FakeCry",
+          "url": "https://github.com/trojansrc/FakeCry",
           "stars": 7,
           "language": null,
           "description": "Ransomware",
@@ -343,20 +351,12 @@
           "publishedAt": "2026-07-21T22:24:48Z"
         },
         {
-          "title": "getdatabreacher/ransomwaredecryption",
-          "url": "https://github.com/getdatabreacher/ransomwaredecryption",
+          "title": "trojansrc/ransomwaredecryption",
+          "url": "https://github.com/trojansrc/ransomwaredecryption",
           "stars": 4,
           "language": null,
           "description": null,
           "publishedAt": "2026-07-19T15:47:29Z"
-        },
-        {
-          "title": "AtharDar/smart-decoy-ransomware-defense",
-          "url": "https://github.com/AtharDar/smart-decoy-ransomware-defense",
-          "stars": 3,
-          "language": "Python",
-          "description": "Smart Decoy System using Machine Learning for Real-Time Ransomware Detection, Incident Response, and Automated Mitigatio",
-          "publishedAt": "2026-07-14T21:17:05Z"
         }
       ],
       "errors": []
@@ -365,26 +365,42 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 443,
-        "engagement": 361,
+        "volume": 469,
+        "engagement": 1150,
         "contributors": null,
-        "latestActivityAt": "2026-07-13T04:08:14Z"
+        "latestActivityAt": "2026-08-01T09:29:38Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 443,
-        "topStarSum": 361,
-        "topLanguage": "Rust",
-        "createdSince": "2026-07-03"
+        "newRepoCount": 469,
+        "topStarSum": 1150,
+        "topLanguage": "C",
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
+          "title": "FareedKhan-dev/kimi-k3-in-c",
+          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+          "stars": 543,
+          "language": "C",
+          "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framewo",
+          "publishedAt": "2026-08-01T09:29:38Z"
+        },
+        {
+          "title": "avifenesh/memra",
+          "url": "https://github.com/avifenesh/memra",
+          "stars": 291,
+          "language": "Rust",
+          "description": "memra — from-scratch LLM inference engine for NVIDIA RTX 50-series (Rust + CUDA)",
+          "publishedAt": "2026-07-05T20:45:33Z"
+        },
+        {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 115,
+          "stars": 157,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -398,28 +414,12 @@
           "publishedAt": "2026-07-26T11:08:51Z"
         },
         {
-          "title": "arizqi/cpubrrr",
-          "url": "https://github.com/arizqi/cpubrrr",
-          "stars": 54,
-          "language": "Rust",
-          "description": "Frontier-class LLM inference on a laptop CPU — gpt-oss:20b at ~110 tok/s on Apple M4 Max, 7.5x llama.cpp, no GPU. From-s",
-          "publishedAt": "2026-07-04T17:49:51Z"
-        },
-        {
           "title": "Jinlong-cs/pi.cpp",
           "url": "https://github.com/Jinlong-cs/pi.cpp",
           "stars": 48,
           "language": "Python",
           "description": "TensorRT-first robot foundation model inference for edge GPUs",
           "publishedAt": "2026-07-23T07:02:15Z"
-        },
-        {
-          "title": "fypklanfanqie/local-llm-with-character-setting-Arknights",
-          "url": "https://github.com/fypklanfanqie/local-llm-with-character-setting-Arknights",
-          "stars": 33,
-          "language": "Kotlin",
-          "description": "一款运行在安卓设备上的 LLM 对话助手应用。你可以自行下载并管理模型，自由定制角色人设，并随时在本地推理（部分机型支持 GPU/NPU 加速）与云端模型之间切换。同时内置 TTS 语音合成功能，让对话更加鲜活。 An Android LL",
-          "publishedAt": "2026-07-25T05:42:40Z"
         }
       ],
       "errors": []
@@ -428,26 +428,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 262,
-        "engagement": 109,
+        "volume": 265,
+        "engagement": 113,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 262,
-        "topStarSum": 109,
+        "newRepoCount": 265,
+        "topStarSum": 113,
         "topLanguage": "Go",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 43,
+          "stars": 47,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -491,20 +491,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 250,
+        "volume": 259,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 250,
+        "newRepoCount": 259,
         "topStarSum": 43,
         "topLanguage": "Lua",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
@@ -554,20 +554,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 55,
-        "engagement": 18,
+        "volume": 61,
+        "engagement": 19,
         "contributors": null,
         "latestActivityAt": "2026-07-05T18:42:58Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 55,
-        "topStarSum": 18,
+        "newRepoCount": 61,
+        "topStarSum": 19,
         "topLanguage": "HCL",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
@@ -577,6 +577,14 @@
           "language": "HCL",
           "description": "Terraform Azure SRE lab for practicing cloud operations with Windows incident targets, AKS, App Service, Container Apps,",
           "publishedAt": "2026-07-05T18:42:58Z"
+        },
+        {
+          "title": "CheungBilly/openfde",
+          "url": "https://github.com/CheungBilly/openfde",
+          "stars": 2,
+          "language": "Java",
+          "description": "Open-source incident response control plane connecting Grafana alerts, Loki logs, safe runbooks, reliable notifications,",
+          "publishedAt": "2026-08-02T12:38:51Z"
         },
         {
           "title": "SujalXplores/Agent-K",
@@ -601,14 +609,6 @@
           "language": "TypeScript",
           "description": "AI-Powered Major Incident Management Training Platform for IT Operations, SRE, and Incident Response Teams.",
           "publishedAt": "2026-07-11T11:30:54Z"
-        },
-        {
-          "title": "ArchanaChetan07/Multi-Agent-Incident-Response-System",
-          "url": "https://github.com/ArchanaChetan07/Multi-Agent-Incident-Response-System",
-          "stars": 1,
-          "language": "Python",
-          "description": "Multi-agent AIOps incident triage in Python: evidence-grounded root-cause analysis, hallucination guarding, cost-aware L",
-          "publishedAt": "2026-07-15T03:23:36Z"
         }
       ],
       "errors": []
@@ -617,20 +617,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-02T05:55:28.720Z",
+      "fetchedAt": "2026-08-03T08:57:11.254Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 177,
-        "engagement": 64,
+        "volume": 188,
+        "engagement": 67,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 177,
-        "topStarSum": 64,
+        "newRepoCount": 188,
+        "topStarSum": 67,
         "topLanguage": "Python",
-        "createdSince": "2026-07-03"
+        "createdSince": "2026-07-04"
       },
       "topItems": [
         {
@@ -652,10 +652,18 @@
         {
           "title": "Anil-matcha/veo3.1-comfyui",
           "url": "https://github.com/Anil-matcha/veo3.1-comfyui",
-          "stars": 4,
+          "stars": 6,
           "language": "Python",
           "description": "ComfyUI custom nodes for Veo 3.1 video generation — text-to-video, image-to-video, reference-to-video, extend, and 4K up",
           "publishedAt": "2026-07-14T13:17:56Z"
+        },
+        {
+          "title": "Anil-matcha/seedance2.5-comfyui",
+          "url": "https://github.com/Anil-matcha/seedance2.5-comfyui",
+          "stars": 4,
+          "language": "Python",
+          "description": "Seedance 2.0 ComfyUI: custom nodes and workflows for ByteDance video generation via MuAPI — text-to-video, image-to-vide",
+          "publishedAt": "2026-08-02T00:02:19Z"
         },
         {
           "title": "RISys-Lab/LingT2I",
@@ -664,14 +672,6 @@
           "language": "Python",
           "description": "[ACM MM 2026] On the Limitations of Cross-Lingual Consistency in Multilingual Text-to-Image Generation",
           "publishedAt": "2026-07-11T06:16:20Z"
-        },
-        {
-          "title": "Agents365-ai/videogencn",
-          "url": "https://github.com/Agents365-ai/videogencn",
-          "stars": 3,
-          "language": "Python",
-          "description": "Claude Code skill: Chinese video model generation — Wan, PixVerse, Kling, Vidu, HappyHorse, Jimeng, MiniMax, Hunyuan. Te",
-          "publishedAt": "2026-07-05T12:56:10Z"
         }
       ],
       "errors": []
