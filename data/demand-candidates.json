@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T08:52:32.026Z",
-  "totalArticles": 2005,
+  "generatedAt": "2026-08-04T06:17:08.739Z",
+  "totalArticles": 2295,
   "themeCount": 16,
   "candidateCount": 16,
   "method": "rule-based keyword matching",
@@ -11,12 +11,12 @@
       "summary": "AIを使って業務や作業を自動化・効率化したい需要",
       "category": "AI・テクノロジー",
       "relatedKeywords": [
-        "Claude",
         "活用",
         " AI",
         "生成AI",
-        "ChatGPT",
-        "導入"
+        "Claude",
+        "導入",
+        "ChatGPT"
       ],
       "searchTerms": [
         "生成AI",
@@ -36,9 +36,19 @@
         "ワークフロー"
       ],
       "evidenceArticleIds": [
+        "a82ac2c423646aac",
+        "8533c8fa32027c81",
+        "e3c5dddd0dfdda71",
+        "ff7555381031f7a7",
+        "23b1692426865697",
+        "db520adae326fa40",
+        "24a5be0797dd6d91",
+        "37e821117963da19",
+        "1963caa17e45f613",
         "c895db1bd5f06a28",
         "d44128fe9e5e70ae",
         "324a049fe48327c5",
+        "439b6003b5f1025f",
         "90814d317e62c090",
         "e2ae54c032180670",
         "a6e227828709fc90",
@@ -85,21 +95,11 @@
         "10207090446fe2ae",
         "4beeb768be9735e6",
         "54480ef975be5e0e",
-        "78159c2a776c1e1b",
-        "b40c9644e6cb6c8c",
-        "fbcfedecb86926e7",
-        "8f45d5ab8ab47a99",
-        "75752a40a43aee02",
-        "c04b3e742dc7fd32",
-        "bc0397634f6eab66",
-        "e41ef298f3cb7354",
-        "12104805f05ba26c",
-        "017f9e9b4df86db3",
-        "d3f4a5180eebed4d"
+        "78159c2a776c1e1b"
       ],
-      "evidenceArticleCount": 86,
+      "evidenceArticleCount": 96,
       "confidence": 0.96,
-      "reason": "15 種類のキーワードが 86 件の記事でヒット（例：Claude、活用、 AI）"
+      "reason": "15 種類のキーワードが 96 件の記事でヒット（例：活用、 AI、生成AI）"
     },
     {
       "id": "security-breach",
@@ -128,6 +128,9 @@
         "被害"
       ],
       "evidenceArticleIds": [
+        "40739e6b04df2022",
+        "25ed803ffed75993",
+        "ab39a72c21783c66",
         "da40af5b69ffcb0f",
         "94a1f174208d5220",
         "0b2c64fee09a95b4",
@@ -171,9 +174,9 @@
         "b778b7551fcdb609",
         "31931e12804789ed"
       ],
-      "evidenceArticleCount": 42,
+      "evidenceArticleCount": 45,
       "confidence": 0.95,
-      "reason": "11 種類のキーワードが 42 件の記事でヒット（例：情報、個人情報、サイバー攻撃）"
+      "reason": "11 種類のキーワードが 45 件の記事でヒット（例：情報、個人情報、サイバー攻撃）"
     },
     {
       "id": "ai-coding",
@@ -183,10 +186,10 @@
       "relatedKeywords": [
         "Claude Code",
         "codex",
-        "開発",
         "Copilot",
-        "コード",
-        "レビュー"
+        "開発",
+        "レビュー",
+        "コード"
       ],
       "searchTerms": [
         "Claude Code",
@@ -204,6 +207,8 @@
         "CI"
       ],
       "evidenceArticleIds": [
+        "1a26db6fa58aebe4",
+        "d4c431446307f693",
         "9b9d5b6c535c4692",
         "83fd2bb8816dec9f",
         "0a712501629d7840",
@@ -245,9 +250,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 40,
+      "evidenceArticleCount": 42,
       "confidence": 0.9,
-      "reason": "11 種類のキーワードが 40 件の記事でヒット（例：Claude Code、codex、開発）"
+      "reason": "11 種類のキーワードが 42 件の記事でヒット（例：Claude Code、codex、Copilot）"
     },
     {
       "id": "infrastructure-outages",
@@ -277,6 +282,7 @@
         "影響"
       ],
       "evidenceArticleIds": [
+        "6e29eb70873fe535",
         "ba6968ff36fc5437",
         "0640da058bd7690c",
         "2d15002b66a45426",
@@ -304,9 +310,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 26,
+      "evidenceArticleCount": 27,
       "confidence": 0.93,
-      "reason": "12 種類のキーワードが 26 件の記事でヒット（例：障害、復旧、影響）"
+      "reason": "12 種類のキーワードが 27 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "payment-troubles",
@@ -359,7 +365,7 @@
         "f66e64028ec6546f"
       ],
       "evidenceArticleCount": 22,
-      "confidence": 0.93,
+      "confidence": 0.92,
       "reason": "10 種類のキーワードが 22 件の記事でヒット（例：決済、PayPay、カード）"
     },
     {
@@ -435,8 +441,8 @@
       "category": "健康",
       "relatedKeywords": [
         "筋肉",
-        "毎日",
         "筋トレ",
+        "毎日",
         "トレーニング",
         "ストレッチ",
         "運動"
@@ -465,6 +471,8 @@
         "分間"
       ],
       "evidenceArticleIds": [
+        "ae83b30a33ea42b9",
+        "f5bf950e04b5af89",
         "6674995cf6266914",
         "c1bb1c0f801d7b63",
         "9b6c374bfa5c8f7a",
@@ -485,9 +493,9 @@
         "3a9f0177129d4886",
         "cbca98ab5d8a4caf"
       ],
-      "evidenceArticleCount": 19,
-      "confidence": 0.9,
-      "reason": "16 種類のキーワードが 19 件の記事でヒット（例：筋肉、毎日、筋トレ）"
+      "evidenceArticleCount": 21,
+      "confidence": 0.91,
+      "reason": "17 種類のキーワードが 21 件の記事でヒット（例：筋肉、筋トレ、毎日）"
     },
     {
       "id": "exam-admission",
@@ -498,9 +506,9 @@
         "中学",
         "中学受験",
         "大学",
+        "大学受験",
         "高校受験",
-        "高校",
-        "大学受験"
+        "高校"
       ],
       "searchTerms": [
         "中学受験",
@@ -538,6 +546,9 @@
         "小学"
       ],
       "evidenceArticleIds": [
+        "bd49bfaf44cd92b3",
+        "d217c571ea04f112",
+        "ba04a70a6d1390a1",
         "db912106ec4638c3",
         "a59c3d0279eaa8a5",
         "a04fae1c488b9efd",
@@ -553,9 +564,9 @@
         "eb87aec2f0c9fce7",
         "99551e9597e11c59"
       ],
-      "evidenceArticleCount": 14,
+      "evidenceArticleCount": 17,
       "confidence": 0.81,
-      "reason": "16 種類のキーワードが 14 件の記事でヒット（例：中学、中学受験、大学）"
+      "reason": "16 種類のキーワードが 17 件の記事でヒット（例：中学、中学受験、大学）"
     },
     {
       "id": "ai-regulation",
@@ -584,6 +595,9 @@
         "偽広告"
       ],
       "evidenceArticleIds": [
+        "ec7f4680de26847a",
+        "8d370aa3aab14e92",
+        "24a5be0797dd6d91",
         "f7e4a5cc0d4463fa",
         "f25b579b8a1c627a",
         "4225ab8cdd8742a1",
@@ -598,9 +612,66 @@
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 13,
+      "evidenceArticleCount": 16,
       "confidence": 0.85,
-      "reason": "7 種類のキーワードが 13 件の記事でヒット（例：AI、規制、安全性）"
+      "reason": "7 種類のキーワードが 16 件の記事でヒット（例：AI、規制、安全性）"
+    },
+    {
+      "id": "home-appliance",
+      "theme": "家電・暮らしの道具",
+      "summary": "家電の買い替え・選び方・電気代など、暮らしの道具の需要",
+      "category": "生活",
+      "relatedKeywords": [
+        "エアコン",
+        "家電",
+        "価格",
+        "発売",
+        "省エネ",
+        "食洗機"
+      ],
+      "searchTerms": [
+        "冷蔵庫",
+        "洗濯機",
+        "エアコン",
+        "掃除機",
+        "炊飯器",
+        "電子レンジ",
+        "食洗機",
+        "加湿器",
+        "除湿機",
+        "ドライヤー",
+        "空気清浄機",
+        "照明器具",
+        "家電",
+        "価格",
+        "発売",
+        "購入",
+        "便利",
+        "快適",
+        "省エネ",
+        "収納",
+        "キッチン",
+        "暮らし",
+        "電気代"
+      ],
+      "evidenceArticleIds": [
+        "033df3f8fd321df8",
+        "880752dd783a63ac",
+        "e89a80b65f55d715",
+        "e034abfa8d319705",
+        "5db04eda1ee5756d",
+        "fc0a0d43738cfdf1",
+        "3f74499d80dcc267",
+        "a6484ebdf94edd26",
+        "462c25ce6a34d19d",
+        "84d9be9d808d31c0",
+        "5eaeb48884233d99",
+        "877f5cc7a5d979ca",
+        "451bfbb30bc96343"
+      ],
+      "evidenceArticleCount": 13,
+      "confidence": 0.87,
+      "reason": "16 種類のキーワードが 13 件の記事でヒット（例：エアコン、家電、価格）"
     },
     {
       "id": "study-methods",
@@ -664,61 +735,6 @@
       "reason": "16 種類のキーワードが 12 件の記事でヒット（例：脳、脳科学、集中）"
     },
     {
-      "id": "home-appliance",
-      "theme": "家電・暮らしの道具",
-      "summary": "家電の買い替え・選び方・電気代など、暮らしの道具の需要",
-      "category": "生活",
-      "relatedKeywords": [
-        "エアコン",
-        "家電",
-        "食洗機",
-        "キッチン",
-        "洗濯機",
-        "電気代"
-      ],
-      "searchTerms": [
-        "冷蔵庫",
-        "洗濯機",
-        "エアコン",
-        "掃除機",
-        "炊飯器",
-        "電子レンジ",
-        "食洗機",
-        "加湿器",
-        "除湿機",
-        "ドライヤー",
-        "空気清浄機",
-        "照明器具",
-        "家電",
-        "価格",
-        "発売",
-        "購入",
-        "便利",
-        "快適",
-        "省エネ",
-        "収納",
-        "キッチン",
-        "暮らし",
-        "電気代"
-      ],
-      "evidenceArticleIds": [
-        "e89a80b65f55d715",
-        "e034abfa8d319705",
-        "5db04eda1ee5756d",
-        "fc0a0d43738cfdf1",
-        "3f74499d80dcc267",
-        "a6484ebdf94edd26",
-        "462c25ce6a34d19d",
-        "84d9be9d808d31c0",
-        "5eaeb48884233d99",
-        "877f5cc7a5d979ca",
-        "451bfbb30bc96343"
-      ],
-      "evidenceArticleCount": 11,
-      "confidence": 0.85,
-      "reason": "14 種類のキーワードが 11 件の記事でヒット（例：エアコン、家電、食洗機）"
-    },
-    {
       "id": "ai-hardware",
       "theme": "AI向けハードウェア・計算基盤",
       "summary": "GPU・専用チップなど AI 学習/推論向けハードウェアの需要",
@@ -756,7 +772,7 @@
         "5a133a290273e381"
       ],
       "evidenceArticleCount": 9,
-      "confidence": 0.82,
+      "confidence": 0.81,
       "reason": "7 種類のキーワードが 9 件の記事でヒット（例：NVIDIA、フィジカルAI、チップ）"
     },
     {
@@ -827,7 +843,7 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.67,
+      "confidence": 0.66,
       "reason": "7 種類のキーワードが 5 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
@@ -861,7 +877,7 @@
         "508f31c0d33ea0ec"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.72,
+      "confidence": 0.71,
       "reason": "8 種類のキーワードが 5 件の記事でヒット（例：高齢者、シニア、健康）"
     },
     {
@@ -870,10 +886,10 @@
       "summary": "個人がサーバーを自宅で構築する「おうちラボ」需要",
       "category": "AI・テクノロジー",
       "relatedKeywords": [
-        "サーバ",
         "自宅",
-        "サーバー",
+        "サーバ",
         "おうち",
+        "サーバー",
         "ラボ",
         "構築"
       ],
@@ -891,13 +907,14 @@
         "Docker"
       ],
       "evidenceArticleIds": [
+        "1d9579b8bebb927d",
         "60a555cbabd18483",
         "112c488162d42fb1",
         "8ce1150d1c1be423"
       ],
-      "evidenceArticleCount": 3,
-      "confidence": 0.46,
-      "reason": "6 種類のキーワードが 3 件の記事でヒット（例：サーバ、自宅、サーバー）"
+      "evidenceArticleCount": 4,
+      "confidence": 0.54,
+      "reason": "6 種類のキーワードが 4 件の記事でヒット（例：自宅、サーバ、おうち）"
     }
   ]
 }

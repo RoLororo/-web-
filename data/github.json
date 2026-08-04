@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-03T08:57:11.254Z",
+  "generatedAt": "2026-08-04T06:21:36.310Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-07-04",
+  "createdSince": "2026-07-05",
   "authenticated": true,
   "mappedThemeCount": 15,
   "successCount": 10,
@@ -50,26 +50,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2429,
-        "engagement": 367,
+        "volume": 2535,
+        "engagement": 401,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2429,
-        "topStarSum": 367,
+        "newRepoCount": 2535,
+        "topStarSum": 401,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 247,
+          "stars": 281,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -113,37 +113,29 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1817,
-        "engagement": 840,
+        "volume": 1834,
+        "engagement": 695,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1817,
-        "topStarSum": 840,
+        "newRepoCount": 1834,
+        "topStarSum": 695,
         "topLanguage": "Python",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 309,
+          "stars": 308,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
-        },
-        {
-          "title": "eli-labz/Cognitive-Core-Skills",
-          "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
-          "stars": 213,
-          "language": "Python",
-          "description": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verifi",
-          "publishedAt": "2026-07-05T21:25:55Z"
         },
         {
           "title": "agutinbaigo28/financial-agent-api",
@@ -164,10 +156,18 @@
         {
           "title": "wei63w/pm-manager",
           "url": "https://github.com/wei63w/pm-manager",
-          "stars": 68,
+          "stars": 69,
           "language": "Python",
           "description": "Know what to fix next — local .pm governance skill pack for AI coding agents (Spec Kit–inspired).",
           "publishedAt": "2026-07-21T09:20:39Z"
+        },
+        {
+          "title": "ricmmartins/azure-sre-agent-skills",
+          "url": "https://github.com/ricmmartins/azure-sre-agent-skills",
+          "stars": 68,
+          "language": null,
+          "description": "Custom proactive skills for Azure SRE Agent — governance, cost intelligence, architecture quality, AI workload posture",
+          "publishedAt": "2026-07-22T14:36:11Z"
         }
       ],
       "errors": []
@@ -176,26 +176,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1065,
-        "engagement": 113,
+        "volume": 1084,
+        "engagement": 111,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1065,
-        "topStarSum": 113,
+        "newRepoCount": 1084,
+        "topStarSum": 111,
         "topLanguage": "Java",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "DigitalShieldOfficial/Crypto-Payment-Gateway",
           "url": "https://github.com/DigitalShieldOfficial/Crypto-Payment-Gateway",
-          "stars": 78,
+          "stars": 77,
           "language": "Java",
           "description": "A blockchain payment gateway for USDT that monitors on-chain wallet addresses, detects incoming transactions in real tim",
           "publishedAt": "2026-07-27T02:24:49Z"
@@ -209,12 +209,12 @@
           "publishedAt": "2026-07-13T02:06:39Z"
         },
         {
-          "title": "nargestohidloo/responsive-payment-gateway",
-          "url": "https://github.com/nargestohidloo/responsive-payment-gateway",
-          "stars": 6,
-          "language": "CSS",
-          "description": null,
-          "publishedAt": "2026-07-05T21:05:15Z"
+          "title": "amiranmanesh/payvand",
+          "url": "https://github.com/amiranmanesh/payvand",
+          "stars": 5,
+          "language": "Go",
+          "description": "One Go interface for every Iranian payment gateway (IPG) — 25 providers, zero dependencies.",
+          "publishedAt": "2026-07-31T12:10:10Z"
         },
         {
           "title": "martian56/epoint-python",
@@ -239,22 +239,30 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 688,
-        "engagement": 38,
+        "volume": 698,
+        "engagement": 65,
         "contributors": null,
-        "latestActivityAt": "2026-07-12T11:48:27Z"
+        "latestActivityAt": "2026-08-03T18:34:47Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 688,
-        "topStarSum": 38,
-        "topLanguage": "Go",
-        "createdSince": "2026-07-04"
+        "newRepoCount": 698,
+        "topStarSum": 65,
+        "topLanguage": "TypeScript",
+        "createdSince": "2026-07-05"
       },
       "topItems": [
+        {
+          "title": "sonnet5claudefree/Claude-Code-Sonnet-5-Free-Desktop",
+          "url": "https://github.com/sonnet5claudefree/Claude-Code-Sonnet-5-Free-Desktop",
+          "stars": 23,
+          "language": "TypeScript",
+          "description": "Claude Sonnet 5 free download - AI model from Anthropic for coding and long conversations. What is Claude Sonnet 5? The ",
+          "publishedAt": "2026-08-03T18:34:47Z"
+        },
         {
           "title": "darkneuralnetwork/DarkCode",
           "url": "https://github.com/darkneuralnetwork/DarkCode",
@@ -264,36 +272,28 @@
           "publishedAt": "2026-07-12T11:48:27Z"
         },
         {
+          "title": "sebastianevan200-stack/kaleidoscope-rp",
+          "url": "https://github.com/sebastianevan200-stack/kaleidoscope-rp",
+          "stars": 10,
+          "language": "Python",
+          "description": "A long-form roleplay engine for one human and one AI. Slot-machine world generation, summon-based narrator & NPCs, and l",
+          "publishedAt": "2026-08-03T06:32:32Z"
+        },
+        {
+          "title": "emrecanozturk/intentflow-ios",
+          "url": "https://github.com/emrecanozturk/intentflow-ios",
+          "stars": 8,
+          "language": "Swift",
+          "description": "Workflow-first, AI-ready iOS architecture with typed effects, manifests, SwiftUI/UIKit examples, and agent-safe code gen",
+          "publishedAt": "2026-07-06T14:25:56Z"
+        },
+        {
           "title": "nikandr-surkov/ai-saas-starter",
           "url": "https://github.com/nikandr-surkov/ai-saas-starter",
           "stars": 7,
           "language": "TypeScript",
           "description": "AI SaaS boilerplate for Next.js 16 — Better Auth, Stripe subscriptions, credits system, AI image generation. AI-native: ",
           "publishedAt": "2026-07-18T06:34:02Z"
-        },
-        {
-          "title": "emrecanozturk/intentflow-ios",
-          "url": "https://github.com/emrecanozturk/intentflow-ios",
-          "stars": 7,
-          "language": "Swift",
-          "description": "Workflow-first, AI-ready iOS architecture with typed effects, manifests, SwiftUI/UIKit examples, and agent-safe code gen",
-          "publishedAt": "2026-07-06T14:25:56Z"
-        },
-        {
-          "title": "NijoP/pcbflow",
-          "url": "https://github.com/NijoP/pcbflow",
-          "stars": 4,
-          "language": "Python",
-          "description": "PCB Flow — autonomous, AI-assisted PCB design workflow that takes a hardware project from requirements to manufacturing-",
-          "publishedAt": "2026-07-12T20:11:16Z"
-        },
-        {
-          "title": "Aaravkhanal/Frameflow-ai",
-          "url": "https://github.com/Aaravkhanal/Frameflow-ai",
-          "stars": 3,
-          "language": "Python",
-          "description": "FrameFlow AI transforms screenshots, Figma designs, URLs, and screen recordings into clean, production-ready frontend co",
-          "publishedAt": "2026-07-24T08:43:44Z"
         }
       ],
       "errors": []
@@ -302,26 +302,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 508,
-        "engagement": 34,
+        "volume": 505,
+        "engagement": 50,
         "contributors": null,
         "latestActivityAt": "2026-08-02T00:59:25Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 508,
-        "topStarSum": 34,
+        "newRepoCount": 505,
+        "topStarSum": 50,
         "topLanguage": "HTML",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "isaacrdward6634/ai-malware-detection-system",
           "url": "https://github.com/isaacrdward6634/ai-malware-detection-system",
-          "stars": 10,
+          "stars": 26,
           "language": "HTML",
           "description": "Browser-based AI security application using machine learning and behavioral analysis to detect, isolate, and mitigate ra",
           "publishedAt": "2026-08-02T00:59:25Z"
@@ -365,42 +365,34 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 469,
-        "engagement": 1150,
+        "volume": 482,
+        "engagement": 1748,
         "contributors": null,
         "latestActivityAt": "2026-08-01T09:29:38Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 469,
-        "topStarSum": 1150,
+        "newRepoCount": 482,
+        "topStarSum": 1748,
         "topLanguage": "C",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "FareedKhan-dev/kimi-k3-in-c",
           "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-          "stars": 543,
+          "stars": 1377,
           "language": "C",
           "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framewo",
           "publishedAt": "2026-08-01T09:29:38Z"
         },
         {
-          "title": "avifenesh/memra",
-          "url": "https://github.com/avifenesh/memra",
-          "stars": 291,
-          "language": "Rust",
-          "description": "memra — from-scratch LLM inference engine for NVIDIA RTX 50-series (Rust + CUDA)",
-          "publishedAt": "2026-07-05T20:45:33Z"
-        },
-        {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 157,
+          "stars": 162,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -412,6 +404,14 @@
           "language": "Python",
           "description": "A small, educational vLLM implementation for exploring LLM inference, scheduling, KV-cache management, and GPU execution",
           "publishedAt": "2026-07-26T11:08:51Z"
+        },
+        {
+          "title": "fypklanfanqie/local-llm-with-character-setting-Arknights",
+          "url": "https://github.com/fypklanfanqie/local-llm-with-character-setting-Arknights",
+          "stars": 50,
+          "language": "Kotlin",
+          "description": "一款运行在安卓设备上的 LLM 对话助手应用。你可以自行下载并管理模型，自由定制角色人设，并随时在本地推理（部分机型支持 GPU/NPU 加速）与云端模型之间切换。同时内置 TTS 语音合成功能，让对话更加鲜活。 An Android LL",
+          "publishedAt": "2026-07-25T05:42:40Z"
         },
         {
           "title": "Jinlong-cs/pi.cpp",
@@ -428,26 +428,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 265,
-        "engagement": 113,
+        "volume": 259,
+        "engagement": 116,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 265,
-        "topStarSum": 113,
+        "newRepoCount": 259,
+        "topStarSum": 116,
         "topLanguage": "Go",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 47,
+          "stars": 48,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -455,7 +455,7 @@
         {
           "title": "Nerdy-Technician/JellyGlance",
           "url": "https://github.com/Nerdy-Technician/JellyGlance",
-          "stars": 23,
+          "stars": 24,
           "language": "JavaScript",
           "description": "A modern Jellyfin dashboard for live sessions, user stats, recently added media, libraries, downloads, calendars, webhoo",
           "publishedAt": "2026-07-17T22:32:40Z"
@@ -477,12 +477,12 @@
           "publishedAt": "2026-07-06T14:53:20Z"
         },
         {
-          "title": "romainducrocq/wacc-selfhosted",
-          "url": "https://github.com/romainducrocq/wacc-selfhosted",
-          "stars": 11,
-          "language": "C",
-          "description": "Selfhosted implementation of \"Writing a C Compiler\"",
-          "publishedAt": "2026-07-05T18:40:04Z"
+          "title": "stevezau/shortlist",
+          "url": "https://github.com/stevezau/shortlist",
+          "stars": 12,
+          "language": "Python",
+          "description": "Self-hosted, per-user movie & TV recommendations for Plex — a private \"Picked for You\" row on every user's home screen, ",
+          "publishedAt": "2026-07-12T06:15:45Z"
         }
       ],
       "errors": []
@@ -491,20 +491,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 259,
-        "engagement": 43,
+        "volume": 255,
+        "engagement": 42,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 259,
-        "topStarSum": 43,
+        "newRepoCount": 255,
+        "topStarSum": 42,
         "topLanguage": "Lua",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
@@ -532,12 +532,12 @@
           "publishedAt": "2026-07-18T07:47:22Z"
         },
         {
-          "title": "ryan-scheinberg/remote-workstreams",
-          "url": "https://github.com/ryan-scheinberg/remote-workstreams",
-          "stars": 3,
-          "language": "Python",
-          "description": "Voice driven secure workstream management for Claude Code and Codex",
-          "publishedAt": "2026-07-05T15:42:01Z"
+          "title": "017pixel/Remote_Workplace",
+          "url": "https://github.com/017pixel/Remote_Workplace",
+          "stars": 2,
+          "language": "TypeScript",
+          "description": "Selbst gehostete Remote-Development-Workbench im Browser: Editor, PTY-Terminals, KI-CLIs, Orbit-Canvas und Tech-News, pr",
+          "publishedAt": "2026-07-17T11:37:28Z"
         },
         {
           "title": "ditwrd/herdr-remote-worktrunk",
@@ -554,29 +554,29 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 61,
-        "engagement": 19,
+        "volume": 62,
+        "engagement": 8,
         "contributors": null,
-        "latestActivityAt": "2026-07-05T18:42:58Z"
+        "latestActivityAt": "2026-08-01T18:00:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 61,
-        "topStarSum": 19,
-        "topLanguage": "HCL",
-        "createdSince": "2026-07-04"
+        "newRepoCount": 62,
+        "topStarSum": 8,
+        "topLanguage": "TypeScript",
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
-          "title": "Jamonygr/sre-agent",
-          "url": "https://github.com/Jamonygr/sre-agent",
-          "stars": 13,
-          "language": "HCL",
-          "description": "Terraform Azure SRE lab for practicing cloud operations with Windows incident targets, AKS, App Service, Container Apps,",
-          "publishedAt": "2026-07-05T18:42:58Z"
+          "title": "King4584/IncidentIQ",
+          "url": "https://github.com/King4584/IncidentIQ",
+          "stars": 2,
+          "language": "TypeScript",
+          "description": "IncidentIQ AI is an enterprise-grade AI-native incident investigation platform designed for SREs, DevOps, Platform Engin",
+          "publishedAt": "2026-08-01T18:00:43Z"
         },
         {
           "title": "CheungBilly/openfde",
@@ -617,26 +617,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-03T08:57:11.254Z",
+      "fetchedAt": "2026-08-04T06:21:36.310Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 188,
-        "engagement": 67,
+        "volume": 183,
+        "engagement": 70,
         "contributors": null,
         "latestActivityAt": "2026-07-07T08:14:45Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 188,
-        "topStarSum": 67,
+        "newRepoCount": 183,
+        "topStarSum": 70,
         "topLanguage": "Python",
-        "createdSince": "2026-07-04"
+        "createdSince": "2026-07-05"
       },
       "topItems": [
         {
           "title": "xmz111/ReChannel",
           "url": "https://github.com/xmz111/ReChannel",
-          "stars": 35,
+          "stars": 36,
           "language": "Python",
           "description": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models (ReChannel)",
           "publishedAt": "2026-07-07T08:14:45Z"
@@ -660,18 +660,18 @@
         {
           "title": "Anil-matcha/seedance2.5-comfyui",
           "url": "https://github.com/Anil-matcha/seedance2.5-comfyui",
-          "stars": 4,
+          "stars": 5,
           "language": "Python",
           "description": "Seedance 2.0 ComfyUI: custom nodes and workflows for ByteDance video generation via MuAPI — text-to-video, image-to-vide",
           "publishedAt": "2026-08-02T00:02:19Z"
         },
         {
-          "title": "RISys-Lab/LingT2I",
-          "url": "https://github.com/RISys-Lab/LingT2I",
-          "stars": 3,
-          "language": "Python",
-          "description": "[ACM MM 2026] On the Limitations of Cross-Lingual Consistency in Multilingual Text-to-Image Generation",
-          "publishedAt": "2026-07-11T06:16:20Z"
+          "title": "backblaze-labs/ai-saas-starter-kit",
+          "url": "https://github.com/backblaze-labs/ai-saas-starter-kit",
+          "stars": 4,
+          "language": "TypeScript",
+          "description": "Production-ready AI SaaS starter kit: a Next.js 16 + FastAPI monorepo with Supabase auth, Stripe billing, text-to-image ",
+          "publishedAt": "2026-07-16T23:20:31Z"
         }
       ],
       "errors": []
