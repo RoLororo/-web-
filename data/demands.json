@@ -813,7 +813,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.568Z",
+        "generatedAt": "2026-08-05T14:57:47.401Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -1012,7 +1012,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": 0,
+          "productized": true,
+          "signals": {
+            "research": {
+              "percentile": 100,
+              "raw": 2126
+            },
+            "dev": {
+              "percentile": 100,
+              "raw": 1857
+            },
+            "awareness": {
+              "percentile": 100,
+              "raw": 60
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -1630,7 +1653,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.569Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -1802,7 +1825,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": -0.11,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 56,
+              "raw": 51
+            },
+            "dev": {
+              "percentile": 75,
+              "raw": 32
+            },
+            "awareness": {
+              "percentile": 75,
+              "raw": 31
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -2358,7 +2404,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.569Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -2532,7 +2578,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": -0.2,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 81,
+              "raw": 243
+            },
+            "dev": {
+              "percentile": 63,
+              "raw": 21
+            },
+            "awareness": {
+              "percentile": 94,
+              "raw": 57
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -3151,7 +3220,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.569Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -3328,7 +3397,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": -0.03,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 69,
+              "raw": 70
+            },
+            "dev": {
+              "percentile": 94,
+              "raw": 114
+            },
+            "awareness": {
+              "percentile": 81,
+              "raw": 51
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -3961,7 +4053,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.569Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 72,
@@ -4138,7 +4230,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": -0.22,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 44,
+              "raw": 21
+            },
+            "dev": {
+              "percentile": 81,
+              "raw": 54
+            },
+            "awareness": {
+              "percentile": 81,
+              "raw": 51
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -4656,7 +4771,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.569Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 68,
@@ -4814,7 +4929,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "mainstream",
+          "icon": "📣",
+          "label": "世間が先行",
+          "rationale": "世間の報道が研究・開発より先行している段階。既に広く知られており、技術的な参入障壁は低い。後発では差別化が難しい。",
+          "leadScore": -0.65,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 6,
+              "raw": 2
+            },
+            "dev": {
+              "percentile": 0,
+              "raw": 0
+            },
+            "awareness": {
+              "percentile": 69,
+              "raw": 29
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -5313,7 +5451,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 29,
@@ -5473,7 +5611,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "mainstream",
+          "icon": "📣",
+          "label": "世間が先行",
+          "rationale": "世間の報道が研究・開発より先行している段階。既に広く知られており、技術的な参入障壁は低い。後発では差別化が難しい。",
+          "leadScore": -0.62,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 0,
+              "raw": 0
+            },
+            "dev": {
+              "percentile": 0,
+              "raw": 0
+            },
+            "awareness": {
+              "percentile": 63,
+              "raw": 27
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -6270,7 +6431,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -6450,7 +6611,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": -0.16,
+          "productized": true,
+          "signals": {
+            "research": {
+              "percentile": 38,
+              "raw": 8
+            },
+            "dev": {
+              "percentile": 44,
+              "raw": 8
+            },
+            "awareness": {
+              "percentile": 56,
+              "raw": 25
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -6983,7 +7167,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 46,
@@ -7157,7 +7341,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": 0,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 63,
+              "raw": 52
+            },
+            "dev": {
+              "percentile": 0,
+              "raw": 0
+            },
+            "awareness": {
+              "percentile": 38,
+              "raw": 17
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -7690,7 +7897,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.402Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 58,
@@ -7853,7 +8060,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": -0.25,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 6,
+              "raw": 2
+            },
+            "dev": {
+              "percentile": 38,
+              "raw": 7
+            },
+            "awareness": {
+              "percentile": 44,
+              "raw": 20
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -8394,7 +8624,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 72,
@@ -8557,7 +8787,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "mainstream",
+          "icon": "📣",
+          "label": "世間が先行",
+          "rationale": "世間の報道が研究・開発より先行している段階。既に広く知られており、技術的な参入障壁は低い。後発では差別化が難しい。",
+          "leadScore": -0.31,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 31,
+              "raw": 7
+            },
+            "dev": {
+              "percentile": 0,
+              "raw": 0
+            },
+            "awareness": {
+              "percentile": 50,
+              "raw": 21
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -9231,7 +9484,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 97,
@@ -9418,7 +9671,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "emerging",
+          "icon": "🔬",
+          "label": "研究・開発が先行",
+          "rationale": "研究や開発の動きが世間の報道より先行している段階。まだ広く知られていないが技術的な裏付けがあり、早めに仕込む価値がある領域。",
+          "leadScore": 0.65,
+          "productized": true,
+          "signals": {
+            "research": {
+              "percentile": 94,
+              "raw": 495
+            },
+            "dev": {
+              "percentile": 69,
+              "raw": 31
+            },
+            "awareness": {
+              "percentile": 19,
+              "raw": 7
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -10039,7 +10315,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -10216,7 +10492,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "emerging",
+          "icon": "🔬",
+          "label": "研究・開発が先行",
+          "rationale": "研究や開発の動きが世間の報道より先行している段階。まだ広く知られていないが技術的な裏付けがあり、早めに仕込む価値がある領域。",
+          "leadScore": 0.63,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 88,
+              "raw": 343
+            },
+            "dev": {
+              "percentile": 88,
+              "raw": 71
+            },
+            "awareness": {
+              "percentile": 25,
+              "raw": 10
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -10835,7 +11134,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -11008,7 +11307,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "emerging",
+          "icon": "🔬",
+          "label": "研究・開発が先行",
+          "rationale": "研究や開発の動きが世間の報道より先行している段階。まだ広く知られていないが技術的な裏付けがあり、早めに仕込む価値がある領域。",
+          "leadScore": 0.36,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 75,
+              "raw": 96
+            },
+            "dev": {
+              "percentile": 56,
+              "raw": 17
+            },
+            "awareness": {
+              "percentile": 31,
+              "raw": 14
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -11456,7 +11778,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.570Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 43,
@@ -11620,7 +11942,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": 0.18,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 50,
+              "raw": 47
+            },
+            "dev": {
+              "percentile": 0,
+              "raw": 0
+            },
+            "awareness": {
+              "percentile": 13,
+              "raw": 6
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -12295,7 +12640,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.571Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 92,
@@ -12472,7 +12817,30 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": 0.18,
+          "productized": true,
+          "signals": {
+            "research": {
+              "percentile": 6,
+              "raw": 2
+            },
+            "dev": {
+              "percentile": 50,
+              "raw": 9
+            },
+            "awareness": {
+              "percentile": 6,
+              "raw": 5
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     },
     {
@@ -13022,7 +13390,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-05T14:44:23.571Z",
+        "generatedAt": "2026-08-05T14:57:47.403Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 60,
@@ -13166,10 +13534,33 @@
             "effort": "5 分",
             "kind": "validate"
           }
-        ]
+        ],
+        "demandStage": {
+          "stage": "parallel",
+          "icon": "⚖",
+          "label": "研究と話題が並走",
+          "rationale": "研究・開発の動きと世間の関心が同じ水準で進んでいる段階。",
+          "leadScore": 0.28,
+          "productized": false,
+          "signals": {
+            "research": {
+              "percentile": 25,
+              "raw": 6
+            },
+            "dev": {
+              "percentile": 31,
+              "raw": 2
+            },
+            "awareness": {
+              "percentile": 0,
+              "raw": 4
+            }
+          },
+          "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
+        }
       }
     }
   ],
-  "insightsGeneratedAt": "2026-08-05T14:44:23.571Z",
+  "insightsGeneratedAt": "2026-08-05T14:57:47.403Z",
   "insightsMethod": "heuristic-v1"
 }

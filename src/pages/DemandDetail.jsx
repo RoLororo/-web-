@@ -215,6 +215,49 @@ export default function DemandDetail() {
           <div>
             {/* ▼ 意思決定ゾーン (Hero 直後、スクロール前に見せる) ▼ */}
 
+            {/* 需要ステージ: 研究→開発→認知 の横断合成。競合が構造的に出せない独自指標。 */}
+            {demand._insights?.demandStage && (() => {
+              const st = demand._insights.demandStage;
+              const bars = [
+                { key: 'research',  label: '研究',  hint: 'arXiv 論文',   pct: st.signals.research.percentile },
+                { key: 'dev',       label: '開発',  hint: 'Qiita 記事',   pct: st.signals.dev.percentile },
+                { key: 'awareness', label: '認知',  hint: 'ニュース報道', pct: st.signals.awareness.percentile },
+              ];
+              return (
+                <div className="block">
+                  <h2 className="block-title">
+                    需要ステージ
+                    <span className="block-title-count">{st.icon} {st.label}</span>
+                  </h2>
+                  <p className="score-breakdown-lead">
+                    研究（arXiv）・開発（Qiita）・世間の認知（ニュース）を横断し、上流の技術活動が
+                    世間の報道より先行しているかで需要の成熟段階を判定します。棒はテーマ間での相対順位（%ile）。
+                    検索カーブだけを見る他サービスには出せない、Demand Atlas 独自の指標です。
+                  </p>
+                  <ul className="score-bars">
+                    {bars.map((b) => (
+                      <li key={b.key} className="score-bar-row">
+                        <div className="score-bar-head">
+                          <span className="score-bar-name">{b.label}<span style={{ color: 'var(--text-3)', fontWeight: 400, marginLeft: 6 }}>{b.hint}</span></span>
+                          <span className="score-bar-formula">
+                            <span className="score-bar-contribution">全テーマ中 {b.pct} %ile</span>
+                          </span>
+                        </div>
+                        <div className="score-bar-track">
+                          <div className="score-bar-fill" style={{ width: `${b.pct}%` }} aria-label={`${b.label}: パーセンタイル ${b.pct}`} />
+                          <div className="score-bar-max" style={{ width: '100%' }} />
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="score-breakdown-lead" style={{ marginTop: 12, marginBottom: 0 }}>
+                    {st.rationale}
+                    {st.productized && ' なお App Store 上位に該当アプリがあり、既に製品化が始まっています。'}
+                  </p>
+                </div>
+              );
+            })()}
+
             {/* なぜ伸びたのか (合成) — 最も重要な結論を最初に */}
             {demand._insights?.whyTrending && (
               <div className="block">

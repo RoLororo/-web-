@@ -900,6 +900,84 @@ function tokenizeKeyword(kw) {
   return [...new Set([s, ...parts])];
 }
 
+// ── 需要ステージ（先行指標）─────────────────────────────────────────
+// 競合（Google Trends=検索カーブのみ / Product Hunt=製品のみ / Reddit=雑談のみ）は
+// 単一データ源しか見ない。Demand Atlas は 研究(arXiv) / 開発(Qiita) / 認知(ニュース) を
+// 横断して持つので、「上流(研究・開発)が世間の認知より先行しているか」を測れる。
+// これは「まだ世間に広く知られていないが技術的な動きがある＝今仕込む価値がある需要」を
+// 見つけるための、他サービスが構造的に出せない指標。
+// GitHub は keyword 検索のノイズが大きい（例: "regulation" が無関係リポに大量マッチ）ため
+// ステージ判定には使わず、信頼できる arXiv / Qiita / ニュースだけで順位合成する。
+function collectStageStats(demands) {
+  const pull = (v) => ({
+    research: v._arxivDetail?.nativeMetrics?.paperCount || 0,
+    dev: v._qiitaDetail?.nativeMetrics?.articleCount || 0,
+    awareness: v._matchingArticleCount || 0,
+  });
+  return {
+    pull,
+    research: demands.map((v) => pull(v).research),
+    dev: demands.map((v) => pull(v).dev),
+    awareness: demands.map((v) => pull(v).awareness),
+  };
+}
+
+// 順位パーセンタイル (0..1)。絶対値ではなく順位を使うので、
+// データ源ごとにスケールが違っても、外れ値が大きくても頑健。
+function percentileRank(arr, x) {
+  if (!arr || arr.length <= 1) return 0;
+  let below = 0;
+  for (const y of arr) if (y < x) below++;
+  return below / (arr.length - 1);
+}
+
+function computeDemandStage(demand, stats) {
+  const s = stats.pull(demand);
+  const rp = percentileRank(stats.research, s.research);
+  const vp = percentileRank(stats.dev, s.dev);
+  const ap = percentileRank(stats.awareness, s.awareness);
+  // 上流(研究0.6 + 開発0.4) − 下流(認知)。+ で上流先行、− で世間先行。
+  const lead = rp * 0.6 + vp * 0.4 - ap;
+  const apps = demand._appstoreDetail?.nativeMetrics?.matchedAppCount;
+  const productized = typeof apps === 'number' && apps > 0;
+
+  let stage, icon, label, rationale;
+  if (lead >= 0.3) {
+    stage = 'emerging';
+    icon = '🔬';
+    label = '研究・開発が先行';
+    rationale =
+      '研究や開発の動きが世間の報道より先行している段階。まだ広く知られていないが技術的な裏付けがあり、早めに仕込む価値がある領域。';
+  } else if (lead <= -0.3) {
+    stage = 'mainstream';
+    icon = '📣';
+    label = '世間が先行';
+    rationale =
+      '世間の報道が研究・開発より先行している段階。既に広く知られており、技術的な参入障壁は低い。後発では差別化が難しい。';
+  } else {
+    stage = 'parallel';
+    icon = '⚖';
+    label = '研究と話題が並走';
+    rationale = '研究・開発の動きと世間の関心が同じ水準で進んでいる段階。';
+  }
+
+  return {
+    stage,
+    icon,
+    label,
+    rationale,
+    leadScore: Math.round(lead * 100) / 100,
+    productized,
+    signals: {
+      research: { percentile: Math.round(rp * 100), raw: s.research },
+      dev: { percentile: Math.round(vp * 100), raw: s.dev },
+      awareness: { percentile: Math.round(ap * 100), raw: s.awareness },
+    },
+    method:
+      'arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用',
+  };
+}
+
 function computeSimilarThemes(demands, themeIndex) {
   const out = new Map(); // themeId -> [{ id, similarity, sharedKeywords }]
   const kwSets = new Map(); // themeId -> Set<token>
@@ -1054,6 +1132,8 @@ async function main() {
     demands.map((d) => [d.id, { title: d.title, category: d.category, score: d.score, status: d.status }]),
   );
   const similarMap = computeSimilarThemes(demands, themeIndex);
+  // 需要ステージは全テーマの順位を使うので、ループ前に一度だけ統計を集める
+  const stageStats = collectStageStats(demands);
 
   let filled = 0;
   for (const d of demands) {
@@ -1072,6 +1152,7 @@ async function main() {
     const saas         = profile.saas || [];
     const similar      = similarMap.get(d.id) || [];
     const nextActions  = buildNextActions(d);
+    const demandStage  = computeDemandStage(d, stageStats);
 
     // 既存の空フィールドを埋める (mockDemands 互換シェイプを維持)
     if (Array.isArray(d.audience) && d.audience.length === 0 && audience.length > 0) {
@@ -1102,6 +1183,7 @@ async function main() {
       saas,
       similarThemes: similar,
       nextActions,
+      demandStage,
     };
     filled++;
   }

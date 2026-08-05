@@ -19,8 +19,24 @@ import { changeClass, formatChange } from '../utils/format.js';
 import { trendSeries, sliceSeries } from '../utils/series.js';
 import { sourceDisplay } from '../services/sourceCatalog.js';
 
+const STAGE_TINT = {
+  emerging:   'hsl(265 60% 55%)', // 研究・開発が先行
+  parallel:   'hsl(210 15% 50%)', // 並走
+  mainstream: 'hsl(30 70% 50%)',  // 世間が先行
+};
+
 function BadgeRow({ verdict, insights }) {
   const items = [];
+  const stage = insights?.demandStage;
+  if (stage?.label) {
+    items.push({
+      kind: 'stage',
+      cls: 'card-badge',
+      style: { borderColor: STAGE_TINT[stage.stage], color: STAGE_TINT[stage.stage] },
+      text: `${stage.icon} ${stage.label}`,
+      title: stage.rationale || '',
+    });
+  }
   if (verdict?.label) {
     items.push({
       kind: 'verdict',
@@ -53,7 +69,7 @@ function BadgeRow({ verdict, insights }) {
   return (
     <div className="card-badge-row" onClick={(e) => e.stopPropagation()}>
       {items.map((it, i) => (
-        <span key={i} className={it.cls} title={it.title}>{it.text}</span>
+        <span key={i} className={it.cls} title={it.title} style={it.style}>{it.text}</span>
       ))}
     </div>
   );

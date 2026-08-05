@@ -864,7 +864,7 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 | **観測できている情報源数** | **7 種 / 37 媒体** | ±0（種別）。ニュース RSS 31 + 横断 6 | `_*Detail` 6 種（wikipedia / qiita / arxiv / appstore / github / ndl）+ ニュース RSS。派生の `_growthDetail` は除く |
 | 使用カテゴリ数 | 5 / 9 | ±0（ビジネスは既存。vuln も同カテゴリ） | `themes:eval` |
 | 平均ソース数 | 4.8 | -0.2（テーマ増で希釈。vuln は 15 情報源で平均超） | `themes:eval` |
-| **分析の種類数** | **13** | 初測定 | `_insights` の分析キー（dataQuality / verdict / whyTrending / momentum / beginnerFriendliness / competition / audience / problems / monetization / content / saas / similarThemes / nextActions）。version・generatedAt・method はメタなので除く |
+| **分析の種類数** | **14** | +1（demandStage 追加） | `_insights` の分析キー（dataQuality / verdict / whyTrending / momentum / beginnerFriendliness / competition / audience / problems / monetization / content / saas / similarThemes / nextActions / **demandStage**）。version・generatedAt・method はメタなので除く |
 | **比較軸の数** | **5 軸 + 4 セクション** | 初測定 | `Compare.jsx` の `ScoreCell` 10 個 = 5 軸 × 2 列、加えて 情報源バー / 3 ゲージ / アイデア / キーワード分類 |
 | **可視化の種類数** | **9** | 初測定 | 折れ線 `chart-svg` / スパークライン `spark-svg` / 分析ゲージ `insight-gauge` / 比較ゲージ `cmp-gauge` / スコア内訳バー `score-bars` / 活動カレンダー `activity-grid` / 比較の情報源バー `cmp-src-bar` / 情報源トレンドのセル `source-trends-cell` / 三指標のドット `tc-dot` |
 | アイデア件数 | 136 | +8（vuln の businessOpportunities） | `themes:eval` |
