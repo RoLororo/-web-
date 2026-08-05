@@ -312,6 +312,28 @@ const THEME_PROFILES = {
       { title: '入試要項の変更点を通知', target: '塾・予備校', hypothesis: '要項 PDF の差分を人手で追っている' },
     ],
   },
+  'vulnerability-response': {
+    audience: [
+      '情シス・社内 IT の運用担当',
+      'SOC / セキュリティ運用の担当者',
+      '自社プロダクトの依存パッケージを管理する開発者',
+      'MSP・運用受託の事業者',
+    ],
+    monetization: [
+      { title: '脆弱性情報の要約配信', desc: '自社で使っている製品に絞って、対応要否と期限だけを毎朝届ける', barrier: '低', revenue: '月額 3,000-30,000円' },
+      { title: '中小企業向けのパッチ運用代行', desc: '棚卸しから適用計画・実施報告までを月次で回す', barrier: '中', revenue: '月額 5-30万円' },
+      { title: '資産棚卸しの初期構築支援', desc: '何がどこで動いているかを可視化し、影響範囲を即答できる状態にする', barrier: '中', revenue: 'プロジェクト 30-200万円' },
+    ],
+    content: [
+      { format: 'Newsletter', title: '毎朝:「今日対応すべき脆弱性」', angle: '期限のある情報は再訪の理由になる' },
+      { format: 'YouTube', title: '「うちは影響ある？を5分で判断する手順」', angle: '判断のフローチャートを見せる' },
+      { format: 'ブログ', title: '「パッチを当てられなかった理由、全部書く」', angle: '現場の制約を扱うと同業に刺さる' },
+    ],
+    saas: [
+      { title: '使用製品に絞った脆弱性アラート', target: '情シス', hypothesis: '公表は大量に出るが、自社に関係するものを選ぶ作業が手作業' },
+      { title: '適用状況の証跡を自動で残す', target: '監査を受ける企業', hypothesis: '対応したこと自体より、対応の証明に時間がかかる' },
+    ],
+  },
   'fitness-training': {
     audience: [
       '運動を始めたい・再開したい 20-50代',

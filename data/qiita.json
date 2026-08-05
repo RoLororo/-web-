@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-05T06:16:36.770Z",
+  "generatedAt": "2026-08-05T14:40:24.997Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
   "cutoffDate": "2026-07-06",
-  "mappedThemeCount": 16,
-  "successCount": 11,
+  "mappedThemeCount": 17,
+  "successCount": 12,
   "skippedCount": 5,
   "errorCount": 0,
-  "totalRequestCount": 45,
-  "rateRemainingAtEnd": 15,
+  "totalRequestCount": 47,
+  "rateRemainingAtEnd": 13,
   "themesSkipped": [
     "senior-health",
     "ai-regulation",
@@ -22,22 +22,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 25,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1833,
-        "engagement": 3557,
-        "contributors": 694,
-        "latestActivityAt": "2026-08-05T15:14:50+09:00"
+        "volume": 1857,
+        "engagement": 3600,
+        "contributors": 702,
+        "latestActivityAt": "2026-08-05T23:37:58+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1833,
-        "lgtmSum": 3557,
-        "uniqueAuthors": 694,
-        "latestPublishedAt": "2026-08-05T15:14:50+09:00"
+        "articleCount": 1857,
+        "lgtmSum": 3600,
+        "uniqueAuthors": 702,
+        "latestPublishedAt": "2026-08-05T23:37:58+09:00"
       },
       "meta": {
         "tags": [
@@ -49,29 +49,29 @@
         "tagBreakdown": [
           {
             "tag": "ChatGPT",
-            "totalCount": 266,
-            "fetched": 266,
+            "totalCount": 268,
+            "fetched": 268,
             "pages": 3,
             "stoppedBy": "done"
           },
           {
             "tag": "Claude",
-            "totalCount": 405,
-            "fetched": 405,
+            "totalCount": 413,
+            "fetched": 413,
             "pages": 5,
             "stoppedBy": "done"
           },
           {
             "tag": "LLM",
-            "totalCount": 785,
-            "fetched": 785,
+            "totalCount": 797,
+            "fetched": 797,
             "pages": 8,
             "stoppedBy": "done"
           },
           {
             "tag": "生成AI",
-            "totalCount": 838,
-            "fetched": 838,
+            "totalCount": 844,
+            "fetched": 844,
             "pages": 9,
             "stoppedBy": "done"
           }
@@ -82,7 +82,7 @@
           "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
           "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
           "publishedAt": "2026-07-12T16:15:00+09:00",
-          "likes": 451,
+          "likes": 456,
           "author": "ZiYuCai1984"
         },
         {
@@ -96,21 +96,21 @@
           "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと",
           "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
           "publishedAt": "2026-07-17T07:54:35+09:00",
-          "likes": 164,
+          "likes": 165,
           "author": "Koukyosyumei"
         },
         {
           "title": "Claude Code／Codexに中～大規模開発を任せるためのタスク管理",
           "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384",
           "publishedAt": "2026-08-02T08:38:39+09:00",
-          "likes": 106,
+          "likes": 109,
           "author": "Y-Y-dev"
         },
         {
           "title": "AIエージェントがあれば技術書なんてすぐ書けるでしょ、と思ったが無理だった",
           "url": "https://qiita.com/watany/items/11358e8e8966d5e48a09",
           "publishedAt": "2026-07-25T15:46:06+09:00",
-          "likes": 92,
+          "likes": 93,
           "author": "watany"
         }
       ]
@@ -119,20 +119,20 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 114,
-        "engagement": 203,
+        "engagement": 211,
         "contributors": 73,
         "latestActivityAt": "2026-08-05T02:08:18+09:00"
       },
       "nativeMetrics": {
         "articleCount": 114,
-        "lgtmSum": 203,
+        "lgtmSum": 211,
         "uniqueAuthors": 73,
         "latestPublishedAt": "2026-08-05T02:08:18+09:00"
       },
@@ -160,18 +160,18 @@
       },
       "topItems": [
         {
+          "title": "新しい Copilot Studio が GA したので「ハーネス」とクレジット課金体系を改めて整理してみる",
+          "url": "https://qiita.com/Takashi_Masumori/items/e6f1678b41483943fc04",
+          "publishedAt": "2026-08-04T06:43:52+09:00",
+          "likes": 36,
+          "author": "Takashi_Masumori"
+        },
+        {
           "title": "プロンプトを頑張るな、リポジトリを育てろ：GitHub Copilotが迷わないコードベース設計",
           "url": "https://qiita.com/ochtum/items/28fc5b3dbf78b7795c80",
           "publishedAt": "2026-07-08T15:59:45+09:00",
           "likes": 35,
           "author": "ochtum"
-        },
-        {
-          "title": "新しい Copilot Studio が GA したので「ハーネス」とクレジット課金体系を改めて整理してみる",
-          "url": "https://qiita.com/Takashi_Masumori/items/e6f1678b41483943fc04",
-          "publishedAt": "2026-08-04T06:43:52+09:00",
-          "likes": 31,
-          "author": "Takashi_Masumori"
         },
         {
           "title": "ナレッジ83件を2時間で作った。でも腐るのは、もっと速かった",
@@ -200,7 +200,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -281,20 +281,20 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 3,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 71,
-        "engagement": 96,
+        "engagement": 98,
         "contributors": 47,
         "latestActivityAt": "2026-08-05T00:05:37+09:00"
       },
       "nativeMetrics": {
         "articleCount": 71,
-        "lgtmSum": 96,
+        "lgtmSum": 98,
         "uniqueAuthors": 47,
         "latestPublishedAt": "2026-08-05T00:05:37+09:00"
       },
@@ -370,22 +370,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 30,
-        "engagement": 51,
-        "contributors": 26,
-        "latestActivityAt": "2026-08-03T11:55:06+09:00"
+        "volume": 32,
+        "engagement": 52,
+        "contributors": 27,
+        "latestActivityAt": "2026-08-05T22:26:36+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 30,
-        "lgtmSum": 51,
-        "uniqueAuthors": 26,
-        "latestPublishedAt": "2026-08-03T11:55:06+09:00"
+        "articleCount": 32,
+        "lgtmSum": 52,
+        "uniqueAuthors": 27,
+        "latestPublishedAt": "2026-08-05T22:26:36+09:00"
       },
       "meta": {
         "tags": [
@@ -402,8 +402,8 @@
           },
           {
             "tag": "障害対応",
-            "totalCount": 12,
-            "fetched": 12,
+            "totalCount": 14,
+            "fetched": 14,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -425,6 +425,13 @@
           "author": "mo__mo"
         },
         {
+          "title": "CloudFrontの自動gzip圧縮が突然始まった",
+          "url": "https://qiita.com/kanzawa_kentaro/items/d4c9acbd39d90194e0b1",
+          "publishedAt": "2026-07-13T22:37:20+09:00",
+          "likes": 6,
+          "author": "kanzawa_kentaro"
+        },
+        {
           "title": "RTO5分を成立させるまでの長い話",
           "url": "https://qiita.com/mo__mo/items/ee246758cb01f0dffa3c",
           "publishedAt": "2026-07-13T08:57:14+09:00",
@@ -437,13 +444,6 @@
           "publishedAt": "2026-07-16T21:43:31+09:00",
           "likes": 5,
           "author": "Tom-Panasonic"
-        },
-        {
-          "title": "CloudFrontの自動gzip圧縮が突然始まった",
-          "url": "https://qiita.com/kanzawa_kentaro/items/d4c9acbd39d90194e0b1",
-          "publishedAt": "2026-07-13T22:37:20+09:00",
-          "likes": 5,
-          "author": "kanzawa_kentaro"
         }
       ]
     },
@@ -451,22 +451,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 4,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 52,
-        "engagement": 540,
-        "contributors": 26,
-        "latestActivityAt": "2026-08-05T11:24:34+09:00"
+        "volume": 54,
+        "engagement": 547,
+        "contributors": 27,
+        "latestActivityAt": "2026-08-05T19:41:16+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 52,
-        "lgtmSum": 540,
-        "uniqueAuthors": 26,
-        "latestPublishedAt": "2026-08-05T11:24:34+09:00"
+        "articleCount": 54,
+        "lgtmSum": 547,
+        "uniqueAuthors": 27,
+        "latestPublishedAt": "2026-08-05T19:41:16+09:00"
       },
       "meta": {
         "tags": [
@@ -485,15 +485,15 @@
           },
           {
             "tag": "ランサムウェア",
-            "totalCount": 16,
-            "fetched": 16,
+            "totalCount": 17,
+            "fetched": 17,
             "pages": 1,
             "stoppedBy": "done"
           },
           {
             "tag": "脆弱性",
-            "totalCount": 20,
-            "fetched": 20,
+            "totalCount": 21,
+            "fetched": 21,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -511,7 +511,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 478,
+          "likes": 483,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -525,14 +525,14 @@
           "title": "なぜニチレイは、たった10日で復旧できたのか",
           "url": "https://qiita.com/harupython/items/3ca158f89a6e38d762aa",
           "publishedAt": "2026-07-27T14:29:26+09:00",
-          "likes": 17,
+          "likes": 18,
           "author": "harupython"
         },
         {
           "title": "毎日137件公開されるCVE、正直ぜんぶ無視していませんか？",
           "url": "https://qiita.com/udowanllc/items/024e91ccb6393159c798",
           "publishedAt": "2026-08-04T00:29:32+09:00",
-          "likes": 9,
+          "likes": 10,
           "author": "udowanllc"
         },
         {
@@ -548,7 +548,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -629,7 +629,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -681,7 +681,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -762,20 +762,20 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 17,
-        "engagement": 76,
+        "engagement": 77,
         "contributors": 14,
         "latestActivityAt": "2026-08-05T07:21:26+09:00"
       },
       "nativeMetrics": {
         "articleCount": 17,
-        "lgtmSum": 76,
+        "lgtmSum": 77,
         "uniqueAuthors": 14,
         "latestPublishedAt": "2026-08-05T07:21:26+09:00"
       },
@@ -805,7 +805,7 @@
           "title": "コードを書かせるだけは、正直もったいない。Claude Codeを「先生」として使い倒す5つのプロンプト",
           "url": "https://qiita.com/jqit_suwa/items/2f38d32328996d826d48",
           "publishedAt": "2026-07-15T08:29:02+09:00",
-          "likes": 31,
+          "likes": 32,
           "author": "jqit_suwa"
         },
         {
@@ -835,22 +835,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T06:16:36.770Z",
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 3,
-        "engagement": 0,
-        "contributors": 3,
-        "latestActivityAt": "2026-07-27T19:26:17+09:00"
+        "volume": 7,
+        "engagement": 1,
+        "contributors": 4,
+        "latestActivityAt": "2026-08-05T22:23:56+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 3,
-        "lgtmSum": 0,
-        "uniqueAuthors": 3,
-        "latestPublishedAt": "2026-07-27T19:26:17+09:00"
+        "articleCount": 7,
+        "lgtmSum": 1,
+        "uniqueAuthors": 4,
+        "latestPublishedAt": "2026-08-05T22:23:56+09:00"
       },
       "meta": {
         "tags": [
@@ -859,8 +859,8 @@
         "tagBreakdown": [
           {
             "tag": "スマートホーム",
-            "totalCount": 3,
-            "fetched": 3,
+            "totalCount": 7,
+            "fetched": 7,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -868,25 +868,120 @@
       },
       "topItems": [
         {
+          "title": "【Home Assistant】初期設定メモ",
+          "url": "https://qiita.com/anylogarchive/items/e1bec9b454c56b33eb39",
+          "publishedAt": "2026-08-05T19:27:19+09:00",
+          "likes": 1,
+          "author": "anylogarchive"
+        },
+        {
+          "title": "【Home Assistant】HACSインストールメモ",
+          "url": "https://qiita.com/anylogarchive/items/8b69e3470d64691a6c50",
+          "publishedAt": "2026-08-05T22:23:56+09:00",
+          "likes": 0,
+          "author": "anylogarchive"
+        },
+        {
+          "title": "【Home Assistant】SSHアドオンインストールメモ",
+          "url": "https://qiita.com/anylogarchive/items/53b5ccb817c3a319e12a",
+          "publishedAt": "2026-08-05T21:10:17+09:00",
+          "likes": 0,
+          "author": "anylogarchive"
+        },
+        {
+          "title": "【Home Assistant】インストールメモ",
+          "url": "https://qiita.com/anylogarchive/items/ac368451da928d9305c0",
+          "publishedAt": "2026-08-05T17:05:31+09:00",
+          "likes": 0,
+          "author": "anylogarchive"
+        },
+        {
           "title": "Home Assistantの現状整理（2026年7月版）",
           "url": "https://qiita.com/ham0806/items/ba4a8aaac607e15742ba",
           "publishedAt": "2026-07-27T19:26:17+09:00",
           "likes": 0,
           "author": "ham0806"
+        }
+      ]
+    },
+    "vulnerability-response": {
+      "envelopeVersion": "1.0.0",
+      "source": "qiita",
+      "windowDays": 30,
+      "fetchedAt": "2026-08-05T14:40:24.997Z",
+      "requestCount": 2,
+      "complete": true,
+      "coverage": 1,
+      "errors": [],
+      "metrics": {
+        "volume": 21,
+        "engagement": 525,
+        "contributors": 13,
+        "latestActivityAt": "2026-08-05T15:33:18+09:00"
+      },
+      "nativeMetrics": {
+        "articleCount": 21,
+        "lgtmSum": 525,
+        "uniqueAuthors": 13,
+        "latestPublishedAt": "2026-08-05T15:33:18+09:00"
+      },
+      "meta": {
+        "tags": [
+          "脆弱性",
+          "セキュリティ"
+        ],
+        "tagBreakdown": [
+          {
+            "tag": "脆弱性",
+            "totalCount": 21,
+            "fetched": 21,
+            "pages": 1,
+            "stoppedBy": "done"
+          },
+          {
+            "tag": "セキュリティ",
+            "totalCount": 0,
+            "fetched": 0,
+            "pages": 1,
+            "stoppedBy": "done"
+          }
+        ]
+      },
+      "topItems": [
+        {
+          "title": "セキュリティの勉強になるサイト138選(2026年版)",
+          "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
+          "publishedAt": "2026-07-19T13:36:00+09:00",
+          "likes": 483,
+          "author": "Nakanishi_RareTECH"
         },
         {
-          "title": "電池寿命を延ばすナノパワー電源設計とは？",
-          "url": "https://qiita.com/farnell_japan/items/a3bc1bd43e68996b1f1e",
-          "publishedAt": "2026-07-23T14:58:43+09:00",
-          "likes": 0,
-          "author": "farnell_japan"
+          "title": "あと10日で攻撃コストが激変する。Kimi K3公開前にやるべきセキュリティ対策",
+          "url": "https://qiita.com/udowanllc/items/9a1c5da9a36b7f74691a",
+          "publishedAt": "2026-07-18T21:49:23+09:00",
+          "likes": 26,
+          "author": "udowanllc"
         },
         {
-          "title": "スマートディスプレイ「Quote/0」に燃えるゴミの日を出す",
-          "url": "https://qiita.com/ryofujimotox/items/afe234071ca2bc3c660e",
-          "publishedAt": "2026-07-11T12:02:53+09:00",
-          "likes": 0,
-          "author": "ryofujimotox"
+          "title": "毎日137件公開されるCVE、正直ぜんぶ無視していませんか？",
+          "url": "https://qiita.com/udowanllc/items/024e91ccb6393159c798",
+          "publishedAt": "2026-08-04T00:29:32+09:00",
+          "likes": 10,
+          "author": "udowanllc"
+        },
+        {
+          "title": "2026/07/21 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+          "url": "https://qiita.com/ennagara128/items/cfa1b91a546bbb87d72c",
+          "publishedAt": "2026-07-21T07:25:27+09:00",
+          "likes": 3,
+          "author": "ennagara128"
+        },
+        {
+          "title": "AIが見つけた「wp2shell」、何をどうやって見つけたのか",
+          "url": "https://qiita.com/harupython/items/c4f8d102b647dc2a0408",
+          "publishedAt": "2026-07-23T16:36:56+09:00",
+          "likes": 2,
+          "author": "harupython"
         }
       ]
     }

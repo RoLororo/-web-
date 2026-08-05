@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:28:19.289Z",
+  "generatedAt": "2026-08-05T14:44:24.545Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -160,6 +160,16 @@
       "archivePaths": [],
       "recordCount": 5,
       "firstDate": "2026-08-01",
+      "lastDate": "2026-08-05"
+    },
+    {
+      "id": "vulnerability-response",
+      "name": "脆弱性対応・パッチ管理",
+      "category": "ビジネス",
+      "currentPath": "history/current/vulnerability-response.jsonl",
+      "archivePaths": [],
+      "recordCount": 1,
+      "firstDate": "2026-08-05",
       "lastDate": "2026-08-05"
     }
   ],

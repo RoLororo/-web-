@@ -87,6 +87,11 @@
       "query": "筋力トレーニング",
       "expectedCount": null,
       "note": "2026-08-02 追加時点では未計測"
+    },
+    "vulnerability-response": {
+      "query": "脆弱性 情報セキュリティ",
+      "expectedCount": null,
+      "note": "2026-08-02 追加時点では未計測"
     }
   }
 }

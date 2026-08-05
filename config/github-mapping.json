@@ -82,6 +82,11 @@
       "query": "workout tracker fitness",
       "expectedMonthlyCount": null,
       "note": "2026-08-02 追加時点では未計測"
+    },
+    "vulnerability-response": {
+      "query": "vulnerability scanner CVE",
+      "expectedMonthlyCount": null,
+      "note": "2026-08-02 追加時点では未計測"
     }
   }
 }

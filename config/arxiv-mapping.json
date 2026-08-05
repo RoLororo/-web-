@@ -86,6 +86,11 @@
       "query": "abs:\"physical exercise\" OR abs:\"resistance training\" OR abs:\"physical activity intervention\"",
       "expectedMonthlyCount": null,
       "note": "運動介入の研究。2026-08-02 追加時点では未計測。クエリは fetch 側で括弧に包まれる"
+    },
+    "vulnerability-response": {
+      "query": "cat:cs.CR AND (abs:\"vulnerability\" OR abs:\"patch management\" OR abs:\"exploit\")",
+      "expectedMonthlyCount": null,
+      "note": "脆弱性研究。2026-08-02 追加時点では未計測。クエリは fetch 側で括弧に包まれる"
     }
   },
   "skippedReasons": {},

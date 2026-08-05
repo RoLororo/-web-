@@ -169,7 +169,7 @@ PART A の異常判定に該当した場合のみ実装を提案する。それ�
 | # | 内容 | 実測 | 分類 |
 |---|---|---|---|
 | ~~T1~~ | ~~健康カテゴリが 1 テーマのみ~~ → **2026-08-02 解決**（フィットネス・筋トレを追加。MELOS 採用） |  | 完了 |
-| T2 | 起業カテゴリが空のまま | スタートアップ・資金調達テーマは THE BRIDGE 15件 + ITmediaビジネス 1件 = 2 情報源で昇格基準（3 情報源）に未達。誤爆 0 件と品質は高い。3 つめの供給元が要る | ① 情報量 |
+| T2 | 起業カテゴリが空のまま | 2026-08-05 の未使用 corpus 再測定では、現在の 31 フィードから起業（スタートアップ・資金調達）に紐づく記事は **0 件**。以前の 19 件は未採用フィード由来だった。カテゴリ新設には**専用フィード（THE BRIDGE 等）の追加が前提**で、追加後に昇格基準（3 情報源・5 件）を満たすか要実測 | ① 情報量 |
 | T3 | 検索結果に「どこが一致したか」が出ない | 検索対象を 638 → 10,991 字に広げた結果、「導入」のような語で 7 テーマ出るようになったが、なぜ出たのかが画面から分からない | ③ システム完成度 |
 | T4 | 生 HTML が薄いページが 2 つ | /changes 371 字 / /timeline 369 字。履歴を effect 内で読むためプリレンダに本文が乗らない | ③ SEO |
 | T5 | demands.json が全ページの初回描画に乗る | 386 KB raw / 72 KB gzip。テーマが増えるほど線形に増える | ③ 速度 |
@@ -303,20 +303,20 @@ console.log('flat:',(flat/total*100).toFixed(0)+'% | cat:',JSON.stringify(cat));
 | カバレッジ | 平均 5.0 源 / 6 源揃い 3 / 2 以下 **0** |
 | news < 5 件 | 3 テーマ |
 | flat ratio | 40%（78/196）。内訳 **github 30%（最も動く）** / qiita 35% / wikipedia 38% / arxiv 47%。**NDL 単体は 100%（11/11）静止 → 除外していなければ全体は 43% に悪化していた** |
-| カテゴリ | ビジネス 4 / AI・テクノロジー 5 / 健康 1 = **3 / 9 使用** |
+| カテゴリ | AI・テクノロジー 6 / ビジネス 5 / 教育 2 / 生活 2 / 健康 2 = **5 / 9 使用** |
 | envelope complete・coverage | 24 観測すべて健全（異常 0） |
 
 ### テーマ拡張（2026-08-02 更新）
 
 | 項目 | 値 |
 |---|---|
-| 観測しているテーマ | **11** |
-| 公開されているテーマ | **16**（2026-08-02: 教育 2 + 生活 2 + 健康 1 を新設、ai-content-generation 復活） |
-| 分野の稼働 | **5 / 9**（AI・テクノロジー 6 / ビジネス 4 / 教育 2 / 生活 2 / 健康 2）。起業・副業・エンタメ・美容 が **0 件** |
+| 観測しているテーマ | **12** |
+| 公開されているテーマ | **17**（2026-08-05: 脆弱性対応・パッチ管理を追加。未使用記事 1,213 件のクラスタリングで 8 候補を公平比較し純増最大を採用） |
+| 分野の稼働 | **5 / 9**（AI・テクノロジー 6 / ビジネス 5 / 教育 2 / 生活 2 / 健康 2）。起業・副業・エンタメ・美容 が **0 件** |
 | 非公開になる条件 | `extract-demand-candidates.mjs` の `if (evidence.length === 0) continue`。**猶予期間なし・記録なし・UI 表示なし** |
 | 昇格基準の充足状況 | **4 / 11 が未達**（ai-content-generation news 2 / senior-health 3 / home-server 3 / remote-work 5。基準は「3 ソース以上 かつ news 5 件以上」） |
 | 1 テーマ追加に必要な編集 | **9 ファイル**（qiita / appstore / arxiv / github / ndl の mapping + `fetch-wikipedia-pageviews.mjs` + `generate-insights.mjs` + `extract-demand-candidates.mjs` + `themeCatalog.js`） |
-| ニュース corpus | RSS **24 本** / **1,455 件**（技術 13 + 教育 5 + 生活 5 + 健康 1）。2026-08-02 に 4 本 822 件から 4 段階で拡張 |
+| ニュース corpus | RSS **31 本** / **2,816 件**（45 日窓・重複 0）。テーマ比較を行った 2026-08-02 時点は 1,723 件。cron の日次蓄積で増加。活用率は依然 15% 前後（未使用 約 70%）で、次のボトルネックはテーマ・カテゴリ不足 |
 | フィード採否の基準 | 紐付き率 **50% 以上**。実測は `config/theme-registry.json` の `seedFilter.feedCriteria` が正本 |
 | 根拠記事の上限 | 1 テーマ **60 件**（20 件から引き上げ）。上限が実測を切り捨ててスコアを潰していたため |
 | 記事の帰属 | 排他ではない（複数テーマの根拠になりうる）→ キーワード追加で既存テーマを壊す心配はない |
@@ -860,17 +860,17 @@ cd "/c/Users/Owner/Desktop/claude作業用/demand-atlas" && npm run themes:eval
 
 | 指標 | 現在 | 前回比 | 測定元 |
 |---|---|---|---|
-| 公開テーマ数 | 10 | ±0 | `themes:eval` |
-| **観測できている情報源数** | **7** | 初測定 | `_*Detail` 6 種（wikipedia / qiita / arxiv / appstore / github / ndl）+ ニュース RSS。派生の `_growthDetail` は除く |
-| 使用カテゴリ数 | 3 / 9 | ±0 | `themes:eval` |
-| 平均ソース数 | 5.0 | ±0 | `themes:eval` |
+| 公開テーマ数 | 17 | +1（16 → 17。脆弱性対応・パッチ管理を追加） | `themes:eval` |
+| **観測できている情報源数** | **7 種 / 37 媒体** | ±0（種別）。ニュース RSS 31 + 横断 6 | `_*Detail` 6 種（wikipedia / qiita / arxiv / appstore / github / ndl）+ ニュース RSS。派生の `_growthDetail` は除く |
+| 使用カテゴリ数 | 5 / 9 | ±0（ビジネスは既存。vuln も同カテゴリ） | `themes:eval` |
+| 平均ソース数 | 4.8 | -0.2（テーマ増で希釈。vuln は 15 情報源で平均超） | `themes:eval` |
 | **分析の種類数** | **13** | 初測定 | `_insights` の分析キー（dataQuality / verdict / whyTrending / momentum / beginnerFriendliness / competition / audience / problems / monetization / content / saas / similarThemes / nextActions）。version・generatedAt・method はメタなので除く |
 | **比較軸の数** | **5 軸 + 4 セクション** | 初測定 | `Compare.jsx` の `ScoreCell` 10 個 = 5 軸 × 2 列、加えて 情報源バー / 3 ゲージ / アイデア / キーワード分類 |
 | **可視化の種類数** | **9** | 初測定 | 折れ線 `chart-svg` / スパークライン `spark-svg` / 分析ゲージ `insight-gauge` / 比較ゲージ `cmp-gauge` / スコア内訳バー `score-bars` / 活動カレンダー `activity-grid` / 比較の情報源バー `cmp-src-bar` / 情報源トレンドのセル `source-trends-cell` / 三指標のドット `tc-dot` |
-| アイデア件数 | 80 | ±0 | `themes:eval` |
-| 日次系列を持つテーマ | 10 / 10 | ±0 | `themes:eval` |
-| **UI が参照するフィールド** | **116 / 142** | **+23（93 → 116）** | `themes:eval` |
-| Home 総転送（cold） | 164 KB | +1 KB | ブラウザ実測 |
+| アイデア件数 | 136 | +8（vuln の businessOpportunities） | `themes:eval` |
+| 日次系列を持つテーマ | 17 / 17 | +1 | `themes:eval` |
+| **UI が参照するフィールド** | **133 / 164** | **+0（テーマ増でも参照構造は不変）** | `themes:eval` |
+| Home 総転送（cold） | 164 KB | ±0 | ブラウザ実測 |
 
 **スクロール位置（2026-07-31 修正）**: 一覧を下まで見てからテーマを開くと、SPA が
 スクロール位置を保持するため **ページの途中（scrollY 1800・見出しが画面の 1628px 上）から

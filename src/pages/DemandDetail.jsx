@@ -278,11 +278,21 @@ export default function DemandDetail() {
                   { key: 'sourceDiversity', label: 'ニュース媒体の多様性', val: sb.sourceDiversity ?? 0, weight: 20 },
                   { key: 'freshness',       label: '鮮度',              val: sb.freshness ?? 0,       weight: 10 },
                 ];
+                // 各行を独立に四捨五入すると、行の合計が demand.score と 1 点ずれて
+                // 見えることがある（例: 33+10+20+8=71 だが合計 72）。最大剰余法で
+                // 端数の大きい行から 1 点ずつ配り、表示上の各行が必ず合計に一致させる。
+                const raw = rows.map((r) => r.val * r.weight);
+                const contributions = raw.map((x) => Math.floor(x));
+                let deficit = demand.score - contributions.reduce((a, c) => a + c, 0);
+                raw
+                  .map((x, i) => ({ i, frac: x - Math.floor(x) }))
+                  .sort((a, b) => b.frac - a.frac)
+                  .forEach(({ i }) => { if (deficit > 0) { contributions[i] += 1; deficit -= 1; } });
                 return (
                   <>
                     <ul className="score-bars">
-                      {rows.map((r) => {
-                        const contribution = Math.round(r.val * r.weight);
+                      {rows.map((r, ri) => {
+                        const contribution = contributions[ri];
                         return (
                           <li key={r.key} className="score-bar-row">
                             <div className="score-bar-head">

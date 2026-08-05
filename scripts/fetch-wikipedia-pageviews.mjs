@@ -84,6 +84,7 @@ const WIKI_MAPPING = {
   'housing':                ['マンション'],
   'home-appliance':         ['家庭用電気機械器具'],
   'fitness-training':       ['筋力トレーニング'],
+  'vulnerability-response': ['脆弱性'],
 };
 
 // ---------------------------------------------------------------------------
