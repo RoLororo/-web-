@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:22:14.171Z",
+  "generatedAt": "2026-08-05T06:19:56.516Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
@@ -19,7 +19,7 @@
       "retryable": true
     },
     {
-      "theme": "infrastructure-outages",
+      "theme": "payment-troubles",
       "type": "timeout",
       "message": "This operation was aborted",
       "retryable": true
@@ -43,12 +43,6 @@
       "retryable": true
     },
     {
-      "theme": "study-methods",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
       "theme": "exam-admission",
       "type": "timeout",
       "message": "This operation was aborted",
@@ -56,6 +50,12 @@
     },
     {
       "theme": "housing",
+      "type": "timeout",
+      "message": "This operation was aborted",
+      "retryable": true
+    },
+    {
+      "theme": "home-appliance",
       "type": "timeout",
       "message": "This operation was aborted",
       "retryable": true
@@ -67,7 +67,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -123,7 +123,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -174,58 +174,58 @@
       ],
       "errors": []
     },
-    "payment-troubles": {
+    "infrastructure-outages": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1119,
+        "volume": 792,
         "engagement": null,
         "contributors": null,
         "latestActivityAt": null
       },
       "nativeMetrics": {
-        "bibliographyCount": 1119
+        "bibliographyCount": 792
       },
       "topItems": [
         {
-          "title": "IoT : モノのインターネット",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031728437",
-          "issued": "2021.10",
-          "publisher": "創元社",
-          "author": "高安, 篤史"
+          "title": "ITアーキテクトとエンジニアのための金融ITシステム入門",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033809651",
+          "issued": "2024.12",
+          "publisher": "科学情報出版",
+          "author": "遠藤, 正之"
         },
         {
-          "title": "愛産大経営論叢",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007816548-i32233249",
-          "issued": "2022",
-          "publisher": "愛知産業大学経営研究所",
-          "author": "愛知産業大学経営研究所"
+          "title": "ITエンジニアのためのデータベース再入門",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027984807",
+          "issued": "2017.3",
+          "publisher": "リックテレコム",
+          "author": "真野, 正"
         },
         {
-          "title": "ICカードの中には何がある?くらしの中のITがわかる本 : バーコード・クレカ・オンライン決済…",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034566793",
-          "issued": "2026.3",
-          "publisher": "工学社",
-          "author": "大沢, 文孝, 1973-"
+          "title": "ITレジリエンスの教科書 : 止まらないシステムから止まっても素早く復旧するシステムへ",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032288082",
+          "issued": "2022.8",
+          "publisher": "翔泳社",
+          "author": "大和総研"
         },
         {
-          "title": "愛知大学法学部法経論集",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i31571122",
-          "issued": "2023",
-          "publisher": "愛知大学法学会",
-          "author": "愛知大学法学会"
-        },
-        {
-          "title": "ITパスポート試験直前対策1週間完全プログラム",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030489794",
-          "issued": "2020.7",
-          "publisher": "FOM出版",
+          "title": "あなたの業務に直結している! 自行庫システムの大まかな構造や障害対応の重要性を知っておこう",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I032008762",
+          "issued": null,
+          "publisher": null,
           "author": null
+        },
+        {
+          "title": "アプリケーションオーナー制度の適用事例と成功要因の考察",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I027062650",
+          "issued": null,
+          "publisher": null,
+          "author": "角田 仁"
         }
       ],
       "errors": []
@@ -235,7 +235,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -291,7 +291,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -347,7 +347,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -398,58 +398,58 @@
       ],
       "errors": []
     },
-    "home-appliance": {
+    "study-methods": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 4627,
+        "volume": 7535,
         "engagement": null,
         "contributors": null,
         "latestActivityAt": null
       },
       "nativeMetrics": {
-        "bibliographyCount": 4627
+        "bibliographyCount": 7535
       },
       "topItems": [
         {
-          "title": "亜鉛めっき鋼板と家電製品について-亜鉛めっき鋼板利用上の問題点-",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390001204197784832",
-          "issued": "1977",
-          "publisher": null,
-          "author": "河合 宏紀"
+          "title": "IoTを支える技術 : あらゆるモノをつなぐ半導体のしくみ",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028022466",
+          "issued": "2017.3",
+          "publisher": "SBクリエイティブ",
+          "author": "菊地, 正典, 1944-"
         },
         {
-          "title": "秋田魁新報創刊１２０年企画 2||昔今夢のさきがけ||蛍光灯パッ！忘れられぬ感動 : 秋田魁新報",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I1051702",
-          "issued": "1994年6月28日 朝刊 10面（1994-06-28）",
-          "publisher": null,
+          "title": "IQ200の「学び」の方法 : 読む・書く・考える",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024696710",
+          "issued": "2013.8",
+          "publisher": "祥伝社",
+          "author": "矢野, 祥, 1990-"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i9363150",
+          "issued": "2010",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i9364187",
+          "issued": "2009-2010",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "ITエンジニアのゼロから始める英語勉強法 : 英語落ちこぼれでもペラペラになれる!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024267762",
+          "issued": "2013.3",
+          "publisher": "日経BP社",
           "author": null
-        },
-        {
-          "title": "秋葉原哀歌",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002401670",
-          "issued": "1995.4",
-          "publisher": "ビレッジセンター (発売)",
-          "author": "島川, 言成"
-        },
-        {
-          "title": "アクセシブルデザインの世界(第23回)家電製品の良かったこと調査",
-          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I028065041",
-          "issued": null,
-          "publisher": null,
-          "author": null
-        },
-        {
-          "title": "アクティブマトリックスVFDによる高輝度日本語情報表示",
-          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390001204522409984",
-          "issued": "1996",
-          "publisher": null,
-          "author": "則武 篤史"
         }
       ],
       "errors": []
@@ -459,7 +459,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-04T06:22:14.171Z",
+      "fetchedAt": "2026-08-05T06:19:56.516Z",
       "complete": true,
       "coverage": 1,
       "metrics": {

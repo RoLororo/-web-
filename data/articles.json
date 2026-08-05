@@ -1,5 +1,3425 @@
 [
   {
+    "id": "956fed0c56865f8c",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "Sakana AI、日本語に特化したLLM API「Sakana Namazu」を提供開始／「Kimi K2.6」をベースに日本固有の文脈に対する高い理解力を獲得",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130768.html",
+    "publishedAt": "2026-08-05T06:07:18.000Z",
+    "summary": "Sakana AIは8月3日、これまで「Sakana Chat」に搭載してきた大規模言語モデル「Namazu」をアップデートし、APIサービスである「Sakana Namazu」（サカナ・ナマズ）の提供を開始した。日本語や日本の商習慣に特化しており、Web検索とコード実行のビルトインツールを備えている。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "3e32a422018577a4",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "【ライブ配信中】日本製紙 地震のあと初めて社長ら記者会見",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015197011000",
+    "publishedAt": "2026-08-05T06:00:19.000Z",
+    "summary": "7月28日の地震で、熊本県八代市の工場の煙突が倒壊するなどして9人が死亡した日本製紙は、5日午後3時から、地震のあと初めて市内で社長らが記者会見を行っています。ライブ配信を行うとともに最新情報をお伝え…",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "d31c74c3e23196e2",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "「あのSFや出来事に何年生で出会ったか」が年表ですぐに分かる「SF・コンピューター技術ライフライン」で自分の人生を振り返ってみた",
+    "url": "https://gigazine.net/news/20260805-sf-tech-lifeline/",
+    "publishedAt": "2026-08-05T06:00:00.000Z",
+    "summary": "自分の生年を入力することで、SF作品やコンピューター技術の歴史を自身のライフステージと照らし合わせることができるウェブアプリ「SF・コンピューター技術ライフライン」がテクノエッジの松尾公也氏によって公開されています。テレホーダイを高校生で迎えたのか、初音ミクを中学生で浴びたのかなど、自分がどんな「インターネット老人」だったのかを判定できるとのことで、実際に使ってみました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "99b4831a237863bd",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "「13cmの3-in-1ケーブル」でごちゃつき終了。エレコムの新作が1,000円切り",
+    "url": "https://www.lifehacker.jp/article/amazon-timesale-2026-0805-1/",
+    "publishedAt": "2026-08-05T06:00:00.000Z",
+    "summary": "「ケーブルが長すぎてバッグの中で絡まる」「必要な性能を満たす1本が見つからない」と感じることはありませんか？ ELECOM（エレコム）の「USB 40Gbpsケーブル(USB Type-C - USB Type-C/100W/フラット)」は、日常の接続環境をすっきり整えられるアイテム。 7月に発売したばかりで、Amazonでは10％オフの過去最安値になっています。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "d75b3832ecdaf822",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "Mistral AIが小型モデレーションAI「Shieldstral」を公開、文章や画像を自然言語のルールで判定可能",
+    "url": "https://gigazine.net/news/20260805-mistral-shieldstral/",
+    "publishedAt": "2026-08-05T05:50:00.000Z",
+    "summary": "フランスのAI企業Mistral AIが2026年8月4日、文章や画像が指定した安全基準に当てはまるかを判定するAIモデル「Shieldstral 1.0 3B」を公開しました。パラメーター数は30億で、サービスごとの安全基準を自然な文章で指定できる点が特徴です。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "ca358ed265d374ec",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "自民 食料品の消費税減税 来年4月から2年間1％ 基本方針案了承",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015197001000",
+    "publishedAt": "2026-08-05T05:46:22.000Z",
+    "summary": "食料品の消費税減税について、自民党は、来年4月から2年間、税率を1％に引き下げるなどとした政府の基本方針案を了承しました。政府は、午後の臨時閣議で決定する運びです。",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "b3599e4e90dab211",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "広島の戦後カラースライド発見 元広島市長の濱井信三氏撮影",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015197131000",
+    "publishedAt": "2026-08-05T05:45:26.000Z",
+    "summary": "戦後、広島の復興に尽力した元広島市長の濱井信三さんが原爆投下の5年後から10年後にかけて広島市中心部の様子を撮影したカラーのスライド写真が20枚余り見つかりました。専門家は「この時期のカラー写真は珍し…",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "27b3d6d9a2f8b210",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "九州新幹線 新水俣～鹿児島中央 7日から運行再開 交通への影響",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015196931000",
+    "publishedAt": "2026-08-05T05:41:53.000Z",
+    "summary": "地震の影響が続く九州新幹線について、JR九州は7日から熊本県の新水俣駅と鹿児島中央駅の間で運転を再開すると発表しました。残る熊本駅と新水俣駅の間は8月中の運転再開が困難な状況となっています。",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "86a70b62610ded0a",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "「Rakuten Link」にAI要約機能、AndroidとiPhoneに対応",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130723.html",
+    "publishedAt": "2026-08-05T05:40:50.000Z",
+    "summary": "楽天モバイルは、コミュニケーションアプリ「Rakuten Link」でAI通話要約機能の提供を開始した。AndroidスマートフォンとiPhoneの両方で利用できる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "bc98acd22ab4dfd8",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ペアーズ、ハイブリッド型マッチング「ペアーズイベント」を開始",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130749.html",
+    "publishedAt": "2026-08-05T05:35:49.000Z",
+    "summary": "エウレカは、マッチングアプリ「Pairs（ペアーズ）」の新サービスとして、オンラインとオフラインを融合したハイブリッド型マッチング「ペアーズイベント」を開始した。ペアーズのアプリ内で気になるイベントを予約し、リアルな体験を通じて参加者同士が交流できる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "a0a07fdf978d852a",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "LINEマンガで「アニメ」見放題に　dアニメ連携で月760円",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130743.html",
+    "publishedAt": "2026-08-05T05:30:56.000Z",
+    "summary": "LINE Digital Frontierは5日、電子コミックサービス「LINEマンガ」で、定額制アニメ見放題サービス「dアニメストア for LINEマンガ」を提供開始する。Android、iOS(16時以降)ともに順次提供し、料金は月額760円。スマートフォンとタブレットに対応する。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "3f74ceb4b219cdfa",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "元グループ会社が「ドコモの銀行」になった不満を吸収？　SBI新生銀行が「SBIの銀行」として最大5.2万円のキャッシュバックキャンペーンを開催",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news084.html",
+    "publishedAt": "2026-08-05T05:30:00.000Z",
+    "summary": "SBI新生銀行が「SBIの銀行」として“乗り換えキャンペーン”を開催している。その内容を見ると、元SBIグループだったドコモSMTBネット銀行（旧住信SBIネット銀行）から顧客を獲得しようという狙いが見られる。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "0e3176f8a437a690",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズ機能を追加",
+    "url": "https://codezine.jp/article/detail/29234",
+    "publishedAt": "2026-08-05T05:30:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "fc4be157bdf86855",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "スクワット、ゆっくり動くと体にどんな変化が出てくる？5つの効果をトレーナーが解説",
+    "url": "https://melos.media/training/307790/",
+    "publishedAt": "2026-08-05T05:26:21.000Z",
+    "summary": "スクワットは「速くたくさんやるほど効果がある」とは限りません。あえてゆっくり動くだけで筋肉にかかる負荷が高…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "5bc9c81c36d5190d",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "大阪・なんばクボタ跡地の複合開発、アリーナ名は「クボタららアリーナ」",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130741.html",
+    "publishedAt": "2026-08-05T05:25:21.000Z",
+    "summary": "クボタ、三井不動産、関電不動産開発は、大阪市浪速区のクボタ旧本社跡地活用に関する基本協定を締結した。複合開発の検討を本格的に進めるほか、多目的アリーナと街区の名称もアナウンスされている。開業は2032年以降が目標。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "9974650598627b34",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "工事不要で14畳まで冷房可能「タンスのゲン スポットクーラー 79800020」がタイムセールで10％オフの5万3999円に",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news083.html",
+    "publishedAt": "2026-08-05T05:23:00.000Z",
+    "summary": "Amazon.co.jpのタイムセールで、タンスのゲンのスポットクーラー「79800020」が10％オフの5万3999円で販売されている。工事不要で設置でき、冷房・暖房・除湿に対応したハイパワーモデルだ。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "8ae1ed3c446f222a",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "ai&、AIデータセンターにVoltaiqのバッテリーエネルギー貯蔵システムを導入する計画を発表",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130683.html",
+    "publishedAt": "2026-08-05T05:18:00.000Z",
+    "summary": "株式会社エーアイ・アンド（以下、ai&）と米Voltaiqは4日、日本にあるai&のAIデータセンターにバッテリーエネルギー貯蔵システム（BESS）を導入する計画を発表した。 Voltaiq独自のAI搭載プラットフォームにより、バッテリーの選定、統合、導入、運用に至るライフサイクル全体を通じて、品質と安全性を追跡し、確保することを目指す。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "b3269d35c3e75152",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "6年寿命の大容量バッテリー搭載「Xiaomi REDMI Note 15 Pro 5G」が18％オフの4万7436円に",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news081.html",
+    "publishedAt": "2026-08-05T05:17:00.000Z",
+    "summary": "Amazon.co.jpのタイムセールで、「Xiaomi REDMI Note 15 Pro 5G」が18％オフの4万7436円で販売されている。6300mAhの大容量バッテリーや2億画素カメラを搭載した5G対応スマートフォンだ。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "16dec49969420fba",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "糸井重里氏ら登壇、京都橘大が清水寺で学部学科開設記念の講演会",
+    "url": "https://resemom.jp/article/2026/08/05/87068.html",
+    "publishedAt": "2026-08-05T05:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "c8ec7e9c5c5072e5",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "141リットルの大容量冷凍庫付き485リットル冷蔵庫「日立 冷蔵庫 R-HW49V」が27％オフの15万9800円に",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news080.html",
+    "publishedAt": "2026-08-05T05:08:00.000Z",
+    "summary": "Amazon.co.jpのタイムセールで、日立の冷蔵庫 R-HW49Vが27％オフの15万9800円で販売されている。大容量141リットルの冷凍室や冷蔵室全段チルド保存に対応した485Lモデルだ。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "9289efcf44f7c820",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "Claude Mythos 5やGPT-5.6 Solが無許可でハッキングをする事例を確認したとイギリス政府機関が報告",
+    "url": "https://gigazine.net/news/20260805-aisi-unsanctioned-agent-behaviour/",
+    "publishedAt": "2026-08-05T05:05:00.000Z",
+    "summary": "フロンティアAIモデルの能力評価を行っているイギリスの政府機関・AI Security Institute(AISI)が、評価作業を行っている際に、複数のAIが許可なく自律的に、実在の人物や組織を標的としたハッキングを行おうとした、あるいは行ったことを明らかにしました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "a7a3d4f9ed9ea7e7",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "「くにゃっ」と握れるケーブルケースや斜め挿し充電器も　オウルテックの新ブランド「soft」のアイデアに注目",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news079.html",
+    "publishedAt": "2026-08-05T05:04:00.000Z",
+    "summary": "オウルテックは「やわらかく、そばにいる。」をコンセプトとした新ブランドsoftを発表した。ポップなカラーと独自の工夫で、女性や若年層を含む幅広いユーザー層の獲得を狙う。ケーブルやモバイルバッテリーなど6製品を2026年9月上旬に発売する予定だ。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "0097e3ec2ce38d96",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "1日30分の簡単な習慣で高齢者の認知機能低下を遅らせられるかもしれない",
+    "url": "https://gigazine.net/news/20260805-simple-routine-slow-cognitive-decline/",
+    "publishedAt": "2026-08-05T05:00:00.000Z",
+    "summary": "加齢に伴って記憶力・注意力・言語能力などが低下するのはよくあることですが、典型的な加齢の範囲を超えて軽度認知障害に移行すると、将来的にアルツハイマー病やその他認知症のリスクが高まります。そんな高齢者の記憶力低下を防ぐために、音読・手書き・計算を組み合わせた「1日30分の簡単な習慣」が役立つ可能性があるとの研究結果が報告されました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "7cf1c5972767109d",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "巻き取り式USBケーブルを「固定する」新発想。見た目スッキリ、持ち運びもラク！",
+    "url": "https://www.lifehacker.jp/article/rakuten-owltech-katamaki-stand/",
+    "publishedAt": "2026-08-05T05:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "f7a191e345323e57",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "チャージスポット、小田急全70駅に導入へ",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130736.html",
+    "publishedAt": "2026-08-05T04:58:21.000Z",
+    "summary": "モバイルバッテリーシェア「CHARGESPOT」を運営するINFORICHは、小田急電鉄が運営する駅構内へのCHARGESPOTの導入を発表した。8月から順次設置し、2026年度中に全70駅への設置を目指す。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "cb013863d76dac4d",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "夏季休暇に向けて準備を - 盆休み週のパッチチューズデーに注意",
+    "url": "https://www.security-next.com/188162",
+    "publishedAt": "2026-08-05T04:56:32.000Z",
+    "summary": "8月に入り、夏季休暇を迎える人や組織が増える時期だ。2026年8月は、いわゆる「パッチチューズデー」と盆休みが重なる組織も多いと見られ、注意が必要となる。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "505009575d4f0653",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "「dアニメストア for LINEマンガ」スタート、LINEマンガで4000作品以上のアニメ見放題",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130733.html",
+    "publishedAt": "2026-08-05T04:47:31.000Z",
+    "summary": "NTTドコモは、電子コミックサービス「LINEマンガ」内で「dアニメストア for LINEマンガ」の提供を開始した。「dアニメストア」から4000作品以上のコンテンツが提供され、月額760円で利用できる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "292709f85d1d83a2",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "エージェント型AIは「過度な期待」のピークへ　ガートナー、日本におけるデジタルワークプレースのハイプサイクルを発表",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2608/05/2000000393/",
+    "publishedAt": "2026-08-05T04:40:35.000Z",
+    "summary": "ガートナージャパンが日本における未来のデジタル・ワークプレースのハイプ・サイクルを発表。エージェント型AIを「過度な期待」のピークに位置付け、AIエージェントの浸透やシャドーAIのリスク拡大などのトレンドを紹介した。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "02ece25a974c897b",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "高度に進化したAI駆動開発は、農業と区別がつかなくなる｜深津 貴之 (fladdict)",
+    "url": "https://note.com/fladdict/n/nd10afb769a62",
+    "publishedAt": "2026-08-05T04:38:23.000Z",
+    "summary": "オープン社内報です。 このままAI駆動開発が進むと、ソフトウェア開発は工芸から農業へ近づいていくんじゃないかなと思っています。 従来の開発は、人間が一行づつこころを込めてコードを書いてました。 これが、生成AIでビューンといっきに作れるようになった。 で、これからどうなるのか…というと、「農業化」が起きる...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "4419254095b7078f",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "アマゾン「Prime Video」、「賞金1億円の究極実験 トモダチ100人よべるかな？」シーズン2の参加者公開",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130717.html",
+    "publishedAt": "2026-08-05T04:36:57.000Z",
+    "summary": "アマゾン「Prime Video（プライムビデオ）」で、Prime Original「賞金1億円の究極実験 トモダチ100人よべるかな？」シーズン2が28日に配信される。本日5日、142名のトモダチ参加者が発表され、芸能人が集結する「トモダチビジュアル」や、ティザー映像、場面写真などが解禁された。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "8a513f93f44b30c3",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "被災地は危険な暑さ予想 熱中症対策徹底を 台風情報にも注意",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015196631000",
+    "publishedAt": "2026-08-05T04:34:25.000Z",
+    "summary": "5日も東海から九州にかけての広い範囲で気温が上がり熊本地震の被災地ではすでに猛烈な暑さとなっていて、このあと、40度に迫る危険な暑さが予想されています。引き続き、熱中症への対策を徹底してください。一方…",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "d96291eba55183be",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "モニターの心理的負担を軽減、楽天インサイトがアンケート画面のUI/UXを改善",
+    "url": "https://codezine.jp/article/detail/29247",
+    "publishedAt": "2026-08-05T04:30:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "ddafe4311a971ae8",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "アフタヌーンティーを検索する時にアフタヌーンティーが厄介すぎる…私はアフタヌーンティーを探したいのであって、アフタヌーンティーは求めていないのです…→共感の声が集まる",
+    "url": "https://togetter.com/li/2729254",
+    "publishedAt": "2026-08-05T04:28:02.000Z",
+    "summary": "薫子💚薫乃園 @kaorukogreen ちょっと違うんですけど、アフタヌーンティーを検索する時にアフタヌーンティーが厄介なんですよ。 アフタヌーンティーは好きなんですけどね。 私はアフタヌーンティーを探したいのであって… アフタヌーンティーは求めていないのです。 解って下さる方…いますか… x.com/neo_tp_/status… 2026...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "004f53b36789e5cc",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "ローソン、店内調理で「焼きそば」　“炒めロボ”導入拡大",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130707.html",
+    "publishedAt": "2026-08-05T04:24:27.000Z",
+    "summary": "ローソンは、都内1店舗に実験的に導入していた炒め調理ロボを、新たに首都圏の3店舗に導入する。8月6日以降、順次展開する。メニューには新たに「焼きそば」が追加される。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "40c011c1329370f8",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "Amazon、尼崎に関西最大の物流拠点を新設",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130670.html",
+    "publishedAt": "2026-08-05T04:20:16.000Z",
+    "summary": "アマゾン（Amazon）は、兵庫県尼崎市に物流拠点「Amazon武庫川フルフィルメントセンター」を新設した。尼崎市では2拠点目となる。延床面積は約11万1000平方メートル、商品保管容量は約117万立方フィートで、関西最大のフルフィルメントセンターとなる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "477fae1f0ffa36da",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "熊本地震、Pontaポイントで寄付可能に",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130684.html",
+    "publishedAt": "2026-08-05T04:20:13.000Z",
+    "summary": "共通ポイントサービス「Ponta（ポンタ）」を提供するロイヤリティマーケティングは、「令和8年熊本地震」の寄付を受け付けている。期間は9月30日まで。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "d63abcd95177c74b",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "熊本 震度5強程度以上の地震注意 きょうも猛暑日 熱中症対策を",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015196771000",
+    "publishedAt": "2026-08-05T04:16:38.000Z",
+    "summary": "熊本県で震度7の揺れを観測した地震から1週間がたちましたが、気象庁は、今後1週間程度は震度5強程度以上の地震に引き続き注意するよう呼びかけています。5日も、熊本県内ではすでに35度を超える猛暑日となっ…",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "060ed97268471296",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "江戸東京歴史ツーリズム参加者募集、両国駅周辺を街歩き",
+    "url": "https://resemom.jp/article/2026/08/05/87067.html",
+    "publishedAt": "2026-08-05T04:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "999b27e627c7e9ed",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "「Gmail」に誤送信防止の新機能 ～BCCで受信したメールの［全員に返信］で警告を表示／自分が参加していることやメアドを他の受信者に知られる事故を防げるように",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130557.html",
+    "publishedAt": "2026-08-05T04:09:00.000Z",
+    "summary": "米Googleは7月30日（現地時間）、メールサービス「Gmail」で意図しない情報漏洩を防ぐための新たな警告機能を導入したことを発表した。自分がBCCで受信したメールに対して［全員に返信］を行おうとした際に、注意を促す通知が表示されるようになる。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "9bb240ab22793265",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "アマゾン、兵庫県尼崎市に2拠点目の大型物流拠点　関西最大",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130697.html",
+    "publishedAt": "2026-08-05T04:08:05.000Z",
+    "summary": "Amazonは、兵庫県尼崎市に2拠点目となる物流拠点「Amazon武庫川フルフィルメントセンター(武庫川FC)」を新設した。延床面積が約11万1,000m2、商品保管容量は約117万立方フィート(約3万3,131m3)で、関西で最大のFCとなる。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "a4d05f722643e22d",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "デル・テクノロジーズ、ハイパフォーマンス用途に対応する1Uサーバー「Dell Pro Precision 7 R1ラック」を発売",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130355.html",
+    "publishedAt": "2026-08-05T04:07:00.000Z",
+    "summary": "デル・テクノロジーズ株式会社は、ハイパフォーマンス用途にも対応する1Uラックマウント型サーバー「Dell Pro Precision 7 R1ラック」を販売開始した。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "9d81278beba658e4",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "美容液のYunthから美顔器登場　パック併用で集中ケア",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130646.html",
+    "publishedAt": "2026-08-05T04:04:00.000Z",
+    "summary": "Aiロボティクスは、生ビタミンC美容液などを展開するスキンケアブランド「Yunth(ユンス)」から、ブランド初の浸透型美顔器「Deep Boost(ディープブースト) YTH-260」を10月1日に発売。8月24日より先行販売を開始する。価格は33,000円。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "1ef35cb9b0cb3ef5",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026年最新】綾瀬のパーソナルジム9選！料金が安いジムやダイエットに人気のジムを比較",
+    "url": "https://melos.media/area_pickup/209436/",
+    "publishedAt": "2026-08-05T04:00:24.000Z",
+    "summary": "更新日：2026年8月5日 本記事にはプロモーションが含まれています 綾瀬でおすすめのパーソナルジム9店舗を、料金・口コ…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "f5c9e4dd68c278b5",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "無印良品から「シャンプーブラシ」が出た！ 頭皮のニオイ対策にもってこいだな",
+    "url": "https://www.roomie.jp/2026/08/1855430/",
+    "publishedAt": "2026-08-05T04:00:22.000Z",
+    "summary": "暮らしを快適にするために、日々さまざまなアイテムをリサーチしたり、試したりしているROOMIEライター。 本記事では、そんな彼らが、今気になったものを紹介していきます。 汗ばむこの季節は、頭皮までベタつきがち……。 しっかり洗っていても、時間が経つと頭皮のニオイが気になることもあって、なんとか対策したいところです。 そこで、無印良品から新たに2種類の頭皮ケアブラシが登場しているのを発見しました！",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "9b4588c2d5d42fbc",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "自社のAI利用は本当に安全？　現場放任に潜む「4大リスク」",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news049.html",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "summary": "サーバーワークスは、AWS環境での生成AI活用に必要なルール整備を支援する「AWS生成AIガイドライン策定サービス」を提供開始した。最短1カ月でルールを整備できるプランも用意する。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "ca9450fe61e3bdcf",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "Google Meet、会議ノートにプレゼン資料のスクリーンショット自動挿入を追加",
+    "url": "https://codezine.jp/article/detail/29235",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "2a9a9302a62ff470",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "自前のレビュースキルをやめて、Claude Code の /code-review に乗り換えた",
+    "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_code_review_guide",
+    "publishedAt": "2026-08-05T03:57:32.000Z",
+    "summary": "Claude Code でのコードレビュー、私はレビュー用の自前スキルを作り込んで回していました。 ところが先日、久しぶりに公式の /code-review を叩いたら、指摘が重大度で色分けされて並ぶようになっていて、どれから直すかが見た瞬間に分かる。 これで十分では、となって、しばらく公式コマンドで進めることにしました。 ...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "38db62261d6ffcbc",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "NifMoがeSIMを提供開始　登録手数料3300円が無料、光回線セットで770円×11カ月割引キャンペーン",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news075.html",
+    "publishedAt": "2026-08-05T03:55:00.000Z",
+    "summary": "ニフティは、8月4日にMVNOサービス「NifMo」でeSIMを提供開始。これを記念し、期間中に新規かつeSIMを選択すると通常3300円の登録手数料が無料になるなどの「NifMo eSIM対応記念キャンペーン」を実施する。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "ddce35262eb36527",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "東大、60代教授を懲戒処分　サイトのHTMLソースに“不適切な言葉”　「六四天安門」問題が理由と毎日報道",
+    "url": "https://www.itmedia.co.jp/news/article/2608/05/2000000392/",
+    "publishedAt": "2026-08-05T03:50:12.000Z",
+    "summary": "東京大学は8月4日、所属する専攻と研究室のWebサイトのHTMLソース内に不適切な言葉を書き込んだとして、60代の教授を出勤停止3日の懲戒処分にしたと発表した。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "41de4aa24481aef7",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "クラウドフレア、AIエージェントに“身元と財布”持たせる新機能",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130686.html",
+    "publishedAt": "2026-08-05T03:49:36.000Z",
+    "summary": "Cloudflare(クラウドフレア)は4日(米国時間)、AIエージェント向けの本人識別情報(ID)と決済機能を提供する「Cloudflare Wallets」と「cloudflare.pay」を発表した。Cloudflare上で動作するAIエージェントに固有のIDを関連付け、所有者が設定した制限内でオンライン購入を行なえるようにする。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "e244e1a3226e869b",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "スペースXのロケット、まもなく月に衝突へ",
+    "url": "https://www.cnn.co.jp/fringe/35251309.html",
+    "publishedAt": "2026-08-05T03:35:47.000Z",
+    "summary": "米スペースXのロケット「ファルコン9」が昨年1月15日に打ち上げられたときの様子/Gregg Newton/AFP/Getty Image （CNN） 民間の無人月面着陸船2機の打ち上げに使われた米スペースXのロケット「ファルコン9」の一部が5日未明、月に衝突する見通しだ。 ファルコン9は昨年1月15日、米テキサス州に拠点を置くファイアフライ...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "861751d9aa6b387c",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "「蚊に刺されやすい人」に多い体臭や皮膚に存在する細菌の種類が明らかに",
+    "url": "https://gigazine.net/news/20260805-people-more-attractive-mosquitoes-microbiome/",
+    "publishedAt": "2026-08-05T03:35:00.000Z",
+    "summary": "世の中には蚊に刺されやすい人が存在しており、「複数人で同じ場所にいるのに、なぜか自分にばかり蚊が寄ってくる」と感じている人もいるはず。蚊が誰の腕に引き寄せられるのかを調べた実験により、蚊が寄ってきやすい人に多い体臭や細菌の種類が明らかになりました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "c07be75a0c72dac0",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "2026年の“本気”カメラスマホ「Xiaomi 17 Ultra」と「OPPO Find X9 Ultra」、写りの違いを徹底比較してみた",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news072.html",
+    "publishedAt": "2026-08-05T03:30:00.000Z",
+    "summary": "2026年を代表するカメラスマホ「Xiaomi 17 Ultra」と「OPPO Find X9 Ultra」を比較する。広角／望遠の実写から色表現、シャッターボタンなどの操作性、約7万円の価格差まで、どちらがベストか？",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "0898f3b1f6bbdfa2",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "ニトリ、冷蔵庫ドアポケット整理できる収納ケース",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130627.html",
+    "publishedAt": "2026-08-05T03:30:00.000Z",
+    "summary": "ニトリは、冷蔵庫のドアポケットをすっきりと整理できる「冷蔵庫ドアポケット収納」を7月下旬に発売した。用途に合わせて選べる3サイズを用意する。ラインナップはSサイズ、Mサイズ、DOUBLE(ダブル)サイズの3種類。価格は順に299円、399円、499円。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "893da906abeeba6c",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "「Gemini Notebook」の Pro向け機能強化　PDF･スプシ出力対応",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130676.html",
+    "publishedAt": "2026-08-05T03:25:40.000Z",
+    "summary": "Googleは5日、「Gemini Notebook」(旧称NotebookLM)のPro向け機能強化について、全ユーザーへの展開を完了した。AIとの対話機能を強化したほか、グラフやPDF、スプレッドシート、画像などを作成できるようになった。Proプランは「Google AI Pro」に含まれ、料金は月額2,900円。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "eeaf6be2ee0bce57",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "スマホで動作するエージェント対応小型AIモデル「LFM2.5-2.6B」が登場、ローカル環境でAIエージェントを実行可能",
+    "url": "https://gigazine.net/news/20260805-lfm2-5-2-6b/",
+    "publishedAt": "2026-08-05T03:25:00.000Z",
+    "summary": "MITからスピンオフしたAI企業・「Liquid AI」が、小型AIモデル「LFM2.5」シリーズのエージェント対応モデルとして「LFM2.5-2.6B」を2026年8月4日にリリースしました。スマートフォンで動作するほど小型でありながら、計画立案・ツール呼び出し・複数ステップのタスク処理といったエージェントワークフローを駆動できる十分な性能を備えているとのことです。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "8e0e0c941df4cd7f",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校生が志願したい大学・北海道…2位は北海道大、1位は？",
+    "url": "https://resemom.jp/article/2026/08/05/87066.html",
+    "publishedAt": "2026-08-05T03:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "15672031f0e2b3d1",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "メルカリ、梨の転売疑惑を否定「誹謗中傷はやめて」　生産者を現地確認",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130325.html",
+    "publishedAt": "2026-08-05T03:13:25.000Z",
+    "summary": "メルカリで「梨の転売」が疑われた事件について、メルカリは盗品の出品疑惑を否定。現地調査を実施し、生産実態などを確認した。また、誹謗中傷などを行なわないよう呼びかけている。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "9d1cf2a833f158f5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「財政なんか知らねーよ」消費減税求めたSNSの声　財務官僚は後悔：朝日新聞",
+    "url": "https://www.asahi.com/articles/ASV850FJHV85ULFA025M.html",
+    "publishedAt": "2026-08-05T03:07:59.000Z",
+    "summary": "東京都八王子市に住む男性（40）は市内の自動車関連の会社で働く。青森県出身で、高校卒業後に上京した。年収は400万円台で独身。スーパーで買い物するたびに値上がりや、容量が減った「ステルス値上げ」に気…",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "e4c470016bba70a2",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "TISI、不正対策と売上最大化の最適なバランスを実現するEC事業者向け「ECリスク対策設計・運用支援サービス」",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130347.html",
+    "publishedAt": "2026-08-05T03:05:00.000Z",
+    "summary": "TISI株式会社は4日、EC取引の不正対策に悩みを抱えるEC事業者向けのサービス「ECリスク対策設計・運用支援サービス」を提供開始すると発表した。過剰なセキュリティ対策による売上機会損失を抑制するとともに、リスク対策と利益確保が最適なバランスを保つ不正対策運用を設計できるという。価格は、要件に応じた個別見積もり。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "a869c66dd43f0b67",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "ティファールの丸っこい炊飯器　ポップな4色から選べる",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130455.html",
+    "publishedAt": "2026-08-05T03:04:00.000Z",
+    "summary": "グループセブ ジャパンはティファールより、炊飯だけでなくおかず調理にも対応する、4合炊きマイコン式炊飯器「ザ・ポップ マイコン式炊飯器 4合」を9月に発売する。価格は13,200円。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "97061b33a8041be0",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "キオクシア、メモリ不足をフラッシュメモリで補う拡張モジュール",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2130623.html",
+    "publishedAt": "2026-08-05T03:01:56.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "6bec3ed4451e79f9",
+    "source": "NHK",
+    "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
+    "title": "大阪 警察官が威嚇射撃の約2秒後に容疑者に発砲 容疑者死亡",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015196461000",
+    "publishedAt": "2026-08-05T03:00:56.000Z",
+    "summary": "4日夜、大阪 河内長野市で刃物のようなものを持って向かってきた男の容疑者に警察官が拳銃を発砲し、公務執行妨害などの疑いでその場で逮捕しました。弾が命中した容疑者は搬送先の病院で死亡しましたが、警察官が…",
+    "fetchedAt": "2026-08-05T06:14:09.022Z"
+  },
+  {
+    "id": "deb2ea3a466f65d3",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "Geminiが資料を自動で図解化。Googleドキュメントの進化で変わる資料づくりの常識",
+    "url": "https://www.lifehacker.jp/article/2608-google-docs-has-new-gemini-features/",
+    "publishedAt": "2026-08-05T03:00:00.000Z",
+    "summary": "GoogleドキュメントにGeminiを活用した画像生成・編集機能が新登場！本文に合わせた図やインフォグラフィックの自動生成、画像のテイスト調整、一括編集など、書類作成をより効率化する3つの機能と利用可能な対象プランについて紹介します。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "1e9a86f9ce2a697f",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "DJI、新型無線マイク「Mic Mini 2S」発売　32bitフロート内部録音対応",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130665.html",
+    "publishedAt": "2026-08-05T02:55:02.000Z",
+    "summary": "DJI JAPANは4日、32bitフロート内部録音に対応した小型ワイヤレスマイク「DJI Mic Mini 2S」を発表、発売した。価格は1万4300円～。公式サイトやAmazon.co.jpなどで購入できる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "ff15e181497e2c0f",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "【2026年最新】蒲田のパーソナルジム15選！料金が安いジムやダイエットに人気のジムを比較",
+    "url": "https://melos.media/area_pickup/213228/",
+    "publishedAt": "2026-08-05T02:50:47.000Z",
+    "summary": "更新日：2026年8月5日 本記事にはプロモーションが含まれています 蒲田でおすすめのパーソナルジム15店舗を、料金・口…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "7d9ba51532f67134",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "キラキラ地名ってあるよね",
+    "url": "https://anond.hatelabo.jp/20260805114405",
+    "publishedAt": "2026-08-05T02:45:55.000Z",
+    "summary": "瑞祥地名っていうらしいけどまあキラキラネームにつながる部分あるよね あっぷる市(津軽地方に誕生しかけた)みたいな極端なのは疑いようもなくキラキラだけど 市区町村より下の町名とかで「〇〇が丘」とか「〇〇の丘」とか「ぜんぶひらがなのやわっこい感じの名前」とかもちょっといや結構キラキラしてる 災害があったこ...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "f6b959053022f866",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "Audible、池井戸潤「ハヤブサ消防団」の続編を配信　書籍発売と同日",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130641.html",
+    "publishedAt": "2026-08-05T02:40:37.000Z",
+    "summary": "オーディブル（Audible）は、ミステリー小説「ハヤブサ消防団 森へつづく道」のオーディオブックを配信開始した。刊行される書籍と同日の配信となる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "d89f7b8f98260aa1",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "英AI研究所、評価中のAIが実在の開発者を標的に──偽アカウント使い悪意あるコードの承認迫る",
+    "url": "https://www.itmedia.co.jp/news/article/2608/05/2000000391/",
+    "publishedAt": "2026-08-05T02:39:27.000Z",
+    "summary": "英AI研究所のAISIは、AIエージェントの評価中に、実在の人物や組織に対してAIが継続的かつ不許可の行動を取るインシデントを検知したと発表した。GitHub上で偽アカウントを作成して保守担当者を欺くサプライチェーン攻撃を試みた事例などが含まれる。攻撃はいずれも阻止され実害はなく、リアルタイム監視の導入などの再発防止策を進めるとしている。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "3bf4ce86351ab9d5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "缶チューハイの内側の世界　内側から見た時だけに現れる神秘の模様",
+    "url": "https://dailyportalz.jp/kiji/can-chuhai-uchigawa",
+    "publishedAt": "2026-08-05T02:38:15.000Z",
+    "summary": "1978年東京生まれ。酒場ライター。著書に『酒場っ子』『つつまし酒』『天国酒場』など。ライター・スズキナオとのユニット「酒の穴」としても活動中。 前の記事：家グルメ「もんじゃパン」と「お好みパン」が食べたい ＞ライターwiki 外飲みやホームパーティーで盛り上がること間違いなし 先日、ある素敵なお友達から、...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "0cd54b672d39fb3c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "まだアニメ化されてないアニメ化されてもおかしくない漫画",
+    "url": "https://anond.hatelabo.jp/20260805113529",
+    "publishedAt": "2026-08-05T02:36:52.000Z",
+    "summary": "※OVAで１話だけ作られたのは、まだアニメ化されていないものとする ・砂の薔薇（新谷かおる） ・D-LIVE（皆川亮二） ・BreakeAge（馬頭ちーめい） ・はいぱーあんな（近藤るるる） OVAもハリウッドで映画化もしたけど銃夢はユーゴで満足しないでもっと先まで作れと常に思ってる",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "70fb215279a569f8",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "ゆっくりスクワット、毎日15回だけ！「2週間続けたときの変化」がすごい",
+    "url": "https://melos.media/training/307781/",
+    "publishedAt": "2026-08-05T02:30:38.000Z",
+    "summary": "スローペースで行うスクワットは、少ない回数でも大きな負荷を筋肉にかけることができ、また、素早く行った場合と比べて膝を痛め…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "b40df7aa590ba499",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "冷製ポタージュの味が嬉しい【こぐれひでこの｢ごはん日記｣】",
+    "url": "https://www.roomie.jp/2026/08/1841353/",
+    "publishedAt": "2026-08-05T02:30:31.000Z",
+    "summary": "7月25日 昼ごはん 食欲、回復せず。じゃがいもの冷製ポタージュを作る。TORUくんがチーズ入りのロールオムレツを作る。紫キャベツとパプリカのマリネ。冷製ポタージュの味が嬉しい。 夜ごはん 体調少し良くなった感じなので、気合を入れて焼き餃子を作ることに。 皮の製作はTORUくん、具の調理は私（鶏の挽肉＋ニラ＋にんにく＋生姜）。餃子作りはサクサクと順調に行ったのだけれど、焼きが失敗した。焦げて鍋にひ",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "22fae2773c977370",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "GitHub Copilot Cloud Agent、コメントから自動化実行に対応",
+    "url": "https://codezine.jp/article/detail/29236",
+    "publishedAt": "2026-08-05T02:30:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "39a79df82b48388b",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "幅6.8cmで折り畳めると！？出先でも自宅でも省スペースなスキャナが登場",
+    "url": "https://www.lifehacker.jp/article/machi-ya-scanpad100pro-additional-956908/",
+    "publishedAt": "2026-08-05T02:30:00.000Z",
+    "summary": "「ScanPad100Pro」は収納時の横幅わずか6.8cmで重量690gの超小型ポータブルスキャナです。1600万画素の高解像度と1秒スキャンを両立しAIエンハンスメントが歪みや背景を自動補正。OCR精度99％以上で180以上の言語に対応しスキャンデータをWordやExcelやPDFで保存できます。USB Type-C給電で電源不要。ドキュメントカメラモードやLEDデスクライト機能も搭載。WindowsとMacの両対応です。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "a8a984512a540517",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "合計月間インストール数20億回超の人気npmパッケージ群を狙った大規模サプライチェーン攻撃が発生",
+    "url": "https://gigazine.net/news/20260805-npm-supply-chain-attack/",
+    "publishedAt": "2026-08-05T02:25:00.000Z",
+    "summary": "JavaScript向けパッケージ管理サービス「npm」で、広く使われている数百個のパッケージに認証情報を盗むマルウェアが混入される大規模なサプライチェーン攻撃が発生しました。セキュリティ企業のAikido Securityによると、2026年8月4日までに侵害が確認されているのは少なくとも434パッケージの1381バージョンで、各パッケージの合計月間インストール数は20億回を超えているとのことです。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "8349a3bac27fe439",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "バッファロー、発火リスクや化学反応も確認済みの「半固体モバイルバッテリー」発売",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news069.html",
+    "publishedAt": "2026-08-05T02:22:00.000Z",
+    "summary": "バッファローは、安定性が高く発火リスクを構造的に抑制する「半固体電解質」を採用した「半固体モバイルバッテリー」を発売。くぎ刺し試験や圧壊試験などでの安全性をはじめ、商品破損時の化学反応も確認している。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "7115dc9079647e0d",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "「IntelliJ IDEA」のJava/Kotlin機能をLSP化、「Visual Studio Code」などにも開放／「Cursor」など派生製品でも使える拡張機能がプレビュー公開",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130607.html",
+    "publishedAt": "2026-08-05T02:18:00.000Z",
+    "summary": "蘭JetBrainsは8月4日（現地時間）、「Visual Studio Code」向けの拡張機能「Java & Kotlin by IntelliJ IDEA」をプレビュー公開した。「Open VSX Registry」でも提供されており、「Cursor」や「Antigravity」をはじめとする「Visual Studio Code」派生エディターでも利用できる。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "256a4a8b40cad30a",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【高校受験】横須賀の私立4校が参加…合同相談会10/12",
+    "url": "https://resemom.jp/article/2026/08/05/87065.html",
+    "publishedAt": "2026-08-05T02:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "0fb7d8e7972eccc9",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "NVIDIAが自動運転車用のAI「Alpamayo 2 Super」を無償公開",
+    "url": "https://gigazine.net/news/20260805-nvidia-alpamayo-2-super/",
+    "publishedAt": "2026-08-05T02:15:00.000Z",
+    "summary": "NVIDIAが自動運転車用のAI「Alpamayo 2 Super」を現地時間の2026年8月4日に公開しました。Alpamayo 2 Superは自動車に搭載したカメラをもとに周囲の状況を推測して進路を決定できます。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "89101bf17e4712f5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "中国で話題の\"結婚詐欺の街\"とは？数百の婚活業者が男性を食い物に",
+    "url": "https://gendai.media/articles/-/169564",
+    "publishedAt": "2026-08-05T02:12:54.000Z",
+    "summary": "結婚詐欺の被害者が集まるマンション中国の貴州省・貴陽市にある「花果園」。ここは1830万平方メートル（東京ドーム約391個分）の面積に311の高層ビルが立ち並び、約50万人が生活をするエリアである。 この地が今の中国で注目を集めている理由は「結婚詐欺」だ。 このマンション群の一角には全国から集まった30代を中心...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "b4d018071f676844",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "第398回：負けられない戦いの終わり方【カデーニャカンパニー】- 家電 Watch",
+    "url": "https://kaden.watch.impress.co.jp/docs/kadenya/comic/2130645.html",
+    "publishedAt": "2026-08-05T02:11:15.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "353c6b8a28b10660",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "古代ギリシアの『植物誌』を82歳で完訳・小川洋子「子育てと家事の合間に、哲学者テオプラストスと向き合った50年」 女性で大学に進む人は3％の時代に、大学院まで進学し＜前編＞｜教養｜婦人公論.jp",
+    "url": "https://fujinkoron.jp/articles/-/22933",
+    "publishedAt": "2026-08-05T02:10:03.000Z",
+    "summary": "30代初めに出合った植物学の本に魅了され、コツコツと訳し続けてきた翻訳家の小川洋子さん。紀元前の書物をひもとき、自らも植物を探究してきた情熱の原点とは――。（構成：和田秀子 撮影：福森クニヒロ） 「花冠」は古代の生活必需品 私は古代ギリシアの哲学者・テオプラストスが書いた『植物誌』の翻訳に50年ほど夢中...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "f9f186359d9cfa0f",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "AppleがiPhoneとWindows PC間でコピー＆ペーストを可能にする新機能を開発中",
+    "url": "https://gigazine.net/news/20260805-apple-iphone-to-windows-pc-copy-and-paste/",
+    "publishedAt": "2026-08-05T02:10:00.000Z",
+    "summary": "AppleがiPhoneとWindows PCの間で、コピーしたテキストなどを相互に貼り付けられる機能の開発を進めていると報じられています。これはEUのデジタル市場法「DMA」に基づいてMicrosoftが相互運用性を求めたことを受けて開発されているもので、Appleは2027年秋までに開発を完了し、その後に開発者向けベータ版を提供する計画です。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "78bf91c2d3db6855",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "DuckDuckGoが「カメラなし・AIなし」のアンチスマートグラスを販売",
+    "url": "https://gigazine.net/news/20260805-duckduckgo-sunglasses-paso-robles/",
+    "publishedAt": "2026-08-05T02:04:00.000Z",
+    "summary": "検索エンジンを運営するDuckDuckGoがサングラスメーカーのKnockaroundと提携し、「世界で最も革新的な監視対策サングラス」として「Paso Robles」をリリースしました。製品特徴には「AIなし、カメラなし、マイクなし、電子機器なし」がうたわれています。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "3b9d3bf415f62935",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "シャープ「AQUOS wish6」発表、120Hz対応大画面や迷惑電話対策AI搭載、まずはソフトバンクの法人向け",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130637.html",
+    "publishedAt": "2026-08-05T02:01:51.000Z",
+    "summary": "シャープ製の5G対応Androidスマートフォン「AQUOS wish6」が発表された。2026年9月中旬以降に日本および台湾で順次登場する。ソフトバンクからも法人向けモデルが9月中旬以降に発売されることが発表された。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "f836fe281970ef02",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "米軍、主要迎撃ミサイルの80％使い果たす　「危険な水準」と軍高官",
+    "url": "https://www.cnn.co.jp/usa/35251299.html",
+    "publishedAt": "2026-08-05T02:00:54.000Z",
+    "summary": "（CNN） 米軍高官らは、米軍が主要なミサイル防衛システムの迎撃ミサイルを80%近く使い果たし、弾薬備蓄が「危険な水準にまで減少している」と警告している。事情に詳しい複数の関係者が明らかにした。 イランとの戦争では、主要な防空システムの備蓄を特に消耗している。最新の在庫状況に詳しい関係者2人によると、米軍...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "df7ee38a3593ebcf",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "仕事・家庭・個人の優先順位はもっと柔軟に変えていい 40代のわたしが10年後の自分に伝えたいこと - りっすん by イーアイデム",
+    "url": "https://www.e-aidem.com/ch/listen/entry/2026/08/05/103000",
+    "publishedAt": "2026-08-05T02:00:09.000Z",
+    "summary": "仕事、子ども・家庭など、人生における複数の優先事項に、どう順位をつけて向き合うか。働く人の多くが、結婚や出産など、ライフステージが変わるたびに悩む問題です。 共働きで小学生の子どもを育てるブロガーのはせおやさいさんも、働き始めた20代から40代の現在まで、そのバランスを模索し続けてきました。 今回はそ...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "a02a2c5920c9c540",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "雑務を手放し「やりたい仕事」に集中できる！バックオフィスから営業までチームを変えるBacklog仕事術",
+    "url": "https://www.lifehacker.jp/article/2608-work-smarter-with-backlog/",
+    "publishedAt": "2026-08-05T02:00:00.000Z",
+    "summary": "仕事の「探し物」「進捗確認」「記憶」に時間を奪われていませんか？立場や働き方が異なる7名のリアルな悩みから、業務が滞る根本原因と解決策を紐解きます。プロジェクト管理ツール「Backlog」を活用して情報を一元化し、不毛な雑務を手放して本来集中すべき業務に時間を使う方法を紹介します。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "5482555f05be3e63",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "カオナビ、従業員の特性や相性を可視化しコミュニケーションを支援する適性検査サービスを提供",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130080.html",
+    "publishedAt": "2026-08-05T02:00:00.000Z",
+    "summary": "株式会社カオナビは、クラウド型タレントマネジメントシステム「カオナビ」と連携した適性検査サービス「カオナビパーソナリティ」を10月1日に提供開始すると発表した。「カオナビ」に蓄積されている経験、評価、スキルなどのデータと性格データを組み合わせて根拠のある適材適所を実現し、採用・配置のミスマッチを防ぐという。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "b4d8a460afbbcd3b",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "ベネッセ、「ミライシードSUMMIT2026」オンラインと対面で8月7日開催",
+    "url": "https://ict-enews.net/2026/08/05benesse-10-2/",
+    "publishedAt": "2026-08-05T01:52:53.000Z",
+    "summary": "ベネッセコーポレーションは、「ミライシードSUMMIT2026」をオンラインとベネッセコーポレーション東京本部会場（現地開催）の対面のハイブリッドで、8月7日に開催する。 「ミライ […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "07ed13e49302ea18",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "総務省、データサイエンス無料講座「社会人のためのデータサイエンス入門」開講",
+    "url": "https://ict-enews.net/2026/08/05soumu/",
+    "publishedAt": "2026-08-05T01:45:38.000Z",
+    "summary": "総務省は4日、統計リテラシー向上の取組として、“データサイエンス”力の高い人材育成のため、データサイエンス・オンライン講座「社会人のためのデータサイエンス入門」を開講した。 今回、 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "5d80eaf7ff0687ae",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "Tenableの「Sensor Proxy」にRCE脆弱性 - 修正版を公開",
+    "url": "https://www.security-next.com/188340",
+    "publishedAt": "2026-08-05T01:45:34.000Z",
+    "summary": "Tenableのセンサー中継ソフトウェア「Tenable Sensor Proxy」に深刻な脆弱性が判明した。修正版が公開されている。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "4710e0ae28f6f8b4",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "塾費用に家計の負担を感じる保護者は75.4％　= WAKERZ 調べ=",
+    "url": "https://ict-enews.net/2026/08/05wakerz/",
+    "publishedAt": "2026-08-05T01:45:26.000Z",
+    "summary": "塾・家庭教師・予備校検索サービス「成績アップの窓口（アプマド）」を運営するWAKERZは4日、現在子どもが通っている学習塾の費用に関するアンケート調査を実施し、その結果を公表した。 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "b7eac1184c859e45",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "立命館大学、公認TikTokを開設　学生広報アンバサダーに18 名を任命",
+    "url": "https://ict-enews.net/2026/08/05ritsumei-4/",
+    "publishedAt": "2026-08-05T01:45:08.000Z",
+    "summary": "立命館大学は3日、学生が主体となって大学の魅力を発信する「学生広報アンバサダー」18名を任命し、大学公認 TikTok アカウント「R‐Tok(アールトック)」の運用開始を発表した […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "4d24e7911a8e2efe",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "IPA、デジタル変革を支える「デジタル＆AIシステムズ・デザインセンター（DADC）」新設",
+    "url": "https://ict-enews.net/2026/08/05ipa-3/",
+    "publishedAt": "2026-08-05T01:44:55.000Z",
+    "summary": "情報処理推進機構（IPA）は、8月1日に「デジタル＆AIシステムズ・デザインセンター（DADC）」を新設した。 DADCは、旧「デジタルアーキテクチャ・デザインセンター」、「デジタ […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "384c6ffe6c24fcbd",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "大阪成蹊大学、高校生を対象「データサイエンス チャレンジ 2026」開催",
+    "url": "https://ict-enews.net/2026/08/05osaka-seikei/",
+    "publishedAt": "2026-08-05T01:44:40.000Z",
+    "summary": "大阪成蹊大学データサイエンス学部は、昨年に引き続き高校生を対象とした「データサイエンス チャレンジ 2026」を開催する。 本イベントでは、参加者自らが「問い」を立て、「仮説」を構 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "13003ac4b2fec4b4",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "関西外国語大学、学生2名が「ラーニングイノベーショングランプリ2026」で奨励賞受賞",
+    "url": "https://ict-enews.net/2026/08/05kansaigaidai/",
+    "publishedAt": "2026-08-05T01:44:28.000Z",
+    "summary": "関西外国語大学は4日、同学卯木輝彦教授研究室の福森恭生さんと田中莉望さん（いずれも外国語学部英語・デジタルコミュニケーション学科3年）が「ラーニングイノベーショングランプリ2026 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "a0808c74fbd15509",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "松尾研究所、ディープラーニングを実践的に学ぶ社会人向け講座「Deep Learning 基礎講座」10月開講",
+    "url": "https://ict-enews.net/2026/08/05matsuo-institute/",
+    "publishedAt": "2026-08-05T01:44:15.000Z",
+    "summary": "松尾研究所は3日、社会人を対象とした「Deep Learning 基礎講座 ～理論の理解からPythonによるモデル実装まで～」を10月から開講すると発表した。 同講座は、松尾研究 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "2f1a72e7a1fd6ea7",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "苫小牧市とSOZOW、小学生がマイクラ活用し「未来の苫小牧駅前通り」をプレゼン",
+    "url": "https://ict-enews.net/2026/08/05sozow-3/",
+    "publishedAt": "2026-08-05T01:44:04.000Z",
+    "summary": "SOZOWは、「第2回 とまこマインクラフト！」を8月21日・22日・23日に開催する。 苫小牧市が主催し、SOZOWが企画・運営を担うイベント。 同プログラムは、事前公募で集まっ […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "9d88412df6105498",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "がばいAIコンサルティング、AIエージェント構築とFDE実践、2つの新講座を公開",
+    "url": "https://ict-enews.net/2026/08/05gabai-ai/",
+    "publishedAt": "2026-08-05T01:43:13.000Z",
+    "summary": "企業の生成AI活用・AI人材育成を支援する、がばいAIコンサルティングは4日、生成AIを「使う」段階から、業務で動く仕組みを「つくる」・現場導入を「前に進める」段階へ進めるため、オ […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "26d1aa3b717c9ffd",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "教育出版、映像コンテンツ「目で見る算数」個人向けストリーミング配信",
+    "url": "https://ict-enews.net/2026/08/05kyoiku-shuppan/",
+    "publishedAt": "2026-08-05T01:43:02.000Z",
+    "summary": "教育出版は4日、「ピタゴラスイッチ」制作陣の佐藤雅彦氏＋ユーフラテスと共同開発した「目で見る算数」の個人向け配信を開始した。 各映像は4～6年生の小学算数の学習単元に紐づいており、 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "e246c918fd22c22b",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "クラーク国際中等部、保護者に向けて「子どもの力をひき出すコミュニケーション講座」9月開催",
+    "url": "https://ict-enews.net/2026/08/05clark-jr/",
+    "publishedAt": "2026-08-05T01:42:48.000Z",
+    "summary": "クラーク国際中等部（クラーク記念国際高等学校と教育連携するフリースクール）は4日、全国の思春期の子どもを持つ保護者に向けて「子どもの力をひき出すコミュニケーション講座」や、子ども向 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "05d34982655a5562",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "近畿大学工業高等専門学校、「小中学生ロボットコンテスト2026」を開催",
+    "url": "https://ict-enews.net/2026/08/05kindai-6/",
+    "publishedAt": "2026-08-05T01:42:39.000Z",
+    "summary": "近畿大学は3日、近畿大学工業高等専門学校が「小中学生ロボットコンテスト2026」を10月17日に開催することを発表した。 同校では、2007年から「小中学生ロボットコンテスト」を開 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "277cc1bc7ca4714f",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "広島の学生向けAIハッカソン「HIROSHIMA AI SUMMER HACKATHON」開催",
+    "url": "https://ict-enews.net/2026/08/05hiroshimai/",
+    "publishedAt": "2026-08-05T01:42:35.000Z",
+    "summary": "HiroshimAIは、広島の学生向けAIハッカソン「HIROSHIMA AI SUMMER HACKATHON」を8月1日～31日に開催することを発表した。 同ハッカソンでは、学 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "9c45e32f6ef38f0a",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "studio15、「応募が来ない…をTikTokが解決！採用コストを劇的に改善するSNS採用術」18日開催",
+    "url": "https://ict-enews.net/2026/08/05studio15/",
+    "publishedAt": "2026-08-05T01:42:25.000Z",
+    "summary": "studio15は、人事・採用広報担当者を対象とした無料オンラインウェビナー「応募が来ない…をTikTokが解決！採用コストを劇的に改善するSNS採用術」を8月18日に開催する。 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "8b7e0ae464a3f3d4",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "電通、子どもの“なんで？”を育む対話型AIぬいぐるみ「なんでちゃん」に教育視点導入",
+    "url": "https://ict-enews.net/2026/08/05dentsu/",
+    "publishedAt": "2026-08-05T01:42:04.000Z",
+    "summary": "電通は4日、社内横断型の社会課題解決ユニット「シャカツ」が2025年に開発した子どもの“なんで？”を育み、子どもと保護者の対話のきっかけを提供する対話型AIぬいぐるみ「なんでちゃん […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "325ef383e4d797ee",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "Z会グループとワコム、Toyota Woven City でデジタルの筆を活用した実証を開始",
+    "url": "https://ict-enews.net/2026/08/05zkai-gr-4/",
+    "publishedAt": "2026-08-05T01:41:54.000Z",
+    "summary": "Z会グループとワコムは4日、トヨタ自動車とウーブン・バイ・トヨタが運営する Toyota Woven City 内の、Z会グループが運営する教育施設「Z会インベンティブスクール」で […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "f4f2f723a4dd44c6",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "TAC、DXを加速させるためのIT新講座「デジタル時代の新たな視点」を開講",
+    "url": "https://ict-enews.net/2026/08/05tac-10/",
+    "publishedAt": "2026-08-05T01:41:43.000Z",
+    "summary": "資格の学校TACは4日、デジタル変革（DX）の本質を理解し、組織の変化を加速させるための新講座「デジタル時代の新たな視点」を開講したと発表した。 多くの企業がDXを掲げながらも、「 […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "e30be2f06d69515a",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "okke、基礎的な「化学計算ドリル」を利用した生徒の化学テスト得点率が有意に向上",
+    "url": "https://ict-enews.net/2026/08/05okke-2/",
+    "publishedAt": "2026-08-05T01:41:32.000Z",
+    "summary": "okkeは4日、同社が提供する学習塾向けテスト演習ツール「Dr.okke」で、「化学計算ドリル」を利用した生徒の通常科目「化学」における得点率が、利用開始前と比較して統計的に有意に […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "7acd18c65ed06c05",
+    "source": "ICT教育ニュース",
+    "sourceUrl": "https://ict-enews.net/feed/",
+    "title": "旺文社、「入試正解デジタル」で「学校推薦型選抜・総合型選抜（年内入試）」の過去問を搭載",
+    "url": "https://ict-enews.net/2026/08/05obunsha-9/",
+    "publishedAt": "2026-08-05T01:41:22.000Z",
+    "summary": "旺文社4日は、大学入試問題をスムーズに検索・閲覧できる、大学受験生・高校生向けWebサービス「入試正解デジタル」で、従来の一般選抜に加えて新たに「学校推薦型選抜・総合型選抜（通称： […]",
+    "fetchedAt": "2026-08-05T06:14:19.516Z"
+  },
+  {
+    "id": "3e6eee1c155efa66",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "超酷暑の中で、外で働くということをしてる人にもっとやさしさを持ってもいいと思うよ",
+    "url": "https://anond.hatelabo.jp/20260805093628",
+    "publishedAt": "2026-08-05T01:41:10.000Z",
+    "summary": "Amazonの配送員の人の愛想が悪かったと怒ってる人のポストがホッテントリ入りしてる。 なんつーか、もう少し想像力働かせたら？ と思う。 手ぶらで出歩くことすら苦痛になる今の季節。 ましてや仕事で大量に荷物をさばき続けないといけないAmazonの配送の仕事してる人たちに今の時期余裕なんてあるわけ無いじゃん。 俺も...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "1ee40c21906edd6b",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "高校囲碁全国大会、団体戦は灘・南山女子部が優勝",
+    "url": "https://resemom.jp/article/2026/08/05/87064.html",
+    "publishedAt": "2026-08-05T01:40:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "9bee30e05da9bcbb",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "動画生成AI「FLUX 3 Video」が一般公開される、1080p・20秒の動画を生成可能で近日中にオープンモデルも公開予定",
+    "url": "https://gigazine.net/news/20260805-flux-3-video/",
+    "publishedAt": "2026-08-05T01:40:00.000Z",
+    "summary": "AI開発企業のBlack Forest Labsが動画生成AI「FLUX 3 Video」を現地時間の2026年8月4日に一般公開しました。FLUX 3 Videoは最大20秒・1080p(フルHD)の音声付き動画を生成可能です。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "cc3c356539716dfc",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "AndroidとPixelの8月版アップデート配信開始　「Pixel 10」シリーズのタッチ不具合修正やGPU性能改善なども",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news067.html",
+    "publishedAt": "2026-08-05T01:37:00.000Z",
+    "summary": "GoogleがAndroidおよびPixelの8月の月例アップデートを配信開始した。Android全体で38件の脆弱性に対処し、うち8件は重大（Critical）に区分される。「Pixel 10」シリーズ向けの問題の修正や改善も含まれる。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "097a6d06a698b6b8",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "実はすごい。バナナを毎日食べると体はどう変わる？医師が教える6つの健康効果",
+    "url": "https://melos.media/wellness/304763/",
+    "publishedAt": "2026-08-05T01:35:37.000Z",
+    "summary": "実は、バナナにはカリウムや食物繊維、ビタミンB6などが含まれており、腸内環境や血圧管理、疲労回復などをサポートする働きが…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "dcae16b93ebea366",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "53%オフも！Amazonタイムセールで「クリップファンライト」や「タープ」が今ならお買い得ですよ",
+    "url": "https://www.roomie.jp/2026/08/1856803/",
+    "publishedAt": "2026-08-05T01:30:36.000Z",
+    "summary": "Amazon（アマゾン）で毎日開催されているAmazonタイムセール、今日2026年8月5日は「クリップファンライト」や「タープ」ほか、今すぐ欲しい人気のアイテムがお得に多数登場しています。 なお、以下の表示価格は2026年8月5日10時30分現在のもの。変更や売り切れの可能性もありますので、それぞれ販売ページでご確認ください（サイズやカラー選択も可能ですが、一部セール対象外のサイズ・カラーもあり",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "137ed034f794c807",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "「企業の中のあらゆるナレッジはいずれAIで処理される」  検索精度を最大1.8倍に高めた「GMO AI RAG」は無償のOSS版で「1社1RAG」を目指す／開発責任者にインタビュー、その先に見据えるのは「Webサービス全体のAI化」【特集・集中企画】",
+    "url": "https://forest.watch.impress.co.jp/docs/special/2130448.html",
+    "publishedAt": "2026-08-05T01:30:00.000Z",
+    "summary": "GMOインターネットグループのGMOプライム・ストラテジー（株）は6月30日、法人向けRAG（検索拡張生成）ソフトウェア「GMO AI RAG」のEnterprise版の提供を開始した。社内のマニュアルや規定、議事録などをナレッジとして取り込み、AIが社内情報にもとづいた回答を返すソフトウェアで、2026年秋頃にはコア部分をオープンソース（OSS）として無償公開する予定だ。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "d2488717e72d3b08",
+    "source": "ソレドコ",
+    "sourceUrl": "https://soredoko.jp/feed",
+    "title": "暑い夏を乗り切る便利なキッチングッズ！快適に麺料理を作れる道具7選",
+    "url": "https://soredoko.jp/entry/2026/08/05/103000",
+    "publishedAt": "2026-08-05T01:30:00.000Z",
+    "summary": "便利キッチングッズで、暑い夏の麺料理をもっとラクに美味しく！火を使わない「レンジでそうめん」、薬味作りに役立つ「きざみ海苔ばさみ」や「白髪ねぎカッター」、「パスタメジャー」や「うま冷えプレート」など、夏の調理を快適に乗り切る優秀な道具をご紹介します！ 暑い夏の食卓は食べやすい麺に頼りがち。 そうめんやざるそばなどを手軽に作れるレンジ調理道具や、薬味が簡単に作れるハサミやカッターなど、麺料理を作る際に活躍するツールを紹介します。 麺生活をワンランクアップするアイテムを駆使して、夏をつるりと乗り切りましょう！ 鍋不要で加熱から湯切りまで完結！エビス レンジで…",
+    "fetchedAt": "2026-08-05T06:14:30.590Z"
+  },
+  {
+    "id": "0199d79ad8c18278",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "お金がふわふわしてきた",
+    "url": "https://anond.hatelabo.jp/20260805102414",
+    "publishedAt": "2026-08-05T01:27:42.000Z",
+    "summary": "ある数千万くらいの資産がある人ならわかってくれると思うが 自分のお金がお金がふわふわしてきてる。 ある程度資産が増えるとみんなリスク分散で投資とかに回してると思う。 自分もNISAとかでS&P500に回してるが1日で20万くらい減ること増えることがざらにあるのよ。 けどスーパー行ったら牛肉100g359円か高い、買えな...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "1493fd658c2776fb",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "「フルスクラッチ開発」って何？──LLMを“骨格”と“筋肉”に例えて国産モデルの現在地を整理する",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2608/05/2000000386/",
+    "publishedAt": "2026-08-05T01:24:20.000Z",
+    "summary": "「LLMはどこまで『国産』であるべきか？」と題した本特集では、日本企業が安全性と利便性を確保したAI活用を実現するにはどのレイヤーを国産にすべきなのか、そもそも国産にはどのようなメリットがあるのかを、代表的な国内ベンダーへの取材などを通して考察する。第1回の本稿では、そもそもLLMがどう作られていて、国内ベンダーがLLMのどこを開発しているかを整理してみたい。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "bda09c6cfc6dbb2d",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "AI時代の折りたたみスマホ最適解。「Galaxy Z Fold8」が予約できるぞ",
+    "url": "https://www.roomie.jp/2026/08/1855543/",
+    "publishedAt": "2026-08-05T01:15:05.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 7月22日の発表から、大きな話題をさらっているSamsung（サムスン）の最新折りたたみスマートフォン「Galaxy Z Fold8」。 発売は8月7日ですが、Amazonでは予約が始まっていますよ。 ■この記事で紹介している商品 Samsung Galaxy Z Fold8 256GB|グラファイト|Ga",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "7315694c5bf8ab16",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "28卒の就活、開始は早期化・内々定希望は後ろ倒し…dodaキャンパス調査",
+    "url": "https://resemom.jp/article/2026/08/05/87063.html",
+    "publishedAt": "2026-08-05T01:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "0210ff876069207a",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "夏はドローンで遊ぼう！ DJIのドローンが安い【Amazon暮らし応援サマーSale】【本日みつけたお買い得情報】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/2130605.html",
+    "publishedAt": "2026-08-05T01:12:39.000Z",
+    "summary": "Amazon.co.jpでは現在、「暮らし応援サマーSale」を開催しています。レジャー用品、家電ほか多数の商品がお買い得価格で販売されています。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "e7b35b5479539514",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "女性向け防災セット、ワコールの使いきり下着入り　アイリスオーヤマ",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130414.html",
+    "publishedAt": "2026-08-05T01:04:00.000Z",
+    "summary": "アイリスオーヤマは、ワコールとコラボレーションした「3日間分の女性向け防災セット 1人用」を8月28日より順次発売する。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "195a486d3b8f433f",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "「Terraform MCP Server」に深刻な脆弱性 - 修正版が公開",
+    "url": "https://www.security-next.com/188333",
+    "publishedAt": "2026-08-05T01:03:45.000Z",
+    "summary": "外部のツールから「Terraform」を操作する機能を提供する連携サーバ「Terraform MCP Server」に複数の脆弱性が明らかとなった。「クリティカル」とされる脆弱性も判明しており、セキュリティアップデートが提供されている。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "7dfc6d3f6bc0c4f2",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "ロジテックのCDレコーダー＆プレーヤーが安い！【Amazon暮らし応援サマーSale】【本日みつけたお買い得情報】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/2130604.html",
+    "publishedAt": "2026-08-05T01:01:36.000Z",
+    "summary": "Amazon.co.jpでは現在、「暮らし応援サマーSale」を開催しています。レジャー用品、家電ほか多数の商品がお買い得価格で販売されています。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "4d98e2c3af6484a4",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "楽天ペイと楽天ポイントのキャンペーンまとめ【8月5日最新版】　最大1万～3万ポイント還元や20％還元あり",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news021.html",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "月が変わり、楽天ペイでもさまざまなキャンペーンが更新された。毎月実施しているキャンペーンにも注目だ。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "9817a392d28798ba",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "エントリースマホ「AQUOS wish6」発表　防犯アラートやAI活用の電話サポート機能",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news054.html",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "シャープは、約6.6型の大画面を搭載したスマートフォン「AQUOS wish6」を商品化した。9月中旬以降に日本と台湾で順次発売する。本製品は、従来機比約2倍となる約1000ニトの最大輝度や、120Hzの高速駆動に対応する。さらに、ハンドソープでの洗浄や、AIによる詐欺対策などの安心機能を充実させた。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "5d4272762e748d8b",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "3段階の風量＋360度の風向き調整に対応　約81gのクリップ式ハンディファンがAmazonで36％オフ",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news046.html",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "Goldmaxのクリップ式ハンディファンがAmazonで販売されている。手のひらサイズで重量は約81gと持ち運びやすく、風量は3段階、風向きは360度調整可能だ。価格は通常2980円のところ現在は36％オフの1899円で販売している。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "4f8a3198140ac040",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "Google DeepMindがロボット向けモデル「Gemini Robotics ER 2」を公開",
+    "url": "https://codezine.jp/article/detail/29233",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "0e50a31ee63fdcd6",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "セイコー 5スポーツ、ホンダ「モトコンポ」とコラボ",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130393.html",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "セイコーウオッチは、「セイコー 5スポーツ」の新作として、「Honda MOTOCOMPO」(ホンダ モトコンポ)とのコラボレーション限定モデル(HDB010J)を9月5日に発売する。機械式の腕時計で、価格は52,800円、数量は限定8,000本、うち国内1,200本。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "4ed19ac9fb08cfd8",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "UGREENの充電器がコンパクト化、なのに最大100Wで4台充電。持ち運び用はコレでOK",
+    "url": "https://www.lifehacker.jp/article/amazon-ugreen-nexodeprodisplay-2608/",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "ノートPC、スマートフォン、タブレット、イヤホン…。気がつけばコンセントは充電器だらけ。それぞれに専用アダプターを持ち歩くのも面倒くさい。 そんな充電環境の悩みを一気に解決してくれるのが、7月8日に発売されたばかりのUGREEN（ユーグリーン）製「Nexode Pro 100W スマート充電器」です。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "dce9444f3b64da1a",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "S&J、「My SOC 365」にAIが脅威検知から対処までを自動化する機能を追加",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130302.html",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "summary": "S&J株式会社は4日、Microsoft 365を統合セキュリティプラットフォームとして活用する「My SOC 365サービス（以下、My SOC 365）」において、AIが複数ログを自ら調査・分析し、人の判断を待たずに初動対処まで自律実行する「自動対処機能」の提供を8月3日に開始したと発表した。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "5075d1602b838c16",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "ロジクールのトラックボール＆マウスが安い！【Amazon暮らし応援サマーSale】【本日みつけたお買い得情報】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/2130601.html",
+    "publishedAt": "2026-08-05T00:52:27.000Z",
+    "summary": "Amazon.co.jpでは現在、「暮らし応援サマーSale」を開催しています。レジャー用品、家電ほか多数の商品がお買い得価格で販売されています。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "4a22c656b75e60c6",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験】リベラルアーツ5大学、福岡で合同進学相談会…大学進学セミナー2026内で開催",
+    "url": "https://resemom.jp/article/2026/08/05/87062.html",
+    "publishedAt": "2026-08-05T00:45:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "4dcc7a8a1b29331a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "感謝の気持ちを持てる人だけ受け取ってください",
+    "url": "https://anond.hatelabo.jp/20260805092749",
+    "publishedAt": "2026-08-05T00:28:48.000Z",
+    "summary": "職場でいただいたお中元の品をみんなに配るのが慣習なんだけど 贈っていただいた方への感謝の気持ちを持てない人には渡したくないんだよな 客へのあいさつもろくにしない、取引先へのあいさつもろくにできない そんなやつにこれを受け取る資格ないよなぁって思う でもじゃあ、神に祈りを捧げるように、受け取る前に感謝...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "b581a145af3bc96f",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "「Firefox 153.0.3」がリリース ～Windows環境で稀に起動不能になる不具合などを解決／",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130594.html",
+    "publishedAt": "2026-08-05T00:19:50.000Z",
+    "summary": "Mozillaは8月4日（米国時間）、デスクトップ向け「Firefox」の最新版v153.0.3をリリースチャネルで公開した。v153.0.2のリリースはAndroid版のみで、デスクトップ版はスキップされている。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "ff5a7282987a6c03",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "熊本地震被災の児童生徒を支援、Axisのオンライン家庭教師が緊急学習支援",
+    "url": "https://resemom.jp/article/2026/08/05/87061.html",
+    "publishedAt": "2026-08-05T00:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "82242acdab88c88f",
+    "source": "ITmedia エンタープライズ",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+    "title": "VMware製品にCVSS 9.8の脆弱性、回避策なし　速やかなアップデートを推奨",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news036.html",
+    "publishedAt": "2026-08-05T00:15:00.000Z",
+    "summary": "BroadcomはVMware製品群に存在する5件の脆弱性を修正した。vCenterでは最高深刻度CVSS 9.8の認証回避や任意コード実行の欠陥が確認されている。回避策は用意されておらず、速やかなパッチ適用が求められる。",
+    "fetchedAt": "2026-08-05T06:14:35.029Z"
+  },
+  {
+    "id": "f4ba5bc4ba6a2f13",
+    "source": "ITmedia エンタープライズ",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+    "title": "ブラウザの再起動は不要になる？　Chromeが模索する「週2リリース」と「無停止アップデート」",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news027.html",
+    "publishedAt": "2026-08-05T00:15:00.000Z",
+    "summary": "Googleは「Google Chrome」のセキュリティ対策サイクル全般でAI活用を推進する。AIによる脆弱性の発見、自動修正やトリアージの高速化に加え、週2回リリースや再起動不要な無停止アップデートの検証を進める。",
+    "fetchedAt": "2026-08-05T06:14:35.029Z"
+  },
+  {
+    "id": "f14e321e51c02d1d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "メモリ不足、って不足＝価格の高騰じゃなくて、不足＝本当に調達できなくなってきている、だからな。それよろしくて？",
+    "url": "https://anond.hatelabo.jp/20260805091101",
+    "publishedAt": "2026-08-05T00:11:49.000Z",
+    "summary": "マジで大手メーカーでもメモリをぶんどってくるのに苦労し始めている。 潤沢にメモリ積んだマシンとかが、価格高騰ではなくてそもそも手に入らなくなるようになるのも時間の問題かもな。 どうしてもいるもんだったら様子見してる場合じゃなくなってるぞ。",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "6bdffce995ae4408",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "SpaceX、IPO後初の決算で売上高92％増　AI設備投資158億ドルで「2030年には年商1兆ドルに」とマスクCEO",
+    "url": "https://www.itmedia.co.jp/news/article/2608/05/2000000388/",
+    "publishedAt": "2026-08-05T00:08:44.000Z",
+    "summary": "SpaceXはIPO後初となる2026年第2四半期決算を発表した。売上高は前年同期比92％増の78億1400万ドル、純損失は5億4100万ドルに改善した。xAIとの合併を経たAI事業の売上高が247％増と急成長を牽引。設備投資はAIインフラを中心に183億6900万ドルへ拡大し、将来の売上予測も上方修正した。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "143ee0f59efe9da4",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "HUMMERの折りたたみミニベロ電動アシスト自転車　無骨で重厚",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130415.html",
+    "publishedAt": "2026-08-05T00:04:00.000Z",
+    "summary": "ジックは、HUMMER(ハマー)ブランドより20インチの折りたたみ電動アシスト自転車「HUMMER E-FAT206(ハマー イーファット 206)」を8月下旬に発売する。価格は118,800円。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "685c52832b33e9d0",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "AI議事録「Rimo」はOpenAI、Anthropic時代にどう勝ち筋を描くか──元Google・相川氏が説く現代のプロダクト戦略",
+    "url": "https://codezine.jp/article/detail/29084",
+    "publishedAt": "2026-08-05T00:00:00.000Z",
+    "summary": "AIエージェントが自律的にコードを書き、テストし、デプロイする。そんな光景が珍しくなくなるにつれ、エンジニアの主戦場は「どう作るか」から「何を作るか」へと移りつつある。同時に、GoogleやMicrosoft、OpenAIやAnthropicといったメガベンダーが次々とツールをリリースし、個々の企業が独自にプロダクトを作る意義そのものが議題に挙がることも増えた。この問いに、2020年という早い時期からAI要約による議事録作成サービス「Rimo」を手がけてきたRimo合同会社代表・相川直視氏はどう向き合っているのか。資金調達をせず7年間成長を続けてきた経営…",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "d22f1a0145a7d2d3",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "GitLabからGitHub Enterprise Cloudへの移行機能、一般提供開始",
+    "url": "https://codezine.jp/article/detail/29232",
+    "publishedAt": "2026-08-05T00:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "fec095ca74ecd954",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "次世代舗装路や雨水循環建物など技術実証施設「たむラボ」　大成建設",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130540.html",
+    "publishedAt": "2026-08-05T00:00:00.000Z",
+    "summary": "大成建設と大成ロテックは、福島県田村市に整備した「大成建設グループ次世代技術実証センター/田村『T-FIELD/TAMURA』(たむラボ)」の本格運用を開始した。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "4f82dc9497240349",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "新品のWindowsがもう重い。私が真っ先に変更する4つの設定",
+    "url": "https://www.lifehacker.jp/article/i-do-these-x-things-after-every-windows-install-to-keep-it-running-fast/",
+    "publishedAt": "2026-08-05T00:00:00.000Z",
+    "summary": "Windowsをクリーンインストールしたばかりなのに動作が重いと感じたことはありませんか？追加アプリのせいだけでなく、初期設定のまま動いている不要な機能が原因かもしれません。PCを常に快適なスピードで動かし続けるために、再インストール直後に必ず行っている4つの必須設定をわかりやすく解説します。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "3fd6cc57559e042e",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "AI監査の知見から読み解くファイナンスDXの成功条件と、人とAIの最適分担",
+    "url": "https://cloud.watch.impress.co.jp/docs/event/2098306.html",
+    "publishedAt": "2026-08-05T00:00:00.000Z",
+    "summary": "「次世代ファイナンス戦略×AI活用セミナー」において、EY新日本有限責任監査法人 クライアントサービス本部 デジタル戦略部 部長 パートナーの加藤信彦氏が「AI監査の実装知から読み解くファイナンスDXの成功条件」と題して講演を行った。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "6d3343b4e5ec643c",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "本番で緊張しない方法はある？いつも緊張する私が変えた3つのこと【精神科医監修】",
+    "url": "https://melos.media/wellness/307202/",
+    "publishedAt": "2026-08-04T23:59:26.000Z",
+    "summary": "社内の異動の挨拶では、数十秒話すだけなのに声が震える。キックボクシングの試合では、セコンドの声がまったく聞こえない。 昔…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "47e5ba71e436eb1d",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "「ダイバーズはゴツい」を払拭。シチズン新作は日常使いにちょうどいい",
+    "url": "https://www.lifehacker.jp/article/amazon-citizen-promastermarine-2608/",
+    "publishedAt": "2026-08-04T23:45:00.000Z",
+    "summary": "本格的な夏を迎えると、ダイバーズウォッチが気になる人は多いと思います。ですが、「ゴツい、デカい、重い」と敬遠していませんか？ そんな人にもチェックしてほしいのが、7月16日に発売されたCITIZEN（シチズン）のスポーツウォッチブランド・PROMASTER「MARINEシリーズ」の新モデル。 本格的なダイバーズウォッチの仕様ながら、サイズを抑えめにして使いやすくなっているんです。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "0e5050d95fd9973f",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "ローソンは団地を再生できるか 東日本初「ハッピーローソンタウン」オープン",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130576.html",
+    "publishedAt": "2026-08-04T23:40:00.000Z",
+    "summary": "ローソンは、お店を拠点に世代を超えて誰もが安心して楽しく暮らせるマチづくり構想“ハッピーローソンタウン”の集合住宅型店舗「ハッピーローソンタウン日野高幡台店」を、8月4日にオープンした。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "4aa99d2ef59f330f",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "［インタビュー］「知能が人間だけのものでなくなっていくほど，人間であることは重要になる」―――EVE Onlineを作った男が見る，AIと人間と7つの大罪，そして20年後の世界",
+    "url": "https://www.4gamer.net/games/868/G086893/20260728046/",
+    "publishedAt": "2026-08-04T23:39:53.000Z",
+    "summary": "［インタビュー］「知能が人間だけのものでなくなっていくほど，人間であることは重要になる」―――EVE Onlineを作った男が見る，AIと人間と7つの大罪，そして20年後の世界 編集長：Kazuhisa カメラマン：佐々木秀二 2002年のE3で聞いたとき，一つの太陽系に1000人のプレイヤーキャラクターが存在でき，太陽系の数は実に50...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "99db9e4f693dd2e2",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "バックアップ運用管理製品「Veeam ONE」に深刻な脆弱性",
+    "url": "https://www.security-next.com/188335",
+    "publishedAt": "2026-08-04T23:34:39.000Z",
+    "summary": "Veeam Softwareが提供するバックアップ環境の運用管理製品「Veeam ONE」に深刻な脆弱性が判明した。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "83db48690b49b6fa",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ゲオのレトロゲーム販売がみせた劇的な復活劇　店舗10分の1で売上1.4倍の秘密とは？",
+    "url": "https://www.itmedia.co.jp/news/article/2608/05/2000000384/",
+    "publishedAt": "2026-08-04T23:31:00.000Z",
+    "summary": "ゲオはコロナ禍の2021年にレトロゲームの販売を止めた。再開したのは半年ほど前で、店舗数は21年以前の1割しかない。しかし全体の売上はむしろ増えたという。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "ad8a12239650e621",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "炎天下のハンディファンが熱風になる問題。冷却プレート搭載のこれで解決しよう",
+    "url": "https://www.lifehacker.jp/article/2608-costorypo-pro3-start-1758026317/",
+    "publishedAt": "2026-08-04T23:30:00.000Z",
+    "summary": "猛暑・酷暑対策に最適なポータブルファン「Pro3」は、TEC半導体冷却により最大16℃ものクールダウンを実現。太陽光での補助充電が可能で、電源のない屋外でも長時間の冷感を維持できます。8000mAhの大容量バッテリーを搭載しており、最長36時間の連続稼働が可能。ベルトに引っ掛ける腰掛けスタイルと首掛けの2WAYで使えます。LEDライトも搭載し、夜間や災害時にも頼りになる1台です。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "037dd11789af396c",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "テラデータ、AWS上で対話型分析を実現するAIエージェント「Teradata Data Analyst Agent」を提供",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130402.html",
+    "publishedAt": "2026-08-04T23:30:00.000Z",
+    "summary": "米Teradata（以下、テラデータ）は現地時間3日、エンタープライズグレードの分析エージェント「Teradata Data Analyst Agent」が、AWS Marketplaceから利用可能になったと発表した。これにより、既存のAWS環境にAIによる対話型分析機能を直接組み込めるようになり、価値創出までの期間を短縮し、高度な分析へのアクセスを組織全体に拡大できる。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "da46212663f9d7c2",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "「Langflow」「Tomcat」など脆弱性3件の悪用に注意喚起 - 米当局",
+    "url": "https://www.security-next.com/188342",
+    "publishedAt": "2026-08-04T23:27:26.000Z",
+    "summary": "米サイバーセキュリティインフラストラクチャセキュリティ庁（CISA）は、「Apache Tomcat」に関する脆弱性をはじめ、悪用されている3件の既知の脆弱性について注意を喚起した。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "49272a35fc7f5898",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "今、中高生たちの間で「サウダージ」が死ぬほど流行っているという恐怖｜かんそう",
+    "url": "https://note.com/kansou_blog/n/nd1bb1e8a5aa1",
+    "publishedAt": "2026-08-04T23:26:17.000Z",
+    "summary": "過去にも何回か話題に挙げたんですが、今、中高生（α世代）の間でポルノグラフィティの曲『サウダージ』が死ぬほど流行っているらしい。 どれくらい流行っているのかというと、Mrs. GREEN APPLEやVaundyより流行っているらしい。意味が分からない。 サウダージのリリース年をご存知でしょうか。 2000年 バカな。アルファ...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "0c3fed65bf70ecc3",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "【Excel】上書きしちゃいけないセルはどれ？ 一目で値と数式を常に判別可能にする方法【いまさら聞けないExcelの使い方講座】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/exceltips/2130552.html",
+    "publishedAt": "2026-08-04T23:23:00.000Z",
+    "summary": "Excelで運用している管理表では、入力するセルと、数式によって結果が表示されるセルが混在していることがあります。表の構造を理解しているつもりでも、操作に慣れてくると、直接入力したほうが早いと考えて処理してしまうこともあるでしょう。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "c6d76777529df11e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "高市首相、日銀総裁に「国債買い入れ」要請　積極財政にらみ、金利抑制狙う：時事ドットコム",
+    "url": "https://www.jiji.com/jc/article?k=2026080400781&g=pol",
+    "publishedAt": "2026-08-04T23:20:12.000Z",
+    "summary": "高市首相、日銀総裁に「国債買い入れ」要請 積極財政にらみ、金利抑制狙う 時事通信 経済部2026年08月05日07時32分配信 【図解】高市政権下の日銀を巡る動き 高市早苗首相が５月に植田和男日銀総裁と会談した際、長期金利の上昇を抑えるため、必要に応じて国債を買い入れるよう求めていたことが４日、分かった。金融政...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "7851ef6ab8e550c8",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "【石野純也のモバイル通信SE】ahamo 40GB増量の謎　密かに開幕したサブブランド戦争",
+    "url": "https://www.watch.impress.co.jp/docs/series/ishino/2130207.html",
+    "publishedAt": "2026-08-04T23:20:00.000Z",
+    "summary": "ドコモは、8月1日にahamoやドコモminiなど、一部料金プランのデータ容量を増量した。ahamoは10GB、ドコモminiは10GB、4GBともに2GBを追加している。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "4d97cb07e663acd4",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ウクライナ、ロシア軍の「人間狩り」を非難 無人機で民間人追い回す",
+    "url": "https://www.afpbb.com/articles/-/3647133",
+    "publishedAt": "2026-08-04T23:18:07.000Z",
+    "summary": "この写真にはショッキングな表現、または18歳以上の年齢制限の対象となる内容が含まれます。 ご覧になる場合にはご了承の上、クリックしてください。 【8月5日 AFP】ウクライナ南部ヘルソン市で、ロシア軍の無人機が民間人の男性（52）をを執拗（しつよう）に追い回して自爆する映像が公開されたのを受け、ウクライナは4...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "c923aa34f509e96f",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "持って帰るのが大変な食べ物全集",
+    "url": "https://anond.hatelabo.jp/20260805081211",
+    "publishedAt": "2026-08-04T23:13:51.000Z",
+    "summary": "・ごぼう（長いので） ・ねぎ（長いので） ・ニラ（長いので） ・大根（長いので） ・すいか（大きいので） ・バナナ（当たると痛むので） ・ドリアン（臭いので） ・焼き芋（熱いので） ・卵（割れるので） ・アイス（溶けるので） ・冷凍食品（溶けるので） ・ケーキ（崩れるので） ・炭酸（シュワシュワになるので） ...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "8f9927466077e7ee",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "映画のストーリーの全容を文字起こしした「文字抜き出しサイト」運営者ら4人と運営法人に有罪判決",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2130461.html",
+    "publishedAt": "2026-08-04T23:11:28.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "03b529439d0b25ac",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "AI が未知の攻撃クラスを発明する日 ～ FFRI 鵜飼裕司の Black Hat USA 2026 今年の見どころ",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55871.html",
+    "publishedAt": "2026-08-04T23:10:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "27534b6821fda538",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ドリー・ファンク・ジュニア氏が死去、８５歳、ＷＷＥが発表「誰よりも尊敬を集めた」 | 東スポWEB",
+    "url": "https://www.tokyo-sports.co.jp/articles/-/398316",
+    "publishedAt": "2026-08-04T23:07:26.000Z",
+    "summary": "ＷＷＥは４日（日本時間５日）、ＷＷＥ殿堂入りレスラーのドリー・ファンク・ジュニアが亡くなったと発表した。８５歳だった。日本でも人気を集めたレスラーはマーティ夫人がホスピスケアをしている最中に亡くなったという。 ＷＷＥは公式サイトで「ＷＷＥ殿堂入りを果たし、影響力のあるレスリングトレーナーであったド...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "22a2b57668efa504",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "ANAグループ 株式会社OCSの「OCS FAMILY LINK SERVICE」に不正アクセス、一部の個人情報・データが流出した可能性",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55870.html",
+    "publishedAt": "2026-08-04T23:05:11.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "b8dc2823eda3dedf",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "セシール、再発防止のため業務委託先の見直しを完了し選定基準と管理も強化",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55869.html",
+    "publishedAt": "2026-08-04T23:05:08.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "2791be2f22a84327",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "オーミケンシへのランサムウェア攻撃、リークサイト上に社名等が掲載されるも盗取されたとされる実データは公開されず",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55868.html",
+    "publishedAt": "2026-08-04T23:05:06.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "04331f08d929893e",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "調査データの加工や転用 ～ 大和ハウス工業子会社が受託した地盤調査業務で不適切行為",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55867.html",
+    "publishedAt": "2026-08-04T23:05:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "8213ff175a336183",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "100万ユーザー達成間近のスマートロック「セサミ」現在と今後を代表に聞いた",
+    "url": "https://kaden.watch.impress.co.jp/docs/column/kanhoo/2130485.html",
+    "publishedAt": "2026-08-04T23:04:00.000Z",
+    "summary": "CANDY HOUSEのスマートロック「セサミ(SESAME)」シリーズ。先日は、より薄型化された「SESAME 6 Pro mini」と、日本の古い家に多い引き戸に対応した「SESAME 6 Pro 引き戸」を発表。宅配ボックス製品やMatter対応のハブなど、家の扉以外にも領域を広げている。セサミの現在と今後について、CANDY HOUSE創業者・CEOのジャーミンさんに聞いてきました。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "c2bcac796bfbe81c",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "にがりの代わりに“絹豆腐でOK”。台湾のひんやりスイーツ「豆花」のつくり方",
+    "url": "https://www.roomie.jp/2026/08/1835784/",
+    "publishedAt": "2026-08-04T23:00:31.000Z",
+    "summary": "※本記事は2025年6月1日に公開された記事を再編集して公開しています。 Text and Photographed by 松本日奈 料理家の松本日奈さんが、キッチンにまつわるあれこれをつづる連載「キッチンにひと工夫」。 今回は、台湾の定番スイーツのレシピをご紹介します。 台湾に行ったら必ず食べる定番スイーツ 「豆花」という台湾のスイーツをご存じですか？ プリンのようなつるんとした食感と控えめな甘",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "6eea99f010232869",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "VPS.org の one-click deployment テンプレートに複数の脆弱性",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55866.html",
+    "publishedAt": "2026-08-04T23:00:27.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "2790bb8c6c29e751",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "総務省が10月に全国でCTF開催 ～ 全国9会場とオンライン",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55865.html",
+    "publishedAt": "2026-08-04T23:00:24.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "c560b64f6f724b06",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "経営幹部や役員がサイバー攻撃後に処分を受けたと50%が回答 ～ フォーティネット調査",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55864.html",
+    "publishedAt": "2026-08-04T23:00:20.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "6f811f512bc8fa93",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "委託先やグループ会社の脅威をWebとメールで即座に共有、NTTドコモビジネスが「docomo business RINK WANセキュリティ」に新機能",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55863.html",
+    "publishedAt": "2026-08-04T23:00:16.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "48ed02c33e3a4f30",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "クルーズ船で「勇者」が船出 ～ 52社100名が参加、Cloudbaseユーザー会開催報告",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55862.html",
+    "publishedAt": "2026-08-04T23:00:13.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "6893fe12adca5226",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "GMOサイバーセキュリティ byイエラエが「DEF CON 34」の宇宙サイバーセキュリティ専門エリア「Aerospace Village」にブース出展",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55861.html",
+    "publishedAt": "2026-08-04T23:00:09.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "c81a559c4a0b5685",
+    "source": "ScanNetSecurity",
+    "sourceUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
+    "title": "Ruby on Rails の重大脆弱性「KindaRails2Shell」への「GMOサイバー攻撃ネットde診断 ASM」の対応、Rails の利用を検出した顧客に個別案内",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/08/05/55860.html",
+    "publishedAt": "2026-08-04T23:00:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:40.322Z"
+  },
+  {
+    "id": "3f671ed0af947518",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "Gemini“ヘビーユーザー”が1年で10倍に　「平均年齢高い、IT本業じゃない」首都高が実践したAI活用推進ノウハウ",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2608/05/2000000383/",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "月100回以上Geminiを使う首都高速道路の従業員が、1年で22人から224人に急増した。転機は対面・終日のワークショップと「誰一人取り残さない」全社推進、そして「Gemini Notebook」の存在だった。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "a2599ba5ca20c5e9",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "AI活用で浮上する「導入済みERP」の課題とは？　中堅企業のERPリプレース、新規導入を上回る",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news030.html",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "ノークリサーチによると、中堅・中小企業のERP市場で、中堅企業だけはリプレースの規模が新規導入を上回る。なぜ中堅企業はERPを入れ替えるのか。導入済みERPの課題とは。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "fd805e7863a36c9c",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "Google、子どもの年齢に応じた安全機能を提供するための「Google Play Age Signals API」を全世界に展開",
+    "url": "https://codezine.jp/article/detail/29227",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "773d1f4505b16fc2",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "GitHub、CopilotのコードレビューにおけるエージェントスキルとMCPサーバーの連携を正式リリース",
+    "url": "https://codezine.jp/article/detail/29228",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "e5e3df47d806c8f6",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "Azure DevOpsの「Commit Search」機能が正式リリース",
+    "url": "https://codezine.jp/article/detail/29229",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "3922d8351a5521e7",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "TypeScriptを実行可能なネイティブバイナリにコンパイルする「scriptc」公開",
+    "url": "https://codezine.jp/article/detail/29230",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "1a56464bef1fc59c",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "AWS、7月27日週に発表した新機能をまとめて紹介",
+    "url": "https://codezine.jp/article/detail/29231",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "d77e80eca8e1d8b3",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "楽天、居住地以外の地域とつながる「楽天ふるさと住民」　27年春開設",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130528.html",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "楽天グループは、総務省が創設を目指す「ふるさと住民登録制度」の実装を見据え、ポータルサイト「楽天ふるさと住民」を2027年春に新設する。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "fa42ea8e72e3afe8",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "夜型男性は後天性早漏になりやすい",
+    "url": "https://gigazine.net/news/20260805-night-owls-higher-risk-premature-ejaculation/",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "夜更かしを好む男性は、後天性早漏を発症しやすく、早起きの男性よりも症状が重い傾向にあることが最新の研究で明らかになりました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "56e40119fdd03f91",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "【毎日書評】「頑張らなくていい」絶望の思想家・シオランの言葉が心を軽くする",
+    "url": "https://www.lifehacker.jp/article/2608-book_to_read-2006/",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "【毎日書評】『生まれるのも生きていくのもめんどくさい！ 超訳 シオランの言葉』（済東鉄腸 編訳、飛鳥新社）より、「頑張らなくていい」絶望の思想家・シオランの言葉が心を軽くする理由を解説します。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "8d3f5f9adb745756",
+    "source": "ITmedia エンタープライズ",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+    "title": "「日本IBMのNHK案件失敗は既定路線だった」　メインフレーム大撤退時代のリスクと教訓",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news034.html",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "基幹システムを所有するのはユーザー企業だが、構築の責任はベンダーが負う――。NHKと日本IBMの訴訟は、この歪んだ構造が抱える火種を改めて浮かび上がらせた。SIerの大規模プロジェクトのPMを長年務めた筆者が、メインフレーム移行プロジェクトが抱えるリスクと、IT部門が学ぶべき教訓を明らかにする。",
+    "fetchedAt": "2026-08-05T06:14:35.029Z"
+  },
+  {
+    "id": "bce8c5cec097ee2e",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "リコージャパンとナレッジワークが資本業務提携、社内6000人の実践ノウハウを生かした「AI商談記録 for RICOH」を展開へ",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130551.html",
+    "publishedAt": "2026-08-04T23:00:00.000Z",
+    "summary": "リコージャパン株式会社は4日、株式会社ナレッジワークと資本業務提携契約を結んだ。出資金額は明らかにしていないが、持ち分法適用に合致しないマイノリティ出資で、すでに7月に資本業務提携を実施済みだ。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "cd8fe8be11c7553d",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【特集】 メモリ8GBで仕事なんて無理……そう思っていた時期が僕にもありました ～3週間、メモリ8GBで仕事した結果",
+    "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2130575.html",
+    "publishedAt": "2026-08-04T22:57:44.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "d49800d73ae327bd",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "M365 Copilotのための「Teams活用術3選」　北大DX業務推進室が解説",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2608/05/2000000379/",
+    "publishedAt": "2026-08-04T22:55:00.000Z",
+    "summary": "北海道大学のDX業務推進室が、米MicrosoftのAIサービス「Microsoft 365 Copilot」を活用しやすくするための「Microsoft Teams」の使い方を紹介している。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "55f1eccb108595e5",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "スタックプルリクエスト入門 — gh stackの使い方と、AIエージェントの並列実装での活用 - Findy Tech Blog",
+    "url": "https://tech.findy.co.jp/entry/2026/08/05/070000",
+    "publishedAt": "2026-08-04T22:49:33.000Z",
+    "summary": "こんにちは。ファインディ株式会社でプリンシパルエンジニアをしている戸田です。 先日、GitHubのスタックプルリクエスト（Stacked Pull Requests）がpublic previewになりました。依存し合う変更を複数のプルリクエストに分けたまま、順番に積み上げてレビュー・マージできる機能です。 この記事では、スタックプルリク...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "c9e0dd21352e1c6c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "小学館・マンガワン第三者委員会調査報告書から見る、『常人仮面』連載の経緯｜おん",
+    "url": "https://note.com/sunbearsan/n/n60974e84f47c",
+    "publishedAt": "2026-08-04T22:49:13.000Z",
+    "summary": "8月3日に公開された、マンガワンに関する第三者委員会調査報告書より、『堕天作戦』の連載終了から『常人仮面』連載に至るまでの経緯を時系列で整理しました。 本記事は、報告書の内容を把握・整理することを目的としたものであり、独自の見解を加えるものではありません。一部簡略化や要約を行っているため、詳細につい...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "81f55d0dac6ee40b",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "【アップデート情報】窓の杜収録ソフト　8月5日　～「Files」「おかん for Outlook」「DeInput」など",
+    "url": "https://forest.watch.impress.co.jp/docs/update/library/2130535.html",
+    "publishedAt": "2026-08-04T22:30:00.000Z",
+    "summary": "PDFファイルビューワー",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "559e30de0504bb6a",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "OpenAI、Appleの提訴に全面反論――「営業秘密は持っていないし、欲しくもない」",
+    "url": "https://www.itmedia.co.jp/news/article/2608/05/2000000387/",
+    "publishedAt": "2026-08-04T22:16:06.000Z",
+    "summary": "OpenAIは、Appleが提起した営業秘密の不正取得訴訟に対し、公式ブログで全面的に反論した。Apple側の誤連絡や連絡不備をメールのやり取りを添えて指摘し、営業秘密の所有や利用を強く否定。一方、Appleは被告らの証人尋問や端末の複製データの提出などを求める仮処分を申し立てており、双方の主張が対立している。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "bd356ff3e9cc93ec",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "椎名林檎が17歳で丸の内サディスティックを書けたのか分からなさすぎる 上京して6年目だけど渋谷怖いくらいしか書けない→自分が感じた事を歌詞にすると…大喜利が始まる",
+    "url": "https://togetter.com/li/2729169",
+    "publishedAt": "2026-08-04T22:13:15.000Z",
+    "summary": "椎名林檎が17歳で丸の内サディスティックを書けたのか分からなさすぎる 上京して6年目だけど渋谷怖いくらいしか書けない→自分が感じた事を歌詞にすると…大喜利が始まる",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "c1dd20787a263c3d",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "夏の暑さに防熱シールドカーテン　閉めても暗くならない",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130308.html",
+    "publishedAt": "2026-08-04T22:04:00.000Z",
+    "summary": "カズマは、独自開発のアルミと糸のハイブリッドテキスタイル「eco-fine」を進化させた高機能防熱シールドカーテン「HEAT BLOCK SHIELD(ヒートブロックシールド)」を、8月2日に応援購入サイト「Makuake」にて公開した。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "c1f78366a8949be1",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "もしガリレオの伝え方がうまかったら——地動説は「罪」にならずに済んだのか",
+    "url": "https://studyhacker.net/daihei-yamamoto-interview403",
+    "publishedAt": "2026-08-04T22:01:00.000Z",
+    "summary": "スマートフォンの地図アプリで店を探し、フードデリバリーで夕食を頼む。そんな何気ない日常の源流には、じつは「伝え方」に失敗したひとりの天才がいます。『もしガリレオの伝え方がうまかったら』（かんき出版）の著者で、戦略コンサルタントの山本大平さんに聞くインタビューの最終回は、書名の謎解きから。もしガリレオが「伝え方のうまい人」だったら、地動説をどう伝えていたのでしょうか。山本さんに「論理の限界」、そしてAI時代のコミュニケーション論まで、一気に伺いました（全3回）。 取材・文／STUDY HACKER編集部 【プロフィール】 山本大平（やまもと・だいへい） 戦…",
+    "fetchedAt": "2026-08-05T06:14:17.417Z"
+  },
+  {
+    "id": "3c334af5ee15951c",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "コーヒーショップ店主が愛用する約500円の文房具。消耗品代も収納スペースも減らせました",
+    "url": "https://www.roomie.jp/2026/08/1837734/",
+    "publishedAt": "2026-08-04T22:00:54.000Z",
+    "summary": "シラクマ コーヒー器具・デザイン雑貨・ガジェットなどを中心にレビュー。使い心地の良さと佇まいを大切にしていて、機能とデザインが結びついた、ミニマルで美しいものに惹かれます。京都で文章を書いたり編集したりしながら、スペシャルティコーヒーショップ｢ネオキ｣を運営しています。 この人物の記事一覧へ コーヒー器具が増えると、それに合わせて増えていくのがペーパーフィルター。 エアロプレスをはじめ、最近は専用",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "ca92c6ea8e173f48",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "反ワクチン情報を信じる人の60％以上はワクチンを接種──東大と東北大が3万人を調査",
+    "url": "https://www.itmedia.co.jp/news/article/2608/05/2000000375/",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "東京大学国際高等研究所新世代感染症センターの古瀬祐気教授と東北大学大学院医学系研究科の田淵貴大准教授の研究チームが国際科学誌「Frontiers in Public Health」に発表した論文「Vaccine-related misinformation and attitude toward COVID-19 vaccination in Japan」は、ワクチンに関する誤情報をどの程度信じているかが新型コロナワクチンの接種意向とどう関連しているかを解析した研究報告だ。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "66da71a720f92e00",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "「私がウダウダしゃべるより聞きやすい」　三菱重工、決算説明に“AIジュリア”起用の本音",
+    "url": "https://www.itmedia.co.jp/business/articles/2608/05/news042.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "三菱重工が、決算説明にAIナレーター「ジュリア」を起用した。導入の狙いを問われた西尾浩CFOが、笑顔で語った理由とは。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "b5048ec54e86208a",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "「日本人が海外へ行けない」を打ち破る　シンガポール発LCCが仕掛ける“逆張り戦略”",
+    "url": "https://www.itmedia.co.jp/business/articles/2608/05/news025.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "1ドル160円超の円安と燃油高により「海外旅行離れ」が進む日本市場。シンガポール航空傘下のLCC「スクート」が羽田・那覇線を相次ぎ新設する“逆張り攻勢”を見せている。なぜ円安下でも拡大を続けるのか。「若者・女性向け」を脱した中小企業などのビジネス需要獲得、最新規格「NDC」を活用したチャネル戦略、小型機投入による130都市網の構築など、安武秀敏・日本支社長に日本市場攻略の戦略を聞いた。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "7e6751158da7157c",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "【8/5まで】AIを活用した開発について大調査【Amazonギフトカードが当たる】",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news037.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "現在、「AIを活用した開発業務」に関する読者調査を実施しています。回答者の中から抽選で3名さまにAmazonギフトカード500円分をプレゼントします。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "08cad1f879833680",
+    "source": "ITmedia AI+",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "title": "中小企業で「AI活用を回す」には？　JAPAN AIと大塚商会らが考える支援策",
+    "url": "https://kn.itmedia.co.jp/kn/articles/2608/05/news035.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "生成AIの課題は「導入」から「定着」へと移っている。AIツールが社内に広がらず成果につながらない中堅・中小企業に求められることとは。",
+    "fetchedAt": "2026-08-05T06:14:11.055Z"
+  },
+  {
+    "id": "b73d081e95059c4c",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "ユースケースの書き方を解説した名著が復刊、『ユースケース実践ガイド［復刻版］』発売",
+    "url": "https://codezine.jp/article/detail/28986",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "30bc7ab10f9e452c",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "人間はAIが協力すると予想していても裏切りやすいことが実験で判明",
+    "url": "https://gigazine.net/news/20260805-human-with-ai-agents/",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "スペインのジャウメ1世大学の研究チームが、「人間は相手が人間ではなくプログラムだと分かると、相手が協力するとわかっていても自分は協力せずに利益を得ようとする傾向が強まる」ことを実験で明らかにしました。プログラムが動かす人工エージェントの利益がたとえ実在する人間に渡る場合でも、この傾向は変わりませんでした。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "639b08014e4e097f",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "「好かれる」より「嫌われない」。職場で \"反感を買わない\" ための4つの会話の技術",
+    "url": "https://studyhacker.net/no-enemy-workplace",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "感じがよく、誰からも好かれる人はうまくいく。それはそうです。話題が豊富だったり、機転が利いたり、余裕があったり。あるいは、おしゃれだったり。そんなことは、ここで言うまでもありません。 では、そんな人になれというのか。実際のところ、「好かれる人」になるのは簡単ではありません。むしろ、好かれることに意識を向けすぎるほど、自分がすり減っていきます。 じつは、人間関係を重くしているのは、「好かれていないこと」よりも、「無用な反感を持たれてしまうこと」かもしれません。 この記事では、「好かれる人」を目指さなくても職場の摩擦を減らせる考え方と、今日から試せる具体的な…",
+    "fetchedAt": "2026-08-05T06:14:17.417Z"
+  },
+  {
+    "id": "88a7fb7ed97f86b3",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "外出時でも快適な入力へ。キーボードに「左右分割」という新たな可能性",
+    "url": "https://www.lifehacker.jp/article/2608-keychron-orca-echo-new-possibility/",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "5201554cffbb7dac",
+    "source": "ITmedia エンタープライズ",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+    "title": "脆弱性の物量に圧倒される前に　地殻変動の中だからこそ押さえておきたい3つの対策",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news007.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "フロンティアAIの登場で、検出される脆弱性の量は一気に膨れ上がった。全てをひとまとめに捉えれば、物量に圧倒されて手が止まる。限られた人員で対応を進めるために、企業はどの観点で対策を切り分ければよいのか。",
+    "fetchedAt": "2026-08-05T06:14:35.029Z"
+  },
+  {
+    "id": "a7e53d3f792a6776",
+    "source": "ITmedia エンタープライズ",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+    "title": "AIエージェントの全社展開、どうやれば成功する？　「点の成功」を「面の変革」に変える道筋",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news011.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "AIエージェントの全社展開時は野良ボットや人材不足など新たな壁に直面します。最終回となる本稿は、1部署の成果を全社に広げるCoE体制や育成戦略、M365による統制、経営層に示せるROIの可視化手法を解説します。",
+    "fetchedAt": "2026-08-05T06:14:35.029Z"
+  },
+  {
+    "id": "7a06bfc1cb69e77f",
+    "source": "ITmedia エンタープライズ",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/enterprise.xml",
+    "title": "クラウド市場、四半期1430億ドル超えで8年ぶりの高水準に　けん引したネオクラウド事業者は？",
+    "url": "https://www.itmedia.co.jp/enterprise/articles/2608/05/news028.html",
+    "publishedAt": "2026-08-04T22:00:00.000Z",
+    "summary": "Synergy Research Groupは、2026年第2四半期の企業向けクラウドインフラサービス支出が1434億ドルに達したと発表した。前年同期比の成長率は43％と、11四半期連続で上昇した。",
+    "fetchedAt": "2026-08-05T06:14:35.029Z"
+  },
+  {
+    "id": "454e93309c55b415",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "Windows 11のタスクバー検索ボックスを最速級検索ツール「Everything」に置き換え可能に／「EverythingToolbar」v3.0.0が公開、1年ぶりのメジャーアップデート",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130447.html",
+    "publishedAt": "2026-08-04T21:45:00.000Z",
+    "summary": "タスクバー統合の高速なファイル検索ツール「EverythingToolbar」が8月4日（日本時間）、v3.0.0へとアップデートされた。2025年8月以来、1年ぶりのメジャーアップデートとなる。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "33eb67db99c732a3",
+    "source": "Think IT",
+    "sourceUrl": "https://thinkit.co.jp/rss.xml",
+    "title": "「Ruby」の「Gosu」でデスクトップゲーム「Color」を開発してみよう",
+    "url": "https://thinkit.co.jp/article/39410",
+    "publishedAt": "2026-08-04T21:30:00.000Z",
+    "summary": "はじめに この連載では、さまざまなプログラミング言語やライブラリで同じゲームを開発することで、容易にそのプログラミング言語に入門します。 第9回の今回はプログラミング言語「Ruby」を使って、次のURLのようなColorゲームを作ります。こちらからアセットをダウンロードしておいてください。 Colorゲームについて Colorゲームの内容は第1回でも解説した通り、ゲームを開始したら、赤緑青の色ブロックをクリックします。すると背景色にその色が混ぜられるので、どんどんクリックして真っ白な背景にしていこうというゲームです。 プログラミング言語について プログラ…",
+    "fetchedAt": "2026-08-05T06:14:38.517Z"
+  },
+  {
+    "id": "1561603dbea5726c",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "ネットアップ、2027年度のテーマは「Data Impact Acceleration Initiative」　AI活用を成果へつなぐ3つの方針を発表",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130558.html",
+    "publishedAt": "2026-08-04T21:30:00.000Z",
+    "summary": "ネットアップは、2027年度（2026年5月～2027年4月）事業戦略について説明。同社の斉藤千春社長は、「2027年度は、『Data Impact Acceleration Initiative』をテーマに取り組む。2027年度は『躍進』の年に位置づけており、国内市場シェアで、ぶっちぎりのナンバーワンを目指す。昨年よりも確度を高めたぶっちぎりになる」などと述べた。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "6e0f1370f511363e",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "Googleパスワードマネージャーに脆弱性、マルウェアでパスキー保護を突破可能に",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2130538.html",
+    "publishedAt": "2026-08-04T21:17:40.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "e9aa5dc9a1818a40",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "AIが27年眠っていた脆弱性を発見する時代に――「パッチ適用の優先度を見直すべき」とセキュリティ専門家",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130504.html",
+    "publishedAt": "2026-08-04T21:15:00.000Z",
+    "summary": "EYストラテジー・アンド・コンサルティング株式会社は3日、AI時代に求められるパッチマネジメントをテーマとした説明会を開催。同社 ストラテジック インパクト パートナーの西尾素己氏が、脆弱性管理の動向や課題、そして今後求められる対応について語った。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "dc72361ab32d15c4",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "“Suicaが使えない”クレカ・QR専用改札機に賛否　「問題なく運用できる」「交通系ICの方がスムーズ」",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/05/news047.html",
+    "publishedAt": "2026-08-04T21:00:00.000Z",
+    "summary": "東京メトロと高見沢サイバネティックスは7月31日より銀座線上野駅でクレジットカードやQRコード専用の改札機を設置した。先行する銀座駅に続く取り組みで交通系ICカードは利用できない。ネット上では読み取り速度への不満や混雑への懸念がある一方、快適性への期待も存在する。この改札機の何が注視されているのか――。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "a07a88a1ac690d2d",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "運動は週1回にまとめても週3回とほぼ同じように体脂肪を減らせるとの研究結果",
+    "url": "https://gigazine.net/news/20260805-once-weekly-exercise-fat-loss/",
+    "publishedAt": "2026-08-04T21:00:00.000Z",
+    "summary": "仕事や家事で週に何度も運動する時間を確保できない人にとって、1日でまとめて運動しても週に何度も運動するのと同じ効果が得られるのかは気になるところです。香港大学のパルコ・シウ氏らの研究チームが、週75分の早歩きによる高強度インターバルトレーニング(HIIT)を週1回にまとめる場合と週3回に分ける場合で、体脂肪の減少量に違いがあるのかを調べた結果を報告しています。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "c929b4d830b09ebd",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ESR、耐黄変PUコーティングが施されたiPhoneケース発売",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130519.html",
+    "publishedAt": "2026-08-04T21:00:00.000Z",
+    "summary": "ESRは、黄ばみが起きにくいクリアケース「ESR Classic ハイブリッドマグネットケース」を発売した。販路はAmazonとESR公式サイト。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "968e8de79998c23d",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "AIデータセンターに求められる新しいパワーアーキテクチャとは",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130260.html",
+    "publishedAt": "2026-08-04T21:00:00.000Z",
+    "summary": "ローム株式会社は7月28日、AIサーバー・データセンター市場の最新動向と省電力化に向けたソリューションに関するメディア向けセミナーを開催した。セミナー前半では、デルタ電子株式会社の華健豪氏（代表取締役社長）が、AIおよびデータセンター関連の市場概況について説明したので、その内容の一部を紹介する。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "b5e7590b23b3dd34",
+    "source": "Think IT",
+    "sourceUrl": "https://thinkit.co.jp/rss.xml",
+    "title": "LFのフェローとドコモイノベーションズのCEO、オープンソースへの貢献を増やすためのアイデアを語る＆写真で見るKubeCon Europe 2026",
+    "url": "https://thinkit.co.jp/article/39430",
+    "publishedAt": "2026-08-04T20:59:00.000Z",
+    "summary": "KubeCon＋CloudNativeCon Europe 2026の取材記事の最後となる本稿ではカンファレンスを振り返りつつ、日本のエンタープライズ企業がオープンソースの消費者から還元を行う立場になるためには何が必要か？ について、The Linux Foundationの江藤圭也氏とNTTドコモの子会社で北米におけるドコモのR＆D拠点であるドコモイノベーションズのCEO、秋永和計氏による対談形式で語ってもらったものを紹介する。 秋永和計氏はドコモイノベーションズのCEOとして、オープンソースだけではなくAWSやGoogleなど北米で開催されるクラウド…",
+    "fetchedAt": "2026-08-05T06:14:38.517Z"
+  },
+  {
+    "id": "b20f6d0b20f368ae",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "ワールド、AIがデザインした服完売　美意識を言語化「センスない」覆す - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUC195F30Z10C26A5000000/",
+    "publishedAt": "2026-08-04T20:43:10.000Z",
+    "summary": "アパレル大手のワールドが異例の新ブランド「OO（オーオー）」を立ち上げた。人間のセンスの産物である服飾デザインに生成AI（人工知能）を全面的に起用し、完売する商品も生んだ。当初は「センスゼロ」と酷評されたAIデザイナーを、いかに変身させたのか。ビジネスへのAI活用には様々なハードルがあります。企業が試行...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "e83e55772c5d6ce6",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "土木業界にいると日本共産党に批判的になる→それよりも本当に嫌っているのは民主党かもしれない「道の駅ですらこの怒りっぷりなの……。」",
+    "url": "https://togetter.com/li/2729099",
+    "publishedAt": "2026-08-04T19:33:21.000Z",
+    "summary": "ふぇー@道 @festiva1202 土木の世界にいると、共産党は必然的に嫌いになるわなあ。ダムでも高速道路でも建設反対とあの手この手で邪魔ばかりしてくるんだから。 2026-08-02 13:11:36 雀の餌やり @s6ZEXwllzbaWQDg @festiva1202 九州球磨川の川辺川ダム、60年前から反対、反対。 その結果、2020年7月に大氾濫して死者行方...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "b34c2580a22f2cd9",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "なぜ、ループエンジニアリングの普及がウォーターフォール開発を復活させるのか？",
+    "url": "https://zenn.dev/pdfractal/articles/88da9fe63cca65",
+    "publishedAt": "2026-08-04T19:06:01.000Z",
+    "summary": "はじめに 生成AIによるソフトウェア開発は、当初、自然言語で作りたいものを伝えればAIがコードを書いてくれる、バイブコーディングの方向へ進むと考えられていました。そこでは、厳密な仕様書や詳細な計画を最初に用意せず、生成された画面や動作を見ながら、その場で次の指示を出していきます。 しかし、AIコーディン...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "f8499c318eb5afcc",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "水を飲まずにビールを飲むと倒れる「ふらつくビアグラスbyよなよなエール」",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130539.html",
+    "publishedAt": "2026-08-04T18:36:42.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "e3251a48630c98fd",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "Claude can edit your photos now — and it makes Darktable feel like Lightroom",
+    "url": "https://www.makeuseof.com/claude-edit-photos-makes-darktable-like-lightroom/",
+    "publishedAt": "2026-08-04T18:18:44.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "8f0f0bda1dc007e8",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "玄関先で物置を整理していたらAmazonの配達が来たので「ごくろうさまです～」と受け取ろうとしたら、ガン無視で黙々と荷物をポストに突っ込んだ→配達員の対応に怒る人のポストに意見さまざま",
+    "url": "https://togetter.com/li/2729116",
+    "publishedAt": "2026-08-04T17:55:26.000Z",
+    "summary": "かきを @easy_2_smile Amazonの配達が来たんだけどさ、たまたま僕が玄関先で物置の整理してたから、かきをスマイルで「ごくろうさまです～」って感じで受け取ろうとしたら、ガン無視しやがって黙々と荷物をポストに突っ込んでんの。 なんか頭きて「目の前に居るんだから手渡ししろよ！」つっても聞こえないふりしながら...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "5e16b3e3aa13776b",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "婚活憑かれ - 婚活憑かれ | ヤンマガWeb",
+    "url": "https://yanmaga.jp/viewer/comics/%E5%A9%9A%E6%B4%BB%E6%86%91%E3%81%8B%E3%82%8C/f51eb71786eaaa082d9065c525b38cf7?cid=06Z1100000000950FREE",
+    "publishedAt": "2026-08-04T16:01:10.000Z",
+    "summary": "婚活憑かれ。恋人の名のもとに適齢期を消費され、見事捨てられた里奈（35）。次はゼッタイ幸せになる－－そんな里奈の前に現れたのは、凄腕婚活サポーターだったが・・・。",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "86c110c4f27c73c0",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "-AIが認証し、AIが認証を書く- AI Agent 時代の認証ライブラリ Better Authを理解する",
+    "url": "https://speakerdeck.com/sc30gsw/aigaren-zheng-si-aigaren-zheng-woshu-ku-ai-agent-shi-dai-noren-zheng-raiburari-better-authwoli-jie-suru",
+    "publishedAt": "2026-08-04T15:53:45.000Z",
+    "summary": "-AIが認証し、AIが認証を書く- AI Agent 時代の認証ライブラリ Better Authを理解する",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "69d4a559754bb285",
+    "source": "Publickey",
+    "sourceUrl": "https://www.publickey1.jp/atom.xml",
+    "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
+    "url": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+    "publishedAt": "2026-08-04T15:38:32.000Z",
+    "summary": "1Passwordは、単一のダッシュボード画面からAnthropicのCalude、OpenAIのChatGPT、AnysphereのCursorなど複数のAIサービスに対する支出状況をリアルタイムに表示、管理できる新機能を発表しました。 AI is priced by consumption. Every prompt and model call compounds the bill.This is the problem we are solving with AI S……",
+    "fetchedAt": "2026-08-05T06:14:13.253Z"
+  },
+  {
+    "id": "666dadcf90a68170",
+    "source": "Think IT",
+    "sourceUrl": "https://thinkit.co.jp/rss.xml",
+    "title": "「KDE Plasma 6.7.4」リリース ─ KWinやDiscover、ログイン画面の不具合を修正",
+    "url": "https://thinkit.co.jp/news/39432",
+    "publishedAt": "2026-08-04T15:37:33.000Z",
+    "summary": "「KDE Plasma 6.7.4」リリース ─ KWinやDiscover、ログイン画面の不具合を修正 GPUリセット後の処理、SpectacleのQRコード読み取り、スクリーンキャストも改善 kawahara 2026年8月5日 シェア ポスト はてブ 優先するニュース提供元に追加 KDEは8月4日(現地時間)、デスクトップ環境「KDE Plasma 6.7.4」をリリースした。 「KDE Plasma 6.7.4」の主な変更点は次の通り。 「KDE 6.7.4」は、Webサイトから入手できる。 (川原 龍人/びぎねっと) [関連リンク] リリースア…",
+    "fetchedAt": "2026-08-05T06:14:38.517Z"
+  },
+  {
+    "id": "abf7acc6fd60f6ed",
+    "source": "Publickey",
+    "sourceUrl": "https://www.publickey1.jp/atom.xml",
+    "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
+    "url": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+    "publishedAt": "2026-08-04T15:36:16.000Z",
+    "summary": "マイクロソフトは、Windowsアプリケーションが遅くなる原因の調査分析をAIに依頼できるツール「Windows Performance Analyzer MCP」（WPA MCP）のアーリープレビューを発表しました。 GitHub Copilot CLIがトレース分析を支援 Windowsアプリケーションの動作が遅い場合、そのボトルネックがCPUの処理にあるのか、ファイル処理にあるのか、それともネットワーク入出力にあるのか、原因を調査するには「Windows Perform……",
+    "fetchedAt": "2026-08-05T06:14:13.253Z"
+  },
+  {
+    "id": "f4e5888292d832a5",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「閉店のお知らせ」Instagramで数か月〜1年ほど前にオープンしたオシャレ系カフェの投稿を見るが、多くがなけなしのカネを全ツッパした系の店で厳しさを感じる",
+    "url": "https://togetter.com/li/2729076",
+    "publishedAt": "2026-08-04T15:11:28.000Z",
+    "summary": "ﾎﾞｳﾞ @cornwallcapital インスタで「閉店のお知らせ」と言うポストが流れてくると、その垢を遡ってみるのだが、大体が数ヶ月〜1年程度前にオープンのオシャレ系カフェ等の飲食店で、多くが金持ちの道楽ではなく、なけなしのカネを全ツッパして長年の夢をやっと叶えた系の店なのだが、この厳しさはもっと周知されるべきだ...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "7d27d19fe54f812d",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "税は社会を支える会費なのか？ ― 国家＝家計フレームから脱却する財政設計 : システム設計視点の行動経済学 (10)",
+    "url": "https://qiita.com/maskot1977/items/53a83521d61331e12e7f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T15:02:48.000Z",
+    "summary": "user: 「システム設計視点の行動経済学」、第10回を始めましょう。まず前回の復習として、 人手不足なのに働き控え？ 「年収の壁」をシステム設計から考える : システム設計視点の行動経済学 (9) https://qiita.com/maskot1977/items/7...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
+    "id": "3d7fa1fcee633217",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "[スタパ齋藤のApple野郎]Apple Watchの汗対策に、通気性「網戸レベル」の激安バンドを試してみた",
+    "url": "https://k-tai.watch.impress.co.jp/docs/column/stapaapple/2130529.html",
+    "publishedAt": "2026-08-04T15:00:00.000Z",
+    "summary": "夏だ！ 太陽だ！ 入道雲だ！ そしてApple Watchのバンドの汗がキモチワル～い！ 猛暑だし。俺、汗かきだし。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "001a0fb1ba3eafb8",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "[本日の一品]約7000円でANC付きだしスタイリッシュ、無印良品のワイヤレスヘッドホン",
+    "url": "https://k-tai.watch.impress.co.jp/docs/column/todays_goods/2130389.html",
+    "publishedAt": "2026-08-04T15:00:00.000Z",
+    "summary": "無印良品の新作として、ワイヤレスオーディオ機器が5機種発表されました。これまで有線イヤホンが何度かリリースされたことはあったものの、左右完全分離型のワイヤレスイヤホンやヘッドホンを同社がリリースするのは、筆者の記憶にある限り（少なくとも日本国内向けとしては）初めてのはず。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "b7c1660ecb5d4006",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "[みんなのケータイ]日本発売前のNothing Phone (4b)をロンドンのストアでチェック、技適を確認",
+    "url": "https://k-tai.watch.impress.co.jp/docs/column/minna/2130383.html",
+    "publishedAt": "2026-08-04T15:00:00.000Z",
+    "summary": "Nothingから初の「b」の型番のついたモデル「Phone (4b)」が海外で発売になっています。今回はロンドンのNothing Storeを訪問し、実機を見てきました。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "c671e9085e481285",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「八街」　←　やち-また じゃなくて や-ちまた だった",
+    "url": "https://anond.hatelabo.jp/20260804233950",
+    "publishedAt": "2026-08-04T14:40:51.000Z",
+    "summary": "これ大発見だったわ 八（やっつ→やつ→やち）街（まち→また） みたいに訛った感じだと思ってたんだが 八（や）街（ちまた） が正解だった 「ちまた」っていうのはあのちまたで話題のちまた えーそれって「巷」しかなくないか！？って思ったけど字は「巷・岐・衢・街・場・阡・巷陌」とかいっぱいあるみたいだ 道の分岐...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "ae20a705aeac80e9",
+    "source": "Think IT",
+    "sourceUrl": "https://thinkit.co.jp/rss.xml",
+    "title": "「Samba 4.24.5」「4.23.11」などリリース ─ ADドメイン乗っ取りなど6件の脆弱性を修正",
+    "url": "https://thinkit.co.jp/news/39433",
+    "publishedAt": "2026-08-04T14:23:24.000Z",
+    "summary": "「Samba 4.24.5」「4.23.11」などリリース ─ ADドメイン乗っ取りなど6件の脆弱性を修正 DRSのメモリリーク、CephFS共有利用時のsmbdクラッシュも修正 kawahara 2026年8月4日 シェア ポスト はてブ 優先するニュース提供元に追加 Samba Teamは7月28日(現地時間)、「Samba 4.24.5/4.23.10/4.22.11」をリリースした。また、8月3日(現地時間)にはSamba 4.23系列の最新版となる「Samba 4.23.11」をリリースしている。 「Samba」は、Windowsのファイル共有…",
+    "fetchedAt": "2026-08-05T06:14:38.517Z"
+  },
+  {
+    "id": "a1c09a54aa70d7ba",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "「権限の低いエージェントをハックして上位権限でコードを実行する」というGoogle ADKのハッキング手法が発見される",
+    "url": "https://gigazine.net/news/20260804-agent-development-kit-attack/",
+    "publishedAt": "2026-08-04T14:00:00.000Z",
+    "summary": "Googleはエンタープライズ規模の開発をサポートするエージェント開発フレームワーク「Agent Development Kit(ADK)」を公開しています。このADKに「権限の低いエージェントをハックして上位権限でコードを実行する」という攻撃を実行可能な脆弱(ぜいじゃく)性が存在することが、セキュリティ企業のPillarによって発見されました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "7f76dcbe4c80108b",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "60年前に「死んだサンゴ礁」と判断された海域で豊かなサンゴ生態系が発見される",
+    "url": "https://gigazine.net/news/20260804-benin-coral-reefs/",
+    "publishedAt": "2026-08-04T13:50:00.000Z",
+    "summary": "1960年代初頭に行われた調査で西アフリカ・ベナン沖のサンゴ礁と思われる構造物は「死滅している」と結論付けられていましたが、最新技術による再調査で、多様なサンゴや魚類が生息する豊かな生態系が確認されました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "0b125b718c2a2912",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "バネの力で口を開いたままキープ。型崩れしない、ビジネスシーンでも使えるリュック",
+    "url": "https://www.lifehacker.jp/article/2608-lht-mayumasa-banepakabackpack/",
+    "publishedAt": "2026-08-04T13:15:00.000Z",
+    "summary": "マユマサ（mayumasa）の「バネパカリュック」は、ミニマルでエレガントなデザイン性と機能性の両方が備わり、ビジネスシーンにピッタリなリュックとなっています。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "5bf562764f5ea211",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "システム障害で原因調査、産廃回収は継続 - 環境開発工業",
+    "url": "https://www.security-next.com/187809",
+    "publishedAt": "2026-08-04T13:11:33.000Z",
+    "summary": "廃棄物処理を手がける環境開発工業は、サイバー攻撃によりシステム障害が発生したことを明らかにした。廃油や産業廃棄物の回収などの業務は平常どおり提供しているという。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "49ebef77183a14ac",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "Google、新型スマホ「Pixel 11シリーズ」を予告　8月12日に予約購入スタート",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000385/",
+    "publishedAt": "2026-08-04T13:09:48.000Z",
+    "summary": "米Googleの日本法人が、新型Pixelスマートフォンの予約受付を8月12日午後11時に始めると告知した。新製品発表イベント「Made by Google」は翌13日午前7時を予定しているほか、同じ13日には、東京・表参道に日本初のGoogle直営店もオープンする。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "e578297f4d8864ab",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "最高気温35度の日もベースメイクをキープ！ロート製薬の「皮脂吸着パウダー配合パック」が夏の救世主です",
+    "url": "https://www.roomie.jp/2026/08/1841119/",
+    "publishedAt": "2026-08-04T13:00:36.000Z",
+    "summary": "気温が高い日が続き、気になるのがベースメイクの崩れ。 皮脂や汗に強いメイクアイテムや、メイクキープミストなど対策アイテムは色々ありますが、一番効果を実感したのはメイク前のスキンケアでした。 パックで皮脂コントロールが叶う ロート製薬「カラミー メイクキープスクエアパック」990円（税込） 私が導入したのは、ロート製薬の「カラミー メイクキープスクエアパック」。 吸着剤のカラミン配合で余分な皮脂を物",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "0ed0b49e995080a8",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "マイクロプラスチックが胎盤関門を通過してホルモン産生を変化させる可能性があるとの研究結果",
+    "url": "https://gigazine.net/news/20260804-microplastics-placental-barrier-hormone-production/",
+    "publishedAt": "2026-08-04T13:00:00.000Z",
+    "summary": "直径5mm未満の微細なプラスチック粒子であるマイクロプラスチックが、母胎と胎盤循環系を隔てる胎盤関門を通過して、胎盤におけるホルモン産生を変化させる可能性があるとの研究結果が報告されました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "03940577dc6a9182",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "Adobeから無料ソフト「Darktable」に乗り換えたら、AIとの会話での画像編集が実現できた",
+    "url": "https://www.lifehacker.jp/article/2608-claude-edit-photos-makes-darktable-like-lightroom/",
+    "publishedAt": "2026-08-04T12:45:00.000Z",
+    "summary": "Adobe Lightroomのサブスクに悩む方必見！完全無料でプロ仕様のオープンソースソフト「Darktable」の魅力と、AI（Claude）をMCPで連携させて言葉だけでRAW現像を自動化する最新の爆速写真編集ワークフローを徹底解説します。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "79980d7d4437f8ca",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "自動化から隠し機能まで。Galaxyを使いこなす10の設定",
+    "url": "https://www.lifehacker.jp/article/10-hacks-every-samsung-galaxy-user-should-know/",
+    "publishedAt": "2026-08-04T12:30:00.000Z",
+    "summary": "「実はこんな機能もあったの？」Galaxyの秘められたポテンシャルを引き出す便利設定を解説！ルーティンによる自動化から隠しWi-Fi診断ツールまで、スマホ生活を劇的にスマートに変える技をご紹介します。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "27422370ec76f1a4",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "『ドカ食いダイスキ！もちづきさん』TVアニメ化決定、「限界突破の禁断グルメギャグ」が背徳感＆爽快感とともにアニメに",
+    "url": "https://gigazine.net/news/20260804-dokagui-daisuki-mochizuki-san-anime/",
+    "publishedAt": "2026-08-04T12:00:00.000Z",
+    "summary": "カロリーの大量摂取によって“至る”もちづきさんの姿が、ギャグを通り越して読者に恐怖感すら与え、毎話のようにSNSで話題になっている漫画『ドカ食いダイスキ！もちづきさん』のTVアニメ化が決定しました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "b56231e3c437b895",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "Duolingo CMOに学ぶ、言葉以上に大切な「空気」を読むコミュニケーション術",
+    "url": "https://www.lifehacker.jp/article/2608-duolingos-cmo-on-how-he-learned-to-bridge-differences-through-language-duolingo-cmo-leadership-advice/",
+    "publishedAt": "2026-08-04T12:00:00.000Z",
+    "summary": "早朝4時のポスター貼りから、国境を越える巨大プロジェクトの進行まで。Duolingo（デュオリンゴ）の最高マーケティング責任者（CMO）が、自身のキャリアの原点となった「2つの最初の仕事」を振り返ります。異文化間のコミュニケーションや多様なチームでの意思決定において、真の相互理解を生むためのヒントをお届けします。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "71477a905a7cc4f6",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「中国軍がDeepSeek製AIを無人航空機に活用」「時速50kmの軍用車両にも搭載」　きょう公開の防衛白書",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000382/",
+    "publishedAt": "2026-08-04T11:59:27.000Z",
+    "summary": "防衛省は8月4日、国家防衛の現状と課題をまとめた「防衛白書」の最新版を公開した。AIやドローンといった最新技術の状況にも触れ、中国の人民解放軍が生成AI「DeepSeek」のAIモデルを無人航空機や軍用車両に活用しているとの認識を示した。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "51eee26ee1c3f442",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ソフトバンクQ1決算は増収増益、セブン＆アイ提携や決済強化で社会インフラ企業へ",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130556.html",
+    "publishedAt": "2026-08-04T11:58:52.000Z",
+    "summary": "ソフトバンクは、2026年度第1四半期連結業績を発表した。売上高は前年同期比9％増の1兆8147億円、営業利益は同4％増の3023億円と増収増益を達成。AI関連投資の収穫期入りや、セブン＆アイとの資本業務提携、米国のAIインフラ事業進出など、通信会社から社会インフラ企業への進化を象徴する戦略が数多く示された。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "b1a6c9bb37a4af34",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "折りたたみより軽いから、長傘を選ぶ理由ができた。カーボンってやっぱりすごい",
+    "url": "https://www.lifehacker.jp/article/machi-ya-carbonumbrella4-review-955682/",
+    "publishedAt": "2026-08-04T11:45:00.000Z",
+    "summary": "手持ちの折りたたみ傘より約150gも軽かった。思い切り振っても頑丈な気配が漂い、さすがカーボンという印象。これなら気兼ね無く長傘を選べるね。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "3de12f7613110bc2",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「核なき世界の思い共感」と強調　小泉防衛相、被爆者から批判受け | NEWSjp",
+    "url": "https://news.jp/i/1457297721401753957",
+    "publishedAt": "2026-08-04T11:36:47.000Z",
+    "summary": "小泉進次郎防衛相は4日の記者会見で、核兵器に関する議論の必要性を指摘した自身の発言が、被爆者団体から批判されていることに「被爆地や被爆者の方々が訴えてきた、核兵器のない世界を願う切実な思いに強く共感する」と述べた。国際的な核軍縮・不拡散体制の維持強化に積極的に取り組むとも強調した。 小泉氏はインタ...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "06dacd4969a03de3",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "いつもの靴が「防災仕様」に。ワークマンの780円の「踏抜き防止インソール」がすごい",
+    "url": "https://www.roomie.jp/2026/08/1855007/",
+    "publishedAt": "2026-08-04T11:30:20.000Z",
+    "summary": "※本記事は2024年06月11日に公開された記事を再編集して公開しています。 Text and Photographed by haco 災害時、逃げる道がいつものアスファルトの安全な道とは限りません。 以前、台風のときに避難所へ避難したことがあるのですが、いつも歩くほんの数分の道をリュックを背負って歩くだけでも大変な思いをしました。 これがもし地震災害で、道にがれきやガラスなどが散乱していたら、",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "49d3820e4509e679",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "委託先で水道検針データ消失、誤操作で - 宜野湾市",
+    "url": "https://www.security-next.com/188198",
+    "publishedAt": "2026-08-04T11:19:24.000Z",
+    "summary": "沖縄県宜野湾市は、業務委託先において水道検針データの一部が消失したことを明らかにした。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "ebca8b1e76028146",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "忙しい朝の救世主。OXOが作る“5分濃縮コーヒー”が18%オフ",
+    "url": "https://www.roomie.jp/2026/08/1855819/",
+    "publishedAt": "2026-08-04T11:15:28.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 電源もペーパーフィルターも使わずに、わずか数分で美味しいコーヒーが楽しめるOXO（オクソー）の「クイック濃縮コーヒーメーカー」。 「本格的なコーヒーを飲みたいけれど、抽出には時間がかかる……」。そんな常識を覆す新しいアイテムをお見逃しなく！ ■この記事で紹介している商品 OXO オクソー クイック 濃縮 コ",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "c82f3db59762b9a9",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "マネーフォワード ME、未分類明細のカテゴリをAIが提案(iOS)",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130522.html",
+    "publishedAt": "2026-08-04T11:00:00.000Z",
+    "summary": "マネーフォワードホームは4日、「マネーフォワード ME」のiOS版で、「AIカテゴリ提案機能」を提供開始した。利用にはiOSまたはiPadOS 26以上と、Apple Intelligence対応端末が必要。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "0e8c7c8bf74d7885",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "がん細胞が自らDNAを壊して進化している可能性が研究によって指摘される",
+    "url": "https://gigazine.net/news/20260804-cancer-break-own-dna/",
+    "publishedAt": "2026-08-04T11:00:00.000Z",
+    "summary": "がん細胞が増殖に必要な遺伝子を過剰に働かせた結果、自らのDNAに深刻な損傷を生じさせ、修復時のミスを通じて新たな変異を蓄積している可能性が示されました。DNA損傷の一部はがん細胞が増殖に必要な遺伝子を過剰に働かせることで生じており、腫瘍の変化や治療への適応につながる可能性があると指摘されています。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "72918cb9fb56fd93",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "インダス文明の古代文字、解読できたら1億5000万円もらえます",
+    "url": "https://www.lifehacker.jp/article/2608_gizmodo_ancient-script-of-the-indus-civilization/",
+    "publishedAt": "2026-08-04T11:00:00.000Z",
+    "summary": "インド南部のタミル・ナードゥ州のM・K・スタリン首相は、インダス文字を解読できた者に100万ドル（約1億5000万円）の賞金を出すと発表しました。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "33494252fff2bb35",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "ポケットWi-Fi、もう要らないかも。SIMが挿せて通話までできる144言語のAI翻訳機だよ",
+    "url": "https://www.roomie.jp/2026/08/1856057/",
+    "publishedAt": "2026-08-04T10:45:46.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by WeatherlyJapan 海外旅行での荷物、多すぎませんか？ 海外旅行や出張のたびに、SIMカード、ポケットWi-Fi、翻訳アプリ、モバイルバッテリーと、気づけばカバンの中はガジェットでパンパン。 これだけ持っていると、設定も面倒で、いざというときにアプリが立ち上がらないこともあるん",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "0f4298e5f089bb56",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "大学人気ランキング2026年7月版…宮城大が7位へ上昇",
+    "url": "https://resemom.jp/article/2026/08/04/87060.html",
+    "publishedAt": "2026-08-04T10:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "e7260722d83ff95b",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "Appleがイギリス政府による再度のバックドア作成命令に対して異議申し立て",
+    "url": "https://gigazine.net/news/20260804-apple-uk-backdoor/",
+    "publishedAt": "2026-08-04T10:45:00.000Z",
+    "summary": "Appleの暗号化されたクラウドストレージに対して、イギリス政府がバックドアを作成するよう2度目の命令を出していた件で、Appleが捜査権限審判所(IPT)に異議申し立てを行ったことがわかりました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "df6e4813cad8d002",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "プロンプトエンジニアリングのすすめかた",
+    "url": "https://zenn.dev/nrs/articles/70db94beb7b76d",
+    "publishedAt": "2026-08-04T10:40:05.000Z",
+    "summary": "! TAKT を Product Hunt に出します！ 8/9 に公開されます。 Product Hunt はローンチ当日の反応でランキングが決まり、上位に入るほど海外の開発者に届きます。 当日、見に来て応援してもらえると嬉しいです。 https://www.producthunt.com/products/takt-3?launch=takt-3 最近 AI が暴走して他社に攻撃してしまった。 そんな話が耳に入りつつ、自分とは関係ないことだと思っていました。 そう、過去形です。 実は私はここのところ、ずっとモデルの性能アップと格闘していました。 モデ…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
+  },
+  {
+    "id": "53dd1784d15328d0",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "ポケモン、NARUTO…トランプ政権の無断使用に政府「懸念」伝達 | 毎日新聞",
+    "url": "https://mainichi.jp/articles/20260803/k00/00m/010/133000c",
+    "publishedAt": "2026-08-04T10:37:42.000Z",
+    "summary": "トランプ米政権がイラン攻撃や不法移民対策などをアピールする交流サイト（SNS）の投稿で、さまざまな日本のアニメの映像を使用しているのを受け、日本政府が米側に懸念を複数回伝えていたことが外務省への取材で判明した。トランプ政権によるソフトコンテンツの無断使用は米国内のアーティストからも反発の声が上がって...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "aee0db5ef0aa9c7b",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "揖保乃糸発の「中華麺」があるって知ってた？家で、絶品・冷やし中華が楽しめたよ",
+    "url": "https://www.roomie.jp/2026/08/1855594/",
+    "publishedAt": "2026-08-04T10:30:45.000Z",
+    "summary": "暑いとさっぱりとしたメニューが食べたくなります。 そうめんやそば、冷やしうどんなどもいいですね。 我が家は「揖保乃糸」（いぼのいと）のそうめんを食べる機会が多いのですが、先日その揖保乃糸で気になる商品を発見したんです。 揖保乃糸の「中華麺」 揖保乃糸（いぼのいと）は、兵庫県・播州地方の手延べそうめんブランド。 「そうめんといえば揖保乃糸を選ぶ」という方も少なくないかもしれません。 そんな揖保乃糸か",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "8d23b8a52b1a84b9",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "スマートホーム初心者こそSwitchBot。電気代も手間も手軽に削減できるプラグが11％オフ",
+    "url": "https://www.lifehacker.jp/article/amazon-timesale-2026-0804-2/",
+    "publishedAt": "2026-08-04T10:30:00.000Z",
+    "summary": "「エアコンや除湿機の切り忘れが心配」「帰宅してすぐに快適な部屋で過ごしたい」。そんな悩みを、コンセントに挿すだけで一気に解消してくれるアイテムがあります。 自宅にある家電をそのままスマート家電にアップデートするSwitchBot（スイッチボット）の「プラグミニ（JP）」。これ1つで暮らしの快適さが劇的に変わりますよ。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "a6e8924f11ed16cf",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "フライトレーダー24、羽田の異常接近データを公開　最接近時の垂直間隔は約30メートル",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000381/",
+    "publishedAt": "2026-08-04T10:26:57.000Z",
+    "summary": "羽田空港で8月4日早朝に起きたANA機と国の飛行検査機の異常接近について、航空機追跡サイト「Flightradar24」がADS-Bのデータを公開した。両機は垂直方向に約100フィートまで近づいていた。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "0dcc5aee3c862493",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "ソフトバンクのスマホ価格、「ハイエンドモデルでご負担が増える」　宮川社長が予告",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news094.html",
+    "publishedAt": "2026-08-04T10:26:00.000Z",
+    "summary": "ソフトバンクの宮川潤一社長が、8月4日の決算会見にて、スマートフォンの価格高騰の見通しについてコメントした。「下期のモデルから影響が出始める」という。ただしローエンドモデルは大きな影響はないことを述べた。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "57948042c66599b6",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "2026年8月4日のヘッドラインニュース",
+    "url": "https://gigazine.net/news/20260804-headline/",
+    "publishedAt": "2026-08-04T10:26:00.000Z",
+    "summary": "2026年7月31日(金)から絶賛公開中の映画『スパイダーマン：ブランド・ニュー・デイ』が、公開初週末に北米で3億6000万ドル(約570億円)、全世界で9億3200万ドル(約1450億円)の興行成績を記録しました。これは、公開初週末の北米での興行収入として、『アベンジャーズ／エンドゲーム』の記録を上回る歴代最高の数字で、全世界での数字は歴代史上2位。また、日本でも初日だけで5億6543万4074円と、2026年公開の実写洋画でNo.1のスタートを切っています。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "d65f18741842ba69",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "ソフトバンクのスマホ契約数減はいつ止まる？　宮川社長が反転の時期を語る　ホッピング対策は「真剣にやりすぎた」",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news093.html",
+    "publishedAt": "2026-08-04T10:21:00.000Z",
+    "summary": "ソフトバンクは2026年4～6月期の連結決算で増収増益を達成したが、スマートフォン契約数は前年同期比11万6000件減少した。宮川潤一社長は、ホッピングユーザーへの対策を「真剣にやりすぎた」と率直に認め、第3四半期以降の契約数回復に自信を示した。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "2163c6fa9cc6f264",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "Synology製NAS検出ツールのWindows版に脆弱性 - 修正版が公開",
+    "url": "https://www.security-next.com/188315",
+    "publishedAt": "2026-08-04T10:16:41.000Z",
+    "summary": "Synologyは、同社製NASを検出し、接続をサポートする「Synology Assistant」のWindows版に脆弱性が見つかったとして、アップデートをリリースした。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "9c38a9bb1d712667",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "メルカリモバイル、新規申し込みでメルカリ「99％割引クーポン」付与",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130534.html",
+    "publishedAt": "2026-08-04T10:15:52.000Z",
+    "summary": "メルカリは、「メルカリモバイル」への新規申し込みで、メルカリで利用可能な「99％割引クーポン」を付与するキャンペーンを開始した。期間は9月16日まで。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "af04f77e2ea5430e",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "研究者と“ホンモノの実験”体験、つくば市「つくばまるごとLAB」8/29",
+    "url": "https://resemom.jp/article/2026/08/04/87059.html",
+    "publishedAt": "2026-08-04T10:15:02.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "e32a3a5f4a5c51b4",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "「AIに指輪物語の3D世界を作らせる」というベンチマークテストが提案される",
+    "url": "https://gigazine.net/news/20260804-ai-test-cg/",
+    "publishedAt": "2026-08-04T10:00:00.000Z",
+    "summary": "OpenAIの共同設立者であるアンドレイ・カーパシー氏が「AIに指輪物語の3D世界を生成させる」という形式のベンチマークテストを提案しています。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "1ece6c65d26bfec0",
+    "source": "STUDY HACKER",
+    "sourceUrl": "https://studyhacker.net/feed",
+    "title": "落ち込んでも、すぐ切り替えなくていい。脳科学が示す「回復は1時間後」という事実",
+    "url": "https://studyhacker.net/stress-recovery-1hour",
+    "publishedAt": "2026-08-04T10:00:00.000Z",
+    "summary": "「切り替えなきゃ」と思うほど、気持ちがついてこない。ミスをしたときや、上司にきびしいひとことを言われたとき、そんなもどかしさを感じたことはありませんか。 とはいえ、仕事は待ってくれません。いつまでも引きずっているわけにもいかず、無理にでも前を向こうとして、よけいに疲れてしまう……。 そこで頼りになるのが、脳科学の知見です。じつは、脳が立ち直りはじめるのは“約1時間後”。このタイミングを知っておくだけで、落ち込んだあとの過ごしかたは変わってきます。 「すぐ切り替えられない」のは、脳の仕組みかもしれない 落ち込んだ直後の1時間でしたい3つのアクション 1. …",
+    "fetchedAt": "2026-08-05T06:14:17.417Z"
+  },
+  {
+    "id": "d5d3ca2860040a31",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "コクヨの推し「ふせん」2つ。ノートのように使えて、資格勉強にも合わせやすい！",
+    "url": "https://www.lifehacker.jp/article/2608-lht-kokuyo-stationary/",
+    "publishedAt": "2026-08-04T10:00:00.000Z",
+    "summary": "コクヨの「キャンパス 教科書やプリントにもっと書き足せるノートふせん」と「キャンパス スキマに書き足すロールふせん」は、従来のふせんのデメリットを払拭し、勉強や会議の資料へのメモなどで使えるアイテム。使ってみた感想をお届けします。",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "05182e4317246c69",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "中部電力に不正アクセス　連絡先情報7万1700件が漏えいか　取引先や自治体の連絡先も漏えいの恐れ",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000380/",
+    "publishedAt": "2026-08-04T09:49:03.000Z",
+    "summary": "中部電力は8月4日、一部システムへの不正アクセスで、役職員や取引先などの個人情報が漏えいした可能性があると発表した。グループの連絡先情報約7万1700件が対象で、電力供給への影響はないとしている。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "9cac2e6e3b3a4404",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "楽天モバイルの「iPhone 16（128GB）」、MNPで4万円割引キャンペーン　実質約10万円に",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news092.html",
+    "publishedAt": "2026-08-04T09:48:00.000Z",
+    "summary": "楽天モバイルは、8月3日に「iPhone 対象製品 値引き・ポイントバック」キャンペーンを開始。MNPで「iPhone 16（128GB）」を一括払い／24回払いすると4万円値引きし、10万1700円で購入できる。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "3c5c7c2f43ea4c57",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "気がつくと野菜や果物がクタッとしてる……。新鮮キープには熟成ガス対策が必要らしい",
+    "url": "https://www.roomie.jp/2026/08/1855923/",
+    "publishedAt": "2026-08-04T09:45:08.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 Photographed by flukeforest 週末に買い込んだ野菜が、数日でクタッと。やっぱり最新の冷蔵庫にしたほうがいいのかも……。 と考える前に試してほしいことがあります。というのも野菜や果物は自身が熟成促進ガスを出し、食べごろを過ぎたあとは傷むだけ。しかも周りにも影響を与える点にも注意が必要なんです。",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "f9e6d627f4d1b42d",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】高校生向け探究学習アイデアソン8/18から、文京学院大",
+    "url": "https://resemom.jp/article/2026/08/04/87058.html",
+    "publishedAt": "2026-08-04T09:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "725d2c5806bc1302",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "顧客に会う実践をAIで加速。はてな米山弘恭氏がProductZine Day 2026で価値と速さの両立法を語る",
+    "url": "https://codezine.jp/article/detail/29240",
+    "publishedAt": "2026-08-04T09:45:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "7363d491d7367a56",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "他のユーザーとオンライン対戦できるタイピングゲーム「タイピング無双」　ほか【ダイジェストニュース】",
+    "url": "https://forest.watch.impress.co.jp/docs/digest/2130533.html",
+    "publishedAt": "2026-08-04T09:37:10.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "af2aca46cce4f759",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "iPhone版「楽天ペイ」、オフライン決済に対応　圏外・通信障害でも支払い可能",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130506.html",
+    "publishedAt": "2026-08-04T09:31:20.000Z",
+    "summary": "楽天ペイメントは、iOS版のキャッシュレス決済サービス「楽天ペイ」で「オフラインコード払い」の提供を開始した。対象店舗で順次利用できるようになる。Android版は、秋頃に提供される見込み。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "eed81f1a0e1ca0d0",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "もしものときお風呂どうする問題。コンパクトで全身さっぱり拭けちゃうボディタオル、ダイソーで見つけたよ",
+    "url": "https://www.roomie.jp/2026/08/1839823/",
+    "publishedAt": "2026-08-04T09:30:27.000Z",
+    "summary": "※本記事は2025年8月29日に公開された記事の再編集です。 Text and Photographed by 田中 青紗 防災グッズを見直し中です。 お風呂が入れない場合に備えて、いいアイテムはないかな〜とダイソーをパトロールしていたときに、気になるアイテムを発見しました。 ダイソーの「備蓄用ウェットボディタオル」 それは、こちらの「備蓄用ウェットボディタオル」。 1枚で全身拭ける、大判・厚手の",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "76cf6b2f1b12188b",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "Android版「楽天ペイ」アプリ、Edyチャージ機能など追加",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130517.html",
+    "publishedAt": "2026-08-04T09:25:21.000Z",
+    "summary": "楽天ペイメントは、Android版「楽天ペイ」アプリ内の「楽天Edy」タブにおいて、「楽天Edyカード」へのチャージ機能などが順次利用可能になると発表した。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "3bebdbbf98118339",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ソフトバンク、2026年度第1四半期決算は売上高1兆8147億円　モバイルARPUは3770円に上昇",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130446.html",
+    "publishedAt": "2026-08-04T09:19:48.000Z",
+    "summary": "ソフトバンクは4日、2027年3月期第1四半期決算を発表した。売上高は前年同期比9.4％増の1兆8147億円、営業利益は同4.0％増の3023億円、純利益は同10.5％増の2015億円だった。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "c5f1c314e4a79b62",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "「楽天ペイ」Androidアプリ、「楽天Edyカード」へのチャージや残高確認に対応",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130085.html",
+    "publishedAt": "2026-08-04T09:16:23.000Z",
+    "summary": "楽天ペイメントは4日、Android版「楽天ペイ」アプリで、「楽天Edyカード」へのチャージ機能などの提供を順次開始した。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "3efeca8e08f48eb5",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "なぜ河合塾の東大英語は\"本番で崩れない\"のか…2人の名講師が明かす指導の全貌",
+    "url": "https://resemom.jp/article/2026/08/04/87057.html",
+    "publishedAt": "2026-08-04T09:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "7c09a92fa76f2acc",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "「作れること」と「勝てること」の間には何があるか。ProductZine Day 2026で両極出身のPMが語る",
+    "url": "https://codezine.jp/article/detail/29239",
+    "publishedAt": "2026-08-04T09:15:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "bce7d214bbe25317",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "ソフトバンク、ahamoの10GB増量に追従しない方針　宮川社長「中容量帯は戦いが激しい」",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news091.html",
+    "publishedAt": "2026-08-04T09:08:00.000Z",
+    "summary": "ソフトバンクの宮川潤一代表取締役社長執行役員兼CEOが、NTTドコモのahamoの10GB増量キャンペーンについて、追従しない旨をコメントした。ドコモは8月1日から、ahamoのデータ容量を10GB増量するキャンペーンを実施している。Y!mobileはセット割なしでも1100円の割引や、データ増量オプションの無料キャンペーンを実施中だ。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "5782bc76dd6687d2",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "セブン＆アイとの提携発表会見が中止となった理由、ソフトバンク宮川社長「熊本地震受けて判断」",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130510.html",
+    "publishedAt": "2026-08-04T09:03:31.000Z",
+    "summary": "ソフトバンクの宮川潤一社長は、決算説明会の質疑応答で、セブン＆アイ・ホールディングスとの提携に関する記者会見が見送られた背景を明らかにした。当初は7月31日に記者会見を予定していたが、直前に発生した熊本地震による被害状況を考慮し、開催の取りやめを決断した。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "7c493a725e1356b5",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "楽天ペイ、圏外や電波が弱い時でも支払い可能に　「オフラインコード払い」の提供を順次開始",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news090.html",
+    "publishedAt": "2026-08-04T09:03:00.000Z",
+    "summary": "楽天ペイメントは、キャッシュレス決済サービス「楽天ペイ」において、通信環境が悪い場所でも支払えるオフライン決済機能を導入した。またAndroid版アプリでは、手元の「楽天Edyカード」にアプリ内から直接チャージできる機能の提供も開始した。各種決済機能の統合により、利用者はスマートで確実な決済管理を行える。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "cb103b1914aa33b1",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "「ワキ専用のクレンジング」のサッパリ感が最高すぎる！エチケット万全になって自信を持てたんだ",
+    "url": "https://www.roomie.jp/2026/08/1840154/",
+    "publishedAt": "2026-08-04T09:00:19.000Z",
+    "summary": "ちょっと外を歩いただけでも汗でベタベタになってしまう……。 特にこの季節、家族には「気にしすぎ」と言われても、納得するまでケアしたいと考えているのが「ワキのニオイ」。 自分ではニオイに気づきにくいから、しっかりとケアしておきたいのです。 そんななか見つけたワキ専用のクレンジングで、リセットされたようにサッパリと洗い上がったのです！ 汗・皮脂を洗い落とす「ジェルクレンジング」 デオナチュレ 「ワキす",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "5f3ac409612317cf",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "日清、茨城県つくばみらい市に「カップヌードル特化型工場」",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130500.html",
+    "publishedAt": "2026-08-04T09:00:00.000Z",
+    "summary": "日清食品は、茨城県つくばみらい市に「カップヌードル特化型工場」を建設する。2027年5月に着工し、2029年度中の稼働開始を予定している。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "6e5ccf37fa1db7ff",
+    "source": "ライフハッカー",
+    "sourceUrl": "https://www.lifehacker.jp/feed/index.xml",
+    "title": "夏のパフォーマンスを最適化する。漢方アドバイザーに学ぶ「6タイプ別」自己チューニング術",
+    "url": "https://www.lifehacker.jp/article/12da2ba7-66b0-4d2e-a32c-971c966cec9d/",
+    "publishedAt": "2026-08-04T09:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:20.230Z"
+  },
+  {
+    "id": "6ce40e411e724de5",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "AI監督のリモート試験が大失敗に終わり5万8000人の学生が再受験する羽目に",
+    "url": "https://gigazine.net/news/20260804-ai-supervised-remote-exam-58000-students-retake/",
+    "publishedAt": "2026-08-04T08:53:00.000Z",
+    "summary": "2026年夏、メキシコ最大の大学であるメキシコ国立自治大学の入学試験が行われ、約16万人が受験しました。この試験では同大学史上初の「完全リモートでの試験」が実施されたのですが、5万8000人もの学生が再受験しなければいけなくなるという悲惨な結果に終わりました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "0048948e140469c6",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【前編】AI駆動開発、用語で挫折していませんか？ ——歴史をたどれば「Skills」も「Hooks」も一本の線でつながる",
+    "url": "https://qiita.com/shou-dev19/items/e1583af614a573e4b245?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T08:50:22.000Z",
+    "summary": "この記事は誰のために書いたのか この記事は、IT業界で働いていて、プログラミングは普通にできる。でもAIエージェントを使った開発の経験はほぼゼロ、という人に向けて書いています。 最近、恐れ多くも同僚や知人にAI駆動開発についてお話しする機会が増えました。そういう人と話し...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
+    "id": "7c26768abbc3555d",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "クーラーの効きが変わるよ。部屋の湿気を毎日8リットル排水する除湿機を試してみた",
+    "url": "https://www.roomie.jp/2026/08/1856013/",
+    "publishedAt": "2026-08-04T08:45:24.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 蒸し暑い夏の暑さ対策はクーラー一択。でも、意外と見落としがちなのが湿度です。 湿度が低いと同じ温度設定でも体感温度が変わる……ということで、試してみたのが、高温多湿の国・台湾発の「NWT 小型静音除湿機」。 実際に使ってみると、湿気でどんよりしていた部屋の空気がすっきりしました！ 思ってたよりコンパクト。部屋間移動しや",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "c2e5c800e6345360",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【夏休み2026】「ざんねんないきもの検定」受検者に自由研究シート提供",
+    "url": "https://resemom.jp/article/2026/08/04/87056.html",
+    "publishedAt": "2026-08-04T08:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "e92b522f4e25d667",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "「アップルは間違えている」　OpenAIが開発者引き抜き訴訟に反論",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130474.html",
+    "publishedAt": "2026-08-04T08:30:00.000Z",
+    "summary": "OpenAIは4日(米国時間)、OpenAIがAppleの情報を不正に利用しているとして、Appleが7月に提起した訴訟について、「彼らの対応が誤っていた」とする声明を発表した。Appleは2月にOpenAIにこの問題について連絡したとしているが、弁護士が誤った人物にメールしていたなどの問題があるとする。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "47e044e85904a3a0",
+    "source": "Security NEXT",
+    "sourceUrl": "https://www.security-next.com/feed",
+    "title": "教員がサポート詐欺被害、遠隔操作PCに個人情報 - 杏林大",
+    "url": "https://www.security-next.com/188200",
+    "publishedAt": "2026-08-04T08:28:08.000Z",
+    "summary": "杏林大学は、教員がサポート詐欺の被害に遭い、第三者が遠隔からパソコンを操作できる状態に陥ったことを明らかにした。端末内部には個人情報が保存されていたという。",
+    "fetchedAt": "2026-08-05T06:14:36.309Z"
+  },
+  {
+    "id": "6c35f7e8d8713b79",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ソフトバンク宮川氏、「熊本地震、携帯4社が担当地域ごとに分担」「HAPS、もうすぐ」",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130491.html",
+    "publishedAt": "2026-08-04T08:27:16.000Z",
+    "summary": "ソフトバンクの宮川潤一社長は4日、2026年度第1四半期の業績説明会において、前週に発生した令和8年熊本地震に関して問われ、同社および国内携帯電話各社の取り組みについて触れた。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "6b6c6f5ef7bd969f",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "日本産AI「FRONTia」、日本の技術✕エンタメ力に期待したくなるフィジカルロボット",
+    "url": "https://qiita.com/sumomoo/items/255d77e0a1baa74c5f36?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T08:23:18.000Z",
+    "summary": "はじめまして。株式会社PRUMでエンジニアをしている、すもも🍑です 日々、プログラミング学習や実務の中で、つまずきやすいポイントや 考え方を整理して発信しています。 PRUMについて気になった方は、コーポレートサイトもぜひご覧ください。 ▶コーポレートサイト 「日本のA...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
+    "id": "a9ae2f678796e357",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "「デバッグ」、挟まった虫がきっかけだったって知ってました？【ITパスポート】",
+    "url": "https://qiita.com/prumnn/items/8e154a792445fa2c063e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T08:21:02.000Z",
+    "summary": "はじめに 「デバッグ」って言葉、なんかかっこいい専門用語だと思っていたぷらむんが、ITパスポートの勉強中に由来を調べたら、まさかの展開だった話です。 こんにちわ、会社で自称マスコットキャラをやってるのに、社内で一番空気が読めない、ぷらむんです🐯 先輩たちが「これ...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
+    "id": "ec5f17f33e62ecb1",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ソフトバンク宮川社長、ahamoの増量“40GB”化に「追いかけるつもりはない」",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130487.html",
+    "publishedAt": "2026-08-04T08:19:12.000Z",
+    "summary": "ソフトバンクの宮川潤一社長は、2027年3月期第1四半期決算説明会の質疑応答で、NTTドコモが料金プラン「ahamo」のデータ通信量を10GB増量したことに対して、「追いかけるつもりはない」と説明した。中容量帯での競争激化を踏まえつつ、自社のオプションサービスを組み合わせることで十分な競争力を維持できるとの認識を示す。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "4bf4faacc2a3fafa",
+    "source": "家電Watch",
+    "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
+    "title": "シャワーヘッドのミラブルEx、初回分が1週間で完売",
+    "url": "https://kaden.watch.impress.co.jp/docs/news/2130434.html",
+    "publishedAt": "2026-08-04T08:16:20.000Z",
+    "summary": "サイエンスは、7月に発売したシャワーヘッド「ミラブルEx」が、発売後約1週間で初回出荷分を完売したと発表した。想定を上回る反響を受けて追加生産が行なわれる。",
+    "fetchedAt": "2026-08-05T06:14:26.894Z"
+  },
+  {
+    "id": "99fdb7929b39cdfb",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "「アイススラリーが5分以内で作れちゃう」メーカーで、美味しく食べて熱中症対策しよ",
+    "url": "https://www.roomie.jp/2026/08/1855824/",
+    "publishedAt": "2026-08-04T08:15:46.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 「美味しく手軽に熱中症対策をしたい」という人には、体の中から効率よくクールダウンできると話題な「アイススラリー」をがおすすめ。 Life on Products（ライフオンプロダクツ）の「アイススラリーも自動で作れるアイスクリームメーカー」が、楽天市場ではポイント10倍でお得です。 ■この記事で紹介している",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "61101149ad28244a",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験2027】東京医科大、医学科入試にMMI導入…一般・共テ利用選抜で",
+    "url": "https://resemom.jp/article/2026/08/04/87055.html",
+    "publishedAt": "2026-08-04T08:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "94c404a622cdeddc",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "pow、AIリサーチエージェント「Spark Research」における睡眠ブランドNELLのMorght導入事例を公開",
+    "url": "https://codezine.jp/article/detail/29237",
+    "publishedAt": "2026-08-04T08:15:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "197ffb139fc9accd",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "ソフトバンクが「iPhone 17」シリーズや「Air」を値上げ　新規・MNPの実質負担額は据え置き",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news087.html",
+    "publishedAt": "2026-08-04T08:14:00.000Z",
+    "summary": "ソフトバンクが、7月31日からiPhoneの一部機種で価格を改定した。一括価格は、iPhone 17eを除くiPhone 17シリーズやiPhone Airが値上げの対象。機種変更時の実質負担額も値上げとなる。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "da146a9f9f2f61f6",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "スタバ、新幹線ホームに出店拡大　27年に名古屋と京都",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130477.html",
+    "publishedAt": "2026-08-04T08:12:16.000Z",
+    "summary": "スターバックス コーヒー ジャパンは、2027年にJR名古屋駅とJR京都駅の新幹線ホーム上に店舗をオープンする。また、リニューアルしたJR新横浜駅の新幹線ホーム上の店舗はオンラインの「スターバックス カード」のコード決済が利用できるようになった。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "603beb6dfe4af641",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "「モンハンワイルズ」価格改定で半額に　販売数の伸び悩み、克服なるか",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000376/",
+    "publishedAt": "2026-08-04T08:08:45.000Z",
+    "summary": "カプコンがゲーム「モンスターハンターワイルズ」の価格を改定した。これまでゲーム本体を税込9900円で提供していたところ、今後は同4990円で販売する。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "522f6053cc4b8c70",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "AI普及でデザイン業の倒産が前年比2.7倍に　「独自性なき企業は淘汰」　東京商工リサーチ",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000377/",
+    "publishedAt": "2026-08-04T08:07:18.000Z",
+    "summary": "東京商工リサーチは8月2日、グラフィックデザインやインテリアデザインなどを手掛ける「デザイン業」で、負債1000万円以上の倒産が急増していると発表した。生成AIの普及によるデザイン業務の内製化などが影響したという。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "6f71f6847bc9c9f0",
+    "source": "Impress Watch",
+    "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+    "title": "新鎌ヶ谷駅前に商業施設「ekubo京成」　9月10日オープン",
+    "url": "https://www.watch.impress.co.jp/docs/news/2130472.html",
+    "publishedAt": "2026-08-04T08:04:39.000Z",
+    "summary": "京成電鉄は、京成・北総鉄道・東武鉄道の3社4路線が乗り入れる新鎌ヶ谷駅前で開発を推進している商業施設の名称を「ekubo京成 新鎌ケ谷」に決定し、9月10日にオープンする。",
+    "fetchedAt": "2026-08-05T06:14:14.952Z"
+  },
+  {
+    "id": "0c17ba510cac190f",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "植物由来素材使用のギリシャ発ゼロカロリーコーラ「green cola」を飲んでみた、コカ・コーラとどう違うのか？",
+    "url": "https://gigazine.net/news/20260804-green-cola/",
+    "publishedAt": "2026-08-04T08:00:00.000Z",
+    "summary": "2012年にギリシャで誕生して以来、50以上の国や地域で販売されているゼロカロリーコーラ「green cola」が、2026年8月4日(火)から全国の小売店で販売されています。植物由来の甘味成分であるステビアの使用に加え、砂糖・保存料不使用といった特徴があるgreen colaの味が気になったので、よく見かけるコカ・コーラと飲み比べてみました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "d6dfeef195dabf70",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ソフトバンク宮川社長、セブン＆アイ提携の狙いを語る",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130464.html",
+    "publishedAt": "2026-08-04T07:57:26.000Z",
+    "summary": "ソフトバンクは4日、2027年3月期第1四半期決算を発表した。決算説明会では、セブン＆アイ・ホールディングスとの資本業務提携についても語られた。7月31日に発表された提携では、ソフトバンク、PayPay、三井住友カードの3社が総額3000億円を出資し、AI技術を活用した次世代の生活インフラ構築を目指す。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "5b477d2cdee288b4",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "プロンプトキャッシュを意識して claude code のトークンを節約しよう",
+    "url": "https://zenn.dev/ceres_tech_blog/articles/7163ae482e124e",
+    "publishedAt": "2026-08-04T07:48:52.000Z",
+    "summary": "困ってたこと 前日のやり取りを複数再開したら、いきなり claude code の5時間制限が2割くらい持っていかれた。まだ一言も打ってないのに.... そもそもプロンプトキャッシュとは モデルはリクエスト間で何も覚えていない。だから会話を続けるには、毎回コンテキストを丸ごと送り直す必要がある。claude code が毎ターン送っているのは、システムプロンプト・プロジェクト文脈・会話履歴のぜんぶ。 そのままだと毎ターン全文を処理し直すことになるが、api は「リクエストの先頭からの一致」でキャッシュを引く。この先頭部分をプレフィックスと呼ぶ。新しい内容…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
+  },
+  {
+    "id": "d1554a527fde758f",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "サムスン、熊本地震で特別支援措置　無償修理や代替機の提供など",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130460.html",
+    "publishedAt": "2026-08-04T07:48:46.000Z",
+    "summary": "サムスン電子ジャパンは、熊本地震で被害を受けた地域のユーザーを対象に、Galaxy製品の無償修理や代替機の提供を発表した。キャリアモデルは対象外となる。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "618aadbd1b6577b7",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "1億レンタルも事故ゼロのCHARGESPOT、不要バッテリー回収など「安全を借りよう」プロジェクト",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130411.html",
+    "publishedAt": "2026-08-04T07:48:35.000Z",
+    "summary": "CHARGESPOTを運営するINFORICHは、「CHARGESPOTで、安全を借りよう」プロジェクトを開始した。東京都の歌舞伎町に、不要なモバイルバッテリーの回収ボックスなどが設置される。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "46ea513e227807e5",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "ドコモ・バイクシェア、サービスを一時停止　不具合の復旧が見通せないため",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130442.html",
+    "publishedAt": "2026-08-04T07:45:56.000Z",
+    "summary": "ドコモ・バイクシェアは、同社のシェアサイクルサービスにおいて、サービス提供の一時停止を発表した。3日に発生したシステム不具合を受け、安定したサービス提供の見通しが立たないため。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "bac27c0c97da0449",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験2026】東大の学校推薦型、過去最多93人合格…女子比率は高水準を維持",
+    "url": "https://resemom.jp/article/2026/08/04/87054.html",
+    "publishedAt": "2026-08-04T07:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "fc0c045b7c8836cd",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "Genspark、無料・広告なしのオフィス統合環境「GenOffice」を公開 ～AI内蔵・フル機能／エンジニア1人が1週間、1万米ドル分のトークンで開発、アルファ版として提供",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130424.html",
+    "publishedAt": "2026-08-04T07:45:00.000Z",
+    "summary": "米Gensparkは8月3日（現地時間）、ローカルで動作するオフィス統合環境「GenOffice」をアルファ版としてリリースした。 『世界初のフル機能オープンソースAIオフィス』 を謳う製品で、ライセンスは「Apache License 2.0」。Windows/Macに対応する。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "270982dbff857ca8",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "「AIがそう言っているので」で思考停止するリーダー",
+    "url": "https://qiita.com/BarrierD/items/a4c000ef67b07e4d1336?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T07:42:18.000Z",
+    "summary": "はじめに 最近、チームのリーダーがChatGPTなどのAIを使いこなすようになってから、地味に面倒な仕事が増えたと感じることはないでしょうか。 「AIに聞いたらこう言っていたけど、実際どうなの？」 こう聞かれること自体は悪いことではありません。むしろAIを判断材料の一つと...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
+    "id": "6cc1132ee4f96b50",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "AIエージェントの負荷分散は「リクエスト数」だけでは不十分、Googleが注意点を解説",
+    "url": "https://gigazine.net/news/20260804-google-ai-agents-load-balancing/",
+    "publishedAt": "2026-08-04T07:40:00.000Z",
+    "summary": "Googleが2026年8月3日、音声会話などをリアルタイムで処理するAIエージェントを安定して運用するための負荷分散で注意すべき点を解説しました。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "485f1be18382a42c",
+    "source": "ITmedia Mobile",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/mobile.xml",
+    "title": "auじぶん銀行、10月下旬にアプリをリニューアル　「タイムライン」復活、ホーム画面のカスタマイズも",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2608/04/news078.html",
+    "publishedAt": "2026-08-04T07:33:00.000Z",
+    "summary": "auじぶん銀行は、10月下旬に「じぶん銀行アプリ」をリニューアル。ホーム画面を刷新して日常的に確認する情報を画面上部に集約し、表示項目をユーザー自身でカスタマイズできる機能も導入する。",
+    "fetchedAt": "2026-08-05T06:14:11.194Z"
+  },
+  {
+    "id": "b92a998dbe546f68",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "RGS、生成AIの業務利用による情報漏えいの対策ソリューション「SecureGo」を発表",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130149.html",
+    "publishedAt": "2026-08-04T07:33:00.000Z",
+    "summary": "RGS株式会社は3日、社員が生成AIに機密情報を入力し意図せず外部に流出させるなど、生成AIの業務利用で新たに顕在化した情報漏えいリスクに対応するソリューション「SecureGo」を発表した。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "d247008c31543c4e",
+    "source": "ケータイWatch",
+    "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+    "title": "8月の「Ponta」キャンペーン、ローソンやTOKAI STATION POINTなど",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2130433.html",
+    "publishedAt": "2026-08-04T07:26:26.000Z",
+    "summary": "ロイヤリティマーケティングが提供する共通ポイントサービス「Ponta（ポンタ）」で、8月に実施されるキャンペーンをピックアップしてご紹介する。",
+    "fetchedAt": "2026-08-05T06:14:39.241Z"
+  },
+  {
+    "id": "48c6d93d20f21e2c",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験2026】東大合格者の出身地、関東が6割超え…代ゼミ分析",
+    "url": "https://resemom.jp/article/2026/08/04/87053.html",
+    "publishedAt": "2026-08-04T07:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "02476b36196b6560",
+    "source": "CodeZine",
+    "sourceUrl": "https://codezine.jp/rss/new/20/index.xml",
+    "title": "npmの2FAバイパストークン、権限操作に対し利用不可に",
+    "url": "https://codezine.jp/article/detail/29215",
+    "publishedAt": "2026-08-04T07:00:00.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:12.534Z"
+  },
+  {
+    "id": "92711c72fb219d17",
+    "source": "ITmedia",
+    "sourceUrl": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+    "title": "ドコモ・バイクシェア、サービス一時停止　不具合の復旧見通し立たず",
+    "url": "https://www.itmedia.co.jp/news/article/2608/04/2000000378/",
+    "publishedAt": "2026-08-04T06:56:07.000Z",
+    "summary": "「安定したサービス提供の見通しが立っていない」とし、再開時期は未定。",
+    "fetchedAt": "2026-08-05T06:14:09.743Z"
+  },
+  {
+    "id": "3cd578fc0a0822f2",
+    "source": "roomie",
+    "sourceUrl": "https://www.roomie.jp/feed/",
+    "title": "いちいちバッグを下ろさなくていい。荷物や財布の取り出しに便利な多機能バックパック",
+    "url": "https://www.roomie.jp/2026/08/1855989/",
+    "publishedAt": "2026-08-04T06:45:36.000Z",
+    "summary": "※こちらは「かいサポ（お買いものサポーターチーム）」が編集・執筆した記事です。 荷物を入れ替える手間、増え続けるバッグの収納場所……。「今日はどれを持っていこう？」と、頭を抱えることってありませんか？ これらの悩みをまとめて軽減してくれるのが、18Lから最大42Lまで拡張できる多機能バックパック「FLEXY」です。 230%拡張。シーンに合わせて変化するバッグ 「FLEXY」の最大の魅力は、18L",
+    "fetchedAt": "2026-08-05T06:14:29.203Z"
+  },
+  {
+    "id": "46e671a226c4349a",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "【大学受験2027】滋賀県立大、工学部に「女子枠」新設",
+    "url": "https://resemom.jp/article/2026/08/04/87052.html",
+    "publishedAt": "2026-08-04T06:45:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
+    "id": "febf05cc5353f7cc",
+    "source": "クラウドWatch",
+    "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
+    "title": "ソニックウォール、SASEプラットフォーム「SonicWall Cloud Secure Edge」をアセンテックの「リモートPCアレイ」と連携",
+    "url": "https://cloud.watch.impress.co.jp/docs/news/2130119.html",
+    "publishedAt": "2026-08-04T06:38:00.000Z",
+    "summary": "SonicWall Japan株式会社（以下、ソニックウォール）は3日、アセンテック株式会社が提供する物理デスクトップ集中管理ソリューション「リモートPCアレイ」と、ソニックウォールのZero Trust Network Access（ZTNA）を中核としたSASEプラットフォーム「SonicWall Cloud Secure Edge（CSE）」を共同で検証し、製品連携したことを発表した。",
+    "fetchedAt": "2026-08-05T06:14:42.072Z"
+  },
+  {
+    "id": "0fc27b196efe746c",
+    "source": "GIGAZINE",
+    "sourceUrl": "https://gigazine.net/news/rss_2.0/",
+    "title": "音声AIはなぜすぐに返事できるのか？OpenAIが「GPT-Live」の仕組みを解説",
+    "url": "https://gigazine.net/news/20260804-openai-gpt-live/",
+    "publishedAt": "2026-08-04T06:35:00.000Z",
+    "summary": "OpenAIが、人間との会話に素早く反応する音声AI「GPT-Live」を支えるリアルタイムシステムを約6カ月で構築した方法を公開しました。利用者とAIが同時に話せる仕組みや、複雑な処理を別のAIに任せながら会話を続ける設計、通信開始までの待ち時間を短縮する技術が解説されています。 続きを読む...",
+    "fetchedAt": "2026-08-05T06:14:15.678Z"
+  },
+  {
+    "id": "332f710d2f2e24bf",
+    "source": "窓の杜",
+    "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+    "title": "「Unity」で社内向け産業アプリ配布が有料に、「Internal Deployment Add-On」を発表／「Unity Industry」で組織内100MAUを超える場合に年間112.5万円から",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2130392.html",
+    "publishedAt": "2026-08-04T06:30:54.000Z",
+    "summary": "米Unity Technologiesは8月3日（現地時間）、新しい配布ライセンス体系「Internal Deployment Add-On」（IDAO、内部展開アドオン）の導入を開始した。産業向けの「Unity Industry」ライセンスで、新しい「Unity」アプリケーションが対象となる。",
+    "fetchedAt": "2026-08-05T06:14:14.244Z"
+  },
+  {
+    "id": "f4d11572246c1410",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "AIエージェント向けのツールを、MCPではなくCLIとして作った — 設計の3原則",
+    "url": "https://zenn.dev/codatum/articles/80b99faba75704",
+    "publishedAt": "2026-08-04T06:22:59.000Z",
+    "summary": "AI エージェントのためのデータ分析環境 Codatum CLI（cdm）をベータ版としてリリースしました。この CLI は、人間がターミナルから使うだけでなく、Cursor や Claude Code のような AI エージェントに操作させることを主要な用途のひとつとして設計しています。 前提として、Codatum は SQL 駆動のノートブックでデータ...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
+    "id": "d1c5ab7dda590442",
+    "source": "MELOS",
+    "sourceUrl": "https://melos.media/feed/",
+    "title": "運動しすぎのサインを見逃した。代償は10日間の休養…疲労を無視するとどうなる？",
+    "url": "https://melos.media/training/306244/",
+    "publishedAt": "2026-08-04T06:19:39.000Z",
+    "summary": "「休むのが下手」、運動を続けている人なら心当たりがあるんじゃないでしょうか。 私はキックボクシングをやっているのですが、…",
+    "fetchedAt": "2026-08-05T06:14:34.471Z"
+  },
+  {
+    "id": "274b20e1f2f66094",
+    "source": "リセマム",
+    "sourceUrl": "https://resemom.jp/rss/index.rdf",
+    "title": "インハイ.tvでライブ配信…全国高校総体2026バレーボール競技開幕",
+    "url": "https://resemom.jp/article/2026/08/04/87051.html",
+    "publishedAt": "2026-08-04T06:15:03.000Z",
+    "summary": "",
+    "fetchedAt": "2026-08-05T06:14:18.497Z"
+  },
+  {
     "id": "630e7956495c246c",
     "source": "GIGAZINE",
     "sourceUrl": "https://gigazine.net/news/rss_2.0/",
@@ -108,6 +3528,16 @@
     "publishedAt": "2026-08-04T05:33:49.000Z",
     "summary": "主に子どもが感染し、手足や口に発疹ができる「手足口病」の患者は、前の週より減ったものの依然として多い状態が続いていて、28都府県で警報レベルを超えています。",
     "fetchedAt": "2026-08-04T06:16:41.409Z"
+  },
+  {
+    "id": "d365f9bc1ef2d28c",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「国旗の損壊等の処罰に関する法律」の成立に抗議する憲法研究者声明",
+    "url": "https://sites.google.com/view/kokki-conlaw-seimei/%E3%83%9B%E3%83%BC%E3%83%A0",
+    "publishedAt": "2026-08-04T05:31:55.000Z",
+    "summary": "2026年8月4日付で憲法研究者有志により下記の声明を出しました 呼びかけ人14名 賛同人186名 合計200名（2026年8月4日13時現在） ※PDF版はこちらからダウンロードできます 「国旗の損壊等の処罰に関する法律」の成立に抗議する憲法研究者声明 2026年7月17日、「国旗の損壊等の処罰に関する法律」案が、参議院本会議で可...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
   },
   {
     "id": "40739e6b04df2022",
@@ -230,6 +3660,16 @@
     "fetchedAt": "2026-08-04T06:16:50.436Z"
   },
   {
+    "id": "f71e0767421a9fce",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？",
+    "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
+    "publishedAt": "2026-08-04T04:57:19.000Z",
+    "summary": "はじめに スキル（SKILL.md）で定型業務をAIに移譲したり、特定業務の自動化・半自動化を実現したりといった状況は珍しくなくなってきたと思います。 例えば、ブラウザ操作のトレースはplaywright-mcpまたはplaywright-cliで行い、そのトレース結果からAIに業務効率化のスキル作成までをしてもらうのも一般的でしょう。 とはいえ、あくまでブラウザ操作ベースでの話になります。 ここ最近、ローカルPCのアプリケーションやソフトといったPC操作ベースでの業務効率化スキルを作成できる術を探していたところ、今回紹介するmicrosoft/skil…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
+  },
+  {
     "id": "9edb23e1d29f099d",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -258,6 +3698,16 @@
     "publishedAt": "2026-08-04T04:43:00.000Z",
     "summary": "「一部SNSで事実と異なる情報が流れていますが、イオンモール熊本には、ガスコージェネレーションやガス発電機は設置していないことを確認しています」",
     "fetchedAt": "2026-08-04T06:16:41.973Z"
+  },
+  {
+    "id": "5eaf1ab76faad27a",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「ああァ、だまされちゃった」　22歳で戦死した特攻隊員が出撃前の日記に残した“本音”（AERA DIGITAL） - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/articles/88a31ee41eb24824cee339cfda17b3c77e119661",
+    "publishedAt": "2026-08-04T04:40:02.000Z",
+    "summary": "米戦艦「ミズーリ」に突入する特攻機、1945年／保阪正康氏による朝日文庫『「特攻」と日本人』から／写真は朝日新聞社 戦時中、「生き神様」と称えられた特攻隊員たち。だが、その当人たちは自らをどう見ていたのか。昭和史研究の第一人者であり、特攻隊員に長年心を寄せてきた保阪正康氏が、海軍飛行予備学生の手記や遺...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
   },
   {
     "id": "6320fac515634e03",
@@ -450,6 +3900,16 @@
     "fetchedAt": "2026-08-04T06:17:08.423Z"
   },
   {
+    "id": "c2656ffb376a05f5",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "Bedrock Tool UseでAIロボットを動かしたらかなり気分屋だった",
+    "url": "https://qiita.com/R-You/items/8ee108b6b1f8c4a191c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T03:41:59.000Z",
+    "summary": "「2026 Japan AWS Jr. Champions 真夏のQiitaリレー」 の4日目の投稿です！ 過去の投稿は以下の（リンク集）からご覧ください！ https://qiita.com/ys-yoshida/private/6f7c7f85155a993e2c8...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "e53898f1867f6368",
     "source": "ケータイWatch",
     "sourceUrl": "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
@@ -580,6 +4040,16 @@
     "fetchedAt": "2026-08-04T06:17:06.148Z"
   },
   {
+    "id": "5ac90eb4791161d8",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "危機言語フィールドワーカー向け：テクストを貼るだけで言語・方言の分布地図ができるツール｜下地理則（九州大学人文科学研究院 教授）",
+    "url": "https://note.com/lingfieldwork/n/n55ff8b169b1e",
+    "publishedAt": "2026-08-04T03:23:21.000Z",
+    "summary": "以前の記事「Rで日本地図を描く方法」では、sf とRパッケージの ggplot2 を使って論文用の、著作権フリー白地図を描く方法を紹介した。この方法は今でも有効で、私は今もそうしている。ただ、これだとR/Pythonの環境構築が必要で、地図を1枚作るたびにコードを書いて微調整する手間がかかる。 そこで今回、その手間をゼ...",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
     "id": "e9b52fb85d227a7c",
     "source": "NHK",
     "sourceUrl": "https://www.nhk.or.jp/rss/news/cat0.xml",
@@ -620,6 +4090,26 @@
     "fetchedAt": "2026-08-04T06:16:46.292Z"
   },
   {
+    "id": "01caa0f61f1aa820",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "出かける支度にどれぐらい掛かる？",
+    "url": "https://anond.hatelabo.jp/20260804120815",
+    "publishedAt": "2026-08-04T03:09:47.000Z",
+    "summary": "自分の場合（男）は、シャワー浴びたりするので大体20分ぐらい。 先日お付き合いしている女性とこの話題になって、彼女が「1時間ぐらい」というので「時間掛かりすぎじゃない？」と返事したら怒られてしまった。 皆は実際にはどれぐらいなの？",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "8e9b4ad079fcd7f2",
+    "source": "はてなIT",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "title": "GitHub - leonickson1/Swiftlet",
+    "url": "https://github.com/leonickson1/Swiftlet",
+    "publishedAt": "2026-08-04T03:08:58.000Z",
+    "summary": "The 35B also runs on an iPhone 17 in about 2.5 GB of RAM, at about 1 tok/s today. Credit where due: ANEMLL showed a 397B MoE streaming on an iPhone 17 Pro as a proof of concept in early 2026. Swiftlet's aim is the next step, making this class of model an installable app on a base…",
+    "fetchedAt": "2026-08-05T06:14:15.730Z"
+  },
+  {
     "id": "bd95a7cdc18da837",
     "source": "Impress Watch",
     "sourceUrl": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
@@ -638,6 +4128,16 @@
     "publishedAt": "2026-08-04T03:02:00.000Z",
     "summary": "オーストラリア西部のシャーク湾に生息するミナミハンドウイルカの中には、口先にスポンジ状の海綿動物を装着し、海底のエサを探す「sponging(スポンジング)」という採餌行動をする個体がいます。そんなスポンジングが、イルカの遺伝子にも特有の影響を与えることが明らかになりました。 続きを読む...",
     "fetchedAt": "2026-08-04T06:16:46.292Z"
+  },
+  {
+    "id": "efbf1b75561956bf",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "生成AIの品質保証をどう設計する？ ― 「全部QAで見る」をやめて、機械とAIと人に分けた話",
+    "url": "https://zenn.dev/wn_engineering/articles/95911ca28a7b1f",
+    "publishedAt": "2026-08-04T03:00:06.000Z",
+    "summary": "はじめに 初めまして、ウェルスナビでQAを担当しています大久保です。 ハルシネーションまみれのAIから数年、最近はAIの進化の速度に驚かされる日々を送っています。 本記事では、AI事業者ガイドラインを起点に生成AIを組み込んだ機能のテスト観点を作り、 PoCで直面した課題をもとに、品質保証のプロセスを組み直した過程を紹介します。 生成AIの品質保証と言われた時に、QAではどんなテストをすれば良いでしょうか。 私たちは最初、PoCで考えられるAIリスクを洗い出し、それをすべてQAで確認しました。 その中で、確認工数だけでなく判定基準やリリース判断との結びつ…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
   },
   {
     "id": "9727132b0e2d326c",
@@ -748,6 +4248,16 @@
     "publishedAt": "2026-08-04T02:42:00.000Z",
     "summary": "2026年8月2日より、EUの「AI法」によるAI生成コンテンツの表示に関する規則の適用が開始されました。AIの生成した画像や音声、動画、テキストに対して「人工的に生成したものであることを識別できるような表示」が義務化されます。 続きを読む...",
     "fetchedAt": "2026-08-04T06:16:46.292Z"
+  },
+  {
+    "id": "0a2ab9261c9afcb5",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【Next Tokyo 26】BigQuery 2026 徹底解説：AI時代のDWHが向かう「自律型データ基盤」の全貌",
+    "url": "https://qiita.com/tomokoro/items/9740693b74b09ab5a44b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T02:36:52.000Z",
+    "summary": "みなさんこんにちは！ Google Cloud Next Tokyo 26 にて開催されたセッション 「BigQuery 2026：AI 時代のデータウェア ハウスはどこへ向かうのか？最新アップデート徹底解説」（D1-DA-01） を聴講してきました。 スピーカーは Goo...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
   },
   {
     "id": "7a54e99b28234a9c",
@@ -1250,6 +4760,16 @@
     "fetchedAt": "2026-08-04T06:16:50.436Z"
   },
   {
+    "id": "c1dd6a68154aeb80",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "50音を全部作って繋いだのに、（　´∀｀）になった話",
+    "url": "https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T01:11:44.000Z",
+    "summary": "まず、これを聴いてください 音声①：自作したTTSで「こんにちは」 聞き覚えのある感じ、しませんか。 ∧＿∧ （ ´∀｀） ＜ こんにちは （ ） ｜ ｜ ｜ （_＿）＿） そう、モナーです。 一応、本人（？）は「こんにちは」...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "91da860fb743bda4",
     "source": "Security NEXT",
     "sourceUrl": "https://www.security-next.com/feed",
@@ -1258,6 +4778,16 @@
     "publishedAt": "2026-08-04T01:11:12.000Z",
     "summary": "サーバやネットワーク機器の遠隔監視などに利用されるN-ableのIT運用管理プラットフォーム「N-central」がサイバー攻撃の標的となっている。米当局が注意を呼びかけた。",
     "fetchedAt": "2026-08-04T06:17:03.731Z"
+  },
+  {
+    "id": "1f53e6e9a886f8ea",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "ROS 2 ハンズオン — 環境構築から自作ノード・自律走行まで",
+    "url": "https://zenn.dev/kimushun1101/books/ros2-handson",
+    "publishedAt": "2026-08-04T01:08:42.000Z",
+    "summary": "ROS 2 Jazzy で TurtleBot3 をシミュレーション (Gazebo) 上で動かしながら、ノード / トピックの基礎、launch ファイル、自作パッケージ (C++ の Pub/Sub 実装)、SLAM・自律走行 (Nav2) までを一通り体験するハンズオン教材です。回答例付きのハンズオン演習を11本収録。Windows (WSL) / Ubuntu のどちらでも進められます。",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
   },
   {
     "id": "300bbae67ffa2652",
@@ -1288,6 +4818,16 @@
     "publishedAt": "2026-08-04T01:00:59.000Z",
     "summary": "IT初心者でもしっかりわかる！しっかり受かる！『徹底攻略Biz 生成AIパスポート 教科書＆問題集』を5名様にプレゼント！ nishi-d 2026年8月4日 Think ITで実施している読者プレゼント企画です。ご応募お待ちしています。 シェア ポスト はてブ 優先するニュース提供元に追加 今すぐ応募する! 著者： 一般社団法人 生成AI活用普及協会（GUGA）監修 価格： 1,870円（税込） ページ数： 296ページ 出版社： インプレス ISBN： 9784295024309 書籍を詳しく調べる 目次 第1章 AI（人工知能）とは 第2章 生成A…",
     "fetchedAt": "2026-08-04T06:17:05.626Z"
+  },
+  {
+    "id": "11c35f5b0cdee3dd",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Rust のテストを実行するとき、裏側で何が起きているか",
+    "url": "https://zenn.dev/estie/articles/882e14dcad0d46",
+    "publishedAt": "2026-08-04T01:00:06.000Z",
+    "summary": "こんにちは。株式会社estie（エスティ）で Rust や Python でデータパイプラインや Web サーバーサイドの開発に取り組んでいる Masaki Miyazaki（yuly3）です。 前職も含め、これまで様々なアプリケーション Rust プロジェクトを見てきた中で、Rust のテストエコシステムへの理解不足に起因する時間的・金銭的損失を数多く見てきました。症状としてはこんなところです。 Rust backend の CI が TypeScript/Node.js frontend の 5 倍コストがかかっている テストを実行するとラップトップ…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
   },
   {
     "id": "db520adae326fa40",
@@ -1338,6 +4878,16 @@
     "publishedAt": "2026-08-04T01:00:00.000Z",
     "summary": "弥生株式会社は、中小企業・個人事業主向けの業務ソフトウェアパッケージ「弥生シリーズ」の新版として、「弥生 27シリーズ」を10月16日より販売開始すると発表した。8月1日以降に現行版「弥生 26シリーズ」を新規購入しユーザー登録をした利用者を対象に、「弥生 27シリーズ」をオンラインアップデートで無償提供する早期購入キャンペーンを実施する。",
     "fetchedAt": "2026-08-04T06:17:08.423Z"
+  },
+  {
+    "id": "a0d50c08f93bc6e0",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "Remote Configの力をもっと引き出す",
+    "url": "https://qiita.com/okuzawats/items/c93ec0b04c453ef76ca3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T01:00:00.000Z",
+    "summary": "この記事は「MEDLEY Summer Tech Blog Relay」の16日目の記事です🍉 株式会社メドレーのモバイルアプリエンジニアとして働いている奥澤です。 メドレーではFlutterを使ったアプリの開発に関わっており、現在関わっている複数のプロダクトではそれぞれF...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
   },
   {
     "id": "33b0e0b3c36b195b",
@@ -1420,6 +4970,16 @@
     "fetchedAt": "2026-08-04T06:16:45.247Z"
   },
   {
+    "id": "eda5e109f0866608",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "「もう音源が使えない…」STARTO社と契約満了でDOMOTOが直面する「楽曲権利問題の壁」 | FRIDAYデジタル",
+    "url": "https://friday.kodansha.co.jp/article/476522",
+    "publishedAt": "2026-08-04T00:26:34.000Z",
+    "summary": "オーケストラが参加したワケ ７月、『DOMOTO』（旧『KinKi Kids』）のドームツアー『DOMOTO Concert 2026 ～Stay with me～』が東京と大阪で開催された。公演では東京フィルハーモニー交響楽団とのコラボレーションが実現。壮大なオーケストラの演奏と堂本光一（47）、堂本剛（47）の歌声が観客を魅了したという。 しか...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
     "id": "a25070221164563f",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1460,6 +5020,16 @@
     "fetchedAt": "2026-08-04T06:16:48.588Z"
   },
   {
+    "id": "34803c5df9ce9352",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "AWS BuilderCards v2 セキュリティ拡張パック ポケットガイド",
+    "url": "https://qiita.com/AyaKunisawa/items/b1e0f43e8ab9b49ba053?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-04T00:07:11.000Z",
+    "summary": "本記事は、BIPROGY / ユニアデックス社内AWSコミュニティ「BIPROGY AWS SPARK」の定期投稿企画第7回目の記事です。他の定期投稿企画の記事は、インデックスページをご覧ください。 AWS BuilderCards v2（2nd Edition）...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "6c95bce252ec6363",
     "source": "家電Watch",
     "sourceUrl": "https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf",
@@ -1468,6 +5038,16 @@
     "publishedAt": "2026-08-04T00:04:00.000Z",
     "summary": "トレック・ジャパンから発売されたグラベルロードe-bike「Checkpoint+ SL 5(チェックポイントプラス エスエル 5)」。トレック(TREK)ブランドからは「初のグラベルロードタイプのe-bike」となります。試乗する機会を得ましたのでレビューをお届けします。",
     "fetchedAt": "2026-08-04T06:16:55.923Z"
+  },
+  {
+    "id": "baf26495c8f9be75",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理",
+    "url": "https://zenn.dev/knowledgesense/articles/7c1a8f7720b119",
+    "publishedAt": "2026-08-04T00:02:05.000Z",
+    "summary": "本記事では、今をときめくAI半導体ベンチャーである「Cerebras」による、「社内ナレッジ検索」の仕組みについて、解説します。 株式会社ナレッジセンスは、社内データ検索技術をエンタープライズ企業向けに提供しているスタートアップです。 この記事は何 この記事は、Cerebras社が公開した技術ブログ「How We Built Our Knowledge Base」[1]について、日本語で簡単にまとめたものです。 https://www.cerebras.ai/blog/how-we-built-our-knowledge-base ! 今回も「そもそもR…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
   },
   {
     "id": "15914db2c9c0d2b6",
@@ -1790,6 +5370,16 @@
     "fetchedAt": "2026-08-04T06:17:08.423Z"
   },
   {
+    "id": "d658189a004bee4d",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "図解で解説！Anthropic Claude Certified Architect (CCAR-F) 試験ガイド",
+    "url": "https://qiita.com/DeepTama/items/075b66cd7332870a042a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T22:51:36.000Z",
+    "summary": "本記事について Claude Certifi Architect – Foundations（CCAR-F）の試験範囲について、筆者が個人的な学習の一環として理解を整理・共有することを目的に執筆したものです。 記載内容は、公開されている試験ガイド（Version 0.2...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "3bce3afd5a298085",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -1808,6 +5398,16 @@
     "publishedAt": "2026-08-03T22:44:33.000Z",
     "summary": "全国のラジオ局の番組がインターネットで聴ける「radiko（ラジコ）」を技術面から設計してきた香取啓志（かんどり・けいし）氏。1985年、創設間もない米マサチューセッツ工科大学（MIT）メディアラボでインターネットの黎明に触れ、HDや4Kの非圧縮IP伝送を世界に先駆けて手がけた後、「IPサイマルラジオradiko」の開発に...",
     "fetchedAt": "2026-08-04T06:16:42.375Z"
+  },
+  {
+    "id": "59351ec86006f357",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "新しい Copilot Studio が GA したので「ハーネス」とクレジット課金体系を改めて整理してみる",
+    "url": "https://qiita.com/Takashi_Masumori/items/e6f1678b41483943fc04?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T22:24:09.000Z",
+    "summary": "※本記事は 2026/8 時点の公開情報（Copilot Studio 公式ブログ、Microsoft Learn、Copilot Credits Guide 2026年8月版）をベースに整理しています。今後変更される可能性があるため、契約や導入判断の際は必ず最新の公式情報...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
   },
   {
     "id": "6276fc3b17a8febb",
@@ -1848,6 +5448,26 @@
     "publishedAt": "2026-08-03T22:01:00.000Z",
     "summary": "エレベーターで上司と2人きり。気まずさに耐えかねて、意味もなく階数表示を見上げてしまう……。「人間関係が大事」とわかってはいても、具体的になにをすればいいのかは、案外わからないものです。『もしガリレオの伝え方がうまかったら』（かんき出版）の著者で、戦略コンサルタントの山本大平さんに聞くインタビュー第2回のテーマは、伝え方を支える「土台」と、誰でも使える「型」。業種も文化も異なる会社を渡り歩き、いまは戦略コンサルタントとして数多くの企業を見てきた山本さんが「どこでも通用する不動の法則」と言い切る方法は、驚くほどシンプルでした（全3回）。 取材・文／STUD…",
     "fetchedAt": "2026-08-04T06:16:47.674Z"
+  },
+  {
+    "id": "b7cce004a0b3015a",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "日本初！2階建て3Dプリンター住宅 |団地の害鳥を鷹が撃退 | 英語ゼロから海外移住をかなえた秘訣【6月人気記事まとめ】",
+    "url": "https://suumo.jp/journal/2026/08/04/218673/",
+    "publishedAt": "2026-08-03T22:00:46.000Z",
+    "summary": "ハンディファンの風に当たりながら、なんとか暑さをやり過ごし、木陰を探して歩いたり、夕暮れが待ち遠しくなったり。そんな夏の日常の中で、「これからどんな暮らしをしたいだろう」と、ふと人生について考える瞬間もありそうな季節です。住まいづくりの新たな技術や、地域課題を解決するユニークな取り組み、海外での暮らしのリアルなど、日々の生活を見つめ直すヒントに触れてみませんか？ SUUMOジャーナル6月の人気記事では、日本初となる2階建て3Dプリンター住宅の誕生や、鷹匠による団地の害鳥対策、英語ゼロからシンガポールへ移住した日本人一家の暮らしなど、住まいや暮らしのアイデ…",
+    "fetchedAt": "2026-08-05T06:14:24.116Z"
+  },
+  {
+    "id": "da8863b49d20a09d",
+    "source": "SUUMOジャーナル",
+    "sourceUrl": "https://suumo.jp/journal/feed/",
+    "title": "【子育て世帯の夏休み問題】子どもの居場所・宿題をUR団地が解決！ 涼しい集会所を無料開放、大学生による学習サポートも　「DANCHIつながるーむ」",
+    "url": "https://suumo.jp/journal/2026/08/04/218798/",
+    "publishedAt": "2026-08-03T22:00:04.000Z",
+    "summary": "夏休みは子どもにとって待ち遠しい一大イベント。一方で、保護者にとっては「日中をどう過ごしてもらおうか」と悩む時期でもあります。そんな夏休みの子どもの居場所づくりに取り組んでいるのが、独立行政法人都市再生機構（以下、UR都市機構）です。UR団地の集会所を、団地内外の子どもたちに広く開放し、楽しく学び、遊べる場を提供しています。 2023年夏の開始以来、リピーターも続出しているサマースクール企画「DANCHIつながるーむ〜夏休みは団地で楽しもう！〜」。今年も7月21日〜8月27日に開催ということで（団地によって開催日は異なる）、見どころや狙い、これまでの反響…",
+    "fetchedAt": "2026-08-05T06:14:24.116Z"
   },
   {
     "id": "6a817efb33860e10",
@@ -1940,6 +5560,16 @@
     "fetchedAt": "2026-08-04T06:17:02.714Z"
   },
   {
+    "id": "74ebe5e22fbaf5d7",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "Data CatalogでObject Storage内のCSVとParquetを自動カタログ化してみてみた",
+    "url": "https://qiita.com/shirok/items/d23855d5634f528f796c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T21:59:53.000Z",
+    "summary": "データレイクにデータを溜めるだけでは、どこに何があるか分からない「データ沼（Data Swamp）」化してしまいます。それを防ぎ、データを安全かつ迅速に利活用するためにデータカタログが必要不可欠です。 ■ はじめに Object Storageをデータレイクとして使用...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "0099645d056745a2",
     "source": "窓の杜",
     "sourceUrl": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
@@ -2030,6 +5660,26 @@
     "fetchedAt": "2026-08-04T06:17:06.148Z"
   },
   {
+    "id": "364d66fcfd2c24ae",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "AI家臣団を解散して、影武者を一人だけ残した　兵法書と訓練記録",
+    "url": "https://zenn.dev/shio_shoppaize/books/kagemusha-book",
+    "publishedAt": "2026-08-03T20:34:35.000Z",
+    "summary": "AIに仕事を任せるとき、どこまで任せて、何を自分の承認に残すか。その線の引き方を、 著者は自分の一人会社で実地に引いてきました。ある一日、著者がAIに打ち込んだ文字は 約400字。AIが吐き出したのは約6万字。400字は少ないのではなく、6万字を曲げるための 400字でした。 第一部「兵法書」は、その線の引き方の原則です。承認を3分で終わらせるには何が揃って いればいいか。届けたものが読まれる条件は何か。第二部「訓練記録」は、その理論が現場 で当たったか外れたかの実録です。判断課題・選択肢・AIの提案・与えたマンデートと承認 理由・観測された結果・移植で…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
+  },
+  {
+    "id": "cf5f62565c4260c3",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "【熊本発】高市総理のイカサマ視察、暴露します",
+    "url": "https://tanakaryusaku.jp/2026/08/00033801",
+    "publishedAt": "2026-08-03T19:55:53.000Z",
+    "summary": "高市首相は被害が八代市鏡地区ほど甚大ではないエリアの氷川中学校を視察した。＝3日、熊本県氷川町 撮影：田中龍作＝ ドブ川に家屋が崩れ落ち、神社の鳥居はちぎれて落ちている…今回の震災でひときわ被害が大きかった八代市鏡地区。避難所にあてられていたのは鏡小学校体育館だった。 避難民はクーラーのない蒸し風呂...",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
     "id": "d2c571c3bba2a735",
     "source": "はてな",
     "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
@@ -2070,6 +5720,26 @@
     "fetchedAt": "2026-08-04T06:16:42.375Z"
   },
   {
+    "id": "f70d75055a440927",
+    "source": "はてな",
+    "sourceUrl": "https://b.hatena.ne.jp/hotentry.rss",
+    "title": "FASHION - KOTACHIAO / 【コミックDAYS読み切り】FASHION | コミックDAYS",
+    "url": "https://comic-days.com/episode/12207421983834102264",
+    "publishedAt": "2026-08-03T15:58:39.000Z",
+    "summary": "FASHION KOTACHIAO 【アフタヌーン四季賞2025秋 佳作】裁縫の魔女のドレスが“特別なお客さん”の心を明るくほぐす、ちょっと不思議な仕立て屋物語。",
+    "fetchedAt": "2026-08-05T06:14:10.918Z"
+  },
+  {
+    "id": "cd0871d5635e5731",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "ヘルプデスク普通にむずかしくない?",
+    "url": "https://qiita.com/engineer_hiyok/items/0402bcc41416a36ec3e2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T15:52:53.000Z",
+    "summary": "はじめに こんにちは。元現場作業員のひよこです。 Excel、パワポも触れて来なかったガチのIT初心者ですが、2026年1月から学習を始め、半年弱で6月にIT企業へ転職しました。 保有資格はLPIC1、AWS CLF・SAA。資格と実務は別物ですが、とりあえず頑張って取り...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "09851059d423ca3b",
     "source": "Think IT",
     "sourceUrl": "https://thinkit.co.jp/rss.xml",
@@ -2088,6 +5758,16 @@
     "publishedAt": "2026-08-03T15:39:50.000Z",
     "summary": "調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。 クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせたものを指します。 発表によると、2026年第2四半期のクラウドインフラ市場は1年前と比較して43％成長となり成長率はこれまでで最高です。市場規模は1430億ドル（1ドル160円換算で約22兆8800億円）となり、3年前と比べて2倍以上となり……",
     "fetchedAt": "2026-08-04T06:16:44.521Z"
+  },
+  {
+    "id": "328efd992a11c38a",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "毎日137件公開されるCVE、正直ぜんぶ無視していませんか？",
+    "url": "https://qiita.com/udowanllc/items/024e91ccb6393159c798?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T15:29:32.000Z",
+    "summary": "1. 「CVE、本当は見なきゃいけないんだろうな」 多くのエンジニアが、口には出さないもののうっすら感じていることがあると思います。 日々公開される脆弱性情報、本当は自社への影響を確認すべきなのでは？ 実態はどうでしょうか。多くの現場では「Dependabotがアラートを...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
   },
   {
     "id": "d277ef506b8b35a4",
@@ -2510,6 +6190,16 @@
     "fetchedAt": "2026-08-04T06:16:50.436Z"
   },
   {
+    "id": "4405834c618ee8e3",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【PHP9】PHP9がリリースされた",
+    "url": "https://qiita.com/rana_kualu/items/8b350ada6dc831207d14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T10:47:58.000Z",
+    "summary": "マジかよ知らんかったぜ。 https://code.aetheria.jp/13974/ PHP 9は、これまでのPHP 8シリーズが築き上げた基盤をさらに強固にし、Webアプリケーション開発の最前線に立ち続けるための重要なマイルストーンとなりました。 開発者の利...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
+  },
+  {
     "id": "22d77b3aa5da852f",
     "source": "roomie",
     "sourceUrl": "https://www.roomie.jp/feed/",
@@ -2548,6 +6238,16 @@
     "publishedAt": "2026-08-03T10:30:00.000Z",
     "summary": "日焼け止めって、いくら防御力が高くても、肌に重さを感じると続きませんよね。 ビオレの「ビオレUV アクアリッチ ウォータリーエッセンス」は、強力UVカットなのに水のようなテクスチャーを実現した花王の日焼け止め。ただ今、Amazonで21％オフとセール中ですよ！",
     "fetchedAt": "2026-08-04T06:16:50.436Z"
+  },
+  {
+    "id": "d3303de998fa089d",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "Web を iOS に乗せると仕様書に載っていない WebKit にボコボコにされる",
+    "url": "https://zenn.dev/tamat_llc/articles/ios-webkit-invisible-specs",
+    "publishedAt": "2026-08-03T10:23:25.000Z",
+    "summary": "こんにちは！webエンジニア目指して10年のTakehiroTです！ TamaT という、顧客提案から要件定義・設計・開発まで一気通貫で担う少数精鋭の開発会社でやってます。 前回まではデスクトップの話でした。Tauri + WKWebView でボコボコにされた話を書いて、その次に PTY か ACP かを書いて。 で、今回はモバイルの WebKit にボコられる話なんだっぴ！同じ WebKit なのに殴られ方が全然違うんよ・・ あるモバイル向けの Web アプリ（Next.js + React）をチームで開発しています。PC ブラウザでは何の問題もなく…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
   },
   {
     "id": "280cf23e50434b00",
@@ -3300,6 +7000,16 @@
     "fetchedAt": "2026-08-03T08:52:04.147Z"
   },
   {
+    "id": "ae4007c53357f616",
+    "source": "Zenn",
+    "sourceUrl": "https://zenn.dev/feed",
+    "title": "入出力フォーマットで LLM トークンはどれだけ変わるのか",
+    "url": "https://zenn.dev/aiforall/articles/8cbeb63f5cbc00",
+    "publishedAt": "2026-08-03T05:38:52.000Z",
+    "summary": "はじめに LLM をアプリケーションに組み込むとき、入力や出力を JSON で扱う場面はよくあります。ただ、テキストで渡す・受け取る場合と比べて、トークン数やコストがどれくらい変わるのかが気になり調査してみました。 そこで本記事では、入力と出力それぞれを text / JSON で組み合わせた 4 パターンを Bedrock Converse API + Claude Haiku 4.5 で実測し、どこにトークンコストが乗るのかを可視化してみました。題材は肉じゃがのレシピ要約に絞り、実際の数字とあわせて紹介していきます。 前提条件 本検証は以下の条件で実…",
+    "fetchedAt": "2026-08-05T06:14:09.863Z"
+  },
+  {
     "id": "841312a926c94cba",
     "source": "クラウドWatch",
     "sourceUrl": "https://cloud.watch.impress.co.jp/data/rss/1.0/clw/feed.rdf",
@@ -3668,6 +7378,16 @@
     "publishedAt": "2026-08-03T03:32:48.000Z",
     "summary": "夫30代前半・私20代後半の夫婦。お互い高年齢出産で生まれた子どもだったので、私の両親は60代、彼の両親は70代。 一昨年の冬（既に義両親は70代）、特に私たちに相談もなく、義両親は子猫を飼い始めてしまった。義両親は長らく夫婦仲が悪いため、それを打開したい・かすがいになると思ったらしい猫飼いの義姉が勧めたら...",
     "fetchedAt": "2026-08-03T08:51:59.618Z"
+  },
+  {
+    "id": "7d55a3b42ac747c3",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "認識の差をすり合わせながら、未経験メンバーが「自主的に動く」ようになるまで",
+    "url": "https://qiita.com/ta-okada/items/7a9046087aec227b0b2f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T03:27:31.000Z",
+    "summary": "グロースエクスパートナーズグループのリレーブログ企画2日目担当の岡田です。 前回の記事は「/speckit.next という発想」でした。 まだご覧になっていない方は、ぜひそちらもチェックしてみてください！ はじめに 今回は、エンジニアリング経験のないメンバーを対...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
   },
   {
     "id": "3b50378d7585c31e",
@@ -4308,6 +8028,16 @@
     "publishedAt": "2026-08-03T00:27:34.000Z",
     "summary": "米Microsoftは7月31日（現地時間）、「Windows 11 Insider Preview」ビルドをアップデートした。以下のビルドが展開中だ。",
     "fetchedAt": "2026-08-03T08:52:03.154Z"
+  },
+  {
+    "id": "d61aa557ca34c4f3",
+    "source": "Qiita",
+    "sourceUrl": "https://qiita.com/popular-items/feed",
+    "title": "【初心者向け】PostgreSQLメタコマンドとSQL*Plusの違い",
+    "url": "https://qiita.com/S_Sato_NT/items/99b4d7724053a3b0c3ce?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "publishedAt": "2026-08-03T00:21:26.000Z",
+    "summary": "はじめに 今回PostgreSQLを学ぶにあたってメタコマンドというものが出てきたため、SQL*Plus(Oracle)との対応一覧表があったらいいなぁという思いからまとめてみました。 またメタコマンドだけでなく、よく使いそうor遭遇しそうな違いについても同時に記載してい...",
+    "fetchedAt": "2026-08-05T06:14:11.627Z"
   },
   {
     "id": "d651a48ce7f6f88f",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:28:32.346Z",
+  "generatedAt": "2026-08-05T06:28:18.955Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,11 +10,11 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-08-04T06:18:56.245Z",
+      "generatedAt": "2026-08-05T06:16:32.089Z",
       "mappedThemeCount": 16,
-      "successCount": 16,
+      "successCount": 15,
       "skippedCount": 0,
-      "errorCount": 0,
+      "errorCount": 1,
       "requestCount": null,
       "observedThemes": [
         "ai-business-automation",
@@ -35,8 +35,14 @@
         "fitness-training"
       ],
       "skipped": [],
-      "errors": [],
-      "totalVolume": 123175
+      "errors": [
+        {
+          "theme": "ai-content-generation",
+          "type": "unknown",
+          "retryable": false
+        }
+      ],
+      "totalVolume": 119325
     },
     {
       "id": "qiita",
@@ -47,7 +53,7 @@
       "apiDocs": "https://qiita.com/api/v2/docs",
       "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
       "windowDays": 30,
-      "generatedAt": "2026-08-04T06:19:01.607Z",
+      "generatedAt": "2026-08-05T06:16:36.770Z",
       "mappedThemeCount": 16,
       "successCount": 11,
       "skippedCount": 5,
@@ -94,7 +100,7 @@
         }
       ],
       "errors": [],
-      "totalVolume": 2189
+      "totalVolume": 2170
     },
     {
       "id": "arxiv",
@@ -105,7 +111,7 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-08-04T06:20:40.543Z",
+      "generatedAt": "2026-08-05T06:18:24.569Z",
       "mappedThemeCount": 16,
       "successCount": 16,
       "skippedCount": 0,
@@ -131,7 +137,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 3172
+      "totalVolume": 3328
     },
     {
       "id": "appstore",
@@ -142,7 +148,7 @@
       "apiDocs": "https://rss.marketingtools.apple.com/",
       "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
       "windowDays": 1,
-      "generatedAt": "2026-08-04T06:20:38.221Z",
+      "generatedAt": "2026-08-05T06:18:22.035Z",
       "mappedThemeCount": 16,
       "successCount": 8,
       "skippedCount": 8,
@@ -212,7 +218,7 @@
       "apiDocs": "https://docs.github.com/rest/search",
       "method": "GitHub Search API (repositories created in window)",
       "windowDays": 30,
-      "generatedAt": "2026-08-04T06:21:36.310Z",
+      "generatedAt": "2026-08-05T06:19:18.548Z",
       "mappedThemeCount": 15,
       "successCount": 10,
       "skippedCount": 0,
@@ -269,7 +275,7 @@
       "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
       "method": "NDL Search OpenSearch API (bibliography count)",
       "windowDays": null,
-      "generatedAt": "2026-08-04T06:22:14.171Z",
+      "generatedAt": "2026-08-05T06:19:56.516Z",
       "mappedThemeCount": 16,
       "successCount": 8,
       "skippedCount": 0,
@@ -278,11 +284,11 @@
       "observedThemes": [
         "senior-health",
         "remote-work",
-        "payment-troubles",
+        "infrastructure-outages",
         "ai-regulation",
         "ai-business-automation",
         "home-server-selfhost",
-        "home-appliance",
+        "study-methods",
         "fitness-training"
       ],
       "skipped": [],
@@ -293,7 +299,7 @@
           "retryable": true
         },
         {
-          "theme": "infrastructure-outages",
+          "theme": "payment-troubles",
           "type": "timeout",
           "retryable": true
         },
@@ -313,11 +319,6 @@
           "retryable": true
         },
         {
-          "theme": "study-methods",
-          "type": "timeout",
-          "retryable": true
-        },
-        {
           "theme": "exam-admission",
           "type": "timeout",
           "retryable": true
@@ -326,9 +327,14 @@
           "theme": "housing",
           "type": "timeout",
           "retryable": true
+        },
+        {
+          "theme": "home-appliance",
+          "type": "timeout",
+          "retryable": true
         }
       ],
-      "totalVolume": 16771
+      "totalVolume": 19352
     }
   ],
   "news": {
@@ -339,39 +345,39 @@
     "homepage": null,
     "apiDocs": null,
     "method": "RSS",
-    "articleCount": 2295,
+    "articleCount": 2668,
     "feeds": [
+      "窓の杜",
+      "NHK",
       "GIGAZINE",
       "ライフハッカー",
-      "Impress Watch",
       "ケータイWatch",
-      "NHK",
-      "リセマム",
+      "Impress Watch",
       "ITmedia Mobile",
-      "Security NEXT",
       "CodeZine",
+      "MELOS",
       "クラウドWatch",
-      "窓の杜",
+      "リセマム",
+      "Security NEXT",
+      "ITmedia AI+",
+      "はてなIT",
       "家電Watch",
       "roomie",
       "ITmedia",
-      "ITmedia AI+",
       "はてな",
-      "ソレドコ",
-      "はてなIT",
       "ICT教育ニュース",
-      "Think IT",
+      "ソレドコ",
       "ITmedia エンタープライズ",
       "ScanNetSecurity",
       "STUDY HACKER",
+      "Think IT",
       "Publickey",
-      "アットホームタイムズ",
-      "MELOS",
-      "Zenn",
       "Qiita",
+      "Zenn",
+      "SUUMOジャーナル",
+      "アットホームタイムズ",
       "さくらのナレッジ",
-      "中学受験情報局",
-      "SUUMOジャーナル"
+      "中学受験情報局"
     ]
   }
 }

@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2026-08-04T06:28:32.546Z",
-  "date": "2026-08-04",
+  "updatedAt": "2026-08-05T06:28:19.136Z",
+  "date": "2026-08-05",
   "topId": "ai-business-automation",
   "themes": {
     "ai-business-automation": {
-      "score": 92,
+      "score": 93,
       "verdict": "拡大局面"
     },
     "infrastructure-outages": {
-      "score": 87,
+      "score": 89,
       "verdict": "拡大局面"
     },
     "security-breach": {
-      "score": 82,
+      "score": 83,
       "verdict": "様子見"
     },
     "ai-coding": {
-      "score": 80,
-      "verdict": "様子見"
-    },
-    "payment-troubles": {
-      "score": 66,
-      "verdict": "鎮静化中"
-    },
-    "ai-regulation": {
-      "score": 65,
-      "verdict": "様子見"
-    },
-    "housing": {
-      "score": 64,
+      "score": 82,
       "verdict": "様子見"
     },
     "exam-admission": {
-      "score": 63,
-      "verdict": "様子見"
+      "score": 72,
+      "verdict": "定着"
+    },
+    "payment-troubles": {
+      "score": 70,
+      "verdict": "鎮静化中"
     },
     "fitness-training": {
-      "score": 59,
+      "score": 68,
       "verdict": "観測不足"
     },
-    "home-appliance": {
-      "score": 58,
+    "ai-regulation": {
+      "score": 68,
       "verdict": "様子見"
     },
+    "home-appliance": {
+      "score": 61,
+      "verdict": "様子見"
+    },
+    "housing": {
+      "score": 59,
+      "verdict": "鎮静化中"
+    },
     "ai-content-generation": {
-      "score": 53,
+      "score": 49,
       "verdict": "様子見"
     },
     "study-methods": {
+      "score": 45,
+      "verdict": "様子見"
+    },
+    "ai-hardware": {
       "score": 43,
       "verdict": "鎮静化中"
     },
-    "ai-hardware": {
-      "score": 42,
-      "verdict": "鎮静化中"
-    },
-    "home-server-selfhost": {
-      "score": 32,
-      "verdict": "様子見"
-    },
     "senior-health": {
-      "score": 31,
+      "score": 36,
       "verdict": "様子見"
     },
     "remote-work": {
       "score": 30,
       "verdict": "鎮静化中"
+    },
+    "home-server-selfhost": {
+      "score": 30,
+      "verdict": "様子見"
     }
   }
 }
