@@ -42,15 +42,39 @@ export default function Categories() {
             className="cat-card"
             style={{ '--i': i }}
           >
-            <div className="cat-name">{c.name}</div>
+            <div className="cat-card-head">
+              <div className="cat-name">{c.name}</div>
+              {c.dominantStageMeta && (
+                <span
+                  className="cat-stage-badge"
+                  style={{ borderColor: c.dominantStageMeta.tint, color: c.dominantStageMeta.tint }}
+                  title={`この分野で最も多い需要ステージ：${c.dominantStageMeta.label}`}
+                >
+                  {c.dominantStageMeta.icon} {c.dominantStageMeta.label}
+                </span>
+              )}
+            </div>
             <div className="cat-desc">{c.description}</div>
             {c.topDemand && (
               <div style={{ fontSize: 13, color: 'var(--text-2)' }}>
                 注目：<strong style={{ color: 'var(--text)' }}>{c.topDemand.title}</strong>
+                <span style={{ color: 'var(--text-3)' }}>（需要 {c.topDemand.score}）</span>
+              </div>
+            )}
+            {c.count > 0 && (
+              <div
+                className="cat-stage-dist"
+                title={`需要ステージ内訳 — 研究先行 ${c.stageDist.emerging} / 並走 ${c.stageDist.parallel} / 世間先行 ${c.stageDist.mainstream}`}
+                aria-label={`ステージ内訳 研究先行${c.stageDist.emerging} 並走${c.stageDist.parallel} 世間先行${c.stageDist.mainstream}`}
+              >
+                {c.stageDist.emerging > 0 && <span style={{ flex: c.stageDist.emerging, background: 'hsl(265 60% 55%)' }} />}
+                {c.stageDist.parallel > 0 && <span style={{ flex: c.stageDist.parallel, background: 'hsl(210 15% 50%)' }} />}
+                {c.stageDist.mainstream > 0 && <span style={{ flex: c.stageDist.mainstream, background: 'hsl(30 70% 50%)' }} />}
               </div>
             )}
             <div className="cat-meta">
-              <span><span className="k">登録数 </span><span className="v">{c.count}</span></span>
+              <span><span className="k">テーマ </span><span className="v">{c.count}</span></span>
+              <span><span className="k">平均需要 </span><span className="v">{c.avgScore}</span></span>
               <span>
                 <span className="k">平均変化率 </span>
                 <span className={`v ${c.avgChange > 0 ? 'up' : c.avgChange < 0 ? 'down' : ''}`}>

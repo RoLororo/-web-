@@ -234,19 +234,45 @@ export function stageCounts(options = {}) {
   return counts;
 }
 
+// 需要ステージの表示メタ（分野カードの支配ステージ表示に使う）
+const STAGE_META = {
+  emerging:   { icon: '🔬', label: '研究・開発が先行', tint: 'hsl(265 60% 55%)' },
+  parallel:   { icon: '⚖', label: '研究と話題が並走',  tint: 'hsl(210 15% 50%)' },
+  mainstream: { icon: '📣', label: '世間が先行',       tint: 'hsl(30 70% 50%)' },
+};
+
 /** カテゴリー別のサマリー（一覧画面用） */
 export function getCategorySummaries() {
   return CATEGORIES.map((name) => {
     const items = DEMANDS.filter((d) => d.category === name);
-    const avgChange = items.length
-      ? items.reduce((sum, d) => sum + d.change, 0) / items.length
-      : 0;
+    const n = items.length;
+    const avgChange = n ? items.reduce((sum, d) => sum + d.change, 0) / n : 0;
+    const avgScore  = n ? items.reduce((sum, d) => sum + d.score, 0) / n : 0;
+
+    // 分野内の需要ステージ分布と支配ステージ（既存データの集約 = ゼロ fetch）
+    const stageDist = { emerging: 0, parallel: 0, mainstream: 0 };
+    for (const d of items) {
+      const s = demandStageOf(d)?.stage;
+      if (s && stageDist[s] != null) stageDist[s] += 1;
+    }
+    // 支配ステージ: 最多。同数なら 研究先行 > 並走 > 世間先行 の順（早期機会を優先表示）。
+    const order = ['emerging', 'parallel', 'mainstream'];
+    let dominant = null;
+    if (n > 0) {
+      dominant = order.reduce((best, s) => (stageDist[s] > stageDist[best] ? s : best), order[0]);
+      if (stageDist[dominant] === 0) dominant = null;
+    }
+
     return {
       name,
       description: CATEGORY_DESCRIPTIONS[name],
-      count: items.length,
+      count: n,
       avgChange: Math.round(avgChange * 10) / 10,
-      topDemand: items.sort((a, b) => b.score - a.score)[0] || null,
+      avgScore: Math.round(avgScore),
+      stageDist,
+      dominantStage: dominant,
+      dominantStageMeta: dominant ? STAGE_META[dominant] : null,
+      topDemand: items.slice().sort((a, b) => b.score - a.score)[0] || null,
     };
   });
 }

@@ -3210,7 +3210,34 @@ select.select:focus {
   box-shadow: var(--shadow-md);
 }
 .cat-card:hover::after { opacity: 1; }
+.cat-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-2);
+  flex-wrap: wrap;
+}
 .cat-name { font-size: 17px; font-weight: 600; letter-spacing: -0.01em; }
+.cat-stage-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border: 1px solid;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.cat-stage-dist {
+  display: flex;
+  height: 6px;
+  border-radius: 999px;
+  overflow: hidden;
+  gap: 2px;
+  background: var(--bg-1);
+}
+.cat-stage-dist > span { display: block; border-radius: 999px; }
 .cat-desc { font-size: 13px; color: var(--text-2); line-height: 1.6; min-height: 40px; }
 .cat-meta {
   display: flex;
