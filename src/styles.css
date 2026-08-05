@@ -3060,6 +3060,53 @@ ul { margin: 0; padding: 0; list-style: none; }
   align-items: center;
   margin-bottom: var(--s-5);
 }
+
+/* 需要ステージ絞り込みチップ */
+.stage-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin: var(--s-3) 0 var(--s-2);
+}
+.stage-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-2);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.stage-filter-chip:hover { border-color: var(--border-strong); }
+.stage-filter-chip:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+.stage-filter-chip.is-active { font-weight: 600; }
+.stage-filter-count {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-3);
+  background: var(--bg-1);
+  border-radius: 999px;
+  padding: 1px 7px;
+  min-width: 20px;
+  text-align: center;
+}
+.stage-filter-chip.is-active .stage-filter-count { color: inherit; }
+.stage-filter-note {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-2);
+  margin: 0 0 var(--s-4);
+  max-width: 46em;
+}
 .filter-group { display: flex; align-items: center; gap: var(--s-2); }
 .filter-group label { font-size: 12px; color: var(--text-3); }
 select.select {

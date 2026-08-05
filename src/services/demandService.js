@@ -181,10 +181,15 @@ function searchHaystack(d) {
 
 /**
  * 需要探索用のフィルタ・並び替え。
- * options: { keyword, category, status, sort }
+ * options: { keyword, category, status, stage, sort }
+ * stage: '' | 'emerging' | 'parallel' | 'mainstream' — 需要ステージで絞り込む
  */
+export function demandStageOf(d) {
+  return d?._insights?.demandStage || null;
+}
+
 export function searchDemands(options = {}) {
-  const { keyword = '', category = '', status = '', sort = 'score' } = options;
+  const { keyword = '', category = '', status = '', stage = '', sort = 'score' } = options;
   let list = [...DEMANDS];
 
   if (keyword.trim()) {
@@ -193,7 +198,9 @@ export function searchDemands(options = {}) {
   }
   if (category) list = list.filter((d) => d.category === category);
   if (status)   list = list.filter((d) => d.status === status);
+  if (stage)    list = list.filter((d) => demandStageOf(d)?.stage === stage);
 
+  const lead = (d) => demandStageOf(d)?.leadScore ?? -Infinity;
   switch (sort) {
     case 'change':
       list.sort((a, b) => b.change - a.change);
@@ -201,12 +208,30 @@ export function searchDemands(options = {}) {
     case 'updated':
       list.sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
       break;
+    case 'lead':
+      // 研究・開発が世間より先行している順。同点はスコアで割る。
+      list.sort((a, b) => (lead(b) - lead(a)) || (b.score - a.score));
+      break;
     case 'score':
     default:
       list.sort((a, b) => b.score - a.score);
   }
 
   return list;
+}
+
+/**
+ * 現在の絞り込み条件下での需要ステージ別テーマ数。
+ * Explore のステージチップに実数を出すために使う（stage 条件は無視して数える）。
+ */
+export function stageCounts(options = {}) {
+  const base = searchDemands({ ...options, stage: '', sort: 'score' });
+  const counts = { all: base.length, emerging: 0, parallel: 0, mainstream: 0 };
+  for (const d of base) {
+    const s = demandStageOf(d)?.stage;
+    if (s && counts[s] != null) counts[s] += 1;
+  }
+  return counts;
 }
 
 /** カテゴリー別のサマリー（一覧画面用） */
