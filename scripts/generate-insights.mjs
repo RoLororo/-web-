@@ -900,6 +900,31 @@ function tokenizeKeyword(kw) {
   return [...new Set([s, ...parts])];
 }
 
+// ── 需要スコアの実履歴 ───────────────────────────────────────────────
+// history/current/{id}.jsonl の derived.score から日次のスコア系列を作り、
+// 今日の点（= 今回再計算したスコア）を足す。カード/一覧のスパークラインを
+// 「ニュース件数の代理指標」ではなく“需要スコアそのもの”にするため、
+// build 時に demands.json へ焼き込む（クライアントの追加 fetch は不要）。
+// history ステップは generate-insights より後に走るので、JSONL は前日まで。
+// 今日の点は現在の demand.score で補完する。
+async function buildScoreHistory(demand, todayISO) {
+  let records = [];
+  try {
+    const res = await storage.readJsonl(PATHS.history.currentTheme(demand.id));
+    records = res?.records || [];
+  } catch {
+    records = [];
+  }
+  const byDate = new Map();
+  for (const r of records) {
+    const s = r?.derived?.score;
+    if (typeof s === 'number' && typeof r.date === 'string') byDate.set(r.date, s);
+  }
+  if (typeof demand.score === 'number') byDate.set(todayISO, demand.score);
+  const dates = [...byDate.keys()].sort().slice(-14);
+  return { dates, scores: dates.map((d) => byDate.get(d)) };
+}
+
 // ── 需要ステージ（先行指標）─────────────────────────────────────────
 // 競合（Google Trends=検索カーブのみ / Product Hunt=製品のみ / Reddit=雑談のみ）は
 // 単一データ源しか見ない。Demand Atlas は 研究(arXiv) / 開発(Qiita) / 認知(ニュース) を
@@ -1134,9 +1159,11 @@ async function main() {
   const similarMap = computeSimilarThemes(demands, themeIndex);
   // 需要ステージは全テーマの順位を使うので、ループ前に一度だけ統計を集める
   const stageStats = collectStageStats(demands);
+  const todayISO = new Date().toISOString().slice(0, 10);
 
   let filled = 0;
   for (const d of demands) {
+    d._scoreHistory = await buildScoreHistory(d, todayISO);
     const profile = THEME_PROFILES[d.id] || {};
 
     const dataQuality = computeDataQuality(d);

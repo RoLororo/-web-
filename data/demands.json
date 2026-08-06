@@ -756,7 +756,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.973Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 74,
@@ -978,6 +978,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          85,
+          83,
+          98,
+          92,
+          93,
+          98
+        ]
       }
     },
     {
@@ -1533,7 +1551,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.974Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -1737,6 +1755,16 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          90,
+          92
+        ]
       }
     },
     {
@@ -2297,7 +2325,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.974Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 63,
@@ -2493,6 +2521,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          67,
+          77,
+          87,
+          87,
+          91,
+          88
+        ]
       }
     },
     {
@@ -3123,7 +3169,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.975Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 72,
@@ -3323,6 +3369,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          53,
+          81,
+          82,
+          82,
+          82,
+          82
+        ]
       }
     },
     {
@@ -3884,7 +3948,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.975Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -4089,6 +4153,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          81,
+          81,
+          82,
+          80,
+          82,
+          82
+        ]
       }
     },
     {
@@ -4549,7 +4631,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.975Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 42,
@@ -4736,6 +4818,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          46,
+          49,
+          64,
+          63,
+          79,
+          80
+        ]
       }
     },
     {
@@ -5177,7 +5277,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.976Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 29,
@@ -5366,6 +5466,22 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          60,
+          55,
+          59,
+          70,
+          73
+        ]
       }
     },
     {
@@ -6152,7 +6268,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.749Z",
+        "generatedAt": "2026-08-06T10:31:16.976Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 100,
@@ -6356,6 +6472,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          53,
+          63,
+          68,
+          66,
+          70,
+          69
+        ]
       }
     },
     {
@@ -6888,7 +7022,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.976Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 58,
@@ -7081,6 +7215,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          45,
+          48,
+          49,
+          58,
+          67,
+          68
+        ]
       }
     },
     {
@@ -7612,7 +7764,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.977Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 46,
@@ -7810,6 +7962,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          45,
+          54,
+          58,
+          65,
+          69,
+          67
+        ]
       }
     },
     {
@@ -8349,7 +8519,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.977Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 72,
@@ -8536,6 +8706,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          68,
+          66,
+          63,
+          64,
+          59,
+          59
+        ]
       }
     },
     {
@@ -9218,7 +9406,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.978Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 98,
@@ -9425,6 +9613,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          41,
+          49,
+          59,
+          53,
+          51,
+          55
+        ]
       }
     },
     {
@@ -10016,7 +10222,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.978Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 64,
@@ -10211,6 +10417,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          24,
+          36,
+          42,
+          42,
+          48,
+          46
+        ]
       }
     },
     {
@@ -10772,7 +10996,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.978Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 89,
@@ -10969,6 +11193,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          42,
+          51,
+          44,
+          43,
+          45,
+          44
+        ]
       }
     },
     {
@@ -11415,7 +11657,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.979Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 69,
@@ -11608,6 +11850,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          33,
+          31,
+          32,
+          31,
+          37,
+          35
+        ]
       }
     },
     {
@@ -12225,7 +12485,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.979Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 92,
@@ -12426,6 +12686,24 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          33,
+          30,
+          31,
+          30,
+          31,
+          31
+        ]
       }
     },
     {
@@ -12966,7 +13244,7 @@
       },
       "_insights": {
         "version": 2,
-        "generatedAt": "2026-08-06T00:24:24.750Z",
+        "generatedAt": "2026-08-06T10:31:16.980Z",
         "method": "heuristic (rule-based, no LLM)",
         "dataQuality": {
           "score": 76,
@@ -13139,9 +13417,27 @@
           },
           "method": "arXiv(研究)・Qiita(開発)・ニュース(認知) を横断し、テーマ間の順位を合成。App Store は製品化の有無のみ参照。GitHub は検索ノイズが大きいため判定に不使用"
         }
+      },
+      "_scoreHistory": {
+        "dates": [
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06"
+        ],
+        "scores": [
+          25,
+          24,
+          25,
+          32,
+          30,
+          30
+        ]
       }
     }
   ],
-  "insightsGeneratedAt": "2026-08-06T00:24:24.750Z",
+  "insightsGeneratedAt": "2026-08-06T10:31:16.980Z",
   "insightsMethod": "heuristic-v1"
 }

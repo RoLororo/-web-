@@ -84,11 +84,19 @@ export default function DemandCard({ demand, rank, index = 0, historyMove = null
   const primaryLabel = hasHistoryMove ? '今日' : '30日';
   const primarySrc = hasHistoryMove ? sourceDisplay(historyMove.source) : 'ニュース';
 
-  const sparkColor =
-    primaryPct > 0 ? 'var(--green-bright)' :
-    primaryPct < 0 ? 'var(--red)' : 'var(--text-3)';
+  // スパークライン: “需要スコアそのもの”の実履歴を優先。2 点未満のときだけ
+  // 従来のニュース／閲覧数系列にフォールバックする（見た目の一貫性のため）。
+  const scoreHist = demand._scoreHistory?.scores || [];
+  const useScoreHist = scoreHist.length >= 2;
+  const cardSeries = useScoreHist
+    ? scoreHist.slice(-7)
+    : (sliceSeries(trendSeries(demand), 7)?.values || []);
 
-  const cardSeries = sliceSeries(trendSeries(demand), 7)?.values || [];
+  // 線の色はスパークラインが表す方向に合わせる（スコア履歴なら期間内の増減）。
+  const sparkDir = useScoreHist ? cardSeries[cardSeries.length - 1] - cardSeries[0] : primaryPct;
+  const sparkColor =
+    sparkDir > 0 ? 'var(--green-bright)' :
+    sparkDir < 0 ? 'var(--red)' : 'var(--text-3)';
   const sourceTotal = ['_wikipediaDetail', '_qiitaDetail', '_arxivDetail',
     '_appstoreDetail', '_githubDetail', '_ndlDetail'].filter((k) => demand[k]).length;
 
