@@ -3250,6 +3250,15 @@ select.select:focus {
 @media (max-width: 560px) {
   .riser-spark, .riser-flow { display: none; }
 }
+.risers-all-link {
+  display: inline-block;
+  margin-top: var(--s-3);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--green-bright);
+  text-decoration: none;
+}
+.risers-all-link:hover { text-decoration: underline; }
 
 /* 需要スコアの実推移サマリー */
 .score-traj-summary {

@@ -201,6 +201,11 @@ export function searchDemands(options = {}) {
   if (stage)    list = list.filter((d) => demandStageOf(d)?.stage === stage);
 
   const lead = (d) => demandStageOf(d)?.leadScore ?? -Infinity;
+  // 需要スコアの実履歴（_scoreHistory）の期間内の伸び。2 点未満は末尾に沈める。
+  const scoreRise = (d) => {
+    const s = d?._scoreHistory?.scores;
+    return Array.isArray(s) && s.length >= 2 ? s[s.length - 1] - s[0] : -Infinity;
+  };
   switch (sort) {
     case 'change':
       list.sort((a, b) => b.change - a.change);
@@ -211,6 +216,10 @@ export function searchDemands(options = {}) {
     case 'lead':
       // 研究・開発が世間より先行している順。同点はスコアで割る。
       list.sort((a, b) => (lead(b) - lead(a)) || (b.score - a.score));
+      break;
+    case 'scorerise':
+      // 需要スコアが期間内で最も伸びた順。同点は現在のスコアで割る。
+      list.sort((a, b) => (scoreRise(b) - scoreRise(a)) || (b.score - a.score));
       break;
     case 'score':
     default:

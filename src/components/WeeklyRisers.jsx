@@ -60,6 +60,10 @@ export default function WeeklyRisers({ allDemands = [] }) {
           </li>
         ))}
       </ol>
+
+      <Link to="/explore?sort=scorerise" className="risers-all-link">
+        すべての需要を上昇順で見る →
+      </Link>
     </section>
   );
 }

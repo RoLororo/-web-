@@ -12,10 +12,11 @@ import { useSeo } from '../utils/useSeo.js';
 
 const STATUS_OPTIONS = ['', '急上昇', '成長中', '安定', '下降'];
 const SORT_OPTIONS = [
-  { value: 'score',   label: '需要度が高い順' },
-  { value: 'lead',    label: '研究・開発の先行度順' },
-  { value: 'change',  label: '急上昇順' },
-  { value: 'updated', label: '最近注目された順' },
+  { value: 'score',     label: '需要度が高い順' },
+  { value: 'scorerise', label: '需要スコアの上昇順（週間）' },
+  { value: 'lead',      label: '研究・開発の先行度順' },
+  { value: 'change',    label: '急上昇順' },
+  { value: 'updated',   label: '最近注目された順' },
 ];
 
 // 需要ステージ = 研究(arXiv)・開発(Qiita)・認知(ニュース) の横断合成。
