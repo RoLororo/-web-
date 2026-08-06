@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-05T14:40:14.125Z",
+  "generatedAt": "2026-08-06T00:14:47.865Z",
   "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
   "windowDays": 30,
-  "windowStart": "2026-07-06",
-  "windowEnd": "2026-08-04",
+  "windowStart": "2026-07-07",
+  "windowEnd": "2026-08-05",
   "mappedThemeCount": 17,
-  "successCount": 17,
-  "errorCount": 0,
+  "successCount": 16,
+  "errorCount": 1,
   "themes": {
     "ai-business-automation": {
       "articles": [
@@ -18,12 +18,11 @@
         "ChatGPT"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 34029,
-      "totalPageviews7d": 6456,
-      "totalPageviewsPrior7d": 8374,
-      "growthPercent": -23,
+      "totalPageviews30d": 32626,
+      "totalPageviews7d": 5476,
+      "totalPageviewsPrior7d": 7883,
+      "growthPercent": -31,
       "byDate": {
-        "2026-07-06": 1403,
         "2026-07-07": 1431,
         "2026-07-08": 1272,
         "2026-07-09": 1290,
@@ -54,7 +53,7 @@
         "2026-08-03": 984,
         "2026-08-04": 968
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "ai-coding": {
       "articles": [
@@ -64,12 +63,11 @@
         "GitHub_Copilot"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 1564,
-      "totalPageviews7d": 380,
-      "totalPageviewsPrior7d": 415,
-      "growthPercent": -8,
+      "totalPageviews30d": 1501,
+      "totalPageviews7d": 320,
+      "totalPageviewsPrior7d": 398,
+      "growthPercent": -20,
       "byDate": {
-        "2026-07-06": 63,
         "2026-07-07": 53,
         "2026-07-08": 64,
         "2026-07-09": 84,
@@ -100,7 +98,7 @@
         "2026-08-03": 62,
         "2026-08-04": 73
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "ai-content-generation": {
       "articles": [
@@ -110,12 +108,11 @@
         "Stable_Diffusion"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 3867,
-      "totalPageviews7d": 1007,
-      "totalPageviewsPrior7d": 855,
-      "growthPercent": 18,
+      "totalPageviews30d": 3730,
+      "totalPageviews7d": 894,
+      "totalPageviewsPrior7d": 865,
+      "growthPercent": 3,
       "byDate": {
-        "2026-07-06": 137,
         "2026-07-07": 121,
         "2026-07-08": 122,
         "2026-07-09": 93,
@@ -146,53 +143,24 @@
         "2026-08-03": 175,
         "2026-08-04": 117
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "ai-hardware": {
       "articles": [
         "NVIDIA"
       ],
-      "articlesFetched": [
+      "articlesFetched": [],
+      "articlesFailed": [
         "NVIDIA"
       ],
-      "articlesFailed": [],
-      "totalPageviews30d": 33948,
-      "totalPageviews7d": 3069,
-      "totalPageviewsPrior7d": 4558,
-      "growthPercent": -33,
-      "byDate": {
-        "2026-07-06": 401,
-        "2026-07-07": 413,
-        "2026-07-08": 446,
-        "2026-07-09": 441,
-        "2026-07-10": 577,
-        "2026-07-11": 396,
-        "2026-07-12": 356,
-        "2026-07-13": 524,
-        "2026-07-14": 617,
-        "2026-07-15": 2715,
-        "2026-07-16": 7593,
-        "2026-07-17": 4289,
-        "2026-07-18": 2941,
-        "2026-07-19": 2059,
-        "2026-07-20": 1122,
-        "2026-07-21": 1431,
-        "2026-07-22": 850,
-        "2026-07-23": 812,
-        "2026-07-24": 572,
-        "2026-07-25": 550,
-        "2026-07-26": 518,
-        "2026-07-27": 531,
-        "2026-07-28": 725,
-        "2026-07-29": 774,
-        "2026-07-30": 488,
-        "2026-07-31": 419,
-        "2026-08-01": 339,
-        "2026-08-02": 320,
-        "2026-08-03": 355,
-        "2026-08-04": 374
-      },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchFailed": true,
+      "fetchError": "NVIDIA: HTTP 404 Not Found",
+      "totalPageviews30d": null,
+      "totalPageviews7d": null,
+      "totalPageviewsPrior7d": null,
+      "growthPercent": null,
+      "byDate": {},
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "infrastructure-outages": {
       "articles": [
@@ -202,12 +170,11 @@
         "Amazon_Web_Services"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 5134,
-      "totalPageviews7d": 1046,
-      "totalPageviewsPrior7d": 1070,
-      "growthPercent": -2,
+      "totalPageviews30d": 4972,
+      "totalPageviews7d": 903,
+      "totalPageviewsPrior7d": 1008,
+      "growthPercent": -10,
       "byDate": {
-        "2026-07-06": 162,
         "2026-07-07": 156,
         "2026-07-08": 173,
         "2026-07-09": 173,
@@ -238,7 +205,7 @@
         "2026-08-03": 155,
         "2026-08-04": 206
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "security-breach": {
       "articles": [
@@ -248,12 +215,11 @@
         "ランサムウェア"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 4340,
-      "totalPageviews7d": 345,
-      "totalPageviewsPrior7d": 1583,
-      "growthPercent": -78,
+      "totalPageviews30d": 4281,
+      "totalPageviews7d": 281,
+      "totalPageviewsPrior7d": 610,
+      "growthPercent": -54,
       "byDate": {
-        "2026-07-06": 59,
         "2026-07-07": 36,
         "2026-07-08": 44,
         "2026-07-09": 31,
@@ -284,7 +250,7 @@
         "2026-08-03": 89,
         "2026-08-04": 67
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "payment-troubles": {
       "articles": [
@@ -294,12 +260,11 @@
         "PayPay"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 10991,
-      "totalPageviews7d": 1960,
-      "totalPageviewsPrior7d": 2953,
-      "growthPercent": -34,
+      "totalPageviews30d": 10629,
+      "totalPageviews7d": 1685,
+      "totalPageviewsPrior7d": 2920,
+      "growthPercent": -42,
       "byDate": {
-        "2026-07-06": 362,
         "2026-07-07": 410,
         "2026-07-08": 372,
         "2026-07-09": 561,
@@ -330,7 +295,7 @@
         "2026-08-03": 272,
         "2026-08-04": 267
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "home-server-selfhost": {
       "articles": [
@@ -340,12 +305,11 @@
         "自宅サーバ"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 188,
-      "totalPageviews7d": 46,
-      "totalPageviewsPrior7d": 46,
-      "growthPercent": 0,
+      "totalPageviews30d": 183,
+      "totalPageviews7d": 38,
+      "totalPageviewsPrior7d": 47,
+      "growthPercent": -19,
       "byDate": {
-        "2026-07-06": 5,
         "2026-07-07": 6,
         "2026-07-08": 14,
         "2026-07-09": 3,
@@ -376,7 +340,7 @@
         "2026-08-03": 5,
         "2026-08-04": 5
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "remote-work": {
       "articles": [
@@ -386,12 +350,11 @@
         "テレワーク"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 743,
-      "totalPageviews7d": 147,
-      "totalPageviewsPrior7d": 264,
-      "growthPercent": -44,
+      "totalPageviews30d": 719,
+      "totalPageviews7d": 132,
+      "totalPageviewsPrior7d": 240,
+      "growthPercent": -45,
       "byDate": {
-        "2026-07-06": 24,
         "2026-07-07": 19,
         "2026-07-08": 19,
         "2026-07-09": 27,
@@ -422,7 +385,7 @@
         "2026-08-03": 21,
         "2026-08-04": 20
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "senior-health": {
       "articles": [
@@ -432,12 +395,11 @@
         "認知症"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 2783,
-      "totalPageviews7d": 614,
-      "totalPageviewsPrior7d": 679,
-      "growthPercent": -10,
+      "totalPageviews30d": 2690,
+      "totalPageviews7d": 525,
+      "totalPageviewsPrior7d": 660,
+      "growthPercent": -20,
       "byDate": {
-        "2026-07-06": 93,
         "2026-07-07": 86,
         "2026-07-08": 91,
         "2026-07-09": 109,
@@ -468,7 +430,7 @@
         "2026-08-03": 81,
         "2026-08-04": 102
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "ai-regulation": {
       "articles": [
@@ -478,12 +440,11 @@
         "人工知能"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 17848,
-      "totalPageviews7d": 3562,
-      "totalPageviewsPrior7d": 4340,
-      "growthPercent": -18,
+      "totalPageviews30d": 17149,
+      "totalPageviews7d": 3152,
+      "totalPageviewsPrior7d": 3927,
+      "growthPercent": -20,
       "byDate": {
-        "2026-07-06": 699,
         "2026-07-07": 658,
         "2026-07-08": 534,
         "2026-07-09": 537,
@@ -514,7 +475,7 @@
         "2026-08-03": 519,
         "2026-08-04": 562
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "study-methods": {
       "articles": [
@@ -524,12 +485,11 @@
         "学習"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 836,
-      "totalPageviews7d": 157,
-      "totalPageviewsPrior7d": 194,
-      "growthPercent": -19,
+      "totalPageviews30d": 785,
+      "totalPageviews7d": 126,
+      "totalPageviewsPrior7d": 195,
+      "growthPercent": -35,
       "byDate": {
-        "2026-07-06": 51,
         "2026-07-07": 31,
         "2026-07-08": 36,
         "2026-07-09": 26,
@@ -560,7 +520,7 @@
         "2026-08-03": 25,
         "2026-08-04": 22
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "exam-admission": {
       "articles": [
@@ -570,12 +530,11 @@
         "大学入学共通テスト"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 3453,
-      "totalPageviews7d": 826,
-      "totalPageviewsPrior7d": 810,
-      "growthPercent": 2,
+      "totalPageviews30d": 3323,
+      "totalPageviews7d": 682,
+      "totalPageviewsPrior7d": 844,
+      "growthPercent": -19,
       "byDate": {
-        "2026-07-06": 130,
         "2026-07-07": 124,
         "2026-07-08": 133,
         "2026-07-09": 94,
@@ -606,7 +565,7 @@
         "2026-08-03": 110,
         "2026-08-04": 114
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "housing": {
       "articles": [
@@ -616,12 +575,11 @@
         "マンション"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 2114,
-      "totalPageviews7d": 436,
-      "totalPageviewsPrior7d": 552,
-      "growthPercent": -21,
+      "totalPageviews30d": 2043,
+      "totalPageviews7d": 373,
+      "totalPageviewsPrior7d": 533,
+      "growthPercent": -30,
       "byDate": {
-        "2026-07-06": 71,
         "2026-07-07": 71,
         "2026-07-08": 78,
         "2026-07-09": 70,
@@ -652,7 +610,7 @@
         "2026-08-03": 57,
         "2026-08-04": 72
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "home-appliance": {
       "articles": [
@@ -662,12 +620,11 @@
         "家庭用電気機械器具"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 357,
-      "totalPageviews7d": 84,
-      "totalPageviewsPrior7d": 93,
-      "growthPercent": -10,
+      "totalPageviews30d": 338,
+      "totalPageviews7d": 69,
+      "totalPageviewsPrior7d": 96,
+      "growthPercent": -28,
       "byDate": {
-        "2026-07-06": 19,
         "2026-07-07": 15,
         "2026-07-08": 14,
         "2026-07-09": 9,
@@ -698,7 +655,7 @@
         "2026-08-03": 12,
         "2026-08-04": 11
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "fitness-training": {
       "articles": [
@@ -708,12 +665,11 @@
         "筋力トレーニング"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 997,
-      "totalPageviews7d": 266,
-      "totalPageviewsPrior7d": 261,
-      "growthPercent": 2,
+      "totalPageviews30d": 977,
+      "totalPageviews7d": 215,
+      "totalPageviewsPrior7d": 286,
+      "growthPercent": -25,
       "byDate": {
-        "2026-07-06": 20,
         "2026-07-07": 28,
         "2026-07-08": 34,
         "2026-07-09": 40,
@@ -744,7 +700,7 @@
         "2026-08-03": 39,
         "2026-08-04": 27
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     },
     "vulnerability-response": {
       "articles": [
@@ -754,12 +710,11 @@
         "脆弱性"
       ],
       "articlesFailed": [],
-      "totalPageviews30d": 486,
-      "totalPageviews7d": 97,
-      "totalPageviewsPrior7d": 100,
-      "growthPercent": -3,
+      "totalPageviews30d": 448,
+      "totalPageviews7d": 83,
+      "totalPageviewsPrior7d": 99,
+      "growthPercent": -16,
       "byDate": {
-        "2026-07-06": 38,
         "2026-07-07": 20,
         "2026-07-08": 12,
         "2026-07-09": 24,
@@ -790,8 +745,14 @@
         "2026-08-03": 20,
         "2026-08-04": 10
       },
-      "fetchedAt": "2026-08-05T14:40:14.125Z"
+      "fetchedAt": "2026-08-06T00:14:47.865Z"
     }
   },
-  "errors": []
+  "errors": [
+    {
+      "theme": "ai-hardware",
+      "article": "NVIDIA",
+      "error": "HTTP 404 Not Found"
+    }
+  ]
 }

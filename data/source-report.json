@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T14:44:23.901Z",
+  "generatedAt": "2026-08-06T00:24:24.894Z",
   "sources": [
     {
       "id": "wikipedia",
@@ -10,11 +10,11 @@
       "apiDocs": "https://wikimedia.org/api/rest_v1/",
       "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
       "windowDays": 30,
-      "generatedAt": "2026-08-05T14:40:14.125Z",
+      "generatedAt": "2026-08-06T00:14:47.865Z",
       "mappedThemeCount": 17,
-      "successCount": 17,
+      "successCount": 16,
       "skippedCount": 0,
-      "errorCount": 0,
+      "errorCount": 1,
       "requestCount": null,
       "observedThemes": [
         "ai-business-automation",
@@ -36,8 +36,14 @@
         "vulnerability-response"
       ],
       "skipped": [],
-      "errors": [],
-      "totalVolume": 123678
+      "errors": [
+        {
+          "theme": "ai-hardware",
+          "type": "unknown",
+          "retryable": false
+        }
+      ],
+      "totalVolume": 86394
     },
     {
       "id": "qiita",
@@ -48,7 +54,7 @@
       "apiDocs": "https://qiita.com/api/v2/docs",
       "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
       "windowDays": 30,
-      "generatedAt": "2026-08-05T14:40:24.997Z",
+      "generatedAt": "2026-08-06T00:14:53.128Z",
       "mappedThemeCount": 17,
       "successCount": 12,
       "skippedCount": 5,
@@ -96,7 +102,7 @@
         }
       ],
       "errors": [],
-      "totalVolume": 2223
+      "totalVolume": 2150
     },
     {
       "id": "arxiv",
@@ -107,7 +113,7 @@
       "apiDocs": "https://info.arxiv.org/help/api/index.html",
       "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
       "windowDays": 30,
-      "generatedAt": "2026-08-05T14:41:43.345Z",
+      "generatedAt": "2026-08-06T00:16:41.889Z",
       "mappedThemeCount": 17,
       "successCount": 17,
       "skippedCount": 0,
@@ -134,7 +140,7 @@
       ],
       "skipped": [],
       "errors": [],
-      "totalVolume": 3571
+      "totalVolume": 3421
     },
     {
       "id": "appstore",
@@ -145,7 +151,7 @@
       "apiDocs": "https://rss.marketingtools.apple.com/",
       "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
       "windowDays": 1,
-      "generatedAt": "2026-08-05T14:41:40.390Z",
+      "generatedAt": "2026-08-06T00:16:39.389Z",
       "mappedThemeCount": 17,
       "successCount": 8,
       "skippedCount": 9,
@@ -220,7 +226,7 @@
       "apiDocs": "https://docs.github.com/rest/search",
       "method": "GitHub Search API (repositories created in window)",
       "windowDays": 30,
-      "generatedAt": "2026-08-05T14:42:44.629Z",
+      "generatedAt": "2026-08-06T00:17:39.799Z",
       "mappedThemeCount": 16,
       "successCount": 10,
       "skippedCount": 0,
@@ -271,7 +277,7 @@
           "retryable": false
         }
       ],
-      "totalVolume": 8014
+      "totalVolume": 7821
     },
     {
       "id": "ndl",
@@ -282,34 +288,63 @@
       "apiDocs": "https://ndlsearch.ndl.go.jp/help/api",
       "method": "NDL Search OpenSearch API (bibliography count)",
       "windowDays": null,
-      "generatedAt": "2026-08-05T14:43:27.089Z",
+      "generatedAt": "2026-08-06T00:18:20.858Z",
       "mappedThemeCount": 17,
-      "successCount": 17,
+      "successCount": 10,
       "skippedCount": 0,
-      "errorCount": 0,
+      "errorCount": 7,
       "requestCount": 17,
       "observedThemes": [
         "senior-health",
-        "ai-coding",
-        "remote-work",
         "payment-troubles",
-        "infrastructure-outages",
         "security-breach",
         "ai-hardware",
         "ai-regulation",
-        "ai-business-automation",
         "home-server-selfhost",
         "ai-content-generation",
-        "study-methods",
-        "exam-admission",
         "housing",
         "home-appliance",
-        "fitness-training",
         "vulnerability-response"
       ],
       "skipped": [],
-      "errors": [],
-      "totalVolume": 39295
+      "errors": [
+        {
+          "theme": "ai-coding",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "remote-work",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "infrastructure-outages",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "ai-business-automation",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "study-methods",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "exam-admission",
+          "type": "timeout",
+          "retryable": true
+        },
+        {
+          "theme": "fitness-training",
+          "type": "timeout",
+          "retryable": true
+        }
+      ],
+      "totalVolume": 12653
     }
   ],
   "news": {
@@ -320,35 +355,35 @@
     "homepage": null,
     "apiDocs": null,
     "method": "RSS",
-    "articleCount": 2816,
+    "articleCount": 2938,
     "feeds": [
-      "Publickey",
-      "ITmedia",
-      "GIGAZINE",
-      "ライフハッカー",
       "NHK",
-      "roomie",
-      "はてな",
+      "家電Watch",
+      "Impress Watch",
+      "ライフハッカー",
+      "クラウドWatch",
       "Security NEXT",
       "はてなIT",
-      "リセマム",
-      "MELOS",
-      "Impress Watch",
-      "ケータイWatch",
-      "STUDY HACKER",
+      "roomie",
+      "ScanNetSecurity",
+      "窓の杜",
       "ITmedia AI+",
       "ITmedia Mobile",
-      "窓の杜",
       "CodeZine",
-      "家電Watch",
-      "クラウドWatch",
-      "Qiita",
+      "GIGAZINE",
+      "ITmedia",
+      "STUDY HACKER",
+      "ITmedia エンタープライズ",
+      "Think IT",
+      "はてな",
+      "MELOS",
+      "Publickey",
+      "ケータイWatch",
+      "リセマム",
       "Zenn",
+      "Qiita",
       "ICT教育ニュース",
       "ソレドコ",
-      "ITmedia エンタープライズ",
-      "ScanNetSecurity",
-      "Think IT",
       "SUUMOジャーナル",
       "アットホームタイムズ",
       "さくらのナレッジ",

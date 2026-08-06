@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-05T14:41:43.345Z",
+  "generatedAt": "2026-08-06T00:16:41.889Z",
   "source": "arxiv",
   "method": "arxiv-atom-api (1 request per theme, max_results=100, sampled uniqueAuthors)",
   "mappingVersion": 1,
   "verifiedAt": "2026-08-02",
   "windowDays": 30,
-  "windowStart": "202607060000",
-  "windowEnd": "202608050000",
+  "windowStart": "202607070000",
+  "windowEnd": "202608060000",
   "mappedThemeCount": 17,
   "successCount": 17,
   "skippedCount": 0,
@@ -18,19 +18,19 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 2126,
+        "volume": 2042,
         "engagement": null,
         "contributors": 566,
         "latestActivityAt": "2026-08-04T17:59:21Z"
       },
       "nativeMetrics": {
-        "paperCount": 2126,
+        "paperCount": 2042,
         "uniqueAuthors": 566,
         "avgAuthorsPerPaper": 5.7,
         "primaryCategoryTop": "cs.AI",
@@ -39,8 +39,8 @@
         "latestPaperPublished": "2026-08-04T17:59:21Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.AI AND (abs:LLM OR abs:agent OR abs:\"large language model\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -92,29 +92,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 70,
+        "volume": 64,
         "engagement": null,
-        "contributors": 350,
+        "contributors": 278,
         "latestActivityAt": "2026-08-04T13:59:12Z"
       },
       "nativeMetrics": {
-        "paperCount": 70,
-        "uniqueAuthors": 350,
-        "avgAuthorsPerPaper": 5.2,
+        "paperCount": 64,
+        "uniqueAuthors": 278,
+        "avgAuthorsPerPaper": 4.5,
         "primaryCategoryTop": "cs.SE",
         "isAuthorsSampled": false,
-        "sampleSize": 70,
+        "sampleSize": 64,
         "latestPaperPublished": "2026-08-04T13:59:12Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot)) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.SE AND (abs:\"code generation\" OR abs:\"code assistant\" OR abs:Copilot)) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -166,19 +166,19 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 495,
+        "volume": 473,
         "engagement": null,
         "contributors": 600,
         "latestActivityAt": "2026-08-04T17:40:48Z"
       },
       "nativeMetrics": {
-        "paperCount": 495,
+        "paperCount": 473,
         "uniqueAuthors": 600,
         "avgAuthorsPerPaper": 6.2,
         "primaryCategoryTop": "cs.CV",
@@ -187,8 +187,8 @@
         "latestPaperPublished": "2026-08-04T17:40:48Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.CV AND (abs:\"image generation\" OR abs:diffusion OR abs:\"generative model\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -240,19 +240,19 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 343,
+        "volume": 328,
         "engagement": null,
         "contributors": 662,
         "latestActivityAt": "2026-08-04T17:40:48Z"
       },
       "nativeMetrics": {
-        "paperCount": 343,
+        "paperCount": 328,
         "uniqueAuthors": 662,
         "avgAuthorsPerPaper": 6.7,
         "primaryCategoryTop": "cs.CV",
@@ -261,8 +261,8 @@
         "latestPaperPublished": "2026-08-04T17:40:48Z"
       },
       "meta": {
-        "searchQuery": "(abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100)) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(abs:GPU AND (abs:training OR abs:inference OR abs:accelerator OR abs:H100)) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -314,29 +314,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 51,
+        "volume": 47,
         "engagement": null,
-        "contributors": 217,
+        "contributors": 206,
         "latestActivityAt": "2026-08-04T17:12:42Z"
       },
       "nativeMetrics": {
-        "paperCount": 51,
-        "uniqueAuthors": 217,
-        "avgAuthorsPerPaper": 4.3,
+        "paperCount": 47,
+        "uniqueAuthors": 206,
+        "avgAuthorsPerPaper": 4.4,
         "primaryCategoryTop": "cs.DC",
         "isAuthorsSampled": false,
-        "sampleSize": 51,
+        "sampleSize": 47,
         "latestPaperPublished": "2026-08-04T17:12:42Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.DC AND (abs:reliability OR abs:availability OR abs:\"fault tolerance\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -388,29 +388,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 21,
+        "volume": 20,
         "engagement": null,
-        "contributors": 82,
+        "contributors": 75,
         "latestActivityAt": "2026-08-03T14:24:29Z"
       },
       "nativeMetrics": {
-        "paperCount": 21,
-        "uniqueAuthors": 82,
-        "avgAuthorsPerPaper": 4,
+        "paperCount": 20,
+        "uniqueAuthors": 75,
+        "avgAuthorsPerPaper": 3.9,
         "primaryCategoryTop": "cs.CR",
         "isAuthorsSampled": false,
-        "sampleSize": 21,
+        "sampleSize": 20,
         "latestPaperPublished": "2026-08-03T14:24:29Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing)) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.CR AND (abs:breach OR abs:ransomware OR abs:\"data leak\" OR abs:phishing)) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -462,29 +462,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 8,
+        "volume": 7,
         "engagement": null,
-        "contributors": 26,
+        "contributors": 25,
         "latestActivityAt": "2026-07-23T21:21:01Z"
       },
       "nativeMetrics": {
-        "paperCount": 8,
-        "uniqueAuthors": 26,
-        "avgAuthorsPerPaper": 3.3,
+        "paperCount": 7,
+        "uniqueAuthors": 25,
+        "avgAuthorsPerPaper": 3.6,
         "primaryCategoryTop": "cs.CR",
         "isAuthorsSampled": false,
-        "sampleSize": 8,
+        "sampleSize": 7,
         "latestPaperPublished": "2026-07-23T21:21:01Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.CR AND (abs:payment OR abs:\"payment system\" OR abs:\"transaction fraud\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -536,7 +536,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -557,8 +557,8 @@
         "latestPaperPublished": "2026-08-03T10:27:25Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab)) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.DC AND (abs:\"edge computing\" OR abs:\"self-hosted\" OR abs:homelab)) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -610,7 +610,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -631,8 +631,8 @@
         "latestPaperPublished": "2026-08-01T22:59:51Z"
       },
       "meta": {
-        "searchQuery": "(abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\") AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(abs:\"remote work\" OR abs:telework OR abs:\"hybrid work\") AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -660,29 +660,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 47,
+        "volume": 45,
         "engagement": null,
-        "contributors": 238,
+        "contributors": 230,
         "latestActivityAt": "2026-08-04T16:16:21Z"
       },
       "nativeMetrics": {
-        "paperCount": 47,
-        "uniqueAuthors": 238,
-        "avgAuthorsPerPaper": 5.1,
+        "paperCount": 45,
+        "uniqueAuthors": 230,
+        "avgAuthorsPerPaper": 5.2,
         "primaryCategoryTop": "cs.LG",
         "isAuthorsSampled": false,
-        "sampleSize": 47,
+        "sampleSize": 45,
         "latestPaperPublished": "2026-08-04T16:16:21Z"
       },
       "meta": {
-        "searchQuery": "(abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\") AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(abs:dementia OR abs:Alzheimer OR abs:\"elderly care\" OR abs:\"aging population\") AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -734,29 +734,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 52,
+        "volume": 50,
         "engagement": null,
-        "contributors": 228,
+        "contributors": 219,
         "latestActivityAt": "2026-08-04T13:47:54Z"
       },
       "nativeMetrics": {
-        "paperCount": 52,
-        "uniqueAuthors": 228,
+        "paperCount": 50,
+        "uniqueAuthors": 219,
         "avgAuthorsPerPaper": 4.4,
         "primaryCategoryTop": "cs.AI",
         "isAuthorsSampled": false,
-        "sampleSize": 52,
+        "sampleSize": 50,
         "latestPaperPublished": "2026-08-04T13:47:54Z"
       },
       "meta": {
-        "searchQuery": "(abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\") AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(abs:\"AI regulation\" OR abs:\"AI safety\" OR abs:\"AI governance\" OR abs:\"AI ethics\") AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -808,29 +808,29 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 96,
+        "volume": 94,
         "engagement": null,
-        "contributors": 421,
+        "contributors": 415,
         "latestActivityAt": "2026-08-04T17:40:22Z"
       },
       "nativeMetrics": {
-        "paperCount": 96,
-        "uniqueAuthors": 421,
-        "avgAuthorsPerPaper": 4.7,
+        "paperCount": 94,
+        "uniqueAuthors": 415,
+        "avgAuthorsPerPaper": 4.6,
         "primaryCategoryTop": "cs.CY",
         "isAuthorsSampled": false,
-        "sampleSize": 96,
+        "sampleSize": 94,
         "latestPaperPublished": "2026-08-04T17:40:22Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.CY AND (abs:\"learning\" OR abs:\"education\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.CY AND (abs:\"learning\" OR abs:\"education\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -882,7 +882,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -903,8 +903,8 @@
         "latestPaperPublished": "2026-07-31T08:10:19Z"
       },
       "meta": {
-        "searchQuery": "(abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\") AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(abs:\"admission\" AND (abs:\"university\" OR abs:\"college\") AND abs:\"student\") AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -932,7 +932,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -953,8 +953,8 @@
         "latestPaperPublished": "2026-07-26T16:05:39Z"
       },
       "meta": {
-        "searchQuery": "(cat:econ.GN AND (abs:\"housing\" OR abs:\"real estate\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:econ.GN AND (abs:\"housing\" OR abs:\"real estate\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -1006,7 +1006,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -1027,8 +1027,8 @@
         "latestPaperPublished": "2026-07-15T05:53:27Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.HC AND (abs:\"smart home\" OR abs:\"home appliance\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.HC AND (abs:\"smart home\" OR abs:\"home appliance\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -1056,7 +1056,7 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -1077,8 +1077,8 @@
         "latestPaperPublished": null
       },
       "meta": {
-        "searchQuery": "(abs:\"physical exercise\" OR abs:\"resistance training\" OR abs:\"physical activity intervention\") AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(abs:\"physical exercise\" OR abs:\"resistance training\" OR abs:\"physical activity intervention\") AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"
@@ -1089,19 +1089,19 @@
       "envelopeVersion": "1.0.0",
       "source": "arxiv",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:41:43.345Z",
+      "fetchedAt": "2026-08-06T00:16:41.889Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 243,
+        "volume": 232,
         "engagement": null,
         "contributors": 504,
         "latestActivityAt": "2026-08-04T14:43:02Z"
       },
       "nativeMetrics": {
-        "paperCount": 243,
+        "paperCount": 232,
         "uniqueAuthors": 504,
         "avgAuthorsPerPaper": 5.2,
         "primaryCategoryTop": "cs.CR",
@@ -1110,8 +1110,8 @@
         "latestPaperPublished": "2026-08-04T14:43:02Z"
       },
       "meta": {
-        "searchQuery": "(cat:cs.CR AND (abs:\"vulnerability\" OR abs:\"patch management\" OR abs:\"exploit\")) AND submittedDate:[202607060000 TO 202608050000]",
-        "dateFilter": "202607060000 TO 202608050000",
+        "searchQuery": "(cat:cs.CR AND (abs:\"vulnerability\" OR abs:\"patch management\" OR abs:\"exploit\")) AND submittedDate:[202607070000 TO 202608060000]",
+        "dateFilter": "202607070000 TO 202608060000",
         "maxResults": 100,
         "sortBy": "submittedDate",
         "sortOrder": "descending"

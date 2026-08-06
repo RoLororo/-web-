@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-05T14:42:44.629Z",
+  "generatedAt": "2026-08-06T00:17:39.799Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "windowDays": 30,
-  "createdSince": "2026-07-06",
-  "authenticated": false,
+  "createdSince": "2026-07-07",
+  "authenticated": true,
   "mappedThemeCount": 16,
   "successCount": 10,
   "skippedCount": 0,
@@ -56,26 +56,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2568,
-        "engagement": 503,
+        "volume": 2520,
+        "engagement": 510,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2568,
-        "topStarSum": 503,
+        "newRepoCount": 2520,
+        "topStarSum": 510,
         "topLanguage": "JavaScript",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 363,
+          "stars": 378,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
@@ -105,12 +105,12 @@
           "publishedAt": "2026-08-01T02:21:12Z"
         },
         {
-          "title": "V-Songbird/foreman",
-          "url": "https://github.com/V-Songbird/foreman",
-          "stars": 27,
-          "language": "JavaScript",
-          "description": "📋 Prompt-engineering and project-roadmap plugin that crafts professional xml prompts and picks, surveys, and tracks you",
-          "publishedAt": "2026-07-07T08:55:24Z"
+          "title": "Utsavdon/N8N-Workflows",
+          "url": "https://github.com/Utsavdon/N8N-Workflows",
+          "stars": 19,
+          "language": null,
+          "description": "14 production-tested n8n workflows: 7 practical business automations + 7 agentic AI systems, each with a full setup READ",
+          "publishedAt": "2026-08-02T12:21:21Z"
         }
       ],
       "errors": []
@@ -119,20 +119,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1855,
-        "engagement": 708,
+        "volume": 1789,
+        "engagement": 706,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1855,
-        "topStarSum": 708,
+        "newRepoCount": 1789,
+        "topStarSum": 706,
         "topLanguage": "Python",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
@@ -154,7 +154,7 @@
         {
           "title": "Nexis-AI/NexBench",
           "url": "https://github.com/Nexis-AI/NexBench",
-          "stars": 115,
+          "stars": 112,
           "language": "TypeScript",
           "description": "NEXBENCH measures what an autonomous agent can actually do on-chain — execute transactions, route swaps, bridge funds, m",
           "publishedAt": "2026-07-11T21:01:10Z"
@@ -170,7 +170,7 @@
         {
           "title": "ricmmartins/azure-sre-agent-skills",
           "url": "https://github.com/ricmmartins/azure-sre-agent-skills",
-          "stars": 68,
+          "stars": 69,
           "language": null,
           "description": "Custom proactive skills for Azure SRE Agent — governance, cost intelligence, architecture quality, AI workload posture",
           "publishedAt": "2026-07-22T14:36:11Z"
@@ -182,20 +182,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1122,
+        "volume": 1079,
         "engagement": 112,
         "contributors": null,
         "latestActivityAt": "2026-07-27T02:24:49Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1122,
+        "newRepoCount": 1079,
         "topStarSum": 112,
         "topLanguage": "Java",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
@@ -245,20 +245,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 691,
-        "engagement": 44,
+        "volume": 683,
+        "engagement": 45,
         "contributors": null,
         "latestActivityAt": "2026-07-12T11:48:27Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 691,
-        "topStarSum": 44,
+        "newRepoCount": 683,
+        "topStarSum": 45,
         "topLanguage": "Go",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
@@ -272,7 +272,7 @@
         {
           "title": "sebastianevan200-stack/kaleidoscope-rp",
           "url": "https://github.com/sebastianevan200-stack/kaleidoscope-rp",
-          "stars": 13,
+          "stars": 14,
           "language": "Python",
           "description": "A long-form roleplay engine for one human and one AI. Slot-machine world generation, summon-based narrator & NPCs, and l",
           "publishedAt": "2026-08-03T06:32:32Z"
@@ -308,20 +308,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 512,
+        "volume": 505,
         "engagement": 27,
         "contributors": null,
         "latestActivityAt": "2026-07-10T12:57:40Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 512,
+        "newRepoCount": 505,
         "topStarSum": 27,
         "topLanguage": "Python",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
@@ -371,26 +371,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 490,
-        "engagement": 2797,
+        "volume": 481,
+        "engagement": 2965,
         "contributors": null,
         "latestActivityAt": "2026-08-01T09:29:38Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 490,
-        "topStarSum": 2797,
+        "newRepoCount": 481,
+        "topStarSum": 2965,
         "topLanguage": "C",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
           "title": "FareedKhan-dev/kimi-k3-in-c",
           "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-          "stars": 2403,
+          "stars": 2565,
           "language": "C",
           "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framewo",
           "publishedAt": "2026-08-01T09:29:38Z"
@@ -398,7 +398,7 @@
         {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 181,
+          "stars": 187,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -434,26 +434,26 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 262,
-        "engagement": 125,
+        "volume": 257,
+        "engagement": 126,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 262,
-        "topStarSum": 125,
+        "newRepoCount": 257,
+        "topStarSum": 126,
         "topLanguage": "Go",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
           "title": "MorganKryze/cairn",
           "url": "https://github.com/MorganKryze/cairn",
-          "stars": 59,
+          "stars": 60,
           "language": "Go",
           "description": "The directory page for the people you host services for: no account, multilingual, live status, one tiny container.",
           "publishedAt": "2026-07-23T10:41:55Z"
@@ -497,20 +497,20 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 268,
+        "volume": 266,
         "engagement": 42,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 268,
+        "newRepoCount": 266,
         "topStarSum": 42,
         "topLanguage": "Lua",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
@@ -560,7 +560,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -573,7 +573,7 @@
         "newRepoCount": 68,
         "topStarSum": 8,
         "topLanguage": "TypeScript",
-        "createdSince": "2026-07-06"
+        "createdSince": "2026-07-07"
       },
       "topItems": [
         {
@@ -623,30 +623,22 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-05T14:42:44.629Z",
+      "fetchedAt": "2026-08-06T00:17:39.799Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 178,
-        "engagement": 77,
+        "volume": 173,
+        "engagement": 44,
         "contributors": null,
-        "latestActivityAt": "2026-07-07T08:14:45Z"
+        "latestActivityAt": "2026-07-19T16:32:18Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 178,
-        "topStarSum": 77,
-        "topLanguage": "Python",
-        "createdSince": "2026-07-06"
+        "newRepoCount": 173,
+        "topStarSum": 44,
+        "topLanguage": "JavaScript",
+        "createdSince": "2026-07-07"
       },
       "topItems": [
-        {
-          "title": "xmz111/ReChannel",
-          "url": "https://github.com/xmz111/ReChannel",
-          "stars": 37,
-          "language": "Python",
-          "description": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models (ReChannel)",
-          "publishedAt": "2026-07-07T08:14:45Z"
-        },
         {
           "title": "yanokusnir-ai/one-node-gemma-4",
           "url": "https://github.com/yanokusnir-ai/one-node-gemma-4",
@@ -678,6 +670,14 @@
           "language": "TypeScript",
           "description": "Production-ready AI SaaS starter kit: a Next.js 16 + FastAPI monorepo with Supabase auth, Stripe billing, text-to-image ",
           "publishedAt": "2026-07-16T23:20:31Z"
+        },
+        {
+          "title": "onigirikiller/minimax-h3-webui",
+          "url": "https://github.com/onigirikiller/minimax-h3-webui",
+          "stars": 4,
+          "language": "Python",
+          "description": "A friendly web UI for MiniMax H3 video generation (text-to-video, image-to-video, reference-to-video) with a job queue a",
+          "publishedAt": "2026-08-03T20:22:38Z"
         }
       ],
       "errors": []

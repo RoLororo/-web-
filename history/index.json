@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T14:44:24.545Z",
+  "generatedAt": "2026-08-06T00:24:25.165Z",
   "schemaVersion": 1,
   "themes": [
     {
@@ -8,9 +8,9 @@
       "category": "AI・テクノロジー",
       "currentPath": "history/current/ai-business-automation.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "ai-coding",
@@ -18,9 +18,9 @@
       "category": "AI・テクノロジー",
       "currentPath": "history/current/ai-coding.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "ai-content-generation",
@@ -28,9 +28,9 @@
       "category": "AI・テクノロジー",
       "currentPath": "history/current/ai-content-generation.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "ai-hardware",
@@ -38,9 +38,9 @@
       "category": "AI・テクノロジー",
       "currentPath": "history/current/ai-hardware.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "ai-regulation",
@@ -48,9 +48,9 @@
       "category": "AI・テクノロジー",
       "currentPath": "history/current/ai-regulation.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "exam-admission",
@@ -58,9 +58,9 @@
       "category": "教育",
       "currentPath": "history/current/exam-admission.jsonl",
       "archivePaths": [],
-      "recordCount": 5,
+      "recordCount": 6,
       "firstDate": "2026-08-01",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "fitness-training",
@@ -68,9 +68,9 @@
       "category": "健康",
       "currentPath": "history/current/fitness-training.jsonl",
       "archivePaths": [],
-      "recordCount": 4,
+      "recordCount": 5,
       "firstDate": "2026-08-02",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "home-appliance",
@@ -78,9 +78,9 @@
       "category": "生活",
       "currentPath": "history/current/home-appliance.jsonl",
       "archivePaths": [],
-      "recordCount": 5,
+      "recordCount": 6,
       "firstDate": "2026-08-01",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "home-server-selfhost",
@@ -88,9 +88,9 @@
       "category": "AI・テクノロジー",
       "currentPath": "history/current/home-server-selfhost.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "housing",
@@ -98,9 +98,9 @@
       "category": "生活",
       "currentPath": "history/current/housing.jsonl",
       "archivePaths": [],
-      "recordCount": 5,
+      "recordCount": 6,
       "firstDate": "2026-08-01",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "infrastructure-outages",
@@ -108,9 +108,9 @@
       "category": "ビジネス",
       "currentPath": "history/current/infrastructure-outages.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "payment-troubles",
@@ -118,9 +118,9 @@
       "category": "ビジネス",
       "currentPath": "history/current/payment-troubles.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "remote-work",
@@ -128,9 +128,9 @@
       "category": "ビジネス",
       "currentPath": "history/current/remote-work.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "security-breach",
@@ -138,9 +138,9 @@
       "category": "ビジネス",
       "currentPath": "history/current/security-breach.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "senior-health",
@@ -148,9 +148,9 @@
       "category": "健康",
       "currentPath": "history/current/senior-health.jsonl",
       "archivePaths": [],
-      "recordCount": 13,
+      "recordCount": 14,
       "firstDate": "2026-07-22",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "study-methods",
@@ -158,9 +158,9 @@
       "category": "教育",
       "currentPath": "history/current/study-methods.jsonl",
       "archivePaths": [],
-      "recordCount": 5,
+      "recordCount": 6,
       "firstDate": "2026-08-01",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     },
     {
       "id": "vulnerability-response",
@@ -168,9 +168,9 @@
       "category": "ビジネス",
       "currentPath": "history/current/vulnerability-response.jsonl",
       "archivePaths": [],
-      "recordCount": 1,
+      "recordCount": 2,
       "firstDate": "2026-08-05",
-      "lastDate": "2026-08-05"
+      "lastDate": "2026-08-06"
     }
   ],
   "sources": [
