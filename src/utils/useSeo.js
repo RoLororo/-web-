@@ -154,6 +154,16 @@ export function websiteJsonLd() {
     url: SITE_URL + '/',
     inLanguage: 'ja',
     description: '公開データから需要の変化を観測し、スコアと判定として可視化するサービス。',
+    // サイト内検索（/explore?q=…）を Google に伝え、サイトリンク検索ボックスの
+    // 対象にする。Explore は既に ?q= を読むので target は実在する。
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: SITE_URL + '/explore?q={search_term_string}',
+      },
+      'query-input': 'required name=search_term_string',
+    },
   };
 }
 
