@@ -110,6 +110,11 @@ function patchHead(template, seo) {
   setMeta('property', 'og:url', seo.canonical || 'https://demand-atlas.vercel.app/');
   setMeta('name', 'twitter:title', title);
   setMeta('name', 'twitter:description', desc);
+  // テーマ別 OG 画像がある場合は共通画像を上書きする（SNS 共有カードの CTR 向上）。
+  if (seo.ogImage) {
+    setMeta('property', 'og:image', seo.ogImage);
+    setMeta('name', 'twitter:image', seo.ogImage);
+  }
 
   const extra = [];
   if (seo.canonical) extra.push(`<link rel="canonical" href="${escapeAttr(seo.canonical)}" />`);
@@ -182,6 +187,13 @@ async function main() {
     if (!out.seo.title) {
       failed.push(`${route}: title が取れていない（useSeo が呼ばれていない可能性）`);
       continue;
+    }
+
+    // テーマ詳細に、生成済みの専用 OG 画像があれば絶対 URL で差し込む。
+    // 無ければ何もしない（テンプレート既定の og-image.jpg にフォールバック）。
+    const demandMatch = route.match(/^\/demand\/(.+)$/);
+    if (demandMatch && existsSync(resolve(DIST, 'og', `${demandMatch[1]}.png`))) {
+      out.seo.ogImage = `https://demand-atlas.vercel.app/og/${demandMatch[1]}.png`;
     }
 
     const page = patchHead(template, out.seo).replace(
