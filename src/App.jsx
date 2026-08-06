@@ -4,6 +4,7 @@ import { fetchTodayVisitors } from './services/visitorService.js';
 import Header from './components/Header.jsx';
 import FoxMark from './components/FoxMark.jsx';
 import ToastHost from './components/ToastHost.jsx';
+import ErrorBoundary from './components/ErrorBoundary.jsx';
 import Home from './pages/Home.jsx';
 import DemandDetail from './pages/DemandDetail.jsx';
 import Explore from './pages/Explore.jsx';
@@ -66,6 +67,10 @@ export default function App() {
       <main className="main" id="main" tabIndex={-1}>
         {/* key forces a remount → page-fade animation replays on every navigation */}
         <div className="page-fade" key={location.pathname}>
+          {/* 描画時の例外を本文だけで受け止める安全網（白画面＝直帰を防ぐ）。
+              key に pathname を持つこの div の内側に置くので、別ページへ遷移すると
+              境界も再マウントされ自動復帰する。 */}
+          <ErrorBoundary>
           {/* 遅延読み込みするのは説明・法的ページだけ。読み込みは一瞬なので、
               スピナーではなく高さだけ確保して画面が飛び跳ねないようにする */}
           <Suspense fallback={<div className="container section" style={{ minHeight: '60vh' }} />}>
@@ -96,6 +101,7 @@ export default function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
+          </ErrorBoundary>
         </div>
       </main>
       {/* フッターは <a href> だと毎回ページ全体を読み込み直していた（SPA の遷移に
