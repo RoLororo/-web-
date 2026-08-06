@@ -3210,6 +3210,35 @@ select.select:focus {
   box-shadow: var(--shadow-md);
 }
 .cat-card:hover::after { opacity: 1; }
+/* 需要スコアの実推移サマリー */
+.score-traj-summary {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-4);
+  margin-bottom: var(--s-3);
+  font-size: 13px;
+}
+.score-traj-range {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 9px;
+}
+.score-traj-flow { font-family: var(--font-num); color: var(--text-2); font-size: 15px; }
+.score-traj-flow strong { color: var(--text); font-size: 20px; }
+.score-traj-arrow { color: var(--text-3); margin: 0 2px; }
+.score-traj-delta {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 16px;
+}
+.score-traj-delta.up   { color: var(--green-bright); }
+.score-traj-delta.down { color: var(--red); }
+.score-traj-peak { color: var(--text-3); font-size: 12px; margin-left: auto; }
+
 .cat-card-head {
   display: flex;
   align-items: center;

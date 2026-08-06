@@ -10,6 +10,7 @@ import FavoriteButton from '../components/FavoriteButton.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import FoxMark from '../components/FoxMark.jsx';
 import SourceTrends from '../components/SourceTrends.jsx';
+import ScoreTrajectory from '../components/ScoreTrajectory.jsx';
 import SourceObservations from '../components/SourceObservations.jsx';
 import SourceMetrics from '../components/SourceMetrics.jsx';
 import InsightsPanel from '../components/InsightsPanel.jsx';
@@ -378,9 +379,20 @@ export default function DemandDetail() {
                 読解を中断させずに挟める唯一の位置。 */}
             <AdSlot variant="inline" id="detail-after-decision" />
 
-            {/* 需要の変化 */}
+            {/* 需要スコアの実推移 — 毎日蓄積している合成スコアそのもの（競合が後から作れない） */}
             <div className="block">
-              <h2 className="block-title">需要の変化</h2>
+              <h2 className="block-title">
+                需要スコアの推移
+                <span className="block-title-count">実測の蓄積</span>
+              </h2>
+              <div className="chart-card">
+                <ScoreTrajectory themeId={demand.id} currentScore={demand.score} />
+              </div>
+            </div>
+
+            {/* 需要の変化（参考：ニュース／閲覧数ベースの日次系列） */}
+            <div className="block">
+              <h2 className="block-title">需要の変化（参考指標）</h2>
               <div className="chart-card">
                 <div className="chart-toolbar">
                   <div className="range-tabs" role="tablist">
