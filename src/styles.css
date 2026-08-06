@@ -3210,6 +3210,47 @@ select.select:focus {
   box-shadow: var(--shadow-md);
 }
 .cat-card:hover::after { opacity: 1; }
+/* 今週の需要ライザー (Home) */
+.risers-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--s-2); }
+.riser-link {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  padding: 10px var(--s-3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.riser-link:hover { border-color: var(--border-strong); background: var(--bg-1); }
+.riser-rank {
+  flex: none;
+  width: 24px; height: 24px;
+  display: grid; place-items: center;
+  font-family: var(--font-num); font-weight: 700; font-size: 13px;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.riser-body { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.riser-title { font-size: 14px; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.riser-cat { font-size: 11px; color: var(--text-3); }
+.riser-spark { flex: none; width: 72px; }
+.riser-flow { flex: none; font-family: var(--font-num); font-size: 12px; color: var(--text-3); white-space: nowrap; }
+.riser-flow strong { color: var(--text); font-size: 14px; }
+.riser-arrow { margin: 0 2px; }
+.riser-delta {
+  flex: none;
+  font-family: var(--font-num); font-weight: 700; font-size: 15px;
+  min-width: 44px; text-align: right;
+}
+.riser-delta.up { color: var(--green-bright); }
+@media (max-width: 560px) {
+  .riser-spark, .riser-flow { display: none; }
+}
+
 /* 需要スコアの実推移サマリー */
 .score-traj-summary {
   display: flex;

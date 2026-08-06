@@ -18,6 +18,7 @@ import AdSlot from '../components/AdSlot.jsx';
 import CategoryFilter from '../components/CategoryFilter.jsx';
 import AnimatedNumber from '../components/AnimatedNumber.jsx';
 import DailyBrief from '../components/DailyBrief.jsx';
+import WeeklyRisers from '../components/WeeklyRisers.jsx';
 import FavoritesStrip from '../components/FavoritesStrip.jsx';
 import TodayVisitors from '../components/TodayVisitors.jsx';
 import { getDemands, getTotalArticles } from '../services/demandService.js';
@@ -116,6 +117,9 @@ export default function Home() {
 
       {/* 今朝のダイジェスト: おすすめ 1 + 動いた 3 + 更新日時 */}
       <DailyBrief allDemands={allDemands} />
+
+      {/* 今週スコアが伸びたテーマ (実スコア履歴の多日窓・毎日更新) */}
+      <WeeklyRisers allDemands={allDemands} />
 
       {/* お気に入り (personal) */}
       <FavoritesStrip allDemands={allDemands} historyMovers={historyMovers} />
