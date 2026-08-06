@@ -42,14 +42,30 @@ export default function DemandDetail() {
 
   // 検索結果に出るのはほぼこのページなので、description はテーマごとに変える。
   // 全ページ共通の説明文のままだと、10 件のテーマが同じ内容だと見なされる。
+  // 需要スコアの直近の伸び（_scoreHistory から）。検索結果・SNS カードの
+  // 冒頭に置く「クリックされるフック」に使う。伸びていない時は出さない。
+  const scoreHist = demand?._scoreHistory?.scores || [];
+  const scoreRise = scoreHist.length >= 2 ? scoreHist[scoreHist.length - 1] - scoreHist[0] : 0;
+  const riseDays = scoreHist.length;
+  // +3 以上の意味ある上昇のときだけフックを出す（+1 で「上昇中」は弱く誤解を招く）。
+  const meaningfulRise = scoreRise >= 3;
+  const riseHook = meaningfulRise ? `直近 ${riseDays} 日で +${scoreRise} と上昇中。` : '';
+
   const seoDescription = demand
     ? [
-        `「${demand.title}」の需要スコアは ${demand.score}/100。`,
+        `「${demand.title}」は需要スコア ${demand.score}/100。`,
+        riseHook,
         demand._insights?.verdict ? `判定は「${demand._insights.verdict.label}」。` : '',
-        `Wikipedia・Qiita・arXiv・GitHub など ${demand.sourceCount || 7} 種類の公開データから観測しました。`,
-        'スコアの内訳と、根拠になった実際のニュース記事を掲載しています。',
+        `${demand.sourceCount || 7} 種類の公開データ源を毎日合成し、根拠のニュースまで掲載しています。`,
       ].join('').slice(0, 160)
     : 'お探しの需要テーマは見つかりませんでした。';
+
+  // 共有テキスト: 数字のフックを含めて拡散時のクリック率を上げる。
+  const shareText = demand
+    ? `「${demand.title}」の需要スコアは ${demand.score}/100${meaningfulRise ? `（直近${riseDays}日で+${scoreRise}）` : ''} — ${SITE_NAME}`
+    : '';
+  // SSR/プリレンダでも壊れないよう window ではなく canonical URL を使う。
+  const shareUrl = demand ? `${SITE_URL}/demand/${demand.id}` : SITE_URL;
 
   useSeo({
     title: demand
@@ -105,7 +121,7 @@ export default function DemandDetail() {
     // 1) Web Share API があればそれを使う（モバイルで OS のシートが出る）
     if (navigator.share) {
       try {
-        await navigator.share({ title: demand.title, text: demand.summary, url });
+        await navigator.share({ title: demand.title, text: shareText, url });
         toast('共有しました');
         return;
       } catch (err) {
@@ -166,6 +182,15 @@ export default function DemandDetail() {
               <button className="btn" onClick={handleShare}>
                 共有
               </button>
+              <a
+                className="btn"
+                href={`https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X（旧Twitter）で共有"
+              >
+                X で共有
+              </a>
             </div>
           </div>
 
