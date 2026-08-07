@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-07T04:39:46.160Z",
+  "generatedAt": "2026-08-07T23:03:21.641Z",
   "method": "wikipedia-pageviews-api (ja, per-article daily, user, all-access)",
   "windowDays": 30,
   "windowStart": "2026-07-08",
   "windowEnd": "2026-08-06",
   "mappedThemeCount": 17,
-  "successCount": 17,
-  "errorCount": 0,
+  "successCount": 16,
+  "errorCount": 1,
   "themes": {
     "ai-business-automation": {
       "articles": [
@@ -54,7 +54,7 @@
         "2026-08-05": 1087,
         "2026-08-06": 1034
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "ai-coding": {
       "articles": [
@@ -100,7 +100,7 @@
         "2026-08-05": 82,
         "2026-08-06": 56
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "ai-content-generation": {
       "articles": [
@@ -146,7 +146,7 @@
         "2026-08-05": 110,
         "2026-08-06": 133
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "ai-hardware": {
       "articles": [
@@ -192,7 +192,7 @@
         "2026-08-05": 409,
         "2026-08-06": 450
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "infrastructure-outages": {
       "articles": [
@@ -238,7 +238,7 @@
         "2026-08-05": 184,
         "2026-08-06": 173
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "security-breach": {
       "articles": [
@@ -284,7 +284,7 @@
         "2026-08-05": 64,
         "2026-08-06": 42
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "payment-troubles": {
       "articles": [
@@ -330,53 +330,24 @@
         "2026-08-05": 256,
         "2026-08-06": 261
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "home-server-selfhost": {
       "articles": [
         "自宅サーバ"
       ],
-      "articlesFetched": [
+      "articlesFetched": [],
+      "articlesFailed": [
         "自宅サーバ"
       ],
-      "articlesFailed": [],
-      "totalPageviews30d": 191,
-      "totalPageviews7d": 45,
-      "totalPageviewsPrior7d": 50,
-      "growthPercent": -10,
-      "byDate": {
-        "2026-07-08": 14,
-        "2026-07-09": 3,
-        "2026-07-10": 5,
-        "2026-07-11": 5,
-        "2026-07-12": 2,
-        "2026-07-13": 8,
-        "2026-07-14": 3,
-        "2026-07-15": 6,
-        "2026-07-16": 5,
-        "2026-07-17": 10,
-        "2026-07-18": 3,
-        "2026-07-19": 2,
-        "2026-07-20": 9,
-        "2026-07-21": 10,
-        "2026-07-22": 7,
-        "2026-07-23": 4,
-        "2026-07-24": 8,
-        "2026-07-25": 3,
-        "2026-07-26": 8,
-        "2026-07-27": 9,
-        "2026-07-28": 7,
-        "2026-07-29": 8,
-        "2026-07-30": 7,
-        "2026-07-31": 7,
-        "2026-08-01": 9,
-        "2026-08-02": 5,
-        "2026-08-03": 5,
-        "2026-08-04": 5,
-        "2026-08-05": 8,
-        "2026-08-06": 6
-      },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchFailed": true,
+      "fetchError": "自宅サーバ: HTTP 404 Not Found",
+      "totalPageviews30d": null,
+      "totalPageviews7d": null,
+      "totalPageviewsPrior7d": null,
+      "growthPercent": null,
+      "byDate": {},
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "remote-work": {
       "articles": [
@@ -422,7 +393,7 @@
         "2026-08-05": 29,
         "2026-08-06": 23
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "senior-health": {
       "articles": [
@@ -468,7 +439,7 @@
         "2026-08-05": 97,
         "2026-08-06": 80
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "ai-regulation": {
       "articles": [
@@ -514,7 +485,7 @@
         "2026-08-05": 468,
         "2026-08-06": 743
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "study-methods": {
       "articles": [
@@ -560,7 +531,7 @@
         "2026-08-05": 25,
         "2026-08-06": 17
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "exam-admission": {
       "articles": [
@@ -606,7 +577,7 @@
         "2026-08-05": 117,
         "2026-08-06": 101
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "housing": {
       "articles": [
@@ -652,7 +623,7 @@
         "2026-08-05": 66,
         "2026-08-06": 66
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "home-appliance": {
       "articles": [
@@ -698,7 +669,7 @@
         "2026-08-05": 11,
         "2026-08-06": 8
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "fitness-training": {
       "articles": [
@@ -744,7 +715,7 @@
         "2026-08-05": 30,
         "2026-08-06": 28
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     },
     "vulnerability-response": {
       "articles": [
@@ -790,8 +761,14 @@
         "2026-08-05": 6,
         "2026-08-06": 11
       },
-      "fetchedAt": "2026-08-07T04:39:46.160Z"
+      "fetchedAt": "2026-08-07T23:03:21.641Z"
     }
   },
-  "errors": []
+  "errors": [
+    {
+      "theme": "home-server-selfhost",
+      "article": "自宅サーバ",
+      "error": "HTTP 404 Not Found"
+    }
+  ]
 }

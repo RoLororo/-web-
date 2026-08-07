@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:42:33.673Z",
+  "generatedAt": "2026-08-07T23:06:22.019Z",
   "source": "github",
   "method": "GitHub Search API (repositories created in window)",
   "mappingVersion": 1,
@@ -8,18 +8,12 @@
   "createdSince": "2026-07-08",
   "authenticated": true,
   "mappedThemeCount": 16,
-  "successCount": 9,
+  "successCount": 10,
   "skippedCount": 0,
-  "errorCount": 7,
+  "errorCount": 6,
   "totalRequestCount": 16,
   "themesSkipped": [],
   "errors": [
-    {
-      "theme": "ai-content-generation",
-      "type": "http-error",
-      "message": "HTTP 403 rate limit exceeded",
-      "retryable": false
-    },
     {
       "theme": "study-methods",
       "type": "http-error",
@@ -62,18 +56,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 2525,
-        "engagement": 588,
+        "volume": 2586,
+        "engagement": 584,
         "contributors": null,
         "latestActivityAt": "2026-07-24T07:28:41Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 2525,
-        "topStarSum": 588,
+        "newRepoCount": 2586,
+        "topStarSum": 584,
         "topLanguage": "JavaScript",
         "createdSince": "2026-07-08"
       },
@@ -81,18 +75,10 @@
         {
           "title": "Pinvou/pinvou-agent",
           "url": "https://github.com/Pinvou/pinvou-agent",
-          "stars": 427,
+          "stars": 451,
           "language": "JavaScript",
           "description": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
           "publishedAt": "2026-07-24T07:28:41Z"
-        },
-        {
-          "title": "stonemattgs2355/aisportsbot-script-2026",
-          "url": "https://github.com/stonemattgs2355/aisportsbot-script-2026",
-          "stars": 48,
-          "language": "HTML",
-          "description": "AISportsBot v2026 is an AI-driven sports automation utility for web environments, designed to streamline sports-related ",
-          "publishedAt": "2026-07-24T23:19:14Z"
         },
         {
           "title": "mason-woodbo6772/email-automation-processor",
@@ -117,6 +103,14 @@
           "language": "HTML",
           "description": "Arch AI Tools is a unified Node.js interface for AI services, data access, automation, and utility operations, with a na",
           "publishedAt": "2026-08-01T02:21:12Z"
+        },
+        {
+          "title": "Utsavdon/N8N-Workflows",
+          "url": "https://github.com/Utsavdon/N8N-Workflows",
+          "stars": 20,
+          "language": null,
+          "description": "14 production-tested n8n workflows: 7 practical business automations + 7 agentic AI systems, each with a full setup READ",
+          "publishedAt": "2026-08-02T12:21:21Z"
         }
       ],
       "errors": []
@@ -125,17 +119,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1780,
+        "volume": 1828,
         "engagement": 712,
         "contributors": null,
         "latestActivityAt": "2026-07-17T00:34:07Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1780,
+        "newRepoCount": 1828,
         "topStarSum": 712,
         "topLanguage": "Python",
         "createdSince": "2026-07-08"
@@ -144,7 +138,7 @@
         {
           "title": "zjp1997720/zhijian-skills",
           "url": "https://github.com/zjp1997720/zhijian-skills",
-          "stars": 328,
+          "stars": 327,
           "language": "Python",
           "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
           "publishedAt": "2026-07-17T00:34:07Z"
@@ -168,7 +162,7 @@
         {
           "title": "wei63w/pm-manager",
           "url": "https://github.com/wei63w/pm-manager",
-          "stars": 75,
+          "stars": 76,
           "language": "Python",
           "description": "Know what to fix next — local .pm governance skill pack for AI coding agents (Spec Kit–inspired).",
           "publishedAt": "2026-07-21T09:20:39Z"
@@ -188,30 +182,22 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 1089,
-        "engagement": 113,
+        "volume": 1112,
+        "engagement": 39,
         "contributors": null,
-        "latestActivityAt": "2026-07-27T02:24:49Z"
+        "latestActivityAt": "2026-07-13T02:06:39Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 1089,
-        "topStarSum": 113,
-        "topLanguage": "Java",
+        "newRepoCount": 1112,
+        "topStarSum": 39,
+        "topLanguage": "TypeScript",
         "createdSince": "2026-07-08"
       },
       "topItems": [
-        {
-          "title": "DigitalShieldOfficial/Crypto-Payment-Gateway",
-          "url": "https://github.com/DigitalShieldOfficial/Crypto-Payment-Gateway",
-          "stars": 78,
-          "language": "Java",
-          "description": "A blockchain payment gateway for USDT that monitors on-chain wallet addresses, detects incoming transactions in real tim",
-          "publishedAt": "2026-07-27T02:24:49Z"
-        },
         {
           "title": "rzkyyds/gobiz-payment-v2",
           "url": "https://github.com/rzkyyds/gobiz-payment-v2",
@@ -243,6 +229,14 @@
           "language": "Python",
           "description": "Python client for the epoint.az payment gateway. Sync and async, all 30 endpoints, fully typed.",
           "publishedAt": "2026-07-20T16:37:11Z"
+        },
+        {
+          "title": "martian56/epoint-js",
+          "url": "https://github.com/martian56/epoint-js",
+          "stars": 4,
+          "language": "TypeScript",
+          "description": "TypeScript client for the epoint.az payment gateway. All 30 endpoints, zero dependencies, runs on Node, Bun, Deno, brows",
+          "publishedAt": "2026-07-20T17:16:17Z"
         }
       ],
       "errors": []
@@ -251,18 +245,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 679,
-        "engagement": 47,
+        "volume": 694,
+        "engagement": 51,
         "contributors": null,
         "latestActivityAt": "2026-07-12T11:48:27Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 679,
-        "topStarSum": 47,
+        "newRepoCount": 694,
+        "topStarSum": 51,
         "topLanguage": "Go",
         "createdSince": "2026-07-08"
       },
@@ -278,7 +272,7 @@
         {
           "title": "sebastianevan200-stack/kaleidoscope-rp",
           "url": "https://github.com/sebastianevan200-stack/kaleidoscope-rp",
-          "stars": 15,
+          "stars": 16,
           "language": "Python",
           "description": "A long-form roleplay engine for one human and one AI. Slot-machine world generation, summon-based narrator & NPCs, and l",
           "publishedAt": "2026-08-03T06:32:32Z"
@@ -292,20 +286,20 @@
           "publishedAt": "2026-07-18T06:34:02Z"
         },
         {
+          "title": "suifei/shownet",
+          "url": "https://github.com/suifei/shownet",
+          "stars": 6,
+          "language": "Rust",
+          "description": "抓包 · HTTPS 证书 · 协议逆向 · AI 分析· JA3。 AI-native desktop traffic capture, protocol analysis, AI evidence reports, request re",
+          "publishedAt": "2026-08-02T15:57:24Z"
+        },
+        {
           "title": "NijoP/pcbflow",
           "url": "https://github.com/NijoP/pcbflow",
           "stars": 4,
           "language": "Python",
           "description": "PCB Flow — autonomous, AI-assisted PCB design workflow that takes a hardware project from requirements to manufacturing-",
           "publishedAt": "2026-07-12T20:11:16Z"
-        },
-        {
-          "title": "JoshithReddyAleti/Episode_5_Mastering_RAG_and_Augmented_Generation",
-          "url": "https://github.com/JoshithReddyAleti/Episode_5_Mastering_RAG_and_Augmented_Generation",
-          "stars": 3,
-          "language": "Python",
-          "description": "Episode 5 of the AI Engineering Roadmap 2026 · The definitive guide to RAG and all augmented generation types — RAG, CAG",
-          "publishedAt": "2026-07-16T01:25:36Z"
         }
       ],
       "errors": []
@@ -314,17 +308,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 514,
+        "volume": 531,
         "engagement": 33,
         "contributors": null,
         "latestActivityAt": "2026-08-06T00:35:05Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 514,
+        "newRepoCount": 531,
         "topStarSum": 33,
         "topLanguage": "Python",
         "createdSince": "2026-07-08"
@@ -377,18 +371,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 477,
-        "engagement": 3315,
+        "volume": 490,
+        "engagement": 3685,
         "contributors": null,
         "latestActivityAt": "2026-08-01T09:29:38Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 477,
-        "topStarSum": 3315,
+        "newRepoCount": 490,
+        "topStarSum": 3685,
         "topLanguage": "C",
         "createdSince": "2026-07-08"
       },
@@ -396,7 +390,7 @@
         {
           "title": "FareedKhan-dev/kimi-k3-in-c",
           "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-          "stars": 2901,
+          "stars": 3267,
           "language": "C",
           "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framewo",
           "publishedAt": "2026-08-01T09:29:38Z"
@@ -404,7 +398,7 @@
         {
           "title": "giannisanni/pulsar",
           "url": "https://github.com/giannisanni/pulsar",
-          "stars": 192,
+          "stars": 193,
           "language": "Rust",
           "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on tw",
           "publishedAt": "2026-07-13T04:08:14Z"
@@ -412,7 +406,7 @@
         {
           "title": "nopnoping/micro-vllm",
           "url": "https://github.com/nopnoping/micro-vllm",
-          "stars": 111,
+          "stars": 112,
           "language": "Python",
           "description": "A small, educational vLLM implementation for exploring LLM inference, scheduling, KV-cache management, and GPU execution",
           "publishedAt": "2026-07-26T11:08:51Z"
@@ -420,7 +414,7 @@
         {
           "title": "fypklanfanqie/local-llm-with-character-setting-Arknights",
           "url": "https://github.com/fypklanfanqie/local-llm-with-character-setting-Arknights",
-          "stars": 62,
+          "stars": 64,
           "language": "Kotlin",
           "description": "一款运行在安卓设备上的 LLM 对话助手应用。你可以自行下载并管理模型，自由定制角色人设，并随时在本地推理（部分机型支持 GPU/NPU 加速）与云端模型之间切换。同时内置 TTS 语音合成功能，让对话更加鲜活。 An Android LL",
           "publishedAt": "2026-07-25T05:42:40Z"
@@ -440,18 +434,18 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 263,
-        "engagement": 118,
+        "volume": 270,
+        "engagement": 136,
         "contributors": null,
         "latestActivityAt": "2026-07-23T10:41:55Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 263,
-        "topStarSum": 118,
+        "newRepoCount": 270,
+        "topStarSum": 136,
         "topLanguage": "Go",
         "createdSince": "2026-07-08"
       },
@@ -467,7 +461,7 @@
         {
           "title": "Nerdy-Technician/JellyGlance",
           "url": "https://github.com/Nerdy-Technician/JellyGlance",
-          "stars": 24,
+          "stars": 29,
           "language": "JavaScript",
           "description": "A modern Jellyfin dashboard for live sessions, user stats, recently added media, libraries, downloads, calendars, webhoo",
           "publishedAt": "2026-07-17T22:32:40Z"
@@ -475,7 +469,7 @@
         {
           "title": "stevezau/shortlist",
           "url": "https://github.com/stevezau/shortlist",
-          "stars": 13,
+          "stars": 26,
           "language": "Python",
           "description": "Self-hosted, per-user movie & TV recommendations for Plex — a private \"Picked for You\" row on every user's home screen, ",
           "publishedAt": "2026-07-12T06:15:45Z"
@@ -503,17 +497,17 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 277,
+        "volume": 284,
         "engagement": 43,
         "contributors": null,
         "latestActivityAt": "2026-07-09T18:43:43Z"
       },
       "nativeMetrics": {
-        "newRepoCount": 277,
+        "newRepoCount": 284,
         "topStarSum": 43,
         "topLanguage": "Lua",
         "createdSince": "2026-07-08"
@@ -566,7 +560,7 @@
       "envelopeVersion": "1.0.0",
       "source": "github",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:42:33.673Z",
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -621,6 +615,69 @@
           "language": "TypeScript",
           "description": "AI-Powered Major Incident Management Training Platform for IT Operations, SRE, and Incident Response Teams.",
           "publishedAt": "2026-07-11T11:30:54Z"
+        }
+      ],
+      "errors": []
+    },
+    "ai-content-generation": {
+      "envelopeVersion": "1.0.0",
+      "source": "github",
+      "windowDays": 30,
+      "fetchedAt": "2026-08-07T23:06:22.019Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 184,
+        "engagement": 46,
+        "contributors": null,
+        "latestActivityAt": "2026-07-19T16:32:18Z"
+      },
+      "nativeMetrics": {
+        "newRepoCount": 184,
+        "topStarSum": 46,
+        "topLanguage": "JavaScript",
+        "createdSince": "2026-07-08"
+      },
+      "topItems": [
+        {
+          "title": "yanokusnir-ai/one-node-gemma-4",
+          "url": "https://github.com/yanokusnir-ai/one-node-gemma-4",
+          "stars": 19,
+          "language": "JavaScript",
+          "description": "ComfyUI custom node: Gemma 4 multimodal text generation (image/video/audio to text) in a single self-contained UI widget",
+          "publishedAt": "2026-07-19T16:32:18Z"
+        },
+        {
+          "title": "Anil-matcha/seedance2.5-comfyui",
+          "url": "https://github.com/Anil-matcha/seedance2.5-comfyui",
+          "stars": 10,
+          "language": "Python",
+          "description": "Seedance 2.0 ComfyUI: custom nodes and workflows for ByteDance video generation via MuAPI — text-to-video, image-to-vide",
+          "publishedAt": "2026-08-02T00:02:19Z"
+        },
+        {
+          "title": "Anil-matcha/veo3.1-comfyui",
+          "url": "https://github.com/Anil-matcha/veo3.1-comfyui",
+          "stars": 6,
+          "language": "Python",
+          "description": "ComfyUI custom nodes for Veo 3.1 video generation — text-to-video, image-to-video, reference-to-video, extend, and 4K up",
+          "publishedAt": "2026-07-14T13:17:56Z"
+        },
+        {
+          "title": "backblaze-labs/ai-saas-starter-kit",
+          "url": "https://github.com/backblaze-labs/ai-saas-starter-kit",
+          "stars": 6,
+          "language": "TypeScript",
+          "description": "Production-ready AI SaaS starter kit: a Next.js 16 + FastAPI monorepo with Supabase auth, Stripe billing, text-to-image ",
+          "publishedAt": "2026-07-16T23:20:31Z"
+        },
+        {
+          "title": "onigirikiller/minimax-h3-webui",
+          "url": "https://github.com/onigirikiller/minimax-h3-webui",
+          "stars": 5,
+          "language": "Python",
+          "description": "A friendly web UI for MiniMax H3 video generation (text-to-video, image-to-video, reference-to-video) with a job queue a",
+          "publishedAt": "2026-08-03T20:22:38Z"
         }
       ],
       "errors": []

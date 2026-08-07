@@ -1,79 +1,19 @@
 {
-  "generatedAt": "2026-08-07T04:43:13.968Z",
+  "generatedAt": "2026-08-07T23:07:02.717Z",
   "source": "ndl",
   "method": "NDL Search OpenSearch API (bibliography count)",
   "metricKind": "stock",
   "mappingVersion": 1,
   "verifiedAt": "2026-07-29",
   "mappedThemeCount": 17,
-  "successCount": 6,
+  "successCount": 16,
   "skippedCount": 0,
-  "errorCount": 11,
+  "errorCount": 1,
   "totalRequestCount": 17,
   "themesSkipped": [],
   "errors": [
     {
-      "theme": "ai-coding",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "remote-work",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "payment-troubles",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "security-breach",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
       "theme": "ai-hardware",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "ai-regulation",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "home-server-selfhost",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "ai-content-generation",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "study-methods",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "home-appliance",
-      "type": "timeout",
-      "message": "This operation was aborted",
-      "retryable": true
-    },
-    {
-      "theme": "fitness-training",
       "type": "timeout",
       "message": "This operation was aborted",
       "retryable": true
@@ -85,7 +25,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-07T04:43:13.968Z",
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -136,12 +76,180 @@
       ],
       "errors": []
     },
+    "ai-coding": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 2806,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 2806
+      },
+      "topItems": [
+        {
+          "title": "Rによる機械学習 : 12のステップで理解するR言語と機械学習の基礎理論と実装手法",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027996592",
+          "issued": "2017.3",
+          "publisher": "翔泳社",
+          "author": "Lantz, Brett"
+        },
+        {
+          "title": "IEを自在に操るExcel VBAプログラミング入門 : データの収集・加工を完全自動化!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024836663",
+          "issued": "2013.10",
+          "publisher": "秀和システム",
+          "author": null
+        },
+        {
+          "title": "I-APL操作マニュアル",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002369803",
+          "issued": "1989.7",
+          "publisher": "宮城県高等学校教育研究会数学部会",
+          "author": "Camacho, Anthony"
+        },
+        {
+          "title": "IoT開発がこれ1冊でしっかりわかる教科書",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034500378",
+          "issued": "2026.2",
+          "publisher": "技術評論社",
+          "author": "坂東, 大輔, 1978-"
+        },
+        {
+          "title": "IoTのしくみと技術がこれ1冊でしっかりわかる教科書",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030248859",
+          "issued": "2020.3",
+          "publisher": "技術評論社",
+          "author": null
+        }
+      ],
+      "errors": []
+    },
+    "remote-work": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1697,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 1697
+      },
+      "topItems": [
+        {
+          "title": "iOSビジネス年鑑 : 働き方を変える! : iPhone/iPad導入の成功事例と最新の企業向けサービス、そして仕事に役立つApple活用",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029906629",
+          "issued": "2019.8",
+          "publisher": "マイナビ出版",
+          "author": null
+        },
+        {
+          "title": "IoTの知識地図 : 設計・実装・運用のための必須知識をこれ一冊で",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033414539",
+          "issued": "2024.4",
+          "publisher": "技術評論社",
+          "author": "ソラコム"
+        },
+        {
+          "title": "ICTを活用した組織変革 : マネジメントの視点からのテレワークの分析",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027108534",
+          "issued": "2016.2",
+          "publisher": "晃洋書房",
+          "author": "安達, 房子"
+        },
+        {
+          "title": "ITエンジニア1年目の教科書",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034489133",
+          "issued": "2026.1",
+          "publisher": "講談社",
+          "author": "小野, 歩"
+        },
+        {
+          "title": "ITサービスマネジメントの教科書 : 一歩進んだ知識があなたの武器になる!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032019426",
+          "issued": "2022.3",
+          "publisher": "アイテック",
+          "author": "谷, 誠之"
+        }
+      ],
+      "errors": []
+    },
+    "payment-troubles": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 1120,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 1120
+      },
+      "topItems": [
+        {
+          "title": "IoT : モノのインターネット",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031728437",
+          "issued": "2021.10",
+          "publisher": "創元社",
+          "author": "高安, 篤史"
+        },
+        {
+          "title": "愛産大経営論叢",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007816548-i32233249",
+          "issued": "2022",
+          "publisher": "愛知産業大学経営研究所",
+          "author": "愛知産業大学経営研究所"
+        },
+        {
+          "title": "ICカードの中には何がある?くらしの中のITがわかる本 : バーコード・クレカ・オンライン決済…",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034566793",
+          "issued": "2026.3",
+          "publisher": "工学社",
+          "author": "大沢, 文孝, 1973-"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i31571122",
+          "issued": "2023",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "ITパスポート試験直前対策1週間完全プログラム",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030489794",
+          "issued": "2020.7",
+          "publisher": "FOM出版",
+          "author": null
+        }
+      ],
+      "errors": []
+    },
     "infrastructure-outages": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-07T04:43:13.968Z",
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -192,22 +300,134 @@
       ],
       "errors": []
     },
-    "ai-business-automation": {
+    "security-breach": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-07T04:43:13.968Z",
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 81,
+        "volume": 255,
         "engagement": null,
         "contributors": null,
         "latestActivityAt": null
       },
       "nativeMetrics": {
-        "bibliographyCount": 81
+        "bibliographyCount": 255
+      },
+      "topItems": [
+        {
+          "title": "アイティセレクト : ビジネスイノベーターのためのIT活用情報誌",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008158266-i24225858",
+          "issued": "2006",
+          "publisher": "アイティメディア",
+          "author": "アイティメディア株式会社"
+        },
+        {
+          "title": "後を絶たない不正 暗中模索の情報漏洩対策",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I030354311",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "一次回答これ1冊!税理士のための人事労務と会社法務",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029478619",
+          "issued": "2019.2",
+          "publisher": "第一法規",
+          "author": "コンパッソ社会保険労務士法人"
+        },
+        {
+          "title": "今すぐ使えるかんたんFinalCode : 最新のファイルセキュリティでデータがどこにあっても安全!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030128412",
+          "issued": "2020.1",
+          "publisher": "技術評論社",
+          "author": "リンクアップ"
+        },
+        {
+          "title": "インサイト Windows 8タブレット提案の必須要件に 遠隔消去は情報漏洩対策の最後の砦",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I024953929",
+          "issued": null,
+          "publisher": null,
+          "author": "藤井 宏治"
+        }
+      ],
+      "errors": []
+    },
+    "ai-regulation": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 231,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 231
+      },
+      "topItems": [
+        {
+          "title": "ITナビゲーター",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033852118",
+          "issued": "2025.1",
+          "publisher": "東洋経済新報社",
+          "author": "野村総合研究所"
+        },
+        {
+          "title": "ITの仕事に就いたら「最低限」知っておきたい生成AIの常識 : LLM、マルチモーダル、生成AI規制など基本キーワードから読み解く! : 生成AIを取り巻く背景と支える技術、きちんと理解できていますか?",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033378982",
+          "issued": "2024.4",
+          "publisher": "ソシム",
+          "author": "南, 龍太, 1983-"
+        },
+        {
+          "title": "アジャイル・ガバナンスの概要とその国内外での実装 : AI規制を題材に",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I033916958",
+          "issued": null,
+          "publisher": null,
+          "author": "羽深 宏樹"
+        },
+        {
+          "title": "アメリカにおけるAI規制の現状",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390302845893242880",
+          "issued": "2024-12-04",
+          "publisher": null,
+          "author": "瑞慶山 広大"
+        },
+        {
+          "title": "アメリカにおけるAI規制の現状",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I033864453",
+          "issued": null,
+          "publisher": null,
+          "author": "瑞慶山 広大"
+        }
+      ],
+      "errors": []
+    },
+    "ai-business-automation": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 82,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 82
       },
       "topItems": [
         {
@@ -248,22 +468,190 @@
       ],
       "errors": []
     },
-    "exam-admission": {
+    "home-server-selfhost": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-07T04:43:13.968Z",
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
-        "volume": 8292,
+        "volume": 77,
         "engagement": null,
         "contributors": null,
         "latestActivityAt": null
       },
       "nativeMetrics": {
-        "bibliographyCount": 8292
+        "bibliographyCount": 77
+      },
+      "topItems": [
+        {
+          "title": "あぁ、増設/自宅サーバーへの道 : 初心者向け",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004235776",
+          "issued": "2003.1",
+          "publisher": "ソシム",
+          "author": "みうら, まもる"
+        },
+        {
+          "title": "味と匂研究とComputer(17)ADSLによるLinux自宅サーバー立ち上げ顛末",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I6914501",
+          "issued": null,
+          "publisher": null,
+          "author": "鈴木 教世"
+        },
+        {
+          "title": "安全自宅サーバー活用ガイドブックfor Windows XP",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003646214",
+          "issued": "2002.6",
+          "publisher": "翔泳社",
+          "author": "村上, 俊一, 1965-"
+        },
+        {
+          "title": "インターリンク固定IPで超かんたん自宅サーバー : Windows XPとフリーソフトでWebからブログまで",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008430302",
+          "issued": "2006.9",
+          "publisher": "インターリンク",
+          "author": "原口, 譲治"
+        },
+        {
+          "title": "小規模インターネットサイトの構成例",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1050855522064354560",
+          "issued": "2010-03-02",
+          "publisher": null,
+          "author": "檜垣, 泰彦"
+        }
+      ],
+      "errors": []
+    },
+    "ai-content-generation": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 401,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 401
+      },
+      "topItems": [
+        {
+          "title": "Archicad28ではじめるBIM設計入門",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034209983",
+          "issued": "2025.8",
+          "publisher": "エクスナレッジ",
+          "author": "BIM LABO"
+        },
+        {
+          "title": "アーティストと画像生成AIにおける協働制作に関する研究 : 画像生成AIを活用した芸術実践の紹介",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1050298975368534272",
+          "issued": "2023-03-01",
+          "publisher": null,
+          "author": "島名, 毅"
+        },
+        {
+          "title": "アートと科学の交差点",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971993809760828572",
+          "issued": "2024.4",
+          "publisher": "日経サイエンス",
+          "author": "日経サイエンス編集部"
+        },
+        {
+          "title": "アクターネットワーク理論の「人工主体」研究への適用 : 画像生成AIの分析を例に",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1050869456403729280",
+          "issued": "2023",
+          "publisher": null,
+          "author": "池原, 優斗"
+        },
+        {
+          "title": "Adobe Express & Adobe Firefly完全マニュアル : 初心者でもプロ級のデザイン!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034051773",
+          "issued": "2025.5",
+          "publisher": "秀和システム",
+          "author": "りゅう, かつや"
+        }
+      ],
+      "errors": []
+    },
+    "study-methods": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 7536,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 7536
+      },
+      "topItems": [
+        {
+          "title": "IoTを支える技術 : あらゆるモノをつなぐ半導体のしくみ",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028022466",
+          "issued": "2017.3",
+          "publisher": "SBクリエイティブ",
+          "author": "菊地, 正典, 1944-"
+        },
+        {
+          "title": "IQ200の「学び」の方法 : 読む・書く・考える",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024696710",
+          "issued": "2013.8",
+          "publisher": "祥伝社",
+          "author": "矢野, 祥, 1990-"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i9363150",
+          "issued": "2010",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "愛知大学法学部法経論集",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000071618-i9364187",
+          "issued": "2009-2010",
+          "publisher": "愛知大学法学会",
+          "author": "愛知大学法学会"
+        },
+        {
+          "title": "ITエンジニアのゼロから始める英語勉強法 : 英語落ちこぼれでもペラペラになれる!",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024267762",
+          "issued": "2013.3",
+          "publisher": "日経BP社",
+          "author": null
+        }
+      ],
+      "errors": []
+    },
+    "exam-admission": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 8286,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 8286
       },
       "topItems": [
         {
@@ -309,7 +697,7 @@
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-07T04:43:13.968Z",
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
       "complete": true,
       "coverage": 1,
       "metrics": {
@@ -360,12 +748,124 @@
       ],
       "errors": []
     },
+    "home-appliance": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 4628,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 4628
+      },
+      "topItems": [
+        {
+          "title": "亜鉛めっき鋼板と家電製品について-亜鉛めっき鋼板利用上の問題点-",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390001204197784832",
+          "issued": "1977",
+          "publisher": null,
+          "author": "河合 宏紀"
+        },
+        {
+          "title": "秋田魁新報創刊１２０年企画 2||昔今夢のさきがけ||蛍光灯パッ！忘れられぬ感動 : 秋田魁新報",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I1051702",
+          "issued": "1994年6月28日 朝刊 10面（1994-06-28）",
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "秋葉原哀歌",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002401670",
+          "issued": "1995.4",
+          "publisher": "ビレッジセンター (発売)",
+          "author": "島川, 言成"
+        },
+        {
+          "title": "アクセシブルデザインの世界(第23回)家電製品の良かったこと調査",
+          "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I028065041",
+          "issued": null,
+          "publisher": null,
+          "author": null
+        },
+        {
+          "title": "アクティブマトリックスVFDによる高輝度日本語情報表示",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390001204522409984",
+          "issued": "1996",
+          "publisher": null,
+          "author": "則武 篤史"
+        }
+      ],
+      "errors": []
+    },
+    "fitness-training": {
+      "envelopeVersion": "1.0.0",
+      "source": "ndl",
+      "metricKind": "stock",
+      "windowDays": null,
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
+      "complete": true,
+      "coverage": 1,
+      "metrics": {
+        "volume": 5450,
+        "engagement": null,
+        "contributors": null,
+        "latestActivityAt": null
+      },
+      "nativeMetrics": {
+        "bibliographyCount": 5450
+      },
+      "topItems": [
+        {
+          "title": "アイシングによる遅発性筋痛の軽減効果",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390282680552782464",
+          "issued": "2014",
+          "publisher": null,
+          "author": "甲斐 太陽"
+        },
+        {
+          "title": "アイソキネティックトレーニングは他の筋力トレーニングに比べてどのくらい有効か",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1570009750978432256",
+          "issued": "1986",
+          "publisher": null,
+          "author": "村松茂"
+        },
+        {
+          "title": "アイソメトリックトレーニング : 筋力トレーニングの理論と実際",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001187789",
+          "issued": "1970",
+          "publisher": "大修館書店",
+          "author": "Hettinger, Theodor"
+        },
+        {
+          "title": "アイソメトリックトレーニング",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1571980074289280640",
+          "issued": "1970",
+          "publisher": null,
+          "author": "ヘッティンガー"
+        },
+        {
+          "title": "アイソメトリックトレーニング : 筋力トレーニングの理論と実際",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I23111100368795",
+          "issued": "1974",
+          "publisher": "大修館書店",
+          "author": "Th.ヘティンガー"
+        }
+      ],
+      "errors": []
+    },
     "vulnerability-response": {
       "envelopeVersion": "1.0.0",
       "source": "ndl",
       "metricKind": "stock",
       "windowDays": null,
-      "fetchedAt": "2026-08-07T04:43:13.968Z",
+      "fetchedAt": "2026-08-07T23:07:02.717Z",
       "complete": true,
       "coverage": 1,
       "metrics": {

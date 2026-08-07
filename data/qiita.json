@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:39:50.917Z",
+  "generatedAt": "2026-08-07T23:03:26.735Z",
   "source": "qiita",
   "method": "qiita-api-v2 (unauth, per_page=100, dedup by item.id)",
   "windowDays": 30,
@@ -22,22 +22,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 25,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 1813,
-        "engagement": 3663,
-        "contributors": 700,
-        "latestActivityAt": "2026-08-07T13:35:28+09:00"
+        "volume": 1836,
+        "engagement": 3743,
+        "contributors": 704,
+        "latestActivityAt": "2026-08-08T07:10:09+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 1813,
-        "lgtmSum": 3663,
-        "uniqueAuthors": 700,
-        "latestPublishedAt": "2026-08-07T13:35:28+09:00"
+        "articleCount": 1836,
+        "lgtmSum": 3743,
+        "uniqueAuthors": 704,
+        "latestPublishedAt": "2026-08-08T07:10:09+09:00"
       },
       "meta": {
         "tags": [
@@ -49,29 +49,29 @@
         "tagBreakdown": [
           {
             "tag": "ChatGPT",
-            "totalCount": 276,
-            "fetched": 276,
+            "totalCount": 278,
+            "fetched": 278,
             "pages": 3,
             "stoppedBy": "done"
           },
           {
             "tag": "Claude",
-            "totalCount": 409,
-            "fetched": 409,
+            "totalCount": 417,
+            "fetched": 417,
             "pages": 5,
             "stoppedBy": "done"
           },
           {
             "tag": "LLM",
-            "totalCount": 769,
-            "fetched": 769,
+            "totalCount": 780,
+            "fetched": 780,
             "pages": 8,
             "stoppedBy": "done"
           },
           {
             "tag": "生成AI",
-            "totalCount": 809,
-            "fetched": 809,
+            "totalCount": 817,
+            "fetched": 817,
             "pages": 9,
             "stoppedBy": "done"
           }
@@ -82,14 +82,14 @@
           "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
           "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
           "publishedAt": "2026-07-12T16:15:00+09:00",
-          "likes": 457,
+          "likes": 459,
           "author": "ZiYuCai1984"
         },
         {
           "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
           "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
           "publishedAt": "2026-07-11T19:39:54+09:00",
-          "likes": 316,
+          "likes": 318,
           "author": "fuyunoki"
         },
         {
@@ -103,14 +103,14 @@
           "title": "Claude Code／Codexに中～大規模開発を任せるためのタスク管理",
           "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384",
           "publishedAt": "2026-08-02T08:38:39+09:00",
-          "likes": 116,
+          "likes": 119,
           "author": "Y-Y-dev"
         },
         {
           "title": "ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～",
           "url": "https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612",
           "publishedAt": "2026-07-25T20:22:16+09:00",
-          "likes": 98,
+          "likes": 100,
           "author": "WdknWdkn"
         }
       ]
@@ -119,22 +119,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 111,
-        "engagement": 196,
-        "contributors": 71,
-        "latestActivityAt": "2026-08-07T07:15:19+09:00"
+        "volume": 112,
+        "engagement": 197,
+        "contributors": 72,
+        "latestActivityAt": "2026-08-07T18:47:38+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 111,
-        "lgtmSum": 196,
-        "uniqueAuthors": 71,
-        "latestPublishedAt": "2026-08-07T07:15:19+09:00"
+        "articleCount": 112,
+        "lgtmSum": 197,
+        "uniqueAuthors": 72,
+        "latestPublishedAt": "2026-08-07T18:47:38+09:00"
       },
       "meta": {
         "tags": [
@@ -151,8 +151,8 @@
           },
           {
             "tag": "Cursor",
-            "totalCount": 64,
-            "fetched": 64,
+            "totalCount": 65,
+            "fetched": 65,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -184,7 +184,7 @@
           "title": "「ゴリゴリのエンジニアじゃなくても大丈夫」 企業の内製化を加速するVibe Coding実践ガイド｜業務で使えるプロンプト＆ユースケース集",
           "url": "https://qiita.com/dahatake/items/7a15a1caf194fcf29f0b",
           "publishedAt": "2026-07-29T09:50:51+09:00",
-          "likes": 15,
+          "likes": 16,
           "author": "dahatake"
         },
         {
@@ -200,7 +200,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -281,22 +281,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 3,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 69,
+        "volume": 70,
         "engagement": 91,
         "contributors": 46,
-        "latestActivityAt": "2026-08-06T20:26:22+09:00"
+        "latestActivityAt": "2026-08-08T05:11:49+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 69,
+        "articleCount": 70,
         "lgtmSum": 91,
         "uniqueAuthors": 46,
-        "latestPublishedAt": "2026-08-06T20:26:22+09:00"
+        "latestPublishedAt": "2026-08-08T05:11:49+09:00"
       },
       "meta": {
         "tags": [
@@ -314,8 +314,8 @@
           },
           {
             "tag": "NVIDIA",
-            "totalCount": 27,
-            "fetched": 27,
+            "totalCount": 28,
+            "fetched": 28,
             "pages": 1,
             "stoppedBy": "done"
           },
@@ -370,22 +370,22 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
-        "volume": 30,
+        "volume": 31,
         "engagement": 51,
-        "contributors": 26,
-        "latestActivityAt": "2026-08-05T22:26:36+09:00"
+        "contributors": 27,
+        "latestActivityAt": "2026-08-07T23:49:08+09:00"
       },
       "nativeMetrics": {
-        "articleCount": 30,
+        "articleCount": 31,
         "lgtmSum": 51,
-        "uniqueAuthors": 26,
-        "latestPublishedAt": "2026-08-05T22:26:36+09:00"
+        "uniqueAuthors": 27,
+        "latestPublishedAt": "2026-08-07T23:49:08+09:00"
       },
       "meta": {
         "tags": [
@@ -402,8 +402,8 @@
           },
           {
             "tag": "障害対応",
-            "totalCount": 14,
-            "fetched": 14,
+            "totalCount": 15,
+            "fetched": 15,
             "pages": 1,
             "stoppedBy": "done"
           }
@@ -451,20 +451,20 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 4,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 53,
-        "engagement": 563,
+        "engagement": 569,
         "contributors": 27,
         "latestActivityAt": "2026-08-07T12:48:47+09:00"
       },
       "nativeMetrics": {
         "articleCount": 53,
-        "lgtmSum": 563,
+        "lgtmSum": 569,
         "uniqueAuthors": 27,
         "latestPublishedAt": "2026-08-07T12:48:47+09:00"
       },
@@ -511,7 +511,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 494,
+          "likes": 499,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -532,7 +532,7 @@
           "title": "毎日137件公開されるCVE、正直ぜんぶ無視していませんか？",
           "url": "https://qiita.com/udowanllc/items/024e91ccb6393159c798",
           "publishedAt": "2026-08-04T00:29:32+09:00",
-          "likes": 11,
+          "likes": 12,
           "author": "udowanllc"
         },
         {
@@ -548,7 +548,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -629,7 +629,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -674,7 +674,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -755,7 +755,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -828,7 +828,7 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 1,
       "complete": true,
       "coverage": 1,
@@ -901,20 +901,20 @@
       "envelopeVersion": "1.0.0",
       "source": "qiita",
       "windowDays": 30,
-      "fetchedAt": "2026-08-07T04:39:50.917Z",
+      "fetchedAt": "2026-08-07T23:03:26.735Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
       "errors": [],
       "metrics": {
         "volume": 21,
-        "engagement": 538,
+        "engagement": 544,
         "contributors": 13,
         "latestActivityAt": "2026-08-06T12:13:13+09:00"
       },
       "nativeMetrics": {
         "articleCount": 21,
-        "lgtmSum": 538,
+        "lgtmSum": 544,
         "uniqueAuthors": 13,
         "latestPublishedAt": "2026-08-06T12:13:13+09:00"
       },
@@ -945,7 +945,7 @@
           "title": "セキュリティの勉強になるサイト138選(2026年版)",
           "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
           "publishedAt": "2026-07-19T13:36:00+09:00",
-          "likes": 494,
+          "likes": 499,
           "author": "Nakanishi_RareTECH"
         },
         {
@@ -959,7 +959,7 @@
           "title": "毎日137件公開されるCVE、正直ぜんぶ無視していませんか？",
           "url": "https://qiita.com/udowanllc/items/024e91ccb6393159c798",
           "publishedAt": "2026-08-04T00:29:32+09:00",
-          "likes": 11,
+          "likes": 12,
           "author": "udowanllc"
         },
         {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T04:37:46.604Z",
-  "totalArticles": 3362,
+  "generatedAt": "2026-08-07T23:01:16.070Z",
+  "totalArticles": 3570,
   "themeCount": 17,
   "candidateCount": 17,
   "method": "rule-based keyword matching",
@@ -36,6 +36,10 @@
         "ワークフロー"
       ],
       "evidenceArticleIds": [
+        "31e5bf7196102c2d",
+        "ad312ac8dcec84c4",
+        "36159e53277cc8bf",
+        "4f5fc71438459cc0",
         "89de3bc88a1cba0c",
         "1d91a20af7787b93",
         "59e5b3059d336c0f",
@@ -91,15 +95,11 @@
         "d44128fe9e5e70ae",
         "324a049fe48327c5",
         "ae4007c53357f616",
-        "439b6003b5f1025f",
-        "90814d317e62c090",
-        "e2ae54c032180670",
-        "a6e227828709fc90",
-        "9b9d5b6c535c4692"
+        "439b6003b5f1025f"
       ],
-      "evidenceArticleCount": 139,
+      "evidenceArticleCount": 143,
       "confidence": 0.95,
-      "reason": "15 種類のキーワードが 139 件の記事でヒット（例：活用、生成AI、 AI）"
+      "reason": "15 種類のキーワードが 143 件の記事でヒット（例：活用、生成AI、 AI）"
     },
     {
       "id": "vulnerability-response",
@@ -110,9 +110,9 @@
         "脆弱性",
         "修正",
         "アップデート",
+        "セキュリティアップデート",
         "攻撃",
-        "悪用",
-        "セキュリティアップデート"
+        "悪用"
       ],
       "searchTerms": [
         "脆弱性",
@@ -132,8 +132,11 @@
         "影響"
       ],
       "evidenceArticleIds": [
+        "5c7435fa64bb1bf5",
+        "fe559017f85934d6",
         "4dffd9183ed058cd",
         "7e80c716f4697fb9",
+        "2cfbae45dc00a809",
         "2a0368aed2330e8c",
         "a616a97d81cc6ad7",
         "3e71eab174e7d07c",
@@ -188,14 +191,11 @@
         "6582b977191d1bea",
         "fd0f3904b730d819",
         "87e960c58034a824",
-        "7d037c4bd505f7b3",
-        "25556101d550f93e",
-        "d16f58d8724c6ccc",
-        "59f218ead565d894"
+        "7d037c4bd505f7b3"
       ],
-      "evidenceArticleCount": 74,
-      "confidence": 0.97,
-      "reason": "15 種類のキーワードが 74 件の記事でヒット（例：脆弱性、修正、アップデート）"
+      "evidenceArticleCount": 77,
+      "confidence": 0.96,
+      "reason": "15 種類のキーワードが 77 件の記事でヒット（例：脆弱性、修正、アップデート）"
     },
     {
       "id": "security-breach",
@@ -224,7 +224,12 @@
         "被害"
       ],
       "evidenceArticleIds": [
+        "b75f698b29563643",
+        "544e21769f3c597d",
+        "dc2ba2b51d12997c",
         "0ef9f349f19a8f7d",
+        "72be726f5168bfae",
+        "632dda3bb07b1cfe",
         "4dffd9183ed058cd",
         "80d14cbac5de3b86",
         "017c2c3367a9ee14",
@@ -278,16 +283,11 @@
         "287c16c07dd20372",
         "1d5b3a6d3eb3c092",
         "5364b956c670e858",
-        "ccef449a4687fc7a",
-        "09589dc24839ae61",
-        "0bcf86b668654cd1",
-        "f968a3171e579c47",
-        "da6aaa79a942ed39",
-        "0d830324d5f3d134"
+        "ccef449a4687fc7a"
       ],
-      "evidenceArticleCount": 64,
+      "evidenceArticleCount": 69,
       "confidence": 0.95,
-      "reason": "11 種類のキーワードが 64 件の記事でヒット（例：情報、個人情報、漏えい）"
+      "reason": "11 種類のキーワードが 69 件の記事でヒット（例：情報、個人情報、漏えい）"
     },
     {
       "id": "ai-coding",
@@ -390,8 +390,8 @@
         "大学",
         "大学受験",
         "中学",
-        "中学受験",
         "高校",
+        "中学受験",
         "高校受験"
       ],
       "searchTerms": [
@@ -430,6 +430,10 @@
         "小学"
       ],
       "evidenceArticleIds": [
+        "3be435c1b7867cc4",
+        "ddb6cb910fb31f5f",
+        "5461052ed46624e5",
+        "9005c55c2c72d521",
         "62025be9de2075e0",
         "699f2052bde1a6dc",
         "cf60b7fe6d84f110",
@@ -467,9 +471,9 @@
         "eb87aec2f0c9fce7",
         "99551e9597e11c59"
       ],
-      "evidenceArticleCount": 36,
+      "evidenceArticleCount": 40,
       "confidence": 0.86,
-      "reason": "21 種類のキーワードが 36 件の記事でヒット（例：大学、大学受験、中学）"
+      "reason": "21 種類のキーワードが 40 件の記事でヒット（例：大学、大学受験、中学）"
     },
     {
       "id": "infrastructure-outages",
@@ -480,8 +484,8 @@
         "障害",
         "復旧",
         "影響",
-        "サービス",
         "システム",
+        "サービス",
         "AWS"
       ],
       "searchTerms": [
@@ -499,6 +503,8 @@
         "影響"
       ],
       "evidenceArticleIds": [
+        "7010a5090c95bbf6",
+        "52ebd676de181604",
         "bcb668de7b67add7",
         "5ad17e09b381420a",
         "b410d3de11e49fd0",
@@ -535,69 +541,9 @@
         "6d3295d8aef77bb3",
         "f66e64028ec6546f"
       ],
-      "evidenceArticleCount": 35,
+      "evidenceArticleCount": 37,
       "confidence": 0.93,
-      "reason": "12 種類のキーワードが 35 件の記事でヒット（例：障害、復旧、影響）"
-    },
-    {
-      "id": "payment-troubles",
-      "theme": "決済インフラ・キャッシュレス",
-      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "決済",
-        "カード",
-        "PayPay",
-        "キャッシュレス",
-        "クレカ",
-        "クレジットカード"
-      ],
-      "searchTerms": [
-        "決済",
-        "クレカ",
-        "クレジットカード",
-        "PayPay",
-        "Visa",
-        "Suica",
-        "カード",
-        "支払い",
-        "払え",
-        "キャッシュレス",
-        "取引"
-      ],
-      "evidenceArticleIds": [
-        "d30c544d80c36a8e",
-        "3f65a00160fd241f",
-        "9ea28617c4e2776b",
-        "dc72361ab32d15c4",
-        "af2aca46cce4f759",
-        "7c493a725e1356b5",
-        "2f7f942d4c2b4df0",
-        "392d9de0a9385234",
-        "6afac132d339eab9",
-        "56ec8e1817c0a696",
-        "863b692d8b992b95",
-        "4de05a8ee9858ffa",
-        "ab6ad6a81aa4cfb5",
-        "bb962bf80ec9a0ca",
-        "cdcdbfbadb597d0c",
-        "f89102fcb3b7192a",
-        "72c89165ed6cc4fb",
-        "1497ad035faf58f4",
-        "af4fc0e547999438",
-        "d525d678e213e33b",
-        "efa8f82e0a7656dc",
-        "7d23fd4b8e588331",
-        "fad6cd527efa3c50",
-        "e905eff59636ae08",
-        "a6deeefb72857e5e",
-        "e360e5574473698e",
-        "6d3295d8aef77bb3",
-        "f66e64028ec6546f"
-      ],
-      "evidenceArticleCount": 28,
-      "confidence": 0.94,
-      "reason": "11 種類のキーワードが 28 件の記事でヒット（例：決済、カード、PayPay）"
+      "reason": "12 種類のキーワードが 37 件の記事でヒット（例：障害、復旧、影響）"
     },
     {
       "id": "fitness-training",
@@ -605,8 +551,8 @@
       "summary": "体を動かして体力・姿勢・見た目を変えたい需要",
       "category": "健康",
       "relatedKeywords": [
-        "トレーニング",
         "筋肉",
+        "トレーニング",
         "毎日",
         "筋トレ",
         "運動",
@@ -636,6 +582,8 @@
         "分間"
       ],
       "evidenceArticleIds": [
+        "e0fec9bbf8ab39d6",
+        "11ae884bd2154980",
         "42f0591cb36c1a70",
         "17c4f6f992c39f98",
         "3331733605a9bbf8",
@@ -665,9 +613,70 @@
         "3a9f0177129d4886",
         "cbca98ab5d8a4caf"
       ],
-      "evidenceArticleCount": 28,
+      "evidenceArticleCount": 30,
       "confidence": 0.92,
-      "reason": "18 種類のキーワードが 28 件の記事でヒット（例：トレーニング、筋肉、毎日）"
+      "reason": "18 種類のキーワードが 30 件の記事でヒット（例：筋肉、トレーニング、毎日）"
+    },
+    {
+      "id": "payment-troubles",
+      "theme": "決済インフラ・キャッシュレス",
+      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "決済",
+        "カード",
+        "PayPay",
+        "キャッシュレス",
+        "クレカ",
+        "クレジットカード"
+      ],
+      "searchTerms": [
+        "決済",
+        "クレカ",
+        "クレジットカード",
+        "PayPay",
+        "Visa",
+        "Suica",
+        "カード",
+        "支払い",
+        "払え",
+        "キャッシュレス",
+        "取引"
+      ],
+      "evidenceArticleIds": [
+        "16c64a8d5e637df8",
+        "d30c544d80c36a8e",
+        "3f65a00160fd241f",
+        "9ea28617c4e2776b",
+        "dc72361ab32d15c4",
+        "af2aca46cce4f759",
+        "7c493a725e1356b5",
+        "2f7f942d4c2b4df0",
+        "392d9de0a9385234",
+        "6afac132d339eab9",
+        "56ec8e1817c0a696",
+        "863b692d8b992b95",
+        "4de05a8ee9858ffa",
+        "ab6ad6a81aa4cfb5",
+        "bb962bf80ec9a0ca",
+        "cdcdbfbadb597d0c",
+        "f89102fcb3b7192a",
+        "72c89165ed6cc4fb",
+        "1497ad035faf58f4",
+        "af4fc0e547999438",
+        "d525d678e213e33b",
+        "efa8f82e0a7656dc",
+        "7d23fd4b8e588331",
+        "fad6cd527efa3c50",
+        "e905eff59636ae08",
+        "a6deeefb72857e5e",
+        "e360e5574473698e",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 29,
+      "confidence": 0.94,
+      "reason": "11 種類のキーワードが 29 件の記事でヒット（例：決済、カード、PayPay）"
     },
     {
       "id": "home-appliance",
@@ -679,8 +688,8 @@
         "発売",
         "エアコン",
         "家電",
-        "冷蔵庫",
-        "食洗機"
+        "食洗機",
+        "冷蔵庫"
       ],
       "searchTerms": [
         "冷蔵庫",
@@ -708,6 +717,7 @@
         "電気代"
       ],
       "evidenceArticleIds": [
+        "1ea4d3156548c727",
         "70047620cecd735b",
         "bb870a36631babf6",
         "612f357535ed99ff",
@@ -733,9 +743,9 @@
         "877f5cc7a5d979ca",
         "451bfbb30bc96343"
       ],
-      "evidenceArticleCount": 24,
+      "evidenceArticleCount": 25,
       "confidence": 0.91,
-      "reason": "19 種類のキーワードが 24 件の記事でヒット（例：価格、発売、エアコン）"
+      "reason": "19 種類のキーワードが 25 件の記事でヒット（例：価格、発売、エアコン）"
     },
     {
       "id": "housing",
@@ -801,7 +811,7 @@
         "4ee536bc41b15f57"
       ],
       "evidenceArticleCount": 22,
-      "confidence": 0.87,
+      "confidence": 0.86,
       "reason": "22 種類のキーワードが 22 件の記事でヒット（例：マンション、賃貸、住まい）"
     },
     {
@@ -814,8 +824,8 @@
         "規制",
         "安全性",
         "プライバシー",
-        "欧州委員会",
-        "保護"
+        "保護",
+        "欧州委員会"
       ],
       "searchTerms": [
         "規制",
@@ -831,6 +841,8 @@
         "偽広告"
       ],
       "evidenceArticleIds": [
+        "cbbafd468bd0dbf2",
+        "6438a4c5c1cc7d0e",
         "f62f328361e75f33",
         "8ae1ed3c446f222a",
         "ec7f4680de26847a",
@@ -850,9 +862,9 @@
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 18,
+      "evidenceArticleCount": 20,
       "confidence": 0.84,
-      "reason": "7 種類のキーワードが 18 件の記事でヒット（例：AI、規制、安全性）"
+      "reason": "7 種類のキーワードが 20 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "study-methods",
@@ -1034,7 +1046,7 @@
         "508f31c0d33ea0ec"
       ],
       "evidenceArticleCount": 7,
-      "confidence": 0.85,
+      "confidence": 0.84,
       "reason": "8 種類のキーワードが 7 件の記事でヒット（例：高齢者、認知症、シニア）"
     },
     {

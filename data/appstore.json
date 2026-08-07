@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:41:34.870Z",
+  "generatedAt": "2026-08-07T23:05:09.308Z",
   "source": "appstore",
   "method": "itunes-rss (jp storefront, topfreeapplications + topgrossingapplications, limit=100)",
   "mappingVersion": 1,
@@ -68,7 +68,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -77,16 +77,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:36-07:00"
+        "latestActivityAt": "2026-08-07T16:05:11-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 4,
         "uniquePublishers": 4,
         "topFreeMatchCount": 4,
         "topGrossingMatchCount": 3,
-        "bestRank": 2,
-        "averageRank": 29.6,
-        "rankWeightedScore": 500,
+        "bestRank": 3,
+        "averageRank": 33,
+        "rankWeightedScore": 476,
         "matchedApps": [
           {
             "appId": "6448311069",
@@ -103,7 +103,7 @@
             "publisher": "Google",
             "releaseDate": "2024-11-13T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 4,
+            "rank": 6,
             "chart": "topfreeapplications"
           },
           {
@@ -112,7 +112,7 @@
             "publisher": "Anthropic PBC",
             "releaseDate": "2024-05-01T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 22,
+            "rank": 24,
             "chart": "topfreeapplications"
           },
           {
@@ -121,7 +121,7 @@
             "publisher": "X Corp.",
             "releaseDate": "2025-01-18T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 75,
+            "rank": 86,
             "chart": "topfreeapplications"
           },
           {
@@ -130,7 +130,7 @@
             "publisher": "OpenAI OpCo, LLC",
             "releaseDate": "2023-05-25T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 2,
+            "rank": 4,
             "chart": "topgrossingapplications"
           },
           {
@@ -139,7 +139,7 @@
             "publisher": "Anthropic PBC",
             "releaseDate": "2024-05-01T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 44,
+            "rank": 49,
             "chart": "topgrossingapplications"
           },
           {
@@ -148,7 +148,7 @@
             "publisher": "X Corp.",
             "releaseDate": "2025-01-18T00:00:00-07:00",
             "category": "仕事効率化",
-            "rank": 57,
+            "rank": 59,
             "chart": "topgrossingapplications"
           }
         ]
@@ -177,29 +177,21 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 4,
             "bestRank": 3
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 3,
-            "bestRank": 2
+            "bestRank": 4
           }
         ]
       },
       "topItems": [
-        {
-          "name": "ChatGPT",
-          "publisher": "OpenAI OpCo, LLC",
-          "rank": 2,
-          "chart": "topgrossingapplications",
-          "appId": "6448311069",
-          "category": "仕事効率化"
-        },
         {
           "name": "ChatGPT",
           "publisher": "OpenAI OpCo, LLC",
@@ -209,9 +201,17 @@
           "category": "仕事効率化"
         },
         {
+          "name": "ChatGPT",
+          "publisher": "OpenAI OpCo, LLC",
+          "rank": 4,
+          "chart": "topgrossingapplications",
+          "appId": "6448311069",
+          "category": "仕事効率化"
+        },
+        {
           "name": "Google Gemini",
           "publisher": "Google",
-          "rank": 4,
+          "rank": 6,
           "chart": "topfreeapplications",
           "appId": "6477489729",
           "category": "仕事効率化"
@@ -219,7 +219,7 @@
         {
           "name": "Claude by Anthropic",
           "publisher": "Anthropic PBC",
-          "rank": 22,
+          "rank": 24,
           "chart": "topfreeapplications",
           "appId": "6473753684",
           "category": "仕事効率化"
@@ -227,7 +227,7 @@
         {
           "name": "Claude by Anthropic",
           "publisher": "Anthropic PBC",
-          "rank": 44,
+          "rank": 49,
           "chart": "topgrossingapplications",
           "appId": "6473753684",
           "category": "仕事効率化"
@@ -238,7 +238,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -247,16 +247,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:34-07:00"
+        "latestActivityAt": "2026-08-07T16:05:09-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 1,
         "uniquePublishers": 1,
         "topFreeMatchCount": 1,
         "topGrossingMatchCount": 0,
-        "bestRank": 42,
-        "averageRank": 42,
-        "rankWeightedScore": 59,
+        "bestRank": 43,
+        "averageRank": 43,
+        "rankWeightedScore": 58,
         "matchedApps": [
           {
             "appId": "897446215",
@@ -264,7 +264,7 @@
             "publisher": "Canva",
             "releaseDate": "2014-10-15T03:23:37-07:00",
             "category": "写真／ビデオ",
-            "rank": 42,
+            "rank": 43,
             "chart": "topfreeapplications"
           }
         ]
@@ -281,14 +281,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 1,
-            "bestRank": 42
+            "bestRank": 43
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -299,7 +299,7 @@
         {
           "name": "Canva（キャンバ） - 信じられないほど、素晴らしく",
           "publisher": "Canva",
-          "rank": 42,
+          "rank": 43,
           "chart": "topfreeapplications",
           "appId": "897446215",
           "category": "写真／ビデオ"
@@ -310,7 +310,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -319,16 +319,16 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:34-07:00"
+        "latestActivityAt": "2026-08-07T16:05:09-07:00"
       },
       "nativeMetrics": {
-        "matchedAppCount": 5,
-        "uniquePublishers": 5,
-        "topFreeMatchCount": 5,
+        "matchedAppCount": 6,
+        "uniquePublishers": 6,
+        "topFreeMatchCount": 6,
         "topGrossingMatchCount": 0,
-        "bestRank": 32,
-        "averageRank": 59.4,
-        "rankWeightedScore": 208,
+        "bestRank": 27,
+        "averageRank": 66.7,
+        "rankWeightedScore": 206,
         "matchedApps": [
           {
             "appId": "1435783608",
@@ -336,7 +336,7 @@
             "publisher": "PayPay Corporation",
             "releaseDate": "2018-10-05T12:26:21-07:00",
             "category": "ファイナンス",
-            "rank": 32,
+            "rank": 27,
             "chart": "topfreeapplications"
           },
           {
@@ -345,7 +345,7 @@
             "publisher": "East Japan Railway Company",
             "releaseDate": "2016-10-23T23:47:42-07:00",
             "category": "ファイナンス",
-            "rank": 45,
+            "rank": 42,
             "chart": "topfreeapplications"
           },
           {
@@ -354,7 +354,7 @@
             "publisher": "Rakuten Group, Inc.",
             "releaseDate": "2016-10-26T19:15:11-07:00",
             "category": "ファイナンス",
-            "rank": 55,
+            "rank": 59,
             "chart": "topfreeapplications"
           },
           {
@@ -363,7 +363,7 @@
             "publisher": "株式会社NTTドコモ",
             "releaseDate": "2018-04-25T15:24:10-07:00",
             "category": "ファイナンス",
-            "rank": 81,
+            "rank": 83,
             "chart": "topfreeapplications"
           },
           {
@@ -372,7 +372,16 @@
             "publisher": "イオンスマートテクノロジー株式会社",
             "releaseDate": "2021-08-31T00:00:00-07:00",
             "category": "ファイナンス",
-            "rank": 84,
+            "rank": 93,
+            "chart": "topfreeapplications"
+          },
+          {
+            "appId": "667861049",
+            "name": "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得",
+            "publisher": "Mercari, Inc.",
+            "releaseDate": "2013-07-21T22:11:05-07:00",
+            "category": "ショッピング",
+            "rank": 96,
             "chart": "topfreeapplications"
           }
         ]
@@ -413,14 +422,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
-            "matchCount": 5,
-            "bestRank": 32
+            "matchCount": 6,
+            "bestRank": 27
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -431,7 +440,7 @@
         {
           "name": "PayPay",
           "publisher": "PayPay Corporation",
-          "rank": 32,
+          "rank": 27,
           "chart": "topfreeapplications",
           "appId": "1435783608",
           "category": "ファイナンス"
@@ -439,7 +448,7 @@
         {
           "name": "Suica",
           "publisher": "East Japan Railway Company",
-          "rank": 45,
+          "rank": 42,
           "chart": "topfreeapplications",
           "appId": "1156875272",
           "category": "ファイナンス"
@@ -447,7 +456,7 @@
         {
           "name": "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ",
           "publisher": "Rakuten Group, Inc.",
-          "rank": 55,
+          "rank": 59,
           "chart": "topfreeapplications",
           "appId": "1139755229",
           "category": "ファイナンス"
@@ -455,7 +464,7 @@
         {
           "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
           "publisher": "株式会社NTTドコモ",
-          "rank": 81,
+          "rank": 83,
           "chart": "topfreeapplications",
           "appId": "1328132872",
           "category": "ファイナンス"
@@ -463,7 +472,7 @@
         {
           "name": "iAEON-イオンペイも使える！「アイイオン」",
           "publisher": "イオンスマートテクノロジー株式会社",
-          "rank": 84,
+          "rank": 93,
           "chart": "topfreeapplications",
           "appId": "1565489157",
           "category": "ファイナンス"
@@ -474,7 +483,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -483,33 +492,33 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:34-07:00"
+        "latestActivityAt": "2026-08-07T16:05:09-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 3,
         "uniquePublishers": 3,
         "topFreeMatchCount": 3,
         "topGrossingMatchCount": 0,
-        "bestRank": 33,
-        "averageRank": 38.3,
-        "rankWeightedScore": 188,
+        "bestRank": 47,
+        "averageRank": 59.3,
+        "rankWeightedScore": 125,
         "matchedApps": [
-          {
-            "appId": "1113153706",
-            "name": "Microsoft Teams",
-            "publisher": "Microsoft Corporation",
-            "releaseDate": "2016-11-02T14:19:53-07:00",
-            "category": "ビジネス",
-            "rank": 33,
-            "chart": "topfreeapplications"
-          },
           {
             "appId": "546505307",
             "name": "Zoom Workplace",
             "publisher": "Zoom Communications, Inc.",
             "releaseDate": "2012-08-14T18:33:36-07:00",
             "category": "ビジネス",
-            "rank": 34,
+            "rank": 47,
+            "chart": "topfreeapplications"
+          },
+          {
+            "appId": "1113153706",
+            "name": "Microsoft Teams",
+            "publisher": "Microsoft Corporation",
+            "releaseDate": "2016-11-02T14:19:53-07:00",
+            "category": "ビジネス",
+            "rank": 63,
             "chart": "topfreeapplications"
           },
           {
@@ -518,7 +527,7 @@
             "publisher": "Google",
             "releaseDate": "2016-09-01T17:51:01-07:00",
             "category": "ソーシャルネットワーキング",
-            "rank": 48,
+            "rank": 68,
             "chart": "topfreeapplications"
           }
         ]
@@ -543,14 +552,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 3,
-            "bestRank": 33
+            "bestRank": 47
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -559,25 +568,25 @@
       },
       "topItems": [
         {
-          "name": "Microsoft Teams",
-          "publisher": "Microsoft Corporation",
-          "rank": 33,
-          "chart": "topfreeapplications",
-          "appId": "1113153706",
-          "category": "ビジネス"
-        },
-        {
           "name": "Zoom Workplace",
           "publisher": "Zoom Communications, Inc.",
-          "rank": 34,
+          "rank": 47,
           "chart": "topfreeapplications",
           "appId": "546505307",
           "category": "ビジネス"
         },
         {
+          "name": "Microsoft Teams",
+          "publisher": "Microsoft Corporation",
+          "rank": 63,
+          "chart": "topfreeapplications",
+          "appId": "1113153706",
+          "category": "ビジネス"
+        },
+        {
           "name": "Google Meet",
           "publisher": "Google",
-          "rank": 48,
+          "rank": 68,
           "chart": "topfreeapplications",
           "appId": "1096918571",
           "category": "ソーシャルネットワーキング"
@@ -588,7 +597,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -597,7 +606,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:36-07:00"
+        "latestActivityAt": "2026-08-07T16:05:11-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -625,14 +634,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -645,7 +654,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -654,7 +663,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:36-07:00"
+        "latestActivityAt": "2026-08-07T16:05:11-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -678,14 +687,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -698,7 +707,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -707,7 +716,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:36-07:00"
+        "latestActivityAt": "2026-08-07T16:05:11-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -739,14 +748,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
@@ -759,7 +768,7 @@
       "envelopeVersion": "1.0.0",
       "source": "appstore",
       "windowDays": 1,
-      "fetchedAt": "2026-08-07T04:41:34.870Z",
+      "fetchedAt": "2026-08-07T23:05:09.308Z",
       "requestCount": 2,
       "complete": true,
       "coverage": 1,
@@ -768,7 +777,7 @@
         "volume": null,
         "engagement": null,
         "contributors": null,
-        "latestActivityAt": "2026-08-06T21:41:36-07:00"
+        "latestActivityAt": "2026-08-07T16:05:11-07:00"
       },
       "nativeMetrics": {
         "matchedAppCount": 0,
@@ -800,14 +809,14 @@
         "chartBreakdown": [
           {
             "chart": "topfreeapplications",
-            "feedUpdated": "2026-08-06T21:41:34-07:00",
+            "feedUpdated": "2026-08-07T16:05:09-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
           },
           {
             "chart": "topgrossingapplications",
-            "feedUpdated": "2026-08-06T21:41:36-07:00",
+            "feedUpdated": "2026-08-07T16:05:11-07:00",
             "totalEntries": 100,
             "matchCount": 0,
             "bestRank": null
