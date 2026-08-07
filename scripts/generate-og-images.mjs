@@ -56,6 +56,29 @@ function card(font, { title, category, score, rise }) {
   );
 }
 
+// トップページ用: 「今週 需要が伸びたテーマ」ランキングカード。
+// ランキングは 1 テーマより SNS 拡散されやすく、owner が最も貼りやすい
+// ホーム URL の共有カードを最もクリックされる内容にする。
+function homeCard({ risers }) {
+  const rows = risers.map((r, i) =>
+    div({ display: 'flex', alignItems: 'baseline', marginBottom: i === risers.length - 1 ? 0 : 18 }, [
+      txt({ fontSize: 34, color: DIM, width: 44 }, `${i + 1}`),
+      txt({ fontSize: 44, fontWeight: 700, flexGrow: 1 }, r.title),
+      txt({ fontSize: 44, fontWeight: 700, color: GREEN, marginLeft: 24 }, `+${r.delta}`),
+    ]),
+  );
+  return div(
+    { width: '1200px', height: '630px', display: 'flex', flexDirection: 'column',
+      justifyContent: 'space-between', padding: '60px 72px', backgroundColor: BG, color: FG },
+    [
+      div({ display: 'flex', fontSize: 32, color: GREEN, letterSpacing: '0.04em' },
+        [txt({}, '今週 需要が伸びたテーマ ・ Demand Atlas')]),
+      div({ display: 'flex', flexDirection: 'column' }, rows),
+      txt({ fontSize: 28, color: DIM }, 'demand-atlas.vercel.app ・ 7つの公開データで需要を毎日可視化'),
+    ],
+  );
+}
+
 async function main() {
   const font = await readFile(FONT);
   const payload = JSON.parse(await readFile(resolve(DIST, 'data/demands.json'), 'utf8'));
@@ -84,8 +107,28 @@ async function main() {
     }
   }
 
+  // トップページ用: 今週の急上昇 TOP5 ランキングカード
+  let homeOk = false;
+  try {
+    const risers = demands
+      .map((d) => {
+        const sc = d._scoreHistory?.scores;
+        return Array.isArray(sc) && sc.length >= 3 ? { title: d.title, delta: sc[sc.length - 1] - sc[0] } : null;
+      })
+      .filter((x) => x && x.delta > 0)
+      .sort((a, b) => b.delta - a.delta)
+      .slice(0, 5);
+    if (risers.length >= 3) {
+      const png = await renderPng(homeCard({ risers }));
+      await writeFile(resolve(DIST, 'og', 'home.png'), png);
+      homeOk = true;
+    }
+  } catch (e) {
+    failed.push(`home: ${e.message}`);
+  }
+
   console.log('🦊 Demand Atlas — OG 画像生成');
-  console.log(`   ${ok}/${demands.length} テーマの OG 画像を dist/og/ に生成`);
+  console.log(`   ${ok}/${demands.length} テーマ + home ${homeOk ? '✓' : '×'} の OG 画像を dist/og/ に生成`);
   if (failed.length) {
     console.error(`   ✗ ${failed.length} 件失敗:`);
     for (const f of failed) console.error('     ' + f);

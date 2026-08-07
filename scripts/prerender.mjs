@@ -189,11 +189,13 @@ async function main() {
       continue;
     }
 
-    // テーマ詳細に、生成済みの専用 OG 画像があれば絶対 URL で差し込む。
+    // テーマ詳細 / トップに、生成済みの専用 OG 画像があれば絶対 URL で差し込む。
     // 無ければ何もしない（テンプレート既定の og-image.jpg にフォールバック）。
     const demandMatch = route.match(/^\/demand\/(.+)$/);
     if (demandMatch && existsSync(resolve(DIST, 'og', `${demandMatch[1]}.png`))) {
       out.seo.ogImage = `https://demand-atlas.vercel.app/og/${demandMatch[1]}.png`;
+    } else if (route === '/' && existsSync(resolve(DIST, 'og', 'home.png'))) {
+      out.seo.ogImage = 'https://demand-atlas.vercel.app/og/home.png';
     }
 
     const page = patchHead(template, out.seo).replace(
