@@ -14,7 +14,7 @@ import ScoreTrajectory from '../components/ScoreTrajectory.jsx';
 import SourceObservations from '../components/SourceObservations.jsx';
 import SourceMetrics from '../components/SourceMetrics.jsx';
 import InsightsPanel from '../components/InsightsPanel.jsx';
-import { getDemandById } from '../services/demandService.js';
+import { getDemandById, getDemands } from '../services/demandService.js';
 import { changeClass, formatChange, formatDateTime } from '../utils/format.js';
 import { trendSeries, sliceSeries, availableRanges, seriesPeriodLabel } from '../utils/series.js';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
@@ -42,6 +42,22 @@ export default function DemandDetail() {
 
   // 検索結果に出るのはほぼこのページなので、description はテーマごとに変える。
   // 全ページ共通の説明文のままだと、10 件のテーマが同じ内容だと見なされる。
+  // 「今週、他に急上昇している需要」TOP3（現テーマは除く）。
+  // 検索から 1 ページだけ見て離脱しがちな来訪者に、好奇心の導線を出して
+  // 回遊（＝ページ/セッション）と急上昇ランキングへの接触を増やす。内部リンクも増える。
+  const otherRisers = useMemo(() => {
+    if (!demand) return [];
+    return getDemands()
+      .filter((d) => d.id !== demand.id)
+      .map((d) => {
+        const sc = d._scoreHistory?.scores || [];
+        return sc.length >= 3 ? { id: d.id, title: d.title, delta: sc[sc.length - 1] - sc[0] } : null;
+      })
+      .filter((x) => x && x.delta > 0)
+      .sort((a, b) => b.delta - a.delta)
+      .slice(0, 3);
+  }, [demand]);
+
   // 需要スコアの直近の伸び（_scoreHistory から）。検索結果・SNS カードの
   // 冒頭に置く「クリックされるフック」に使う。伸びていない時は出さない。
   const scoreHist = demand?._scoreHistory?.scores || [];
@@ -289,6 +305,24 @@ export default function DemandDetail() {
               <div className="block">
                 <h2 className="block-title">なぜ伸びたのか</h2>
                 <InsightsPanel.WhyTrending data={demand._insights.whyTrending} />
+              </div>
+            )}
+
+            {/* 今週、他に急上昇している需要 — 1 ページ離脱を防ぐ回遊フック */}
+            {otherRisers.length >= 3 && (
+              <div className="block">
+                <h2 className="block-title">今週、他に急上昇している需要</h2>
+                <div className="cross-risers">
+                  {otherRisers.map((r) => (
+                    <Link key={r.id} to={`/demand/${r.id}`} className="cross-riser">
+                      <span className="cross-riser-title">{r.title}</span>
+                      <span className="cross-riser-delta up">+{r.delta}</span>
+                    </Link>
+                  ))}
+                </div>
+                <Link to="/explore?sort=scorerise" className="cross-risers-all">
+                  今週の急上昇ランキングを全部見る →
+                </Link>
               </div>
             )}
 

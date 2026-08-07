@@ -3250,6 +3250,35 @@ select.select:focus {
 @media (max-width: 560px) {
   .riser-spark, .riser-flow { display: none; }
 }
+/* 詳細ページ: 今週の急上昇クロスプロモ */
+.cross-risers { display: flex; flex-direction: column; gap: var(--s-2); }
+.cross-riser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding: 10px var(--s-3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.cross-riser:hover { border-color: var(--border-strong); background: var(--bg-1); }
+.cross-riser-title { font-size: 14px; font-weight: 600; color: var(--text); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cross-riser-delta { flex: none; font-family: var(--font-num); font-weight: 700; font-size: 15px; }
+.cross-riser-delta.up { color: var(--green-bright); }
+.cross-risers-all {
+  display: inline-block;
+  margin-top: var(--s-3);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--green-bright);
+  text-decoration: none;
+}
+.cross-risers-all:hover { text-decoration: underline; }
+
 .risers-actions {
   display: flex;
   align-items: center;
