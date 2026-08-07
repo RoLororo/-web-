@@ -3250,9 +3250,15 @@ select.select:focus {
 @media (max-width: 560px) {
   .riser-spark, .riser-flow { display: none; }
 }
+.risers-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--s-3) var(--s-4);
+  margin-top: var(--s-4);
+}
+.risers-share-btn { flex: none; }
 .risers-all-link {
-  display: inline-block;
-  margin-top: var(--s-3);
   font-size: 13px;
   font-weight: 600;
   color: var(--green-bright);

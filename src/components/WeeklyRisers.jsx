@@ -8,6 +8,7 @@
 
 import { Link } from 'react-router-dom';
 import Sparkline from './Sparkline.jsx';
+import { SITE_URL, SITE_NAME } from '../config/site.js';
 
 const MIN_DAYS = 3;
 const TOP_N = 5;
@@ -28,6 +29,28 @@ export default function WeeklyRisers({ allDemands = [] }) {
   // 蓄積が浅い初期などは無理に見せない
   if (risers.length === 0) return null;
   const windowDays = Math.max(...risers.map((r) => r.days));
+
+  // 共有ループの起点: この急上昇ランキングを 1 タップで SNS に出す。
+  // 共有先はトップ URL（OG が「今週の急上昇ランキング」カードで表示される）。
+  const homeUrl = SITE_URL + '/';
+  const shareText = [
+    '今週いちばん需要が伸びたテーマ📈',
+    ...risers.slice(0, 3).map((r, i) => `${i + 1}. ${r.d.title} +${r.delta}`),
+    '7つの公開データから毎日更新👇',
+  ].join('\n');
+  const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(homeUrl)}`;
+
+  async function handleShare() {
+    if (typeof navigator !== 'undefined' && navigator.share) {
+      try {
+        await navigator.share({ title: `${SITE_NAME} — 今週の急上昇需要`, text: shareText, url: homeUrl });
+        return;
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;
+      }
+    }
+    if (typeof window !== 'undefined') window.open(xUrl, '_blank', 'noopener,noreferrer');
+  }
 
   return (
     <section className="section container">
@@ -61,9 +84,14 @@ export default function WeeklyRisers({ allDemands = [] }) {
         ))}
       </ol>
 
-      <Link to="/explore?sort=scorerise" className="risers-all-link">
-        すべての需要を上昇順で見る →
-      </Link>
+      <div className="risers-actions">
+        <button type="button" className="btn primary risers-share-btn" onClick={handleShare}>
+          この急上昇ランキングをシェア
+        </button>
+        <Link to="/explore?sort=scorerise" className="risers-all-link">
+          すべての需要を上昇順で見る →
+        </Link>
+      </div>
     </section>
   );
 }
