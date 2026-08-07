@@ -1,70 +1,70 @@
 {
-  "updatedAt": "2026-08-06T18:32:31.357Z",
+  "updatedAt": "2026-08-07T04:49:54.083Z",
   "date": "2026-08-07",
   "topId": "ai-business-automation",
   "themes": {
     "ai-business-automation": {
-      "score": 98,
-      "verdict": "拡大局面"
-    },
-    "vulnerability-response": {
-      "score": 92,
+      "score": 99,
       "verdict": "拡大局面"
     },
     "infrastructure-outages": {
-      "score": 88,
-      "verdict": "定着"
+      "score": 89,
+      "verdict": "拡大局面"
     },
-    "security-breach": {
-      "score": 82,
+    "vulnerability-response": {
+      "score": 85,
       "verdict": "様子見"
     },
     "ai-coding": {
       "score": 82,
       "verdict": "様子見"
     },
-    "exam-admission": {
-      "score": 80,
-      "verdict": "拡大局面"
-    },
-    "fitness-training": {
-      "score": 73,
-      "verdict": "観測不足"
-    },
-    "payment-troubles": {
-      "score": 69,
+    "security-breach": {
+      "score": 81,
       "verdict": "鎮静化中"
     },
-    "home-appliance": {
-      "score": 68,
+    "exam-admission": {
+      "score": 80,
+      "verdict": "定着"
+    },
+    "payment-troubles": {
+      "score": 77,
       "verdict": "様子見"
+    },
+    "fitness-training": {
+      "score": 72,
+      "verdict": "様子見"
+    },
+    "home-appliance": {
+      "score": 72,
+      "verdict": "定着"
     },
     "ai-regulation": {
       "score": 67,
       "verdict": "様子見"
     },
     "housing": {
-      "score": 59,
-      "verdict": "鎮静化中"
-    },
-    "ai-content-generation": {
-      "score": 55,
+      "score": 60,
       "verdict": "様子見"
     },
-    "ai-hardware": {
-      "score": 46,
+    "ai-content-generation": {
+      "score": 56,
       "verdict": "様子見"
     },
     "study-methods": {
-      "score": 44,
+      "score": 51,
+      "verdict": "鎮静化中"
+    },
+    "ai-hardware": {
+      "score": 48,
       "verdict": "鎮静化中"
     },
     "senior-health": {
-      "score": 35,
-      "verdict": "鎮静化中"
+      "score": 40,
+      "verdict": "様子見"
     },
     "remote-work": {
-      "score": 31,
+      "score": 30,
       "verdict": "鎮静化中"
     },
     "home-server-selfhost": {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T00:12:52.771Z",
-  "totalArticles": 2938,
+  "generatedAt": "2026-08-07T04:37:46.604Z",
+  "totalArticles": 3362,
   "themeCount": 17,
   "candidateCount": 17,
   "method": "rule-based keyword matching",
@@ -13,10 +13,10 @@
       "relatedKeywords": [
         "活用",
         "生成AI",
-        "Claude",
         " AI",
-        "業務",
-        "導入"
+        "Claude",
+        "導入",
+        "業務"
       ],
       "searchTerms": [
         "生成AI",
@@ -36,11 +36,29 @@
         "ワークフロー"
       ],
       "evidenceArticleIds": [
+        "89de3bc88a1cba0c",
+        "1d91a20af7787b93",
+        "59e5b3059d336c0f",
+        "c988b5cc9309588a",
+        "529f0cee68f3029c",
+        "4dbc6d4192475ac7",
+        "c41f79cd0d88dc8d",
+        "f70433151c2ac9be",
+        "0fe97a5f154cac6f",
+        "409995fd09c59c8a",
+        "7604a2f51f739707",
+        "6657288c95e6bd58",
+        "e2230f93acfe8005",
+        "93d792d84426f82f",
+        "356d1c0f9b76b847",
         "ac9923e21800cc0f",
         "bc2146ae92bf8d4b",
         "96e8e341bb214058",
         "3aae9a3dc9fbfa65",
         "9054e9f097a34f73",
+        "33f5d05904ff57a6",
+        "15d4002290ce6901",
+        "df31cd4165ace011",
         "8f1c2fca5d171a64",
         "956fed0c56865f8c",
         "59237550bb481258",
@@ -77,29 +95,11 @@
         "90814d317e62c090",
         "e2ae54c032180670",
         "a6e227828709fc90",
-        "9b9d5b6c535c4692",
-        "a56e757dc3e8fe81",
-        "3bf2a634ad8bf629",
-        "8dc3aad07f1a5b70",
-        "a9687dfa256202df",
-        "f072ef6a55b6a863",
-        "bbd89b5b63ad4980",
-        "45f7e4e3007c4fdd",
-        "20c9db5734040eeb",
-        "f9edc6e3c4070619",
-        "ebe84f30ab173dc1",
-        "c533b5efbfcc5e2b",
-        "cb4906e868c77182",
-        "122a77ca397bae34",
-        "d5ad0c3eec0b8c11",
-        "45de4d6ad64fbf34",
-        "ac61f942b16e8718",
-        "e74f272d586158b6",
-        "910a20f35421b162"
+        "9b9d5b6c535c4692"
       ],
-      "evidenceArticleCount": 121,
-      "confidence": 0.96,
-      "reason": "15 種類のキーワードが 121 件の記事でヒット（例：活用、生成AI、Claude）"
+      "evidenceArticleCount": 139,
+      "confidence": 0.95,
+      "reason": "15 種類のキーワードが 139 件の記事でヒット（例：活用、生成AI、 AI）"
     },
     {
       "id": "vulnerability-response",
@@ -110,9 +110,9 @@
         "脆弱性",
         "修正",
         "アップデート",
-        "悪用",
         "攻撃",
-        "更新"
+        "悪用",
+        "セキュリティアップデート"
       ],
       "searchTerms": [
         "脆弱性",
@@ -132,6 +132,16 @@
         "影響"
       ],
       "evidenceArticleIds": [
+        "4dffd9183ed058cd",
+        "7e80c716f4697fb9",
+        "2a0368aed2330e8c",
+        "a616a97d81cc6ad7",
+        "3e71eab174e7d07c",
+        "595498726149bc48",
+        "dd166c074c798e4b",
+        "f62f328361e75f33",
+        "b4947a6d97612679",
+        "e40028cee9555b9a",
         "9bebaddac35627d2",
         "516fcae778c39917",
         "ecf259ced0c82b6a",
@@ -139,6 +149,7 @@
         "e266773cd8fd86ad",
         "30ae1674de80df87",
         "1c6538736729177c",
+        "33f5d05904ff57a6",
         "bb7a4303840f1610",
         "6a70e6dcf360178b",
         "5d80eaf7ff0687ae",
@@ -180,22 +191,11 @@
         "7d037c4bd505f7b3",
         "25556101d550f93e",
         "d16f58d8724c6ccc",
-        "59f218ead565d894",
-        "5f8f34f5c7a0e8b5",
-        "82658fcdeef0ba79",
-        "19af4e00a4c1f0c0",
-        "7677b73bb78ddcea",
-        "271bb68bb3d42274",
-        "10e1a6a76e08e3e0",
-        "ce4c95f77aef5f70",
-        "691c637e707da818",
-        "f587e7e37635762f",
-        "92edc32a3145a7e0",
-        "3b8f8b80c0593da3"
+        "59f218ead565d894"
       ],
-      "evidenceArticleCount": 63,
+      "evidenceArticleCount": 74,
       "confidence": 0.97,
-      "reason": "15 種類のキーワードが 63 件の記事でヒット（例：脆弱性、修正、アップデート）"
+      "reason": "15 種類のキーワードが 74 件の記事でヒット（例：脆弱性、修正、アップデート）"
     },
     {
       "id": "security-breach",
@@ -224,6 +224,14 @@
         "被害"
       ],
       "evidenceArticleIds": [
+        "0ef9f349f19a8f7d",
+        "4dffd9183ed058cd",
+        "80d14cbac5de3b86",
+        "017c2c3367a9ee14",
+        "9944b3bf301a06b6",
+        "378ccd943f02fc1b",
+        "e823e9b670be5953",
+        "beb6f5afa558ae77",
         "2f647ce4e56f22c7",
         "e1b7903236796688",
         "be96c6808164d023",
@@ -275,15 +283,11 @@
         "0bcf86b668654cd1",
         "f968a3171e579c47",
         "da6aaa79a942ed39",
-        "0d830324d5f3d134",
-        "f28951ad7868357f",
-        "dd64271ab03bf3a7",
-        "b778b7551fcdb609",
-        "31931e12804789ed"
+        "0d830324d5f3d134"
       ],
-      "evidenceArticleCount": 56,
+      "evidenceArticleCount": 64,
       "confidence": 0.95,
-      "reason": "11 種類のキーワードが 56 件の記事でヒット（例：情報、個人情報、漏えい）"
+      "reason": "11 種類のキーワードが 64 件の記事でヒット（例：情報、個人情報、漏えい）"
     },
     {
       "id": "ai-coding",
@@ -314,9 +318,15 @@
         "CI"
       ],
       "evidenceArticleIds": [
+        "59e5b3059d336c0f",
+        "8664432908651169",
+        "356d1c0f9b76b847",
         "30ae1674de80df87",
+        "15d4002290ce6901",
+        "c5852584ccc6ae04",
         "0e3176f8a437a690",
         "2a9a9302a62ff470",
+        "89ae2a0928a3e915",
         "22fae2773c977370",
         "7115dc9079647e0d",
         "d7f8268b67717747",
@@ -367,73 +377,9 @@
         "359e412ed4404d49",
         "37cf43d81fe7cb8c"
       ],
-      "evidenceArticleCount": 52,
+      "evidenceArticleCount": 58,
       "confidence": 0.92,
-      "reason": "12 種類のキーワードが 52 件の記事でヒット（例：Claude Code、Copilot、codex）"
-    },
-    {
-      "id": "infrastructure-outages",
-      "theme": "システム障害・可用性への関心",
-      "summary": "大規模障害の頻発を背景にした、可用性・監視・復旧設計への需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "障害",
-        "復旧",
-        "影響",
-        "システム",
-        "サービス",
-        "AWS"
-      ],
-      "searchTerms": [
-        "障害",
-        "ダウン",
-        "復旧",
-        "不調",
-        "AWS",
-        "CloudFront",
-        "PayPay",
-        "システム",
-        "サービス",
-        "停止",
-        "アクセス",
-        "影響"
-      ],
-      "evidenceArticleIds": [
-        "5bf562764f5ea211",
-        "af2aca46cce4f759",
-        "46ea513e227807e5",
-        "92711c72fb219d17",
-        "6e29eb70873fe535",
-        "ba6968ff36fc5437",
-        "0640da058bd7690c",
-        "2d15002b66a45426",
-        "036007644dffe045",
-        "2487a3178d2fc6e6",
-        "fd9a2866d1c144b3",
-        "70abad109feea0d4",
-        "728d5f741478a1c6",
-        "3387c43456e88917",
-        "9683eb10a28f55f8",
-        "31714153c1ef69ff",
-        "ab51597997a02e16",
-        "a5eaeb85305d6a3a",
-        "5364b956c670e858",
-        "0bcf86b668654cd1",
-        "f2543dd7d048e207",
-        "f968a3171e579c47",
-        "8b168b65f86faf1b",
-        "dd64271ab03bf3a7",
-        "24fe6ef017365832",
-        "485d56fcf20b8a49",
-        "a235f8243e0c248d",
-        "a6deeefb72857e5e",
-        "c58ae6ceeab58497",
-        "6d3295d8aef77bb3",
-        "f66e64028ec6546f"
-      ],
-      "evidenceArticleCount": 31,
-      "confidence": 0.93,
-      "reason": "12 種類のキーワードが 31 件の記事でヒット（例：障害、復旧、影響）"
+      "reason": "12 種類のキーワードが 58 件の記事でヒット（例：Claude Code、Copilot、codex）"
     },
     {
       "id": "exam-admission",
@@ -484,6 +430,13 @@
         "小学"
       ],
       "evidenceArticleIds": [
+        "62025be9de2075e0",
+        "699f2052bde1a6dc",
+        "cf60b7fe6d84f110",
+        "233ebe2181108dc3",
+        "041875cc49003417",
+        "99f32cfd6da3aaf5",
+        "594e800e28a54d89",
         "e52c3a00648e15ba",
         "d015628918ed4759",
         "6b1213d23d4563d0",
@@ -514,9 +467,137 @@
         "eb87aec2f0c9fce7",
         "99551e9597e11c59"
       ],
-      "evidenceArticleCount": 29,
-      "confidence": 0.84,
-      "reason": "19 種類のキーワードが 29 件の記事でヒット（例：大学、大学受験、中学）"
+      "evidenceArticleCount": 36,
+      "confidence": 0.86,
+      "reason": "21 種類のキーワードが 36 件の記事でヒット（例：大学、大学受験、中学）"
+    },
+    {
+      "id": "infrastructure-outages",
+      "theme": "システム障害・可用性への関心",
+      "summary": "大規模障害の頻発を背景にした、可用性・監視・復旧設計への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "障害",
+        "復旧",
+        "影響",
+        "サービス",
+        "システム",
+        "AWS"
+      ],
+      "searchTerms": [
+        "障害",
+        "ダウン",
+        "復旧",
+        "不調",
+        "AWS",
+        "CloudFront",
+        "PayPay",
+        "システム",
+        "サービス",
+        "停止",
+        "アクセス",
+        "影響"
+      ],
+      "evidenceArticleIds": [
+        "bcb668de7b67add7",
+        "5ad17e09b381420a",
+        "b410d3de11e49fd0",
+        "52af5e419f6f63a8",
+        "5bf562764f5ea211",
+        "af2aca46cce4f759",
+        "46ea513e227807e5",
+        "92711c72fb219d17",
+        "6e29eb70873fe535",
+        "ba6968ff36fc5437",
+        "0640da058bd7690c",
+        "2d15002b66a45426",
+        "036007644dffe045",
+        "2487a3178d2fc6e6",
+        "fd9a2866d1c144b3",
+        "70abad109feea0d4",
+        "728d5f741478a1c6",
+        "3387c43456e88917",
+        "9683eb10a28f55f8",
+        "31714153c1ef69ff",
+        "ab51597997a02e16",
+        "a5eaeb85305d6a3a",
+        "5364b956c670e858",
+        "0bcf86b668654cd1",
+        "f2543dd7d048e207",
+        "f968a3171e579c47",
+        "8b168b65f86faf1b",
+        "dd64271ab03bf3a7",
+        "24fe6ef017365832",
+        "485d56fcf20b8a49",
+        "a235f8243e0c248d",
+        "a6deeefb72857e5e",
+        "c58ae6ceeab58497",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 35,
+      "confidence": 0.93,
+      "reason": "12 種類のキーワードが 35 件の記事でヒット（例：障害、復旧、影響）"
+    },
+    {
+      "id": "payment-troubles",
+      "theme": "決済インフラ・キャッシュレス",
+      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
+      "category": "ビジネス",
+      "relatedKeywords": [
+        "決済",
+        "カード",
+        "PayPay",
+        "キャッシュレス",
+        "クレカ",
+        "クレジットカード"
+      ],
+      "searchTerms": [
+        "決済",
+        "クレカ",
+        "クレジットカード",
+        "PayPay",
+        "Visa",
+        "Suica",
+        "カード",
+        "支払い",
+        "払え",
+        "キャッシュレス",
+        "取引"
+      ],
+      "evidenceArticleIds": [
+        "d30c544d80c36a8e",
+        "3f65a00160fd241f",
+        "9ea28617c4e2776b",
+        "dc72361ab32d15c4",
+        "af2aca46cce4f759",
+        "7c493a725e1356b5",
+        "2f7f942d4c2b4df0",
+        "392d9de0a9385234",
+        "6afac132d339eab9",
+        "56ec8e1817c0a696",
+        "863b692d8b992b95",
+        "4de05a8ee9858ffa",
+        "ab6ad6a81aa4cfb5",
+        "bb962bf80ec9a0ca",
+        "cdcdbfbadb597d0c",
+        "f89102fcb3b7192a",
+        "72c89165ed6cc4fb",
+        "1497ad035faf58f4",
+        "af4fc0e547999438",
+        "d525d678e213e33b",
+        "efa8f82e0a7656dc",
+        "7d23fd4b8e588331",
+        "fad6cd527efa3c50",
+        "e905eff59636ae08",
+        "a6deeefb72857e5e",
+        "e360e5574473698e",
+        "6d3295d8aef77bb3",
+        "f66e64028ec6546f"
+      ],
+      "evidenceArticleCount": 28,
+      "confidence": 0.94,
+      "reason": "11 種類のキーワードが 28 件の記事でヒット（例：決済、カード、PayPay）"
     },
     {
       "id": "fitness-training",
@@ -524,8 +605,8 @@
       "summary": "体を動かして体力・姿勢・見た目を変えたい需要",
       "category": "健康",
       "relatedKeywords": [
-        "筋肉",
         "トレーニング",
+        "筋肉",
         "毎日",
         "筋トレ",
         "運動",
@@ -555,6 +636,7 @@
         "分間"
       ],
       "evidenceArticleIds": [
+        "42f0591cb36c1a70",
         "17c4f6f992c39f98",
         "3331733605a9bbf8",
         "77969b50292860de",
@@ -583,66 +665,9 @@
         "3a9f0177129d4886",
         "cbca98ab5d8a4caf"
       ],
-      "evidenceArticleCount": 27,
+      "evidenceArticleCount": 28,
       "confidence": 0.92,
-      "reason": "18 種類のキーワードが 27 件の記事でヒット（例：筋肉、トレーニング、毎日）"
-    },
-    {
-      "id": "payment-troubles",
-      "theme": "決済インフラ・キャッシュレス",
-      "summary": "決済障害の顕在化を背景に、決済基盤の信頼性への需要",
-      "category": "ビジネス",
-      "relatedKeywords": [
-        "決済",
-        "カード",
-        "PayPay",
-        "クレカ",
-        "キャッシュレス",
-        "クレジットカード"
-      ],
-      "searchTerms": [
-        "決済",
-        "クレカ",
-        "クレジットカード",
-        "PayPay",
-        "Visa",
-        "Suica",
-        "カード",
-        "支払い",
-        "払え",
-        "キャッシュレス",
-        "取引"
-      ],
-      "evidenceArticleIds": [
-        "dc72361ab32d15c4",
-        "af2aca46cce4f759",
-        "7c493a725e1356b5",
-        "2f7f942d4c2b4df0",
-        "392d9de0a9385234",
-        "6afac132d339eab9",
-        "56ec8e1817c0a696",
-        "863b692d8b992b95",
-        "4de05a8ee9858ffa",
-        "ab6ad6a81aa4cfb5",
-        "bb962bf80ec9a0ca",
-        "cdcdbfbadb597d0c",
-        "f89102fcb3b7192a",
-        "72c89165ed6cc4fb",
-        "1497ad035faf58f4",
-        "af4fc0e547999438",
-        "d525d678e213e33b",
-        "efa8f82e0a7656dc",
-        "7d23fd4b8e588331",
-        "fad6cd527efa3c50",
-        "e905eff59636ae08",
-        "a6deeefb72857e5e",
-        "e360e5574473698e",
-        "6d3295d8aef77bb3",
-        "f66e64028ec6546f"
-      ],
-      "evidenceArticleCount": 25,
-      "confidence": 0.94,
-      "reason": "11 種類のキーワードが 25 件の記事でヒット（例：決済、カード、PayPay）"
+      "reason": "18 種類のキーワードが 28 件の記事でヒット（例：トレーニング、筋肉、毎日）"
     },
     {
       "id": "home-appliance",
@@ -650,12 +675,12 @@
       "summary": "家電の買い替え・選び方・電気代など、暮らしの道具の需要",
       "category": "生活",
       "relatedKeywords": [
-        "エアコン",
         "価格",
         "発売",
+        "エアコン",
         "家電",
-        "キッチン",
-        "省エネ"
+        "冷蔵庫",
+        "食洗機"
       ],
       "searchTerms": [
         "冷蔵庫",
@@ -683,6 +708,8 @@
         "電気代"
       ],
       "evidenceArticleIds": [
+        "70047620cecd735b",
+        "bb870a36631babf6",
         "612f357535ed99ff",
         "f3e0ec22f77eecbc",
         "9c10eee8530aad3e",
@@ -706,9 +733,9 @@
         "877f5cc7a5d979ca",
         "451bfbb30bc96343"
       ],
-      "evidenceArticleCount": 22,
-      "confidence": 0.92,
-      "reason": "19 種類のキーワードが 22 件の記事でヒット（例：エアコン、価格、発売）"
+      "evidenceArticleCount": 24,
+      "confidence": 0.91,
+      "reason": "19 種類のキーワードが 24 件の記事でヒット（例：価格、発売、エアコン）"
     },
     {
       "id": "housing",
@@ -721,7 +748,7 @@
         "住まい",
         "暮らし",
         "住宅",
-        "駅"
+        "断熱"
       ],
       "searchTerms": [
         "マンション",
@@ -750,6 +777,7 @@
         "万円"
       ],
       "evidenceArticleIds": [
+        "3a4292f8998cbebb",
         "2665e9e837d97a96",
         "ad283367884aab14",
         "a9786e249439aa74",
@@ -772,9 +800,9 @@
         "baa068bc6cce8d1b",
         "4ee536bc41b15f57"
       ],
-      "evidenceArticleCount": 21,
+      "evidenceArticleCount": 22,
       "confidence": 0.87,
-      "reason": "22 種類のキーワードが 21 件の記事でヒット（例：マンション、賃貸、住まい）"
+      "reason": "22 種類のキーワードが 22 件の記事でヒット（例：マンション、賃貸、住まい）"
     },
     {
       "id": "ai-regulation",
@@ -803,6 +831,7 @@
         "偽広告"
       ],
       "evidenceArticleIds": [
+        "f62f328361e75f33",
         "8ae1ed3c446f222a",
         "ec7f4680de26847a",
         "8d370aa3aab14e92",
@@ -821,9 +850,9 @@
         "653519ff37ac720c",
         "1c3d73cfafe83c4f"
       ],
-      "evidenceArticleCount": 17,
+      "evidenceArticleCount": 18,
       "confidence": 0.84,
-      "reason": "7 種類のキーワードが 17 件の記事でヒット（例：AI、規制、安全性）"
+      "reason": "7 種類のキーワードが 18 件の記事でヒット（例：AI、規制、安全性）"
     },
     {
       "id": "study-methods",
@@ -833,10 +862,10 @@
       "relatedKeywords": [
         "脳",
         "脳科学",
-        "集中",
         "勉強",
-        "集中力",
-        "習慣"
+        "集中",
+        "ノート",
+        "集中力"
       ],
       "searchTerms": [
         "勉強法",
@@ -869,6 +898,8 @@
         "独学"
       ],
       "evidenceArticleIds": [
+        "7dc5e4f4dffc3cee",
+        "939f7ea48755674d",
         "170f1e577ca18f17",
         "1ece6c65d26bfec0",
         "21f10e0affe82b9e",
@@ -884,9 +915,9 @@
         "72ee29e6de7fefcc",
         "ce6f93b52fab24e7"
       ],
-      "evidenceArticleCount": 14,
-      "confidence": 0.86,
-      "reason": "19 種類のキーワードが 14 件の記事でヒット（例：脳、脳科学、集中）"
+      "evidenceArticleCount": 16,
+      "confidence": 0.88,
+      "reason": "21 種類のキーワードが 16 件の記事でヒット（例：脳、脳科学、勉強）"
     },
     {
       "id": "ai-hardware",
@@ -915,6 +946,7 @@
         "キオクシア"
       ],
       "evidenceArticleIds": [
+        "25f9add856b12af2",
         "15412cf6f9d4d6cf",
         "324a049fe48327c5",
         "5456384d7d9407cc",
@@ -926,9 +958,9 @@
         "706ce620672e77a7",
         "5a133a290273e381"
       ],
-      "evidenceArticleCount": 10,
-      "confidence": 0.81,
-      "reason": "7 種類のキーワードが 10 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
+      "evidenceArticleCount": 11,
+      "confidence": 0.83,
+      "reason": "8 種類のキーワードが 11 件の記事でヒット（例：NVIDIA、フィジカルAI、Rubin）"
     },
     {
       "id": "ai-content-generation",
@@ -955,6 +987,7 @@
         "Netflix"
       ],
       "evidenceArticleIds": [
+        "1771de05d186d6b1",
         "bc2146ae92bf8d4b",
         "9bee30e05da9bcbb",
         "4016b49b9d27f350",
@@ -964,9 +997,9 @@
         "2ab5a4afefa24cb6",
         "c93646e47a2b2e30"
       ],
-      "evidenceArticleCount": 8,
-      "confidence": 0.79,
-      "reason": "4 種類のキーワードが 8 件の記事でヒット（例：画像、画像生成、動画生成）"
+      "evidenceArticleCount": 9,
+      "confidence": 0.78,
+      "reason": "4 種類のキーワードが 9 件の記事でヒット（例：画像、画像生成、動画生成）"
     },
     {
       "id": "senior-health",
@@ -992,6 +1025,7 @@
         "寿命"
       ],
       "evidenceArticleIds": [
+        "500743a47c31db3d",
         "0097e3ec2ce38d96",
         "326f904134f1067f",
         "75f5c24b7ac2d25c",
@@ -999,9 +1033,9 @@
         "e2193fce8f746f0f",
         "508f31c0d33ea0ec"
       ],
-      "evidenceArticleCount": 6,
-      "confidence": 0.78,
-      "reason": "8 種類のキーワードが 6 件の記事でヒット（例：高齢者、認知症、シニア）"
+      "evidenceArticleCount": 7,
+      "confidence": 0.85,
+      "reason": "8 種類のキーワードが 7 件の記事でヒット（例：高齢者、認知症、シニア）"
     },
     {
       "id": "remote-work",
@@ -1035,7 +1069,7 @@
         "472460af87eb05ce"
       ],
       "evidenceArticleCount": 5,
-      "confidence": 0.65,
+      "confidence": 0.64,
       "reason": "7 種類のキーワードが 5 件の記事でヒット（例：在宅勤務、勤務、在宅）"
     },
     {
@@ -1071,7 +1105,7 @@
         "8ce1150d1c1be423"
       ],
       "evidenceArticleCount": 4,
-      "confidence": 0.53,
+      "confidence": 0.52,
       "reason": "6 種類のキーワードが 4 件の記事でヒット（例：自宅、サーバ、おうち）"
     }
   ]
