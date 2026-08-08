@@ -98,32 +98,78 @@ export function buildDailyReport(demands = [], date) {
   };
 }
 
+// 投稿文の長さの上限。X の数え方に合わせる。
+//   ・全角（CJK）は 2、それ以外は 1
+//   ・URL は実際の長さに関係なく一律 23
+// 2026-08-09 実測: 生成した投稿文は 308 で、X の上限 280 を 28 超えていた。
+// 「投稿文をコピー」をそのまま貼っても投稿できず、手作業で削る必要があった。
+// 毎日貼るのが前提の導線なので、貼れない文面を作らない。
+const POST_LIMIT = 280;
+const URL_WEIGHT = 23;
+
+/** X と同じ重み付けで数える。URL は 23 に置き換える */
+export function postWeight(text) {
+  if (!text) return 0;
+  const url = text.match(/https?:\/\/\S+/);
+  const body = url ? text.replace(url[0], '') : text;
+  let n = 0;
+  for (const ch of body) {
+    const c = ch.codePointAt(0);
+    const wide =
+      (c >= 0x1100 && c <= 0x11ff) || (c >= 0x2e80 && c <= 0xa4cf) ||
+      (c >= 0xac00 && c <= 0xd7a3) || (c >= 0xf900 && c <= 0xfaff) ||
+      (c >= 0xfe30 && c <= 0xfe4f) || (c >= 0xff00 && c <= 0xff60) ||
+      (c >= 0xffe0 && c <= 0xffe6);
+    n += wide ? 2 : 1;
+  }
+  return n + (url ? URL_WEIGHT : 0);
+}
+
 /**
  * その日のぶんの投稿文（コピーしてそのまま SNS に貼れる本文）。
  *
  * owner の「毎日 1 回投稿する」を 15 分から 1 分にするのが目的なので、
  * **数字と固有名詞だけ**にして煽り文句を入れない。データが面白いから読まれる、
  * という前提を崩すと 2 回目以降が読まれなくなる。
+ *
+ * 上限を超える場合は、テーマ名を削らずに **行ごと落とす**。
+ * 名前を切り詰めると「決済インフラ・キャッ…」のような読めない行になり、
+ * データとしての価値が消えるため。落とす順は 下がった → 伸びた の末尾から
+ * （伸びたテーマは最低 1 行残す）。テーマ名の長さは日によって変わるので、
+ * 固定の件数ではなく実際に数えながら減らす。
  */
 export function dailyPostText(report, siteUrl, source = 'x') {
   if (!report) return '';
-  const lines = [`${formatDateJa(report.date)}の需要変化`, ''];
 
-  if (report.risers.length) {
-    lines.push('▲ 伸びた');
-    for (const r of report.risers.slice(0, 3)) lines.push(`${r.title} ${r.prevScore}→${r.score} (+${r.delta})`);
-  }
-  if (report.fallers.length) {
-    if (report.risers.length) lines.push('');
-    lines.push('▼ 下がった');
-    for (const f of report.fallers.slice(0, 2)) lines.push(`${f.title} ${f.prevScore}→${f.score} (${f.delta})`);
-  }
+  const build = (nRise, nFall) => {
+    const lines = [`${formatDateJa(report.date)}の需要変化`, ''];
+    const rise = report.risers.slice(0, nRise);
+    const fall = report.fallers.slice(0, nFall);
+    if (rise.length) {
+      lines.push('▲ 伸びた');
+      for (const r of rise) lines.push(`${r.title} ${r.prevScore}→${r.score} (+${r.delta})`);
+    }
+    if (fall.length) {
+      if (rise.length) lines.push('');
+      lines.push('▼ 下がった');
+      for (const f of fall) lines.push(`${f.title} ${f.prevScore}→${f.score} (${f.delta})`);
+    }
+    lines.push('', `${report.themeCount}テーマを7つの公開データから毎日観測しています。`);
+    // URL に ?s= を付けて配信元を数える。referrer が付かない経路（LINE・Discord・
+    // メールなどコピペで貼られる先）でも「どこに配ったから来たのか」が分かる。
+    lines.push(dailyUrl(report.date, siteUrl, source));
+    return lines.join('\n');
+  };
 
-  lines.push('', `${report.themeCount}テーマを7つの公開データから毎日観測しています。`);
-  // URL に ?s= を付けて配信元を数える。referrer が付かない経路（LINE・Discord・
-  // メールなどコピペで貼られる先）でも「どこに配ったから来たのか」が分かる。
-  lines.push(dailyUrl(report.date, siteUrl, source));
-  return lines.join('\n');
+  let nRise = Math.min(3, report.risers.length);
+  let nFall = Math.min(2, report.fallers.length);
+  let text = build(nRise, nFall);
+  while (postWeight(text) > POST_LIMIT && (nFall > 0 || nRise > 1)) {
+    if (nFall > 0) nFall -= 1;
+    else nRise -= 1;
+    text = build(nRise, nFall);
+  }
+  return text;
 }
 
 /** 日次レポートの URL。source を付けると流入を配信元別に数えられる */
