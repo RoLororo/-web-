@@ -48,6 +48,15 @@ export const DIMENSIONS = {
     limit: 20,
     sanitize: sanitizeEvent,
   },
+  // 配信元（URL の ?s=）。referrer では区別できない配信先を数えるために足す。
+  // 2026-08-09 実測: referrer で分かるのは t.co / youtube.com などのホスト名だけで、
+  // LINE・Discord・Slack・メールなど **コピペで貼られた経路は referrer が空** になり、
+  // 「どこに配ったから来たのか」が一切分からなかった。許可リスト外は記録しない。
+  source: {
+    label: '配信元',
+    limit: 20,
+    sanitize: sanitizeSource,
+  },
 };
 
 // ── サニタイズ ──────────────────────────────────────────────
@@ -102,6 +111,29 @@ const ALLOWED_EVENTS = new Set([
   'share_daily',      // 日次レポートの共有
   'open_daily',       // Home から日次レポートへの遷移
 ]);
+/**
+ * 配信元は許可リストのみ。URL に任意の文字列を書かれてもキーを作らせない
+ * （?s=<好きな文字列> で KV に無限に値を増やされるのを防ぐ）。
+ * 新しい配信先に貼るときは、ここに 1 行足してから貼る。
+ */
+const ALLOWED_SOURCES = new Set([
+  'x',        // X（ポスト本文に手で貼る）
+  'note',     // note
+  'qiita',    // Qiita
+  'zenn',     // Zenn
+  'hatena',   // はてなブックマーク
+  'reddit',   // Reddit
+  'discord',  // Discord / Slack など referrer が付かないチャット
+  'line',     // LINE
+  'mail',     // メール
+  'daily',    // 日次レポートのコピー導線から貼られたもの
+  'share',    // サイト内の共有ボタン経由
+]);
+export function sanitizeSource(raw) {
+  if (typeof raw !== 'string' || raw.length > 16) return null;
+  return ALLOWED_SOURCES.has(raw) ? raw : null;
+}
+
 export function sanitizeEvent(raw) {
   if (typeof raw !== 'string' || raw.length > 32) return null;
   return ALLOWED_EVENTS.has(raw) ? raw : null;

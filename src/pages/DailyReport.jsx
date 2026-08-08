@@ -27,6 +27,7 @@ import {
   buildDailyReport,
   dailyPostText,
   dailyDescription,
+  dailyUrl,
   formatDateJa,
   isValidDate,
 } from '../services/dailyService.js';
@@ -122,9 +123,13 @@ export default function DailyReport() {
     );
   }
 
-  const pageUrl = `${SITE_URL}/daily/${report.date}`;
-  const postText = dailyPostText(report, SITE_URL);
-  const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(postText.replace(`\n${pageUrl}`, ''))}&url=${encodeURIComponent(pageUrl)}`;
+  // 配信元ごとに URL を分ける。どこに貼ったから来たのかを後から数えられる
+  //（?s= は api/_schema.js の許可リストで検査される。canonical は常にクエリ無し）。
+  const pageUrl = dailyUrl(report.date, SITE_URL, null);
+  const postText = dailyPostText(report, SITE_URL, 'x');
+  const shareUrl = dailyUrl(report.date, SITE_URL, 'share');
+  const xBody = postText.split('\n').slice(0, -1).join('\n').trimEnd();
+  const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(xBody)}&url=${encodeURIComponent(dailyUrl(report.date, SITE_URL, 'x'))}`;
 
   async function handleCopy() {
     trackEvent('copy_daily_post');
@@ -140,7 +145,7 @@ export default function DailyReport() {
     trackEvent('share_daily');
     if (typeof navigator !== 'undefined' && navigator.share) {
       try {
-        await navigator.share({ title, text: postText.split('\n')[0], url: pageUrl });
+        await navigator.share({ title, text: postText.split('\n')[0], url: shareUrl });
         return;
       } catch (e) {
         if (e && e.name === 'AbortError') return;
@@ -224,6 +229,12 @@ export default function DailyReport() {
           <button type="button" className="btn primary" onClick={handleCopy}>投稿文をコピー</button>
           <button type="button" className="btn" onClick={handleShare}>共有する</button>
         </div>
+        <p className="daily-hint">
+          末尾の <code>?s=x</code> は「どこに貼ったから来たのか」を数えるための印です。
+          X 以外に貼るときは <code>note</code> / <code>qiita</code> / <code>zenn</code> /{' '}
+          <code>hatena</code> / <code>discord</code> / <code>line</code> / <code>mail</code> に
+          書き換えると、配信先ごとの流入が分かれて記録されます。
+        </p>
       </section>
     </div>
   );

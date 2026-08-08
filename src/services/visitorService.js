@@ -12,6 +12,7 @@
 //   visitorType  … 'new'（このブラウザで初めて来た）/ 'returning'
 //   page         … そのページをその日まだ見ていなければ 1 回だけ
 //   referrer     … 外部サイトから来た場合の **ホスト名だけ**
+//   source       … URL の ?s=（配信元）。許可リストにある短い語だけ
 //
 // **識別子は作らない・送らない。** サーバーが受け取るのは「訪問が 1 件あった」
 // 「このページが 1 件見られた」という無記名の事実だけ。同一人物の判定は
@@ -51,6 +52,24 @@ function referrerHost() {
     if (typeof document === 'undefined' || !document.referrer) return null;
     const host = new URL(document.referrer).hostname;
     return host && host !== location.hostname ? host : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * URL の ?s= を読む（配信元）。
+ *
+ * referrer では「どこに貼ったから来たのか」が分からない経路が多い。
+ * 2026-08-09 実測: 記録できていた referrer は t.co / youtube.com だけで、
+ * コピペで貼られる LINE・Discord・メールは referrer が空になり
+ * direct と区別できなかった。値はサーバー側の許可リストで検査される。
+ */
+function sourceTag() {
+  try {
+    if (typeof location === 'undefined') return null;
+    const s = new URLSearchParams(location.search).get('s');
+    return s && s.length <= 16 ? s : null;
   } catch {
     return null;
   }
@@ -101,6 +120,8 @@ async function requestVisits({ path } = {}) {
     visitorType: read(KNOWN_KEY) === '1' ? 'returning' : 'new',
     page: firstViewOfPage ? currentPath : null,
     referrer: firstVisitToday ? referrerHost() : null,
+    // 配信元はその日の初回訪問のときだけ。サイト内を回るたびに数えない
+    source: firstVisitToday ? sourceTag() : null,
   } : null;
 
   try {

@@ -94,7 +94,7 @@ export function buildDailyReport(demands = [], date) {
  * **数字と固有名詞だけ**にして煽り文句を入れない。データが面白いから読まれる、
  * という前提を崩すと 2 回目以降が読まれなくなる。
  */
-export function dailyPostText(report, siteUrl) {
+export function dailyPostText(report, siteUrl, source = 'x') {
   if (!report) return '';
   const lines = [`${formatDateJa(report.date)}の需要変化`, ''];
 
@@ -109,8 +109,16 @@ export function dailyPostText(report, siteUrl) {
   }
 
   lines.push('', `${report.themeCount}テーマを7つの公開データから毎日観測しています。`);
-  lines.push(`${siteUrl}/daily/${report.date}`);
+  // URL に ?s= を付けて配信元を数える。referrer が付かない経路（LINE・Discord・
+  // メールなどコピペで貼られる先）でも「どこに配ったから来たのか」が分かる。
+  lines.push(dailyUrl(report.date, siteUrl, source));
   return lines.join('\n');
+}
+
+/** 日次レポートの URL。source を付けると流入を配信元別に数えられる */
+export function dailyUrl(date, siteUrl, source) {
+  const base = `${siteUrl}/daily/${date}`;
+  return source ? `${base}?s=${encodeURIComponent(source)}` : base;
 }
 
 /** 検索結果に出す説明文。実際に動いたテーマ名を入れて日ごとに別の文にする */
