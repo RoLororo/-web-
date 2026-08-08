@@ -23,6 +23,7 @@ import { useSeo, breadcrumbJsonLd } from '../utils/useSeo.js';
 import { SITE_URL, SITE_NAME, NEWS_FEED_COUNT, NEWS_DIVERSITY_SATURATION } from '../config/site.js';
 import { toast } from '../utils/toast.js';
 import { trackEvent } from '../services/visitorService.js';
+import { formatDateJa } from '../services/dailyService.js';
 
 export default function DemandDetail() {
   const { id } = useParams();
@@ -57,6 +58,24 @@ export default function DemandDetail() {
       .filter((x) => x && x.delta > 0)
       .sort((a, b) => b.delta - a.delta)
       .slice(0, 3);
+  }, [demand]);
+
+  // このテーマが大きく動いた日 → その日の日次レポートへ。
+  //
+  // 2026-08-09 実測: 日次ページ（/daily/*）は自分たち同士でしかリンクされておらず
+  // （in-degree 2〜3、テーマ詳細は 30）、サイト内で孤立した島になっていた。
+  // 詳細ページは検索の着地点かつ内部リンクが最も多いページなので、ここから
+  // 張ることで「日次ページが読まれる経路」と「リンクの流れ」を同時に作る。
+  // ユーザー側の意味は「このテーマが動いた日に、他に何が起きていたか」。
+  const movedDays = useMemo(() => {
+    const h = demand?._scoreHistory;
+    if (!h?.dates || !h?.scores) return [];
+    const out = [];
+    for (let i = 1; i < h.dates.length; i++) {
+      const delta = h.scores[i] - h.scores[i - 1];
+      if (Math.abs(delta) >= 3) out.push({ date: h.dates[i], delta });
+    }
+    return out.sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta)).slice(0, 3);
   }, [demand]);
 
   // 需要スコアの直近の伸び（_scoreHistory から）。検索結果・SNS カードの
@@ -325,6 +344,34 @@ export default function DemandDetail() {
                 </div>
                 <Link to="/explore?sort=scorerise" className="cross-risers-all" onClick={() => trackEvent('explore_ranking')}>
                   今週の急上昇ランキングを全部見る →
+                </Link>
+              </div>
+            )}
+
+            {/* このテーマが動いた日 → その日の全体像（日次レポート）へ */}
+            {movedDays.length > 0 && (
+              <div className="block">
+                <h2 className="block-title">このテーマが動いた日</h2>
+                <p className="block-lead">
+                  スコアが 3 以上動いた日です。その日に他のテーマがどう動いたかも合わせて見られます。
+                </p>
+                <div className="cross-risers">
+                  {movedDays.map((m) => (
+                    <Link
+                      key={m.date}
+                      to={`/daily/${m.date}`}
+                      className="cross-riser"
+                      onClick={() => trackEvent('open_daily')}
+                    >
+                      <span className="cross-riser-title">{formatDateJa(m.date)}</span>
+                      <span className={`cross-riser-delta ${m.delta > 0 ? 'up' : 'down'}`}>
+                        {m.delta > 0 ? `+${m.delta}` : m.delta}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+                <Link to="/daily" className="cross-risers-all" onClick={() => trackEvent('open_daily')}>
+                  日次レポートを全部見る →
                 </Link>
               </div>
             )}

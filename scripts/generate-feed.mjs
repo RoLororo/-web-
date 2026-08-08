@@ -127,6 +127,34 @@ function buildItems(demands, prev, date) {
     }
   }
 
+  // その日の日次レポート 1 件。
+  //
+  // 2026-08-09 実測: フィードのアイテムはすべてテーマ個別ページ宛てで、
+  // 「その日ぜんぶ」をまとめて読む導線がフィード側に無かった。
+  // 1 日 1 件だけ全体像へのアイテムを出すと、購読者は毎日 1 回だけ確実に
+  // 「今日の全体像」を受け取れる（テーマ個別は動いた日にしか出ない）。
+  // 変化アイテムが 1 件も無い日は出さない（無い変化を鳴らさない）。
+  //
+  // リンク先の日付は **todayJST ではなく _scoreHistory の最終日** を使う。
+  // パイプラインは JST 早朝（cron 21:00Z 前後）に回るため todayJST が
+  // 履歴の最終日より 1 日進むことがあり、そのまま貼ると存在しない
+  // /daily/<明日> を指して 404 になる。実在する日だけリンクする。
+  const latestDaily = [...new Set(demands.flatMap((d) => d._scoreHistory?.dates || []))]
+    .filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().pop();
+
+  if (items.length > 0 && latestDaily) {
+    const ups = items.filter((i) => i.kind === 'score' && /（\+\d/.test(i.title)).length;
+    items.push({
+      guid: `daily-${latestDaily}`,
+      date, at, kind: 'daily',
+      title: `${latestDaily} の需要変化（${demands.length} テーマ）`,
+      link: `${SITE_URL}/daily/${latestDaily}`,
+      body: `${latestDaily} 時点の ${demands.length} テーマの需要スコアと前日比をまとめています。`
+          + (ups ? `この日は ${ups} テーマのスコアが大きく上昇しました。` : '')
+          + ' 全テーマの一覧と、その日の上昇・下降はレポートのページで確認できます。',
+    });
+  }
+
   // 首位の入れ替わり
   const topNow = demands[0];
   if (topNow && prev.topId && prev.topId !== topNow.id) {

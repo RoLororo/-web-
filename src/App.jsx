@@ -116,6 +116,7 @@ export default function App() {
         <div className="container footer-inner">
           <nav className="footer-nav" aria-label="補助ナビゲーション">
             <Link to="/explore">需要を探す</Link>
+            <Link to="/daily">日次レポート</Link>
             <Link to="/categories">分野</Link>
             <Link to="/changes">変化</Link>
             <Link to="/timeline">履歴</Link>

@@ -79,10 +79,33 @@ export default function DailyReport() {
     // 観測が無い日付は索引に入れない（存在しない日の空ページを量産しないため）
     noindex: !report,
     jsonLd: report
-      ? breadcrumbJsonLd([
-          { name: '日次レポート', path: '/daily' },
-          { name: formatDateJa(report.date), path: `/daily/${report.date}` },
-        ])
+      ? [
+          breadcrumbJsonLd([
+            { name: '日次レポート', path: '/daily' },
+            { name: formatDateJa(report.date), path: `/daily/${report.date}` },
+          ]),
+          {
+            // その日の観測を Dataset として申告する。テーマ詳細と同じ扱い。
+            // 日付・観測数・出典を機械可読にしておくと、検索エンジンや
+            // データを引用する側が「いつの、何件の観測か」を判断できる。
+            '@context': 'https://schema.org',
+            '@type': 'Dataset',
+            name: `${formatDateJa(report.date)}の需要観測データ（${report.themeCount} テーマ）`,
+            description: dailyDescription(report),
+            url: `${SITE_URL}/daily/${report.date}`,
+            inLanguage: 'ja',
+            license: `${SITE_URL}/terms`,
+            isAccessibleForFree: true,
+            creator: { '@type': 'Person', name: 'RoLororo' },
+            temporalCoverage: report.date,
+            dateModified: report.date,
+            variableMeasured: [
+              { '@type': 'PropertyValue', name: '観測テーマ数', value: report.themeCount },
+              { '@type': 'PropertyValue', name: '上昇テーマ数', value: report.risers.length },
+              { '@type': 'PropertyValue', name: '下降テーマ数', value: report.fallers.length },
+            ],
+          },
+        ]
       : null,
   });
 
