@@ -17,6 +17,8 @@ import Rankings from './pages/Rankings.jsx';
 import WhatsNew from './pages/WhatsNew.jsx';
 import Compare from './pages/Compare.jsx';
 import Ideas from './pages/Ideas.jsx';
+import DailyIndex from './pages/DailyIndex.jsx';
+import DailyReport from './pages/DailyReport.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 // 説明・法的ページは長い散文で、開かれる回数もごく少ない。
@@ -87,6 +89,8 @@ export default function App() {
             <Route path="/whats-new" element={<WhatsNew />} />
             <Route path="/compare" element={<Compare />} />
             <Route path="/ideas" element={<Ideas />} />
+            <Route path="/daily" element={<DailyIndex />} />
+            <Route path="/daily/:date" element={<DailyReport />} />
             {/* サイトの説明・法的情報。検索と広告審査の両方から参照される */}
             <Route path="/about" element={<About />} />
             <Route path="/methodology" element={<Methodology />} />

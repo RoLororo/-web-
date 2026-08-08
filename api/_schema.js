@@ -66,6 +66,10 @@ const ROUTE_PATTERNS = [
   [/^\/categories\/?$/,             () => '/categories'],
   [/^\/categories\/[^/]+\/?$/,      () => '/categories/:name'],
   [/^\/demand\/([a-z0-9-]{1,40})\/?$/, (m) => `/demand/${m[1]}`],
+  [/^\/daily\/?$/,                  () => '/daily'],
+  // 日付は :date に畳む。畳まないと 1 日 1 個ずつ次元値が増え続け、
+  // v1:dim:page の SET が無限に伸びる（/categories/:name と同じ扱いにする）。
+  [/^\/daily\/\d{4}-\d{2}-\d{2}\/?$/, () => '/daily/:date'],
 ];
 
 export function sanitizePath(raw) {
@@ -94,6 +98,9 @@ const ALLOWED_EVENTS = new Set([
   'share_theme',      // テーマ詳細の共有
   'share_x',          // X（intent）での共有
   'explore_ranking',  // 「急上昇ランキングを全部見る」導線
+  'copy_daily_post',  // 日次レポートの投稿文コピー（owner の配布行動の実測）
+  'share_daily',      // 日次レポートの共有
+  'open_daily',       // Home から日次レポートへの遷移
 ]);
 export function sanitizeEvent(raw) {
   if (typeof raw !== 'string' || raw.length > 32) return null;

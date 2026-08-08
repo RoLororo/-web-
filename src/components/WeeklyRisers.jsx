@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import Sparkline from './Sparkline.jsx';
 import { SITE_URL, SITE_NAME } from '../config/site.js';
 import { trackEvent } from '../services/visitorService.js';
+import { availableDates } from '../services/dailyService.js';
 
 const MIN_DAYS = 3;
 const TOP_N = 5;
@@ -30,6 +31,9 @@ export default function WeeklyRisers({ allDemands = [] }) {
   // 蓄積が浅い初期などは無理に見せない
   if (risers.length === 0) return null;
   const windowDays = Math.max(...risers.map((r) => r.days));
+
+  // 日次レポートへの入口。最新の観測日だけを出す（ページが実在する日に限る）
+  const latestDate = availableDates(allDemands)[0] || null;
 
   // 共有ループの起点: この急上昇ランキングを 1 タップで SNS に出す。
   // 共有先はトップ URL（OG が「今週の急上昇ランキング」カードで表示される）。
@@ -93,6 +97,11 @@ export default function WeeklyRisers({ allDemands = [] }) {
         <Link to="/explore?sort=scorerise" className="risers-all-link" onClick={() => trackEvent('explore_ranking')}>
           すべての需要を上昇順で見る →
         </Link>
+        {latestDate && (
+          <Link to={`/daily/${latestDate}`} className="risers-all-link" onClick={() => trackEvent('open_daily')}>
+            {latestDate} の日次レポート →
+          </Link>
+        )}
       </div>
     </section>
   );

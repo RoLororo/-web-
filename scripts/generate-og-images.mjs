@@ -79,6 +79,37 @@ function homeCard({ risers }) {
   );
 }
 
+// 日次レポート用: 「この日 動いたテーマ」カード。
+// 日付が入ることで、同じリンクを毎日貼っても中身が毎回変わる
+// （2026-08-09 実測: 共有は発火しているが貼るものが毎回同じだった）。
+function dailyCard({ dateLabel, rows }) {
+  const lines = rows.map((r, i) =>
+    div({ display: 'flex', alignItems: 'baseline', marginBottom: i === rows.length - 1 ? 0 : 16 }, [
+      txt({ fontSize: 42, fontWeight: 700, flexGrow: 1 }, r.title),
+      txt({ fontSize: 42, fontWeight: 700, color: r.delta > 0 ? GREEN : MUTED, marginLeft: 24 },
+        `${r.delta > 0 ? '+' : ''}${r.delta}`),
+    ]),
+  );
+  return div(
+    { width: '1200px', height: '630px', display: 'flex', flexDirection: 'column',
+      justifyContent: 'space-between', padding: '60px 72px', backgroundColor: BG, color: FG },
+    [
+      div({ display: 'flex', flexDirection: 'column' }, [
+        txt({ fontSize: 32, color: GREEN, letterSpacing: '0.04em' }, 'Demand Atlas ・ 日次レポート'),
+        txt({ fontSize: 56, fontWeight: 700, marginTop: 12 }, `${dateLabel}の需要変化`),
+      ]),
+      div({ display: 'flex', flexDirection: 'column' }, lines),
+      txt({ fontSize: 28, color: DIM }, 'demand-atlas.vercel.app ・ 7つの公開データで需要を毎日観測'),
+    ],
+  );
+}
+
+/** 2026-08-07 → 2026年8月7日（UTC で解釈し、実行環境の時差で日付をずらさない） */
+function dateLabelJa(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return `${y}年${m}月${d}日`;
+}
+
 async function main() {
   const font = await readFile(FONT);
   const payload = JSON.parse(await readFile(resolve(DIST, 'data/demands.json'), 'utf8'));
@@ -127,8 +158,36 @@ async function main() {
     failed.push(`home: ${e.message}`);
   }
 
+  // 日次レポート用: 観測できた日ごとに 1 枚。過去日も毎回作り直すが
+  // 元データ（_scoreHistory）が固定なので出力は同じになる。
+  let dailyOk = 0;
+  try {
+    const dates = [...new Set(demands.flatMap((d) => d._scoreHistory?.dates || []))]
+      .filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().reverse();
+    await mkdir(resolve(DIST, 'og', 'daily'), { recursive: true });
+
+    for (const dt of dates) {
+      const moves = [];
+      for (const d of demands) {
+        const h = d._scoreHistory;
+        const i = h?.dates?.indexOf(dt) ?? -1;
+        if (i <= 0) continue; // 初日は前日が無いので変化を出せない
+        const delta = h.scores[i] - h.scores[i - 1];
+        if (delta !== 0) moves.push({ title: d.title, delta });
+      }
+      // 変化が 1 件も無い日は専用カードを作らない（既定の OG にフォールバック）
+      if (moves.length === 0) continue;
+      moves.sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta));
+      const png = await renderPng(dailyCard({ dateLabel: dateLabelJa(dt), rows: moves.slice(0, 5) }));
+      await writeFile(resolve(DIST, 'og', 'daily', `${dt}.png`), png);
+      dailyOk++;
+    }
+  } catch (e) {
+    failed.push(`daily: ${e.message}`);
+  }
+
   console.log('🦊 Demand Atlas — OG 画像生成');
-  console.log(`   ${ok}/${demands.length} テーマ + home ${homeOk ? '✓' : '×'} の OG 画像を dist/og/ に生成`);
+  console.log(`   ${ok}/${demands.length} テーマ + home ${homeOk ? '✓' : '×'} + 日次 ${dailyOk} 枚 の OG 画像を dist/og/ に生成`);
   if (failed.length) {
     console.error(`   ✗ ${failed.length} 件失敗:`);
     for (const f of failed) console.error('     ' + f);

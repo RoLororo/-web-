@@ -31,6 +31,7 @@ const STATIC_PAGES = [
   { path: '/',            priority: '1.0', changefreq: 'daily' },
   { path: '/rankings',    priority: '0.9', changefreq: 'daily' },
   { path: '/ideas',       priority: '0.8', changefreq: 'daily' },
+  { path: '/daily',       priority: '0.8', changefreq: 'daily' },
   { path: '/categories',  priority: '0.7', changefreq: 'weekly' },
   { path: '/explore',     priority: '0.7', changefreq: 'daily' },
   { path: '/compare',     priority: '0.6', changefreq: 'weekly' },
@@ -94,6 +95,22 @@ async function main() {
       lastmod,
       changefreq: 'daily',
       priority: '0.9',
+    }));
+  }
+
+  // 日次レポート。観測した日ぶんだけ増える恒久 URL。
+  // 過去の日は中身が変わらないので changefreq は never、lastmod はその日付自身。
+  // （最新日だけは当日中に再ビルドされうるが、日付をまたげば固定される）
+  const dailyDates = [...new Set(
+    demands.flatMap((d) => d._scoreHistory?.dates || []),
+  )].filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().reverse();
+
+  for (const dt of dailyDates) {
+    entries.push(urlEntry({
+      path: `/daily/${dt}`,
+      lastmod: dt,
+      changefreq: 'never',
+      priority: '0.6',
     }));
   }
 

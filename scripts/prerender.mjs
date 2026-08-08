@@ -157,11 +157,18 @@ async function main() {
   const demands = JSON.parse(demandsRaw).demands || [];
   const categories = [...new Set(demands.map((d) => d.category).filter(Boolean))];
 
+  // 日次レポート。観測できた日ぶんだけ静的ファイルになる（1 日 1 本ずつ増える）
+  const dailyDates = [...new Set(
+    demands.flatMap((d) => d._scoreHistory?.dates || []),
+  )].filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().reverse();
+
   const routes = [
     ...STATIC_ROUTES,
     ...SOURCE_SLUGS.map((s) => `/sources/${s}`),
     ...demands.map((d) => `/demand/${d.id}`),
     ...categories.map((c) => `/categories/${encodeURIComponent(c)}`),
+    '/daily',
+    ...dailyDates.map((d) => `/daily/${d}`),
   ];
 
   // ── 3. 各ルートを描画して書き出す ─────────────────────────────
@@ -196,6 +203,10 @@ async function main() {
       out.seo.ogImage = `https://demand-atlas.vercel.app/og/${demandMatch[1]}.png`;
     } else if (route === '/' && existsSync(resolve(DIST, 'og', 'home.png'))) {
       out.seo.ogImage = 'https://demand-atlas.vercel.app/og/home.png';
+    }
+    const dailyMatch = route.match(/^\/daily\/(\d{4}-\d{2}-\d{2})$/);
+    if (dailyMatch && existsSync(resolve(DIST, 'og', 'daily', `${dailyMatch[1]}.png`))) {
+      out.seo.ogImage = `https://demand-atlas.vercel.app/og/daily/${dailyMatch[1]}.png`;
     }
 
     const page = patchHead(template, out.seo).replace(

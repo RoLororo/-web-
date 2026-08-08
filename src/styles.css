@@ -5240,3 +5240,98 @@ h1.section-title::before {
   max-width: 46em;
 }
 .follow-btn { flex: 0 0 auto; min-height: 44px; }
+
+/* ── 日次レポート (/daily, /daily/:date) ─────────────────────────
+   毎日 1 本ずつ増える恒久ページ。既存の riser 行と同じ見た目の言語を使い、
+   新しい視覚要素は増やさない。 */
+.daily-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-top: var(--s-4);
+  font-size: 13px;
+}
+.daily-nav a { color: var(--text-2); text-decoration: none; }
+.daily-nav a:hover { color: var(--text); text-decoration: underline; }
+.daily-nav .daily-nav-index { color: var(--green-bright); font-weight: 600; }
+
+.daily-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--s-2); }
+.daily-row-link {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  padding: 10px var(--s-3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.daily-row-link:hover { border-color: var(--border-strong); background: var(--bg-1); }
+.daily-row-body { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.daily-row-title { font-size: 14px; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.daily-row-cat { font-size: 11px; color: var(--text-3); }
+.daily-row-flow { flex: none; font-family: var(--font-num); font-size: 12px; color: var(--text-3); white-space: nowrap; }
+.daily-row-flow strong { color: var(--text); font-size: 14px; }
+.daily-row-arrow { margin: 0 2px; }
+.daily-row-delta { flex: none; font-family: var(--font-num); font-weight: 700; font-size: 15px; min-width: 44px; text-align: right; }
+.daily-row-delta.up   { color: var(--green-bright); }
+.daily-row-delta.down { color: var(--red); }
+
+/* 全テーマ表。狭い画面では表だけを横スクロールさせ、本文は折り返さない */
+.daily-table-wrap { overflow-x: auto; }
+.daily-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.daily-table th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-3);
+  padding: 6px var(--s-3) 6px 0;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.daily-table td { padding: 8px var(--s-3) 8px 0; border-bottom: 1px solid var(--border); }
+.daily-table td a { color: var(--text); text-decoration: none; font-weight: 600; }
+.daily-table td a:hover { text-decoration: underline; }
+.daily-td-cat { color: var(--text-3); font-size: 12px; white-space: nowrap; }
+.daily-td-score { font-family: var(--font-num); font-weight: 700; text-align: right; white-space: nowrap; }
+.daily-td-delta { font-family: var(--font-num); text-align: right; color: var(--text-3); white-space: nowrap; }
+.daily-td-delta.up   { color: var(--green-bright); }
+.daily-td-delta.down { color: var(--red); }
+
+/* コピー用の投稿文。等幅で改行をそのまま見せる（貼った時と同じ形にする） */
+.daily-post {
+  margin: 0;
+  padding: var(--s-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  font-family: var(--font-num);
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--text-2);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.daily-actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-4); }
+.daily-actions .btn { min-height: 44px; }
+
+.daily-index-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--s-2); }
+.daily-index-link {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 2px var(--s-3);
+  padding: 12px var(--s-3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.daily-index-link:hover { border-color: var(--border-strong); background: var(--bg-1); }
+.daily-index-date { flex: none; font-size: 14px; font-weight: 700; color: var(--text); }
+.daily-index-summary { font-size: 12px; color: var(--text-3); min-width: 0; }
