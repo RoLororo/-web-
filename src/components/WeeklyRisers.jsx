@@ -9,6 +9,7 @@
 import { Link } from 'react-router-dom';
 import Sparkline from './Sparkline.jsx';
 import { SITE_URL, SITE_NAME } from '../config/site.js';
+import { trackEvent } from '../services/visitorService.js';
 
 const MIN_DAYS = 3;
 const TOP_N = 5;
@@ -41,6 +42,7 @@ export default function WeeklyRisers({ allDemands = [] }) {
   const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(homeUrl)}`;
 
   async function handleShare() {
+    trackEvent('share_home');
     if (typeof navigator !== 'undefined' && navigator.share) {
       try {
         await navigator.share({ title: `${SITE_NAME} — 今週の急上昇需要`, text: shareText, url: homeUrl });
@@ -88,7 +90,7 @@ export default function WeeklyRisers({ allDemands = [] }) {
         <button type="button" className="btn primary risers-share-btn" onClick={handleShare}>
           この急上昇ランキングをシェア
         </button>
-        <Link to="/explore?sort=scorerise" className="risers-all-link">
+        <Link to="/explore?sort=scorerise" className="risers-all-link" onClick={() => trackEvent('explore_ranking')}>
           すべての需要を上昇順で見る →
         </Link>
       </div>

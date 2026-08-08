@@ -22,6 +22,7 @@ import AdSlot from '../components/AdSlot.jsx';
 import { useSeo, breadcrumbJsonLd } from '../utils/useSeo.js';
 import { SITE_URL, SITE_NAME, NEWS_FEED_COUNT, NEWS_DIVERSITY_SATURATION } from '../config/site.js';
 import { toast } from '../utils/toast.js';
+import { trackEvent } from '../services/visitorService.js';
 
 export default function DemandDetail() {
   const { id } = useParams();
@@ -133,6 +134,7 @@ export default function DemandDetail() {
   }
 
   async function handleShare() {
+    trackEvent('share_theme');
     const url = window.location.href;
     // 1) Web Share API があればそれを使う（モバイルで OS のシートが出る）
     if (navigator.share) {
@@ -204,6 +206,7 @@ export default function DemandDetail() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X（旧Twitter）で共有"
+                onClick={() => trackEvent('share_x')}
               >
                 X で共有
               </a>
@@ -320,7 +323,7 @@ export default function DemandDetail() {
                     </Link>
                   ))}
                 </div>
-                <Link to="/explore?sort=scorerise" className="cross-risers-all">
+                <Link to="/explore?sort=scorerise" className="cross-risers-all" onClick={() => trackEvent('explore_ranking')}>
                   今週の急上昇ランキングを全部見る →
                 </Link>
               </div>

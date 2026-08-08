@@ -41,6 +41,13 @@ export const DIMENSIONS = {
     limit: 40,
     sanitize: sanitizeReferrer,
   },
+  // 成長イベント（共有・回遊 CTA のクリック）。許可リスト外は記録しない。
+  // 共有ループが実際に使われているかを実測するために足す。
+  event: {
+    label: '操作',
+    limit: 20,
+    sanitize: sanitizeEvent,
+  },
 };
 
 // ── サニタイズ ──────────────────────────────────────────────
@@ -79,6 +86,18 @@ export function sanitizeReferrer(raw) {
   if (!/^[a-z0-9.-]{3,64}$/.test(host)) return null;
   if (!host.includes('.')) return null;
   return host;
+}
+
+/** 成長イベントは許可リストのみ。未知の値でキーを作らせない */
+const ALLOWED_EVENTS = new Set([
+  'share_home',       // Home の急上昇ランキング共有
+  'share_theme',      // テーマ詳細の共有
+  'share_x',          // X（intent）での共有
+  'explore_ranking',  // 「急上昇ランキングを全部見る」導線
+]);
+export function sanitizeEvent(raw) {
+  if (typeof raw !== 'string' || raw.length > 32) return null;
+  return ALLOWED_EVENTS.has(raw) ? raw : null;
 }
 
 // ── キー生成 ────────────────────────────────────────────────

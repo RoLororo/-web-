@@ -159,3 +159,29 @@ function rollback(dayKey, didVisit, didPage, previousPages) {
   if (didVisit) drop(VISIT_KEY + dayKey);
   if (didPage) write(PAGES_KEY + dayKey, JSON.stringify(previousPages));
 }
+
+/**
+ * 成長イベント（共有・回遊 CTA のクリック）を 1 件記録する。
+ * サーバ側は許可リスト（api/_schema.js の ALLOWED_EVENTS）にある値だけ数える。
+ * 個人情報は送らない。fire-and-forget で、失敗しても UI には影響しない。
+ * 共有ループが実際に使われているかを実測するために使う。
+ */
+export function trackEvent(name) {
+  if (typeof name !== 'string' || !name) return;
+  try {
+    const body = JSON.stringify({ event: name });
+    // 遷移で消えないよう sendBeacon を優先（クリック直後に別ページへ飛ぶため）
+    if (typeof navigator !== 'undefined' && typeof navigator.sendBeacon === 'function') {
+      navigator.sendBeacon(ENDPOINT, new Blob([body], { type: 'application/json' }));
+      return;
+    }
+    fetch(ENDPOINT, {
+      method: 'POST',
+      keepalive: true,
+      headers: { 'Content-Type': 'application/json' },
+      body,
+    }).catch(() => {});
+  } catch {
+    /* 計測失敗は無視 */
+  }
+}
