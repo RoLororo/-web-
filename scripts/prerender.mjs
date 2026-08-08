@@ -111,9 +111,19 @@ function patchHead(template, seo) {
   setMeta('name', 'twitter:title', title);
   setMeta('name', 'twitter:description', desc);
   // テーマ別 OG 画像がある場合は共通画像を上書きする（SNS 共有カードの CTR 向上）。
+  //
+  // 画像だけ差し替えて **付随する meta を放置しない**。テンプレートの既定値は
+  // 共通の og-image.jpg 向けに書かれているので、そのままだと生成した PNG に対して
+  // og:image:type="image/jpeg" と名乗ることになる（2026-08-09 実測: 生成 OG を
+  // 持つ 24 ページすべてが型を偽っていた）。alt も共通文のままで、カードの内容と
+  // 一致しない。型の不一致はカードを取得する側の判断を誤らせうるし、alt は
+  // 読み上げ環境でそのページの内容として読まれる。
   if (seo.ogImage) {
     setMeta('property', 'og:image', seo.ogImage);
     setMeta('name', 'twitter:image', seo.ogImage);
+    setMeta('property', 'og:image:type', seo.ogImage.endsWith('.png') ? 'image/png' : 'image/jpeg');
+    setMeta('property', 'og:image:alt', title);
+    setMeta('name', 'twitter:image:alt', title);
   }
 
   const extra = [];
