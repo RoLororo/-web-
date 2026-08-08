@@ -167,9 +167,11 @@ async function main() {
   const demands = JSON.parse(demandsRaw).demands || [];
   const categories = [...new Set(demands.map((d) => d.category).filter(Boolean))];
 
-  // 日次レポート。観測できた日ぶんだけ静的ファイルになる（1 日 1 本ずつ増える）
+  // 日次レポート。観測できた日ぶんだけ静的ファイルになる（1 日 1 本ずつ増える）。
+  // _scoreHistory は直近 14 日に切られているので **_scoreSeries（全期間）** を使う。
+  // 14 日で頭打ちにすると、公開済みの古い日付が生成対象から外れて 404 に落ちる。
   const dailyDates = [...new Set(
-    demands.flatMap((d) => d._scoreHistory?.dates || []),
+    demands.flatMap((d) => d._scoreSeries?.dates || d._scoreHistory?.dates || []),
   )].filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().reverse();
 
   const routes = [

@@ -101,8 +101,10 @@ async function main() {
   // 日次レポート。観測した日ぶんだけ増える恒久 URL。
   // 過去の日は中身が変わらないので changefreq は never、lastmod はその日付自身。
   // （最新日だけは当日中に再ビルドされうるが、日付をまたげば固定される）
+  // _scoreHistory は直近 14 日に切られている。全期間の _scoreSeries を使わないと
+  // 公開済みの古い日付が sitemap から消える（prerender 側と揃える）。
   const dailyDates = [...new Set(
-    demands.flatMap((d) => d._scoreHistory?.dates || []),
+    demands.flatMap((d) => d._scoreSeries?.dates || d._scoreHistory?.dates || []),
   )].filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().reverse();
 
   for (const dt of dailyDates) {

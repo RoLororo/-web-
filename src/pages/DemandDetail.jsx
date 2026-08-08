@@ -68,7 +68,9 @@ export default function DemandDetail() {
   // 張ることで「日次ページが読まれる経路」と「リンクの流れ」を同時に作る。
   // ユーザー側の意味は「このテーマが動いた日に、他に何が起きていたか」。
   const movedDays = useMemo(() => {
-    const h = demand?._scoreHistory;
+    // 全期間の系列を使う。_scoreHistory は直近 14 日で切れており、
+    // それだと 15 日目以降「動いた日」が実在する日次ページを取りこぼす。
+    const h = demand?._scoreSeries?.dates?.length ? demand._scoreSeries : demand?._scoreHistory;
     if (!h?.dates || !h?.scores) return [];
     const out = [];
     for (let i = 1; i < h.dates.length; i++) {

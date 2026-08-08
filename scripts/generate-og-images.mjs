@@ -162,7 +162,9 @@ async function main() {
   // 元データ（_scoreHistory）が固定なので出力は同じになる。
   let dailyOk = 0;
   try {
-    const dates = [...new Set(demands.flatMap((d) => d._scoreHistory?.dates || []))]
+    // 全期間（_scoreSeries）。_scoreHistory は 14 日で切れるので、
+    // そちらを使うと古い日付のカードが作られなくなる（prerender 側と揃える）。
+    const dates = [...new Set(demands.flatMap((d) => d._scoreSeries?.dates || d._scoreHistory?.dates || []))]
       .filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s)).sort().reverse();
     await mkdir(resolve(DIST, 'og', 'daily'), { recursive: true });
 

@@ -13,11 +13,22 @@
 //     fetch も pipeline も増やさない。スコア式も触らない。
 // ============================================================================
 
-/** _scoreHistory を持つ全テーマの日付の和集合。新しい順 */
+/**
+ * 日次レポートが存在する日付の一覧（全テーマの和集合）。新しい順。
+ *
+ * **_scoreHistory ではなく _scoreSeries を使う。** _scoreHistory は直近 14 日に
+ * 切られているので、そちらを使うと観測 15 日目から古い日付が落ち、
+ * 公開済みの /daily/<古い日> が消えて 404 になる（2026-08-09 に scratch で再現）。
+ * _scoreSeries は全期間。古い demands.json との互換のため fallback は残す。
+ */
+function seriesOf(d) {
+  return d?._scoreSeries?.dates?.length ? d._scoreSeries : d?._scoreHistory;
+}
+
 export function availableDates(demands = []) {
   const set = new Set();
   for (const d of demands) {
-    for (const dt of d?._scoreHistory?.dates || []) set.add(dt);
+    for (const dt of seriesOf(d)?.dates || []) set.add(dt);
   }
   return [...set].sort().reverse();
 }
@@ -47,7 +58,7 @@ export function buildDailyReport(demands = [], date) {
 
   const items = [];
   for (const d of demands) {
-    const h = d?._scoreHistory;
+    const h = seriesOf(d);
     if (!h || !Array.isArray(h.dates) || !Array.isArray(h.scores)) continue;
     const i = h.dates.indexOf(date);
     if (i < 0) continue;

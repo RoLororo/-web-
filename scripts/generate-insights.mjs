@@ -921,8 +921,27 @@ async function buildScoreHistory(demand, todayISO) {
     if (typeof s === 'number' && typeof r.date === 'string') byDate.set(r.date, s);
   }
   if (typeof demand.score === 'number') byDate.set(todayISO, demand.score);
-  const dates = [...byDate.keys()].sort().slice(-14);
-  return { dates, scores: dates.map((d) => byDate.get(d)) };
+
+  const allDates = [...byDate.keys()].sort();
+  const recent = allDates.slice(-14);
+  const pick = (ds) => ({ dates: ds, scores: ds.map((d) => byDate.get(d)) });
+
+  // history … 直近 14 日。スパークラインと「今週の伸び」の窓。
+  //            ここを広げると WeeklyRisers の delta（末尾−先頭）の意味が
+  //            「今週」から「全期間」に変わってしまうので 14 のまま据え置く。
+  // series  … 全期間。日次レポート（/daily/<date>）の存在する日付の一覧。
+  //
+  // 2026-08-09 実測（未来の履歴を scratch で再現して確認）:
+  //   日次ページの日付を _scoreHistory から採っていたため、観測が 14 日を超えると
+  //   古い日付が配列から落ち、**公開済みの /daily/<古い日> が生成されなくなり
+  //   sitemap からも消えて 404 に落ちる**。1 日 1 本ずつ恒久 URL が増える、
+  //   という前提そのものが 14 日で頭打ちになり、その後は減り始める。
+  //   系列を分けて、ページの一覧は全期間から採る。
+  //
+  // 上限は history/current の保持期間（manifest.json の retentionDays = 90 日）。
+  // それより古い観測は history/archive へ回るのでここには出てこない。
+  // 90 日を超えて過去ページを保ちたくなったら archive も読む必要がある。
+  return { history: pick(recent), series: pick(allDates) };
 }
 
 // ── 需要ステージ（先行指標）─────────────────────────────────────────
@@ -1163,7 +1182,9 @@ async function main() {
 
   let filled = 0;
   for (const d of demands) {
-    d._scoreHistory = await buildScoreHistory(d, todayISO);
+    const scoreSeries = await buildScoreHistory(d, todayISO);
+    d._scoreHistory = scoreSeries.history;  // 直近 14 日（スパークライン用）
+    d._scoreSeries  = scoreSeries.series;   // 全期間（日次レポートの日付一覧用）
     const profile = THEME_PROFILES[d.id] || {};
 
     const dataQuality = computeDataQuality(d);
